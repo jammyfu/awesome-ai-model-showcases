@@ -1,0 +1,39 @@
+name: Submit a GIF idea
+description: Propose an original GIF to add to the collection
+labels: [gif-submission]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Name of the GIF
+      placeholder: Happy tiny robot waving
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: GIF preview or link
+      description: Attach or link to a rights-cleared sample.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt and motion brief
+      description: State whether this is verbatim or reconstructed.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Source, attribution and rights
+      description: Include relevant source and license information for reference images, recognizable people, brands, and the generated output.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Contributor declaration
+      options:
+        - label: I have rights or permission to contribute this media and references for public display.
+          required: true

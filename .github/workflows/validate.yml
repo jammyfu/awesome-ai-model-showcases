@@ -1,0 +1,22 @@
+name: Validate GIF gallery
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validator dependency
+        run: python -m pip install -r requirements-dev.txt
+      - name: Check metadata synchronization
+        run: |
+          python tools/sync_gallery_js.py
+          git diff --exit-code -- docs/data/gallery.js
+      - name: Validate GIF frames, timing and prompt files
+        run: python tools/validate_gallery.py
