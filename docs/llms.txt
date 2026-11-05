@@ -1,19 +1,32 @@
 # Awesome GPT Image GIFs
 
-Community collection of publicly gathered GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) original-author cases. Independent, not an OpenAI product. The current public inventory is catalogued in full; this is not a claim of exhaustive web coverage.
+Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) work, not this repository's original playbook showcase.
 
-Primary pages:
-- https://jammyfu.github.io/awesome-gpt-image-gifs/ — community case master table
-- https://jammyfu.github.io/awesome-gpt-image-gifs/#gifs — real GIFs only (source-hosted default; local seeds are not the main list)
-- https://jammyfu.github.io/awesome-gpt-image-gifs/game.html — game sequences with verification labels
-- https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html — appendix playbooks / adaptations
-- https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html — popular-GIF restages, not 2.6 works
+中文：收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。
 
-Canonical data:
-- docs/data/community-cases.json — primary inventory
-- docs/data/gallery.json — real GIFs only
-- docs/data/ideas.json — playbook appendix
-- docs/data/media-manifest.json — media, rights, exclusions
-- playbooks/community-cases.md — readable master table
+Independent community project. Current public inventory, not exhaustive. Author claim ≠ official verification.
 
-Coverage (Beijing 2026-11-06): X author-claim 25 + web GIFs 12 + in-repo Luffy/Krouxzz 2 + game author-claim 4 = 43 main rows. Pending 12. Official verified 2.6 game outputs: 0. Unwatched X MP4s. Link-only when license unknown.
+## What is this repository?
+A sourced catalog of original-author GPT Image 2.6 cases (post, real GIF/MP4, prompt-or-empty, model evidence, pipeline, verification, license boundary).
+
+## What is in the current inventory?
+Main collected 43 = X 25 + web GIF 12 + in-repo 2 + game author-claim 4. Pending 12. Prompt-only 1. Excluded 9. Appendix 24. Seeds 6. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
+
+## What can I do with it?
+Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open original posts. Copy public original prompts only. Submit cases. Do not treat SVG or prompt_adaptation as originals.
+
+## What can it not do?
+No Images API at browse time. No paid generation. No redistribution without a license. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
+
+## Which languages are maintained?
+English README.md and Simplified Chinese README.zh-CN.md. No other README editions.
+
+## License boundaries
+MIT covers source code only. Third-party media stays link-only when rights are unknown.
+
+## Canonical URLs
+- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en
+- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh
+- https://github.com/jammyfu/awesome-gpt-image-gifs
+- docs/data/community-cases.json
+- playbooks/community-cases.md

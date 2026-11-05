@@ -2,6 +2,8 @@
 
 This repo’s **primary index is the community case catalog**, not original remake playbooks.
 
+Maintained languages: English [`README.md`](README.md) and Simplified Chinese [`README.zh-CN.md`](README.zh-CN.md) share one catalog (`docs/data/community-cases.json`). Do not add another README unless it is fully synced to that same inventory.
+
 1. Add a community original-author case to the inventories consumed by `tools/write_community_catalog.py` (or open a PR with: original post URL, author, real GIF/MP4 link, verbatim prompt or explicit empty, model evidence, pipeline, license boundary).
 2. Run `python3 tools/write_community_catalog.py` then `python3 tools/validate_community.py`.
 3. Do not put SVG concept art, this repo’s `prompt_adaptation`, or popular-GIF restages in the main catalog. Do not download third-party media without a redistribution license.

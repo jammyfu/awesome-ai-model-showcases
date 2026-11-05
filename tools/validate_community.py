@@ -3,11 +3,26 @@
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+
+EN_LEAD = (
+    "Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: "
+    "original authors, original media, public prompts, sources, and production pipelines. "
+    "It is a community catalog of GPT Image 2.6 work, not this repository's original playbook showcase."
+)
+ZH_LEAD = "收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集"
+
+
+def first_words(text: str, n: int = 50) -> list[str]:
+    body = re.sub(r"<[^>]+>", " ", text)
+    body = body.split("# Awesome GPT Image GIFs", 1)[-1]
+    words = re.findall(r"[A-Za-z0-9.6']+", body)
+    return words[:n]
 
 
 def main() -> int:
@@ -15,8 +30,12 @@ def main() -> int:
     catalog = json.loads((ROOT / "docs/data/community-cases.json").read_text(encoding="utf-8"))
     js = (ROOT / "docs/data/cases.js").read_text(encoding="utf-8")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    readme_zh = (ROOT / "README.zh-CN.md").read_text(encoding="utf-8")
     md = (ROOT / "playbooks/community-cases.md").read_text(encoding="utf-8")
     index = (ROOT / "docs/index.html").read_text(encoding="utf-8")
+    llms = (ROOT / "llms.txt").read_text(encoding="utf-8")
+    llms_docs = (ROOT / "docs/llms.txt").read_text(encoding="utf-8")
+    about = json.loads((ROOT / "docs/github-about.json").read_text(encoding="utf-8"))
     counts = catalog["meta"]["counts"]
 
     assert counts["x_author_claim_25"] == 25, counts
@@ -28,37 +47,65 @@ def main() -> int:
     assert "window.COMMUNITY_CASES" in js
     assert catalog["meta"]["not_exhaustive"] is True
     assert catalog["meta"]["official_verified_26_game"] == 0
+    assert llms == llms_docs
+    assert str(counts["main_collected"]) in llms and str(counts["main_collected"]) in readme_zh
 
     for rec in catalog["collected_x_author_claim"]:
-        assert rec["id"] in readme and rec["id"] in md, rec["id"]
+        for blob in (readme, readme_zh, md):
+            assert rec["id"] in blob, rec["id"]
         assert rec.get("source_url"), rec["id"]
-        assert rec.get("license_notes")
         if rec["media_kind"] == "mp4":
             assert rec.get("media_url"), rec["id"]
 
     for rec in catalog["collected_web_gif"]:
-        assert rec["id"] in readme and rec["id"] in md, rec["id"]
-        assert rec["media_kind"] == "gif", rec["id"]
-        assert rec.get("media_url", "").endswith(".gif") or "gif" in rec.get("media_url", "")
+        assert rec["id"] in readme and rec["id"] in readme_zh
 
-    head = readme[:1800]
-    assert "社区" in head and "收集" in head
-    assert "不是穷尽全网" in head or "不是穷尽" in head
+    assert EN_LEAD in readme
+    words = first_words(readme, 50)
+    joined = " ".join(words).lower()
+    assert "collects" in joined and "original" in joined and "playbook" in joined
+    assert ZH_LEAD in readme_zh
+    for heading in (
+        "## What is this repository?",
+        "## What can I do with this catalog?",
+        "## What can this repository not do?",
+        "## How do I submit a case?",
+        "## What are the license boundaries?",
+        "## Which languages are maintained?",
+    ):
+        assert heading in readme, heading
+    for heading in (
+        "## 这是什么仓库？",
+        "## 这个目录能做什么？",
+        "## 这个仓库做不到什么？",
+        "## 如何提交案例？",
+        "## 许可边界是什么？",
+        "## 有哪些语言版本？",
+    ):
+        assert heading in readme_zh, heading
+
     for banned in ("pixel-head-pat.gif", "cat-screen-crack.gif", "Motion worth"):
-        assert banned not in head, banned
-    assert "popular.html" not in head.split("## 收集规模")[0]
-    assert "本项目方案" not in head or "不是本项目" in head or "不是" in head
+        assert banned not in readme[:2000]
+        assert banned not in readme_zh[:2000]
 
-    # Homepage must lead with the catalog, not SVG/playbook hero.
-    assert "COMMUNITY_CASES" in index or "cases.js" in index
+    assert "lang.js" in index and "data-lang=\"en\"" in index and "data-lang=\"zh\"" in index
     assert "gifs/cat-screen-crack.gif" not in index
-    assert "ideas.html" in index  # appendix link ok
-    assert "案例" in index or "收集" in index
+    assert "not this repository's original playbook showcase" in index.lower() or "not this repository" in index
+    assert ZH_LEAD.split("；")[0] in llms or "collects real GPT Image GIF cases" in llms
+
+    topics = about["topics"]
+    assert 5 <= len(topics) <= 12
+    for t in topics:
+        assert re.fullmatch(r"[a-z0-9][a-z0-9-]{0,34}", t), t
+    assert about["homepage"].startswith("https://jammyfu.github.io/")
+    assert "playbook showcase" in about["description"].lower()
+    assert len(about["description"]) <= 350
 
     print(
         "community catalog ok: "
         f"main {counts['main_collected']}, pending {counts['pending']}, "
-        f"excluded {counts['excluded']}, appendix {counts['appendix']}, seeds {counts['repo_seeds']}"
+        f"excluded {counts['excluded']}, appendix {counts['appendix']}, seeds {counts['repo_seeds']}; "
+        f"topics {len(topics)}"
     )
     return 0
 

@@ -45,8 +45,11 @@
       });
       filters.append(button);
     });
+    const storageLabels = (window.UI_LANG === 'zh')
+      ? { All: '全部', Local: '本地种子', 'Source GIF': '源站 GIF' }
+      : { All: 'All', Local: 'Local', 'Source GIF': 'Source GIF' };
     ['All', 'Local', 'Source GIF'].forEach((item) => {
-      const button = node('button', 'chip storage' + (item === storage ? ' active' : ''), item);
+      const button = node('button', 'chip storage' + (item === storage ? ' active' : ''), storageLabels[item]);
       button.type = 'button';
       button.setAttribute('aria-pressed', String(item === storage));
       button.addEventListener('click', () => {
@@ -147,6 +150,10 @@
       input.blur();
       render();
     }
+  });
+  document.addEventListener('ui-lang', () => {
+    renderFilters();
+    render();
   });
   renderFilters();
   render();

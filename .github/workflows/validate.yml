@@ -37,5 +37,5 @@ jobs:
       - name: Check community case catalog (primary index)
         run: |
           python tools/write_community_catalog.py
-          git diff --exit-code -- README.md playbooks/community-cases.md docs/data/community-cases.json docs/data/cases.js
+          git diff --exit-code -- README.md README.zh-CN.md playbooks/community-cases.md docs/data/community-cases.json docs/data/cases.js llms.txt docs/llms.txt docs/github-about.json
           python tools/validate_community.py

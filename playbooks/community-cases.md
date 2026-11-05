@@ -1,10 +1,10 @@
-# 社区真实案例总目录
+# Community case catalog / 社区真实案例总目录
 
-> 更新 2026-11-06（北京时间）。这是**当前公开搜集核实清单**，不是穷尽全网、不是官方验证全集。作者声明 ≠ 已复测生成。X `animated_gif` 多为 MP4，未观看。无明确授权只外链。
+> Updated 2026-11-06 (Beijing time). Same inventory as README.md and README.zh-CN.md. Not exhaustive; not official verification.
 
-- 主表已收集：**43**（X 作者声明 25 + 非X 真 GIF 12 + 已在库路飞/Krouxzz 2 + 游戏作者声明 4）
-- 待核 12 · 纯 prompt 1 · 剔除 9 · 附表（2.5/宣传/多模型/失败/Morphic/非X候选）24 · 仓库种子 6
-- 官方验证的 2.6 游戏成品：**0**
+- Main collected: **43** (X 25 + web GIF 12 + in-repo 2 + game author-claim 4)
+- Pending 12 · prompt-only 1 · excluded 9 · appendix 24 · seeds 6
+- Officially verified 2.6 game outputs: **0**
 
 ## 1. X 作者声明 2.6（25 组，不按附件拆卡）
 

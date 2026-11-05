@@ -3,22 +3,27 @@
   const catalog = window.COMMUNITY_CASES;
   if (!catalog) return;
   const counts = catalog.meta.counts;
-  const groups = [
-    { key: 'main', label: '主表已收集', rows: [] },
-    { key: 'x', label: 'X 作者声明', rows: catalog.collected_x_author_claim },
-    { key: 'web', label: '非X 真GIF', rows: catalog.collected_web_gif },
-    { key: 'inrepo', label: '已在库长文', rows: catalog.collected_already_in_repo },
-    { key: 'game', label: '游戏作者声明', rows: catalog.collected_game_author_claim },
-    { key: 'pending', label: '待核', rows: catalog.pending },
-    { key: 'appendix', label: '附表（非成功）', rows: [...catalog.prompt_only, ...catalog.excluded, ...catalog.appendix] },
-    { key: 'seeds', label: '仓库种子', rows: catalog.repo_seeds },
-  ];
-  groups[0].rows = [
-    ...catalog.collected_x_author_claim,
-    ...catalog.collected_web_gif,
-    ...catalog.collected_already_in_repo,
-    ...catalog.collected_game_author_claim,
-  ];
+  function dict() {
+    return window.UI_I18N || {};
+  }
+  function groups() {
+    const g = dict().groups || {};
+    return [
+      { key: 'main', label: g.main || 'Collected', rows: [
+        ...catalog.collected_x_author_claim,
+        ...catalog.collected_web_gif,
+        ...catalog.collected_already_in_repo,
+        ...catalog.collected_game_author_claim,
+      ] },
+      { key: 'x', label: g.x || 'X', rows: catalog.collected_x_author_claim },
+      { key: 'web', label: g.web || 'GIF', rows: catalog.collected_web_gif },
+      { key: 'inrepo', label: g.inrepo || 'In-repo', rows: catalog.collected_already_in_repo },
+      { key: 'game', label: g.game || 'Game', rows: catalog.collected_game_author_claim },
+      { key: 'pending', label: g.pending || 'Pending', rows: catalog.pending },
+      { key: 'appendix', label: g.appendix || 'Appendix', rows: [...catalog.prompt_only, ...catalog.excluded, ...catalog.appendix] },
+      { key: 'seeds', label: g.seeds || 'Seeds', rows: catalog.repo_seeds },
+    ];
+  }
 
   const setText = (id, value) => {
     const el = document.getElementById(id);
@@ -48,7 +53,7 @@
   function renderChips() {
     if (!chips) return;
     chips.replaceChildren();
-    groups.forEach((g) => {
+    groups().forEach((g) => {
       const b = document.createElement('button');
       b.type = 'button';
       b.className = 'chip' + (g.key === bucket ? ' active' : '');
@@ -62,8 +67,10 @@
     });
   }
   function render() {
+    const d = dict();
     const q = (search && search.value || '').trim().toLowerCase();
-    const group = groups.find((g) => g.key === bucket) || groups[0];
+    const list = groups();
+    const group = list.find((g) => g.key === bucket) || list[0];
     const rows = group.rows.filter((r) => {
       if (!q) return true;
       return [r.id, r.author, r.title, r.play, r.model_claim, r.pipeline, r.verify]
@@ -78,16 +85,24 @@
       <td>${i + 1}</td>
       <td>${esc(r.author)}</td>
       <td><div class="case-title">${esc(r.title)}</div><div class="case-id">${esc(r.id)}</div></td>
-      <td>${link(r.source_url, '原帖')}</td>
-      <td>${link(r.media_url, r.media_kind || '媒体')}</td>
+      <td>${link(r.source_url, d.post || 'post')}</td>
+      <td>${link(r.media_url, r.media_kind || 'media')}</td>
       <td>${esc(r.prompt_status)}</td>
       <td>${esc((r.model_claim || '').slice(0, 48))}</td>
       <td>${esc(r.pipeline)}</td>
       <td>${esc(r.verify)}</td>
-      <td>仅外链</td>
+      <td>${esc(d.linkOnly || 'link-only')}</td>
     </tr>`).join('');
   }
   if (search) search.addEventListener('input', render);
-  renderChips();
-  render();
+  document.addEventListener('ui-lang', () => {
+    renderChips();
+    render();
+  });
+  function start() {
+    renderChips();
+    render();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+  else start();
 })();

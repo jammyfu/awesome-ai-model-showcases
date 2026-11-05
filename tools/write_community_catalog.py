@@ -18,6 +18,31 @@ OUT_JSON = ROOT / "docs/data/community-cases.json"
 OUT_JS = ROOT / "docs/data/cases.js"
 OUT_MD = ROOT / "playbooks/community-cases.md"
 OUT_README = ROOT / "README.md"
+OUT_README_ZH = ROOT / "README.zh-CN.md"
+OUT_LLMS = ROOT / "llms.txt"
+OUT_LLMS_DOCS = ROOT / "docs/llms.txt"
+OUT_ABOUT = ROOT / "docs/github-about.json"
+
+GITHUB_ABOUT = {
+    "description": (
+        "Community catalog of real GPT Image GIF cases: original authors, "
+        "original media, prompts, sources, and pipelines. GPT Image 2.6. "
+        "Not an original playbook showcase. English & 中文."
+    ),
+    "homepage": "https://jammyfu.github.io/awesome-gpt-image-gifs/",
+    "topics": [
+        "gpt-image",
+        "gpt-image-2-6",
+        "gif",
+        "animated-gif",
+        "prompt-engineering",
+        "image-generation",
+        "sprite-sheet",
+        "game-assets",
+        "awesome-list",
+        "chinese",
+    ],
+}
 
 BUCKET_MAIN = "collected_author_claim_26"
 BUCKET_WEB = "collected_web_gif"
@@ -152,9 +177,13 @@ def from_web(item: dict) -> dict:
     )
 
 
-def md_table(rows: list[dict]) -> str:
+HEADERS_ZH = "| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |"
+HEADERS_EN = "| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |"
+
+
+def md_table(rows: list[dict], headers: str = HEADERS_ZH) -> str:
     lines = [
-        "| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |",
+        headers,
         "|---:|---|---|---|---|---|---|---|---|---|",
     ]
     for i, r in enumerate(rows, 1):
@@ -402,98 +431,126 @@ def main() -> None:
     )
 
     c = catalog["meta"]["counts"]
-    md = [
-        "# 社区真实案例总目录",
-        "",
-        f"> 更新 {catalog['meta']['updated']}（北京时间）。这是**当前公开搜集核实清单**，不是穷尽全网、不是官方验证全集。作者声明 ≠ 已复测生成。X `animated_gif` 多为 MP4，未观看。无明确授权只外链。",
-        "",
-        f"- 主表已收集：**{c['main_collected']}**（X 作者声明 25 + 非X 真 GIF 12 + 已在库路飞/Krouxzz 2 + 游戏作者声明 4）",
-        f"- 待核 {c['pending']} · 纯 prompt {c['prompt_only']} · 剔除 {c['excluded']} · 附表（2.5/宣传/多模型/失败/Morphic/非X候选）{c['appendix']} · 仓库种子 {c['repo_seeds']}",
-        "- 官方验证的 2.6 游戏成品：**0**",
-        "",
-        "## 1. X 作者声明 2.6（25 组，不按附件拆卡）",
-        "",
-        md_table(collected_x),
-        "",
-        "## 2. 非 X 真 GIF（12）",
-        "",
-        md_table(web_confirmed),
-        "",
-        "## 3. 本仓已收录的社区长文 / 单帖（2）",
-        "",
-        md_table(inrepo),
-        "",
-        "## 4. 游戏动作序列 · 作者声明（4，非官方验证）",
-        "",
-        md_table(game_main),
-        "",
-        "## 附表 A · 待核（12）",
-        "",
-        md_table(pending),
-        "",
-        "## 附表 B · 纯 prompt / 剔除",
-        "",
-        md_table(prompt_only + excluded_x),
-        "",
-        "## 附表 C · 不混入 2.6 成功：2.5 / 宣传 / 多模型 / 失败 / 非X候选 / Morphic",
-        "",
-        md_table(catalog["appendix"]),
-        "",
-        "## 附表 D · 仓库种子 GIF（本仓示例，不是社区征集主清单）",
-        "",
-        md_table(seeds),
-        "",
-    ]
-    OUT_MD.write_text("\n".join(md), encoding="utf-8")
+    tables_zh = "\n\n".join(
+        [
+            "## 1. X 作者声明 2.6（25 组，不按附件拆卡）",
+            md_table(collected_x),
+            "## 2. 非 X 真 GIF（12）",
+            md_table(web_confirmed),
+            "## 3. 本仓已收录的社区长文 / 单帖（2）",
+            md_table(inrepo),
+            "## 4. 游戏动作序列 · 作者声明（4，非官方验证）",
+            md_table(game_main),
+            "## 附表 A · 待核（12）",
+            md_table(pending),
+            "## 附表 B · 纯 prompt / 剔除",
+            md_table(prompt_only + excluded_x),
+            "## 附表 C · 不混入 2.6 成功：2.5 / 宣传 / 多模型 / 失败 / 非X候选 / Morphic",
+            md_table(catalog["appendix"]),
+            "## 附表 D · 仓库种子 GIF（本仓示例，不是社区征集主清单）",
+            md_table(seeds),
+        ]
+    )
+    tables_en = "\n\n".join(
+        [
+            "## 1. X author-claimed 2.6 (25 groups, not split by attachment)",
+            md_table(collected_x, HEADERS_EN),
+            "## 2. Non-X real GIFs (12)",
+            md_table(web_confirmed, HEADERS_EN),
+            "## 3. Already-in-repo community longform / posts (2)",
+            md_table(inrepo, HEADERS_EN),
+            "## 4. Game action sequences — author-claimed (4, not officially verified)",
+            md_table(game_main, HEADERS_EN),
+            "## Appendix A — pending (12)",
+            md_table(pending, HEADERS_EN),
+            "## Appendix B — prompt-only / rejected",
+            md_table(prompt_only + excluded_x, HEADERS_EN),
+            "## Appendix C — not mixed into 2.6 success: 2.5 / promo / multimodel / failure / non-X candidates / Morphic",
+            md_table(catalog["appendix"], HEADERS_EN),
+            "## Appendix D — repository-seed GIFs (local examples, not the community collection)",
+            md_table(seeds, HEADERS_EN),
+        ]
+    )
 
-    readme = f"""<div align="center">
+    OUT_MD.write_text(
+        "\n".join(
+            [
+                "# Community case catalog / 社区真实案例总目录",
+                "",
+                f"> Updated {catalog['meta']['updated']} (Beijing time). Same inventory as README.md and README.zh-CN.md. Not exhaustive; not official verification.",
+                "",
+                f"- Main collected: **{c['main_collected']}** (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']})",
+                f"- Pending {c['pending']} · prompt-only {c['prompt_only']} · excluded {c['excluded']} · appendix {c['appendix']} · seeds {c['repo_seeds']}",
+                "- Officially verified 2.6 game outputs: **0**",
+                "",
+                tables_zh,
+                "",
+            ]
+        ),
+        encoding="utf-8",
+    )
 
-# Awesome GPT Image GIFs
+    count_table = f"""| Bucket | Count | Not mixed into confirmed 2.6 success | Count |
+|---|---:|---|---:|
+| X author-claimed 2.6 | **{c['x_author_claim_25']}** | Pending | {c['pending']} |
+| Non-X real GIFs | **{c['web_gif_12']}** | Prompt-only | {c['prompt_only']} |
+| In-repo community longform/posts | **{c['already_in_repo']}** | Duplicate/rejected | {c['excluded']} |
+| Game author-claimed | **{c['game_author_claim']}** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | {c['appendix']} |
+| **Main total** | **{c['main_collected']}** | Repository seeds (local examples) | {c['repo_seeds']} |"""
 
-**全网社区 GPT Image 2.6 真实案例收集库**
-
-当前公开搜集核实清单完整入库，**不是穷尽全网**，不是本项目原创复刻方案展示。作者声明 ≠ 官方验证；X 标 GIF 多为 MP4 且未观看；无明确授权只外链。
-
-[案例总目录（网页）](https://jammyfu.github.io/awesome-gpt-image-gifs/) · [完整总表 Markdown](playbooks/community-cases.md) · [真实 GIF 外链](https://jammyfu.github.io/awesome-gpt-image-gifs/#gifs) · [GitHub](https://github.com/jammyfu/awesome-gpt-image-gifs)
-
-</div>
-
-> 独立社区整理，非 OpenAI 官方仓库。覆盖边界：X 公开检索（官方引用未读完）+ 非X 公开网页 + 游戏原作者深挖；不包含付费生成、不转载无授权媒体。
-
-## 收集规模（主数字 = 社区案例，不是本站方案数）
-
-| 主表 | 数 | 附表（不混入已确认 2.6 成功） | 数 |
+    count_table_zh = f"""| 主表 | 数 | 附表（不混入已确认 2.6 成功） | 数 |
 |---|---:|---|---:|
 | X 作者声明 2.6 | **{c['x_author_claim_25']}** | 待核 | {c['pending']} |
 | 非 X 真 GIF | **{c['web_gif_12']}** | 纯 prompt | {c['prompt_only']} |
 | 已在库社区长文/单帖 | **{c['already_in_repo']}** | 重复/不合格 | {c['excluded']} |
 | 游戏 · 作者声明 | **{c['game_author_claim']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
-| **主表合计** | **{c['main_collected']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |
+| **主表合计** | **{c['main_collected']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |"""
 
-官方验证的 Image 2.6 游戏成品：**0**。本项目热门 GIF 重演 12 案、原创角色 prompt **不是**主数字，见 [附加参考](playbooks/popular-gifs.md)。
+    OUT_README.write_text(
+        f"""# Awesome GPT Image GIFs
 
-## 目录
+Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 work, not this repository's original playbook showcase.
 
-- [X 25 组](#1-x-作者声明-26-25-组)
-- [非 X 真 GIF 12](#2-非-x-真-gif-12)
-- [已在库路飞 / Krouxzz](#3-本仓已收录的社区长文--单帖)
-- [游戏作者声明 4](#4-游戏动作序列--作者声明)
-- [附表：待核 / 剔除 / 非成功](#附表-a--待核12)
-- [附加参考（本站方案，退出主案例）](#附加参考本站策划--退出主案例)
-- [如何贡献](#how-do-i-submit-a-case)
+**Languages:** [English](README.md) · [简体中文](README.zh-CN.md) · [Catalog page EN](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) · [案例页 中文](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh)
 
-每案字段：作者、原帖/原网站、真实 GIF 或 MP4 外链、公开原文 prompt（缺则空；改编不冒充原文）、模型依据、直出 GIF vs sprite/后处理、验证级别、许可边界。
+No other language editions are maintained. Appendix playbook pages are Chinese-first and are **not** a second synced catalog.
 
-{OUT_MD.read_text(encoding='utf-8').split('# 社区真实案例总目录',1)[-1]}
+Independent community project, not an OpenAI product. Current public inventory, not exhaustive web coverage.
 
-## 附加参考（本站策划 · 退出主案例）
+## What is this repository?
 
-这些**不是**社区原作者成品，不再作为 README/首页主视觉：
+A library of **community original-author cases** for GPT Image / ChatGPT Images 2.6 (`gpt-image-2.6-sunburst` / `gpt-image-2.6-flare`): who made it, the original post, the real GIF or MP4, the public prompt (empty if unpublished; adaptations never impersonate the original), model evidence, native GIF vs sprite-slice/postprocess, and verification level.
 
-- [玩法与提示词附页](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html) — 含本站 `prompt_adaptation`、Morphic 面向 2.6 但示例非 2.6 的提示词卡
-- [全球热门 GIF → 原创角色重演](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html) — 12 个未实测方案，**不是 2.6 作品**
-- [游戏页](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html) — 作者声明 / 失败样本 / 2.5 历史分开标
-- 仓库种子 6 个本地 GIF：见上表附表 D，Pillow 校验，**不是社区征集主清单**
+It is **not** a gallery of this repo's remake playbooks, SVG concept cards, or local seed GIFs.
+
+## What is in the current inventory?
+
+Numbers come from one JSON source: `docs/data/community-cases.json`. English and Chinese pages must not invent a second count.
+
+{count_table}
+
+Officially verified Image 2.6 game outputs: **0**. Author claim ≠ official verification. X items labeled GIF are usually unwatched MP4. This repo's 12 popular-GIF restages are **not** the headline number.
+
+## Is this an original playbook gallery?
+
+No. Original-character remakes, Morphic prompt cards (examples are not 2.6), and SVG covers live on [appendix pages](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html). Local seed GIFs are Appendix D only.
+
+## What can I do with this catalog?
+
+- Browse the [web catalog](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) (same data as this README)
+- Open original posts and link-only media
+- Copy **public original** prompts when the source published them
+- Contribute another original-author case with source, media link, prompt-or-empty, and model evidence
+
+## What can this repository not do?
+
+- It does not generate images or call the Images API at browse time
+- It does not claim exhaustive web coverage or official OpenAI verification
+- It does not redistribute third-party GIFs without a license (link-only)
+- It does not treat SVG covers or this repo's `prompt_adaptation` as third-party originals
+- Appendix pages (ideas / popular remakes) are not fully English-synced; do not treat them as a parallel inventory
+
+{tables_en}
 
 ## How do I browse locally?
 
@@ -501,36 +558,148 @@ def main() -> None:
 git clone https://github.com/jammyfu/awesome-gpt-image-gifs.git
 cd awesome-gpt-image-gifs
 python3 -m http.server 8000 --directory docs
-# http://localhost:8000/
+# http://localhost:8000/?lang=en
 ```
 
 ## How do I submit a case?
 
-社区原作者案例：在 `docs/data/community-cases.json` 对应分组补一行（或打开 PR 附原帖、媒体外链、prompt 原文或标明空、模型依据、许可）。不要把 SVG 概念图、本站改编 prompt 标成第三方原文。无授权不要把第三方 GIF 放进 `docs/gifs/`。
+Add a community original-author row via `docs/data/community-cases.json` (or open a PR with the original post, media URL, verbatim prompt or explicit empty, model evidence, pipeline, license boundary). Do not label SVG concepts or this repo's rewrites as third-party originals. Do not put unlicensed third-party GIFs in `docs/gifs/`.
 
-详情：[CONTRIBUTING.md](CONTRIBUTING.md) · [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md)
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md).
 
-## 校验
+## What are the license boundaries?
+
+Source code is under the MIT license in `LICENSE`. That **does not** license third-party media, prompts, or likenesses. Unknown rights stay link-only. Do not treat GitHub stars, traffic, or MIT as permission to reuse someone else's GIF.
+
+## Which languages are maintained?
+
+English (`README.md`) and Simplified Chinese (`README.zh-CN.md`) are complete and share one catalog. No Japanese or other README exists; do not fake a sync. Site language switch: `?lang=en` / `?lang=zh`.
+
+<!-- readme-tech-visualizer:start -->
+## Technical Snapshot
+
+Static GitHub Pages plus Python validators. Browsing does not call the Images API. Tech details do not change the catalog positioning.
+<!-- readme-tech-visualizer:end -->
+""",
+        encoding="utf-8",
+    )
+
+    OUT_README_ZH.write_text(
+        f"""# Awesome GPT Image GIFs
+
+Awesome GPT Image GIFs 收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。
+
+稳定英文名保持 **Awesome GPT Image GIFs**。这是社区 GPT Image 2.6 案例库，当前公开搜集核实清单完整入库，**不是穷尽全网**。
+
+**语言：** [English](README.md) · [简体中文](README.zh-CN.md) · [Catalog EN](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) · [案例页 中文](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh)
+
+没有其他已维护的语言版本。玩法/热门附页以中文为主，**不假装**与英文总目是第二套同步目录。
+
+独立社区整理，非 OpenAI 官方。作者声明 ≠ 官方验证；X 标 GIF 多为未观看 MP4；无明确授权只外链。
+
+## 这是什么仓库？
+
+收集 **GPT Image / ChatGPT Images 2.6**（`gpt-image-2.6-sunburst` / `gpt-image-2.6-flare`）的社区原作者真实案例：作者、原帖、真 GIF 或 MP4、公开原文 prompt（缺则空；改编不冒充原文）、模型依据、直出 GIF 还是 sprite 切帧/后处理、验证级别。
+
+**不是**本站原创复刻方案、SVG 概念卡或本地种子 GIF 展示。
+
+## 现在收集了哪些案例？
+
+数字只来自一份数据：`docs/data/community-cases.json`。中英页面不得各写一套互相冲突的数。
+
+{count_table_zh}
+
+官方验证的 Image 2.6 游戏成品：**0**。本项目热门 GIF 重演 12 案**不是**主数字。
+
+## 这是本站原创方案集吗？
+
+不是。原创角色重演、Morphic 提示词卡（示例非 2.6）、SVG 封面在 [附页](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)。本地种子 GIF 只在附表 D。
+
+## 这个目录能做什么？
+
+- 打开 [网页总目录](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh)（与本 README 同一份数据）
+- 跳转原帖与仅外链媒体
+- 在来源已公开时复制**原文** prompt
+- 提交新的原作者案例（出处、媒体链接、prompt 或标明空、模型依据）
+
+## 这个仓库做不到什么？
+
+- 浏览时不调用 Images API、不付费生成
+- 不宣称穷尽全网或官方验证
+- 无授权不转载第三方 GIF（只外链）
+- 不把 SVG 或本站 `prompt_adaptation` 标成第三方原文
+- 玩法/热门附页不是完整英文同步版，不能当成第二套案例数
+
+{tables_zh}
+
+## 如何本地浏览？
 
 ```bash
-python3 tools/write_community_catalog.py
-python3 tools/validate_community.py
-python3 tools/validate_gallery.py
-python3 tools/validate_ideas.py
-python3 tools/validate_media.py
+git clone https://github.com/jammyfu/awesome-gpt-image-gifs.git
+cd awesome-gpt-image-gifs
+python3 -m http.server 8000 --directory docs
+# http://localhost:8000/?lang=zh
 ```
+
+## 如何提交案例？
+
+向 `docs/data/community-cases.json` 补社区原作者一行（或 PR 附原帖、媒体外链、prompt 原文或标明空、模型依据、许可边界）。不要把 SVG 概念图、本站改编 prompt 标成第三方原文。无授权不要把第三方 GIF 放进 `docs/gifs/`。
+
+详见 [CONTRIBUTING.md](CONTRIBUTING.md) · [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md)。
+
+## 许可边界是什么？
+
+源码见 `LICENSE` 的 MIT。这**不能**自动覆盖第三方媒体、提示词或肖像。权利不明只外链。不要拿星数、访问量或 MIT 当可商用第三方 GIF 的许可。
+
+## 有哪些语言版本？
+
+英文 `README.md` 与简体中文 `README.zh-CN.md` 完整同步、共用一份目录。没有日文或其他 README，不假装同步。站点切换：`?lang=en` / `?lang=zh`。
 
 <!-- readme-tech-visualizer:start -->
 ## Technical Snapshot
 
 静态 GitHub Pages + Python 校验。浏览不调用 Images API。技术细节不影响「这是案例收集库」的主定位。
 <!-- readme-tech-visualizer:end -->
+""",
+        encoding="utf-8",
+    )
 
-## 这个仓库是做什么的？
+    llms = f"""# Awesome GPT Image GIFs
 
-收集 **GPT Image / ChatGPT Images 2.6** 的全网社区真实案例：原作者、原帖、真 GIF/MP4 外链、公开 prompt。覆盖当前已搜集核实清单，不宣称穷尽。本站改编方案和热门 GIF 重演在附页。源码 MIT；第三方媒体不能因开源就商用。
+Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) work, not this repository's original playbook showcase.
+
+中文：收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。
+
+Independent community project. Current public inventory, not exhaustive. Author claim ≠ official verification.
+
+## What is this repository?
+A sourced catalog of original-author GPT Image 2.6 cases (post, real GIF/MP4, prompt-or-empty, model evidence, pipeline, verification, license boundary).
+
+## What is in the current inventory?
+Main collected {c['main_collected']} = X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
+
+## What can I do with it?
+Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open original posts. Copy public original prompts only. Submit cases. Do not treat SVG or prompt_adaptation as originals.
+
+## What can it not do?
+No Images API at browse time. No paid generation. No redistribution without a license. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
+
+## Which languages are maintained?
+English README.md and Simplified Chinese README.zh-CN.md. No other README editions.
+
+## License boundaries
+MIT covers source code only. Third-party media stays link-only when rights are unknown.
+
+## Canonical URLs
+- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en
+- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh
+- https://github.com/jammyfu/awesome-gpt-image-gifs
+- docs/data/community-cases.json
+- playbooks/community-cases.md
 """
-    OUT_README.write_text(readme, encoding="utf-8")
+    OUT_LLMS.write_text(llms, encoding="utf-8")
+    OUT_LLMS_DOCS.write_text(llms, encoding="utf-8")
+    OUT_ABOUT.write_text(json.dumps(GITHUB_ABOUT, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         f"community catalog: main {c['main_collected']} "
         f"(X{c['x_author_claim_25']}+web{c['web_gif_12']}+inrepo{c['already_in_repo']}+game{c['game_author_claim']}); "
