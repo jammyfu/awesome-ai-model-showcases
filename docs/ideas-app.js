@@ -61,6 +61,8 @@
       x.example_run_model,
       x.prompt_adaptation,
       x.prompt_excerpt,
+      x.prompt_reconstruction,
+      x.production_notes,
       x.image26_status,
     ]
       .join(' ')
@@ -69,6 +71,7 @@
   function posterKind(x) {
     if (x.preview_kind === 'existing_gif') return '仓库 GIF · 可播放';
     if (x.preview_kind === 'external_gif') return '源站 GIF · 外链播放';
+    if (x.image26_status === 'failure_sample') return '失败样本 · 不计成功';
     if (x.image26_status === 'not_26') return '其他模型历史 · 不是 2.6';
     if (x.media_kind === 'png') return '源站分镜表 PNG · 不是 GIF';
     if (x.game_sequence && x.media_kind === 'mp4') return '游戏序列 · 外链 MP4 · 未观看';
@@ -95,7 +98,7 @@
     const search = query.value.trim().toLowerCase();
     const showHist = !!(history && history.checked);
     const list = ideas.filter((x) => {
-      if (x.default_hidden && !showHist && cat.value !== '其他模型参考' && !search) return false;
+      if (x.default_hidden && !showHist && cat.value !== '其他模型参考' && cat.value !== '失败与注意事项' && !search) return false;
       return (
         (cat.value === 'all' || x.category === cat.value) &&
         (origin.value === 'all' || x.origin === origin.value) &&
@@ -163,6 +166,10 @@
       if (x.image26_status === 'multimodel_postprocess') chips.push('多模型后处理');
       if (x.image26_status === 'promo_claim_unwatched') chips.push('宣传方宣称');
       if (x.image26_status === 'not_26') chips.push('不是 2.6');
+      if (x.image26_status === 'failure_sample') chips.push('失败样本 · 不计成功');
+      if (x.prompt_audience === 'game_agent') chips.push('原文给游戏 agent');
+      if (x.prompt_reconstruction) chips.push('另有重建模板');
+      if (x.production_notes) chips.push('需后处理工序');
       if (x.engine_import_status === 'documented_not_run') chips.push('引擎步骤未实机跑');
       if (x.engine_import_status === 'author_claim_unwatched') chips.push('游戏演示未观看');
       if (x.engine_import_status === 'discussed_not_shown') chips.push('讨论过引擎 · 未见运行');
@@ -170,8 +177,18 @@
       if (x.example_run_model) chips.push(x.example_run_model);
       for (const val of chips) settings.append(el('span', '', val));
       const promptBox = el('div', x.prompt ? 'prompt' : 'prompt empty');
-      promptBox.textContent = x.prompt || '公开来源未给出完整提示词，本站不编造第三方原文。';
+      if (x.prompt_audience === 'game_agent') {
+        promptBox.textContent = '给游戏 agent 的原文（不是图像模型 prompt）：\n' + x.prompt;
+      } else {
+        promptBox.textContent = x.prompt || '公开来源未给出完整提示词，本站不编造第三方原文。';
+      }
       content.append(settings, promptBox);
+      if (x.production_notes) content.append(el('p', 'desc', '真实制作要补：' + x.production_notes));
+      if (x.prompt_reconstruction) {
+        const rec = el('div', 'prompt adaptation');
+        rec.textContent = '文章重建模板（不是实发原文）：\n' + x.prompt_reconstruction;
+        content.append(rec);
+      }
       if (x.prompt_adaptation) {
         const adapt = el('div', 'prompt adaptation');
         adapt.textContent = '本站改编（不是第三方原文）：\n' + x.prompt_adaptation;
@@ -232,6 +249,13 @@
       if (x.media_kind === 'png' && x.media_url) {
         const a = el('a', '', '分镜表 PNG ↗');
         a.href = x.media_url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        actions.append(a);
+      }
+      if (x.demo_site_url) {
+        const a = el('a', '', '演示站 ↗ 未运行');
+        a.href = x.demo_site_url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
         actions.append(a);

@@ -8,7 +8,7 @@ This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python
 
 - [GIF gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/): searchable local and source-hosted GIF examples
 - [Idea playbook](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html): sourced use cases with prompts when available
-- [Game sequences](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html): idle/run/attack. Author-claimed 2.6 originals are unwatched MP4s; 2.5 history is hidden; official verification is 0
+- [Game sequences](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html): idle/run/attack. 4 enriched author claims, 0 new success workflows, 2 failure samples; image prompts often unpublished; official verification is 0
 - [Popular GIF remakes](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html): official-chart remake playbooks, not Image 2.6 works
 - [GitHub repository](https://github.com/jammyfu/awesome-gpt-image-gifs): source, validators, and contribution guide
 
@@ -23,6 +23,7 @@ This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python
 - [playbooks/popular-gifs.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/popular-gifs.md): official-chart remakes, not 2.6
 - [playbooks/recent-popular.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/recent-popular.md): 2024 event chart + 2026 trending snapshot
 - [playbooks/game-sequences.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/game-sequences.md): 2D game idle/run/attack sheets
+- [playbooks/game-search-log.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/game-search-log.md): search coverage appendix (page counts are not new-case counts)
 - [playbooks/x-catalog.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/x-catalog.md): independently re-checked X playbooks
 - [CONTRIBUTING.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/CONTRIBUTING.md)
 - [MEDIA_RIGHTS.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/MEDIA_RIGHTS.md)

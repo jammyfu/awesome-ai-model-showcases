@@ -69,12 +69,17 @@ for x in data:
         for key in ("pipeline", "action_kind", "alpha_status", "engine_import_status", "acceptance", "cell_spec", "image26_status"):
             assert x.get(key) not in (None, ""), f'{x["id"]} missing game field {key}'
         assert x["preview_kind"] == "link_only"
-        assert x["category"] in ("游戏动作序列", "其他模型参考"), f'{x["id"]}: unexpected game category'
+        assert x["category"] in ("游戏动作序列", "其他模型参考", "失败与注意事项"), f'{x["id"]}: unexpected game category'
         assert x.get("counts_as_image26_game") is False, f'{x["id"]}: no official 2.6 game verification this round'
         if x["image26_status"] == "not_26":
             assert x.get("default_hidden") is True
             assert x.get("include_in_image26_list") is False
             assert x["category"] == "其他模型参考"
+        if x["image26_status"] == "failure_sample":
+            assert x.get("default_hidden") is True
+            assert x.get("include_in_image26_list") is False
+            assert x["category"] == "失败与注意事项"
+            assert "不计成功" in x["title_zh"] + x["description_zh"] or "失败" in x["title_zh"]
         claimed = "已经用于游戏" in x["description_zh"]
         negated = any(s in x["description_zh"] for s in ("不能说已经用于游戏", "不写成已核", "本仓未观看", "未见引擎"))
         if claimed and not negated:
@@ -120,6 +125,8 @@ for gid in (
     "game-ssss-4x4-spec",
     "game-varg-knight-run",
     "game-higgsfield-boxing",
+    "game-am09-sprite-failure",
+    "game-wrongnebula-pixel-failure",
 ):
     assert gid in by_id, f"missing {gid}"
 assert "yrzhe" not in json.dumps(data), "yrzhe coming-soon conflict must stay pending"
@@ -128,9 +135,21 @@ assert ssss["image26_status"] == "not_26" and ssss["default_hidden"] is True
 assert by_id["game-daft-pixel-combo"]["prompt_status"] == "empty"
 assert by_id["game-xiaomovps-fighter"]["prompt_status"] == "empty"
 assert "Cut the sheets into frames" in by_id["game-maker-evan-fox-ronin"]["prompt"]
+fox = by_id["game-maker-evan-fox-ronin"]
+assert fox.get("prompt_audience") == "game_agent"
+assert "magenta" in fox.get("prompt_reconstruction", "").lower() or "FF00FF" in fox.get("prompt_reconstruction", "")
+assert "不是发给图像模型" in fox["description_zh"] or "不是发给 2.6" in fox["description_zh"] or "不是发给图像模型" in fox["description_zh"]
+assert "evals_ag" in json.dumps(fox.get("related_source_urls"))
+assert "flatten" in by_id["game-daft-pixel-combo"]["description_zh"].lower() or "flattened" in by_id["game-daft-pixel-combo"]["prompt_excerpt"]
+assert "镜像" in by_id["game-maker-evan-walk-cycle"]["description_zh"] and "量化" in by_id["game-maker-evan-walk-cycle"]["description_zh"]
+assert "Pocketworld" in by_id["game-maker-evan-walk-cycle"]["description_zh"] or "pocketworld" in json.dumps(by_id["game-maker-evan-walk-cycle"].get("related_source_urls"))
+assert by_id["game-xiaomovps-fighter"]["prompt"] == ""
 assert by_id["game-maker-evan-walk-cycle"]["image26_status"] == "multimodel_postprocess"
 assert by_id["game-higgsfield-boxing"]["image26_status"] == "promo_claim_unwatched"
+assert len(by_id["game-higgsfield-boxing"].get("related_source_urls") or []) == 9
 assert by_id["game-varg-knight-run"]["image26_status"] == "author_claim_unverified"
+assert by_id["game-am09-sprite-failure"]["image26_status"] == "failure_sample"
+assert by_id["game-wrongnebula-pixel-failure"]["image26_status"] == "failure_sample"
 author_x = [x for x in data if "x-original-author" in (x.get("tags") or [])]
 assert {x["id"] for x in author_x} == {
     "game-daft-pixel-combo",
@@ -143,7 +162,10 @@ for gid in game_ids:
     assert gid not in gallery_ids, f"{gid} must not enter the GIF gallery"
 game_html = (root / "docs/game.html").read_text(encoding="utf8")
 assert "官方验证" in game_html
+assert "独立新增成功" in game_html
+assert "43页" not in game_html and "43 页" not in game_html and "实读页" not in game_html, "coverage page-count must not headline the game page"
 assert "coming soon" not in game_html.lower() or "不当确认" in game_html
+assert "失败样本" in game_html
 assert "game.html" in (root / "docs/ideas.html").read_text(encoding="utf8")
 assert "game.html" in (root / "docs/index.html").read_text(encoding="utf8")
 

@@ -47,17 +47,18 @@ X 清单复核与待核名单：[x-catalog.md](x-catalog.md) · [x-pending.md](x
 
 独立页面：[docs/game.html](../docs/game.html) · 方案：[game-sequences.md](game-sequences.md) · 待核：[game-pending.md](game-pending.md)
 
-原作者声明、媒体元数据已核、**全部未观看未运行**。官方验证 0。X 附件写 GIF 的实际是 MP4。
+原作者声明、媒体元数据已核、**全部未观看未运行**。官方验证 0。深挖后：**旧案补全 4、独立新增成功 0、失败样本 2**。检索页数见 [game-search-log.md](game-search-log.md)，不是新增案例数。
 
-- **BuyTheDip [@Daft_Trade](https://x.com/Daft_Trade/status/2118283025498906800)** — 像素三连击 / 法术 / 翻滚。作者称 GPT Image 2.6 straight to GIF。4 条 `animated_gif`→MP4 计 1 案。完整 prompt **空**；设置摘录在回复帖。
-- **chacha [@maker_evan](https://x.com/maker_evan/status/2118222694345040253)** — 狐浪人网页游戏。作者：2.6 出 sprite sheet 与背景，GPT-6.1 Sol 切帧组装。**绝非原生 GIF 直出**。完整 one-shot 在 [2118218896167886861](https://x.com/maker_evan/status/2118218896167886861)。游戏录像是 amplify MP4；本仓未运行。
-- **小墨同学 [@xiaomovps](https://x.com/xiaomovps/status/2118274032227471705)** — 复古格斗出拳 / 蓄力。作者声明 Images 2.6。prompt **空**。两条 MP4 + 静图。讨论过 Unity/Godot，**未见引擎内运行**。
-- **[@maker_evan walk cycle](https://x.com/maker_evan/status/2118235403430027495)** — 32×32 / ≤8 色 / 8 帧对照。两条用 2.6 再经 Claude Opus 5.5 修帧；一条纯代码**不算 2.6**。完整 prompt 空。
-- **vargHQ [gpt-image-sprite-sheet](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md)** — 作者声明 `gpt_image_2_6` 骑士跑循环 PNG。与狐浪人不同源，保留为工作流。Phaser/Godot **未实机跑**。白底抠色不是真 alpha。
-- **Higgsfield [@higgsfield_ai](https://x.com/higgsfield_ai/status/2118154923070439759)** — **宣传方**宣称 2.6 GIF sprite sheets 做拳击游戏。不算原作者强例。无原文 prompt。MP4 未观看。
-- **SSSS.CRYPTOMAN [@SSSS_CRYPTOMAN](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136)**（2026-09-09）— 游戏用 4×4 规格，原帖写明 **GPT Image 2.5**。默认隐藏，不计 2.6 卡。日文 prompt 逐字收录。
+- **BuyTheDip [@Daft_Trade](https://x.com/Daft_Trade/status/2118283025498906800)** — 像素三连击。跳跃回复承认 flatten 背景去闪烁。prompt **空**。演示站 [gameslash.app](https://gameslash.app/) 未运行。
+- **chacha [@maker_evan](https://x.com/maker_evan/status/2118222694345040253)** — 狐浪人。公开全文是 **游戏 agent one-shot**，图像 prompt 未公开。4×4 模板来自同团队 [@evals_ag](https://x.com/evals_ag/status/2118336675697090607) 文章重建，**不计新案例**。演示站未运行。
+- **小墨同学 [@xiaomovps](https://x.com/xiaomovps/status/2118274032227471705)** — 出拳/蓄力。深挖后仍无 prompt、无引擎实机。
+- **[@maker_evan walk](https://x.com/maker_evan/status/2118235403430027495)** — Opus 量化/锁头/镜像腿/手修。[Pocketworld](https://x.com/tuzhenzhao/status/2118286041719423146) 最终循环代码绘制，混合参考。
+- **vargHQ [gpt-image-sprite-sheet](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md)** — 作者声明工作流，未实机跑。
+- **Higgsfield 9 帖=1 组**（[拳击](https://x.com/higgsfield_ai/status/2118154923070439759) 等）— 宣传演示，不拆 9 案。
+- **失败样本**：[AM09](https://x.com/AM09_21/status/2118143217434800219) 同帧会崩；[WrongNebula](https://x.com/WrongNebula/status/2118164394400182755) 像素 not there yet。不计成功。
+- **SSSS.CRYPTOMAN** — GPT Image **2.5**，默认隐藏。
 
-[@yrzhe_top](https://x.com/yrzhe_top/status/2118211871777890325) 与 Renoise coming soon 冲突，**不当确认**。官方股市 Sprite、面包师、路飞六宫格挥手**不算**游戏序列。
+[@yrzhe_top](https://x.com/yrzhe_top/status/2118211871777890325) vs Renoise coming soon，**仍待核**。
 
 ## 全球热门 GIF 参考（不是 2.6）
 

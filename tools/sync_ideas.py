@@ -116,8 +116,20 @@ for i, x in enumerate(data, 1):
         flags.append("宣传方宣称 · 未观看")
     if x.get("image26_status") == "author_claim_unverified":
         flags.append("原作者声明 2.6 · 非官方验证")
+    if x.get("image26_status") == "failure_sample":
+        flags.append("失败样本 · 不计成功")
+    if x.get("prompt_audience") == "game_agent":
+        flags.append("原文受众是游戏 agent，不是图像模型")
+    if x.get("production_notes"):
+        flags.append("真实制作需后处理工序")
     if flags:
         lines.append("状态：" + " · ".join(flags))
+        lines.append("")
+    if x.get("production_notes"):
+        lines.append("真实制作要补：" + x["production_notes"])
+        lines.append("")
+    if x.get("demo_site_url"):
+        lines.append(f"演示站（本仓未运行）：{x['demo_site_url']}")
         lines.append("")
     if x.get("prompt_excerpt"):
         lines.append("公开规格摘录（不是完整 prompt）：")
@@ -137,12 +149,22 @@ for i, x in enumerate(data, 1):
             lines.append("```")
             lines.append("")
     else:
-        lines.append("第三方原文：")
+        if x.get("prompt_audience") == "game_agent":
+            lines.append("给游戏 agent 的原文（不是发给图像模型的 prompt）：")
+        else:
+            lines.append("第三方原文：")
         lines.append("")
         lines.append("```text")
         lines.append(x["prompt"])
         lines.append("```")
         lines.append("")
+        if x.get("prompt_reconstruction"):
+            lines.append("文章重建模板（不是实发原文）：")
+            lines.append("")
+            lines.append("```text")
+            lines.append(x["prompt_reconstruction"])
+            lines.append("```")
+            lines.append("")
         if x.get("prompt_adaptation"):
             lines.append("本站改编（不是第三方原文）：")
             lines.append("")
