@@ -1,6 +1,6 @@
 # GPT Image 2.6 玩法与 Prompt 图像列表（39 例）
 
-> Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。X 附件多为 MP4，未观看。Morphic 条目提示词面向 2.6，**示例跑在 2.5 / Ideogram Vector，不是 2.6 成品**。全球热门 GIF 复刻见 [popular-gifs.md](popular-gifs.md)，不是 2.6 作品。
+> Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。X 附件多为 MP4，未观看。Morphic 条目提示词面向 2.6，**示例跑在 2.5 / Ideogram Vector，不是 2.6 成品**。全球热门 GIF 复刻见 [popular-gifs.md](popular-gifs.md)（四种依据分开标），不是 2.6 作品。
 
 [打开交互式图像列表](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html) · [结构化 JSON](../docs/data/ideas.json) · [参考出处](sources.md) · [来源与方法](trends-2026-11.md)
 

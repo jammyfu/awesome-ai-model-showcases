@@ -20,7 +20,7 @@
 - **Leonie Engel [@nonieengel](https://x.com/nonieengel/status/2118382251226562570)** — 角色+画风 → 10 张反应套装（[完整 prompt 回复](https://x.com/nonieengel/status/2118382274270187877)）。
 - **Tasuku Takahashi [@supertask_jp](https://x.com/supertask_jp/status/2118241124133532077)** — 建筑透视日落延时。
 
-X 清单复核与待核名单：[x-catalog.md](x-catalog.md) · [x-pending.md](x-pending.md)。全球热门 GIF 复刻（**不是 2.6**）：[popular-gifs.md](popular-gifs.md)。
+X 清单复核与待核名单：[x-catalog.md](x-catalog.md) · [x-pending.md](x-pending.md)。全球热门 GIF 复刻（**不是 2.6**）：[popular-gifs.md](popular-gifs.md) · [recent-popular.md](recent-popular.md)。
 
 ## 官方
 
@@ -47,6 +47,6 @@ X 清单复核与待核名单：[x-catalog.md](x-catalog.md) · [x-pending.md](x
 
 独立页面：[docs/popular.html](../docs/popular.html) · 方案全文：[popular-gifs.md](popular-gifs.md)
 
-探子 19 条样本（15 条 GIPHY 2019–2023 / Tenor 2017 年榜 + 4 条仅经典知名度）按质量收成 10 个原创角色重演方案。原 GIF 只外链。优先机制：连眨怀疑、退入遮挡社死、吃零食看戏、致谢升级、可爱容器冒火。2024/2025 与 2026 趋势待补。
+参考库 23 条（年度榜 15 + 活动榜 1 + 近期趋势 3 + 经典知名度 4），方案精选 12 个原创角色重演，不凑 23。原 GIF 只外链。2024/2025 官方年度 YIR 未找到。金球 No Words 是当晚 #1 不是全年第一。Trending 采样北京时间 2026-11-06 02:13:04，页面顺序不是名次。Language #4 未绑。详见 [popular-gifs.md](popular-gifs.md) · [recent-popular.md](recent-popular.md)。
 
 整理日期：2026-11-06（北京时间）。方法说明见 [trends-2026-11.md](trends-2026-11.md)。

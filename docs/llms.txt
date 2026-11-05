@@ -20,6 +20,7 @@ This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python
 - [playbooks/sources.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/sources.md): attributed sources
 - [playbooks/trends-2026-11.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/trends-2026-11.md): sources dated 2026-11-06 (Beijing time)
 - [playbooks/popular-gifs.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/popular-gifs.md): official-chart remakes, not 2.6
+- [playbooks/recent-popular.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/recent-popular.md): 2024 event chart + 2026 trending snapshot
 - [playbooks/x-catalog.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/x-catalog.md): independently re-checked X playbooks
 - [CONTRIBUTING.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/CONTRIBUTING.md)
 - [MEDIA_RIGHTS.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/MEDIA_RIGHTS.md)

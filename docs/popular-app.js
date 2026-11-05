@@ -34,8 +34,10 @@
       x.remake_prompt_zh,
       x.chart,
       x.rank,
+      x.chart_bucket,
       x.priority_mechanism,
       x.motion_beats,
+      x.sampled_at,
     ]
       .join(' ')
       .toLowerCase();
@@ -58,7 +60,7 @@
       poster.append(el('span', 'kind', yearLabel(x) + ' · ' + x.chart_bucket), el('span', 'index', String(i + 1).padStart(2, '0')));
       const content = el('div', 'content');
       content.append(
-        el('p', 'chart-meta', x.platform + ' · ' + x.rank),
+        el('p', 'chart-meta', x.platform + ' · ' + x.rank + (x.sampled_at ? ' · 采样 ' + x.sampled_at : '')),
         el('h3', '', x.title_zh),
         el('div', 'en', x.title_en),
         el('p', 'desc', x.everyday_scene)

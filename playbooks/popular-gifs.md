@@ -1,31 +1,34 @@
 # 全球热门 GIF 参考 → 原创角色重演方案
 
-> **不是 GPT Image 2.6 作品。** Updated 2026-11-06（北京时间）。探子 19 条 = 15 条年度平台榜 + 4 条仅经典知名度；本页精选 10 个可执行原创角色重演方案。不是世界总榜，不是 2026 当前排名。views ≠ 使用次数。方案是本项目策划，未实测、未付费出图。
+> **不是 GPT Image 2.6 作品。** Updated 2026-11-06（北京时间）。参考库 23 条 = 年度榜 15 + 活动榜 1 + 近期趋势 3 + 经典知名度 4；本页精选 12 个可执行原创角色重演方案，不凑 23。不是世界总榜。views ≠ 使用次数。方案是本项目策划，未实测、未付费出图。
 
-这一板块不是 GPT Image 2.6 作品库。原 GIF 只作机制参考。名次只在「某平台 × 某年度榜」内有效，不是世界统一总榜，也不是 2026 当前排名。views ≠ shares ≠ 使用次数。8 条榜文带 views（4 条 2020 精确整数，4 条 2019 百万约数）。复刻提示词是本项目策划，未付费生成、未声称已跑通。探子 19 条（15 年榜 + 4 经典知名度）按质量收成 10 个可执行方案，不照单堆。2024/2025 与 2026 趋势仍待补搜，稍后同一 PR 可再并。
+这一板块不是 GPT Image 2.6 作品库。原 GIF 只作机制参考。依据分四类，不可混排：年度平台榜 / 活动平台榜 / 近期趋势采样 / 仅经典知名度。不是世界统一总榜。views ≠ shares ≠ 使用次数。参考库 23 条（global 19 + recent 确认 4），方案按机制精选，不凑 23 张卡。GIPHY/Tenor 2024·2025 官方年度 YIR 本轮未找到，不能补造。复刻提示词是本项目策划，未付费生成、未声称已跑通。
 
 ## 方法（不要混用）
 
-- GIPHY 2019：Top 25 most-viewed，文中为 X.X million 约数。
-- GIPHY 2020：most-viewed，文中给出精确整数 views。
-- GIPHY 2021–2022：年榜强调相对 evergreen 搜索的 outlier，一般不给 #1 精确 views。
-- GIPHY 2023：views + 情境；FAQ 写明不是纯 evergreen。点名 Blinking White Guy / Homer bushes 是经典库存，不是当年 Top5。
-- Tenor 2017：GIF of the Year = 当年 #1 most-shared new GIF（分享量）。官博本轮 504，名次以 CNN/NDTV 交叉。
-- 2019 Google/Tenor 文是北美表达词条趋势，不是单 GIF 名次，不塞进排名。
-- 本轮未核实 2024/2025 年榜全文和 2026 当前趋势。
+- 年度平台榜：GIPHY 2019–2023、Tenor 2017。名次只在该平台该年有效。
+- 活动平台榜：GIPHY 2024 金球当晚 most-viewed。Lily Gladstone No Words 是当晚 #1、12.9M views 约数，不是 2024 全年第一。
+- 近期趋势采样：GIPHY Trending，北京时间 2026-11-06 02:13:04，地域 unknown。无人气数值、无明确排名，页面顺序不能当名次。
+- 仅经典知名度：无可靠单一平台年榜数字。
+- GIPHY/Tenor 2024·2025 官方年度 YIR：本轮未找到（yearinreview/2024-gifs、2025-gifs 404），不补造。
+- Lily Gladstone Language / 当晚 #4 / 7.5M：文有数字但无 GIF ID 一一对应，已降未绑候选，不进确认集。
+- 巴黎奥运 Top10 文存在但未绑定具体 GIF ID，不收录条目。
 
 ## 缺口与未选
 
-- 2024/2025 官方年 GIF 榜与 2026 当前趋势待补搜。
+- GIPHY/Tenor 2024·2025 官方年度 Top GIFs 全文未找到。
 - 无统一全球总榜可核对。
-- GIPHY 近年常给名次不给精确 views。
-- Fran Solo croqueta 等未稳定钉到与榜文一一对应的页面，不收录。
+- 金球 Greta Lee / Ferrell-Wiig 等多变体未绑媒体。
+- 趋势采样无 views，不为顺序赋名次。
 - 原 GIF 多帧验证在探子侧完成；本仓只抽查 GIF89a 签名，未再分发。
 - Elmo 开心舞：芝麻街 IP 重，且与欢呼/蹦跳机制重叠
 - Saweetie 生日：常青生日搜索 + 明星肖像，机制弱于 Yay/挥手
 - Ken So Cool / 马赛教头：肖像与商标风险高，机制可被无语/点头覆盖
 - Shameless 怒视、Samm Henshaw 舞、Bluesbear（仅 2 帧）：与无聊瞪视或欢呼重叠或动画过弱
 - Picard facepalm、数学女士：经典知名度样本，机制与无语/过载接近，本轮不凑数
+- Cardi B treadmill：趋势采样已确认外链，但夸张称赞+口型与现有反应卡重叠，且肖像风险高，不另开方案
+- Fresh Cake Happy I Love You：趋势采样已确认外链，爱意脉冲与致谢/Yay 重叠，不另开方案
+- Lily Gladstone Language #4：媒体变体错绑，保持未绑候选
 
 [打开独立页面](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html) · [JSON](../docs/data/popular-playbooks.json)
 
@@ -41,6 +44,8 @@
 | 8 | 双人欢呼 Yay | 2023 · 年度平台榜 | [#1 “Yay!” by Mo Willems](https://medium.com/giphy/giphys-2023-year-in-review-48415111429b) | [“Yay!” featuring Elephant & Piggie](https://giphy.com/gifs/MoWillems-mo-willems-mowillems-williams-fPRwBcYd71Lox1v7p2) |
 | 9 | 短促「喔？」打断 | 2019 · 年度平台榜 | [#1 · 419.1M views（约数）](https://giphy.medium.com/giphy-2019-year-in-review-c2fd75c703b8) | [And I Oop / Whatcha Say GIF by Jasmine Masters](https://giphy.com/gifs/oop-whatcha-say-andioop-KDbi6mOb2O73HHs0xg) |
 | 10 | 擦泪道谢高潮 | 2022 · 年度平台榜 | [#1 Zendaya “Thank You So Much”](https://medium.com/giphy/giphys-top-gifs-and-clips-of-2022-7602aa1d934f) | [Zendaya “Thank You So Much”（Euphoria S2）](https://giphy.com/gifs/euphoria-nmBKiNb7h3tIv3BO8D) |
+| 11 | 说不出话僵住 | 2024 · 活动平台榜 | [金球当晚 #1 · 不是全年第一](https://medium.com/giphy/the-top-gifs-and-clips-from-the-2024-golden-globes-c306c454680e) | [Lily Gladstone No Words GIF by Golden Globes](https://giphy.com/gifs/goldenglobes-golden-globes-2024-BpR8KjJ4HIAval5WR9) |
+| 12 | 远处麻烦逼近 | 2026 · 近期趋势采样 | [无排名 · 仅记录当时出现在 Trending 页](https://giphy.com/trending) | [Parker Posey Tsunami GIF（页/slug 指向 White Lotus S3 相关场面，未做逐帧剧集比对）](https://giphy.com/gifs/tsunami-parker-posey-white-lotus-s3-7dTcKmAGVtpAMz91Rh) |
 
 ## 可执行复刻方案
 
@@ -378,4 +383,71 @@
 固定镜头。情绪是如释重负的感激，不是大哭崩溃。不要任何真人脸，不要影视剧造型。可加很短的「谢谢」，位置稳定。
 
 输出：正方形、约 12 帧、每帧约 150ms、无限循环。最后一帧接第一帧。交付会播放的 GIF。
+```
+
+### 11. 说不出话僵住 / No-words freeze
+
+- 不是 2.6。本项目策划，未实测。
+- 年/桶：2024 · 活动平台榜 · GIPHY
+- 榜单：GIPHY 2024 Golden Globes 当晚 most-viewed GIFs（活动榜，不是年度 YIR） · 金球当晚 #1 · 不是全年第一
+- 指标：views 约数 = 12.9 million（百万级四舍五入，≠shares）。口径是典礼后 Tuesday，不是 2024 全年第一。
+- 证据：[GIPHY：2024 Golden Globes Top GIFs and Clips](https://medium.com/giphy/the-top-gifs-and-clips-from-the-2024-golden-globes-c306c454680e)
+- 原作 / 作者：Lily Gladstone No Words GIF by Golden Globes · GIPHY 频道署名 Golden Globes；出镜 Lily Gladstone
+- 原 GIF 页（参考，非本仓成品）：https://giphy.com/gifs/goldenglobes-golden-globes-2024-BpR8KjJ4HIAval5WR9
+- 情绪：震撼后失语、历史时刻的空白反应
+- 动作节拍：静帧凝视 → 嘴唇微动却发不出声 → 微侧头或眼神失焦 → 继续无声僵住
+- 逐帧：1–3 睁眼凝视、嘴闭合；4–6 嘴唇微张像要说话；7–9 说不出，眼神略失焦；10–12 微侧头后回到第 1 帧凝视。
+- 为何能传：重大瞬间把「说不出话」固化成可转发反应，不需要文案。
+- 普通人场景：需求文档里出现离谱数字，回一张原创角色张嘴却没声音。
+- 参考图：角色近景。禁止 Lily Gladstone 肖像，禁止金球奖杯/品牌外观。
+- 镜头：固定近景胸上。不要切到奖杯特写，不要加字幕。
+- 循环：侧头结束后必须回到开始的头位和嘴型。
+- 预期文件：方形或 16:9 循环 GIF，建议 10–12 帧，每帧 140–180ms
+- 验收：能读出失语而不是眨眼怀疑或鞠躬致谢；全程无字幕；不是真人。
+- 演示门槛：未生成。典礼肖像与奖项商标不可用。
+- 复现依赖：与连眨方案区分：几乎不眨眼，重点是张嘴失败。不要用 Language 候选页当本条媒体。
+- 权利：无再分发许可；原 GIF 只外链，不入库。不使用 SVG 假装原作或 2.6 结果。
+
+本仓原创角色重演提示词（不是原作者原文，未实测）：
+
+```text
+用我上传的原创角色近景生成循环 GIF。角色刚听到一个巨大消息：先安静盯着镜头，嘴唇微微张开像要说话，却发不出声音，眼神短暂失焦，轻轻侧一下头，再回到开始的凝视。
+
+固定镜头。不要真人脸，不要奖杯，不要字幕，不要水印。动作只在眼睛、嘴和颈部。
+
+输出：正方形、约 12 帧、每帧约 160ms、无限循环。最后一帧接第一帧。交付会播放的 GIF。
+```
+
+### 12. 远处麻烦逼近 / Trouble rolling in
+
+- 不是 2.6。本项目策划，未实测。
+- 年/桶：2026 · 近期趋势采样 · GIPHY
+- 榜单：GIPHY Trending 现场采样（地域 unknown；页面顺序≠名次） · 无排名 · 仅记录当时出现在 Trending 页
+- 采样时刻：北京时间2026-11-06 02:13:04
+- 指标：无公开 views/shares。不为页面顺序编造名次。
+- 证据：[GIPHY Trending（采样北京时间 2026-11-06 02:13:04）](https://giphy.com/trending)
+- 原作 / 作者：Parker Posey Tsunami GIF（页/slug 指向 White Lotus S3 相关场面，未做逐帧剧集比对） · GIPHY 页未显示 by 频道；上传者未知；出镜 Parker Posey
+- 原 GIF 页（参考，非本仓成品）：https://giphy.com/gifs/tsunami-parker-posey-white-lotus-s3-7dTcKmAGVtpAMz91Rh
+- 情绪：轻松场景里的荒诞惊恐
+- 动作节拍：放松站着 → 察觉远处异常 → 表情逐级放大 → 人不跑出画框
+- 逐帧：1–3 放松站姿、远景只有一点异常；4–6 异常变大、眉毛抬起；7–9 眼睛睁大、身体微后倾；10–12 表情最大但仍站在原位，再回到放松前的过渡或切回第 1 帧。
+- 为何能传：度假/日常小灾难母题；竖构图适合聊天窗。
+- 普通人场景：日历提醒「明天评审」，用原创角色看着远处一堵麻烦墙越来越近。
+- 参考图：半身或全身角色。禁止 Parker Posey 脸，禁止剧集场景美术。
+- 镜头：固定中景。麻烦从背景靠近，角色不离开画框。
+- 循环：若要无缝，第 12 帧应回到第 1 帧的放松站姿；麻烦体积也要缩回远处。
+- 预期文件：竖构图或方形循环 GIF，建议 12 帧
+- 验收：麻烦是抽象形状不是写实海啸伤亡；角色不逃离画面；不是真人。
+- 演示门槛：未生成。趋势采样不是排名。影视肖像不可用。
+- 复现依赖：提示词写「抽象的蓝色弧形墙/阴影逼近」，禁止写实灾难和商标。
+- 权利：无再分发许可；原 GIF 只外链，不入库。不使用 SVG 假装原作或 2.6 结果。
+
+本仓原创角色重演提示词（不是原作者原文，未实测）：
+
+```text
+原创角色站在轻松的浅色场景里，远处有一堵抽象的蓝色弧形「麻烦」慢慢变大逼近。角色先放松，再逐级瞪眼、微微后倾，但脚不离开原地、不跑出画面。
+
+固定镜头。不要真人，不要剧集场景，不要写实海啸、不要伤亡、不要字幕。
+
+输出：竖构图或正方形、约 12 帧、每帧约 140ms、无限循环。最后一帧麻烦缩回远处并接第一帧。交付会播放的 GIF。
 ```

@@ -17,7 +17,7 @@ items = data["items"]
 lines = [
     f"# {data['title_zh']}",
     "",
-    f"> **不是 GPT Image 2.6 作品。** Updated 2026-11-06（北京时间）。探子 19 条 = 15 条年度平台榜 + 4 条仅经典知名度；本页精选 {len(items)} 个可执行原创角色重演方案。不是世界总榜，不是 2026 当前排名。views ≠ 使用次数。方案是本项目策划，未实测、未付费出图。",
+    f"> **不是 GPT Image 2.6 作品。** Updated 2026-11-06（北京时间）。参考库 23 条 = 年度榜 15 + 活动榜 1 + 近期趋势 3 + 经典知名度 4；本页精选 {len(items)} 个可执行原创角色重演方案，不凑 23。不是世界总榜。views ≠ 使用次数。方案是本项目策划，未实测、未付费出图。",
     "",
     data["policy"],
     "",
@@ -27,7 +27,7 @@ lines = [
 for note in data["methodology_notes"]:
     lines.append(f"- {note}")
 lines += ["", "## 缺口与未选", ""]
-for gap in data["gaps"] + data.get("skipped_from_19", []):
+for gap in data["gaps"] + data.get("skipped_from_19", []) + data.get("skipped_from_recent", []):
     lines.append(f"- {gap}")
 lines += [
     "",
@@ -50,6 +50,7 @@ for i, x in enumerate(items, 1):
         f"- 不是 2.6。本项目策划，未实测。",
         f"- 年/桶：{year} · {x['chart_bucket']} · {x['platform']}",
         f"- 榜单：{x['chart']} · {x['rank']}",
+        *( [f"- 采样时刻：{x['sampled_at']}"] if x.get("sampled_at") else [] ),
         f"- 指标：{x['metric']}",
         f"- 证据：[{x['evidence_label']}]({x['evidence_url']})",
         f"- 原作 / 作者：{x['original_work']} · {x['original_author']}",
