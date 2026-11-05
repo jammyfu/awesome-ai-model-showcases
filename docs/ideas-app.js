@@ -10,7 +10,9 @@
   const empty = document.getElementById('empty');
   const toast = document.getElementById('toast');
   const total = document.getElementById('total');
-  if (total) total.textContent = String(ideas.length);
+  const history = document.getElementById('history');
+  const defaultVisible = ideas.filter((x) => !x.default_hidden);
+  if (total) total.textContent = String(defaultVisible.length);
 
   const statusLabel = {
     verbatim: '逐字公开',
@@ -57,6 +59,9 @@
       x.media_kind,
       x.source_label,
       x.example_run_model,
+      x.prompt_adaptation,
+      x.prompt_excerpt,
+      x.image26_status,
     ]
       .join(' ')
       .toLowerCase();
@@ -64,7 +69,9 @@
   function posterKind(x) {
     if (x.preview_kind === 'existing_gif') return '仓库 GIF · 可播放';
     if (x.preview_kind === 'external_gif') return '源站 GIF · 外链播放';
+    if (x.image26_status === 'not_26') return '其他模型历史 · 不是 2.6';
     if (x.media_kind === 'png') return '源站分镜表 PNG · 不是 GIF';
+    if (x.game_sequence && x.media_kind === 'mp4') return '游戏序列 · 外链 MP4 · 未观看';
     if (x.game_sequence) return '游戏序列 · 不是普通 GIF';
     if (x.media_kind === 'mp4') return 'X 标 GIF · 实际 MP4 · 未观看';
     if (x.demo_kind === 'vimeo') return '官方演示是视频 · 不是 GIF';
@@ -78,7 +85,7 @@
     if (mode === 'playable26') {
       return x.preview_kind === 'existing_gif' || x.preview_kind === 'external_gif';
     }
-    if (mode === 'game') return x.game_sequence === true;
+    if (mode === 'game') return x.game_sequence === true && (history?.checked || !x.default_hidden);
     if (mode === 'xmp4') return x.media_kind === 'mp4';
     if (mode === 'not26') return x.example_is_image26 === false;
     if (mode === 'svg') return x.preview_kind === 'concept_illustration';
@@ -86,13 +93,16 @@
   }
   function render() {
     const search = query.value.trim().toLowerCase();
-    const list = ideas.filter(
-      (x) =>
+    const showHist = !!(history && history.checked);
+    const list = ideas.filter((x) => {
+      if (x.default_hidden && !showHist && cat.value !== '其他模型参考' && !search) return false;
+      return (
         (cat.value === 'all' || x.category === cat.value) &&
         (origin.value === 'all' || x.origin === origin.value) &&
         matchesMedia(x) &&
-        haystack(x).includes(search)
-    );
+        (!search || haystack(x).includes(search))
+      );
+    });
     cards.replaceChildren();
     list.forEach((x, i) => {
       const card = el('article', 'card');
@@ -149,8 +159,14 @@
       if (x.frames_basis === 'author_prompt_spec') chips.push('帧数来自提示词规格');
       if (x.frames_basis === 'editorial_recommendation') chips.push('帧数是玩法建议');
       if (x.game_sequence) chips.push('游戏序列');
+      if (x.image26_status === 'author_claim_unverified') chips.push('作者声明 · 非官方验证');
+      if (x.image26_status === 'multimodel_postprocess') chips.push('多模型后处理');
+      if (x.image26_status === 'promo_claim_unwatched') chips.push('宣传方宣称');
+      if (x.image26_status === 'not_26') chips.push('不是 2.6');
       if (x.engine_import_status === 'documented_not_run') chips.push('引擎步骤未实机跑');
       if (x.engine_import_status === 'author_claim_unwatched') chips.push('游戏演示未观看');
+      if (x.engine_import_status === 'discussed_not_shown') chips.push('讨论过引擎 · 未见运行');
+      if (x.prompt_excerpt) chips.push('仅有规格摘录');
       if (x.example_run_model) chips.push(x.example_run_model);
       for (const val of chips) settings.append(el('span', '', val));
       const promptBox = el('div', x.prompt ? 'prompt' : 'prompt empty');
@@ -226,12 +242,19 @@
         actions.append(a);
       }
       if (x.media_kind === 'mp4' && x.media_url) {
-        const a = el('a', '', 'X MP4 ↗');
+        const a = el('a', '', '外链 MP4 ↗');
         a.href = x.media_url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
         actions.append(a);
       }
+      (x.related_media_urls || []).forEach((url, n) => {
+        const a = el('a', '', '相关 MP4 ' + (n + 2) + ' ↗');
+        a.href = url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        actions.append(a);
+      });
       if (x.reference_image_url) {
         const a = el('a', '', '参考静图 ↗');
         a.href = x.reference_image_url;
@@ -249,6 +272,16 @@
   query.addEventListener('input', render);
   cat.addEventListener('change', render);
   origin.addEventListener('change', render);
+  function applyLocation() {
+    if (history) history.checked = location.hash === '#history';
+    const params = new URLSearchParams(location.search);
+    if (media && params.get('media') && [...media.options].some((o) => o.value === params.get('media'))) {
+      media.value = params.get('media');
+    }
+    render();
+  }
   if (media) media.addEventListener('change', render);
-  render();
+  if (history) history.addEventListener('change', render);
+  window.addEventListener('hashchange', applyLocation);
+  applyLocation();
 })();

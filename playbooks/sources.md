@@ -47,11 +47,17 @@ X 清单复核与待核名单：[x-catalog.md](x-catalog.md) · [x-pending.md](x
 
 独立页面：[docs/game.html](../docs/game.html) · 方案：[game-sequences.md](game-sequences.md) · 待核：[game-pending.md](game-pending.md)
 
-- **SSSS.CRYPTOMAN [@SSSS_CRYPTOMAN](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136)**（2026-09-09）— 游戏用 4×4 规格，原帖写明 **GPT Image 2.5**。日文 prompt 逐字收录。X `animated_gif`→MP4，未观看。
-- **vargHQ [gpt-image-sprite-sheet](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md)** — 把上条规格用在 `gpt_image_2_6`；骑士跑循环 PNG + 切帧演示。Phaser/Godot 步骤**未实机跑**。白底抠色不是真 alpha。
-- **Higgsfield [@higgsfield_ai](https://x.com/higgsfield_ai/status/2118154923070439759)** — 宣称 2.6 GIF sprite sheets 做拳击游戏。无原文 prompt。视频未观看，不能写成已核引擎导入。
+原作者声明、媒体元数据已核、**全部未观看未运行**。官方验证 0。X 附件写 GIF 的实际是 MP4。
 
-x/web 既有清单无游戏 idle/run/attack 例。官方股市 Sprite、面包师、路飞六宫格挥手**不算**游戏序列。
+- **BuyTheDip [@Daft_Trade](https://x.com/Daft_Trade/status/2118283025498906800)** — 像素三连击 / 法术 / 翻滚。作者称 GPT Image 2.6 straight to GIF。4 条 `animated_gif`→MP4 计 1 案。完整 prompt **空**；设置摘录在回复帖。
+- **chacha [@maker_evan](https://x.com/maker_evan/status/2118222694345040253)** — 狐浪人网页游戏。作者：2.6 出 sprite sheet 与背景，GPT-6.1 Sol 切帧组装。**绝非原生 GIF 直出**。完整 one-shot 在 [2118218896167886861](https://x.com/maker_evan/status/2118218896167886861)。游戏录像是 amplify MP4；本仓未运行。
+- **小墨同学 [@xiaomovps](https://x.com/xiaomovps/status/2118274032227471705)** — 复古格斗出拳 / 蓄力。作者声明 Images 2.6。prompt **空**。两条 MP4 + 静图。讨论过 Unity/Godot，**未见引擎内运行**。
+- **[@maker_evan walk cycle](https://x.com/maker_evan/status/2118235403430027495)** — 32×32 / ≤8 色 / 8 帧对照。两条用 2.6 再经 Claude Opus 5.5 修帧；一条纯代码**不算 2.6**。完整 prompt 空。
+- **vargHQ [gpt-image-sprite-sheet](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md)** — 作者声明 `gpt_image_2_6` 骑士跑循环 PNG。与狐浪人不同源，保留为工作流。Phaser/Godot **未实机跑**。白底抠色不是真 alpha。
+- **Higgsfield [@higgsfield_ai](https://x.com/higgsfield_ai/status/2118154923070439759)** — **宣传方**宣称 2.6 GIF sprite sheets 做拳击游戏。不算原作者强例。无原文 prompt。MP4 未观看。
+- **SSSS.CRYPTOMAN [@SSSS_CRYPTOMAN](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136)**（2026-09-09）— 游戏用 4×4 规格，原帖写明 **GPT Image 2.5**。默认隐藏，不计 2.6 卡。日文 prompt 逐字收录。
+
+[@yrzhe_top](https://x.com/yrzhe_top/status/2118211871777890325) 与 Renoise coming soon 冲突，**不当确认**。官方股市 Sprite、面包师、路飞六宫格挥手**不算**游戏序列。
 
 ## 全球热门 GIF 参考（不是 2.6）
 

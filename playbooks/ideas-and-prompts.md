@@ -1,4 +1,4 @@
-# GPT Image 2.6 玩法与 Prompt 图像列表（42 例）
+# GPT Image 2.6 玩法与 Prompt 图像列表（46 例）
 
 > Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。X 附件多为 MP4，未观看。Morphic 条目提示词面向 2.6，**示例跑在 2.5 / Ideogram Vector，不是 2.6 成品**。游戏待机/跑/攻击见 [game-sequences.md](game-sequences.md)，与普通 GIF 分开。全球热门 GIF 复刻见 [popular-gifs.md](popular-gifs.md)（四种依据分开标），不是 2.6 作品。
 
@@ -45,9 +45,13 @@
 | 37 | 大肥鱼主题表情包模板 | 表情梗图 | [参考](https://x.com/op7418/status/2118181775688241456) | [逐字公开提示词](#idea-37) | ChatGPT Images 2.6（作者声明；本仓未复测） / 12f |
 | 38 | 角色+画风 → 10 张反应套装 | 表情梗图 | [参考](https://x.com/nonieengel/status/2118382251226562570) | [逐字公开提示词](#idea-38) | ChatGPT Images 2.6（作者声明；本仓未复测） / 16f |
 | 39 | 建筑透视日落后退 | 照片微动效 | [参考](https://x.com/supertask_jp/status/2118241124133532077) | [逐字公开提示词](#idea-39) | ChatGPT Images 2.6（作者声明；本仓未复测） / 12f |
-| 40 | 游戏 4×4 分镜表（脚底对齐规格） | 游戏动作序列 | [参考](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136) | [逐字公开提示词](#idea-40) | GPT Image 2.5（原帖；早于 2.6 原生 GIF） / 16 格 |
-| 41 | 骑士跑循环：2.6 出表再切帧 | 游戏动作序列 | [参考](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md) | [逐字公开提示词](#idea-41) | gpt-image-2.6 / varg `gpt_image_2_6`（作者声明；本仓未复测） / 16 格 |
-| 42 | 宣称用 2.6 GIF 分镜做的拳击游戏演示 | 游戏动作序列 | [参考](https://x.com/higgsfield_ai/status/2118154923070439759) | [来源未公开完整提示词，本站不编造](#idea-42) | ChatGPT Images 2.6（平台声明；本仓未复测） / 9f |
+| 40 | 像素三连击 / 翻滚 / 法术（作者称直出 GIF） | 游戏动作序列 | [参考](https://x.com/Daft_Trade/status/2118283025498906800) | [来源未公开完整提示词，本站不编造](#idea-40) | 作者声明 GPT Image 2.6（非官方验证；本仓未观看、未复测） / 16f |
+| 41 | 狐浪人网页游戏：2.6 出表、另一 agent 切帧 | 游戏动作序列 | [参考](https://x.com/maker_evan/status/2118222694345040253) | [逐字公开提示词](#idea-41) | 作者声明 GPT Image 2.6 出表（切帧/游戏是另一 agent；非官方验证） / 8 格 |
+| 42 | 复古格斗出拳 / 蓄力循环 | 游戏动作序列 | [参考](https://x.com/xiaomovps/status/2118274032227471705) | [来源未公开完整提示词，本站不编造](#idea-42) | 作者声明 GPT Images 2.6（非官方验证；本仓未观看、未复测） / 12f |
+| 43 | 像素 walk cycle 对照（含其他模型修帧） | 游戏动作序列 | [参考](https://x.com/maker_evan/status/2118235403430027495) | [来源未公开完整提示词，本站不编造](#idea-43) | 作者声明两条 GPT Image 2.6 + Claude Opus 5.5 后处理；一条无图像模型 / 8 格 |
+| 44 | 【2.5 历史规格】游戏 4×4 分镜表 | 其他模型参考 | [参考](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136) | [逐字公开提示词](#idea-44) | GPT Image 2.5（原帖写明；不是 Image 2.6） / 16 格 |
+| 45 | 骑士跑循环：作者声明 2.6 出表再切帧 | 游戏动作序列 | [参考](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md) | [逐字公开提示词](#idea-45) | 作者声明 gpt_image_2_6（非官方验证；本仓未复测） / 16 格 |
+| 46 | 宣传方宣称的 2.6 拳击游戏视频 | 游戏动作序列 | [参考](https://x.com/higgsfield_ai/status/2118154923070439759) | [来源未公开完整提示词，本站不编造](#idea-46) | 宣传方宣称 ChatGPT Images 2.6（未观看；非官方验证） / 9f |
 
 ## 完整提示词（公开原文或本站改写）
 
@@ -1015,15 +1019,136 @@ Input Images:
 
 
 <a id="idea-40"></a>
-### 40. 游戏 4×4 分镜表（脚底对齐规格） / Game 4×4 sheet with locked ground line
+### 40. 像素三连击 / 翻滚 / 法术（作者称直出 GIF） / Pixel combo, roll and spell — author says straight to GIF
 
-类型：游戏动作序列 ｜输出：Sprite 分镜 ｜证据：SSSS.CRYPTOMAN @SSSS_CRYPTOMAN · 原帖写明 GPT Image 2.5 · X animated_gif→MP4 · 未视觉复核 ｜提示词：逐字公开提示词 ｜推荐：`GPT Image 2.5（原帖；早于 2.6 原生 GIF）`, `16` frames, `1:1` ｜编辑优先级：P1
+类型：游戏动作序列 ｜输出：GIF ｜证据：Daft_Trade @Daft_Trade · 作者声明 GPT Image 2.6 straight to GIF · 4 条 MP4=1 案例 · 未观看 ｜提示词：来源未公开完整提示词，本站不编造 ｜推荐：`作者声明 GPT Image 2.6（非官方验证；本仓未观看、未复测）`, `16` frames, `40` ms/frame, `1:1` ｜编辑优先级：P1
 
 本地不转载第三方成品图（实测为 mp4，不是 GIF）；请打开来源链接查看。
 
-原作者 2026-09-09 公开的游戏用 4×4/16 帧规格：等大格子、10px 边距、固定倍率与脚底基准线、禁止出格。第二步再切帧对齐做 GIF。这是游戏序列规格，不是表情包。原帖模型是 2.5，不能写成 2.6 成品。X 附件为 animated_gif→MP4 加三张静图；本仓未观看、未转载。
+原作者游戏动画原型：像素三连击带刀光、同线程蓄力法环、跳跃翻滚、火花。作者写 One prompt in GPT Image 2.6 … straight to GIF。完整 prompt 缺失；回复只给设置（512²、opaque、连招 16×40ms、法术 12×80ms、跳跃 16×80ms）。四条 X animated_gif 对外都是 video/mp4，计 1 案例。未见引擎工程。未观看、未转载。
 
-状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif
+状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif · 原作者声明 2.6 · 非官方验证
+
+公开规格摘录（不是完整 prompt）：
+
+```text
+Lock the camera and give each action a frame range. I used 512×512, high quality, and an opaque background. The sword combo uses 16 frames × 40 ms. … For a looping spell… 12 frames × 80 ms… For a jump… Run → push off → tuck → flip → land… 16 frames × 80 ms.
+```
+
+公开来源未给出完整提示词，本站不编造第三方原文。
+
+本站改编（不是第三方原文）：
+
+```text
+用原创像素角色做游戏动作循环（本站策划，不是 Daft_Trade 原文；原帖没有完整 prompt）。
+
+固定镜头，不透明背景，正方形。一次只做一个动作：
+- 三连击：预备→第一刀（拖尾）→第二刀→第三刀→回收，约 16 帧。
+- 法术环：中心不动，末帧接回首帧，约 12 帧。
+- 跳跃翻滚：助跑→起跳→团身→翻转→落地，约 16 帧。腾空帧不要把脚拉回地面。
+
+作者声明直出 GIF；X 附件实际是 MP4。本仓未观看、未复测。
+```
+
+参考链接（2026-11-05）：https://x.com/Daft_Trade/status/2118283025498906800。
+
+
+<a id="idea-41"></a>
+### 41. 狐浪人网页游戏：2.6 出表、另一 agent 切帧 / Fox ronin web game: 2.6 sheets, another agent slices
+
+类型：游戏动作序列 ｜输出：Sprite 分镜 ｜证据：maker_evan @maker_evan · 作者声明 2.6 出 sprite sheet · GPT-6.1 Sol 切帧组装 · 未观看 MP4 ｜提示词：逐字公开提示词 ｜推荐：`作者声明 GPT Image 2.6 出表（切帧/游戏是另一 agent；非官方验证）`, `8` frames, `16:9` ｜编辑优先级：P1
+
+本地不转载第三方成品图（实测为 mp4，不是 GIF）；请打开来源链接查看。
+
+可玩网页街机：狐浪人夜市。作者：GPT Image 2.6 made the sprite sheets and the background；GPT-6.1 Sol cut them into frames and built the rest。绝非原生 GIF 直出。完整 one-shot prompt 在回复帖。附件是游戏录像 MP4 + hero sheet 静图，不是 .gif。作者给了 evals.ag 链接；本仓未观看、未运行，不宣称游戏可用。
+
+状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif · 原作者声明 2.6 · 非官方验证
+
+第三方原文：
+
+```text
+Make a small arcade action game in one web page: a fox ronin defending a night market from ink spirits. Arrow keys move, space attacks. All the art must come from the image model selected for this run: sprite sheets for the hero (idle, run, attack, hurt), three enemies and a boss, plus a background. Cut the sheets into frames and animate them in the game. Do not draw characters in code. Add a HUD, a score, and win and game over screens. It should feel fun the moment it loads.
+```
+
+本站改编（不是第三方原文）：
+
+```text
+做一页可玩的小街机（本站中文改写，不是 maker_evan 原文）：狐浪人守夜市，方向键移动、空格攻击。
+
+图像模型只负责美术：主角待机/跑/攻击/受伤分镜表、三名敌人、一个 boss、一张背景。不要在代码里画角色。
+
+另一个步骤再切帧、组装 HUD/分数/胜负画面。这不是「直接交一张循环 GIF」。本仓未运行作者页面，也未观看录像。
+```
+
+参考链接（2026-11-05）：https://x.com/maker_evan/status/2118222694345040253。
+
+
+<a id="idea-42"></a>
+### 42. 复古格斗出拳 / 蓄力循环 / Retro fighter punch and charge loops
+
+类型：游戏动作序列 ｜输出：GIF ｜证据：小墨同学 @xiaomovps · 作者声明 Images 2.6 · X animated_gif→MP4 · 未见引擎内运行 ｜提示词：来源未公开完整提示词，本站不编造 ｜推荐：`作者声明 GPT Images 2.6（非官方验证；本仓未观看、未复测）`, `12` frames, `120` ms/frame, `1:1` ｜编辑优先级：P1
+
+本地不转载第三方成品图（实测为 mp4，不是 GIF）；请打开来源链接查看。
+
+复古 16 位格斗向：出拳、蓄力循环。作者称 Images 2.6 能出人物 GIF / Sprite Sheet，并讨论透明背景拆帧进 Unity/Godot。没有公开 prompt。两条附件是 animated_gif→MP4，另有静图。作者自述连续动作可能形象不一致。未见引擎内运行录像，不能说已经用于游戏。
+
+状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif · 原作者声明 2.6 · 非官方验证
+
+公开来源未给出完整提示词，本站不编造第三方原文。
+
+本站改编（不是第三方原文）：
+
+```text
+用原创复古 16 位格斗角色各做一张循环（本站策划，原帖无完整 prompt）：出拳、蓄力。
+
+固定中景，全身入画，脚底对齐。一次一个动作。循环回到第一帧。
+
+若走分镜表：等大格、透明或声明非真 alpha 的底。作者提到可拆进 Unity/Godot，但本仓未见引擎内运行证据。X 附件是 MP4。未观看、未复测。
+```
+
+参考链接（2026-11-05）：https://x.com/xiaomovps/status/2118274032227471705。
+
+
+<a id="idea-43"></a>
+### 43. 像素 walk cycle 对照（含其他模型修帧） / Pixel walk-cycle comparison — multi-model postprocess
+
+类型：游戏动作序列 ｜输出：Sprite 分镜 ｜证据：maker_evan @maker_evan · 多模型后处理 walk cycle · 纯代码对照不算 2.6 · 未观看 MP4 ｜提示词：来源未公开完整提示词，本站不编造 ｜推荐：`作者声明两条 GPT Image 2.6 + Claude Opus 5.5 后处理；一条无图像模型`, `8` frames, `16:9` ｜编辑优先级：P1
+
+本地不转载第三方成品图（实测为 mp4，不是 GIF）；请打开来源链接查看。
+
+硬测 32×32、≤8 色、无缝 8 帧 walk cycle。作者：Two used GPT Image 2.6. One had no image model, so Opus wrote the pixels in code。后续还有 Opus 量化/修头/镜像腿。最终画面不是纯 2.6 一键结果；纯代码那条更不能算 2.6。完整 prompt 未知，只有上述规格摘录。附件是对照录像 MP4，未观看。
+
+状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif · 含其他模型后处理，不是纯 2.6
+
+公开规格摘录（不是完整 prompt）：
+
+```text
+Same prompt: 32x32 grid, at most 8 colours, seamless 8-frame loop.
+```
+
+公开来源未给出完整提示词，本站不编造第三方原文。
+
+本站改编（不是第三方原文）：
+
+```text
+像素 walk cycle 规格（本站策划；原帖只有规格摘录，完整原文未知）：32×32、最多 8 色、无缝 8 帧侧面走循环。
+
+若用 2.6 出表，必须另外标明：调色、修头、镜像腿如果由其他模型完成，交付物就不是纯 2.6。无图像模型、纯代码画像素的对照路径不要标成 2.6 结果。本仓未观看对照录像。
+```
+
+参考链接（2026-11-05）：https://x.com/maker_evan/status/2118235403430027495。
+
+
+<a id="idea-44"></a>
+### 44. 【2.5 历史规格】游戏 4×4 分镜表 / Historical 2.5 spec: 4×4 game sheet
+
+类型：其他模型参考 ｜输出：Sprite 分镜 ｜证据：SSSS.CRYPTOMAN @SSSS_CRYPTOMAN · 原帖写明 GPT Image 2.5 · 不是 2.6 · 默认隐藏 · 未观看 MP4 ｜提示词：逐字公开提示词 ｜推荐：`GPT Image 2.5（原帖写明；不是 Image 2.6）`, `16` frames, `1:1` ｜编辑优先级：P1
+
+本地不转载第三方成品图（实测为 mp4，不是 GIF）；请打开来源链接查看。
+
+历史参考，默认不出现在 Image 2.6 玩法列表。原作者 2026-09-09 公开的游戏用 4×4/16 帧规格：等大格子、10px 边距、固定倍率与脚底基准线。原帖写明 GPT Image 2.5，不能计入 2.6 游戏案例。规格仍可供 2.6 出表时对照。X 附件 animated_gif→MP4，未观看、未转载。
+
+状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif · 不是 Image 2.6 · 默认隐藏
 
 第三方原文：
 
@@ -1078,16 +1203,16 @@ Input Images:
 参考链接（2026-09-09）：https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136。
 
 
-<a id="idea-41"></a>
-### 41. 骑士跑循环：2.6 出表再切帧 / Knight run cycle: 2.6 sheet then slice
+<a id="idea-45"></a>
+### 45. 骑士跑循环：作者声明 2.6 出表再切帧 / Knight run cycle: author-claimed 2.6 sheet
 
-类型：游戏动作序列 ｜输出：Sprite 分镜 ｜证据：vargHQ gpt-image-sprite-sheet · 声明 gpt_image_2_6 · PNG 分镜+切帧演示 · Phaser/Godot 步骤未实机跑 ｜提示词：逐字公开提示词 ｜推荐：`gpt-image-2.6 / varg `gpt_image_2_6`（作者声明；本仓未复测）`, `16` frames, `1:1` ｜编辑优先级：P1
+类型：游戏动作序列 ｜输出：Sprite 分镜 ｜证据：vargHQ gpt-image-sprite-sheet · 作者声明 gpt_image_2_6 · 非 OpenAI 官方验证 · 未复测 ｜提示词：逐字公开提示词 ｜推荐：`作者声明 gpt_image_2_6（非官方验证；本仓未复测）`, `16` frames, `1:1` ｜编辑优先级：P1
 
 本地不转载第三方成品图（实测为 png，不是 GIF）；请打开来源链接查看。
 
-varg 把上条日文规格译成英文，在 2026-11-04/05 用 gpt_image_2_6 出骑士跑循环 4×4 PNG（1024²→256² 格），再 slice 成循环。这是 Sprite 表切帧，不是原生 GIF。白底抠色后约 79% 透明，可能有白边，不是 API true alpha。技能写了 Phaser atlas / Godot SpriteFrames，但作者写明未跑引擎，故不能说已经用于游戏。本仓 HEAD 核到 PNG 签名与 MP4；未观看、未转载。
+工作流作者声明用 gpt_image_2_6 把 4×4 规格跑成骑士跑循环 PNG 再切帧。这是作者声明，不是 OpenAI 官方验证的 2.6 游戏成品，本仓未复测生成。白底抠色不是真 alpha。技能写了 Phaser/Godot 步骤但写明未跑引擎，不能说已经用于游戏。HEAD 核到 PNG 签名与短 MP4；未观看、未转载。
 
-状态：作者声明 2.6 · 未视觉复核 · 未复测生成
+状态：作者声明 2.6 · 未视觉复核 · 未复测生成 · 原作者声明 2.6 · 非官方验证
 
 第三方原文：
 
@@ -1142,16 +1267,16 @@ Show one continuous action in 4 columns × 4 rows, 16 frames in total.
 参考链接（2026-11-05）：https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md。
 
 
-<a id="idea-42"></a>
-### 42. 宣称用 2.6 GIF 分镜做的拳击游戏演示 / Claimed 2.6 GIF-sheet boxing game footage
+<a id="idea-46"></a>
+### 46. 宣传方宣称的 2.6 拳击游戏视频 / Promotional claim: 2.6 boxing-game footage
 
-类型：游戏动作序列 ｜输出：GIF ｜证据：Higgsfield @higgsfield_ai · 作者声明 GPT Image 2.6 GIF sprite sheets · amplify video · 未视觉复核 ｜提示词：来源未公开完整提示词，本站不编造 ｜推荐：`ChatGPT Images 2.6（平台声明；本仓未复测）`, `9` frames, `120` ms/frame, `16:9` ｜编辑优先级：P1
+类型：游戏动作序列 ｜输出：GIF ｜证据：Higgsfield @higgsfield_ai · 宣传方宣称 2.6 · 未观看 MP4 · 无原文 prompt ｜提示词：来源未公开完整提示词，本站不编造 ｜推荐：`宣传方宣称 ChatGPT Images 2.6（未观看；非官方验证）`, `9` frames, `120` ms/frame, `16:9` ｜编辑优先级：P1
 
 本地不转载第三方成品图（实测为 mp4，不是 GIF）；请打开来源链接查看。
 
-平台帖称 first-person boxing game was built with GPT Image 2.6 GIF sprite sheets。附件是 amplify 视频不是 .gif，HEAD 为 video/mp4。本仓未观看，因此只记「作者宣称游戏内演示」，不写成已核引擎导入。提示词未公开，留空。同账号废料场/花灯/武士/对打视频只作相关样本，不拆成多张玩法卡。
+宣传帖称 boxing game was built with GPT Image 2.6 GIF sprite sheets。这是宣传方宣称，不是确认案例：无原文 prompt、附件是 amplify 视频不是 .gif、本仓未观看，不能写成已核引擎导入或已确认 2.6 游戏序列。同账号其他游戏向视频只作相关样本，不拆卡凑数。
 
-状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif
+状态：媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif · 宣传方宣称 · 未观看
 
 公开来源未给出完整提示词，本站不编造第三方原文。
 

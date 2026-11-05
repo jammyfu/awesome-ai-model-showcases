@@ -108,12 +108,34 @@ for i, x in enumerate(data, 1):
         flags.append("未复测生成")
     if x.get("media_kind") == "mp4":
         flags.append("对外媒体是 MP4，不是 .gif")
+    if x.get("image26_status") == "not_26":
+        flags.append("不是 Image 2.6 · 默认隐藏")
+    if x.get("image26_status") == "multimodel_postprocess":
+        flags.append("含其他模型后处理，不是纯 2.6")
+    if x.get("image26_status") == "promo_claim_unwatched":
+        flags.append("宣传方宣称 · 未观看")
+    if x.get("image26_status") == "author_claim_unverified":
+        flags.append("原作者声明 2.6 · 非官方验证")
     if flags:
         lines.append("状态：" + " · ".join(flags))
+        lines.append("")
+    if x.get("prompt_excerpt"):
+        lines.append("公开规格摘录（不是完整 prompt）：")
+        lines.append("")
+        lines.append("```text")
+        lines.append(x["prompt_excerpt"])
+        lines.append("```")
         lines.append("")
     if x["prompt_status"] == "empty":
         lines.append("公开来源未给出完整提示词，本站不编造第三方原文。")
         lines.append("")
+        if x.get("prompt_adaptation"):
+            lines.append("本站改编（不是第三方原文）：")
+            lines.append("")
+            lines.append("```text")
+            lines.append(x["prompt_adaptation"])
+            lines.append("```")
+            lines.append("")
     else:
         lines.append("第三方原文：")
         lines.append("")

@@ -53,8 +53,8 @@ for x in data:
     if x.get("frames_basis"):
         assert x["frames_basis"] in frames_bases, f'{x["id"]}: bad frames_basis'
     if x.get("prompt_adaptation"):
-        assert x["prompt_status"] == "verbatim", f'{x["id"]}: adaptations belong next to a verbatim original'
-        assert "本站" in x["prompt_adaptation"] or "this repo" in x["prompt_adaptation"].lower() or "本站改写" in x["prompt_adaptation"]
+        assert x["prompt_status"] in ("verbatim", "empty"), f'{x["id"]}: adaptations sit next to verbatim or empty originals, never invented third-party text'
+        assert "本站" in x["prompt_adaptation"] or "this repo" in x["prompt_adaptation"].lower() or "本站改写" in x["prompt_adaptation"] or "本站策划" in x["prompt_adaptation"]
     if x.get("media_kind") == "mp4":
         assert x["preview_kind"] == "link_only", f'{x["id"]}: MP4 cards stay link_only'
         assert x.get("visual_review_status") == "unwatched", f'{x["id"]}: X MP4 must stay unwatched'
@@ -66,12 +66,17 @@ for x in data:
         assert str(x.get("media_url", "")).startswith("https://")
         assert x.get("game_sequence") is True, f'{x["id"]}: PNG sheet cards are game sequences'
     if x.get("game_sequence"):
-        for key in ("pipeline", "action_kind", "alpha_status", "engine_import_status", "acceptance", "cell_spec"):
+        for key in ("pipeline", "action_kind", "alpha_status", "engine_import_status", "acceptance", "cell_spec", "image26_status"):
             assert x.get(key) not in (None, ""), f'{x["id"]} missing game field {key}'
         assert x["preview_kind"] == "link_only"
-        assert x["category"] == "游戏动作序列"
+        assert x["category"] in ("游戏动作序列", "其他模型参考"), f'{x["id"]}: unexpected game category'
+        assert x.get("counts_as_image26_game") is False, f'{x["id"]}: no official 2.6 game verification this round'
+        if x["image26_status"] == "not_26":
+            assert x.get("default_hidden") is True
+            assert x.get("include_in_image26_list") is False
+            assert x["category"] == "其他模型参考"
         claimed = "已经用于游戏" in x["description_zh"]
-        negated = any(s in x["description_zh"] for s in ("不能说已经用于游戏", "不写成已核", "本仓未观看"))
+        negated = any(s in x["description_zh"] for s in ("不能说已经用于游戏", "不写成已核", "本仓未观看", "未见引擎"))
         if claimed and not negated:
             raise AssertionError(f'{x["id"]}: do not claim in-game use without engine evidence')
     if x["preview_kind"] == "link_only":
@@ -105,16 +110,40 @@ for x in data:
 assert morphic_ids, "expected Morphic prompt cards to remain, honestly labeled"
 
 game_ids = [x["id"] for x in data if x.get("game_sequence")]
+by_id = {x["id"]: x for x in data}
 assert game_ids, "expected game-sequence playbooks"
-assert "game-ssss-4x4-spec" in game_ids
-assert "game-varg-knight-run" in game_ids
-assert "game-higgsfield-boxing" in game_ids
+for gid in (
+    "game-daft-pixel-combo",
+    "game-maker-evan-fox-ronin",
+    "game-xiaomovps-fighter",
+    "game-maker-evan-walk-cycle",
+    "game-ssss-4x4-spec",
+    "game-varg-knight-run",
+    "game-higgsfield-boxing",
+):
+    assert gid in by_id, f"missing {gid}"
+assert "yrzhe" not in json.dumps(data), "yrzhe coming-soon conflict must stay pending"
+ssss = by_id["game-ssss-4x4-spec"]
+assert ssss["image26_status"] == "not_26" and ssss["default_hidden"] is True
+assert by_id["game-daft-pixel-combo"]["prompt_status"] == "empty"
+assert by_id["game-xiaomovps-fighter"]["prompt_status"] == "empty"
+assert "Cut the sheets into frames" in by_id["game-maker-evan-fox-ronin"]["prompt"]
+assert by_id["game-maker-evan-walk-cycle"]["image26_status"] == "multimodel_postprocess"
+assert by_id["game-higgsfield-boxing"]["image26_status"] == "promo_claim_unwatched"
+assert by_id["game-varg-knight-run"]["image26_status"] == "author_claim_unverified"
+author_x = [x for x in data if "x-original-author" in (x.get("tags") or [])]
+assert {x["id"] for x in author_x} == {
+    "game-daft-pixel-combo",
+    "game-maker-evan-fox-ronin",
+    "game-xiaomovps-fighter",
+}
 gallery = json.loads((root / "docs/data/gallery.json").read_text(encoding="utf8"))
 gallery_ids = {x["id"] for x in gallery}
 for gid in game_ids:
     assert gid not in gallery_ids, f"{gid} must not enter the GIF gallery"
 game_html = (root / "docs/game.html").read_text(encoding="utf8")
-assert "游戏动作序列" in game_html
+assert "官方验证" in game_html
+assert "coming soon" not in game_html.lower() or "不当确认" in game_html
 assert "game.html" in (root / "docs/ideas.html").read_text(encoding="utf8")
 assert "game.html" in (root / "docs/index.html").read_text(encoding="utf8")
 
