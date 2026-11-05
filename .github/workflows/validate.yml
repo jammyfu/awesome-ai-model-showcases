@@ -20,7 +20,7 @@ jobs:
           git diff --exit-code -- docs/data/gallery.js
       - name: Validate GIF frames, timing and prompt files
         run: python tools/validate_gallery.py
-      - name: Check 20 GIF idea data and previews
+      - name: Check idea catalog data and previews
         run: |
           python tools/sync_ideas.py
           git diff --exit-code -- docs/data/ideas.js

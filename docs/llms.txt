@@ -1,0 +1,26 @@
+# Awesome GPT Image GIFs
+
+> A curated static gallery of looping AI GIFs and GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) use-case prompts. Independent community project, not an OpenAI product.
+
+This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python validators. It does not call the Images API at browse time. Sample GIFs in docs/gifs/ are real multi-frame files. Idea cards mix those GIFs, original SVG concept covers, and link-only third-party examples. Prompts are marked verbatim, reconstructed, or empty; empty means the public source did not publish a copyable prompt.
+
+## Pages
+
+- [GIF gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/): searchable animated GIF examples
+- [Idea playbook](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html): sourced use cases with prompts when available
+- [GitHub repository](https://github.com/jammyfu/awesome-gpt-image-gifs): source, validators, and contribution guide
+
+## Canonical data
+
+- [docs/data/gallery.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/gallery.json): shipped GIF metadata
+- [docs/data/ideas.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/ideas.json): idea catalog
+- [playbooks/ideas-and-prompts.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/ideas-and-prompts.md): full prompts
+- [playbooks/trends-2026-11.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/trends-2026-11.md): sources dated 2026-11-06 (Beijing time)
+- [CONTRIBUTING.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/CONTRIBUTING.md)
+- [MEDIA_RIGHTS.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/MEDIA_RIGHTS.md)
+
+## Official references
+
+- [Introducing Images 2.6](https://openai.com/index/introducing-images-2-6/) (2026-11-04)
+- [Image generation](https://developers.openai.com/api/docs/guides/image-generation)
+- [Image prompting](https://developers.openai.com/api/docs/guides/image-prompting)

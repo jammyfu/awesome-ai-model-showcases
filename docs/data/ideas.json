@@ -23,7 +23,10 @@
     ],
     "preview": "gifs/cat-screen-crack.gif",
     "preview_kind": "existing_gif",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "head-pat-meme",
@@ -48,7 +51,10 @@
     ],
     "preview": "gifs/pixel-head-pat.gif",
     "preview_kind": "existing_gif",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "reaction-cat-bonk",
@@ -73,7 +79,10 @@
     ],
     "preview": "gifs/cat-headbutt.gif",
     "preview_kind": "existing_gif",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "anime-nod",
@@ -98,7 +107,10 @@
     ],
     "preview": "previews/anime-nod.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "stock-market-cry",
@@ -123,7 +135,10 @@
     ],
     "preview": "previews/stock-market-cry.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-04"
   },
   {
     "id": "stock-market-cheer",
@@ -148,7 +163,10 @@
     ],
     "preview": "previews/stock-market-cheer.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-04"
   },
   {
     "id": "mascot-wave",
@@ -173,7 +191,10 @@
     ],
     "preview": "previews/mascot-wave.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "typing-companion",
@@ -199,7 +220,10 @@
     ],
     "preview": "previews/typing-companion.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-04"
   },
   {
     "id": "sketch-owl",
@@ -224,7 +248,10 @@
     ],
     "preview": "previews/sketch-owl.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-04"
   },
   {
     "id": "earbuds-product",
@@ -249,7 +276,10 @@
     ],
     "preview": "previews/earbuds-product.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "coffee-steam",
@@ -274,7 +304,10 @@
     ],
     "preview": "previews/coffee-steam.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "perfume-light",
@@ -299,7 +332,10 @@
     ],
     "preview": "previews/perfume-light.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "neon-word-switch",
@@ -324,7 +360,10 @@
     ],
     "preview": "previews/neon-word-switch.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "pelican-bicycle",
@@ -349,7 +388,10 @@
     ],
     "preview": "previews/pelican-bicycle.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05"
   },
   {
     "id": "pixel-idle",
@@ -374,7 +416,10 @@
     ],
     "preview": "previews/pixel-idle.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": ""
   },
   {
     "id": "facepalm-sticker",
@@ -399,7 +444,10 @@
     ],
     "preview": "previews/facepalm-sticker.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": ""
   },
   {
     "id": "food-steam",
@@ -424,7 +472,10 @@
     ],
     "preview": "previews/food-steam.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": ""
   },
   {
     "id": "success-check",
@@ -449,7 +500,10 @@
     ],
     "preview": "previews/success-check.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": ""
   },
   {
     "id": "portal-glow",
@@ -474,7 +528,10 @@
     ],
     "preview": "previews/portal-glow.svg",
     "preview_kind": "concept_illustration",
-    "tested_here": false
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": ""
   },
   {
     "id": "weather-snow",
@@ -498,6 +555,531 @@
       "ambient"
     ],
     "preview": "previews/weather-snow.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false,
+    "prompt_status": "reconstructed",
+    "output_kind": "gif",
+    "evidence_date": ""
+  },
+  {
+    "id": "sprite-sheet-stock-crash",
+    "title_zh": "Sprite 分镜再转 GIF",
+    "title_en": "Sprite Sheet Then GIF",
+    "category": "Sprite 分镜",
+    "emoji": "🎞️",
+    "origin": "official",
+    "source_url": "https://openai.com/index/introducing-images-2-6/",
+    "source_label": "OpenAI 官方发布",
+    "model": "Sunburst",
+    "frames": 6,
+    "frame_duration_ms": 0,
+    "aspect": "1:1",
+    "priority": "P1",
+    "description_zh": "开脑洞点：官方把循环 GIF 写成 3×2 分镜表，先出齐 6 格再按序播放。与本站「股票下跌崩溃」是同一题材的分镜工作流变体，不是新梗。",
+    "prompt": "Create a single animation sprite sheet for a seamless looping GIF. A super-cute chibi adult office worker sits at a desk watching a computer monitor with a clearly plunging stock-market line chart. The sequence: hopeful expression, notices the chart falling, eyes widen, face crumples, large cartoon tears stream down both cheeks, then quietly wipes tears while still staring at the falling chart. Oversized round head, tiny body, big expressive eyes, soft rounded features, messy fluffy hair, white shirt and loosened tie. Exactly 6 sequential frames arranged in a precise 3-column by 2-row grid, read left-to-right then top-to-bottom. Every panel has identical dimensions. Fixed front three-quarter camera, same character, same desk, monitor, outfit, and cozy miniature office background. Clear incremental facial and tear motion; sixth frame transitions smoothly toward the first. Polished kawaii chibi 3D toy-like style, warm pastel lighting, funny and sympathetic mood. No captions, no words, no numbers, no logos, no speech bubbles, no panel labels, no borders, no gutters.",
+    "prompt_status": "verbatim",
+    "output_kind": "sprite_sheet",
+    "evidence_date": "2026-11-04",
+    "tags": [
+      "sprite-sheet",
+      "gif",
+      "chibi",
+      "variant"
+    ],
+    "preview": "previews/sprite-sheet-stock-crash.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "baker-mascot-sprite",
+    "title_zh": "面包师吉祥物分镜表",
+    "title_en": "Dough Baker Mascot Sprite Sheet",
+    "category": "Sprite 分镜",
+    "emoji": "🍞",
+    "origin": "tested",
+    "source_url": "https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts",
+    "source_label": "Morphic 公开提示词库（示例跑在 2.5）",
+    "model": "Sunburst",
+    "frames": 6,
+    "frame_duration_ms": 0,
+    "aspect": "1:1",
+    "priority": "P1",
+    "description_zh": "开脑洞点：先做角色设定表，再用同一顶帽/腮红/领巾出 6 帧揉面→挥手循环，比单句「吉祥物招手」更能锁身份。",
+    "prompt": "One animation sprite sheet for a looping GIF of the dough baker mascot from the sheet, same hat, cheeks and rust-red neckerchief: exactly 6 frames in a 3-column by 2-row grid, every panel the same size. Sequence: kneads a ball of dough, presses, folds, looks up and smiles, waves, and the sixth frame leads back into the first. Fixed front three-quarter camera, the same oak counter and plain oat-colored background in every panel, the same soft clay-like 3D render. No text, no numbers, no borders, no gutters, no panel labels.",
+    "prompt_status": "verbatim",
+    "output_kind": "sprite_sheet",
+    "evidence_date": "2026-11-06",
+    "tags": [
+      "mascot",
+      "sprite-sheet",
+      "bakery",
+      "consistency"
+    ],
+    "preview": "previews/baker-mascot-sprite.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "papercraft-koi",
+    "title_zh": "剪纸锦鲤环游",
+    "title_en": "Papercraft Koi Loop",
+    "category": "创意特效",
+    "emoji": "🐟",
+    "origin": "tested",
+    "source_url": "https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts",
+    "source_label": "Morphic 公开提示词库（示例跑在 2.5）",
+    "model": "Sunburst",
+    "frames": 6,
+    "frame_duration_ms": 0,
+    "aspect": "1:1",
+    "priority": "P1",
+    "description_zh": "开脑洞点：不是照片微动，而是整条鱼用层叠色纸游一圈；俯视锁定、第六帧接回第一帧，适合做手工质感 sticker。",
+    "prompt": "One animation sprite sheet for a looping GIF: exactly 6 frames in a 3-column by 2-row grid, every panel the same size. A papercraft koi made of layered cut paper in vermilion, cream and ink black swims one slow circle through a still pond of deep teal paper ripples, its tail sweeping a little further in each frame, and the sixth frame leads smoothly back into the first. Fixed overhead camera, the same pond, lily pad and soft paper shadows in every panel, warm diffused light, tactile handmade texture. No text, no borders, no gutters, no panel labels.",
+    "prompt_status": "verbatim",
+    "output_kind": "sprite_sheet",
+    "evidence_date": "2026-11-06",
+    "tags": [
+      "papercraft",
+      "koi",
+      "sprite-sheet",
+      "loop"
+    ],
+    "preview": "previews/papercraft-koi.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "markup-vase-recolor",
+    "title_zh": "圈选花瓶改色",
+    "title_en": "Markup Recolor One Object",
+    "category": "局部改图",
+    "emoji": "🎯",
+    "origin": "official",
+    "source_url": "https://developers.openai.com/api/docs/guides/image-prompting",
+    "source_label": "OpenAI 官方提示词指南",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "4:3",
+    "priority": "P1",
+    "description_zh": "开脑洞点：2.6 把 ChatGPT 圈选 markup 接到 API。透明 PNG 叠层指出位置，提示词只说改什么、什么必须留下，并删掉红圈。",
+    "prompt": "Recolor the striped vase inside the red circle to solid cobalt blue ceramic. Keep its shape, the dried stems, and the rest of the kitchen unchanged. Remove the red circle from the finished photo.",
+    "prompt_status": "verbatim",
+    "output_kind": "edit",
+    "evidence_date": "2026-11-04",
+    "tags": [
+      "markup",
+      "edit",
+      "recolor",
+      "local"
+    ],
+    "preview": "previews/markup-vase-recolor.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "markup-sign-text",
+    "title_zh": "圈选替换招牌字",
+    "title_en": "Markup Replace Sign Text",
+    "category": "局部改图",
+    "emoji": "🪧",
+    "origin": "tested",
+    "source_url": "https://www.nereo.io/blog/gpt-2-6-prompts",
+    "source_label": "Nereo 可复制提示词",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "1:1",
+    "priority": "P1",
+    "description_zh": "开脑洞点：局部改图不是重画整张海报，而是圈出招牌、指定精确文案，并要求匹配原字体、颜色和透视。",
+    "prompt": "Change the words on the sign inside the circle to \"[OPEN LATE]\". Match the original lettering, color and perspective. Keep everything else unchanged.",
+    "prompt_status": "verbatim",
+    "output_kind": "edit",
+    "evidence_date": "2026-11-05",
+    "tags": [
+      "markup",
+      "typography",
+      "sign",
+      "edit"
+    ],
+    "preview": "previews/markup-sign-text.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "svg-field-flour",
+    "title_zh": "可缩放面包店 SVG 标志",
+    "title_en": "Field & Flour SVG Logo",
+    "category": "SVG 与 Logo",
+    "emoji": "🥖",
+    "origin": "official",
+    "source_url": "https://developers.openai.com/api/docs/guides/image-prompting",
+    "source_label": "OpenAI 官方提示词指南",
+    "model": "Flare",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "1:1",
+    "priority": "P1",
+    "description_zh": "开脑洞点：生成接口可直接 output_format=svg，得到可改路径的矢量标，而不是嵌了位图的假矢量。官方同时给了 Flare/Sunburst 对照。",
+    "prompt": "Create an original, non-infringing logo for a company called Field & Flour, a local bakery.\nThe logo should feel warm, simple, and timeless. Use clean, vector-like shapes, a strong silhouette, and balanced negative space.\nFavor simplicity over detail so it reads clearly at small and large sizes. Flat design, minimal strokes, no gradients unless essential.\nFully transparent background. Deliver a single centered logo with generous padding, clean alpha edges, and no solid backdrop, scenery, checkerboard, or watermark.",
+    "prompt_status": "verbatim",
+    "output_kind": "svg",
+    "evidence_date": "2026-11-04",
+    "tags": [
+      "svg",
+      "logo",
+      "vector",
+      "bakery"
+    ],
+    "preview": "previews/svg-field-flour.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "svg-weather-icons",
+    "title_zh": "天气图标 SVG 套件",
+    "title_en": "Matching Weather Icon SVG Set",
+    "category": "SVG 与 Logo",
+    "emoji": "⛅",
+    "origin": "tested",
+    "source_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+    "source_label": "公开实测案例",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "3:2",
+    "priority": "P1",
+    "description_zh": "开脑洞点：一次生成 6 个同线宽、同端点的图标，而不是 6 次风格漂移。Lightlyn 实测 SVG 约 2–13 KB，可进 Figma。",
+    "prompt": "A set of six matching line icons for a weather app arranged in a 3 by 2 grid: sun, cloud, rain, snow, thunderstorm, wind. Consistent stroke width, rounded ends, one accent colour.",
+    "prompt_status": "verbatim",
+    "output_kind": "svg",
+    "evidence_date": "2026-11-05",
+    "tags": [
+      "svg",
+      "icons",
+      "weather",
+      "ui"
+    ],
+    "preview": "previews/svg-weather-icons.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "character-ref-sheet",
+    "title_zh": "吉祥物三视图设定表",
+    "title_en": "Character Reference Sheet",
+    "category": "角色设定",
+    "emoji": "📋",
+    "origin": "tested",
+    "source_url": "https://morphic.com/resources/how-to/chatgpt-images-2-6-guide",
+    "source_label": "Morphic 公开提示词库（示例跑在 2.5）",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "3:2",
+    "priority": "P1",
+    "description_zh": "开脑洞点：2.6 可保存参考图并按名调用。先出正/侧/背 + 表情条，再拿去出分镜或新场景，比口头描述更稳。",
+    "prompt": "A character reference sheet for an invented bakery's mascot: a small round baker made of soft bread dough, with a tiny white chef hat, flour-dusted cheeks and a rust-red neckerchief, shown three times at the same scale, front view, side view and back view, with a row of four small facial expressions beneath (cheerful, proud, sleepy, surprised). Soft clay-like 3D render with visible fingerprint texture, warm even studio light, plain oat-colored background, identical proportions and colors in every view. No text, no labels, no logos.",
+    "prompt_status": "verbatim",
+    "output_kind": "still",
+    "evidence_date": "2026-11-06",
+    "tags": [
+      "reference-sheet",
+      "mascot",
+      "consistency",
+      "character"
+    ],
+    "preview": "previews/character-ref-sheet.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "character-new-scene",
+    "title_zh": "同一角色换场景",
+    "title_en": "Same Character, New Scene",
+    "category": "角色设定",
+    "emoji": "🌉",
+    "origin": "tested",
+    "source_url": "https://www.nereo.io/blog/gpt-2-6-prompts",
+    "source_label": "Nereo 可复制提示词",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "16:9",
+    "priority": "P1",
+    "description_zh": "开脑洞点：把设定表当 image 输入，只改动作与环境，并逐项点名脸、头发、服装、配色不许变。",
+    "prompt": "Using the character in the reference image, show them [crossing a rope bridge in the rain]. Keep the face, hair, outfit and colors the same.",
+    "prompt_status": "verbatim",
+    "output_kind": "still",
+    "evidence_date": "2026-11-05",
+    "tags": [
+      "reference-image",
+      "consistency",
+      "character",
+      "scene"
+    ],
+    "preview": "previews/character-new-scene.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "lantern-monkey-gif",
+    "title_zh": "提灯小猴循环",
+    "title_en": "Lantern Monkey Loop",
+    "category": "角色动画",
+    "emoji": "🐵",
+    "origin": "official",
+    "source_url": "https://developers.openai.com/api/docs/guides/image-prompting",
+    "source_label": "OpenAI 官方提示词指南",
+    "model": "Sunburst",
+    "frames": 9,
+    "frame_duration_ms": 200,
+    "aspect": "1:1",
+    "priority": "P1",
+    "description_zh": "开脑洞点：官方 GIF 范例把起始姿势、提灯、眨眼、回落写进同一段，并给出 9 帧 × 200 ms = 1.8 秒、512²、Sunburst high。",
+    "prompt": "A little monkey in an olive-green hooded coat stands in a snowy pine forest at dusk. A wooden cabin glows in the background. The monkey holds a glowing amber paper lantern at chest height, slowly lifts it, looks up and blinks, then lowers it back to its starting pose. Keep the lantern in its hands and the camera still. Make the motion loop smoothly.",
+    "prompt_status": "verbatim",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-04",
+    "tags": [
+      "gif",
+      "character",
+      "loop",
+      "official"
+    ],
+    "preview": "previews/lantern-monkey-gif.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "sale-badge-gif",
+    "title_zh": "精确文字促销徽章",
+    "title_en": "Exact-Text Sale Badge GIF",
+    "category": "文字海报",
+    "emoji": "🏷️",
+    "origin": "tested",
+    "source_url": "https://www.nereo.io/blog/gpt-2-6-prompts",
+    "source_label": "Nereo 可复制提示词",
+    "model": "Flare",
+    "frames": 9,
+    "frame_duration_ms": 180,
+    "aspect": "1:1",
+    "priority": "P1",
+    "description_zh": "开脑洞点：短循环不是角色在动，而是徽章钉死、火花在闪，并把要印的字放进引号要求逐字拼写。",
+    "prompt": "Make a looping GIF of a round badge that says \"[50% OFF]\" with small sparkles appearing around it. Spell the text exactly. Keep the badge in one place.",
+    "prompt_status": "verbatim",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05",
+    "tags": [
+      "badge",
+      "typography",
+      "gif",
+      "sale"
+    ],
+    "preview": "previews/sale-badge-gif.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "packaging-dieline",
+    "title_zh": "茶叶盒展开刀模",
+    "title_en": "Tea Carton Packaging Dieline",
+    "category": "产品广告",
+    "emoji": "📦",
+    "origin": "tested",
+    "source_url": "https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts",
+    "source_label": "Morphic 公开提示词库（示例跑在 2.5）",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "16:9",
+    "priority": "P2",
+    "description_zh": "开脑洞点：不是拍成品包装，而是一次画出六面展开图、折叠虚线和两句精确文案，给包装设计预演。",
+    "prompt": "A flat packaging dieline for an unbranded loose-leaf tea carton laid out on a pale grey surface: front, back, two sides, top and bottom panels unfolded. Front panel reads HIGHLAND BREAKFAST with a small mountain line illustration; back panel has a short brewing guide reading STEEP 4 MINUTES AT 95 C. Sage green and cream with a thin gold rule, dotted fold lines between panels. Every word spelled correctly, no other text, no barcodes, no logos.",
+    "prompt_status": "verbatim",
+    "output_kind": "still",
+    "evidence_date": "2026-11-06",
+    "tags": [
+      "packaging",
+      "dieline",
+      "typography",
+      "product"
+    ],
+    "preview": "previews/packaging-dieline.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "labelled-bakery-cutaway",
+    "title_zh": "六区标注烘焙剖面",
+    "title_en": "Labelled Bakery Cutaway",
+    "category": "文字海报",
+    "emoji": "🏪",
+    "origin": "tested",
+    "source_url": "https://morphic.com/resources/how-to/chatgpt-images-2-6-guide",
+    "source_label": "Morphic 公开提示词库（示例跑在 2.5）",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "16:9",
+    "priority": "P2",
+    "description_zh": "开脑洞点：把 complexity 写进提示词——六区六块牌、每词只出现一次，并禁止门窗再长字。适合信息图与空间说明。",
+    "prompt": "Isometric cutaway illustration of a small corner bakery seen from above at a 45-degree angle, the front wall removed. Six areas, each with one short label on a small plaque, exactly once each: OVEN, PROOFING, COUNTER, PANTRY, SINK, SEATING. A baker shaping loaves, a customer at the counter, trays of bread cooling on racks, warm pastel palette, clean line work, soft shadows, plenty of fine detail. Those six plaques are the only text in the image: the door, windows, boxes and walls carry no signs or writing. Every word spelled correctly, no logos.",
+    "prompt_status": "verbatim",
+    "output_kind": "still",
+    "evidence_date": "2026-11-06",
+    "tags": [
+      "infographic",
+      "labels",
+      "typography",
+      "complexity"
+    ],
+    "preview": "previews/labelled-bakery-cutaway.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "winter-edition-edit",
+    "title_zh": "只改一处的冬季版",
+    "title_en": "One-Change Winter Edition",
+    "category": "局部改图",
+    "emoji": "🧣",
+    "origin": "tested",
+    "source_url": "https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts",
+    "source_label": "Morphic 公开提示词库（示例跑在 2.5）",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "2:3",
+    "priority": "P1",
+    "description_zh": "开脑洞点：分轮编辑的最小单位——上一张海报只改标题和配色，版式不动。比一次重写整张更接近生产改稿。",
+    "prompt": "Make it the winter edition: headline WINTER BAKE, frost blue and rust. Keep the layout.",
+    "prompt_status": "verbatim",
+    "output_kind": "edit",
+    "evidence_date": "2026-11-06",
+    "tags": [
+      "edit",
+      "one-change",
+      "poster",
+      "iteration"
+    ],
+    "preview": "previews/winter-edition-edit.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "autumn-bake-poster",
+    "title_zh": "橱窗里的精确字海报",
+    "title_en": "In-Situ Exact-Text Poster",
+    "category": "文字海报",
+    "emoji": "🗞️",
+    "origin": "tested",
+    "source_url": "https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts",
+    "source_label": "Morphic 公开提示词库（示例跑在 2.5）",
+    "model": "Sunburst",
+    "frames": 0,
+    "frame_duration_ms": 0,
+    "aspect": "2:3",
+    "priority": "P1",
+    "description_zh": "开脑洞点：不是透明背景招贴，而是把海报贴进真实橱窗，要求 AUTUMN BAKE / EMBER & OAT 拼写正确，并禁止多余日期网址。",
+    "prompt": "A risograph-printed seasonal poster taped inside the front window of a small bakery, photographed straight on from the street in soft morning light. Headline AUTUMN BAKE in a bold rounded serif in rust red, a smaller line beneath reading EMBER & OAT, a two-color illustration of a scored loaf and wheat stalks in rust and deep green on cream paper, visible riso grain and slight misregistration, faint reflections of the street on the glass. Every word spelled correctly, no other text, no dates, no web addresses.",
+    "prompt_status": "verbatim",
+    "output_kind": "still",
+    "evidence_date": "2026-11-06",
+    "tags": [
+      "poster",
+      "typography",
+      "risograph",
+      "in-situ"
+    ],
+    "preview": "previews/autumn-bake-poster.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "krouxzz-wave-ref",
+    "title_zh": "上传角色让它招手",
+    "title_en": "Reference Character Wave GIF",
+    "category": "角色动画",
+    "emoji": "👋",
+    "origin": "community",
+    "source_url": "https://x.com/Krouxzz/status/2118283796181053637",
+    "source_label": "社区公开案例",
+    "model": "Flare",
+    "frames": 9,
+    "frame_duration_ms": 180,
+    "aspect": "1:1",
+    "priority": "P2",
+    "description_zh": "开脑洞点：最短可用句。上传参考图后只说 loop + waving；X 帖带演示 GIF，本仓库不转载该动画。",
+    "prompt": "Make a looping GIF of this character waving.",
+    "prompt_status": "verbatim",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05",
+    "tags": [
+      "reference-image",
+      "wave",
+      "gif",
+      "short-prompt"
+    ],
+    "preview": "",
+    "preview_kind": "link_only",
+    "tested_here": false
+  },
+  {
+    "id": "storyboard-pre-video",
+    "title_zh": "拍片前的动作分镜 GIF",
+    "title_en": "Pre-Video Storyboard Loop",
+    "category": "分镜预演",
+    "emoji": "🎬",
+    "origin": "official",
+    "source_url": "https://openai.com/index/introducing-images-2-6/",
+    "source_label": "OpenAI 官方发布",
+    "model": "Sunburst",
+    "frames": 12,
+    "frame_duration_ms": 160,
+    "aspect": "16:9",
+    "priority": "P2",
+    "description_zh": "开脑洞点：官方把 GIF 定位成视频前的动作预演（角色怎么动、镜头是否该锁死），而不是成片。公开页没有给出可复制提示词，这里留空不编造。",
+    "prompt": "",
+    "prompt_status": "empty",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-04",
+    "tags": [
+      "storyboard",
+      "pre-video",
+      "gif",
+      "no-public-prompt"
+    ],
+    "preview": "previews/storyboard-pre-video.svg",
+    "preview_kind": "concept_illustration",
+    "tested_here": false
+  },
+  {
+    "id": "photo-to-gif-steam",
+    "title_zh": "实拍咖啡只动蒸汽",
+    "title_en": "Animate This Photo: Steam Only",
+    "category": "照片微动效",
+    "emoji": "📷",
+    "origin": "tested",
+    "source_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+    "source_label": "公开实测案例",
+    "model": "Flare",
+    "frames": 9,
+    "frame_duration_ms": 200,
+    "aspect": "3:2",
+    "priority": "P1",
+    "description_zh": "开脑洞点：与本站「咖啡热气微动」文生图模板不同，这条是上传实拍后只允许蒸汽和光线动。Lightlyn 2026-11-05 实测杯子/桌子/窗户保持不动。",
+    "prompt": "Make this photo move: gentle steam rises and curls above the latte, soft light flickers slightly. Keep the cup, the table and the window exactly as they are. Seamless loop.",
+    "prompt_status": "verbatim",
+    "output_kind": "gif",
+    "evidence_date": "2026-11-05",
+    "tags": [
+      "photo-to-gif",
+      "cinemagraph",
+      "steam",
+      "reference-image"
+    ],
+    "preview": "previews/photo-to-gif-steam.svg",
     "preview_kind": "concept_illustration",
     "tested_here": false
   }

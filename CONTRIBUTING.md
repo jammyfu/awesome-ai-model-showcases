@@ -20,4 +20,14 @@ PRs are welcome for original, rights-cleared GIF animations and well-documented 
 - [ ] No misleading claim of a tested API call or exact checkpoint
 - [ ] Metadata sync + GIF validator pass
 
+## Idea catalog (optional, no GIF required)
+
+To add a sourced use case without shipping a GIF:
+
+1. Append one object to `docs/data/ideas.json`.
+2. Set `prompt_status` to `verbatim`, `reconstructed`, or `empty`. If the original prompt was not published, leave `prompt` as `""` — do not invent third-party wording.
+3. Set `preview_kind` to `concept_illustration` (original SVG under `docs/previews/`), `existing_gif`, or `link_only` (empty `preview`, HTTPS `source_url` only). Do not download paywalled or personal photos, and do not pretend a third-party GIF was generated here.
+4. Set `output_kind` to `gif`, `sprite_sheet`, `still`, `svg`, or `edit`. Non-GIF kinds use `frames` 0 and `frame_duration_ms` 0.
+5. Run `python3 tools/sync_ideas.py` then `python3 tools/validate_ideas.py`.
+
 The **MIT LICENSE covers code**, not automatically every sample animation or third-party source. See `MEDIA_RIGHTS.md`.
