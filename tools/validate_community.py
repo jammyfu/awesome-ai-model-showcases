@@ -98,8 +98,22 @@ def main() -> int:
     for t in topics:
         assert re.fullmatch(r"[a-z0-9][a-z0-9-]{0,34}", t), t
     assert about["homepage"].startswith("https://jammyfu.github.io/")
-    assert "playbook showcase" in about["description"].lower()
+    assert about["description"] == (
+        "Community catalog of real GPT Image GIF cases: original authors, "
+        "media, prompts, sources, and pipelines. GPT Image 2.6. English & 中文."
+    )
     assert len(about["description"]) <= 350
+    for path, blob in (("README.md", readme), ("README.zh-CN.md", readme_zh), ("community-cases.md", md)):
+        for i, line in enumerate(blob.splitlines(), 1):
+            if line.startswith("|") or not line.strip() or line.startswith("|---"):
+                continue
+            if i > 1 and blob.splitlines()[i - 2].startswith("|") and "|" in line:
+                raise AssertionError(f"{path}:{i} table row split by newline: {line[:80]}")
+    for name in ("x-miramusic-stretch", "x-xepher113-oc12", "x-yulikay-toast"):
+        for blob in (readme, readme_zh):
+            for line in blob.splitlines():
+                if name in line:
+                    assert line.startswith("|") and line.count("|") >= 10, (name, line)
 
     print(
         "community catalog ok: "

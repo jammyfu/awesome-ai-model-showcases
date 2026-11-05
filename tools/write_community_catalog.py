@@ -26,21 +26,20 @@ OUT_ABOUT = ROOT / "docs/github-about.json"
 GITHUB_ABOUT = {
     "description": (
         "Community catalog of real GPT Image GIF cases: original authors, "
-        "original media, prompts, sources, and pipelines. GPT Image 2.6. "
-        "Not an original playbook showcase. English & 中文."
+        "media, prompts, sources, and pipelines. GPT Image 2.6. English & 中文."
     ),
     "homepage": "https://jammyfu.github.io/awesome-gpt-image-gifs/",
     "topics": [
-        "gpt-image",
-        "gpt-image-2-6",
-        "gif",
         "animated-gif",
-        "prompt-engineering",
-        "image-generation",
-        "sprite-sheet",
-        "game-assets",
         "awesome-list",
         "chinese",
+        "game-assets",
+        "gif",
+        "gpt-image",
+        "gpt-image-2-6",
+        "image-generation",
+        "prompt-engineering",
+        "sprite-sheet",
     ],
 }
 
@@ -181,6 +180,14 @@ HEADERS_ZH = "| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 
 HEADERS_EN = "| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |"
 
 
+def cell(text, limit: int | None = None) -> str:
+    s = str(text or "").replace("\r\n", " ").replace("\n", " ").replace("\r", " ")
+    s = s.replace("|", "/").replace("  ", " ").strip()
+    if limit is not None:
+        s = s[:limit]
+    return s
+
+
 def md_table(rows: list[dict], headers: str = HEADERS_ZH) -> str:
     lines = [
         headers,
@@ -192,17 +199,17 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH) -> str:
         lines.append(
             "| {i} | {author} | {title} | {src} | {media} | {prompt} | {model} | {pipe} | {verify} | {lic} |".format(
                 i=i,
-                author=(r.get("author") or "").replace("|", "/"),
+                author=cell(r.get("author")),
                 title="`{id}` {title}".format(
                     id=r["id"],
-                    title=(r.get("title") or r["id"]).replace("|", "/")[:60],
+                    title=cell(r.get("title") or r["id"], 60),
                 ),
                 src=src,
                 media=media,
-                prompt=r.get("prompt_status") or "空",
-                model=(r.get("model_claim") or "")[:40].replace("|", "/"),
-                pipe=(r.get("pipeline") or "")[:36].replace("|", "/"),
-                verify=(r.get("verify") or "")[:36].replace("|", "/"),
+                prompt=cell(r.get("prompt_status") or "空"),
+                model=cell(r.get("model_claim"), 40),
+                pipe=cell(r.get("pipeline"), 36),
+                verify=cell(r.get("verify"), 36),
                 lic="仅外链",
             )
         )
