@@ -1,0 +1,39 @@
+{
+  "project": "awesome-gpt-image-gifs",
+  "scanned_at": "2026-11-06",
+  "scan_method": "manifests and source files, not README claims",
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Python"
+  ],
+  "capabilities": [
+    "Static GitHub Pages gallery",
+    "GIF frame and duration validation",
+    "Idea catalog JSON/JS/Markdown sync",
+    "GitHub Actions CI"
+  ],
+  "runtime": "Static files in the browser; Python 3.12 in GitHub Actions for validators",
+  "core_dependencies": [
+    {
+      "package": "Pillow",
+      "version": ">=10,<13",
+      "source": "requirements-dev.txt",
+      "used_by": "tools/validate_gallery.py"
+    }
+  ],
+  "not_present": [
+    "Node.js / npm",
+    "React / Next.js",
+    "backend API",
+    "database",
+    "Dockerfile"
+  ],
+  "delivery": [
+    ".github/workflows/validate.yml",
+    ".github/workflows/pages.yml"
+  ],
+  "confidence": "high",
+  "hero": "existing gallery GIFs plus local SVG monogram; no paid image API used"
+}
