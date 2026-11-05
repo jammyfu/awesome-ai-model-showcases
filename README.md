@@ -14,6 +14,12 @@
 
 > **Publishing note:** The gallery URL above is the conventional GitHub Pages address, not a claim that Pages has already been activated. Enable Pages after creating the repository.
 
+## 🔥 20 GIF ideas & copyable prompts / 20 个玩法合集
+
+**[Open the visual idea gallery / 打开图像玩法列表](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)** · **[All 20 full prompts / 完整提示词](playbooks/ideas-and-prompts.md)** · [Sources & research method / 来源与方法](playbooks/trends-2026-11.md) · [Prompt formula / 通用模板](playbooks/prompt-formula.md)
+
+Updated November 6, 2026. The new collection covers reaction memes, character animation, mascots, product advertising, cinemagraphs, UI motion and visual effects. Each card includes an original English prompt, recommended frames/duration/model and a dated public evidence link when available. **This is a qualitative editorial selection, not a measured search-trend leaderboard.** The cards use a mix of existing repository GIF previews and clearly labeled original vector *concept* thumbnails; no claim that all 20 ideas have been generated or tested.
+
 ## ✨ GIF gallery
 
 Click any thumbnail to open the original GIF. All files below are real animated GIFs (not PNG contact sheets with a `.gif` extension).
@@ -84,6 +90,10 @@ If you edit `docs/data/gallery.json`, run `python3 tools/sync_gallery_js.py` and
 
 ```text
 docs/                   GitHub Pages gallery (static)
+  ideas.html             20 image idea cards + copy prompts
+  data/ideas.json        Canonical idea and source metadata
+  previews/              Original SVG concept illustrations
+playbooks/               Detailed prompt catalog + evidence
   gifs/                 Real animated GIF files
   data/gallery.json     Canonical metadata
   data/gallery.js       Browser copy of metadata
