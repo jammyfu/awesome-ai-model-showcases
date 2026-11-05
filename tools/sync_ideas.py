@@ -37,7 +37,7 @@ lines = [
     "",
     f"> Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。不是按真实搜索量排名。",
     "",
-    "[打开交互式图像列表](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html) · [结构化 JSON](../docs/data/ideas.json) · [来源与方法](trends-2026-11.md)",
+    "[打开交互式图像列表](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html) · [结构化 JSON](../docs/data/ideas.json) · [参考出处](sources.md) · [来源与方法](trends-2026-11.md)",
     "",
     "| # | 玩法 | 类别 | 来源 | Prompt | 建议模型 / 规格 |",
     "|---:|---|---|---|---|---|",
@@ -104,6 +104,17 @@ for i, x in enumerate(data, 1):
         lines.append("参考链接：原创延伸，无第三方参考。")
     lines.append("")
     lines.append("")
+
+lines += [
+    "## 参考出处 / Sources",
+    "",
+    "完整列表见 [sources.md](sources.md)。本页卡片若引用路飞 X Article，出处统一为：",
+    "",
+    "- 路飞 [@0xluffy_eth](https://x.com/0xluffy_eth)，《榨干 Image 2.6 的 10 个神级玩法！【附完整提示词】》",
+    "- [X Article](https://x.com/i/article/2118269816821919744) · [介绍帖](https://x.com/0xluffy_eth/status/2118274913337552992) · 2026-11-05",
+    "- 中文提示词按原文逐字收录；封面为原创 SVG，不转载文中 GIF。",
+    "",
+]
 
 playbook = root / "playbooks/ideas-and-prompts.md"
 playbook.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")

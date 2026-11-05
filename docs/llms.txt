@@ -15,6 +15,7 @@ This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python
 - [docs/data/gallery.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/gallery.json): shipped GIF metadata
 - [docs/data/ideas.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/ideas.json): idea catalog
 - [playbooks/ideas-and-prompts.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/ideas-and-prompts.md): full prompts
+- [playbooks/sources.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/sources.md): attributed sources, including 路飞 @0xluffy_eth X Article
 - [playbooks/trends-2026-11.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/trends-2026-11.md): sources dated 2026-11-06 (Beijing time)
 - [CONTRIBUTING.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/CONTRIBUTING.md)
 - [MEDIA_RIGHTS.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/MEDIA_RIGHTS.md)

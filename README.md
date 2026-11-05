@@ -47,11 +47,17 @@
 
 ## What is in the idea catalog?
 
-Updated **2026-11-06 (Beijing time)**. The catalog now holds the original 20 GIF-oriented cards plus 18 sourced cases for sprite sheets, markup edits, SVG logos, reference-image consistency, exact-text posters, and photo-to-GIF. Prompts are labeled `verbatim` (copied from a public page), `reconstructed` (authored here), or `empty` (source described the capability, no copyable prompt). Concept thumbnails are original SVGs unless a card already has a repository GIF; third-party demos are linked, not mirrored.
+Updated **2026-11-06 (Beijing time)**. The catalog is a **quality-first** set of distinctive playbooks: looping GIFs, sprite-sheet workflows, markup/local edits, SVG logos, and reference-image consistency. Weak concept fillers and redundant cards were removed. Prompts are labeled `verbatim` (copied from a public page), `reconstructed` (authored here), or `empty`. Concept thumbnails are original SVGs unless a card already has a repository GIF; third-party demos are linked, not mirrored.
 
-**[Open the visual idea gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)** · **[Full prompts](playbooks/ideas-and-prompts.md)** · [Sources](playbooks/trends-2026-11.md) · [Prompt formula](playbooks/prompt-formula.md)
+**[Open the visual idea gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)** · **[Full prompts](playbooks/ideas-and-prompts.md)** · **[参考出处 / Sources](playbooks/sources.md)** · [Research notes](playbooks/trends-2026-11.md) · [Prompt formula](playbooks/prompt-formula.md)
 
 This is a qualitative editorial selection, not a measured search-trend leaderboard. No claim that every idea was generated or tested in this repository.
+
+## 参考出处 / Sources
+
+Where did these playbooks come from? Full list: **[playbooks/sources.md](playbooks/sources.md)**.
+
+A primary community source for GIF / sticker / edit-consistency prompts is 路飞 [@0xluffy_eth](https://x.com/0xluffy_eth), *[榨干 Image 2.6 的 10 个神级玩法！【附完整提示词】](https://x.com/i/article/2118269816821919744)* (X Article, 2026-11-05; [intro post](https://x.com/0xluffy_eth/status/2118274913337552992)). Chinese prompts are copied verbatim from that article. This repository does **not** redistribute the author's GIFs or claim to have generated them. Official OpenAI docs, Morphic, Nereo, Lightlyn, and other links are listed on the same Sources page.
 
 ## GIF gallery
 
@@ -166,7 +172,7 @@ Proposed GitHub About / topics (for the owner to apply with `gh repo edit`; not 
 
 ## 这个仓库是做什么的？
 
-这个仓库收集 GPT Image / ChatGPT Images 2.6 相关的 **AI GIF 动图、提示词、可循环动画与相关静图工作流**，包括摸头表情包、猫咪撞屏、Sprite 分镜、markup 局部改图、SVG logo 等。
+这个仓库收集 GPT Image / ChatGPT Images 2.6 相关的 **AI GIF 动图、提示词、可循环动画与相关静图工作流**，包括摸头表情包、猫咪撞屏、Sprite 分镜、markup 局部改图、SVG logo，以及路飞等社区公开的中文玩法（注明出处，不转载对方成品）。
 
 - 打开 GitHub README 或 Pages 画廊即可预览真实 GIF；玩法页可按类型和来源过滤。
 - 提示词标明 **逐字公开 / 本站改写 / 未公开留空**，不冒充第三方原文，也不把概念 SVG 说成模型成品。
