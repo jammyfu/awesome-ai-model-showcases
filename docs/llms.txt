@@ -2,21 +2,25 @@
 
 > A curated static gallery of looping AI GIFs and GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) use-case prompts. Independent community project, not an OpenAI product.
 
-This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python validators. It does not call the Images API at browse time. Sample GIFs in docs/gifs/ are real multi-frame files. Idea cards mix those GIFs, original SVG concept covers, and link-only third-party examples. Prompts are marked verbatim, reconstructed, or empty; empty means the public source did not publish a copyable prompt.
+This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python validators. It does not call the Images API at browse time. docs/gifs/ holds repository-seed multi-frame GIFs. Recovered third-party 2.6 GIFs are link-only in docs/data/media-manifest.json (no redistribution license found; bytes not copied). Idea cards mix those GIFs, original SVG concept covers, and link-only third-party examples. X attachments labeled animated_gif usually deliver MP4; they were not watched and are not claimed as .gif files. Morphic prompt-library examples ran on GPT Image 2.5 / Ideogram Vector, not 2.6, and are not in the 2.6 GIF gallery. Prompts are marked verbatim, reconstructed, or empty. Third-party wording and this repo's adaptations are stored separately.
 
 ## Pages
 
-- [GIF gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/): searchable animated GIF examples
+- [GIF gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/): searchable local and source-hosted GIF examples
 - [Idea playbook](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html): sourced use cases with prompts when available
+- [Popular GIF remakes](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html): official-chart remake playbooks, not Image 2.6 works
 - [GitHub repository](https://github.com/jammyfu/awesome-gpt-image-gifs): source, validators, and contribution guide
 
 ## Canonical data
 
-- [docs/data/gallery.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/gallery.json): shipped GIF metadata
+- [docs/data/gallery.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/gallery.json): gallery metadata (local + link-only)
 - [docs/data/ideas.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/ideas.json): idea catalog
+- [docs/data/media-manifest.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/media-manifest.json): media hashes, formats, rights, exclusions
 - [playbooks/ideas-and-prompts.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/ideas-and-prompts.md): full prompts
-- [playbooks/sources.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/sources.md): attributed sources, including 路飞 @0xluffy_eth X Article
+- [playbooks/sources.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/sources.md): attributed sources
 - [playbooks/trends-2026-11.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/trends-2026-11.md): sources dated 2026-11-06 (Beijing time)
+- [playbooks/popular-gifs.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/popular-gifs.md): official-chart remakes, not 2.6
+- [playbooks/x-catalog.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/x-catalog.md): independently re-checked X playbooks
 - [CONTRIBUTING.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/CONTRIBUTING.md)
 - [MEDIA_RIGHTS.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/MEDIA_RIGHTS.md)
 

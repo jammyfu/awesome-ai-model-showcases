@@ -1,0 +1,11 @@
+.popular-page .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+.popular-page .card .desc{min-height:0;margin:4px 0}
+@media(max-width:900px){.popular-page .cards{grid-template-columns:1fr}}
+.popular-page .top .brand{color:#ffd27a}
+.popular-page .eyebrow,.popular-page .section-heading span{color:#ffd27a}
+.popular-page .hero h1 em{color:#ffd27a}
+.popular-page .facts strong{color:#ffd27a}
+.popular-page .notice{border-left-color:#ffd27a;background:#24190d}
+.popular-page .actions button{background:#ffd27a;color:#2a1c08}
+.chart-meta{font-size:12px;color:#e7c88a;margin:0 0 8px}
+.prompt.adaptation{border-color:#7a5a22;color:#f3e6c8}

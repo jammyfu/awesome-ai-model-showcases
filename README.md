@@ -24,7 +24,8 @@
 ### Engineering Capabilities
 
 - Static GitHub Pages gallery (`docs/index.html`, `docs/ideas.html`) with client-side search
-- GIF frame-count and duration checks via Pillow (`tools/validate_gallery.py`)
+- GIF frame-count and duration checks via Pillow (`tools/validate_gallery.py`) for local files
+- Media manifest for local vs external GIFs, MP4, and Vimeo (`docs/data/media-manifest.json`)
 - Idea catalog sync from `docs/data/ideas.json` to `docs/data/ideas.js` and `playbooks/ideas-and-prompts.md`
 - No Node toolchain, no backend, no database, no runtime API key to browse
 
@@ -47,9 +48,9 @@
 
 ## What is in the idea catalog?
 
-Updated **2026-11-06 (Beijing time)**. The catalog is a **quality-first** set of distinctive playbooks: looping GIFs, sprite-sheet workflows, markup/local edits, SVG logos, and reference-image consistency. Weak concept fillers and redundant cards were removed. Prompts are labeled `verbatim` (copied from a public page), `reconstructed` (authored here), or `empty`. Concept thumbnails are original SVGs unless a card already has a repository GIF; third-party demos are linked, not mirrored.
+Updated **2026-11-06 (Beijing time)**. The catalog is a **quality-first** set of distinctive playbooks. Real 2.6 GIFs recovered from public pages are **link-only** (no third-party bytes in git). X posts that label attachments as GIF usually deliver **MP4**; those cards are unwatched, not claimed as `.gif`, and stay out of the GIF gallery. Several samples can share one playbook — extra mascot-wave, steam loops, or four fatfish clips live as related media, not duplicate idea cards. Morphic prompt cards stay, with a hard label that **examples ran on 2.5 / Ideogram Vector, not 2.6**. A separate **[popular GIF remake page](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html)** uses official GIPHY/Tenor charts and is **not** Image 2.6 work. Prompts are `verbatim` / `reconstructed` / `empty`; this repo's rewrites sit in `prompt_adaptation`. SVG covers are original concept art, never generated results.
 
-**[Open the visual idea gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)** · **[Full prompts](playbooks/ideas-and-prompts.md)** · **[参考出处 / Sources](playbooks/sources.md)** · [Research notes](playbooks/trends-2026-11.md) · [Prompt formula](playbooks/prompt-formula.md)
+**[Open the visual idea gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)** · **[Full prompts](playbooks/ideas-and-prompts.md)** · **[参考出处 / Sources](playbooks/sources.md)** · **[Popular GIF remakes](playbooks/popular-gifs.md)** · [Research notes](playbooks/trends-2026-11.md) · [Prompt formula](playbooks/prompt-formula.md)
 
 This is a qualitative editorial selection, not a measured search-trend leaderboard. No claim that every idea was generated or tested in this repository.
 
@@ -57,11 +58,13 @@ This is a qualitative editorial selection, not a measured search-trend leaderboa
 
 Where did these playbooks come from? Full list: **[playbooks/sources.md](playbooks/sources.md)**.
 
-A primary community source for GIF / sticker / edit-consistency prompts is 路飞 [@0xluffy_eth](https://x.com/0xluffy_eth), *[榨干 Image 2.6 的 10 个神级玩法！【附完整提示词】](https://x.com/i/article/2118269816821919744)* (X Article, 2026-11-05; [intro post](https://x.com/0xluffy_eth/status/2118274913337552992)). Chinese prompts are copied verbatim from that article. This repository does **not** redistribute the author's GIFs or claim to have generated them. Official OpenAI docs, Morphic, Nereo, Lightlyn, and other links are listed on the same Sources page.
+A primary community source for GIF / sticker / edit-consistency prompts is 路飞 [@0xluffy_eth](https://x.com/0xluffy_eth), *[榨干 Image 2.6 的 10 个神级玩法！【附完整提示词】](https://x.com/i/article/2118269816821919744)* (X Article, 2026-11-05; [intro post](https://x.com/0xluffy_eth/status/2118274913337552992)). Chinese prompts are copied verbatim from that article. This repository does **not** redistribute the author's GIFs.
+
+A primary non-X GIF addition is Ravivit’s [paper-boat API loop](https://note.com/ravivit_ai/n/nb8f40b5a21b9) (16 frames; Atlas hosts a copy and states the robot/teacup on that page are **not** 2.6). Independently re-checked X templates include mirai_ai2050’s spec’d blink loop, MiraMusic stretch, Gorden Sun 真香, op7418’s fatfish fill-in, nonieengel’s 10-reaction set, and supertask’s architecture timelapse — all link-only MP4, unwatched. Morphic prompt cards remain, labeled as **not** 2.6 example media. Official OpenAI docs, Lightlyn, Veevid, Nereo, and other links are listed on the same Sources page.
 
 ## GIF gallery
 
-Click any thumbnail to open the original GIF. All files below are real animated GIFs (not PNG contact sheets with a `.gif` extension).
+Local seeds (Pillow-checked in CI). Recovered source GIFs play from the original host and are listed in the [Pages gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/) and `docs/data/media-manifest.json` — they are **not mirrored** here.
 
 | Reactions | Memes | Animals |
 |:---:|:---:|:---:|
@@ -72,7 +75,7 @@ Click any thumbnail to open the original GIF. All files below are real animated 
 
 ## What makes this different?
 
-- **Real animations, not just screenshots.** The repository ships playable GIFs and validates frame counts/duration.
+- **Real animations, not just screenshots.** Local GIFs are Pillow-checked. Source GIFs are probed once (format, frames, hash) and played from the original URL. X `animated_gif` entities are usually MP4; still posters are not a substitute GIF. SVG covers are never treated as generated results.
 - **Prompt + result paired.** Gallery items have a linked brief. Idea cards say whether a prompt is verbatim, reconstructed, or unavailable.
 - **No framework required.** The [GitHub Pages gallery](docs/) is static HTML/CSS/JS.
 - **Reproducibility first.** Unknown third-party prompts stay empty. We do not fake GIFs or checkpoint verification.
@@ -126,8 +129,10 @@ The gallery also works as a simple offline file (`docs/index.html`) because meta
 python3 -m pip install -r requirements-dev.txt
 python3 tools/sync_gallery_js.py
 python3 tools/sync_ideas.py
+python3 tools/sync_media_js.py
 python3 tools/validate_gallery.py
 python3 tools/validate_ideas.py
+python3 tools/validate_media.py
 ```
 
 If you edit `docs/data/gallery.json` or `docs/data/ideas.json`, run the matching `sync_*.py` script and commit the generated files with your changes.
@@ -141,10 +146,12 @@ If you edit `docs/data/gallery.json` or `docs/data/ideas.json`, run the matching
 ```text
 docs/                   GitHub Pages (static HTML/CSS/JS)
   ideas.html            Idea cards + copy prompts
+  popular.html          Official-chart GIF remakes (not Image 2.6)
   data/ideas.json       Canonical idea and source metadata
+  data/media-manifest.json  Local vs external media, hashes, rights
   previews/             Original SVG concept illustrations
-  gifs/                 Real animated GIF files
-  data/gallery.json     Canonical gallery metadata
+  gifs/                 Repository-seed animated GIF files
+  data/gallery.json     Canonical gallery metadata (local + link-only)
   llms.txt              Machine-readable Pages summary
 playbooks/              Prompt catalog + evidence notes
 prompts/                One prompt document per shipped GIF
@@ -172,7 +179,7 @@ Proposed GitHub About / topics (for the owner to apply with `gh repo edit`; not 
 
 ## 这个仓库是做什么的？
 
-这个仓库收集 GPT Image / ChatGPT Images 2.6 相关的 **AI GIF 动图、提示词、可循环动画与相关静图工作流**，包括摸头表情包、猫咪撞屏、Sprite 分镜、markup 局部改图、SVG logo，以及路飞等社区公开的中文玩法（注明出处，不转载对方成品）。
+这个仓库收集 GPT Image / ChatGPT Images 2.6 相关的 **AI GIF 动图、提示词、可循环动画与相关静图工作流**，包括摸头表情包、猫咪撞屏、Sprite 分镜、markup 局部改图、SVG logo，以及路飞、归藏大肥鱼模板等社区公开玩法（注明出处；X 附件多为 MP4，未观看、不转载）。另有独立页面 **[全球热门 GIF 参考 → 原创角色重演](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html)**：官方年榜机制，**明确不是 2.6 作品**，方案未实测。
 
 - 打开 GitHub README 或 Pages 画廊即可预览真实 GIF；玩法页可按类型和来源过滤。
 - 提示词标明 **逐字公开 / 本站改写 / 未公开留空**，不冒充第三方原文，也不把概念 SVG 说成模型成品。

@@ -35,7 +35,7 @@ origin_zh = {
 lines = [
     f"# GPT Image 2.6 玩法与 Prompt 图像列表（{len(data)} 例）",
     "",
-    f"> Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。不是按真实搜索量排名。",
+    f"> Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。X 附件多为 MP4，未观看。Morphic 条目提示词面向 2.6，**示例跑在 2.5 / Ideogram Vector，不是 2.6 成品**。全球热门 GIF 复刻见 [popular-gifs.md](popular-gifs.md)，不是 2.6 作品。",
     "",
     "[打开交互式图像列表](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html) · [结构化 JSON](../docs/data/ideas.json) · [参考出处](sources.md) · [来源与方法](trends-2026-11.md)",
     "",
@@ -81,22 +81,53 @@ for i, x in enumerate(data, 1):
     if x["preview_kind"] == "existing_gif" and x.get("preview"):
         lines.append(f"![{x['title_zh']} — 已有 GIF](../docs/{x['preview']})")
         lines.append("")
+    elif x["preview_kind"] == "external_gif" and x.get("media_url"):
+        lines.append(f"源站 GIF（外链播放，未入库）：{x['media_url']}")
+        lines.append("")
     elif x["preview_kind"] == "concept_illustration" and x.get("preview"):
-        lines.append(f"![{x['title_zh']} — 原创 SVG 概念示意](../docs/{x['preview']})")
+        caption = "原创 SVG 概念示意"
+        if x.get("example_is_image26") is False:
+            caption += "；示例成品不是 Image 2.6"
+        lines.append(f"![{x['title_zh']} — {caption}](../docs/{x['preview']})")
         lines.append("")
     else:
-        lines.append("本地不转载第三方成品图；请打开来源链接查看。")
+        kind = x.get("media_kind")
+        extra = f"（实测为 {kind}，不是 GIF）" if kind and kind != "gif" else ""
+        lines.append(f"本地不转载第三方成品图{extra}；请打开来源链接查看。")
         lines.append("")
     lines.append(x["description_zh"])
     lines.append("")
+    flags = []
+    if x.get("author_model_claim_status") == "author_explicit":
+        flags.append("作者声明 2.6")
+    if x.get("media_metadata_status") == "x_api_and_head_checked":
+        flags.append("媒体元数据已核（X API 类型 + HEAD）")
+    if x.get("visual_review_status") == "unwatched":
+        flags.append("未视觉复核")
+    if x.get("generation_verified") is False:
+        flags.append("未复测生成")
+    if x.get("media_kind") == "mp4":
+        flags.append("对外媒体是 MP4，不是 .gif")
+    if flags:
+        lines.append("状态：" + " · ".join(flags))
+        lines.append("")
     if x["prompt_status"] == "empty":
         lines.append("公开来源未给出完整提示词，本站不编造第三方原文。")
         lines.append("")
     else:
+        lines.append("第三方原文：")
+        lines.append("")
         lines.append("```text")
         lines.append(x["prompt"])
         lines.append("```")
         lines.append("")
+        if x.get("prompt_adaptation"):
+            lines.append("本站改编（不是第三方原文）：")
+            lines.append("")
+            lines.append("```text")
+            lines.append(x["prompt_adaptation"])
+            lines.append("```")
+            lines.append("")
     if x.get("source_url"):
         date = f"（{x['evidence_date']}）" if x.get("evidence_date") else ""
         lines.append(f"参考链接{date}：{x['source_url']}。")

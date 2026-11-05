@@ -11,6 +11,7 @@
   "capabilities": [
     "Static GitHub Pages gallery",
     "GIF frame and duration validation",
+    "Local vs external media manifest",
     "Idea catalog JSON/JS/Markdown sync",
     "GitHub Actions CI"
   ],
@@ -20,7 +21,7 @@
       "package": "Pillow",
       "version": ">=10,<13",
       "source": "requirements-dev.txt",
-      "used_by": "tools/validate_gallery.py"
+      "used_by": "tools/validate_gallery.py, tools/validate_media.py"
     }
   ],
   "not_present": [
@@ -35,5 +36,5 @@
     ".github/workflows/pages.yml"
   ],
   "confidence": "high",
-  "hero": "existing gallery GIFs plus local SVG monogram; no paid image API used"
+  "hero": "local seed GIFs plus link-only source GIFs; X tweet_video stays MP4/unwatched; Morphic examples excluded from 2.6 gallery; popular-GIF remakes are a separate non-2.6 page; no paid image API used"
 }

@@ -26,8 +26,9 @@ To add a sourced use case without shipping a GIF:
 
 1. Append one object to `docs/data/ideas.json`.
 2. Set `prompt_status` to `verbatim`, `reconstructed`, or `empty`. If the original prompt was not published, leave `prompt` as `""` — do not invent third-party wording.
-3. Set `preview_kind` to `concept_illustration` (original SVG under `docs/previews/`), `existing_gif`, or `link_only` (empty `preview`, HTTPS `source_url` only). Do not download paywalled or personal photos, and do not pretend a third-party GIF was generated here.
+3. Set `preview_kind` to `concept_illustration` (original SVG under `docs/previews/`), `existing_gif` (file in `docs/gifs/`), `external_gif` (HTTPS `media_url`, empty local `preview`, `media_rights=unknown_link_only`), or `link_only`. Do not download third-party GIFs without a documented redistribution license. Do not present Morphic 2.5 / Ideogram examples, Atlas pre-2.6 GIFs, or SVG covers as Image 2.6 generated results. If a source labeled GIF is actually MP4, set `media_kind` to `mp4`, `visual_review_status` to `unwatched` unless someone actually watched it, and keep it out of the GIF gallery. Put third-party wording in `prompt` and this repo's rewrite in `prompt_adaptation`. Pending X candidates stay in `playbooks/x-pending.md`, not in confirmed idea cards.
 4. Set `output_kind` to `gif`, `sprite_sheet`, `still`, `svg`, or `edit`. Non-GIF kinds use `frames` 0 and `frame_duration_ms` 0.
 5. Run `python3 tools/sync_ideas.py` then `python3 tools/validate_ideas.py`.
+6. Popular-GIF remakes belong in `docs/data/popular-playbooks.json` (not `ideas.json`). They must stay labeled **not Image 2.6**. Use official chart URLs and do not invent a world ranking.
 
 The **MIT LICENSE covers code**, not automatically every sample animation or third-party source. See `MEDIA_RIGHTS.md`.
