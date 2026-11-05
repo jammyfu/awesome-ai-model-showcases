@@ -48,9 +48,9 @@
 
 ## What is in the idea catalog?
 
-Updated **2026-11-06 (Beijing time)**. The catalog is a **quality-first** set of distinctive playbooks. Real 2.6 GIFs recovered from public pages are **link-only** (no third-party bytes in git). X posts that label attachments as GIF usually deliver **MP4**; those cards are unwatched, not claimed as `.gif`, and stay out of the GIF gallery. Several samples can share one playbook — extra mascot-wave, steam loops, or four fatfish clips live as related media, not duplicate idea cards. Morphic prompt cards stay, with a hard label that **examples ran on 2.5 / Ideogram Vector, not 2.6**. A separate **[popular GIF remake page](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html)** uses a 23-item reference library (annual / event / trending snapshot / fame-only) and is **not** Image 2.6 work. 2024/2025 annual YIR was not found and is not invented. Prompts are `verbatim` / `reconstructed` / `empty`; this repo's rewrites sit in `prompt_adaptation`. SVG covers are original concept art, never generated results.
+Updated **2026-11-06 (Beijing time)**. The catalog is a **quality-first** set of distinctive playbooks. Real 2.6 GIFs recovered from public pages are **link-only** (no third-party bytes in git). X posts that label attachments as GIF usually deliver **MP4**; those cards are unwatched, not claimed as `.gif`, and stay out of the GIF gallery. Several samples can share one playbook — extra mascot-wave, steam loops, or four fatfish clips live as related media, not duplicate idea cards. Morphic prompt cards stay, with a hard label that **examples ran on 2.5 / Ideogram Vector, not 2.6**. A separate **[game sequence page](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html)** covers idle/run/attack sprite sheets and is not the sticker GIF gallery. A separate **[popular GIF remake page](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html)** uses a 23-item reference library (annual / event / trending snapshot / fame-only) and is **not** Image 2.6 work. 2024/2025 annual YIR was not found and is not invented. Prompts are `verbatim` / `reconstructed` / `empty`; this repo's rewrites sit in `prompt_adaptation`. SVG covers are original concept art, never generated results.
 
-**[Open the visual idea gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)** · **[Full prompts](playbooks/ideas-and-prompts.md)** · **[参考出处 / Sources](playbooks/sources.md)** · **[Popular GIF remakes](playbooks/popular-gifs.md)** · [Research notes](playbooks/trends-2026-11.md) · [Prompt formula](playbooks/prompt-formula.md)
+**[Open the visual idea gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)** · **[Game sequences](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html)** · **[Full prompts](playbooks/ideas-and-prompts.md)** · **[参考出处 / Sources](playbooks/sources.md)** · **[Popular GIF remakes](playbooks/popular-gifs.md)** · [Research notes](playbooks/trends-2026-11.md) · [Prompt formula](playbooks/prompt-formula.md)
 
 This is a qualitative editorial selection, not a measured search-trend leaderboard. No claim that every idea was generated or tested in this repository.
 
@@ -146,6 +146,7 @@ If you edit `docs/data/gallery.json` or `docs/data/ideas.json`, run the matching
 ```text
 docs/                   GitHub Pages (static HTML/CSS/JS)
   ideas.html            Idea cards + copy prompts
+  game.html             Game idle/run/attack sequences (not sticker GIFs)
   popular.html          Chart/trending GIF remakes (not Image 2.6)
   data/ideas.json       Canonical idea and source metadata
   data/media-manifest.json  Local vs external media, hashes, rights
@@ -179,7 +180,7 @@ Proposed GitHub About / topics (for the owner to apply with `gh repo edit`; not 
 
 ## 这个仓库是做什么的？
 
-这个仓库收集 GPT Image / ChatGPT Images 2.6 相关的 **AI GIF 动图、提示词、可循环动画与相关静图工作流**，包括摸头表情包、猫咪撞屏、Sprite 分镜、markup 局部改图、SVG logo，以及路飞、归藏大肥鱼模板等社区公开玩法（注明出处；X 附件多为 MP4，未观看、不转载）。另有独立页面 **[全球热门 GIF 参考 → 原创角色重演](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html)**：年度榜 / 活动榜 / 近期趋势 / 经典知名度四种依据分开标，**明确不是 2.6 作品**，方案未实测。
+这个仓库收集 GPT Image / ChatGPT Images 2.6 相关的 **AI GIF 动图、提示词、可循环动画与相关静图工作流**，包括摸头表情包、猫咪撞屏、Sprite 分镜、markup 局部改图、SVG logo，以及路飞、归藏大肥鱼模板等社区公开玩法（注明出处；X 附件多为 MP4，未观看、不转载）。另有独立页面 **[游戏动作序列](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html)**（待机/跑/攻击，与普通 GIF 分开）和 **[全球热门 GIF 参考 → 原创角色重演](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html)**：年度榜 / 活动榜 / 近期趋势 / 经典知名度四种依据分开标，**明确不是 2.6 作品**，方案未实测。
 
 - 打开 GitHub README 或 Pages 画廊即可预览真实 GIF；玩法页可按类型和来源过滤。
 - 提示词标明 **逐字公开 / 本站改写 / 未公开留空**，不冒充第三方原文，也不把概念 SVG 说成模型成品。

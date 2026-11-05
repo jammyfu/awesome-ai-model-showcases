@@ -1,8 +1,8 @@
-# GPT Image 2.6 玩法与 Prompt 图像列表（39 例）
+# GPT Image 2.6 玩法与 Prompt 图像列表（42 例）
 
-> Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。X 附件多为 MP4，未观看。Morphic 条目提示词面向 2.6，**示例跑在 2.5 / Ideogram Vector，不是 2.6 成品**。全球热门 GIF 复刻见 [popular-gifs.md](popular-gifs.md)（四种依据分开标），不是 2.6 作品。
+> Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。X 附件多为 MP4，未观看。Morphic 条目提示词面向 2.6，**示例跑在 2.5 / Ideogram Vector，不是 2.6 成品**。游戏待机/跑/攻击见 [game-sequences.md](game-sequences.md)，与普通 GIF 分开。全球热门 GIF 复刻见 [popular-gifs.md](popular-gifs.md)（四种依据分开标），不是 2.6 作品。
 
-[打开交互式图像列表](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html) · [结构化 JSON](../docs/data/ideas.json) · [参考出处](sources.md) · [来源与方法](trends-2026-11.md)
+[打开交互式图像列表](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html) · [游戏动作序列](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html) · [结构化 JSON](../docs/data/ideas.json) · [参考出处](sources.md) · [来源与方法](trends-2026-11.md)
 
 | # | 玩法 | 类别 | 来源 | Prompt | 建议模型 / 规格 |
 |---:|---|---|---|---|---|
@@ -45,6 +45,9 @@
 | 37 | 大肥鱼主题表情包模板 | 表情梗图 | [参考](https://x.com/op7418/status/2118181775688241456) | [逐字公开提示词](#idea-37) | ChatGPT Images 2.6（作者声明；本仓未复测） / 12f |
 | 38 | 角色+画风 → 10 张反应套装 | 表情梗图 | [参考](https://x.com/nonieengel/status/2118382251226562570) | [逐字公开提示词](#idea-38) | ChatGPT Images 2.6（作者声明；本仓未复测） / 16f |
 | 39 | 建筑透视日落后退 | 照片微动效 | [参考](https://x.com/supertask_jp/status/2118241124133532077) | [逐字公开提示词](#idea-39) | ChatGPT Images 2.6（作者声明；本仓未复测） / 12f |
+| 40 | 游戏 4×4 分镜表（脚底对齐规格） | 游戏动作序列 | [参考](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136) | [逐字公开提示词](#idea-40) | GPT Image 2.5（原帖；早于 2.6 原生 GIF） / 16 格 |
+| 41 | 骑士跑循环：2.6 出表再切帧 | 游戏动作序列 | [参考](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md) | [逐字公开提示词](#idea-41) | gpt-image-2.6 / varg `gpt_image_2_6`（作者声明；本仓未复测） / 16 格 |
+| 42 | 宣称用 2.6 GIF 分镜做的拳击游戏演示 | 游戏动作序列 | [参考](https://x.com/higgsfield_ai/status/2118154923070439759) | [来源未公开完整提示词，本站不编造](#idea-42) | ChatGPT Images 2.6（平台声明；本仓未复测） / 9f |
 
 ## 完整提示词（公开原文或本站改写）
 
@@ -1009,6 +1012,150 @@ Input Images:
 ```
 
 参考链接（2026-11-05）：https://x.com/supertask_jp/status/2118241124133532077。
+
+
+<a id="idea-40"></a>
+### 40. 游戏 4×4 分镜表（脚底对齐规格） / Game 4×4 sheet with locked ground line
+
+类型：游戏动作序列 ｜输出：Sprite 分镜 ｜证据：SSSS.CRYPTOMAN @SSSS_CRYPTOMAN · 原帖写明 GPT Image 2.5 · X animated_gif→MP4 · 未视觉复核 ｜提示词：逐字公开提示词 ｜推荐：`GPT Image 2.5（原帖；早于 2.6 原生 GIF）`, `16` frames, `1:1` ｜编辑优先级：P1
+
+本地不转载第三方成品图（实测为 mp4，不是 GIF）；请打开来源链接查看。
+
+原作者 2026-09-09 公开的游戏用 4×4/16 帧规格：等大格子、10px 边距、固定倍率与脚底基准线、禁止出格。第二步再切帧对齐做 GIF。这是游戏序列规格，不是表情包。原帖模型是 2.5，不能写成 2.6 成品。X 附件为 animated_gif→MP4 加三张静图；本仓未观看、未转载。
+
+状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif
+
+第三方原文：
+
+```text
+このキャラクターを参照して、ゲーム用の2Dアニメーションスプライトシートを作成して。
+内容は「🔴アクションを記入」
+
+1つの連続したアクションを、4列×4行の合計16フレームで表現する。
+
+【スプライトシート仕様】
+・正方形キャンバス
+・4列×4行、合計16フレーム
+・16個のセルは完全に同じ大きさ
+・各セルの上下左右に最低10pxの余白を確保する
+・枠線、グリッド線、数字、文字、記号、UIは一切不要
+・背景は全フレームで統一された単色の白
+・各フレームは左上から右へ、上段から下段へ、時間順に並べる
+
+【最重要：サイズと位置の固定】
+・16フレームすべてでキャラクターの表示倍率を統一する
+・カメラのズームイン、ズームアウトは禁止
+・足元の接地面の基準線を同じ高さに固定する
+・キャラクターの中心位置がフレームの前後で大きく移動しない
+・動きに必要な範囲だけポーズを変える
+
+【最重要：セル内に完全に収める】
+・髪、服、手足、武器、小物、エフェクト、残光、粒子を含むすべてを各セルの内部だけに収める
+・隣のセルにはみ出さない
+・余白10pxの安全領域を侵さない
+・アクションが大きくなっても、キャラクターを縮小して調整しない
+・必要ならエフェクトや腕の振り幅を控えめにして、セル内に収める
+
+【描画方針】
+・2Dゲーム用スプライトとして読みやすい、明快なシルエット
+・フレーム間で自然につながる動き
+・1枚絵ではなく、アニメーション素材として破綻のない連続性を重視
+・各フレームの描き込み密度、線、塗り、陰影を統一する
+```
+
+本站改编（不是第三方原文）：
+
+```text
+用我上传的原创角色全身图生成一张游戏用 2D 分镜表（本站改写，不是 SSSS.CRYPTOMAN 原文）。动作栏只填一个动作，例如待机呼吸、侧面跑、跳跃起落、或一次攻击。
+
+正方形、严格 4 列×4 行共 16 格，格子一样大，每格四周至少 10px 空白。不要框线、数字、文字。背景用统一白底（这不是真 alpha；若接口支持 transparent 再改这一句）。从左到右、从上到下按时间排。
+
+全帧同一角色、同一服装、同一镜头距离、同一脚底高度。不要缩放角色来迁就大动作。头发、武器、特效不得画出格子。
+
+切帧后按阅读顺序播：先对齐脚底再合成循环。待机/走/攻击可用自动对齐；跑跳腾空帧不要把脚硬拉回地面。
+```
+
+参考链接（2026-09-09）：https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136。
+
+
+<a id="idea-41"></a>
+### 41. 骑士跑循环：2.6 出表再切帧 / Knight run cycle: 2.6 sheet then slice
+
+类型：游戏动作序列 ｜输出：Sprite 分镜 ｜证据：vargHQ gpt-image-sprite-sheet · 声明 gpt_image_2_6 · PNG 分镜+切帧演示 · Phaser/Godot 步骤未实机跑 ｜提示词：逐字公开提示词 ｜推荐：`gpt-image-2.6 / varg `gpt_image_2_6`（作者声明；本仓未复测）`, `16` frames, `1:1` ｜编辑优先级：P1
+
+本地不转载第三方成品图（实测为 png，不是 GIF）；请打开来源链接查看。
+
+varg 把上条日文规格译成英文，在 2026-11-04/05 用 gpt_image_2_6 出骑士跑循环 4×4 PNG（1024²→256² 格），再 slice 成循环。这是 Sprite 表切帧，不是原生 GIF。白底抠色后约 79% 透明，可能有白边，不是 API true alpha。技能写了 Phaser atlas / Godot SpriteFrames，但作者写明未跑引擎，故不能说已经用于游戏。本仓 HEAD 核到 PNG 签名与 MP4；未观看、未转载。
+
+状态：作者声明 2.6 · 未视觉复核 · 未复测生成
+
+第三方原文：
+
+```text
+Using this character as the reference, create a 2D animation sprite sheet for a game.
+Action: "[🔴 write the action here]"
+
+Show one continuous action in 4 columns × 4 rows, 16 frames in total.
+
+[Sprite sheet spec]
+- Square canvas
+- 4 columns × 4 rows, 16 frames in total
+- All 16 cells exactly the same size
+- At least 10 px of margin on every side of each cell
+- No borders, grid lines, numbers, letters, symbols or UI at all
+- One plain white background, the same in every frame
+- Frames in time order: left to right, top row to bottom row
+
+[Most important: fixed size and position]
+- The same character scale in all 16 frames
+- No camera zoom in or out
+- The ground line under the feet fixed at the same height
+- The character's centre does not move much from one frame to the next
+- Change the pose only as much as the motion needs
+
+[Most important: everything inside its cell]
+- Hair, clothes, arms and legs, weapons, props, effects, afterimages and particles all stay inside their own cell
+- Nothing spills into the next cell
+- Nothing enters the 10 px safety margin
+- Even when the action gets bigger, do not shrink the character to make it fit
+- If needed, tone down effects and arm swings so they stay in the cell
+
+[Drawing]
+- A clear silhouette that reads well as a 2D game sprite
+- Motion that flows naturally from frame to frame
+- Not a single illustration: unbroken continuity as animation material comes first
+- The same detail, line, colour and shading in every frame
+```
+
+本站改编（不是第三方原文）：
+
+```text
+用我上传的原创角色全身侧面图，按同一规格各出一张表，不要混在一张里（本站策划，不是 varg 原文）：
+
+1) 待机：原地呼吸与重心微移，4–6 个有效关键帧即可，其余格重复过渡。
+2) 跑：侧面循环跑，接触→下沉→交换→上提，再对侧。腾空帧不要事后把脚拉回地面。
+3) 攻击：预备→挥击→命中→回收。武器不得画出格子。
+
+正方形 4×4、等大格、10px 边距、脚底基准线固定、禁止变焦。白底（非真 alpha）或在支持时写 transparent background。一格一个动作，不要待机和跑画在同一张。切帧后对齐脚底，导出循环 GIF 只作预览；游戏导入用图集 PNG+JSON。未实测生成。
+```
+
+参考链接（2026-11-05）：https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md。
+
+
+<a id="idea-42"></a>
+### 42. 宣称用 2.6 GIF 分镜做的拳击游戏演示 / Claimed 2.6 GIF-sheet boxing game footage
+
+类型：游戏动作序列 ｜输出：GIF ｜证据：Higgsfield @higgsfield_ai · 作者声明 GPT Image 2.6 GIF sprite sheets · amplify video · 未视觉复核 ｜提示词：来源未公开完整提示词，本站不编造 ｜推荐：`ChatGPT Images 2.6（平台声明；本仓未复测）`, `9` frames, `120` ms/frame, `16:9` ｜编辑优先级：P1
+
+本地不转载第三方成品图（实测为 mp4，不是 GIF）；请打开来源链接查看。
+
+平台帖称 first-person boxing game was built with GPT Image 2.6 GIF sprite sheets。附件是 amplify 视频不是 .gif，HEAD 为 video/mp4。本仓未观看，因此只记「作者宣称游戏内演示」，不写成已核引擎导入。提示词未公开，留空。同账号废料场/花灯/武士/对打视频只作相关样本，不拆成多张玩法卡。
+
+状态：作者声明 2.6 · 媒体元数据已核（X API 类型 + HEAD） · 未视觉复核 · 未复测生成 · 对外媒体是 MP4，不是 .gif
+
+公开来源未给出完整提示词，本站不编造第三方原文。
+
+参考链接（2026-11-05）：https://x.com/higgsfield_ai/status/2118154923070439759。
 
 
 ## 参考出处 / Sources

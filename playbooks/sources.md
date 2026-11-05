@@ -20,7 +20,7 @@
 - **Leonie Engel [@nonieengel](https://x.com/nonieengel/status/2118382251226562570)** — 角色+画风 → 10 张反应套装（[完整 prompt 回复](https://x.com/nonieengel/status/2118382274270187877)）。
 - **Tasuku Takahashi [@supertask_jp](https://x.com/supertask_jp/status/2118241124133532077)** — 建筑透视日落延时。
 
-X 清单复核与待核名单：[x-catalog.md](x-catalog.md) · [x-pending.md](x-pending.md)。全球热门 GIF 复刻（**不是 2.6**）：[popular-gifs.md](popular-gifs.md) · [recent-popular.md](recent-popular.md)。
+X 清单复核与待核名单：[x-catalog.md](x-catalog.md) · [x-pending.md](x-pending.md)。全球热门 GIF 复刻（**不是 2.6**）：[popular-gifs.md](popular-gifs.md) · [recent-popular.md](recent-popular.md)。游戏动作序列：[game-sequences.md](game-sequences.md) · [game-pending.md](game-pending.md)。
 
 ## 官方
 
@@ -42,6 +42,16 @@ X 清单复核与待核名单：[x-catalog.md](x-catalog.md) · [x-pending.md](x
 - [Atlas Cloud 检视文](https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif) — 托管纸船副本；**同页粘土机器人 / 茶杯明文不是 2.6**，已排除。
 - [Sogni GPT Image 2.6 样品](https://www.sogni.ai/models/gpt-image-2-6) — 独立核到的外链 GIF；提灯重跑与官方哈希不同。
 - [ImgAPI GIF 指南](https://imgapi.ai/blog/gpt-image-2.6-gif) — 指出官方发布页四段为 Vimeo 视频，提灯才是真 GIF。
+
+## 游戏动作序列
+
+独立页面：[docs/game.html](../docs/game.html) · 方案：[game-sequences.md](game-sequences.md) · 待核：[game-pending.md](game-pending.md)
+
+- **SSSS.CRYPTOMAN [@SSSS_CRYPTOMAN](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136)**（2026-09-09）— 游戏用 4×4 规格，原帖写明 **GPT Image 2.5**。日文 prompt 逐字收录。X `animated_gif`→MP4，未观看。
+- **vargHQ [gpt-image-sprite-sheet](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md)** — 把上条规格用在 `gpt_image_2_6`；骑士跑循环 PNG + 切帧演示。Phaser/Godot 步骤**未实机跑**。白底抠色不是真 alpha。
+- **Higgsfield [@higgsfield_ai](https://x.com/higgsfield_ai/status/2118154923070439759)** — 宣称 2.6 GIF sprite sheets 做拳击游戏。无原文 prompt。视频未观看，不能写成已核引擎导入。
+
+x/web 既有清单无游戏 idle/run/attack 例。官方股市 Sprite、面包师、路飞六宫格挥手**不算**游戏序列。
 
 ## 全球热门 GIF 参考（不是 2.6）
 

@@ -64,6 +64,8 @@
   function posterKind(x) {
     if (x.preview_kind === 'existing_gif') return '仓库 GIF · 可播放';
     if (x.preview_kind === 'external_gif') return '源站 GIF · 外链播放';
+    if (x.media_kind === 'png') return '源站分镜表 PNG · 不是 GIF';
+    if (x.game_sequence) return '游戏序列 · 不是普通 GIF';
     if (x.media_kind === 'mp4') return 'X 标 GIF · 实际 MP4 · 未观看';
     if (x.demo_kind === 'vimeo') return '官方演示是视频 · 不是 GIF';
     if (x.example_is_image26 === false) return '原创 SVG · 示例不是 2.6';
@@ -76,6 +78,7 @@
     if (mode === 'playable26') {
       return x.preview_kind === 'existing_gif' || x.preview_kind === 'external_gif';
     }
+    if (mode === 'game') return x.game_sequence === true;
     if (mode === 'xmp4') return x.media_kind === 'mp4';
     if (mode === 'not26') return x.example_is_image26 === false;
     if (mode === 'svg') return x.preview_kind === 'concept_illustration';
@@ -98,6 +101,13 @@
         const img = el('img');
         img.src = x.media_url;
         img.alt = '源站 GIF（未入库）：' + x.title_zh;
+        img.loading = 'lazy';
+        img.referrerPolicy = 'no-referrer';
+        poster.append(img);
+      } else if (x.media_kind === 'png' && x.media_url) {
+        const img = el('img');
+        img.src = x.media_url;
+        img.alt = '源站 Sprite 表（静图，未入库）：' + x.title_zh;
         img.loading = 'lazy';
         img.referrerPolicy = 'no-referrer';
         poster.append(img);
@@ -138,6 +148,9 @@
       if (x.generation_verified === false) chips.push('未复测生成');
       if (x.frames_basis === 'author_prompt_spec') chips.push('帧数来自提示词规格');
       if (x.frames_basis === 'editorial_recommendation') chips.push('帧数是玩法建议');
+      if (x.game_sequence) chips.push('游戏序列');
+      if (x.engine_import_status === 'documented_not_run') chips.push('引擎步骤未实机跑');
+      if (x.engine_import_status === 'author_claim_unwatched') chips.push('游戏演示未观看');
       if (x.example_run_model) chips.push(x.example_run_model);
       for (const val of chips) settings.append(el('span', '', val));
       const promptBox = el('div', x.prompt ? 'prompt' : 'prompt empty');
@@ -198,6 +211,18 @@
         a.href = x.media_url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
+        actions.append(a);
+      }
+      if (x.media_kind === 'png' && x.media_url) {
+        const a = el('a', '', '分镜表 PNG ↗');
+        a.href = x.media_url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        actions.append(a);
+      }
+      if (x.game_sequence) {
+        const a = el('a', '', '游戏序列页');
+        a.href = 'game.html';
         actions.append(a);
       }
       if (x.media_kind === 'mp4' && x.media_url) {

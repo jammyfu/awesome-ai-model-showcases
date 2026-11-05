@@ -30,5 +30,6 @@ To add a sourced use case without shipping a GIF:
 4. Set `output_kind` to `gif`, `sprite_sheet`, `still`, `svg`, or `edit`. Non-GIF kinds use `frames` 0 and `frame_duration_ms` 0.
 5. Run `python3 tools/sync_ideas.py` then `python3 tools/validate_ideas.py`.
 6. Popular-GIF remakes belong in `docs/data/popular-playbooks.json` (not `ideas.json`). They must stay labeled **not Image 2.6**. Keep the four evidence types separate (annual chart / event chart / trending snapshot / fame-only). Do not invent a world ranking or a missing 2024/2025 annual YIR. Reference-library size is not a playbook quota.
+7. Game idle/run/attack sequences belong in `ideas.json` with `game_sequence: true` and category `游戏动作序列`. They must not enter the GIF gallery. Say “used in a game” only when there is engine-import evidence. White-keying is not true alpha. Third-party prompts stay in `prompt`; this repo’s rewrite stays in `prompt_adaptation`.
 
 The **MIT LICENSE covers code**, not automatically every sample animation or third-party source. See `MEDIA_RIGHTS.md`.

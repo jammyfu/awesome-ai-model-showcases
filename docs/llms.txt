@@ -8,6 +8,7 @@ This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python
 
 - [GIF gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/): searchable local and source-hosted GIF examples
 - [Idea playbook](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html): sourced use cases with prompts when available
+- [Game sequences](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html): idle/run/attack sprite sheets, separate from sticker GIFs
 - [Popular GIF remakes](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html): official-chart remake playbooks, not Image 2.6 works
 - [GitHub repository](https://github.com/jammyfu/awesome-gpt-image-gifs): source, validators, and contribution guide
 
@@ -21,6 +22,7 @@ This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python
 - [playbooks/trends-2026-11.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/trends-2026-11.md): sources dated 2026-11-06 (Beijing time)
 - [playbooks/popular-gifs.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/popular-gifs.md): official-chart remakes, not 2.6
 - [playbooks/recent-popular.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/recent-popular.md): 2024 event chart + 2026 trending snapshot
+- [playbooks/game-sequences.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/game-sequences.md): 2D game idle/run/attack sheets
 - [playbooks/x-catalog.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/x-catalog.md): independently re-checked X playbooks
 - [CONTRIBUTING.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/CONTRIBUTING.md)
 - [MEDIA_RIGHTS.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/MEDIA_RIGHTS.md)

@@ -61,6 +61,19 @@ for x in data:
         assert x.get("generation_verified") is False
         assert not x.get("preview")
         assert "mp4" in x["source_label"].lower() or "MP4" in x["source_label"] or "未视觉" in x["source_label"]
+    if x.get("media_kind") == "png":
+        assert x["preview_kind"] == "link_only", f'{x["id"]}: PNG sheets stay link_only'
+        assert str(x.get("media_url", "")).startswith("https://")
+        assert x.get("game_sequence") is True, f'{x["id"]}: PNG sheet cards are game sequences'
+    if x.get("game_sequence"):
+        for key in ("pipeline", "action_kind", "alpha_status", "engine_import_status", "acceptance", "cell_spec"):
+            assert x.get(key) not in (None, ""), f'{x["id"]} missing game field {key}'
+        assert x["preview_kind"] == "link_only"
+        assert x["category"] == "游戏动作序列"
+        claimed = "已经用于游戏" in x["description_zh"]
+        negated = any(s in x["description_zh"] for s in ("不能说已经用于游戏", "不写成已核", "本仓未观看"))
+        if claimed and not negated:
+            raise AssertionError(f'{x["id"]}: do not claim in-game use without engine evidence')
     if x["preview_kind"] == "link_only":
         assert not x.get("preview"), f'{x["id"]}: link_only must leave preview empty'
         assert str(x.get("source_url", "")).startswith("https://"), f'{x["id"]}: link_only needs source_url'
@@ -91,6 +104,20 @@ for x in data:
 
 assert morphic_ids, "expected Morphic prompt cards to remain, honestly labeled"
 
+game_ids = [x["id"] for x in data if x.get("game_sequence")]
+assert game_ids, "expected game-sequence playbooks"
+assert "game-ssss-4x4-spec" in game_ids
+assert "game-varg-knight-run" in game_ids
+assert "game-higgsfield-boxing" in game_ids
+gallery = json.loads((root / "docs/data/gallery.json").read_text(encoding="utf8"))
+gallery_ids = {x["id"] for x in gallery}
+for gid in game_ids:
+    assert gid not in gallery_ids, f"{gid} must not enter the GIF gallery"
+game_html = (root / "docs/game.html").read_text(encoding="utf8")
+assert "游戏动作序列" in game_html
+assert "game.html" in (root / "docs/ideas.html").read_text(encoding="utf8")
+assert "game.html" in (root / "docs/index.html").read_text(encoding="utf8")
+
 expected = (
     "/* AUTO-GENERATED from ideas.json by tools/sync_ideas.py */\nwindow.GIF_IDEAS = "
     + json.dumps(data, ensure_ascii=False, indent=2)
@@ -98,4 +125,7 @@ expected = (
 )
 assert (root / "docs/data/ideas.js").read_text(encoding="utf8") == expected, "ideas.js out of sync"
 assert "ideas.html" in (root / "docs/index.html").read_text(encoding="utf8")
-print(f"OK: {len(data)} idea cards, including {len(morphic_ids)} Morphic prompt-only cards")
+print(
+    f"OK: {len(data)} idea cards, including {len(morphic_ids)} Morphic prompt-only cards "
+    f"and {len(game_ids)} game-sequence playbooks"
+)
