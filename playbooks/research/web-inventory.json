@@ -1,0 +1,590 @@
+{
+  "meta": {
+    "task": "gpt-gif-deep-1106-web-non-x",
+    "generated_beijing": "2026-11-06（Asia/Taipei / 北京时间口径）",
+    "scope": "非X：官方/提示词社区/GitHub/Reddit/博客/日中英等公开网页",
+    "baseline_note": "基准 jammyfu/awesome-gpt-image-gifs：ideas.json=32玩法，gallery.json=6真实GIF；sources已列官方/Morphic/Nereo/Lightlyn/Veevid/Nowrap/Reddit/V2EX/路飞(X)。本轮非X。"
+  },
+  "confirmed_entries": [
+    {
+      "id": "official-lantern-monkey-gif",
+      "source_url": "https://developers.openai.com/api/docs/guides/image-prompting",
+      "author": "OpenAI",
+      "playbook": "原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位",
+      "model_claim": "GPT Image 2.6 Sunburst（gpt-image-2.6-sunburst）",
+      "model_evidence_url": "https://developers.openai.com/api/docs/guides/image-prompting",
+      "model_evidence_quote": "This example uses gpt-image-2.6-sunburst, size=\"512x512\", quality=\"high\"… With frame_count=9 and frame_duration_ms=200",
+      "prompt": "A little monkey in an olive-green hooded coat stands in a snowy pine forest at dusk. A wooden cabin glows in the background. The monkey holds a glowing amber paper lantern at chest height, slowly lifts it, looks up and blinks, then lowers it back to its starting pose. Keep the lantern in its hands and the camera still. Make the motion loop smoothly.",
+      "media_url": "https://developers.openai.com/images/platform/guides/image-prompting/monkey-lantern-gpt-image-2-6-sunburst.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 1280950,
+        "frames": 9,
+        "width": 512,
+        "height": 512,
+        "animated": true,
+        "method": "Pillow n_frames + Content-Type"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://openai.com/policies/terms-of-use/",
+      "license_conclusion": "官方文档可观看外链；未找到允许第三方再分发文档示例媒体的许可。不下载到assets。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "补缺：对应 ideas 条目 lantern-monkey-gif（此前有提示词与出处，缺可验证真实GIF直链）"
+    },
+    {
+      "id": "lightlyn-orange-cat-mascot-gif",
+      "source_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "author": "Linger（Lightlyn Images）",
+      "playbook": "品牌吉祥物挥手+眨眼无缝循环GIF",
+      "model_claim": "GPT Image 2.6 Flare（页面写 2.6 Flare · 20.9 s）",
+      "model_evidence_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "model_evidence_quote": "OpenAI released GPT Image 2.6 on 4 November… live on Lightlyn Images now, in Flare and Sunburst… Real GIFs, nine frames each. … Mascot (2.6 Flare, 20.9 s)",
+      "prompt": "A cheerful round orange cat mascot with a tiny lantern, waving hello and blinking, soft flat illustration style, clean pastel background, gentle seamless loop.",
+      "media_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-mascot.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 1802355,
+        "frames": 9,
+        "width": 960,
+        "height": 960,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "license_conclusion": "站点允许下载查看原图链接，但未声明CC/开源再分发。版权不明，仅外链，不入assets。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "新增：基准无「橙猫提灯挥手」独立条目（baker-mascot等为Morphic分镜玩法且示例跑在2.5）"
+    },
+    {
+      "id": "lightlyn-earbuds-case-gif",
+      "source_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "author": "Linger（Lightlyn Images）",
+      "playbook": "商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环",
+      "model_claim": "GPT Image 2.6 Sunburst（2.6 Sunburst · 38.6 s）",
+      "model_evidence_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "model_evidence_quote": "Product (2.6 Sunburst, 38.6 s): A white wireless earbuds charging case labelled \"LIGHTLYN\"… Seamless loop.",
+      "prompt": "A white wireless earbuds charging case labelled \"LIGHTLYN\" on a sage-green studio background: the lid opens, the two earbuds rise and float a little, then settle back and the lid closes. Clean product animation, seamless loop.",
+      "media_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-product.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 2221707,
+        "frames": 9,
+        "width": 960,
+        "height": 960,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "license_conclusion": "可外链观看/下载页提供原图；无明确再分发许可，不入assets。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "补缺媒体：对应 earbuds-product"
+    },
+    {
+      "id": "lightlyn-photo-steam-gif",
+      "source_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "author": "Linger（Lightlyn Images）",
+      "playbook": "实拍图只动蒸汽与光，杯/桌/窗锁死",
+      "model_claim": "GPT Image 2.6 Flare（with photo uploaded）",
+      "model_evidence_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "model_evidence_quote": "Photo (2.6 Flare, with the photo uploaded): Make this photo move… Made to move · 2.6 Flare · 22.8 s · GIF, 1152 × 768",
+      "prompt": "Make this photo move: gentle steam rises and curls above the latte, soft light flickers slightly. Keep the cup, the table and the window exactly as they are. Seamless loop.",
+      "media_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-photo.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 2727700,
+        "frames": 9,
+        "width": 1152,
+        "height": 768,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [
+        "https://image.lightlyn.com/examples/gpt-image-2-6/gif-photo-960.webp"
+      ],
+      "license_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
+      "license_conclusion": "参考图与GIF版权未开源声明；仅外链。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "补缺媒体：对应 photo-to-gif-steam"
+    },
+    {
+      "id": "veevid-perfume-light-sweep-gif",
+      "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "author": "Veevid Team",
+      "playbook": "产品流光：香水瓶固定，光带扫过+尘粒上浮",
+      "model_claim": "GPT Image 2.6 Flare（文称自跑 Flare）",
+      "model_evidence_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "model_evidence_quote": "OpenAI released Images 2.6 on November 4, 2026… On Veevid, GIF is an output option on GPT Image 2.6… Here's a product loop we ran on Flare",
+      "prompt": "A frosted glass perfume bottle on a round stone pedestal. The sequence: a soft band of light sweeps slowly across the glass from left to right while tiny dust particles drift upward. Fixed camera, same bottle, same pedestal, warm beige studio background. The last frame transitions smoothly back to the first for a seamless loop. Clean product photography style. No captions, no words, no logos, no borders.",
+      "media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-perfume-loop.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 1034983,
+        "frames": 9,
+        "width": 512,
+        "height": 512,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "license_conclusion": "博客示例媒体，无CC声明；仅外链不入assets。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "补缺媒体：对应 perfume-light"
+    },
+    {
+      "id": "veevid-cactus-mascot-gif",
+      "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "author": "Veevid Team",
+      "playbook": "精灵表结构提示词→仙人掌吉祥物挥手循环（9帧）",
+      "model_claim": "GPT Image 2.6 Flare",
+      "model_evidence_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "model_evidence_quote": "Here's a prompt we wrote in that structure, run once on Flare… And here are its 9 frames",
+      "prompt": "Create a single animation sprite sheet for a seamless looping GIF. A cheerful cartoon cactus mascot in a small terracotta pot. The sequence: the cactus leans slightly left, raises one arm and waves, smiles and blinks, then leans back to center. Fixed front camera, same character, same pot, plain pastel peach background. Clear incremental arm and body motion; the last frame transitions smoothly back to the first. Flat vector sticker style, thick outline. No captions, no words, no logos, no borders, no gutters.",
+      "media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-cactus-mascot-v2.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 520796,
+        "frames": 9,
+        "width": 512,
+        "height": 512,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "license_conclusion": "无再分发许可声明；仅外链。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "新增玩法媒体：基准无仙人掌条目"
+    },
+    {
+      "id": "veevid-fox-mascot-gif",
+      "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "author": "Veevid Team",
+      "playbook": "贴纸风狐狸吉祥物挥手眨眼",
+      "model_claim": "GPT Image 2.6（页面示例，Veevid上跑2.6 GIF输出）",
+      "model_evidence_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "model_evidence_quote": "These are two of the examples on the GPT Image 2.6 page, generated on Veevid with exactly these prompts",
+      "prompt": "A cute orange fox brand mascot waving hello and blinking, flat vector sticker style, thick outline, pastel background, seamless loop",
+      "media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-fox.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 590659,
+        "frames": 9,
+        "width": 512,
+        "height": 512,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "license_conclusion": "无再分发许可；仅外链。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "新增"
+    },
+    {
+      "id": "veevid-coffee-steam-gif",
+      "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "author": "Veevid Team",
+      "playbook": "咖啡杯蒸汽上升循环（文生GIF）",
+      "model_claim": "GPT Image 2.6（Veevid示例）",
+      "model_evidence_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "model_evidence_quote": "generated on Veevid with exactly these prompts… steaming ceramic coffee cup… seamless loop",
+      "prompt": "A steaming ceramic coffee cup with heart latte art on a wooden cafe table, soft steam curling upward, warm morning window light, seamless loop",
+      "media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-coffee.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 1195270,
+        "frames": 9,
+        "width": 512,
+        "height": 512,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "license_conclusion": "仅外链。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "新增媒体，玩法与 photo-to-gif-steam / Lightlyn蒸汽接近（文生非实拍），保留作独立实测样本"
+    },
+    {
+      "id": "veevid-dog-photo-wag-gif",
+      "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "author": "Veevid Team",
+      "playbook": "上传实拍狗→摇尾眨眼温和循环",
+      "model_claim": "GPT Image 2.6 image-to-GIF",
+      "model_evidence_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "model_evidence_quote": "This one is also on the GPT Image 2.6 page… Animate this: the dog wags its tail and blinks, gentle loop",
+      "prompt": "Animate this: the dog wags its tail and blinks, gentle loop",
+      "media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-dog-edit.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 1617115,
+        "frames": 9,
+        "width": 512,
+        "height": 512,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "license_conclusion": "含可能第三方宠物肖像；不下载。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "新增"
+    },
+    {
+      "id": "veevid-robot-sketch-gif",
+      "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "author": "Veevid Team",
+      "playbook": "线稿变挥手机器人，保留墨线纸感",
+      "model_claim": "GPT Image 2.6（文承认线稿本身也用2.6生成作替身）",
+      "model_evidence_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "model_evidence_quote": "the doodle itself was generated with GPT Image 2.6 as a stand-in… Then we asked for this…",
+      "prompt": "Animate this sketch: the little robot waves one arm and its antenna bobs up and down. Keep the hand-drawn black ink lines and the plain white paper. Fixed camera, same character in every frame, seamless loop. No text, no borders.",
+      "media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-robot-sketch.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 855668,
+        "frames": 9,
+        "width": 512,
+        "height": 512,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
+      "license_conclusion": "仅外链。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "新增；与官方 sketch-owl 同属草图动画线，但媒体与提示词不同"
+    },
+    {
+      "id": "ravivit-paper-boat-gif",
+      "source_url": "https://note.com/ravivit_ai/n/nb8f40b5a21b9",
+      "author": "ラビビット | AI活用メディア（Ravivit）",
+      "playbook": "API原生GIF：白纸船水面轻摇，固定机位；16帧×120ms",
+      "model_claim": "Images 2.6 / GPT Image 2.6（API生成，文内写明）",
+      "model_evidence_url": "https://note.com/ravivit_ai/n/nb8f40b5a21b9",
+      "model_evidence_quote": "APIでは紙の船のループGIFを生成… 16コマ・1コマ120ミリ秒を指定… 下のGIFは実際の生成物です。",
+      "prompt": "白い紙の船が水面でゆっくり左右に揺れる。カメラは固定。短いループGIF。文字は入れない（文内写法；Atlas转述英文 motion brief）",
+      "media_url": "https://static.atlascloud.ai/uploads/03_paper_boat_2_6_c19a8b768b.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 1811479,
+        "frames": 16,
+        "width": 512,
+        "height": 512,
+        "animated": true,
+        "method": "Pillow；时长与文称1.92s一致(16×120ms)",
+        "note": "Atlas Cloud文章转载/检视该GIF并指向Ravivit原文"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://note.com/ravivit_ai/n/nb8f40b5a21b9",
+      "license_conclusion": "作者标注为AI生成演示物；无CC再分发声明。仅外链（Atlas托管副本同理）。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "新增强案例；基准未收纸船。二次来源检视：https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif"
+    },
+    {
+      "id": "reddit-anime-nod-gif",
+      "source_url": "https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/",
+      "author": "未知（r/OpenAI 帖作者；本轮JSON接口被拦未能取handle）",
+      "playbook": "参考角色图→动漫点头闭眼循环",
+      "model_claim": "Image 2.6 GIF feature（帖标题与正文自称）",
+      "model_evidence_url": "https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/",
+      "model_evidence_quote": "I tried the new image 2.6 gif feature… Create a gif of this character nods",
+      "prompt": "You are animator\n\nCreate a gif of this character nods\n\nContext:\n\nI want you to animate this character so she nods and then close her eyes. The flow is at first she slowly nods up. Second, she quickly nods down. Finally, her head back to normal pose with frames in between the nods down to normal, she also closes her eyes. It is like typical anime girls nodding.\n\nFormat: Same art style & outline as given image's",
+      "media_url": "https://i.redd.it/smnyo808cszh1.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "http_status": 200,
+        "content_type": "image/gif",
+        "bytes": 497626,
+        "frames": 9,
+        "width": 390,
+        "height": 437,
+        "animated": true,
+        "method": "Pillow"
+      },
+      "reference_image_urls": [],
+      "license_url": "https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/",
+      "license_conclusion": "用户上传；Reddit内容默认不可当开源再分发。仅外链。",
+      "verified_date_beijing": "2026-11-06",
+      "vs_baseline": "补缺媒体：对应 anime-nod"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "v2ex-pelican-bike",
+      "source_url": "https://www.v2ex.com/t/1254763",
+      "author": "itvincent",
+      "playbook": "一句话鹈鹕骑自行车GIF",
+      "model_claim": "GPT Image 2.6（楼主自称）",
+      "model_evidence_url": "https://www.v2ex.com/t/1254763",
+      "model_evidence_quote": "用 GPT Image 2.6 生成了一个 GIF ，一只骑自行车的鹈鹕",
+      "prompt": "画一个鹈鹕骑自行车的 GIF 图",
+      "media_url": "https://i.imgur.com/ZthxiAB.gif",
+      "media_type": "gif",
+      "media_verify": {
+        "frames": 6,
+        "width": 508,
+        "height": 506,
+        "bytes": 401495,
+        "animated": true
+      },
+      "reason": "基准 sources 已列且玩法卡已撤下；有真实GIF但属已知社区一句话案例，不作新增玩法",
+      "bucket": "candidate_known_withdrawn"
+    },
+    {
+      "id": "atlas-robot-wave-pre26",
+      "source_url": "https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif",
+      "author": "K,z Lick（原文案例；Atlas转载）",
+      "playbook": "粘土机器人八帧挥手（本地拼GIF）",
+      "model_claim": "非Images 2.6（Atlas明文）",
+      "media_url": "https://static.atlascloud.ai/uploads/01_robot_wave_d7b491e387.gif",
+      "media_verify": {
+        "frames": 8,
+        "width": 480,
+        "height": 480,
+        "animated": true
+      },
+      "reason": "真实GIF但作者/Atlas声明为更早工作流，不能冒认2.6",
+      "bucket": "excluded_wrong_model"
+    },
+    {
+      "id": "atlas-teacup-pre26",
+      "source_url": "https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif",
+      "author": "Isana（Atlas转载）",
+      "playbook": "角色举茶杯循环",
+      "model_claim": "非Images 2.6",
+      "media_url": "https://static.atlascloud.ai/uploads/02_tea_cup_loop_6581c7b529.gif",
+      "media_verify": {
+        "frames": 46,
+        "width": 400,
+        "height": 500,
+        "animated": true
+      },
+      "reason": "真实GIF，明文非2.6输出",
+      "bucket": "excluded_wrong_model"
+    },
+    {
+      "id": "morphic-sprite-prompts-run-on-25",
+      "source_url": "https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts",
+      "author": "Morphic",
+      "playbook": "2.6向提示词库（面包师分镜/剪纸锦鲤等）",
+      "model_claim": "提示词面向2.6；示例跑在GPT Image 2.5 / Ideogram Vector",
+      "model_evidence_quote": "Were these examples made with ChatGPT Images 2.6? No. … GPT Image 2.5 Flare or Sunburst… Ideogram Vector",
+      "reason": "基准已收玩法；媒体不是2.6成品，不能当2.6真实GIF",
+      "bucket": "excluded_prompt_only_or_wrong_model"
+    },
+    {
+      "id": "cocoloop-boat-sheet-unconfirmed",
+      "source_url": "https://news.cocoloop.cn/en/2026/11/chatgpt-gif-six-frame-sheet/",
+      "author": "Cocoloop Editorial",
+      "playbook": "Codex要GIF却得PNG→六宫格纸船本地拼GIF",
+      "model_claim": "无法确认是否真跑到2.6",
+      "model_evidence_quote": "we cannot confirm they actually came from 2.6",
+      "reason": "作者自承模型未核实；拼GIF非原生output_format=gif",
+      "bucket": "candidate_unverified_model"
+    },
+    {
+      "id": "makari-note-jp-cases",
+      "source_url": "https://note.com/makari_5108010/n/nbfdb5c15e70b",
+      "author": "Makari｜AIイラスト",
+      "playbook": "LINE贴纸/致谢字GIF/商品前后对比GIF（日文实测）",
+      "model_claim": "ChatGPT Images 2.6（自称）",
+      "prompt_samples": [
+        "ほっこりかわいいくまが、コーヒーを飲んでいるGIFを作ってください。",
+        "note記事の最後に添える、横長のGIF画像を作ってください。…"
+      ],
+      "reason": "页面描述为Images 2.6实测，但抓取到的嵌入均为PNG静图，未能验证真实多帧GIF直链；不进确认集",
+      "bucket": "candidate_no_verified_gif_url"
+    },
+    {
+      "id": "weel-jp-emotion-gifs",
+      "source_url": "https://weel.co.jp/media/tech/chatgpt-images-2-6/",
+      "author": "WEEL（田村 洋樹监修）",
+      "playbook": "静图→喜怒哀乐四套GIF；参照图@调用",
+      "model_claim": "ChatGPT Images 2.6",
+      "reason": "有详细日文实测与提示词，但本轮未能抽出可验证GIF直链（文内结果多为页面图）；X引用不取",
+      "bucket": "candidate_no_verified_gif_url"
+    },
+    {
+      "id": "openart-launch-sprite-videos",
+      "source_url": "https://openai.com/index/introducing-images-2-6/",
+      "author": "OpenArt（公告署名 Created by OpenArt）",
+      "playbook": "股价表情六宫格精灵表提示词（涨/跌）",
+      "model_claim": "Images 2.6 能力展示",
+      "prompt": "（公告 Prompt 1/2 全文见官方页）",
+      "reason": "ImgAPI等注明嵌入为视频演示非可下载GIF；不把视频当GIF",
+      "bucket": "excluded_video_not_gif"
+    },
+    {
+      "id": "xianyu110-mirror-gallery",
+      "source_url": "https://github.com/xianyu110/awesome-gpt-images-2.6",
+      "author": "xianyu110",
+      "playbook": "官方文档案例镜像仓（含提灯GIF镜像）",
+      "model_claim": "镜像自官方2.6文档",
+      "media_url": "https://raw.githubusercontent.com/xianyu110/awesome-gpt-images-2.6/main/images/monkey-lantern-gpt-image-2-6-sunburst.gif",
+      "media_verify": {
+        "frames": 9,
+        "bytes": 1280950,
+        "note": "与官方直链字节一致"
+      },
+      "license_note": "LICENSE=MIT仅覆盖软件；README写图片版权归原作者/OpenAI",
+      "reason": "与官方提灯条目重复；MIT不覆盖示例媒体，不下载",
+      "bucket": "duplicate_mirror"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "openai-social-png",
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/.../images-2-6-social.png",
+      "reason": "静图PNG封面，非GIF"
+    },
+    {
+      "id": "nowrap-429",
+      "url": "https://nowrap.ai/tools/chatgpt-images-2-6",
+      "reason": "本轮WebFetch 429，未能核媒体；基准已有neon-word-switch出处"
+    },
+    {
+      "id": "github-sdk-only",
+      "note": "vercel/ai PR、openai-python类型定义等为工程支持非案例GIF"
+    }
+  ],
+  "search_log": [
+    {
+      "q": "GPT Image 2.6 OpenAI official announcement 2026",
+      "hits": [
+        "openai.com/index/introducing-images-2-6/",
+        "developers.openai.com models/changelog"
+      ]
+    },
+    {
+      "q": "gpt-image-2.6-sunburst/flare GIF",
+      "hits": [
+        "image generation guide",
+        "image prompting"
+      ]
+    },
+    {
+      "q": "community GIF demos reddit/github/v2ex",
+      "hits": [
+        "v2ex 1254763",
+        "reddit 1xoh2u0",
+        "xianyu110/awesome-gpt-images-2.6"
+      ]
+    },
+    {
+      "q": "Morphic Nereo Lightlyn Veevid",
+      "hits": [
+        "已基准收录；本轮补真实GIF直链"
+      ]
+    },
+    {
+      "q": "JP/CN/KR multilingual",
+      "hits": [
+        "weel.co.jp",
+        "note.com/makari",
+        "note.com/ravivit_ai",
+        "itpicks.dev",
+        "韩语检索无2.6 GIF实测页"
+      ]
+    },
+    {
+      "q": "Atlas/ImgAPI/DEV/OpenArt blogs",
+      "hits": [
+        "atlascloud paper boat",
+        "imgapi lantern",
+        "dev.to texttogif",
+        "openart prompt guide"
+      ]
+    }
+  ],
+  "verification_summary": {
+    "baseline_checked": {
+      "repo": "https://github.com/jammyfu/awesome-gpt-image-gifs",
+      "ideas_count": 32,
+      "gallery_real_gifs": 6,
+      "method": "cursor-github get_file_contents（未克隆）",
+      "already_covered_sources": [
+        "OpenAI官方",
+        "Morphic",
+        "Nereo",
+        "Lightlyn",
+        "Veevid",
+        "Nowrap",
+        "Reddit",
+        "V2EX",
+        "路飞X",
+        "Krouxzz X"
+      ]
+    },
+    "model_naming": {
+      "product_names": [
+        "Images 2.6",
+        "ChatGPT Images 2.6",
+        "GPT Image 2.6",
+        "GPT‑Image‑2.6 Flare/Sunburst"
+      ],
+      "api_ids": [
+        "gpt-image-2.6-flare",
+        "gpt-image-2.6-sunburst"
+      ],
+      "announced": "2026-11-04",
+      "authority_urls": [
+        "https://openai.com/index/introducing-images-2-6/",
+        "https://developers.openai.com/api/docs/changelog",
+        "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+        "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare",
+        "https://developers.openai.com/api/docs/guides/image-generation",
+        "https://developers.openai.com/api/docs/guides/image-prompting"
+      ],
+      "do_not_confuse": [
+        "gpt-image-1",
+        "gpt-image-1.5",
+        "gpt-image-2",
+        "gpt-image-2.5-flare/sunburst",
+        "Ideogram Vector",
+        "Morphic上用2.5跑的2.6提示词示例"
+      ]
+    },
+    "counts": {
+      "confirmed_entries": 12,
+      "confirmed_new_playbooks": 7,
+      "confirmed_media_fills_for_baseline": 5,
+      "candidates_or_excluded": 12,
+      "assets_downloaded_redistributable": 0
+    },
+    "strongest_find": "ravivit-paper-boat-gif（note原文+Atlas托管，Pillow验证16帧真实GIF，明确API/Images 2.6）",
+    "license_policy_applied": "官方可观看≠可再分发；GitHub MIT不覆盖示例图；无明确CC/开源再分发证据则不写入assets/",
+    "limits": [
+      "无浏览器",
+      "Reddit JSON被拦",
+      "nowrap 429",
+      "韩语源几乎无2.6 GIF实测",
+      "路飞等X交由X探子"
+    ]
+  }
+}

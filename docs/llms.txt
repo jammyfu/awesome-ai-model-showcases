@@ -1,35 +1,19 @@
 # Awesome GPT Image GIFs
 
-> A curated static gallery of looping AI GIFs and GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) use-case prompts. Independent community project, not an OpenAI product.
+Community collection of publicly gathered GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) original-author cases. Independent, not an OpenAI product. The current public inventory is catalogued in full; this is not a claim of exhaustive web coverage.
 
-This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python validators. It does not call the Images API at browse time. docs/gifs/ holds repository-seed multi-frame GIFs. Recovered third-party 2.6 GIFs are link-only in docs/data/media-manifest.json (no redistribution license found; bytes not copied). Idea cards mix those GIFs, original SVG concept covers, and link-only third-party examples. X attachments labeled animated_gif usually deliver MP4; they were not watched and are not claimed as .gif files. Morphic prompt-library examples ran on GPT Image 2.5 / Ideogram Vector, not 2.6, and are not in the 2.6 GIF gallery. Prompts are marked verbatim, reconstructed, or empty. Third-party wording and this repo's adaptations are stored separately.
+Primary pages:
+- https://jammyfu.github.io/awesome-gpt-image-gifs/ — community case master table
+- https://jammyfu.github.io/awesome-gpt-image-gifs/#gifs — real GIFs only (source-hosted default; local seeds are not the main list)
+- https://jammyfu.github.io/awesome-gpt-image-gifs/game.html — game sequences with verification labels
+- https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html — appendix playbooks / adaptations
+- https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html — popular-GIF restages, not 2.6 works
 
-## Pages
+Canonical data:
+- docs/data/community-cases.json — primary inventory
+- docs/data/gallery.json — real GIFs only
+- docs/data/ideas.json — playbook appendix
+- docs/data/media-manifest.json — media, rights, exclusions
+- playbooks/community-cases.md — readable master table
 
-- [GIF gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/): searchable local and source-hosted GIF examples
-- [Idea playbook](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html): sourced use cases with prompts when available
-- [Game sequences](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html): idle/run/attack. 4 enriched author claims, 0 new success workflows, 2 failure samples; image prompts often unpublished; official verification is 0
-- [Popular GIF remakes](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html): official-chart remake playbooks, not Image 2.6 works
-- [GitHub repository](https://github.com/jammyfu/awesome-gpt-image-gifs): source, validators, and contribution guide
-
-## Canonical data
-
-- [docs/data/gallery.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/gallery.json): gallery metadata (local + link-only)
-- [docs/data/ideas.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/ideas.json): idea catalog
-- [docs/data/media-manifest.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/media-manifest.json): media hashes, formats, rights, exclusions
-- [playbooks/ideas-and-prompts.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/ideas-and-prompts.md): full prompts
-- [playbooks/sources.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/sources.md): attributed sources
-- [playbooks/trends-2026-11.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/trends-2026-11.md): sources dated 2026-11-06 (Beijing time)
-- [playbooks/popular-gifs.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/popular-gifs.md): official-chart remakes, not 2.6
-- [playbooks/recent-popular.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/recent-popular.md): 2024 event chart + 2026 trending snapshot
-- [playbooks/game-sequences.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/game-sequences.md): 2D game idle/run/attack sheets
-- [playbooks/game-search-log.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/game-search-log.md): search coverage appendix (page counts are not new-case counts)
-- [playbooks/x-catalog.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/x-catalog.md): independently re-checked X playbooks
-- [CONTRIBUTING.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/CONTRIBUTING.md)
-- [MEDIA_RIGHTS.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/MEDIA_RIGHTS.md)
-
-## Official references
-
-- [Introducing Images 2.6](https://openai.com/index/introducing-images-2-6/) (2026-11-04)
-- [Image generation](https://developers.openai.com/api/docs/guides/image-generation)
-- [Image prompting](https://developers.openai.com/api/docs/guides/image-prompting)
+Coverage (Beijing 2026-11-06): X author-claim 25 + web GIFs 12 + in-repo Luffy/Krouxzz 2 + game author-claim 4 = 43 main rows. Pending 12. Official verified 2.6 game outputs: 0. Unwatched X MP4s. Link-only when license unknown.

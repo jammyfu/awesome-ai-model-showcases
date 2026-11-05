@@ -1,6 +1,14 @@
-# Contributing GIFs
+# Contributing
 
-PRs are welcome for original, rights-cleared GIF animations and well-documented prompts.
+This repo’s **primary index is the community case catalog**, not original remake playbooks.
+
+1. Add a community original-author case to the inventories consumed by `tools/write_community_catalog.py` (or open a PR with: original post URL, author, real GIF/MP4 link, verbatim prompt or explicit empty, model evidence, pipeline, license boundary).
+2. Run `python3 tools/write_community_catalog.py` then `python3 tools/validate_community.py`.
+3. Do not put SVG concept art, this repo’s `prompt_adaptation`, or popular-GIF restages in the main catalog. Do not download third-party media without a redistribution license.
+
+# Contributing GIFs (optional local seeds)
+
+PRs are welcome for original, rights-cleared GIF animations and well-documented prompts. Local files in `docs/gifs/` are **repository seeds**, not the community collection.
 
 1. Submit a genuine multi-frame `.gif` (not a PNG with a GIF extension), preferably under 5 MiB.
 2. Use lowercase ASCII filenames in `docs/gifs/`, e.g. `smiling-robot.gif`.

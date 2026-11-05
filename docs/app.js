@@ -8,7 +8,7 @@
   const empty = document.getElementById('empty');
   const toast = document.getElementById('toast');
   let category = 'All';
-  let storage = 'All';
+  let storage = 'Source GIF';
   let toastTimer;
   const gifs = data.filter((item) => (item.media_kind || 'gif') === 'gif');
   const localCount = gifs.filter((item) => (item.storage || 'local') === 'local').length;

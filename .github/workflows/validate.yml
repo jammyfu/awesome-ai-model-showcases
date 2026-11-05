@@ -34,3 +34,8 @@ jobs:
           python tools/sync_popular.py
           git diff --exit-code -- docs/data/popular.js playbooks/popular-gifs.md
           python tools/validate_popular.py
+      - name: Check community case catalog (primary index)
+        run: |
+          python tools/write_community_catalog.py
+          git diff --exit-code -- README.md playbooks/community-cases.md docs/data/community-cases.json docs/data/cases.js
+          python tools/validate_community.py
