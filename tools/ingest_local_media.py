@@ -41,6 +41,35 @@ if MANIFEST.exists():
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
+REJECT_CONTENT_TYPES = (
+    "text/html",
+    "text/plain",
+    "application/json",
+    "application/xml",
+    "text/xml",
+    "application/javascript",
+    "text/javascript",
+)
+
+
+def reject_download_payload(content_type: str, data: bytes) -> str:
+    """Return an error if the HTTP payload is not media. Empty string if acceptable."""
+    ct = (content_type or "").split(";")[0].strip().lower()
+    if any(ct == bad or ct.startswith(bad + "+") for bad in REJECT_CONTENT_TYPES):
+        return f"rejected content-type {ct or '(empty)'}"
+    head = (data or b"")[:1024].lstrip().lower()
+    if (
+        head.startswith(b"<!doctype")
+        or head.startswith(b"<html")
+        or head.startswith(b"<head")
+        or (head.startswith(b"<") and b"<html" in head)
+    ):
+        return "rejected HTML body (not media)"
+    if ct in {"application/json", "text/json"} or (head.startswith(b"{") and b'"' in head[:80]):
+        if not ct.startswith("image/") and "mp4" not in ct and "video/" not in ct:
+            return "rejected JSON/text body (not media)"
+    return ""
+
 
 def ext_for(url: str, content_type: str) -> str:
     ct = (content_type or "").split(";")[0].strip().lower()
@@ -138,6 +167,11 @@ def download_one(item: dict) -> dict:
     rec["bytes"] = len(data) if status == 200 else 0
     if status != 200 or not data or len(data) < 32:
         rec["error"] = f"HTTP {status}: {last_err or 'empty'}"
+        return rec
+    reject = reject_download_payload(ct, data)
+    if reject:
+        rec["error"] = reject
+        rec["ok"] = False
         return rec
     ext = ext_for(final, ct)
     # Never rename MP4 to GIF.
@@ -405,7 +439,7 @@ def jobs_from_sources() -> tuple[list[dict], dict]:
         "verify": "已在库 · 提示词逐字",
         "workflow": "X Article 多玩法一组",
         "play": "路飞 X Article",
-        "notes": "清单未提供可下载成品 GIF URL；正文提示词已归档。",
+        "notes": "库存无附件 URL；文章接口尝试未取得媒体，不能断言原长文绝无媒体。介绍帖库存无附件。正文提示词已归档。",
         "original_prompt": "\n".join(luffy_prompt),
         "group": "inrepo",
     }
@@ -549,7 +583,7 @@ def main() -> None:
         miss_md.append(f"- `{r['case_id']}` {r['role']} {r['source_url']} — {r['error']}")
     if "luffy-x-article" in meta and not by_case.get("luffy-x-article"):
         miss_md.append(
-            "- `luffy-x-article` media — inventory has no original GIF/MP4 URL; X article id 2118269816821919744 is not a downloadable post (API 404); announcement 2118274913337552992 has no attachments. Prompts archived in prompt.md. Not replaced with SVG."
+            "- `luffy-x-article` media — inventory has no attachment URL; the X article/post API attempt did not retrieve media (article id 2118269816821919744 returned API 404 as a post). That cannot assert the original longform has no media. Announcement 2118274913337552992 has no attachments in the inventory. Prompts archived in prompt.md. Not replaced with SVG."
         )
     miss_md.append("")
     miss_md.append("Notes:")

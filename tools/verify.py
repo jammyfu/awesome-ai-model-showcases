@@ -47,6 +47,8 @@ def main() -> int:
     )
     run([py, str(ROOT / "tools/validate_community.py")])
     run([py, str(ROOT / "tools/validate_local_media.py")])
+    run([py, str(ROOT / "tools/test_archive_guards.py")])
+    run([py, str(ROOT / "tools/validate_markdown_links.py")])
     print("verify ok")
     return 0
 

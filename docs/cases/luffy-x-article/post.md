@@ -14,8 +14,8 @@
 ## Original post text
 
 X Article title: 榨干 Image 2.6 的 10 个神级玩法！【附完整提示词】
-Announcement post 2118274913337552992 has no media attachments. Article id 2118269816821919744 is not a downloadable post (X API 404). Inventory has no original GIF/MP4 URL. Verbatim prompts archived from ideas.json.
+Announcement post 2118274913337552992 has no media attachments in the inventory. Article id 2118269816821919744 returned API 404 when fetched as a post; that attempt did not retrieve media. Inventory has no attachment URL. This cannot assert the original longform has no media. Verbatim prompts archived from ideas.json.
 
 ## Notes / process
 
-清单未提供可下载成品 GIF URL；正文提示词已归档。
+库存无附件 URL；文章接口尝试未取得媒体，不能断言原长文绝无媒体。介绍帖库存无附件。正文提示词已归档。

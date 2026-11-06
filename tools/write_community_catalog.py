@@ -7,6 +7,7 @@ original remake playbooks.
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -189,38 +190,80 @@ def cell(text, limit: int | None = None) -> str:
     return s
 
 
+def existing_public_page(r: dict) -> str:
+    """Seeds and similar: point at a file that already exists, else the source URL."""
+    cid = r.get("id") or ""
+    gif = ROOT / "docs" / "gifs" / f"{cid}.gif"
+    if gif.is_file():
+        return str(gif.relative_to(ROOT)).replace("\\", "/")
+    media = r.get("media_url") or ""
+    if media and not media.startswith(("http://", "https://")):
+        for cand in (ROOT / media, ROOT / "docs" / media):
+            if cand.is_file():
+                return str(cand.relative_to(ROOT)).replace("\\", "/")
+    return r.get("source_url") or ""
+
+
 def attach_local(rows: list[dict]) -> None:
-    if not LOCAL_MANIFEST.exists():
-        return
-    man = json.loads(LOCAL_MANIFEST.read_text(encoding="utf-8"))
+    """Only emit local archive links when docs/cases/<id>/ actually exists."""
+    man: dict = {}
+    if LOCAL_MANIFEST.exists():
+        man = json.loads(LOCAL_MANIFEST.read_text(encoding="utf-8"))
     by: dict[str, list] = {}
     for f in man.get("files") or []:
         if f.get("ok"):
             by.setdefault(f["case_id"], []).append(f)
     for r in rows:
-        files = by.get(r["id"]) or []
-        r["local_dir"] = f"docs/cases/{r['id']}/"
-        r["local_prompt"] = f"docs/cases/{r['id']}/prompt.md"
-        r["local_detail"] = f"docs/cases/{r['id']}/README.md"
-        r["local_page"] = f"docs/cases/{r['id']}/index.html"
-        r["local_files"] = [
-            {
-                "path": f.get("local_path"),
-                "ext": f.get("ext"),
-                "role": f.get("role"),
-                "bytes": f.get("bytes"),
-                "source_url": f.get("source_url"),
-            }
-            for f in files
-        ]
-        preview = next((f for f in files if f.get("ext") in {"gif", "png", "jpg", "jpeg", "webp"}), None)
-        video = next((f for f in files if f.get("ext") == "mp4"), None)
-        r["local_preview"] = (preview or video or {}).get("local_path") or ""
-        if r.get("bucket") in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME}:
-            r["license_notes"] = "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。"
+        cid = r["id"]
+        case_dir = ROOT / "docs" / "cases" / cid
+        has_archive = (case_dir / "README.md").is_file()
+        files = by.get(cid) or []
+        if has_archive:
+            r["local_dir"] = f"docs/cases/{cid}/"
+            r["local_prompt"] = f"docs/cases/{cid}/prompt.md"
+            r["local_detail"] = f"docs/cases/{cid}/README.md"
+            r["local_page"] = f"docs/cases/{cid}/index.html"
+            r["local_files"] = [
+                {
+                    "path": f.get("local_path"),
+                    "ext": f.get("ext"),
+                    "role": f.get("role"),
+                    "bytes": f.get("bytes"),
+                    "source_url": f.get("source_url"),
+                }
+                for f in files
+            ]
+            preview = next((f for f in files if f.get("ext") in {"gif", "png", "jpg", "jpeg", "webp"}), None)
+            video = next((f for f in files if f.get("ext") == "mp4"), None)
+            r["local_preview"] = (preview or video or {}).get("local_path") or ""
+            if r.get("bucket") in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME}:
+                r["license_notes"] = "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。"
+            continue
+        r["local_dir"] = ""
+        r["local_prompt"] = ""
+        r["local_files"] = []
+        r["local_preview"] = ""
+        if r.get("bucket") == BUCKET_SEED:
+            page = existing_public_page(r)
+            r["local_detail"] = page
+            r["local_page"] = page
+        else:
+            # Pending / appendix / excluded: cite source, do not invent case folders.
+            r["local_detail"] = ""
+            r["local_page"] = ""
 
 
-def md_table(rows: list[dict], headers: str = HEADERS_ZH) -> str:
+def repo_href(path: str, from_file: Path) -> str:
+    if not path:
+        return ""
+    if path.startswith(("http://", "https://", "mailto:")):
+        return path
+    target = (ROOT / path).resolve()
+    return Path(os.path.relpath(target, from_file.parent.resolve())).as_posix()
+
+
+def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None = None) -> str:
+    from_file = from_file or OUT_README
     lines = [
         headers,
         "|---:|---|---|---|---|---|---|---|---|---|",
@@ -228,14 +271,24 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH) -> str:
     for i, r in enumerate(rows, 1):
         src = f"[出处]({r['source_url']})" if r.get("source_url") else "—"
         if r.get("local_detail"):
-            media = f"[本地]({r['local_detail']})"
+            label = "来源" if str(r["local_detail"]).startswith(("http://", "https://")) else "本地"
+            media = f"[{label}]({repo_href(r['local_detail'], from_file)})"
             if r.get("local_preview"):
-                media += f" · [文件]({r['local_preview']})"
+                media += f" · [文件]({repo_href(r['local_preview'], from_file)})"
+        elif r.get("source_url") and r.get("bucket") not in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME}:
+            if r.get("media_url"):
+                media = f"[{r['media_kind'] or '来源'}]({r['media_url']})"
+            else:
+                media = f"[出处]({r['source_url']})"
         elif r.get("media_url"):
             media = f"[{r['media_kind']}]({r['media_url']})"
         else:
             media = "—"
-        prompt = f"[全文]({r['local_prompt']})" if r.get("local_prompt") else cell(r.get("prompt_status") or "空")
+        prompt = (
+            f"[全文]({repo_href(r['local_prompt'], from_file)})"
+            if r.get("local_prompt")
+            else cell(r.get("prompt_status") or "空")
+        )
         lines.append(
             "| {i} | {author} | {title} | {src} | {media} | {prompt} | {model} | {pipe} | {verify} | {lic} |".format(
                 i=i,
@@ -353,7 +406,7 @@ def main() -> None:
             "",
             "none",
             "有原文（中文逐字）",
-            "社区长文；原文提示词已本地全文归档；清单无成品媒体 URL",
+            "社区长文；原文提示词已本地全文归档；库存无附件 URL，文章接口尝试未取得，不能断言原长文绝无媒体",
         ),
     ):
         inrepo.append(
@@ -368,7 +421,9 @@ def main() -> None:
                 prompt_status=prompt,
                 model_claim="作者声明 2.6",
                 pipeline=pipeline,
-                verify="已在库 · 作者声明 · 未观看附件" if kind == "mp4" else "已在库 · 提示词逐字 · 清单无成品媒体 URL",
+                verify="已在库 · 作者声明 · 未观看附件"
+                if kind == "mp4"
+                else "已在库 · 提示词逐字 · 库存无附件 URL · 接口未取得 · 不能断言原长文绝无媒体",
                 play=title,
                 license_notes="许可未知 · 本地归档（非作者授权、非 CC0）",
             )
@@ -394,7 +449,11 @@ def main() -> None:
             verify=status,
             play=g.get("description_zh") or "",
             license_notes="无明确再分发授权 · 仅外链",
-            extra={"prompt_audience": g.get("prompt_audience"), "production_notes": g.get("production_notes")},
+            extra={
+                "prompt_audience": g.get("prompt_audience"),
+                "production_notes": g.get("production_notes"),
+                "original_prompt": g.get("prompt") or "",
+            },
         )
         if status == "author_claim_unverified":
             rec["verify"] = "作者声明 2.6 · 非官方验证 · 未观看"
@@ -508,46 +567,50 @@ def main() -> None:
     )
 
     c = catalog["meta"]["counts"]
-    tables_zh = "\n\n".join(
-        [
-            "## 1. X 作者声明 2.6（25 组，不按附件拆卡）",
-            md_table(collected_x),
-            "## 2. 非 X 真 GIF（12）",
-            md_table(web_confirmed),
-            "## 3. 本仓已收录的社区长文 / 单帖（2）",
-            md_table(inrepo),
-            "## 4. 游戏动作序列 · 作者声明（4，非官方验证）",
-            md_table(game_main),
-            "## 附表 A · 待核（12）",
-            md_table(pending),
-            "## 附表 B · 纯 prompt / 剔除",
-            md_table(prompt_only + excluded_x),
-            "## 附表 C · 不混入 2.6 成功：2.5 / 宣传 / 多模型 / 失败 / 非X候选 / Morphic",
-            md_table(catalog["appendix"]),
-            "## 附表 D · 仓库种子 GIF（本仓示例，不是社区征集主清单）",
-            md_table(seeds),
-        ]
-    )
-    tables_en = "\n\n".join(
-        [
-            "## 1. X author-claimed 2.6 (25 groups, not split by attachment)",
-            md_table(collected_x, HEADERS_EN),
-            "## 2. Non-X real GIFs (12)",
-            md_table(web_confirmed, HEADERS_EN),
-            "## 3. Already-in-repo community longform / posts (2)",
-            md_table(inrepo, HEADERS_EN),
-            "## 4. Game action sequences — author-claimed (4, not officially verified)",
-            md_table(game_main, HEADERS_EN),
-            "## Appendix A — pending (12)",
-            md_table(pending, HEADERS_EN),
-            "## Appendix B — prompt-only / rejected",
-            md_table(prompt_only + excluded_x, HEADERS_EN),
-            "## Appendix C — not mixed into 2.6 success: 2.5 / promo / multimodel / failure / non-X candidates / Morphic",
-            md_table(catalog["appendix"], HEADERS_EN),
-            "## Appendix D — repository-seed GIFs (local examples, not the community collection)",
-            md_table(seeds, HEADERS_EN),
-        ]
-    )
+
+    def tables_zh(from_file: Path) -> str:
+        return "\n\n".join(
+            [
+                "## 1. X 作者声明 2.6（25 组，不按附件拆卡）",
+                md_table(collected_x, from_file=from_file),
+                "## 2. 非 X 真 GIF（12）",
+                md_table(web_confirmed, from_file=from_file),
+                "## 3. 本仓已收录的社区长文 / 单帖（2）",
+                md_table(inrepo, from_file=from_file),
+                "## 4. 游戏动作序列 · 作者声明（4，非官方验证）",
+                md_table(game_main, from_file=from_file),
+                "## 附表 A · 待核（12）",
+                md_table(pending, from_file=from_file),
+                "## 附表 B · 纯 prompt / 剔除",
+                md_table(prompt_only + excluded_x, from_file=from_file),
+                "## 附表 C · 不混入 2.6 成功：2.5 / 宣传 / 多模型 / 失败 / 非X候选 / Morphic",
+                md_table(catalog["appendix"], from_file=from_file),
+                "## 附表 D · 仓库种子 GIF（本仓示例，不是社区征集主清单）",
+                md_table(seeds, from_file=from_file),
+            ]
+        )
+
+    def tables_en(from_file: Path) -> str:
+        return "\n\n".join(
+            [
+                "## 1. X author-claimed 2.6 (25 groups, not split by attachment)",
+                md_table(collected_x, HEADERS_EN, from_file=from_file),
+                "## 2. Non-X real GIFs (12)",
+                md_table(web_confirmed, HEADERS_EN, from_file=from_file),
+                "## 3. Already-in-repo community longform / posts (2)",
+                md_table(inrepo, HEADERS_EN, from_file=from_file),
+                "## 4. Game action sequences — author-claimed (4, not officially verified)",
+                md_table(game_main, HEADERS_EN, from_file=from_file),
+                "## Appendix A — pending (12)",
+                md_table(pending, HEADERS_EN, from_file=from_file),
+                "## Appendix B — prompt-only / rejected",
+                md_table(prompt_only + excluded_x, HEADERS_EN, from_file=from_file),
+                "## Appendix C — not mixed into 2.6 success: 2.5 / promo / multimodel / failure / non-X candidates / Morphic",
+                md_table(catalog["appendix"], HEADERS_EN, from_file=from_file),
+                "## Appendix D — repository-seed GIFs (local examples, not the community collection)",
+                md_table(seeds, HEADERS_EN, from_file=from_file),
+            ]
+        )
 
     OUT_MD.write_text(
         "\n".join(
@@ -560,7 +623,7 @@ def main() -> None:
                 f"- Pending {c['pending']} · prompt-only {c['prompt_only']} · excluded {c['excluded']} · appendix {c['appendix']} · seeds {c['repo_seeds']}",
                 "- Officially verified 2.6 game outputs: **0**",
                 "",
-                tables_zh,
+                tables_zh(OUT_MD),
                 "",
             ]
         ),
@@ -666,7 +729,7 @@ No. Original-character remakes, Morphic prompt cards (examples are not 2.6), and
 - It does not treat SVG covers or this repo's `prompt_adaptation` as third-party originals
 - Appendix pages (ideas / popular remakes) are not fully English-synced; do not treat them as a parallel inventory
 
-{tables_en}
+{tables_en(OUT_README)}
 
 ### Local media in this README
 
@@ -751,7 +814,7 @@ Awesome GPT Image GIFs 收集全网 GPT Image GIF 真实案例、原作者、原
 - 不把 SVG 或本站 `prompt_adaptation` 标成第三方原文
 - 玩法/热门附页不是完整英文同步版，不能当成第二套案例数
 
-{tables_zh}
+{tables_zh(OUT_README_ZH)}
 
 ### 本 README 中的本地媒体
 

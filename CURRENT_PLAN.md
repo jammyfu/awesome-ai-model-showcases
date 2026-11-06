@@ -1,24 +1,26 @@
 # Current plan
 
-**Goal:** Archive real third-party media for the 43 main catalog cases, with author and source kept, and wire a lean CoderSkills loop around that one goal.
+**Goal:** Close the four P2 findings from the independent review of `7186396` (media itself passed). No new features. Do not merge main. Do not change GitHub Settings.
 
 ## Tasks
 
-1. [x] Vendor latest scout JSON and download every main-table GIF/MP4/reference still. Incremental sha256 skip.
-2. [x] Write per-case `docs/cases/<id>/` with full original prompt, post text, and local embeds.
-3. [x] Point EN/ZH README and the website at local media; original URLs become citations only.
-4. [x] Replace link-only validators with `tools/validate_local_media.py` + `tools/verify.py` (sys.executable) in CI.
-5. [x] Add readme-tech-visualizer header/badges from the real stack (no SVG fallback, no paid images).
-6. [x] Add lean continuous-project-loop files. Do not add git-autosync-signal.
+1. [x] Real format detection for local media (ffprobe video stream/duration when present; ISO-BMFF parser otherwise). Pillow for images; GIF multi-frame per existing semantics. Manifest ok-count / bytes / case-attachment correspondence. Ingest rejects wrong content-type. HTML-as-MP4 fault injection must fail.
+2. [x] Prompt check compares archived `prompt.md` body to source/ideas/game verbatim text. Remove heading fallback. Unpublished prompts require the explicit empty marker. WRONG PROMPT fault injection must fail.
+3. [x] `attach_local` emits local detail/prompt links only when `docs/cases/<id>/` exists. Appendix / pending / seeds point at existing pages or sources. `verify` recursively checks generated local Markdown/HTML link targets.
+4. [x] Narrow Luffy wording: inventory has no attachment URL; article API attempt retrieved none; cannot assert the original longform has no media. Keep existing evidence; do not invent media.
+5. [x] Local `python3 tools/verify.py` including fault-injection tests.
+6. [ ] CI on PR #2 green for **this** commit. Do not record CI passed until the cloud run is visible.
 
 ## Status
 
-Done on this branch. Next: CI green on PR #2; then pending-12 review stays in backlog.
+Local work complete on this branch. Next: push, then record CI when the cloud can see the result.
 
 ## Out of scope
 
-GitHub Settings, merging to main, pending-12 promotion, watching MP4s, generation features, autosync/heartbeat.
+GitHub Settings, merging to main, pending-12 promotion, watching MP4s, generation features, autosync/heartbeat, unrelated features.
 
 ## Next candidates
 
-Pending-12 review; optional visual review of unwatched MP4s; rights-takedown process if an author asks.
+1. Record CI outcome for this P2 commit (pass or fail from the cloud run).
+2. Pending-12 review stays backlog.
+3. Optional visual review of unwatched MP4s; rights-takedown if an author asks.

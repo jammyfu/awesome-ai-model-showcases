@@ -1801,8 +1801,8 @@ window.COMMUNITY_CASES = {
       "media_kind": "none",
       "prompt_status": "有原文（中文逐字）",
       "model_claim": "作者声明 2.6",
-      "pipeline": "社区长文；原文提示词已本地全文归档；清单无成品媒体 URL",
-      "verify": "已在库 · 提示词逐字 · 清单无成品媒体 URL",
+      "pipeline": "社区长文；原文提示词已本地全文归档；库存无附件 URL，文章接口尝试未取得，不能断言原长文绝无媒体",
+      "verify": "已在库 · 提示词逐字 · 库存无附件 URL · 接口未取得 · 不能断言原长文绝无媒体",
       "play": "路飞 X Article：榨干 Image 2.6 的 10 个神级玩法（多玩法一组）",
       "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
@@ -1834,6 +1834,7 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": "image_model",
       "production_notes": "真实制作至少还要：跳跃循环压背景去闪烁；完整图像 prompt 仍未公开；不能假设直出即可进引擎。",
+      "original_prompt": "",
       "local_dir": "docs/cases/game-daft-pixel-combo/",
       "local_prompt": "docs/cases/game-daft-pixel-combo/prompt.md",
       "local_detail": "docs/cases/game-daft-pixel-combo/README.md",
@@ -1888,6 +1889,7 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": "game_agent",
       "production_notes": "真实制作还要：让游戏 agent 自写图像 prompt（原文未公开）；品红键色→去边→切格→缩放→图集→canvas；切帧不是 2.6 完成的。文章模板只能当重建规格。",
+      "original_prompt": "Make a small arcade action game in one web page: a fox ronin defending a night market from ink spirits. Arrow keys move, space attacks. All the art must come from the image model selected for this run: sprite sheets for the hero (idle, run, attack, hurt), three enemies and a boss, plus a background. Cut the sheets into frames and animate them in the game. Do not draw characters in code. Add a HUD, a score, and win and game over screens. It should feel fun the moment it loads.",
       "local_dir": "docs/cases/game-maker-evan-fox-ronin/",
       "local_prompt": "docs/cases/game-maker-evan-fox-ronin/prompt.md",
       "local_detail": "docs/cases/game-maker-evan-fox-ronin/README.md",
@@ -1935,6 +1937,7 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": "image_model",
       "production_notes": "真实制作缺口：完整图像 prompt；引擎导入与碰撞区；连续动作形象一致性。深挖未补上这些。",
+      "original_prompt": "",
       "local_dir": "docs/cases/game-xiaomovps-fighter/",
       "local_prompt": "docs/cases/game-xiaomovps-fighter/prompt.md",
       "local_detail": "docs/cases/game-xiaomovps-fighter/README.md",
@@ -1982,6 +1985,7 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": null,
       "production_notes": null,
+      "original_prompt": "Using this character as the reference, create a 2D animation sprite sheet for a game.\nAction: \"[🔴 write the action here]\"\n\nShow one continuous action in 4 columns × 4 rows, 16 frames in total.\n\n[Sprite sheet spec]\n- Square canvas\n- 4 columns × 4 rows, 16 frames in total\n- All 16 cells exactly the same size\n- At least 10 px of margin on every side of each cell\n- No borders, grid lines, numbers, letters, symbols or UI at all\n- One plain white background, the same in every frame\n- Frames in time order: left to right, top row to bottom row\n\n[Most important: fixed size and position]\n- The same character scale in all 16 frames\n- No camera zoom in or out\n- The ground line under the feet fixed at the same height\n- The character's centre does not move much from one frame to the next\n- Change the pose only as much as the motion needs\n\n[Most important: everything inside its cell]\n- Hair, clothes, arms and legs, weapons, props, effects, afterimages and particles all stay inside their own cell\n- Nothing spills into the next cell\n- Nothing enters the 10 px safety margin\n- Even when the action gets bigger, do not shrink the character to make it fit\n- If needed, tone down effects and arm swings so they stay in the cell\n\n[Drawing]\n- A clear silhouette that reads well as a 2D game sprite\n- Motion that flows naturally from frame to frame\n- Not a single illustration: unbroken continuity as animation material comes first\n- The same detail, line, colour and shading in every frame",
       "local_dir": "docs/cases/game-varg-knight-run/",
       "local_prompt": "docs/cases/game-varg-knight-run/prompt.md",
       "local_detail": "docs/cases/game-varg-knight-run/README.md",
@@ -2025,12 +2029,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "做一个循环 GIF 表情包：一只圆滚滚的橘猫举起爪子打招呼，眨一下眼。9 帧，每帧 120 毫秒，正方形，纯白背景，不要文字。",
       "thread_group_id": null,
       "media_count": 4,
-      "local_dir": "docs/cases/x-chaoranya-orange-cat/",
-      "local_prompt": "docs/cases/x-chaoranya-orange-cat/prompt.md",
-      "local_detail": "docs/cases/x-chaoranya-orange-cat/README.md",
-      "local_page": "docs/cases/x-chaoranya-orange-cat/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-batzdu-demo-gif",
@@ -2051,12 +2055,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-batzdu-demo-gif/",
-      "local_prompt": "docs/cases/x-batzdu-demo-gif/prompt.md",
-      "local_detail": "docs/cases/x-batzdu-demo-gif/README.md",
-      "local_page": "docs/cases/x-batzdu-demo-gif/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-aidan-clark-gif",
@@ -2077,12 +2081,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-aidan-clark-gif/",
-      "local_prompt": "docs/cases/x-aidan-clark-gif/prompt.md",
-      "local_detail": "docs/cases/x-aidan-clark-gif/README.md",
-      "local_page": "docs/cases/x-aidan-clark-gif/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-andrew-mayne-checks-out",
@@ -2103,12 +2107,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-andrew-mayne-checks-out/",
-      "local_prompt": "docs/cases/x-andrew-mayne-checks-out/prompt.md",
-      "local_detail": "docs/cases/x-andrew-mayne-checks-out/README.md",
-      "local_page": "docs/cases/x-andrew-mayne-checks-out/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-bt21-ok-flask-light",
@@ -2129,12 +2133,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-bt21-ok-flask-light/",
-      "local_prompt": "docs/cases/x-bt21-ok-flask-light/prompt.md",
-      "local_detail": "docs/cases/x-bt21-ok-flask-light/README.md",
-      "local_page": "docs/cases/x-bt21-ok-flask-light/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-hackdeacon-test",
@@ -2155,12 +2159,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-hackdeacon-test/",
-      "local_prompt": "docs/cases/x-hackdeacon-test/prompt.md",
-      "local_detail": "docs/cases/x-hackdeacon-test/README.md",
-      "local_page": "docs/cases/x-hackdeacon-test/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-jiaojiaojio-fora",
@@ -2181,12 +2185,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-jiaojiaojio-fora/",
-      "local_prompt": "docs/cases/x-jiaojiaojio-fora/prompt.md",
-      "local_detail": "docs/cases/x-jiaojiaojio-fora/README.md",
-      "local_page": "docs/cases/x-jiaojiaojio-fora/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-web30708-wechat-listing",
@@ -2207,12 +2211,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-web30708-wechat-listing/",
-      "local_prompt": "docs/cases/x-web30708-wechat-listing/prompt.md",
-      "local_detail": "docs/cases/x-web30708-wechat-listing/README.md",
-      "local_page": "docs/cases/x-web30708-wechat-listing/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-halozhangyu-fatfish-9",
@@ -2233,12 +2237,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 4,
-      "local_dir": "docs/cases/x-halozhangyu-fatfish-9/",
-      "local_prompt": "docs/cases/x-halozhangyu-fatfish-9/prompt.md",
-      "local_detail": "docs/cases/x-halozhangyu-fatfish-9/README.md",
-      "local_page": "docs/cases/x-halozhangyu-fatfish-9/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-youart-platform-video",
@@ -2259,12 +2263,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-youart-platform-video/",
-      "local_prompt": "docs/cases/x-youart-platform-video/prompt.md",
-      "local_detail": "docs/cases/x-youart-platform-video/README.md",
-      "local_page": "docs/cases/x-youart-platform-video/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-antseed-demo-video",
@@ -2285,12 +2289,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "",
       "thread_group_id": null,
       "media_count": 1,
-      "local_dir": "docs/cases/x-antseed-demo-video/",
-      "local_prompt": "docs/cases/x-antseed-demo-video/prompt.md",
-      "local_detail": "docs/cases/x-antseed-demo-video/README.md",
-      "local_page": "docs/cases/x-antseed-demo-video/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-iskunzhenbai-fatfish-reply",
@@ -2311,12 +2315,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "根据图中角色做成动态图，要求头上呆毛摆动，耳朵上下晃动，眨眼睛",
       "thread_group_id": "op7418-fatfish",
       "media_count": 2,
-      "local_dir": "docs/cases/x-iskunzhenbai-fatfish-reply/",
-      "local_prompt": "docs/cases/x-iskunzhenbai-fatfish-reply/prompt.md",
-      "local_detail": "docs/cases/x-iskunzhenbai-fatfish-reply/README.md",
-      "local_page": "docs/cases/x-iskunzhenbai-fatfish-reply/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     }
   ],
   "prompt_only": [
@@ -2339,12 +2343,12 @@ window.COMMUNITY_CASES = {
       "original_prompt": "Turn this image into a seamless looping GIF. Make the subject blink, smile, and give a small wave. Keep the face, colors, outfit, and background consistent. No camera movement or extra objects.",
       "thread_group_id": null,
       "media_count": 0,
-      "local_dir": "docs/cases/x-neurofoxxx-prompt-reply/",
-      "local_prompt": "docs/cases/x-neurofoxxx-prompt-reply/prompt.md",
-      "local_detail": "docs/cases/x-neurofoxxx-prompt-reply/README.md",
-      "local_page": "docs/cases/x-neurofoxxx-prompt-reply/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     }
   ],
   "excluded": [
@@ -2364,12 +2368,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-luffy-already/",
-      "local_prompt": "docs/cases/x-luffy-already/prompt.md",
-      "local_detail": "docs/cases/x-luffy-already/README.md",
-      "local_page": "docs/cases/x-luffy-already/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-krouxzz-already",
@@ -2387,12 +2391,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-krouxzz-already/",
-      "local_prompt": "docs/cases/x-krouxzz-already/prompt.md",
-      "local_detail": "docs/cases/x-krouxzz-already/README.md",
-      "local_page": "docs/cases/x-krouxzz-already/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-promptlyai-midjourney-mix",
@@ -2410,12 +2414,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-promptlyai-midjourney-mix/",
-      "local_prompt": "docs/cases/x-promptlyai-midjourney-mix/prompt.md",
-      "local_detail": "docs/cases/x-promptlyai-midjourney-mix/README.md",
-      "local_page": "docs/cases/x-promptlyai-midjourney-mix/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-omniallai-reseller",
@@ -2433,12 +2437,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-omniallai-reseller/",
-      "local_prompt": "docs/cases/x-omniallai-reseller/prompt.md",
-      "local_detail": "docs/cases/x-omniallai-reseller/README.md",
-      "local_page": "docs/cases/x-omniallai-reseller/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-tuzi-ai-reseller",
@@ -2456,12 +2460,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-tuzi-ai-reseller/",
-      "local_prompt": "docs/cases/x-tuzi-ai-reseller/prompt.md",
-      "local_detail": "docs/cases/x-tuzi-ai-reseller/README.md",
-      "local_page": "docs/cases/x-tuzi-ai-reseller/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-fal-platform",
@@ -2479,12 +2483,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-fal-platform/",
-      "local_prompt": "docs/cases/x-fal-platform/prompt.md",
-      "local_detail": "docs/cases/x-fal-platform/README.md",
-      "local_page": "docs/cases/x-fal-platform/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-news-reposts-cluster",
@@ -2502,12 +2506,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-news-reposts-cluster/",
-      "local_prompt": "docs/cases/x-news-reposts-cluster/prompt.md",
-      "local_detail": "docs/cases/x-news-reposts-cluster/README.md",
-      "local_page": "docs/cases/x-news-reposts-cluster/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-luffy-simplified-prompt-repost",
@@ -2525,12 +2529,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-luffy-simplified-prompt-repost/",
-      "local_prompt": "docs/cases/x-luffy-simplified-prompt-repost/prompt.md",
-      "local_detail": "docs/cases/x-luffy-simplified-prompt-repost/README.md",
-      "local_page": "docs/cases/x-luffy-simplified-prompt-repost/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "x-masyu-niji-mix",
@@ -2548,12 +2552,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/x-masyu-niji-mix/",
-      "local_prompt": "docs/cases/x-masyu-niji-mix/prompt.md",
-      "local_detail": "docs/cases/x-masyu-niji-mix/README.md",
-      "local_page": "docs/cases/x-masyu-niji-mix/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     }
   ],
   "appendix": [
@@ -2575,12 +2579,13 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": "unpublished",
       "production_notes": "真实制作还要：量化到网格与 7 色、锁头、镜像腿、手修像素。2.6 单独交不出合格像素循环。Pocketworld 最终循环是代码绘制，只作混合参考。",
-      "local_dir": "docs/cases/game-maker-evan-walk-cycle/",
-      "local_prompt": "docs/cases/game-maker-evan-walk-cycle/prompt.md",
-      "local_detail": "docs/cases/game-maker-evan-walk-cycle/README.md",
-      "local_page": "docs/cases/game-maker-evan-walk-cycle/index.html",
+      "original_prompt": "",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "game-ssss-4x4-spec",
@@ -2600,12 +2605,13 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": null,
       "production_notes": null,
-      "local_dir": "docs/cases/game-ssss-4x4-spec/",
-      "local_prompt": "docs/cases/game-ssss-4x4-spec/prompt.md",
-      "local_detail": "docs/cases/game-ssss-4x4-spec/README.md",
-      "local_page": "docs/cases/game-ssss-4x4-spec/index.html",
+      "original_prompt": "このキャラクターを参照して、ゲーム用の2Dアニメーションスプライトシートを作成して。\n内容は「🔴アクションを記入」\n\n1つの連続したアクションを、4列×4行の合計16フレームで表現する。\n\n【スプライトシート仕様】\n・正方形キャンバス\n・4列×4行、合計16フレーム\n・16個のセルは完全に同じ大きさ\n・各セルの上下左右に最低10pxの余白を確保する\n・枠線、グリッド線、数字、文字、記号、UIは一切不要\n・背景は全フレームで統一された単色の白\n・各フレームは左上から右へ、上段から下段へ、時間順に並べる\n\n【最重要：サイズと位置の固定】\n・16フレームすべてでキャラクターの表示倍率を統一する\n・カメラのズームイン、ズームアウトは禁止\n・足元の接地面の基準線を同じ高さに固定する\n・キャラクターの中心位置がフレームの前後で大きく移動しない\n・動きに必要な範囲だけポーズを変える\n\n【最重要：セル内に完全に収める】\n・髪、服、手足、武器、小物、エフェクト、残光、粒子を含むすべてを各セルの内部だけに収める\n・隣のセルにはみ出さない\n・余白10pxの安全領域を侵さない\n・アクションが大きくなっても、キャラクターを縮小して調整しない\n・必要ならエフェクトや腕の振り幅を控えめにして、セル内に収める\n\n【描画方針】\n・2Dゲーム用スプライトとして読みやすい、明快なシルエット\n・フレーム間で自然につながる動き\n・1枚絵ではなく、アニメーション素材として破綻のない連続性を重視\n・各フレームの描き込み密度、線、塗り、陰影を統一する",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "game-higgsfield-boxing",
@@ -2625,12 +2631,13 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": "unpublished",
       "production_notes": "宣传组没有可复制图像 prompt，也没有已观看的引擎工程。不要按帖数加案例。",
-      "local_dir": "docs/cases/game-higgsfield-boxing/",
-      "local_prompt": "docs/cases/game-higgsfield-boxing/prompt.md",
-      "local_detail": "docs/cases/game-higgsfield-boxing/README.md",
-      "local_page": "docs/cases/game-higgsfield-boxing/index.html",
+      "original_prompt": "",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "game-am09-sprite-failure",
@@ -2650,12 +2657,13 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": "unpublished",
       "production_notes": "游戏向不要把待机和动作画进同一张会动的 GIF；按动作分开出 sprite。这不是成功案例。",
-      "local_dir": "docs/cases/game-am09-sprite-failure/",
-      "local_prompt": "docs/cases/game-am09-sprite-failure/prompt.md",
-      "local_detail": "docs/cases/game-am09-sprite-failure/README.md",
-      "local_page": "docs/cases/game-am09-sprite-failure/index.html",
+      "original_prompt": "",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "game-wrongnebula-pixel-failure",
@@ -2675,12 +2683,13 @@ window.COMMUNITY_CASES = {
       "generation_verified": false,
       "prompt_audience": "unpublished",
       "production_notes": "严格像素循环不要指望 2.6 直出。作者建议 pixeldiffusion。evals 回复只说 painted sprite 更干净，不能把失败帖改写成成功。",
-      "local_dir": "docs/cases/game-wrongnebula-pixel-failure/",
-      "local_prompt": "docs/cases/game-wrongnebula-pixel-failure/prompt.md",
-      "local_detail": "docs/cases/game-wrongnebula-pixel-failure/README.md",
-      "local_page": "docs/cases/game-wrongnebula-pixel-failure/index.html",
+      "original_prompt": "",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "v2ex-pelican-bike",
@@ -2698,12 +2707,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/v2ex-pelican-bike/",
-      "local_prompt": "docs/cases/v2ex-pelican-bike/prompt.md",
-      "local_detail": "docs/cases/v2ex-pelican-bike/README.md",
-      "local_page": "docs/cases/v2ex-pelican-bike/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "atlas-robot-wave-pre26",
@@ -2721,12 +2730,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/atlas-robot-wave-pre26/",
-      "local_prompt": "docs/cases/atlas-robot-wave-pre26/prompt.md",
-      "local_detail": "docs/cases/atlas-robot-wave-pre26/README.md",
-      "local_page": "docs/cases/atlas-robot-wave-pre26/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "atlas-teacup-pre26",
@@ -2744,12 +2753,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/atlas-teacup-pre26/",
-      "local_prompt": "docs/cases/atlas-teacup-pre26/prompt.md",
-      "local_detail": "docs/cases/atlas-teacup-pre26/README.md",
-      "local_page": "docs/cases/atlas-teacup-pre26/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "morphic-sprite-prompts-run-on-25",
@@ -2767,12 +2776,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/morphic-sprite-prompts-run-on-25/",
-      "local_prompt": "docs/cases/morphic-sprite-prompts-run-on-25/prompt.md",
-      "local_detail": "docs/cases/morphic-sprite-prompts-run-on-25/README.md",
-      "local_page": "docs/cases/morphic-sprite-prompts-run-on-25/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "cocoloop-boat-sheet-unconfirmed",
@@ -2790,12 +2799,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/cocoloop-boat-sheet-unconfirmed/",
-      "local_prompt": "docs/cases/cocoloop-boat-sheet-unconfirmed/prompt.md",
-      "local_detail": "docs/cases/cocoloop-boat-sheet-unconfirmed/README.md",
-      "local_page": "docs/cases/cocoloop-boat-sheet-unconfirmed/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "makari-note-jp-cases",
@@ -2813,12 +2822,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/makari-note-jp-cases/",
-      "local_prompt": "docs/cases/makari-note-jp-cases/prompt.md",
-      "local_detail": "docs/cases/makari-note-jp-cases/README.md",
-      "local_page": "docs/cases/makari-note-jp-cases/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "weel-jp-emotion-gifs",
@@ -2836,12 +2845,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/weel-jp-emotion-gifs/",
-      "local_prompt": "docs/cases/weel-jp-emotion-gifs/prompt.md",
-      "local_detail": "docs/cases/weel-jp-emotion-gifs/README.md",
-      "local_page": "docs/cases/weel-jp-emotion-gifs/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "openart-launch-sprite-videos",
@@ -2859,12 +2868,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/openart-launch-sprite-videos/",
-      "local_prompt": "docs/cases/openart-launch-sprite-videos/prompt.md",
-      "local_detail": "docs/cases/openart-launch-sprite-videos/README.md",
-      "local_page": "docs/cases/openart-launch-sprite-videos/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "xianyu110-mirror-gallery",
@@ -2882,12 +2891,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/xianyu110-mirror-gallery/",
-      "local_prompt": "docs/cases/xianyu110-mirror-gallery/prompt.md",
-      "local_detail": "docs/cases/xianyu110-mirror-gallery/README.md",
-      "local_page": "docs/cases/xianyu110-mirror-gallery/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "openai-social-png",
@@ -2905,12 +2914,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/openai-social-png/",
-      "local_prompt": "docs/cases/openai-social-png/prompt.md",
-      "local_detail": "docs/cases/openai-social-png/README.md",
-      "local_page": "docs/cases/openai-social-png/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "nowrap-429",
@@ -2928,12 +2937,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/nowrap-429/",
-      "local_prompt": "docs/cases/nowrap-429/prompt.md",
-      "local_detail": "docs/cases/nowrap-429/README.md",
-      "local_page": "docs/cases/nowrap-429/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "github-sdk-only",
@@ -2951,12 +2960,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/github-sdk-only/",
-      "local_prompt": "docs/cases/github-sdk-only/prompt.md",
-      "local_detail": "docs/cases/github-sdk-only/README.md",
-      "local_page": "docs/cases/github-sdk-only/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "baker-mascot-sprite",
@@ -2974,12 +2983,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/baker-mascot-sprite/",
-      "local_prompt": "docs/cases/baker-mascot-sprite/prompt.md",
-      "local_detail": "docs/cases/baker-mascot-sprite/README.md",
-      "local_page": "docs/cases/baker-mascot-sprite/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "papercraft-koi",
@@ -2997,12 +3006,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/papercraft-koi/",
-      "local_prompt": "docs/cases/papercraft-koi/prompt.md",
-      "local_detail": "docs/cases/papercraft-koi/README.md",
-      "local_page": "docs/cases/papercraft-koi/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "character-ref-sheet",
@@ -3020,12 +3029,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/character-ref-sheet/",
-      "local_prompt": "docs/cases/character-ref-sheet/prompt.md",
-      "local_detail": "docs/cases/character-ref-sheet/README.md",
-      "local_page": "docs/cases/character-ref-sheet/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "packaging-dieline",
@@ -3043,12 +3052,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/packaging-dieline/",
-      "local_prompt": "docs/cases/packaging-dieline/prompt.md",
-      "local_detail": "docs/cases/packaging-dieline/README.md",
-      "local_page": "docs/cases/packaging-dieline/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "labelled-bakery-cutaway",
@@ -3066,12 +3075,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/labelled-bakery-cutaway/",
-      "local_prompt": "docs/cases/labelled-bakery-cutaway/prompt.md",
-      "local_detail": "docs/cases/labelled-bakery-cutaway/README.md",
-      "local_page": "docs/cases/labelled-bakery-cutaway/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "winter-edition-edit",
@@ -3089,12 +3098,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/winter-edition-edit/",
-      "local_prompt": "docs/cases/winter-edition-edit/prompt.md",
-      "local_detail": "docs/cases/winter-edition-edit/README.md",
-      "local_page": "docs/cases/winter-edition-edit/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     },
     {
       "id": "autumn-bake-poster",
@@ -3112,12 +3121,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/autumn-bake-poster/",
-      "local_prompt": "docs/cases/autumn-bake-poster/prompt.md",
-      "local_detail": "docs/cases/autumn-bake-poster/README.md",
-      "local_page": "docs/cases/autumn-bake-poster/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "",
+      "local_page": ""
     }
   ],
   "repo_seeds": [
@@ -3137,12 +3146,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/pixel-head-pat/",
-      "local_prompt": "docs/cases/pixel-head-pat/prompt.md",
-      "local_detail": "docs/cases/pixel-head-pat/README.md",
-      "local_page": "docs/cases/pixel-head-pat/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "docs/gifs/pixel-head-pat.gif",
+      "local_page": "docs/gifs/pixel-head-pat.gif"
     },
     {
       "id": "cat-screen-crack",
@@ -3160,12 +3169,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/cat-screen-crack/",
-      "local_prompt": "docs/cases/cat-screen-crack/prompt.md",
-      "local_detail": "docs/cases/cat-screen-crack/README.md",
-      "local_page": "docs/cases/cat-screen-crack/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "docs/gifs/cat-screen-crack.gif",
+      "local_page": "docs/gifs/cat-screen-crack.gif"
     },
     {
       "id": "cat-headbutt",
@@ -3183,12 +3192,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/cat-headbutt/",
-      "local_prompt": "docs/cases/cat-headbutt/prompt.md",
-      "local_detail": "docs/cases/cat-headbutt/README.md",
-      "local_page": "docs/cases/cat-headbutt/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "docs/gifs/cat-headbutt.gif",
+      "local_page": "docs/gifs/cat-headbutt.gif"
     },
     {
       "id": "kangaroo-pat",
@@ -3206,12 +3215,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/kangaroo-pat/",
-      "local_prompt": "docs/cases/kangaroo-pat/prompt.md",
-      "local_detail": "docs/cases/kangaroo-pat/README.md",
-      "local_page": "docs/cases/kangaroo-pat/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "docs/gifs/kangaroo-pat.gif",
+      "local_page": "docs/gifs/kangaroo-pat.gif"
     },
     {
       "id": "martial-arts-combo",
@@ -3229,12 +3238,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/martial-arts-combo/",
-      "local_prompt": "docs/cases/martial-arts-combo/prompt.md",
-      "local_detail": "docs/cases/martial-arts-combo/README.md",
-      "local_page": "docs/cases/martial-arts-combo/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "docs/gifs/martial-arts-combo.gif",
+      "local_page": "docs/gifs/martial-arts-combo.gif"
     },
     {
       "id": "head-pat-caption",
@@ -3252,12 +3261,12 @@ window.COMMUNITY_CASES = {
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
       "generation_verified": false,
-      "local_dir": "docs/cases/head-pat-caption/",
-      "local_prompt": "docs/cases/head-pat-caption/prompt.md",
-      "local_detail": "docs/cases/head-pat-caption/README.md",
-      "local_page": "docs/cases/head-pat-caption/index.html",
+      "local_dir": "",
+      "local_prompt": "",
       "local_files": [],
-      "local_preview": ""
+      "local_preview": "",
+      "local_detail": "docs/gifs/head-pat-caption.gif",
+      "local_page": "docs/gifs/head-pat-caption.gif"
     }
   ]
 };
