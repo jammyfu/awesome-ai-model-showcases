@@ -44,6 +44,7 @@ def main() -> int:
     assert counts["already_in_repo"] == 2, counts
     assert counts["game_author_claim"] == 4, counts
     assert counts["main_collected"] == 43, counts
+    assert counts["repo_seeds"] == 6, counts
     assert "window.COMMUNITY_CASES" in js
     assert catalog["meta"]["not_exhaustive"] is True
     assert catalog["meta"]["official_verified_26_game"] == 0
@@ -56,6 +57,8 @@ def main() -> int:
         assert rec.get("source_url"), rec["id"]
         if rec["media_kind"] == "mp4":
             assert rec.get("media_url"), rec["id"]
+        assert rec.get("local_detail"), rec["id"]
+        assert rec.get("local_prompt"), rec["id"]
 
     for rec in catalog["collected_web_gif"]:
         assert rec["id"] in readme and rec["id"] in readme_zh
@@ -65,6 +68,13 @@ def main() -> int:
     joined = " ".join(words).lower()
     assert "collects" in joined and "original" in joined and "playbook" in joined
     assert ZH_LEAD in readme_zh
+    assert "<!-- readme-tech-visualizer:start -->" in readme
+    assert "<!-- readme-tech-visualizer:end -->" in readme
+    assert "<!-- readme-tech-visualizer:start -->" in readme_zh
+    assert "docs/cases/" in readme and "docs/cases/" in readme_zh
+    assert "local media" in readme.lower() and "本地素材" in readme_zh
+    assert "只外链" not in readme and "只外链" not in readme_zh
+    assert "不转载第三方" not in readme and "不转载第三方" not in readme_zh
     for heading in (
         "## What is this repository?",
         "## What can I do with this catalog?",
@@ -111,9 +121,10 @@ def main() -> int:
                 raise AssertionError(f"{path}:{i} table row split by newline: {line[:80]}")
     for name in ("x-miramusic-stretch", "x-xepher113-oc12", "x-yulikay-toast"):
         for blob in (readme, readme_zh):
-            for line in blob.splitlines():
-                if name in line:
-                    assert line.startswith("|") and line.count("|") >= 10, (name, line)
+            table_hits = [line for line in blob.splitlines() if name in line and line.startswith("|")]
+            assert table_hits, name
+            for line in table_hits:
+                assert line.count("|") >= 10, (name, line)
 
     print(
         "community catalog ok: "

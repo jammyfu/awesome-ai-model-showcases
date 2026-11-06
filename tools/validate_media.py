@@ -33,7 +33,7 @@ required = (
 )
 kinds = ("gif", "mp4", "vimeo")
 storages = ("local", "external")
-rights = ("repo_seed", "unknown_link_only")
+rights = ("repo_seed", "unknown_link_only", "unknown_archived")
 prompt_statuses = ("verbatim", "reconstructed", "empty")
 idea_ids = {x["id"] for x in ideas}
 gallery_ids = {x["id"] for x in gallery}
@@ -54,7 +54,7 @@ for item in items:
     ), f'{item["id"]}: url must be https or a local relative path'
     ids.append(item["id"])
     if item["storage"] == "local":
-        assert item["rights"] == "repo_seed"
+        assert item["rights"] in ("repo_seed", "unknown_archived"), f'{item["id"]}: local rights'
         path = (ROOT / "docs" / item["local_path"]).resolve()
         assert item.get("local_path"), f'{item["id"]}: local_path required'
         assert path.is_relative_to(ROOT / "docs") and path.is_file(), f'{item["id"]}: missing local file'

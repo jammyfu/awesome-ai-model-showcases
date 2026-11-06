@@ -198,7 +198,7 @@ window.GALLERY_ITEMS = [
       "sunburst",
       "external"
     ],
-    "image": "https://developers.openai.com/images/platform/guides/image-prompting/monkey-lantern-gpt-image-2-6-sunburst.gif",
+    "image": "cases/official-lantern-monkey-gif/media/01-gif.gif",
     "prompt": "A little monkey in an olive-green hooded coat stands in a snowy pine forest at dusk. A wooden cabin glows in the background. The monkey holds a glowing amber paper lantern at chest height, slowly lifts it, looks up and blinks, then lowers it back to its starting pose. Keep the lantern in its hands and the camera still. Make the motion loop smoothly.",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -211,11 +211,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://developers.openai.com/api/docs/guides/image-prompting",
     "creator": "OpenAI",
     "featured": true,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "openai-lantern-monkey-gif",
-    "playbook_role": "fill"
+    "playbook_role": "fill",
+    "source_media_url": "https://developers.openai.com/images/platform/guides/image-prompting/monkey-lantern-gpt-image-2-6-sunburst.gif"
   },
   {
     "id": "lightlyn-earbuds-product",
@@ -229,7 +230,7 @@ window.GALLERY_ITEMS = [
       "lightlyn",
       "external"
     ],
-    "image": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-product.gif",
+    "image": "cases/lightlyn-earbuds-case-gif/media/01-gif.gif",
     "prompt": "A white wireless earbuds charging case labelled \"LIGHTLYN\" on a sage-green studio background: the lid opens, the two earbuds rise and float a little, then settle back and the lid closes. Clean product animation, seamless loop.",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -242,11 +243,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
     "creator": "Linger / Lightlyn",
     "featured": false,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "lightlyn-earbuds-product-gif",
-    "playbook_role": "fill"
+    "playbook_role": "fill",
+    "source_media_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-product.gif"
   },
   {
     "id": "lightlyn-latte-steam",
@@ -260,7 +262,7 @@ window.GALLERY_ITEMS = [
       "lightlyn",
       "external"
     ],
-    "image": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-photo.gif",
+    "image": "cases/lightlyn-photo-steam-gif/media/01-gif.gif",
     "prompt": "Make this photo move: gentle steam rises and curls above the latte, soft light flickers slightly. Keep the cup, the table and the window exactly as they are. Seamless loop.",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -273,11 +275,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
     "creator": "Linger / Lightlyn",
     "featured": true,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "lightlyn-latte-steam-gif",
-    "playbook_role": "fill"
+    "playbook_role": "fill",
+    "source_media_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-photo.gif"
   },
   {
     "id": "veevid-perfume-loop",
@@ -291,7 +294,7 @@ window.GALLERY_ITEMS = [
       "veevid",
       "external"
     ],
-    "image": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-perfume-loop.gif",
+    "image": "cases/veevid-perfume-light-sweep-gif/media/01-gif.gif",
     "prompt": "A frosted glass perfume bottle on a round stone pedestal. The sequence: a soft band of light sweeps slowly across the glass from left to right while tiny dust particles drift upward. Fixed camera, same bottle, same pedestal, warm beige studio background. The last frame transitions smoothly back to the first for a seamless loop. Clean product photography style. No captions, no words, no logos, no borders.",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -304,11 +307,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
     "creator": "Veevid Team",
     "featured": false,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "veevid-perfume-loop-gif",
-    "playbook_role": "fill"
+    "playbook_role": "fill",
+    "source_media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-perfume-loop.gif"
   },
   {
     "id": "reddit-anime-nod",
@@ -322,7 +326,7 @@ window.GALLERY_ITEMS = [
       "reddit",
       "external"
     ],
-    "image": "https://i.redd.it/smnyo808cszh1.gif",
+    "image": "cases/reddit-anime-nod-gif/media/01-gif.gif",
     "prompt": "Animate an ORIGINAL anime-style adult character from a consistent front three-quarter portrait. She lifts her chin slightly, makes one quick affirmative nod, closes her eyes with a soft smile, then returns to the identical first-frame expression. Preserve hair strands, face proportions, outfit and line art between frames. Only the neck, eyelids and a few hair tips move. Simple clean background, locked camera, no speech bubbles, seamless looping GIF.",
     "prompt_file": "",
     "prompt_status": "reconstructed",
@@ -335,11 +339,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/",
     "creator": "r/OpenAI post author (handle not recovered this pass)",
     "featured": true,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "reddit-anime-nod-gif",
-    "playbook_role": "fill"
+    "playbook_role": "fill",
+    "source_media_url": "https://i.redd.it/smnyo808cszh1.gif"
   },
   {
     "id": "ravivit-paper-boat",
@@ -353,7 +358,7 @@ window.GALLERY_ITEMS = [
       "api",
       "external"
     ],
-    "image": "https://static.atlascloud.ai/uploads/03_paper_boat_2_6_c19a8b768b.gif",
+    "image": "cases/ravivit-paper-boat-gif/media/01-gif.gif",
     "prompt": "白い紙の船が水面でゆっくり左右に揺れる。カメラは固定。短いループGIF。文字は入れない",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -366,11 +371,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://note.com/ravivit_ai/n/nb8f40b5a21b9",
     "creator": "ラビビット | AI活用メディア（Ravivit）",
     "featured": true,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "ravivit-paper-boat-gif",
-    "playbook_role": "new_playbook"
+    "playbook_role": "new_playbook",
+    "source_media_url": "https://static.atlascloud.ai/uploads/03_paper_boat_2_6_c19a8b768b.gif"
   },
   {
     "id": "lightlyn-cat-lantern-mascot",
@@ -385,7 +391,7 @@ window.GALLERY_ITEMS = [
       "lightlyn",
       "related-sample"
     ],
-    "image": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-mascot.gif",
+    "image": "cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif",
     "prompt": "A cheerful round orange cat mascot with a tiny lantern, waving hello and blinking, soft flat illustration style, clean pastel background, gentle seamless loop.",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -398,11 +404,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://image.lightlyn.com/gpt-image-2-6?lang=en",
     "creator": "Linger / Lightlyn",
     "featured": false,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "lightlyn-cat-lantern-mascot-gif",
-    "playbook_role": "related_sample"
+    "playbook_role": "related_sample",
+    "source_media_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-mascot.gif"
   },
   {
     "id": "veevid-cactus-mascot",
@@ -417,7 +424,7 @@ window.GALLERY_ITEMS = [
       "veevid",
       "related-sample"
     ],
-    "image": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-cactus-mascot-v2.gif",
+    "image": "cases/veevid-cactus-mascot-gif/media/01-gif.gif",
     "prompt": "Create a single animation sprite sheet for a seamless looping GIF. A cheerful cartoon cactus mascot in a small terracotta pot. The sequence: the cactus leans slightly left, raises one arm and waves, smiles and blinks, then leans back to center. Fixed front camera, same character, same pot, plain pastel peach background. Clear incremental arm and body motion; the last frame transitions smoothly back to the first. Flat vector sticker style, thick outline. No captions, no words, no logos, no borders, no gutters.",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -430,11 +437,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
     "creator": "Veevid Team",
     "featured": false,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "veevid-cactus-mascot-gif",
-    "playbook_role": "related_sample"
+    "playbook_role": "related_sample",
+    "source_media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-cactus-mascot-v2.gif"
   },
   {
     "id": "veevid-fox-mascot",
@@ -449,7 +457,7 @@ window.GALLERY_ITEMS = [
       "veevid",
       "related-sample"
     ],
-    "image": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-fox.gif",
+    "image": "cases/veevid-fox-mascot-gif/media/01-gif.gif",
     "prompt": "A cute orange fox brand mascot waving hello and blinking, flat vector sticker style, thick outline, pastel background, seamless loop",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -462,11 +470,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
     "creator": "Veevid Team",
     "featured": false,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "veevid-fox-mascot-gif",
-    "playbook_role": "related_sample"
+    "playbook_role": "related_sample",
+    "source_media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-fox.gif"
   },
   {
     "id": "veevid-coffee-loop",
@@ -481,7 +490,7 @@ window.GALLERY_ITEMS = [
       "veevid",
       "related-sample"
     ],
-    "image": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-coffee.gif",
+    "image": "cases/veevid-coffee-steam-gif/media/01-gif.gif",
     "prompt": "A steaming ceramic coffee cup with heart latte art on a wooden cafe table, soft steam curling upward, warm morning window light, seamless loop",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -494,11 +503,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
     "creator": "Veevid Team",
     "featured": false,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "veevid-coffee-loop-gif",
-    "playbook_role": "related_sample"
+    "playbook_role": "related_sample",
+    "source_media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-coffee.gif"
   },
   {
     "id": "veevid-dog-wag",
@@ -512,7 +522,7 @@ window.GALLERY_ITEMS = [
       "veevid",
       "related-sample"
     ],
-    "image": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-dog-edit.gif",
+    "image": "cases/veevid-dog-photo-wag-gif/media/01-gif.gif",
     "prompt": "Animate this: the dog wags its tail and blinks, gentle loop",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -525,11 +535,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
     "creator": "Veevid Team",
     "featured": false,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "veevid-dog-wag-gif",
-    "playbook_role": "related_sample"
+    "playbook_role": "related_sample",
+    "source_media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-dog-edit.gif"
   },
   {
     "id": "veevid-robot-sketch",
@@ -543,7 +554,7 @@ window.GALLERY_ITEMS = [
       "veevid",
       "related-sample"
     ],
-    "image": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-robot-sketch.gif",
+    "image": "cases/veevid-robot-sketch-gif/media/01-gif.gif",
     "prompt": "Animate this sketch: the little robot waves one arm and its antenna bobs up and down. Keep the hand-drawn black ink lines and the plain white paper. Fixed camera, same character in every frame, seamless loop. No text, no borders.",
     "prompt_file": "",
     "prompt_status": "verbatim",
@@ -556,11 +567,12 @@ window.GALLERY_ITEMS = [
     "source_url": "https://veevid.ai/blog/gpt-image-2-6-gif",
     "creator": "Veevid Team",
     "featured": false,
-    "storage": "external",
+    "storage": "local",
     "media_kind": "gif",
-    "rights": "unknown_link_only",
+    "rights": "unknown_archived",
     "media_id": "veevid-robot-sketch-gif",
-    "playbook_role": "related_sample"
+    "playbook_role": "related_sample",
+    "source_media_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-robot-sketch.gif"
   },
   {
     "id": "sogni-jellyfish-pulse",

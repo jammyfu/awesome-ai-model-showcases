@@ -14,28 +14,5 @@ jobs:
           python-version: '3.12'
       - name: Install validator dependency
         run: python -m pip install -r requirements-dev.txt
-      - name: Check metadata synchronization
-        run: |
-          python tools/sync_gallery_js.py
-          git diff --exit-code -- docs/data/gallery.js
-          python tools/sync_media_js.py
-          git diff --exit-code -- docs/data/media.js
-      - name: Validate GIF frames, timing and prompt files
-        run: python tools/validate_gallery.py
-      - name: Check idea catalog data and previews
-        run: |
-          python tools/sync_ideas.py
-          git diff --exit-code -- docs/data/ideas.js
-          python tools/validate_ideas.py
-      - name: Check media manifest cross-links
-        run: python tools/validate_media.py
-      - name: Check popular GIF remake catalog
-        run: |
-          python tools/sync_popular.py
-          git diff --exit-code -- docs/data/popular.js playbooks/popular-gifs.md
-          python tools/validate_popular.py
-      - name: Check community case catalog (primary index)
-        run: |
-          python tools/write_community_catalog.py
-          git diff --exit-code -- README.md README.zh-CN.md playbooks/community-cases.md docs/data/community-cases.json docs/data/cases.js llms.txt docs/llms.txt docs/github-about.json
-          python tools/validate_community.py
+      - name: Verify catalog, local media, and generated files
+        run: python tools/verify.py

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check gallery integrity. Local GIFs are Pillow-verified; external GIFs are link-only."""
+"""Check gallery integrity. Local GIFs are Pillow-verified; archived third-party GIFs stay local."""
 import json
 from pathlib import Path
 from PIL import Image
@@ -20,14 +20,14 @@ for item in items:
     rights = item.get("rights", "repo_seed")
     assert storage in ("local", "external"), f'{item["id"]}: bad storage'
     assert media_kind == "gif", f'{item["id"]}: GIF gallery cannot include {media_kind}'
-    assert rights in ("repo_seed", "unknown_link_only")
+    assert rights in ("repo_seed", "unknown_link_only", "unknown_archived")
     assert item["prompt_status"] in ("verbatim", "reconstructed", "empty")
     if item["prompt_status"] == "empty":
         assert item.get("prompt", "") == ""
     else:
         assert str(item.get("prompt", "")).strip(), f'{item["id"]}: missing prompt'
     if storage == "local":
-        assert rights == "repo_seed"
+        assert rights in ("repo_seed", "unknown_archived"), f'{item["id"]}: local rights'
         assert not item["image"].startswith(("/", "http:", "https:")), f'{item["id"]}: local image must be relative'
         path = (ROOT / "docs" / item["image"]).resolve()
         assert path.is_relative_to(ROOT / "docs") and path.is_file(), f'{item["id"]}: bad image path'
@@ -40,8 +40,9 @@ for item in items:
                 im.seek(frame_no)
                 ms += im.info.get("duration", 0)
             assert ms == item["duration_ms"], f"{path.name}: wrong duration"
-        prompt_path = ROOT / item["prompt_file"]
-        assert prompt_path.is_file(), f'{item["id"]}: missing prompt file'
+        if item.get("rights") == "repo_seed":
+            prompt_path = ROOT / item["prompt_file"]
+            assert prompt_path.is_file(), f'{item["id"]}: missing prompt file'
         local_gifs += 1
     else:
         assert rights == "unknown_link_only"
@@ -53,4 +54,4 @@ for item in items:
 
 compiled = ROOT / "docs/data/gallery.js"
 assert compiled.read_text(encoding="utf-8").split("window.GALLERY_ITEMS = ", 1)[1].rstrip().endswith(";")
-print(f"OK: {len(items)} gallery GIFs ({local_gifs} local Pillow-checked, {external_gifs} external link-only)")
+print(f"OK: {len(items)} gallery GIFs ({local_gifs} local Pillow-checked, {external_gifs} still remote)")

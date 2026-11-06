@@ -2,7 +2,7 @@
   "meta": {
     "title": "GPT Image 2.6 社区真实案例收集库",
     "updated": "2026-11-06",
-    "coverage": "当前公开搜集核实清单完整入库，不是穷尽全网。X 官方引用未读完；媒体全部未观看；无明确授权只外链。",
+    "coverage": "当前公开搜集核实清单完整入库，不是穷尽全网。主表媒体已本地归档，原 URL 仅作出处。许可未知，不是作者授权或 CC0。媒体全部未观看。",
     "not_exhaustive": true,
     "official_verified_26_game": 0,
     "counts": {
@@ -32,12 +32,40 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "参考角色图一句话生成「吃白米饭+真香」中文配字循环 GIF 表情包",
-      "license_notes": "无公开再分发授权；仅记录原始外链，公开可访问≠授权",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "使用这个角色，生成一张GIF图，内容是她吃大白米饭，图片里有文字：真香！",
       "thread_group_id": null,
-      "media_count": 2
+      "media_count": 2,
+      "local_dir": "docs/cases/x-gorden-sun-rice-gif/",
+      "local_prompt": "docs/cases/x-gorden-sun-rice-gif/prompt.md",
+      "local_detail": "docs/cases/x-gorden-sun-rice-gif/README.md",
+      "local_page": "docs/cases/x-gorden-sun-rice-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-gorden-sun-rice-gif/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 74388,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWU8ujEbsAEYOxw.jpg"
+        },
+        {
+          "path": "docs/cases/x-gorden-sun-rice-gif/media/01-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 310465,
+          "source_url": "https://pbs.twimg.com/media/HWU8w0Wa8AAb9LS.jpg"
+        },
+        {
+          "path": "docs/cases/x-gorden-sun-rice-gif/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 89025,
+          "source_url": "https://video.twimg.com/tweet_video/HWU8ujEbsAEYOxw.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-gorden-sun-rice-gif/media/01-poster.jpg"
     },
     {
       "id": "x-op7418-fatfish-pack",
@@ -52,12 +80,89 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "大肥鱼角色参考图 + 结构化模板批量出循环 GIF 表情包（主题可填空）",
-      "license_notes": "无公开再分发授权；参考图为角色立绘，仅记外链",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "请以我上传的大肥鱼图片为角色和画风参考，根据最后一行的「表情包主题」，直接制作一张可下载的动态 GIF 表情包。\n\n【角色保持一致】\n保留参考图中的蓝色渐变长发、呆毛、鲸鱼耳鳍、蓝色蝴蝶结、白色女仆头饰、蓝白女仆裙和大鲸鱼尾巴。\n保持原图的大头小身体 Q 版比例、圆脸和可爱画风，人物外观在所有帧中保持一致。\n\n【自动设计动作】\n理解我想表达的情绪或梗，将它设计成一个简单、有趣、一眼能看懂的短动作。\n突出一个核心笑点，用夸张表情、动作反差和轻微的压缩回弹增加喜感。头发、呆毛、耳鳍和尾巴自然跟随动作。\n根据主题添加必要的少量道具，保持画面简洁。\n主动设计首尾衔接，让动画能够自然循环播放。\n\n【自动配字】\n根据主题提炼一句简短、有网感的中文配字，优先控制在 2～8 个字。\n如果主题中用引号指定了台词，直接使用该台词。\n字幕放在顶部，使用粗圆体、深蓝字、白色描边；文字、字形和位置全程稳定，角色与道具不遮挡字幕。\n\n【画面与输出】\n正方形画面，纯白背景，固定镜头，主体居中并保留足够边距。\n动画约 2～3 秒，无限循环，动作清晰，适合聊天时作为表情包发送。\n最终交付实际会播放的多帧 GIF 文件，并提供下载。\n\n表情包主题：【在这里填一句话，描述你想表达的梗、情绪或动作】",
       "thread_group_id": "op7418-fatfish",
-      "media_count": 4
+      "media_count": 4,
+      "local_dir": "docs/cases/x-op7418-fatfish-pack/",
+      "local_prompt": "docs/cases/x-op7418-fatfish-pack/prompt.md",
+      "local_detail": "docs/cases/x-op7418-fatfish-pack/README.md",
+      "local_page": "docs/cases/x-op7418-fatfish-pack/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 45046,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVKFMFboAApgRC.jpg"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/04-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 28887,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVKFMHawAEA-lR.jpg"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/03-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 21259,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVKFMIb0AA2teV.jpg"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/02-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 26050,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVKFMMbIAA4Geo.jpg"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/02-ref.jpg",
+          "ext": "jpg",
+          "role": "reference",
+          "bytes": 254852,
+          "source_url": "https://pbs.twimg.com/media/HWVLQtDbIAAvaGI.jpg"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/01-ref.jpg",
+          "ext": "jpg",
+          "role": "reference",
+          "bytes": 248452,
+          "source_url": "https://pbs.twimg.com/media/HWVLQtIbQAA3Tsr.jpg"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 58278,
+          "source_url": "https://video.twimg.com/tweet_video/HWVKFMFboAApgRC.mp4"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/04-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 61325,
+          "source_url": "https://video.twimg.com/tweet_video/HWVKFMHawAEA-lR.mp4"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/03-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 71552,
+          "source_url": "https://video.twimg.com/tweet_video/HWVKFMIb0AA2teV.mp4"
+        },
+        {
+          "path": "docs/cases/x-op7418-fatfish-pack/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 35369,
+          "source_url": "https://video.twimg.com/tweet_video/HWVKFMMbIAA4Geo.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-op7418-fatfish-pack/media/01-poster.jpg"
     },
     {
       "id": "x-abc123-static-to-gif",
@@ -72,12 +177,40 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "上传静态表情包原图，一句话做成无限循环 GIF，强调角色一致性",
-      "license_notes": "无授权",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "请把这张图片制作成一个可以无限循环播放的 GIF 动态表情包。严格保持原图角色的外貌、服装、配色、画风和构图一致，不要改变角色身份和原有文字。根据角色的表情和动作，自然设计眨眼、摇头、身体晃动、尾巴摆动等可爱的小动作，让画面生动有趣、有表情包的喜感。动画要流畅，首尾自然衔接，适合循环播放。",
       "thread_group_id": null,
-      "media_count": 2
+      "media_count": 2,
+      "local_dir": "docs/cases/x-abc123-static-to-gif/",
+      "local_prompt": "docs/cases/x-abc123-static-to-gif/prompt.md",
+      "local_detail": "docs/cases/x-abc123-static-to-gif/README.md",
+      "local_page": "docs/cases/x-abc123-static-to-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-abc123-static-to-gif/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 65693,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVQJEiaUAAY0Cm.jpg"
+        },
+        {
+          "path": "docs/cases/x-abc123-static-to-gif/media/01-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 125043,
+          "source_url": "https://pbs.twimg.com/media/HWVQMD8bQAELZDi.jpg"
+        },
+        {
+          "path": "docs/cases/x-abc123-static-to-gif/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 68077,
+          "source_url": "https://video.twimg.com/tweet_video/HWVQJEiaUAAY0Cm.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-abc123-static-to-gif/media/01-poster.jpg"
     },
     {
       "id": "x-thinkszyg-paperboat-verify",
@@ -92,12 +225,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "用纸船循环 GIF 验证账号是否已推送 Images 2.6；并附六宫格 sprite sheet 提示词模板",
-      "license_notes": "无授权",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "Make a looping GIF of a paper boat bobbing on the water.",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-thinkszyg-paperboat-verify/",
+      "local_prompt": "docs/cases/x-thinkszyg-paperboat-verify/prompt.md",
+      "local_detail": "docs/cases/x-thinkszyg-paperboat-verify/README.md",
+      "local_page": "docs/cases/x-thinkszyg-paperboat-verify/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-thinkszyg-paperboat-verify/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 20028,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWU88jtaEAAQpmr.jpg"
+        },
+        {
+          "path": "docs/cases/x-thinkszyg-paperboat-verify/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 40724,
+          "source_url": "https://video.twimg.com/tweet_video/HWU88jtaEAAQpmr.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-thinkszyg-paperboat-verify/media/01-poster.jpg"
     },
     {
       "id": "x-gdb-images26-gif",
@@ -112,12 +266,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "OpenAI 联合创始人展示 Images 2.6 GIF 演示",
-      "license_notes": "无再分发授权；官方人物帖仍受版权约束",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-gdb-images26-gif/",
+      "local_prompt": "docs/cases/x-gdb-images26-gif/prompt.md",
+      "local_detail": "docs/cases/x-gdb-images26-gif/README.md",
+      "local_page": "docs/cases/x-gdb-images26-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-gdb-images26-gif/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 31270,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWUiUo6aQAABNzM.jpg"
+        },
+        {
+          "path": "docs/cases/x-gdb-images26-gif/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 57715,
+          "source_url": "https://video.twimg.com/tweet_video/HWUiUo6aQAABNzM.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-gdb-images26-gif/media/01-poster.jpg"
     },
     {
       "id": "x-moltikuji-oc-eyebrow",
@@ -132,12 +307,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "日文：用 Images 2.6 把自家角色做成 GIF，反馈眉毛一致性问题",
-      "license_notes": "无授权；角色可能涉及作者 OC 权利",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-moltikuji-oc-eyebrow/",
+      "local_prompt": "docs/cases/x-moltikuji-oc-eyebrow/prompt.md",
+      "local_detail": "docs/cases/x-moltikuji-oc-eyebrow/README.md",
+      "local_page": "docs/cases/x-moltikuji-oc-eyebrow/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-moltikuji-oc-eyebrow/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 54795,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVPUCAa8AA7A6H.jpg"
+        },
+        {
+          "path": "docs/cases/x-moltikuji-oc-eyebrow/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 46353,
+          "source_url": "https://video.twimg.com/tweet_video/HWVPUCAa8AA7A6H.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-moltikuji-oc-eyebrow/media/01-poster.jpg"
     },
     {
       "id": "x-heycesr-photo-animate",
@@ -152,12 +348,40 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "真实照片（左）→ GPT Image 2.6 动画化（右），经 @tryidem 调用",
-      "license_notes": "无授权；含真人照片，肖像权敏感",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 2
+      "media_count": 2,
+      "local_dir": "docs/cases/x-heycesr-photo-animate/",
+      "local_prompt": "docs/cases/x-heycesr-photo-animate/prompt.md",
+      "local_detail": "docs/cases/x-heycesr-photo-animate/README.md",
+      "local_page": "docs/cases/x-heycesr-photo-animate/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-heycesr-photo-animate/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 45040,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWYGjynXoAAuleE.jpg"
+        },
+        {
+          "path": "docs/cases/x-heycesr-photo-animate/media/01-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 538006,
+          "source_url": "https://pbs.twimg.com/media/HWYGjFTXkAA0vi3.jpg"
+        },
+        {
+          "path": "docs/cases/x-heycesr-photo-animate/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 109493,
+          "source_url": "https://video.twimg.com/tweet_video/HWYGjynXoAAuleE.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-heycesr-photo-animate/media/01-poster.jpg"
     },
     {
       "id": "x-kqyno7-frieren",
@@ -172,12 +396,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "用芙莉莲角色试原生 GIF，作者称表情动作自然",
-      "license_notes": "无授权；角色可能涉及第三方 IP（芙莉莲）",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-kqyno7-frieren/",
+      "local_prompt": "docs/cases/x-kqyno7-frieren/prompt.md",
+      "local_detail": "docs/cases/x-kqyno7-frieren/README.md",
+      "local_page": "docs/cases/x-kqyno7-frieren/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-kqyno7-frieren/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 27337,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWU3Rt_b0AAPfGQ.jpg"
+        },
+        {
+          "path": "docs/cases/x-kqyno7-frieren/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 55480,
+          "source_url": "https://video.twimg.com/tweet_video/HWU3Rt_b0AAPfGQ.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-kqyno7-frieren/media/01-poster.jpg"
     },
     {
       "id": "x-adam-7plays-thread",
@@ -192,12 +437,117 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "七玩法串：真人动态表情、物理科普、产品展示、操作教程、天文动画、商业图表、打工人情绪包；每条附结果 GIF",
-      "license_notes": "无授权；子帖各有 animated_gif 外链",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": "adam-7plays",
-      "media_count": 7
+      "media_count": 7,
+      "local_dir": "docs/cases/x-adam-7plays-thread/",
+      "local_prompt": "docs/cases/x-adam-7plays-thread/prompt.md",
+      "local_detail": "docs/cases/x-adam-7plays-thread/README.md",
+      "local_page": "docs/cases/x-adam-7plays-thread/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 22416,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWYz8pbkAAmXN3.jpg"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/06-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 13626,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZ0T0bkAAnH7M.jpg"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/02-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 15943,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZIRnacAA2APj.jpg"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/03-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 42638,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZVnbbUAAQK-T.jpg"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/04-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 15370,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZinRaUAAH8Rc.jpg"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/05-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 19880,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZq10acAASZiK.jpg"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/07-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 28952,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWaLvqbwAASsEN.jpg"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 18190,
+          "source_url": "https://video.twimg.com/tweet_video/HWWYz8pbkAAmXN3.mp4"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/06-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 9499,
+          "source_url": "https://video.twimg.com/tweet_video/HWWZ0T0bkAAnH7M.mp4"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 12474,
+          "source_url": "https://video.twimg.com/tweet_video/HWWZIRnacAA2APj.mp4"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/03-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 18080,
+          "source_url": "https://video.twimg.com/tweet_video/HWWZVnbbUAAQK-T.mp4"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/04-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 14880,
+          "source_url": "https://video.twimg.com/tweet_video/HWWZinRaUAAH8Rc.mp4"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/05-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 20186,
+          "source_url": "https://video.twimg.com/tweet_video/HWWZq10acAASZiK.mp4"
+        },
+        {
+          "path": "docs/cases/x-adam-7plays-thread/media/07-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 44992,
+          "source_url": "https://video.twimg.com/tweet_video/HWWaLvqbwAASsEN.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-adam-7plays-thread/media/01-poster.jpg"
     },
     {
       "id": "x-zone-nonsticker-plays",
@@ -212,12 +562,47 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "非表情包向：舞蹈拆解、历史科普、像素动作、角色变身",
-      "license_notes": "无授权",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": "zone-nonsticker",
-      "media_count": 4
+      "media_count": 4,
+      "local_dir": "docs/cases/x-zone-nonsticker-plays/",
+      "local_prompt": "docs/cases/x-zone-nonsticker-plays/prompt.md",
+      "local_detail": "docs/cases/x-zone-nonsticker-plays/README.md",
+      "local_page": "docs/cases/x-zone-nonsticker-plays/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-zone-nonsticker-plays/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 83331,
+          "source_url": "https://video.twimg.com/tweet_video/HWWWIl7a4AEPien.mp4"
+        },
+        {
+          "path": "docs/cases/x-zone-nonsticker-plays/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 167955,
+          "source_url": "https://video.twimg.com/tweet_video/HWWWvuSaoAACmj4.mp4"
+        },
+        {
+          "path": "docs/cases/x-zone-nonsticker-plays/media/03-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 79065,
+          "source_url": "https://video.twimg.com/tweet_video/HWWX9P6bIAA0_Jk.mp4"
+        },
+        {
+          "path": "docs/cases/x-zone-nonsticker-plays/media/04-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 131843,
+          "source_url": "https://video.twimg.com/tweet_video/HWWYJUiasAAhO2Q.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-zone-nonsticker-plays/media/01-dynamic.mp4"
     },
     {
       "id": "x-meow2149-ai-girl-stickers",
@@ -232,12 +617,75 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "AI 娘四连循环表情包 GIF",
-      "license_notes": "无授权",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 4
+      "media_count": 4,
+      "local_dir": "docs/cases/x-meow2149-ai-girl-stickers/",
+      "local_prompt": "docs/cases/x-meow2149-ai-girl-stickers/prompt.md",
+      "local_detail": "docs/cases/x-meow2149-ai-girl-stickers/README.md",
+      "local_page": "docs/cases/x-meow2149-ai-girl-stickers/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-meow2149-ai-girl-stickers/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 39532,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWM00FaQAA33wL.jpg"
+        },
+        {
+          "path": "docs/cases/x-meow2149-ai-girl-stickers/media/02-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 36946,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWM2DCagAAHHqQ.jpg"
+        },
+        {
+          "path": "docs/cases/x-meow2149-ai-girl-stickers/media/03-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 37848,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWM3QjaEAAOKYy.jpg"
+        },
+        {
+          "path": "docs/cases/x-meow2149-ai-girl-stickers/media/04-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 33975,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWM4nYaQAAoauT.jpg"
+        },
+        {
+          "path": "docs/cases/x-meow2149-ai-girl-stickers/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 64238,
+          "source_url": "https://video.twimg.com/tweet_video/HWWM00FaQAA33wL.mp4"
+        },
+        {
+          "path": "docs/cases/x-meow2149-ai-girl-stickers/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 64560,
+          "source_url": "https://video.twimg.com/tweet_video/HWWM2DCagAAHHqQ.mp4"
+        },
+        {
+          "path": "docs/cases/x-meow2149-ai-girl-stickers/media/03-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 56517,
+          "source_url": "https://video.twimg.com/tweet_video/HWWM3QjaEAAOKYy.mp4"
+        },
+        {
+          "path": "docs/cases/x-meow2149-ai-girl-stickers/media/04-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 64186,
+          "source_url": "https://video.twimg.com/tweet_video/HWWM4nYaQAAoauT.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-meow2149-ai-girl-stickers/media/01-poster.jpg"
     },
     {
       "id": "x-vm3jp6u04-schnauzer",
@@ -252,12 +700,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "雪纳瑞狗 GIF + Images 2.6 四步用法说明",
-      "license_notes": "无授权",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-vm3jp6u04-schnauzer/",
+      "local_prompt": "docs/cases/x-vm3jp6u04-schnauzer/prompt.md",
+      "local_detail": "docs/cases/x-vm3jp6u04-schnauzer/README.md",
+      "local_page": "docs/cases/x-vm3jp6u04-schnauzer/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-vm3jp6u04-schnauzer/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 89402,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWYJBTeaoAAIzOh.jpg"
+        },
+        {
+          "path": "docs/cases/x-vm3jp6u04-schnauzer/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 139643,
+          "source_url": "https://video.twimg.com/tweet_video/HWYJBTeaoAAIzOh.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-vm3jp6u04-schnauzer/media/01-poster.jpg"
     },
     {
       "id": "x-seaart-doodle-gif",
@@ -272,12 +741,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "涂鸦草图 → 循环 GIF；宣称可用提示词控制时长",
-      "license_notes": "无授权；平台账号可能混入自家产品演示",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-seaart-doodle-gif/",
+      "local_prompt": "docs/cases/x-seaart-doodle-gif/prompt.md",
+      "local_detail": "docs/cases/x-seaart-doodle-gif/README.md",
+      "local_page": "docs/cases/x-seaart-doodle-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-seaart-doodle-gif/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 77590,
+          "source_url": "https://pbs.twimg.com/amplify_video_thumb/2118266038517374976/img/b4RNoOeiyyqz5HMv.jpg"
+        },
+        {
+          "path": "docs/cases/x-seaart-doodle-gif/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 736047,
+          "source_url": "https://video.twimg.com/amplify_video/2118266038517374976/vid/avc1/1170x810/kP73oMAyf72qjd9n.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-seaart-doodle-gif/media/01-poster.jpg"
     },
     {
       "id": "x-xulijian-avatar-stickers",
@@ -292,12 +782,47 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "X 头像 → Q 版动态表情包两则",
-      "license_notes": "无授权；含作者肖像衍生",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 2
+      "media_count": 2,
+      "local_dir": "docs/cases/x-xulijian-avatar-stickers/",
+      "local_prompt": "docs/cases/x-xulijian-avatar-stickers/prompt.md",
+      "local_detail": "docs/cases/x-xulijian-avatar-stickers/README.md",
+      "local_page": "docs/cases/x-xulijian-avatar-stickers/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-xulijian-avatar-stickers/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 64172,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVVTN4bIAEBnZY.jpg"
+        },
+        {
+          "path": "docs/cases/x-xulijian-avatar-stickers/media/02-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 59693,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVVUFnakAAV8xw.jpg"
+        },
+        {
+          "path": "docs/cases/x-xulijian-avatar-stickers/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 88649,
+          "source_url": "https://video.twimg.com/tweet_video/HWVVTN4bIAEBnZY.mp4"
+        },
+        {
+          "path": "docs/cases/x-xulijian-avatar-stickers/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 89790,
+          "source_url": "https://video.twimg.com/tweet_video/HWVVUFnakAAV8xw.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-xulijian-avatar-stickers/media/01-poster.jpg"
     },
     {
       "id": "x-plasm0-animated-gif",
@@ -312,12 +837,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "简短标注「GPT Image 2.6 animated GIF」+ 引用官方帖",
-      "license_notes": "无授权",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-plasm0-animated-gif/",
+      "local_prompt": "docs/cases/x-plasm0-animated-gif/prompt.md",
+      "local_detail": "docs/cases/x-plasm0-animated-gif/README.md",
+      "local_page": "docs/cases/x-plasm0-animated-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-plasm0-animated-gif/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 26498,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVG5O_XoAEdP3E.jpg"
+        },
+        {
+          "path": "docs/cases/x-plasm0-animated-gif/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 36155,
+          "source_url": "https://video.twimg.com/tweet_video/HWVG5O_XoAEdP3E.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-plasm0-animated-gif/media/01-poster.jpg"
     },
     {
       "id": "x-newsasart-claim-gif",
@@ -332,12 +878,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "新闻卡风格帖，作者声称附件 GIF 由 Image 2.6 制作",
-      "license_notes": "无授权",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-newsasart-claim-gif/",
+      "local_prompt": "docs/cases/x-newsasart-claim-gif/prompt.md",
+      "local_detail": "docs/cases/x-newsasart-claim-gif/README.md",
+      "local_page": "docs/cases/x-newsasart-claim-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-newsasart-claim-gif/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 202534,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWV9Q6gbgAA8xyY.jpg"
+        },
+        {
+          "path": "docs/cases/x-newsasart-claim-gif/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 348610,
+          "source_url": "https://video.twimg.com/tweet_video/HWV9Q6gbgAA8xyY.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-newsasart-claim-gif/media/01-poster.jpg"
     },
     {
       "id": "x-miramusic-stretch",
@@ -352,12 +919,40 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "日文：从零提示词生成「拉伸」循环 GIF，附风格约束",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "ストレッチをしているGIFを製作してください。\n仕上げはフラットでクリーンに。\n複雑な微細テクスチャ、過剰な細密描写、粒状ノイズ、ザラつき、斜めグリッド状の模様なし",
       "thread_group_id": null,
-      "media_count": 2
+      "media_count": 2,
+      "local_dir": "docs/cases/x-miramusic-stretch/",
+      "local_prompt": "docs/cases/x-miramusic-stretch/prompt.md",
+      "local_detail": "docs/cases/x-miramusic-stretch/README.md",
+      "local_page": "docs/cases/x-miramusic-stretch/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-miramusic-stretch/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 12587,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWU-HlkagAEV0iO.jpg"
+        },
+        {
+          "path": "docs/cases/x-miramusic-stretch/media/01-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 209902,
+          "source_url": "https://pbs.twimg.com/media/HWU-kOfakAAFXuX.jpg"
+        },
+        {
+          "path": "docs/cases/x-miramusic-stretch/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 68018,
+          "source_url": "https://video.twimg.com/tweet_video/HWU-HlkagAEV0iO.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-miramusic-stretch/media/01-poster.jpg"
     },
     {
       "id": "x-okan-aitool-wave-laugh",
@@ -372,12 +967,47 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "日文：一图+超短提示词「このキャラをGIFで動かして。手を振って笑う」",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "このキャラをGIFで動かして。手を振って笑う",
       "thread_group_id": null,
-      "media_count": 3
+      "media_count": 3,
+      "local_dir": "docs/cases/x-okan-aitool-wave-laugh/",
+      "local_prompt": "docs/cases/x-okan-aitool-wave-laugh/prompt.md",
+      "local_detail": "docs/cases/x-okan-aitool-wave-laugh/README.md",
+      "local_page": "docs/cases/x-okan-aitool-wave-laugh/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-okan-aitool-wave-laugh/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 19067,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVdGeda4AAyrwo.jpg"
+        },
+        {
+          "path": "docs/cases/x-okan-aitool-wave-laugh/media/01-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 423260,
+          "source_url": "https://pbs.twimg.com/media/HWVdGeSasAAGxQm.jpg"
+        },
+        {
+          "path": "docs/cases/x-okan-aitool-wave-laugh/media/02-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 107054,
+          "source_url": "https://pbs.twimg.com/media/HWVdGeWacAAddnm.jpg"
+        },
+        {
+          "path": "docs/cases/x-okan-aitool-wave-laugh/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 30788,
+          "source_url": "https://video.twimg.com/tweet_video/HWVdGeda4AAyrwo.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-okan-aitool-wave-laugh/media/01-poster.jpg"
     },
     {
       "id": "x-mirai-ai2050-frame-test",
@@ -392,12 +1022,47 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "日文：同角色测 16/32 帧与尺寸；完整规格化 prompt 在评论",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "添付画像を基準に、アニメーションGIFファイルを生成してください。\n\n【出力仕様】\n・各フレームの幅：288px\n・各フレームの高さ：512px\n・総フレーム数：16フレーム\n・各フレームの表示時間：200ミリ秒\n・合計再生時間：3.2秒\n・無限ループ\n・この寸法をGIFファイルそのもののピクセル寸法として使用する。表示上のサイズだけを変えたり、余白を追加して寸法を合わせたりしない。\n\n【映像内容】\n参考画像と同じミライ、同じ顔、短いボブ、衣装、秋の街並み、日差しを維持する。\n\n構図は胸から上。顔全体と頭の上が入り、右手に持った赤いモミジが胸元に見える。\nカメラ固定、ワンカット。\n\nミライがカメラを見ながら口元を少しほころばせ、一度だけ自然に瞬きをする。\n風でボブの毛先と背景の紅葉が少し揺れる。\n最後は最初の表情と姿勢へ戻り、自然につながるループにする。\n\n全フレームを同じ人物の連続動作として描く。\nフレームを単純に複製して枚数だけを増やさず、毛先や背景の葉の動きを時間に沿って少しずつ変える。\n顔立ちや衣装を途中で変更しない。\n\n静止画、分割画像、絵コンテではなく、動くGIFを出力する。\n字幕、文字、ロゴ、透かし、音楽なし。",
       "thread_group_id": null,
-      "media_count": 2
+      "media_count": 2,
+      "local_dir": "docs/cases/x-mirai-ai2050-frame-test/",
+      "local_prompt": "docs/cases/x-mirai-ai2050-frame-test/prompt.md",
+      "local_detail": "docs/cases/x-mirai-ai2050-frame-test/README.md",
+      "local_page": "docs/cases/x-mirai-ai2050-frame-test/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-mirai-ai2050-frame-test/media/02-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 23436,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVoI72bsAAOx_0.jpg"
+        },
+        {
+          "path": "docs/cases/x-mirai-ai2050-frame-test/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 12731,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVoIMqasAAR_VS.jpg"
+        },
+        {
+          "path": "docs/cases/x-mirai-ai2050-frame-test/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 71937,
+          "source_url": "https://video.twimg.com/tweet_video/HWVoI72bsAAOx_0.mp4"
+        },
+        {
+          "path": "docs/cases/x-mirai-ai2050-frame-test/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 46569,
+          "source_url": "https://video.twimg.com/tweet_video/HWVoIMqasAAR_VS.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-mirai-ai2050-frame-test/media/02-poster.jpg"
     },
     {
       "id": "x-nonieengel-reaction-set",
@@ -412,12 +1077,47 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "英文：角色照+风格参考 → 一套 10 个 reaction GIF；prompt 在回复（正文截断）",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "Create a coordinated set of 10 animated reaction GIFs featuring the main character in Image 1, using Image 2 as the visual style reference.\n\nHow to use the references\n\nImage 1 …\n（公开帖 note/正文在 Image 1 处截断；回复媒体两张为角色照与风格参考图，非提示词截图。完整条目列表未在 API 文本中完整返回。）",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-nonieengel-reaction-set/",
+      "local_prompt": "docs/cases/x-nonieengel-reaction-set/prompt.md",
+      "local_detail": "docs/cases/x-nonieengel-reaction-set/README.md",
+      "local_page": "docs/cases/x-nonieengel-reaction-set/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-nonieengel-reaction-set/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 130093,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWYBYc2agAAlsk4.jpg"
+        },
+        {
+          "path": "docs/cases/x-nonieengel-reaction-set/media/02-ref.jpg",
+          "ext": "jpg",
+          "role": "reference",
+          "bytes": 70505,
+          "source_url": "https://pbs.twimg.com/media/HWYBcWgakAArgCm.jpg"
+        },
+        {
+          "path": "docs/cases/x-nonieengel-reaction-set/media/01-ref.jpg",
+          "ext": "jpg",
+          "role": "reference",
+          "bytes": 326476,
+          "source_url": "https://pbs.twimg.com/media/HWYBcWraoAADuRf.jpg"
+        },
+        {
+          "path": "docs/cases/x-nonieengel-reaction-set/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 242248,
+          "source_url": "https://video.twimg.com/tweet_video/HWYBYc2agAAlsk4.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-nonieengel-reaction-set/media/01-poster.jpg"
     },
     {
       "id": "x-ihayato-markup-gif",
@@ -432,12 +1132,47 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "日文高互动：标记编辑演示 + 角色「まばたきして、ふわっと揺れて」GIF",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "まばたきして、ふわっと揺れて",
       "thread_group_id": null,
-      "media_count": 3
+      "media_count": 3,
+      "local_dir": "docs/cases/x-ihayato-markup-gif/",
+      "local_prompt": "docs/cases/x-ihayato-markup-gif/prompt.md",
+      "local_detail": "docs/cases/x-ihayato-markup-gif/README.md",
+      "local_page": "docs/cases/x-ihayato-markup-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-ihayato-markup-gif/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 52916,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWUvSfvaIAAm0Br.jpg"
+        },
+        {
+          "path": "docs/cases/x-ihayato-markup-gif/media/02-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 236515,
+          "source_url": "https://pbs.twimg.com/media/HWUvUwNaYAAI8Dy.jpg"
+        },
+        {
+          "path": "docs/cases/x-ihayato-markup-gif/media/01-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 195642,
+          "source_url": "https://pbs.twimg.com/media/HWUvnunaQAA2gbE.jpg"
+        },
+        {
+          "path": "docs/cases/x-ihayato-markup-gif/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 93300,
+          "source_url": "https://video.twimg.com/tweet_video/HWUvSfvaIAAm0Br.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-ihayato-markup-gif/media/01-poster.jpg"
     },
     {
       "id": "x-dokken-guitar",
@@ -452,12 +1187,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "日文：附图+超短「アコギを弾く男性」出吉他手 GIF",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "アコギを弾く男性",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-dokken-guitar/",
+      "local_prompt": "docs/cases/x-dokken-guitar/prompt.md",
+      "local_detail": "docs/cases/x-dokken-guitar/README.md",
+      "local_page": "docs/cases/x-dokken-guitar/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-dokken-guitar/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 52864,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWwY2Za4AAY-ud.jpg"
+        },
+        {
+          "path": "docs/cases/x-dokken-guitar/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 85133,
+          "source_url": "https://video.twimg.com/tweet_video/HWWwY2Za4AAY-ud.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-dokken-guitar/media/01-poster.jpg"
     },
     {
       "id": "x-supertask-arch-timelapse",
@@ -472,12 +1228,40 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "日文：建筑效果图 → 日没时光流逝 GIF",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "タイムラプスでゆっくり日が変わるような感じのGIFにして",
       "thread_group_id": null,
-      "media_count": 2
+      "media_count": 2,
+      "local_dir": "docs/cases/x-supertask-arch-timelapse/",
+      "local_prompt": "docs/cases/x-supertask-arch-timelapse/prompt.md",
+      "local_detail": "docs/cases/x-supertask-arch-timelapse/README.md",
+      "local_page": "docs/cases/x-supertask-arch-timelapse/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-supertask-arch-timelapse/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 41696,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWBD7GagAA0Hvu.jpg"
+        },
+        {
+          "path": "docs/cases/x-supertask-arch-timelapse/media/01-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 358755,
+          "source_url": "https://pbs.twimg.com/media/HWWBDHebsAAhSPa.jpg"
+        },
+        {
+          "path": "docs/cases/x-supertask-arch-timelapse/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 88805,
+          "source_url": "https://video.twimg.com/tweet_video/HWWBD7GagAA0Hvu.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-supertask-arch-timelapse/media/01-poster.jpg"
     },
     {
       "id": "x-xepher113-oc12",
@@ -492,12 +1276,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "日文 OC：称约 12 帧，借用他人角色图",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-xepher113-oc12/",
+      "local_prompt": "docs/cases/x-xepher113-oc12/prompt.md",
+      "local_detail": "docs/cases/x-xepher113-oc12/README.md",
+      "local_page": "docs/cases/x-xepher113-oc12/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-xepher113-oc12/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 24386,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWVGPriacAAE8cI.jpg"
+        },
+        {
+          "path": "docs/cases/x-xepher113-oc12/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 35693,
+          "source_url": "https://video.twimg.com/tweet_video/HWVGPriacAAE8cI.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-xepher113-oc12/media/01-poster.jpg"
     },
     {
       "id": "x-yulikay-toast",
@@ -512,12 +1317,33 @@
       "pipeline": "作者称直出 GIF · X 附件实际 MP4",
       "verify": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "play": "「GPT Images 2.6 is here + GIFs」附 animated_gif",
-      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-yulikay-toast/",
+      "local_prompt": "docs/cases/x-yulikay-toast/prompt.md",
+      "local_detail": "docs/cases/x-yulikay-toast/README.md",
+      "local_page": "docs/cases/x-yulikay-toast/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/x-yulikay-toast/media/01-poster.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 29819,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWXJ5_TWsAAozLT.jpg"
+        },
+        {
+          "path": "docs/cases/x-yulikay-toast/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 28244,
+          "source_url": "https://video.twimg.com/tweet_video/HWXJ5_TWsAAozLT.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/x-yulikay-toast/media/01-poster.jpg"
     }
   ],
   "collected_web_gif": [
@@ -534,11 +1360,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位",
-      "license_notes": "官方文档可观看外链；未找到允许第三方再分发文档示例媒体的许可。不下载到assets。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "A little monkey in an olive-green hooded coat stands in a snowy pine forest at dusk. A wooden cabin glows in the background. The monkey holds a glowing amber paper lantern at chest height, slowly lifts it, looks up and blinks, then lowers it back to its starting pose. Keep the lantern in its hands and the camera still. Make the motion loop smoothly.",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/official-lantern-monkey-gif/",
+      "local_prompt": "docs/cases/official-lantern-monkey-gif/prompt.md",
+      "local_detail": "docs/cases/official-lantern-monkey-gif/README.md",
+      "local_page": "docs/cases/official-lantern-monkey-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/official-lantern-monkey-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 1280950,
+          "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/monkey-lantern-gpt-image-2-6-sunburst.gif"
+        }
+      ],
+      "local_preview": "docs/cases/official-lantern-monkey-gif/media/01-gif.gif"
     },
     {
       "id": "lightlyn-orange-cat-mascot-gif",
@@ -553,11 +1393,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "品牌吉祥物挥手+眨眼无缝循环GIF",
-      "license_notes": "站点允许下载查看原图链接，但未声明CC/开源再分发。版权不明，仅外链，不入assets。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "A cheerful round orange cat mascot with a tiny lantern, waving hello and blinking, soft flat illustration style, clean pastel background, gentle seamless loop.",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/lightlyn-orange-cat-mascot-gif/",
+      "local_prompt": "docs/cases/lightlyn-orange-cat-mascot-gif/prompt.md",
+      "local_detail": "docs/cases/lightlyn-orange-cat-mascot-gif/README.md",
+      "local_page": "docs/cases/lightlyn-orange-cat-mascot-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 1802355,
+          "source_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-mascot.gif"
+        }
+      ],
+      "local_preview": "docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif"
     },
     {
       "id": "lightlyn-earbuds-case-gif",
@@ -572,11 +1426,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环",
-      "license_notes": "可外链观看/下载页提供原图；无明确再分发许可，不入assets。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "A white wireless earbuds charging case labelled \"LIGHTLYN\" on a sage-green studio background: the lid opens, the two earbuds rise and float a little, then settle back and the lid closes. Clean product animation, seamless loop.",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/lightlyn-earbuds-case-gif/",
+      "local_prompt": "docs/cases/lightlyn-earbuds-case-gif/prompt.md",
+      "local_detail": "docs/cases/lightlyn-earbuds-case-gif/README.md",
+      "local_page": "docs/cases/lightlyn-earbuds-case-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/lightlyn-earbuds-case-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 2221707,
+          "source_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-product.gif"
+        }
+      ],
+      "local_preview": "docs/cases/lightlyn-earbuds-case-gif/media/01-gif.gif"
     },
     {
       "id": "lightlyn-photo-steam-gif",
@@ -591,11 +1459,32 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "实拍图只动蒸汽与光，杯/桌/窗锁死",
-      "license_notes": "参考图与GIF版权未开源声明；仅外链。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "Make this photo move: gentle steam rises and curls above the latte, soft light flickers slightly. Keep the cup, the table and the window exactly as they are. Seamless loop.",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/lightlyn-photo-steam-gif/",
+      "local_prompt": "docs/cases/lightlyn-photo-steam-gif/prompt.md",
+      "local_detail": "docs/cases/lightlyn-photo-steam-gif/README.md",
+      "local_page": "docs/cases/lightlyn-photo-steam-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/lightlyn-photo-steam-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 2727700,
+          "source_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-photo.gif"
+        },
+        {
+          "path": "docs/cases/lightlyn-photo-steam-gif/media/01-ref.webp",
+          "ext": "webp",
+          "role": "reference",
+          "bytes": 299032,
+          "source_url": "https://image.lightlyn.com/examples/gpt-image-2-6/gif-photo-960.webp"
+        }
+      ],
+      "local_preview": "docs/cases/lightlyn-photo-steam-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-perfume-light-sweep-gif",
@@ -610,11 +1499,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "产品流光：香水瓶固定，光带扫过+尘粒上浮",
-      "license_notes": "博客示例媒体，无CC声明；仅外链不入assets。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "A frosted glass perfume bottle on a round stone pedestal. The sequence: a soft band of light sweeps slowly across the glass from left to right while tiny dust particles drift upward. Fixed camera, same bottle, same pedestal, warm beige studio background. The last frame transitions smoothly back to the first for a seamless loop. Clean product photography style. No captions, no words, no logos, no borders.",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/veevid-perfume-light-sweep-gif/",
+      "local_prompt": "docs/cases/veevid-perfume-light-sweep-gif/prompt.md",
+      "local_detail": "docs/cases/veevid-perfume-light-sweep-gif/README.md",
+      "local_page": "docs/cases/veevid-perfume-light-sweep-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 1034983,
+          "source_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-perfume-loop.gif"
+        }
+      ],
+      "local_preview": "docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-cactus-mascot-gif",
@@ -629,11 +1532,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "精灵表结构提示词→仙人掌吉祥物挥手循环（9帧）",
-      "license_notes": "无再分发许可声明；仅外链。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "Create a single animation sprite sheet for a seamless looping GIF. A cheerful cartoon cactus mascot in a small terracotta pot. The sequence: the cactus leans slightly left, raises one arm and waves, smiles and blinks, then leans back to center. Fixed front camera, same character, same pot, plain pastel peach background. Clear incremental arm and body motion; the last frame transitions smoothly back to the first. Flat vector sticker style, thick outline. No captions, no words, no logos, no borders, no gutters.",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/veevid-cactus-mascot-gif/",
+      "local_prompt": "docs/cases/veevid-cactus-mascot-gif/prompt.md",
+      "local_detail": "docs/cases/veevid-cactus-mascot-gif/README.md",
+      "local_page": "docs/cases/veevid-cactus-mascot-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/veevid-cactus-mascot-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 520796,
+          "source_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-cactus-mascot-v2.gif"
+        }
+      ],
+      "local_preview": "docs/cases/veevid-cactus-mascot-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-fox-mascot-gif",
@@ -648,11 +1565,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "贴纸风狐狸吉祥物挥手眨眼",
-      "license_notes": "无再分发许可；仅外链。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "A cute orange fox brand mascot waving hello and blinking, flat vector sticker style, thick outline, pastel background, seamless loop",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/veevid-fox-mascot-gif/",
+      "local_prompt": "docs/cases/veevid-fox-mascot-gif/prompt.md",
+      "local_detail": "docs/cases/veevid-fox-mascot-gif/README.md",
+      "local_page": "docs/cases/veevid-fox-mascot-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/veevid-fox-mascot-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 590659,
+          "source_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-fox.gif"
+        }
+      ],
+      "local_preview": "docs/cases/veevid-fox-mascot-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-coffee-steam-gif",
@@ -667,11 +1598,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "咖啡杯蒸汽上升循环（文生GIF）",
-      "license_notes": "仅外链。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "A steaming ceramic coffee cup with heart latte art on a wooden cafe table, soft steam curling upward, warm morning window light, seamless loop",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/veevid-coffee-steam-gif/",
+      "local_prompt": "docs/cases/veevid-coffee-steam-gif/prompt.md",
+      "local_detail": "docs/cases/veevid-coffee-steam-gif/README.md",
+      "local_page": "docs/cases/veevid-coffee-steam-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/veevid-coffee-steam-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 1195270,
+          "source_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-coffee.gif"
+        }
+      ],
+      "local_preview": "docs/cases/veevid-coffee-steam-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-dog-photo-wag-gif",
@@ -686,11 +1631,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "上传实拍狗→摇尾眨眼温和循环",
-      "license_notes": "含可能第三方宠物肖像；不下载。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "Animate this: the dog wags its tail and blinks, gentle loop",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/veevid-dog-photo-wag-gif/",
+      "local_prompt": "docs/cases/veevid-dog-photo-wag-gif/prompt.md",
+      "local_detail": "docs/cases/veevid-dog-photo-wag-gif/README.md",
+      "local_page": "docs/cases/veevid-dog-photo-wag-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/veevid-dog-photo-wag-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 1617115,
+          "source_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/gif-dog-edit.gif"
+        }
+      ],
+      "local_preview": "docs/cases/veevid-dog-photo-wag-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-robot-sketch-gif",
@@ -705,11 +1664,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "线稿变挥手机器人，保留墨线纸感",
-      "license_notes": "仅外链。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "Animate this sketch: the little robot waves one arm and its antenna bobs up and down. Keep the hand-drawn black ink lines and the plain white paper. Fixed camera, same character in every frame, seamless loop. No text, no borders.",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/veevid-robot-sketch-gif/",
+      "local_prompt": "docs/cases/veevid-robot-sketch-gif/prompt.md",
+      "local_detail": "docs/cases/veevid-robot-sketch-gif/README.md",
+      "local_page": "docs/cases/veevid-robot-sketch-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/veevid-robot-sketch-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 855668,
+          "source_url": "https://cdn.veevid.ai/gpt-image-2-6-samples/blog/gif-robot-sketch.gif"
+        }
+      ],
+      "local_preview": "docs/cases/veevid-robot-sketch-gif/media/01-gif.gif"
     },
     {
       "id": "ravivit-paper-boat-gif",
@@ -724,11 +1697,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "API原生GIF：白纸船水面轻摇，固定机位；16帧×120ms",
-      "license_notes": "作者标注为AI生成演示物；无CC再分发声明。仅外链（Atlas托管副本同理）。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "白い紙の船が水面でゆっくり左右に揺れる。カメラは固定。短いループGIF。文字は入れない（文内写法；Atlas转述英文 motion brief）",
-      "frames": 16
+      "frames": 16,
+      "local_dir": "docs/cases/ravivit-paper-boat-gif/",
+      "local_prompt": "docs/cases/ravivit-paper-boat-gif/prompt.md",
+      "local_detail": "docs/cases/ravivit-paper-boat-gif/README.md",
+      "local_page": "docs/cases/ravivit-paper-boat-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/ravivit-paper-boat-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 1811479,
+          "source_url": "https://static.atlascloud.ai/uploads/03_paper_boat_2_6_c19a8b768b.gif"
+        }
+      ],
+      "local_preview": "docs/cases/ravivit-paper-boat-gif/media/01-gif.gif"
     },
     {
       "id": "reddit-anime-nod-gif",
@@ -743,11 +1730,25 @@
       "pipeline": "原生 GIF 直链（Pillow 多帧已核）",
       "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "play": "参考角色图→动漫点头闭眼循环",
-      "license_notes": "用户上传；Reddit内容默认不可当开源再分发。仅外链。",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "original_prompt": "You are animator\n\nCreate a gif of this character nods\n\nContext:\n\nI want you to animate this character so she nods and then close her eyes. The flow is at first she slowly nods up. Second, she quickly nods down. Finally, her head back to normal pose with frames in between the nods down to normal, she also closes her eyes. It is like typical anime girls nodding.\n\nFormat: Same art style & outline as given image's",
-      "frames": 9
+      "frames": 9,
+      "local_dir": "docs/cases/reddit-anime-nod-gif/",
+      "local_prompt": "docs/cases/reddit-anime-nod-gif/prompt.md",
+      "local_detail": "docs/cases/reddit-anime-nod-gif/README.md",
+      "local_page": "docs/cases/reddit-anime-nod-gif/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/reddit-anime-nod-gif/media/01-gif.gif",
+          "ext": "gif",
+          "role": "gif",
+          "bytes": 497626,
+          "source_url": "https://i.redd.it/smnyo808cszh1.gif"
+        }
+      ],
+      "local_preview": "docs/cases/reddit-anime-nod-gif/media/01-gif.gif"
     }
   ],
   "collected_already_in_repo": [
@@ -757,16 +1758,37 @@
       "title": "角色挥手循环",
       "author": "@Krouxzz",
       "source_url": "https://x.com/Krouxzz/status/2118283796181053637",
-      "media_url": "https://video.twimg.com/tweet_video/HWWn8n7b0AAN1xP.mp4",
+      "media_url": "https://video.twimg.com/tweet_video/HWWnk8IXsAE0aXq.mp4",
       "media_kind": "mp4",
       "prompt_status": "有原文",
       "model_claim": "作者声明 2.6",
-      "pipeline": "作者称 looping GIF · X 附件 MP4",
+      "pipeline": "作者称 looping GIF · X 附件实际 MP4（已本地归档）",
       "verify": "已在库 · 作者声明 · 未观看附件",
       "play": "角色挥手循环",
-      "license_notes": "无明确再分发授权 · 仅外链/不转载",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/krouxzz-wave-ref/",
+      "local_prompt": "docs/cases/krouxzz-wave-ref/prompt.md",
+      "local_detail": "docs/cases/krouxzz-wave-ref/README.md",
+      "local_page": "docs/cases/krouxzz-wave-ref/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/krouxzz-wave-ref/media/03-poster-live.jpg",
+          "ext": "jpg",
+          "role": "poster",
+          "bytes": 42631,
+          "source_url": "https://pbs.twimg.com/tweet_video_thumb/HWWnk8IXsAE0aXq.jpg"
+        },
+        {
+          "path": "docs/cases/krouxzz-wave-ref/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 48068,
+          "source_url": "https://video.twimg.com/tweet_video/HWWnk8IXsAE0aXq.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/krouxzz-wave-ref/media/03-poster-live.jpg"
     },
     {
       "id": "luffy-x-article",
@@ -778,12 +1800,18 @@
       "media_kind": "none",
       "prompt_status": "有原文（中文逐字）",
       "model_claim": "作者声明 2.6",
-      "pipeline": "社区长文；本仓不转载其 GIF",
-      "verify": "已在库 · 提示词逐字 · 不转载成品 GIF",
+      "pipeline": "社区长文；原文提示词已本地全文归档；清单无成品媒体 URL",
+      "verify": "已在库 · 提示词逐字 · 清单无成品媒体 URL",
       "play": "路飞 X Article：榨干 Image 2.6 的 10 个神级玩法（多玩法一组）",
-      "license_notes": "无明确再分发授权 · 仅外链/不转载",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/luffy-x-article/",
+      "local_prompt": "docs/cases/luffy-x-article/prompt.md",
+      "local_detail": "docs/cases/luffy-x-article/README.md",
+      "local_page": "docs/cases/luffy-x-article/index.html",
+      "local_files": [],
+      "local_preview": ""
     }
   ],
   "collected_game_author_claim": [
@@ -800,11 +1828,46 @@
       "pipeline": "native_gif_direct_claimed",
       "verify": "作者声明 2.6 · 非官方验证 · 未观看",
       "play": "像素三连击、法环、跳跃翻滚。作者写 straight to GIF，但跳跃回复原文：I flattened the background color afterward to remove flicker。不能写成所有动作无需后处理。完整 prompt 仍空；只有设置（512²、opaque、16×40 / 12×80 / 16×80ms）。四条 MP4 计 1 案。演示站 gameslash.app 本仓未运行。未见引擎工程。",
-      "license_notes": "无明确再分发授权 · 仅外链",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": "image_model",
-      "production_notes": "真实制作至少还要：跳跃循环压背景去闪烁；完整图像 prompt 仍未公开；不能假设直出即可进引擎。"
+      "production_notes": "真实制作至少还要：跳跃循环压背景去闪烁；完整图像 prompt 仍未公开；不能假设直出即可进引擎。",
+      "local_dir": "docs/cases/game-daft-pixel-combo/",
+      "local_prompt": "docs/cases/game-daft-pixel-combo/prompt.md",
+      "local_detail": "docs/cases/game-daft-pixel-combo/README.md",
+      "local_page": "docs/cases/game-daft-pixel-combo/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/game-daft-pixel-combo/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 74368,
+          "source_url": "https://video.twimg.com/tweet_video/HWWlW3HaEAAxdLe.mp4"
+        },
+        {
+          "path": "docs/cases/game-daft-pixel-combo/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 13916,
+          "source_url": "https://video.twimg.com/tweet_video/HWWnTgiakAAJIF-.mp4"
+        },
+        {
+          "path": "docs/cases/game-daft-pixel-combo/media/03-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 41671,
+          "source_url": "https://video.twimg.com/tweet_video/HWWnb6KacAA5032.mp4"
+        },
+        {
+          "path": "docs/cases/game-daft-pixel-combo/media/04-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 80900,
+          "source_url": "https://video.twimg.com/tweet_video/HWWnhl0bYAAofEi.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/game-daft-pixel-combo/media/01-dynamic.mp4"
     },
     {
       "id": "game-maker-evan-fox-ronin",
@@ -819,11 +1882,39 @@
       "pipeline": "sheet_then_agent_cut",
       "verify": "作者声明 2.6 · 非官方验证 · 未观看",
       "play": "狐浪人夜市网页街机。2.6 出 sheet/背景，Sol 切帧组装，绝非原生 GIF。公开全文是给游戏 agent 的 one-shot（Do not draw characters in code），不是发给图像模型的 sprite prompt；Sol 每次自写图像 prompt，原文未公开。evals 文章 4×4 品红底模板是据干净 sheet 共性重建，不是实发原文。同团队 @evals_ag 44 游戏场报是旧工作流补证，不计新案例。演示站本仓未运行。",
-      "license_notes": "无明确再分发授权 · 仅外链",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": "game_agent",
-      "production_notes": "真实制作还要：让游戏 agent 自写图像 prompt（原文未公开）；品红键色→去边→切格→缩放→图集→canvas；切帧不是 2.6 完成的。文章模板只能当重建规格。"
+      "production_notes": "真实制作还要：让游戏 agent 自写图像 prompt（原文未公开）；品红键色→去边→切格→缩放→图集→canvas；切帧不是 2.6 完成的。文章模板只能当重建规格。",
+      "local_dir": "docs/cases/game-maker-evan-fox-ronin/",
+      "local_prompt": "docs/cases/game-maker-evan-fox-ronin/prompt.md",
+      "local_detail": "docs/cases/game-maker-evan-fox-ronin/README.md",
+      "local_page": "docs/cases/game-maker-evan-fox-ronin/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/game-maker-evan-fox-ronin/media/03-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 705712,
+          "source_url": "https://pbs.twimg.com/media/HWVswCLbgAACxKN.jpg"
+        },
+        {
+          "path": "docs/cases/game-maker-evan-fox-ronin/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 2554586,
+          "source_url": "https://video.twimg.com/amplify_video/2118218561596588032/vid/avc1/1440x874/tc9MlAOH2s42gwUo.mp4"
+        },
+        {
+          "path": "docs/cases/game-maker-evan-fox-ronin/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 8042277,
+          "source_url": "https://video.twimg.com/amplify_video/2118222620546289665/vid/avc1/1280x776/5_45DZtOxtMThnXz.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/game-maker-evan-fox-ronin/media/03-still.jpg"
     },
     {
       "id": "game-xiaomovps-fighter",
@@ -838,11 +1929,39 @@
       "pipeline": "native_gif_and_or_sprite_claimed",
       "verify": "作者声明 2.6 · 非官方验证 · 未观看",
       "play": "复古格斗出拳/蓄力。深挖后会话 7 条回复作者未补 prompt；from:xiaomovps 后续为 ESP32/Grok，无新 2.6 游戏动作。仍无原文 prompt，仍无 Unity/Godot 实机画面。两条 MP4 + 静图。不能说已经用于游戏。",
-      "license_notes": "无明确再分发授权 · 仅外链",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": "image_model",
-      "production_notes": "真实制作缺口：完整图像 prompt；引擎导入与碰撞区；连续动作形象一致性。深挖未补上这些。"
+      "production_notes": "真实制作缺口：完整图像 prompt；引擎导入与碰撞区；连续动作形象一致性。深挖未补上这些。",
+      "local_dir": "docs/cases/game-xiaomovps-fighter/",
+      "local_prompt": "docs/cases/game-xiaomovps-fighter/prompt.md",
+      "local_detail": "docs/cases/game-xiaomovps-fighter/README.md",
+      "local_page": "docs/cases/game-xiaomovps-fighter/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/game-xiaomovps-fighter/media/03-still.jpg",
+          "ext": "jpg",
+          "role": "still",
+          "bytes": 447087,
+          "source_url": "https://pbs.twimg.com/media/HWWcoNLbkAAxgxF.jpg"
+        },
+        {
+          "path": "docs/cases/game-xiaomovps-fighter/media/02-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 64140,
+          "source_url": "https://video.twimg.com/tweet_video/HWWcoNBbMAATJjY.mp4"
+        },
+        {
+          "path": "docs/cases/game-xiaomovps-fighter/media/01-dynamic.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 82764,
+          "source_url": "https://video.twimg.com/tweet_video/HWWcoNDawAALRaJ.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/game-xiaomovps-fighter/media/03-still.jpg"
     },
     {
       "id": "game-varg-knight-run",
@@ -857,11 +1976,32 @@
       "pipeline": "sheet_then_slice",
       "verify": "作者声明 2.6 · 非官方验证 · 未观看",
       "play": "工作流作者声明用 gpt_image_2_6 把 4×4 规格跑成骑士跑循环 PNG 再切帧。这是作者声明，不是 OpenAI 官方验证的 2.6 游戏成品，本仓未复测生成。白底抠色不是真 alpha。技能写了 Phaser/Godot 步骤但写明未跑引擎，不能说已经用于游戏。HEAD 核到 PNG 签名与短 MP4；未观看、未转载。",
-      "license_notes": "无明确再分发授权 · 仅外链",
+      "license_notes": "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": null,
-      "production_notes": null
+      "production_notes": null,
+      "local_dir": "docs/cases/game-varg-knight-run/",
+      "local_prompt": "docs/cases/game-varg-knight-run/prompt.md",
+      "local_detail": "docs/cases/game-varg-knight-run/README.md",
+      "local_page": "docs/cases/game-varg-knight-run/index.html",
+      "local_files": [
+        {
+          "path": "docs/cases/game-varg-knight-run/media/01-sheet.png",
+          "ext": "png",
+          "role": "still",
+          "bytes": 1178584,
+          "source_url": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_e80336e6b820.png"
+        },
+        {
+          "path": "docs/cases/game-varg-knight-run/media/02-loop.mp4",
+          "ext": "mp4",
+          "role": "x-dynamic",
+          "bytes": 28218,
+          "source_url": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_26db85e9f9b6.mp4"
+        }
+      ],
+      "local_preview": "docs/cases/game-varg-knight-run/media/01-sheet.png"
     }
   ],
   "pending": [
@@ -883,7 +2023,13 @@
       "generation_verified": false,
       "original_prompt": "做一个循环 GIF 表情包：一只圆滚滚的橘猫举起爪子打招呼，眨一下眼。9 帧，每帧 120 毫秒，正方形，纯白背景，不要文字。",
       "thread_group_id": null,
-      "media_count": 4
+      "media_count": 4,
+      "local_dir": "docs/cases/x-chaoranya-orange-cat/",
+      "local_prompt": "docs/cases/x-chaoranya-orange-cat/prompt.md",
+      "local_detail": "docs/cases/x-chaoranya-orange-cat/README.md",
+      "local_page": "docs/cases/x-chaoranya-orange-cat/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-batzdu-demo-gif",
@@ -903,7 +2049,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-batzdu-demo-gif/",
+      "local_prompt": "docs/cases/x-batzdu-demo-gif/prompt.md",
+      "local_detail": "docs/cases/x-batzdu-demo-gif/README.md",
+      "local_page": "docs/cases/x-batzdu-demo-gif/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-aidan-clark-gif",
@@ -923,7 +2075,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-aidan-clark-gif/",
+      "local_prompt": "docs/cases/x-aidan-clark-gif/prompt.md",
+      "local_detail": "docs/cases/x-aidan-clark-gif/README.md",
+      "local_page": "docs/cases/x-aidan-clark-gif/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-andrew-mayne-checks-out",
@@ -943,7 +2101,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-andrew-mayne-checks-out/",
+      "local_prompt": "docs/cases/x-andrew-mayne-checks-out/prompt.md",
+      "local_detail": "docs/cases/x-andrew-mayne-checks-out/README.md",
+      "local_page": "docs/cases/x-andrew-mayne-checks-out/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-bt21-ok-flask-light",
@@ -963,7 +2127,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-bt21-ok-flask-light/",
+      "local_prompt": "docs/cases/x-bt21-ok-flask-light/prompt.md",
+      "local_detail": "docs/cases/x-bt21-ok-flask-light/README.md",
+      "local_page": "docs/cases/x-bt21-ok-flask-light/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-hackdeacon-test",
@@ -983,7 +2153,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-hackdeacon-test/",
+      "local_prompt": "docs/cases/x-hackdeacon-test/prompt.md",
+      "local_detail": "docs/cases/x-hackdeacon-test/README.md",
+      "local_page": "docs/cases/x-hackdeacon-test/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-jiaojiaojio-fora",
@@ -1003,7 +2179,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-jiaojiaojio-fora/",
+      "local_prompt": "docs/cases/x-jiaojiaojio-fora/prompt.md",
+      "local_detail": "docs/cases/x-jiaojiaojio-fora/README.md",
+      "local_page": "docs/cases/x-jiaojiaojio-fora/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-web30708-wechat-listing",
@@ -1023,7 +2205,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-web30708-wechat-listing/",
+      "local_prompt": "docs/cases/x-web30708-wechat-listing/prompt.md",
+      "local_detail": "docs/cases/x-web30708-wechat-listing/README.md",
+      "local_page": "docs/cases/x-web30708-wechat-listing/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-halozhangyu-fatfish-9",
@@ -1043,7 +2231,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 4
+      "media_count": 4,
+      "local_dir": "docs/cases/x-halozhangyu-fatfish-9/",
+      "local_prompt": "docs/cases/x-halozhangyu-fatfish-9/prompt.md",
+      "local_detail": "docs/cases/x-halozhangyu-fatfish-9/README.md",
+      "local_page": "docs/cases/x-halozhangyu-fatfish-9/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-youart-platform-video",
@@ -1063,7 +2257,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-youart-platform-video/",
+      "local_prompt": "docs/cases/x-youart-platform-video/prompt.md",
+      "local_detail": "docs/cases/x-youart-platform-video/README.md",
+      "local_page": "docs/cases/x-youart-platform-video/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-antseed-demo-video",
@@ -1083,7 +2283,13 @@
       "generation_verified": false,
       "original_prompt": "",
       "thread_group_id": null,
-      "media_count": 1
+      "media_count": 1,
+      "local_dir": "docs/cases/x-antseed-demo-video/",
+      "local_prompt": "docs/cases/x-antseed-demo-video/prompt.md",
+      "local_detail": "docs/cases/x-antseed-demo-video/README.md",
+      "local_page": "docs/cases/x-antseed-demo-video/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-iskunzhenbai-fatfish-reply",
@@ -1103,7 +2309,13 @@
       "generation_verified": false,
       "original_prompt": "根据图中角色做成动态图，要求头上呆毛摆动，耳朵上下晃动，眨眼睛",
       "thread_group_id": "op7418-fatfish",
-      "media_count": 2
+      "media_count": 2,
+      "local_dir": "docs/cases/x-iskunzhenbai-fatfish-reply/",
+      "local_prompt": "docs/cases/x-iskunzhenbai-fatfish-reply/prompt.md",
+      "local_detail": "docs/cases/x-iskunzhenbai-fatfish-reply/README.md",
+      "local_page": "docs/cases/x-iskunzhenbai-fatfish-reply/index.html",
+      "local_files": [],
+      "local_preview": ""
     }
   ],
   "prompt_only": [
@@ -1125,7 +2337,13 @@
       "generation_verified": false,
       "original_prompt": "Turn this image into a seamless looping GIF. Make the subject blink, smile, and give a small wave. Keep the face, colors, outfit, and background consistent. No camera movement or extra objects.",
       "thread_group_id": null,
-      "media_count": 0
+      "media_count": 0,
+      "local_dir": "docs/cases/x-neurofoxxx-prompt-reply/",
+      "local_prompt": "docs/cases/x-neurofoxxx-prompt-reply/prompt.md",
+      "local_detail": "docs/cases/x-neurofoxxx-prompt-reply/README.md",
+      "local_page": "docs/cases/x-neurofoxxx-prompt-reply/index.html",
+      "local_files": [],
+      "local_preview": ""
     }
   ],
   "excluded": [
@@ -1144,7 +2362,13 @@
       "play": "交办已收；仓库 sources 与 ideas 已收录文章玩法；不列为新增",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-luffy-already/",
+      "local_prompt": "docs/cases/x-luffy-already/prompt.md",
+      "local_detail": "docs/cases/x-luffy-already/README.md",
+      "local_page": "docs/cases/x-luffy-already/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-krouxzz-already",
@@ -1161,7 +2385,13 @@
       "play": "仓库 sources.md / krouxzz-wave-ref 已收录；prompt「Make a looping GIF of this character waving.」已在库",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-krouxzz-already/",
+      "local_prompt": "docs/cases/x-krouxzz-already/prompt.md",
+      "local_detail": "docs/cases/x-krouxzz-already/README.md",
+      "local_page": "docs/cases/x-krouxzz-already/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-promptlyai-midjourney-mix",
@@ -1178,7 +2408,13 @@
       "play": "作者写「Midjourney + GPT Images 2.6」，无法确认动图是否纯 2.6 产物",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-promptlyai-midjourney-mix/",
+      "local_prompt": "docs/cases/x-promptlyai-midjourney-mix/prompt.md",
+      "local_detail": "docs/cases/x-promptlyai-midjourney-mix/README.md",
+      "local_page": "docs/cases/x-promptlyai-midjourney-mix/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-omniallai-reseller",
@@ -1195,7 +2431,13 @@
       "play": "第三方 API 分销文案，列出非官方命名（exact 等）与自有 endpoint，不宜当一手官方 2.6 案例",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-omniallai-reseller/",
+      "local_prompt": "docs/cases/x-omniallai-reseller/prompt.md",
+      "local_detail": "docs/cases/x-omniallai-reseller/README.md",
+      "local_page": "docs/cases/x-omniallai-reseller/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-tuzi-ai-reseller",
@@ -1212,7 +2454,13 @@
       "play": "中转 API 推广",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-tuzi-ai-reseller/",
+      "local_prompt": "docs/cases/x-tuzi-ai-reseller/prompt.md",
+      "local_detail": "docs/cases/x-tuzi-ai-reseller/README.md",
+      "local_page": "docs/cases/x-tuzi-ai-reseller/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-fal-platform",
@@ -1229,7 +2477,13 @@
       "play": "fal 平台上线宣传视频；可作旁证但非社区一手玩法 GIF 案例（互动高，可选后续单列平台源）",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-fal-platform/",
+      "local_prompt": "docs/cases/x-fal-platform/prompt.md",
+      "local_detail": "docs/cases/x-fal-platform/README.md",
+      "local_page": "docs/cases/x-fal-platform/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-news-reposts-cluster",
@@ -1246,7 +2500,13 @@
       "play": "大量多语新闻转述帖（含官方 35s 宣传视频二次传播），无原创玩法/无自生成 GIF：如 RoundtableSpace、xiaohu、webtekno、beartai、AITensibility、Naman_Arora7 等",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-news-reposts-cluster/",
+      "local_prompt": "docs/cases/x-news-reposts-cluster/prompt.md",
+      "local_detail": "docs/cases/x-news-reposts-cluster/README.md",
+      "local_page": "docs/cases/x-news-reposts-cluster/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-luffy-simplified-prompt-repost",
@@ -1263,7 +2523,13 @@
       "play": "路飞发布简化大肥鱼模板（与归藏模板同族）；无新 GIF 附件，属提示词扩散；不作为新增媒体案例",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-luffy-simplified-prompt-repost/",
+      "local_prompt": "docs/cases/x-luffy-simplified-prompt-repost/prompt.md",
+      "local_detail": "docs/cases/x-luffy-simplified-prompt-repost/README.md",
+      "local_page": "docs/cases/x-luffy-simplified-prompt-repost/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "x-masyu-niji-mix",
@@ -1280,7 +2546,13 @@
       "play": "作者写明 企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2.6，混合管线，无法确认动图是否纯 2.6 产物",
       "license_notes": "不收录",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/x-masyu-niji-mix/",
+      "local_prompt": "docs/cases/x-masyu-niji-mix/prompt.md",
+      "local_detail": "docs/cases/x-masyu-niji-mix/README.md",
+      "local_page": "docs/cases/x-masyu-niji-mix/index.html",
+      "local_files": [],
+      "local_preview": ""
     }
   ],
   "appendix": [
@@ -1301,7 +2573,13 @@
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": "unpublished",
-      "production_notes": "真实制作还要：量化到网格与 7 色、锁头、镜像腿、手修像素。2.6 单独交不出合格像素循环。Pocketworld 最终循环是代码绘制，只作混合参考。"
+      "production_notes": "真实制作还要：量化到网格与 7 色、锁头、镜像腿、手修像素。2.6 单独交不出合格像素循环。Pocketworld 最终循环是代码绘制，只作混合参考。",
+      "local_dir": "docs/cases/game-maker-evan-walk-cycle/",
+      "local_prompt": "docs/cases/game-maker-evan-walk-cycle/prompt.md",
+      "local_detail": "docs/cases/game-maker-evan-walk-cycle/README.md",
+      "local_page": "docs/cases/game-maker-evan-walk-cycle/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "game-ssss-4x4-spec",
@@ -1320,7 +2598,13 @@
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": null,
-      "production_notes": null
+      "production_notes": null,
+      "local_dir": "docs/cases/game-ssss-4x4-spec/",
+      "local_prompt": "docs/cases/game-ssss-4x4-spec/prompt.md",
+      "local_detail": "docs/cases/game-ssss-4x4-spec/README.md",
+      "local_page": "docs/cases/game-ssss-4x4-spec/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "game-higgsfield-boxing",
@@ -1339,7 +2623,13 @@
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": "unpublished",
-      "production_notes": "宣传组没有可复制图像 prompt，也没有已观看的引擎工程。不要按帖数加案例。"
+      "production_notes": "宣传组没有可复制图像 prompt，也没有已观看的引擎工程。不要按帖数加案例。",
+      "local_dir": "docs/cases/game-higgsfield-boxing/",
+      "local_prompt": "docs/cases/game-higgsfield-boxing/prompt.md",
+      "local_detail": "docs/cases/game-higgsfield-boxing/README.md",
+      "local_page": "docs/cases/game-higgsfield-boxing/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "game-am09-sprite-failure",
@@ -1358,7 +2648,13 @@
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": "unpublished",
-      "production_notes": "游戏向不要把待机和动作画进同一张会动的 GIF；按动作分开出 sprite。这不是成功案例。"
+      "production_notes": "游戏向不要把待机和动作画进同一张会动的 GIF；按动作分开出 sprite。这不是成功案例。",
+      "local_dir": "docs/cases/game-am09-sprite-failure/",
+      "local_prompt": "docs/cases/game-am09-sprite-failure/prompt.md",
+      "local_detail": "docs/cases/game-am09-sprite-failure/README.md",
+      "local_page": "docs/cases/game-am09-sprite-failure/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "game-wrongnebula-pixel-failure",
@@ -1377,7 +2673,13 @@
       "visual_review_status": "unwatched",
       "generation_verified": false,
       "prompt_audience": "unpublished",
-      "production_notes": "严格像素循环不要指望 2.6 直出。作者建议 pixeldiffusion。evals 回复只说 painted sprite 更干净，不能把失败帖改写成成功。"
+      "production_notes": "严格像素循环不要指望 2.6 直出。作者建议 pixeldiffusion。evals 回复只说 painted sprite 更干净，不能把失败帖改写成成功。",
+      "local_dir": "docs/cases/game-wrongnebula-pixel-failure/",
+      "local_prompt": "docs/cases/game-wrongnebula-pixel-failure/prompt.md",
+      "local_detail": "docs/cases/game-wrongnebula-pixel-failure/README.md",
+      "local_page": "docs/cases/game-wrongnebula-pixel-failure/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "v2ex-pelican-bike",
@@ -1394,7 +2696,13 @@
       "play": "一句话鹈鹕骑自行车GIF",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/v2ex-pelican-bike/",
+      "local_prompt": "docs/cases/v2ex-pelican-bike/prompt.md",
+      "local_detail": "docs/cases/v2ex-pelican-bike/README.md",
+      "local_page": "docs/cases/v2ex-pelican-bike/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "atlas-robot-wave-pre26",
@@ -1411,7 +2719,13 @@
       "play": "粘土机器人八帧挥手（本地拼GIF）",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/atlas-robot-wave-pre26/",
+      "local_prompt": "docs/cases/atlas-robot-wave-pre26/prompt.md",
+      "local_detail": "docs/cases/atlas-robot-wave-pre26/README.md",
+      "local_page": "docs/cases/atlas-robot-wave-pre26/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "atlas-teacup-pre26",
@@ -1428,7 +2742,13 @@
       "play": "角色举茶杯循环",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/atlas-teacup-pre26/",
+      "local_prompt": "docs/cases/atlas-teacup-pre26/prompt.md",
+      "local_detail": "docs/cases/atlas-teacup-pre26/README.md",
+      "local_page": "docs/cases/atlas-teacup-pre26/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "morphic-sprite-prompts-run-on-25",
@@ -1445,7 +2765,13 @@
       "play": "2.6向提示词库（面包师分镜/剪纸锦鲤等）",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/morphic-sprite-prompts-run-on-25/",
+      "local_prompt": "docs/cases/morphic-sprite-prompts-run-on-25/prompt.md",
+      "local_detail": "docs/cases/morphic-sprite-prompts-run-on-25/README.md",
+      "local_page": "docs/cases/morphic-sprite-prompts-run-on-25/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "cocoloop-boat-sheet-unconfirmed",
@@ -1462,7 +2788,13 @@
       "play": "Codex要GIF却得PNG→六宫格纸船本地拼GIF",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/cocoloop-boat-sheet-unconfirmed/",
+      "local_prompt": "docs/cases/cocoloop-boat-sheet-unconfirmed/prompt.md",
+      "local_detail": "docs/cases/cocoloop-boat-sheet-unconfirmed/README.md",
+      "local_page": "docs/cases/cocoloop-boat-sheet-unconfirmed/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "makari-note-jp-cases",
@@ -1479,7 +2811,13 @@
       "play": "LINE贴纸/致谢字GIF/商品前后对比GIF（日文实测）",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/makari-note-jp-cases/",
+      "local_prompt": "docs/cases/makari-note-jp-cases/prompt.md",
+      "local_detail": "docs/cases/makari-note-jp-cases/README.md",
+      "local_page": "docs/cases/makari-note-jp-cases/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "weel-jp-emotion-gifs",
@@ -1496,7 +2834,13 @@
       "play": "静图→喜怒哀乐四套GIF；参照图@调用",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/weel-jp-emotion-gifs/",
+      "local_prompt": "docs/cases/weel-jp-emotion-gifs/prompt.md",
+      "local_detail": "docs/cases/weel-jp-emotion-gifs/README.md",
+      "local_page": "docs/cases/weel-jp-emotion-gifs/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "openart-launch-sprite-videos",
@@ -1513,7 +2857,13 @@
       "play": "股价表情六宫格精灵表提示词（涨/跌）",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/openart-launch-sprite-videos/",
+      "local_prompt": "docs/cases/openart-launch-sprite-videos/prompt.md",
+      "local_detail": "docs/cases/openart-launch-sprite-videos/README.md",
+      "local_page": "docs/cases/openart-launch-sprite-videos/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "xianyu110-mirror-gallery",
@@ -1530,7 +2880,13 @@
       "play": "官方文档案例镜像仓（含提灯GIF镜像）",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/xianyu110-mirror-gallery/",
+      "local_prompt": "docs/cases/xianyu110-mirror-gallery/prompt.md",
+      "local_detail": "docs/cases/xianyu110-mirror-gallery/README.md",
+      "local_page": "docs/cases/xianyu110-mirror-gallery/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "openai-social-png",
@@ -1547,7 +2903,13 @@
       "play": "",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/openai-social-png/",
+      "local_prompt": "docs/cases/openai-social-png/prompt.md",
+      "local_detail": "docs/cases/openai-social-png/README.md",
+      "local_page": "docs/cases/openai-social-png/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "nowrap-429",
@@ -1564,7 +2926,13 @@
       "play": "",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/nowrap-429/",
+      "local_prompt": "docs/cases/nowrap-429/prompt.md",
+      "local_detail": "docs/cases/nowrap-429/README.md",
+      "local_page": "docs/cases/nowrap-429/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "github-sdk-only",
@@ -1581,7 +2949,13 @@
       "play": "",
       "license_notes": "仅外链",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/github-sdk-only/",
+      "local_prompt": "docs/cases/github-sdk-only/prompt.md",
+      "local_detail": "docs/cases/github-sdk-only/README.md",
+      "local_page": "docs/cases/github-sdk-only/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "baker-mascot-sprite",
@@ -1598,7 +2972,13 @@
       "play": "开脑洞点：先做角色设定表，再用同一顶帽/腮红/领巾出 6 帧揉面→挥手循环，比单句「吉祥物招手」更能锁身份。Morphic 明示示例不是 ChatGPT Images 2.6（2.5 Flare/Sunburst 或 Ideogram Vector；Copilot 循环还用了 MiniMax 视频）。提示词面向 2.6 仍逐字收录；SVG 封面不是 2.6 成品，也不进入 2.6 GIF 画廊。",
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/baker-mascot-sprite/",
+      "local_prompt": "docs/cases/baker-mascot-sprite/prompt.md",
+      "local_detail": "docs/cases/baker-mascot-sprite/README.md",
+      "local_page": "docs/cases/baker-mascot-sprite/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "papercraft-koi",
@@ -1615,7 +2995,13 @@
       "play": "开脑洞点：不是照片微动，而是整条鱼用层叠色纸游一圈；俯视锁定、第六帧接回第一帧，适合做手工质感 sticker。Morphic 明示示例不是 ChatGPT Images 2.6（2.5 Flare/Sunburst 或 Ideogram Vector；Copilot 循环还用了 MiniMax 视频）。提示词面向 2.6 仍逐字收录；SVG 封面不是 2.6 成品，也不进入 2.6 GIF 画廊。",
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/papercraft-koi/",
+      "local_prompt": "docs/cases/papercraft-koi/prompt.md",
+      "local_detail": "docs/cases/papercraft-koi/README.md",
+      "local_page": "docs/cases/papercraft-koi/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "character-ref-sheet",
@@ -1632,7 +3018,13 @@
       "play": "开脑洞点：2.6 可保存参考图并按名调用。先出正/侧/背 + 表情条，再拿去出分镜或新场景，比口头描述更稳。Morphic 明示示例不是 ChatGPT Images 2.6（2.5 Flare/Sunburst 或 Ideogram Vector；Copilot 循环还用了 MiniMax 视频）。提示词面向 2.6 仍逐字收录；SVG 封面不是 2.6 成品，也不进入 2.6 GIF 画廊。",
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/character-ref-sheet/",
+      "local_prompt": "docs/cases/character-ref-sheet/prompt.md",
+      "local_detail": "docs/cases/character-ref-sheet/README.md",
+      "local_page": "docs/cases/character-ref-sheet/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "packaging-dieline",
@@ -1649,7 +3041,13 @@
       "play": "开脑洞点：不是拍成品包装，而是一次画出六面展开图、折叠虚线和两句精确文案，给包装设计预演。Morphic 明示示例不是 ChatGPT Images 2.6（2.5 Flare/Sunburst 或 Ideogram Vector；Copilot 循环还用了 MiniMax 视频）。提示词面向 2.6 仍逐字收录；SVG 封面不是 2.6 成品，也不进入 2.6 GIF 画廊。",
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/packaging-dieline/",
+      "local_prompt": "docs/cases/packaging-dieline/prompt.md",
+      "local_detail": "docs/cases/packaging-dieline/README.md",
+      "local_page": "docs/cases/packaging-dieline/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "labelled-bakery-cutaway",
@@ -1666,7 +3064,13 @@
       "play": "开脑洞点：把 complexity 写进提示词——六区六块牌、每词只出现一次，并禁止门窗再长字。适合信息图与空间说明。Morphic 明示示例不是 ChatGPT Images 2.6（2.5 Flare/Sunburst 或 Ideogram Vector；Copilot 循环还用了 MiniMax 视频）。提示词面向 2.6 仍逐字收录；SVG 封面不是 2.6 成品，也不进入 2.6 GIF 画廊。",
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/labelled-bakery-cutaway/",
+      "local_prompt": "docs/cases/labelled-bakery-cutaway/prompt.md",
+      "local_detail": "docs/cases/labelled-bakery-cutaway/README.md",
+      "local_page": "docs/cases/labelled-bakery-cutaway/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "winter-edition-edit",
@@ -1683,7 +3087,13 @@
       "play": "开脑洞点：分轮编辑的最小单位——上一张海报只改标题和配色，版式不动。比一次重写整张更接近生产改稿。Morphic 明示示例不是 ChatGPT Images 2.6（2.5 Flare/Sunburst 或 Ideogram Vector；Copilot 循环还用了 MiniMax 视频）。提示词面向 2.6 仍逐字收录；SVG 封面不是 2.6 成品，也不进入 2.6 GIF 画廊。",
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/winter-edition-edit/",
+      "local_prompt": "docs/cases/winter-edition-edit/prompt.md",
+      "local_detail": "docs/cases/winter-edition-edit/README.md",
+      "local_page": "docs/cases/winter-edition-edit/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "autumn-bake-poster",
@@ -1700,7 +3110,13 @@
       "play": "开脑洞点：不是透明背景招贴，而是把海报贴进真实橱窗，要求 AUTUMN BAKE / EMBER & OAT 拼写正确，并禁止多余日期网址。Morphic 明示示例不是 ChatGPT Images 2.6（2.5 Flare/Sunburst 或 Ideogram Vector；Copilot 循环还用了 MiniMax 视频）。提示词面向 2.6 仍逐字收录；SVG 封面不是 2.6 成品，也不进入 2.6 GIF 画廊。",
       "license_notes": "概念 SVG 不是模型成品",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/autumn-bake-poster/",
+      "local_prompt": "docs/cases/autumn-bake-poster/prompt.md",
+      "local_detail": "docs/cases/autumn-bake-poster/README.md",
+      "local_page": "docs/cases/autumn-bake-poster/index.html",
+      "local_files": [],
+      "local_preview": ""
     }
   ],
   "repo_seeds": [
@@ -1719,7 +3135,13 @@
       "play": "戴彩色方块帽和眼镜的像素角色轻拍光头卡通人物的头，重复摸头动作。",
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/pixel-head-pat/",
+      "local_prompt": "docs/cases/pixel-head-pat/prompt.md",
+      "local_detail": "docs/cases/pixel-head-pat/README.md",
+      "local_page": "docs/cases/pixel-head-pat/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "cat-screen-crack",
@@ -1736,7 +3158,13 @@
       "play": "黑白花纹的猫咪怒视镜头、向前猛撞，屏幕出现蜘蛛网裂纹。",
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/cat-screen-crack/",
+      "local_prompt": "docs/cases/cat-screen-crack/prompt.md",
+      "local_detail": "docs/cases/cat-screen-crack/README.md",
+      "local_page": "docs/cases/cat-screen-crack/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "cat-headbutt",
@@ -1753,7 +3181,13 @@
       "play": "黑白奶牛猫向镜头靠近，轻撞后弹回。",
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/cat-headbutt/",
+      "local_prompt": "docs/cases/cat-headbutt/prompt.md",
+      "local_detail": "docs/cases/cat-headbutt/README.md",
+      "local_page": "docs/cases/cat-headbutt/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "kangaroo-pat",
@@ -1770,7 +3204,13 @@
       "play": "参考老式网络动图风格，袋鼠反复抬爪并拍头。",
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/kangaroo-pat/",
+      "local_prompt": "docs/cases/kangaroo-pat/prompt.md",
+      "local_detail": "docs/cases/kangaroo-pat/README.md",
+      "local_page": "docs/cases/kangaroo-pat/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "martial-arts-combo",
@@ -1787,7 +3227,13 @@
       "play": "传统武术表演，固定机位，全身连续出拳和收势。",
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/martial-arts-combo/",
+      "local_prompt": "docs/cases/martial-arts-combo/prompt.md",
+      "local_detail": "docs/cases/martial-arts-combo/README.md",
+      "local_page": "docs/cases/martial-arts-combo/index.html",
+      "local_files": [],
+      "local_preview": ""
     },
     {
       "id": "head-pat-caption",
@@ -1804,7 +3250,13 @@
       "play": "两个卡通角色的循环摸头表情包，包含中文标题。",
       "license_notes": "见 MEDIA_RIGHTS.md · 不能因 MIT 自动商用",
       "visual_review_status": "unwatched",
-      "generation_verified": false
+      "generation_verified": false,
+      "local_dir": "docs/cases/head-pat-caption/",
+      "local_prompt": "docs/cases/head-pat-caption/prompt.md",
+      "local_detail": "docs/cases/head-pat-caption/README.md",
+      "local_page": "docs/cases/head-pat-caption/index.html",
+      "local_files": [],
+      "local_preview": ""
     }
   ]
 }

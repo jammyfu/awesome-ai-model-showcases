@@ -1,0 +1,28 @@
+{
+  "x-gorden-sun-rice-gif": [
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWU8w0Wa8AAb9LS.jpg", "filename": "03-still-live"}
+  ],
+  "x-abc123-static-to-gif": [
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWVQMD8bQAELZDi.jpg", "filename": "03-still-live"}
+  ],
+  "x-heycesr-photo-animate": [
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWYGjFTXkAA0vi3.jpg", "filename": "03-still-live"}
+  ],
+  "x-miramusic-stretch": [
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWU-kOfakAAFXuX.jpg", "filename": "03-still-live"}
+  ],
+  "x-okan-aitool-wave-laugh": [
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWVdGeSasAAGxQm.jpg", "filename": "03-still-live"},
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWVdGeWacAAddnm.jpg", "filename": "04-still-live"}
+  ],
+  "x-ihayato-markup-gif": [
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWUvnunaQAA2gbE.jpg", "filename": "03-still-live"},
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWUvUwNaYAAI8Dy.jpg", "filename": "04-still-live"}
+  ],
+  "x-supertask-arch-timelapse": [
+    {"role": "still", "url": "https://pbs.twimg.com/media/HWWBDHebsAAhSPa.jpg", "filename": "03-still-live"}
+  ],
+  "krouxzz-wave-ref": [
+    {"role": "poster", "url": "https://pbs.twimg.com/tweet_video_thumb/HWWnk8IXsAE0aXq.jpg", "filename": "03-poster-live"}
+  ]
+}

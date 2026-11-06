@@ -1,0 +1,3 @@
+# Original prompt
+
+Make a small arcade action game in one web page: a fox ronin defending a night market from ink spirits. Arrow keys move, space attacks. All the art must come from the image model selected for this run: sprite sheets for the hero (idle, run, attack, hurt), three enemies and a boss, plus a background. Cut the sheets into frames and animate them in the game. Do not draw characters in code. Add a HUD, a score, and win and game over screens. It should feel fun the moment it loads.

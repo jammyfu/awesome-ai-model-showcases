@@ -11,8 +11,8 @@
   let storage = 'Source GIF';
   let toastTimer;
   const gifs = data.filter((item) => (item.media_kind || 'gif') === 'gif');
-  const localCount = gifs.filter((item) => (item.storage || 'local') === 'local').length;
-  const sourceCount = gifs.filter((item) => item.storage === 'external').length;
+  const localCount = gifs.filter((item) => item.rights === 'repo_seed').length;
+  const sourceCount = gifs.filter((item) => item.rights === 'unknown_archived' || item.storage === 'external').length;
   const gifCount = document.getElementById('gif-count');
   if (gifCount) gifCount.textContent = String(gifs.length);
   const localEl = document.getElementById('local-count');
@@ -61,7 +61,8 @@
     });
   }
   function createCard(item) {
-    const isExternal = item.storage === 'external';
+    const isExternal = item.storage === 'external' && item.rights !== 'unknown_archived';
+    const isArchived = item.rights === 'unknown_archived';
     const card = node('article', 'card');
     const preview = node('a', 'preview');
     preview.href = item.image;
@@ -74,7 +75,7 @@
     image.loading = 'lazy';
     image.decoding = 'async';
     if (isExternal) image.referrerPolicy = 'no-referrer';
-    const pill = node('span', 'pill', (isExternal ? 'SOURCE GIF' : 'LOCAL') + ' · ' + item.category.toUpperCase());
+    const pill = node('span', 'pill', (isArchived ? 'ARCHIVED' : isExternal ? 'SOURCE GIF' : 'LOCAL') + ' · ' + item.category.toUpperCase());
     preview.append(image, pill);
     const content = node('div', 'card-content');
     const h3 = node('h3', '', item.title);
@@ -85,7 +86,7 @@
     const meta = node(
       'span',
       'card-meta',
-      item.frames + ' frames · ' + (item.duration_ms / 1000).toFixed(2) + 's' + (isExternal ? ' · link-only' : '')
+      item.frames + ' frames · ' + (item.duration_ms / 1000).toFixed(2) + 's' + (item.rights === 'unknown_archived' ? ' · local archive' : '')
     );
     const copy = node('button', 'copy', item.prompt ? 'Copy prompt ↗' : 'No prompt');
     copy.type = 'button';
@@ -129,8 +130,8 @@
     const filtered = gifs.filter((item) => {
       const storageOk =
         storage === 'All' ||
-        (storage === 'Local' && (item.storage || 'local') === 'local') ||
-        (storage === 'Source GIF' && item.storage === 'external');
+        (storage === 'Local' && item.rights === 'repo_seed') ||
+        (storage === 'Source GIF' && (item.rights === 'unknown_archived' || item.storage === 'external'));
       const hay = (item.title + ' ' + item.description + ' ' + (item.description_zh || '') + ' ' + item.tags.join(' ') + ' ' + (item.creator || '')).toLowerCase();
       return (category === 'All' || item.category === category) && storageOk && hay.includes(query);
     });

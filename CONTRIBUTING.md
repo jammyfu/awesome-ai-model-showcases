@@ -4,9 +4,15 @@ This repo’s **primary index is the community case catalog**, not original rema
 
 Maintained languages: English [`README.md`](README.md) and Simplified Chinese [`README.zh-CN.md`](README.zh-CN.md) share one catalog (`docs/data/community-cases.json`). Do not add another README unless it is fully synced to that same inventory.
 
-1. Add a community original-author case to the inventories consumed by `tools/write_community_catalog.py` (or open a PR with: original post URL, author, real GIF/MP4 link, verbatim prompt or explicit empty, model evidence, pipeline, license boundary).
-2. Run `python3 tools/write_community_catalog.py` then `python3 tools/validate_community.py`.
-3. Do not put SVG concept art, this repo’s `prompt_adaptation`, or popular-GIF restages in the main catalog. Do not download third-party media without a redistribution license.
+## Submit a community original-author case
+
+1. Give the original post URL, author, real GIF/MP4/reference stills, verbatim prompt or an explicit empty prompt, model evidence, pipeline, and a license-unknown note.
+2. Archive every attachment into `docs/cases/<id>/media/` (do not take only the first file). Keep X MP4 as `.mp4`.
+3. Store the full original prompt in `docs/cases/<id>/prompt.md` and post/process notes in `post.md`.
+4. Run `python3 tools/ingest_local_media.py` (incremental: skips unchanged sha256) then `python3 tools/verify.py`.
+5. Do not put SVG concept art, this repo’s `prompt_adaptation`, promo/2.5/multimodel/failure samples in the main catalog.
+
+See [`.github/ISSUE_TEMPLATE/case-submission.yml`](.github/ISSUE_TEMPLATE/case-submission.yml) and [`docs/data/SOURCE_DATA.md`](docs/data/SOURCE_DATA.md).
 
 # Contributing GIFs (optional local seeds)
 
@@ -15,31 +21,9 @@ PRs are welcome for original, rights-cleared GIF animations and well-documented 
 1. Submit a genuine multi-frame `.gif` (not a PNG with a GIF extension), preferably under 5 MiB.
 2. Use lowercase ASCII filenames in `docs/gifs/`, e.g. `smiling-robot.gif`.
 3. Write `prompts/smiling-robot.md` and say whether it is the **verbatim original prompt** or a **reconstructed brief**. Never claim an unknown model checkpoint was used with certainty.
-4. Add one record in `docs/data/gallery.json` with `id`, `title`, `description`, `description_zh`, `category`, `tags`, `image`, `prompt`, `prompt_file`, `prompt_status`, `model`, `frames`, `duration_ms`, `width`, `height`, and `source_note`.
-5. Run `python3 tools/sync_gallery_js.py` then `python3 tools/validate_gallery.py` after installing `requirements-dev.txt`.
-6. In your PR, declare that you have permission to share the animation and any source photo, original meme, fictional character, third-party brand, or recognizable person's likeness. Credit source creators and link to their original source where available.
-7. Please do not include API keys, private user data or unlicensed source material. Submissions may be declined on attribution, quality, safety, or rights grounds.
-
-## Quality checklist
-
-- [ ] GIF visibly animates, with smooth/intentional loop
-- [ ] Identity and camera remain stable unless movement is intentional
-- [ ] Frame count and timing match the actual file
-- [ ] English/Chinese summaries are informative, not keyword-stuffed
-- [ ] Source and usage rights are provided
-- [ ] No misleading claim of a tested API call or exact checkpoint
-- [ ] Metadata sync + GIF validator pass
-
-## Idea catalog (optional, no GIF required)
-
-To add a sourced use case without shipping a GIF:
-
-1. Append one object to `docs/data/ideas.json`.
-2. Set `prompt_status` to `verbatim`, `reconstructed`, or `empty`. If the original prompt was not published, leave `prompt` as `""` — do not invent third-party wording.
-3. Set `preview_kind` to `concept_illustration` (original SVG under `docs/previews/`), `existing_gif` (file in `docs/gifs/`), `external_gif` (HTTPS `media_url`, empty local `preview`, `media_rights=unknown_link_only`), or `link_only`. Do not download third-party GIFs without a documented redistribution license. Do not present Morphic 2.5 / Ideogram examples, Atlas pre-2.6 GIFs, or SVG covers as Image 2.6 generated results. If a source labeled GIF is actually MP4, set `media_kind` to `mp4`, `visual_review_status` to `unwatched` unless someone actually watched it, and keep it out of the GIF gallery. Put third-party wording in `prompt` and this repo's rewrite in `prompt_adaptation`. Pending X candidates stay in `playbooks/x-pending.md`, not in confirmed idea cards.
-4. Set `output_kind` to `gif`, `sprite_sheet`, `still`, `svg`, or `edit`. Non-GIF kinds use `frames` 0 and `frame_duration_ms` 0.
-5. Run `python3 tools/sync_ideas.py` then `python3 tools/validate_ideas.py`.
-6. Popular-GIF remakes belong in `docs/data/popular-playbooks.json` (not `ideas.json`). They must stay labeled **not Image 2.6**. Keep the four evidence types separate (annual chart / event chart / trending snapshot / fame-only). Do not invent a world ranking or a missing 2024/2025 annual YIR. Reference-library size is not a playbook quota.
-7. Game idle/run/attack sequences belong in `ideas.json` with `game_sequence: true`. Image 2.5 / other-model history uses category `其他模型参考`, `default_hidden: true`, and `image26_status: not_26`. Failure samples use `image26_status: failure_sample` and must not enter success counts. `prompt_audience` distinguishes game-agent one-shots from unpublished image-model prompts; reconstructed templates go in `prompt_reconstruction`, never in `prompt`. Promo series count as one group. Coverage logs are not new-case counts. X `animated_gif` is usually MP4. Say “used in a game” only when engine-import evidence was actually run or watched. Missing original prompts stay empty; this repo’s Chinese rewrite stays in `prompt_adaptation`. Game cards must not enter the GIF gallery.
+4. Add one record in `docs/data/gallery.json`.
+5. Run `python3 tools/verify.py` after installing `requirements-dev.txt`.
+6. In your PR, declare permission to share the animation and any source photo, original meme, fictional character, third-party brand, or recognizable person's likeness.
+7. Please do not include API keys or private user data.
 
 The **MIT LICENSE covers code**, not automatically every sample animation or third-party source. See `MEDIA_RIGHTS.md`.

@@ -261,11 +261,11 @@ window.MEDIA_MANIFEST = {
       ],
       "gallery_id": "openai-lantern-monkey",
       "playbook_role": "fill",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/official-lantern-monkey-gif/media/01-gif.gif"
     },
     {
       "id": "lightlyn-earbuds-product-gif",
@@ -288,11 +288,11 @@ window.MEDIA_MANIFEST = {
       ],
       "gallery_id": "lightlyn-earbuds-product",
       "playbook_role": "fill",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/lightlyn-earbuds-case-gif/media/01-gif.gif"
     },
     {
       "id": "lightlyn-latte-steam-gif",
@@ -315,11 +315,11 @@ window.MEDIA_MANIFEST = {
       ],
       "gallery_id": "lightlyn-latte-steam",
       "playbook_role": "fill",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/lightlyn-photo-steam-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-perfume-loop-gif",
@@ -342,11 +342,11 @@ window.MEDIA_MANIFEST = {
       ],
       "gallery_id": "veevid-perfume-loop",
       "playbook_role": "fill",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/veevid-perfume-light-sweep-gif/media/01-gif.gif"
     },
     {
       "id": "reddit-anime-nod-gif",
@@ -369,11 +369,11 @@ window.MEDIA_MANIFEST = {
       ],
       "gallery_id": "reddit-anime-nod",
       "playbook_role": "fill",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/reddit-anime-nod-gif/media/01-gif.gif"
     },
     {
       "id": "ravivit-paper-boat-gif",
@@ -397,11 +397,11 @@ window.MEDIA_MANIFEST = {
       "gallery_id": "ravivit-paper-boat",
       "playbook_role": "new_playbook",
       "host_page": "https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/ravivit-paper-boat-gif/media/01-gif.gif"
     },
     {
       "id": "lightlyn-cat-lantern-mascot-gif",
@@ -425,11 +425,11 @@ window.MEDIA_MANIFEST = {
       "gallery_id": "lightlyn-cat-lantern-mascot",
       "playbook_role": "related_sample",
       "related_playbook": "mascot-wave",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-cactus-mascot-gif",
@@ -453,11 +453,11 @@ window.MEDIA_MANIFEST = {
       "gallery_id": "veevid-cactus-mascot",
       "playbook_role": "related_sample",
       "related_playbook": "mascot-wave",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/veevid-cactus-mascot-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-fox-mascot-gif",
@@ -481,11 +481,11 @@ window.MEDIA_MANIFEST = {
       "gallery_id": "veevid-fox-mascot",
       "playbook_role": "related_sample",
       "related_playbook": "mascot-wave",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/veevid-fox-mascot-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-coffee-loop-gif",
@@ -509,11 +509,11 @@ window.MEDIA_MANIFEST = {
       "gallery_id": "veevid-coffee-loop",
       "playbook_role": "related_sample",
       "related_playbook": "steam-loop",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/veevid-coffee-steam-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-dog-wag-gif",
@@ -537,11 +537,11 @@ window.MEDIA_MANIFEST = {
       "gallery_id": "veevid-dog-wag",
       "playbook_role": "related_sample",
       "related_playbook": "photo-to-gif",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/veevid-dog-photo-wag-gif/media/01-gif.gif"
     },
     {
       "id": "veevid-robot-sketch-gif",
@@ -565,11 +565,11 @@ window.MEDIA_MANIFEST = {
       "gallery_id": "veevid-robot-sketch",
       "playbook_role": "related_sample",
       "related_playbook": "sketch-to-gif",
-      "storage": "external",
+      "storage": "local",
       "media_kind": "gif",
-      "rights": "unknown_link_only",
+      "rights": "unknown_archived",
       "probed_at": "2026-11-05",
-      "local_path": null
+      "local_path": "cases/veevid-robot-sketch-gif/media/01-gif.gif"
     },
     {
       "id": "sogni-jellyfish-gif",

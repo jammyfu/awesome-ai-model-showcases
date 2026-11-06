@@ -1,0 +1,45 @@
+name: Submit a community case
+description: Add an original-author GPT Image case with source, media, and prompt
+labels: [case-submission]
+body:
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      placeholder: "@handle or site name"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Original post / source URL
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Media URLs
+      description: Every GIF/MP4/reference still. Do not list only the first attachment. X animated_gif is usually MP4.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Original prompt
+      description: Paste the verbatim published prompt, or write EMPTY if unpublished. Do not invent wording.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Model evidence, pipeline, verification
+      description: Author claim vs official verification. Native GIF vs sprite/postprocess.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: License note
+      options:
+        - label: I understand archived media stays license-unknown unless a grant is documented. MIT covers source code only.
+          required: true

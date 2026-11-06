@@ -1,0 +1,3 @@
+# Original prompt
+
+Make a looping GIF of a paper boat bobbing on the water.

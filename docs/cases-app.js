@@ -46,9 +46,30 @@
   function esc(s) {
     return String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   }
-  function link(url, label) {
+  function link(url, label, local) {
+    if (local) return `<a href="${esc(url)}">${esc(label)}</a>`;
     if (!url) return '—';
     return `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`;
+  }
+  function mediaCell(r, d) {
+    const files = Array.isArray(r.local_files) ? r.local_files : [];
+    const first = files.find((f) => f.ext === 'gif') || files.find((f) => ['png', 'jpg', 'jpeg', 'webp'].includes(f.ext)) || files.find((f) => f.ext === 'mp4');
+    const page = r.local_page || (r.local_dir ? r.local_dir + 'index.html' : '');
+    const prompt = r.local_prompt || '';
+    let preview = '';
+    if (first && first.path) {
+      const rel = first.path.replace(/^docs\//, '');
+      if (first.ext === 'mp4') {
+        preview = `<video src="${esc(rel)}" muted loop playsinline preload="metadata" style="max-width:160px;max-height:110px"></video>`;
+      } else {
+        preview = `<img src="${esc(rel)}" alt="${esc(r.id)}" loading="lazy" style="max-width:160px;max-height:110px;object-fit:contain">`;
+      }
+    }
+    const bits = [preview];
+    if (page) bits.push(link(page.replace(/^docs\//, ''), d.local || 'local', true));
+    if (prompt) bits.push(link(prompt.replace(/^docs\//, ''), d.promptFull || 'prompt', true));
+    if (r.source_url) bits.push(link(r.source_url, d.cite || 'source'));
+    return bits.filter(Boolean).join('<br>') || '—';
   }
   function renderChips() {
     if (!chips) return;
@@ -85,13 +106,13 @@
       <td>${i + 1}</td>
       <td>${esc(r.author)}</td>
       <td><div class="case-title">${esc(r.title)}</div><div class="case-id">${esc(r.id)}</div></td>
-      <td>${link(r.source_url, d.post || 'post')}</td>
-      <td>${link(r.media_url, r.media_kind || 'media')}</td>
-      <td>${esc(r.prompt_status)}</td>
+      <td>${link(r.source_url, d.post || 'source')}</td>
+      <td>${mediaCell(r, d)}</td>
+      <td>${r.local_prompt ? link(r.local_prompt.replace(/^docs\//, ''), d.promptFull || (r.prompt_status || 'prompt'), true) : esc(r.prompt_status)}</td>
       <td>${esc((r.model_claim || '').slice(0, 48))}</td>
       <td>${esc(r.pipeline)}</td>
       <td>${esc(r.verify)}</td>
-      <td>${esc(d.linkOnly || 'link-only')}</td>
+      <td>${esc(d.licenseUnknown || 'license unknown')}</td>
     </tr>`).join('');
   }
   if (search) search.addEventListener('input', render);

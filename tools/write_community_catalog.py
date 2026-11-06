@@ -22,6 +22,7 @@ OUT_README_ZH = ROOT / "README.zh-CN.md"
 OUT_LLMS = ROOT / "llms.txt"
 OUT_LLMS_DOCS = ROOT / "docs/llms.txt"
 OUT_ABOUT = ROOT / "docs/github-about.json"
+LOCAL_MANIFEST = ROOT / "docs/data/local-media-manifest.json"
 
 GITHUB_ABOUT = {
     "description": (
@@ -113,7 +114,7 @@ def row(
         "pipeline": pipeline,
         "verify": verify,
         "play": play,
-        "license_notes": license_notes or "无明确再分发授权 · 仅外链",
+        "license_notes": license_notes or "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。",
         "visual_review_status": "unwatched",
         "generation_verified": False,
     }
@@ -145,7 +146,7 @@ def from_x(item: dict, bucket: str) -> dict:
         pipeline=pipeline,
         verify="作者声明 + 媒体元数据已核 · 未观看 · 未复测",
         play=item.get("play_summary") or "",
-        license_notes=item.get("license_notes") or "无明确再分发授权 · 仅外链",
+        license_notes=item.get("license_notes") or "许可未知 · 本地归档（非作者授权、非 CC0）",
         extra={
             "original_prompt": item.get("original_prompt") or "",
             "thread_group_id": item.get("thread_group_id"),
@@ -168,7 +169,7 @@ def from_web(item: dict) -> dict:
         pipeline="原生 GIF 直链（Pillow 多帧已核）",
         verify="页面模型依据 + GIF 多帧探测 · 未复测生成",
         play=item.get("playbook") or "",
-        license_notes=item.get("license_conclusion") or "无明确再分发授权 · 仅外链",
+        license_notes=item.get("license_conclusion") or "许可未知 · 本地归档（非作者授权、非 CC0）",
         extra={
             "original_prompt": item.get("prompt") or "",
             "frames": (item.get("media_verify") or {}).get("frames"),
@@ -188,14 +189,53 @@ def cell(text, limit: int | None = None) -> str:
     return s
 
 
+def attach_local(rows: list[dict]) -> None:
+    if not LOCAL_MANIFEST.exists():
+        return
+    man = json.loads(LOCAL_MANIFEST.read_text(encoding="utf-8"))
+    by: dict[str, list] = {}
+    for f in man.get("files") or []:
+        if f.get("ok"):
+            by.setdefault(f["case_id"], []).append(f)
+    for r in rows:
+        files = by.get(r["id"]) or []
+        r["local_dir"] = f"docs/cases/{r['id']}/"
+        r["local_prompt"] = f"docs/cases/{r['id']}/prompt.md"
+        r["local_detail"] = f"docs/cases/{r['id']}/README.md"
+        r["local_page"] = f"docs/cases/{r['id']}/index.html"
+        r["local_files"] = [
+            {
+                "path": f.get("local_path"),
+                "ext": f.get("ext"),
+                "role": f.get("role"),
+                "bytes": f.get("bytes"),
+                "source_url": f.get("source_url"),
+            }
+            for f in files
+        ]
+        preview = next((f for f in files if f.get("ext") in {"gif", "png", "jpg", "jpeg", "webp"}), None)
+        video = next((f for f in files if f.get("ext") == "mp4"), None)
+        r["local_preview"] = (preview or video or {}).get("local_path") or ""
+        if r.get("bucket") in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME}:
+            r["license_notes"] = "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。"
+
+
 def md_table(rows: list[dict], headers: str = HEADERS_ZH) -> str:
     lines = [
         headers,
         "|---:|---|---|---|---|---|---|---|---|---|",
     ]
     for i, r in enumerate(rows, 1):
-        src = f"[原帖]({r['source_url']})" if r.get("source_url") else "—"
-        media = f"[{r['media_kind']}]({r['media_url']})" if r.get("media_url") else "—"
+        src = f"[出处]({r['source_url']})" if r.get("source_url") else "—"
+        if r.get("local_detail"):
+            media = f"[本地]({r['local_detail']})"
+            if r.get("local_preview"):
+                media += f" · [文件]({r['local_preview']})"
+        elif r.get("media_url"):
+            media = f"[{r['media_kind']}]({r['media_url']})"
+        else:
+            media = "—"
+        prompt = f"[全文]({r['local_prompt']})" if r.get("local_prompt") else cell(r.get("prompt_status") or "空")
         lines.append(
             "| {i} | {author} | {title} | {src} | {media} | {prompt} | {model} | {pipe} | {verify} | {lic} |".format(
                 i=i,
@@ -206,14 +246,31 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH) -> str:
                 ),
                 src=src,
                 media=media,
-                prompt=cell(r.get("prompt_status") or "空"),
+                prompt=prompt,
                 model=cell(r.get("model_claim"), 40),
                 pipe=cell(r.get("pipeline"), 36),
                 verify=cell(r.get("verify"), 36),
-                lic="仅外链",
+                lic="许可未知",
             )
         )
     return "\n".join(lines)
+
+
+def local_embed_block(rows: list[dict]) -> str:
+    bits = []
+    for r in rows:
+        path = r.get("local_preview") or ""
+        if not path:
+            continue
+        ext = Path(path).suffix.lower()
+        alt = f"{r['id']} by {r.get('author') or 'unknown'}"
+        if ext in {".gif", ".png", ".jpg", ".jpeg", ".webp"}:
+            bits.append(f'<a href="{r["local_detail"]}"><img src="{path}" alt="{alt}" width="220"></a>')
+        elif ext == ".mp4":
+            bits.append(f'<a href="{path}">{r["id"]} local MP4</a>')
+    if not bits:
+        return ""
+    return "<p>\n" + "\n".join(bits) + "\n</p>\n"
 
 
 def main() -> None:
@@ -283,10 +340,10 @@ def main() -> None:
             "角色挥手循环",
             "@Krouxzz",
             "https://x.com/Krouxzz/status/2118283796181053637",
-            "https://video.twimg.com/tweet_video/HWWn8n7b0AAN1xP.mp4",
+            "https://video.twimg.com/tweet_video/HWWnk8IXsAE0aXq.mp4",
             "mp4",
             "有原文",
-            "作者称 looping GIF · X 附件 MP4",
+            "作者称 looping GIF · X 附件实际 MP4（已本地归档）",
         ),
         (
             "luffy-x-article",
@@ -296,7 +353,7 @@ def main() -> None:
             "",
             "none",
             "有原文（中文逐字）",
-            "社区长文；本仓不转载其 GIF",
+            "社区长文；原文提示词已本地全文归档；清单无成品媒体 URL",
         ),
     ):
         inrepo.append(
@@ -311,9 +368,9 @@ def main() -> None:
                 prompt_status=prompt,
                 model_claim="作者声明 2.6",
                 pipeline=pipeline,
-                verify="已在库 · 作者声明 · 未观看附件" if kind == "mp4" else "已在库 · 提示词逐字 · 不转载成品 GIF",
+                verify="已在库 · 作者声明 · 未观看附件" if kind == "mp4" else "已在库 · 提示词逐字 · 清单无成品媒体 URL",
                 play=title,
-                license_notes="无明确再分发授权 · 仅外链/不转载",
+                license_notes="许可未知 · 本地归档（非作者授权、非 CC0）",
             )
         )
 
@@ -353,7 +410,7 @@ def main() -> None:
 
     seeds = []
     for g in gallery:
-        if g.get("storage") == "local":
+        if g.get("rights") == "repo_seed":
             seeds.append(
                 row(
                     id=g["id"],
@@ -397,7 +454,7 @@ def main() -> None:
         "meta": {
             "title": "GPT Image 2.6 社区真实案例收集库",
             "updated": "2026-11-06",
-            "coverage": "当前公开搜集核实清单完整入库，不是穷尽全网。X 官方引用未读完；媒体全部未观看；无明确授权只外链。",
+            "coverage": "当前公开搜集核实清单完整入库，不是穷尽全网。主表媒体已本地归档，原 URL 仅作出处。许可未知，不是作者授权或 CC0。媒体全部未观看。",
             "not_exhaustive": True,
             "official_verified_26_game": 0,
             "counts": {},
@@ -428,6 +485,19 @@ def main() -> None:
     assert catalog["meta"]["counts"]["web_gif_12"] == 12
     assert catalog["meta"]["counts"]["pending"] == 12
     assert catalog["meta"]["counts"]["game_author_claim"] == 4  # daft fox xiaomo varg
+
+    for group in (
+        collected_x,
+        web_confirmed,
+        inrepo,
+        game_main,
+        pending,
+        prompt_only,
+        excluded_x,
+        catalog["appendix"],
+        seeds,
+    ):
+        attach_local(group)
 
     OUT_JSON.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     OUT_JS.write_text(
@@ -513,16 +583,54 @@ def main() -> None:
 | 游戏 · 作者声明 | **{c['game_author_claim']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
 | **主表合计** | **{c['main_collected']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |"""
 
+    vis = """<!-- readme-tech-visualizer:start -->
+<p align="center"><img src="docs/readme-assets/hero-wide.png" alt="Awesome GPT Image GIFs — community case archive with local media and original prompts" width="100%"></p>
+<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome GPT Image GIFs" width="96" height="96"></p>
+<p align="center">
+<img src="https://img.shields.io/badge/cases-43-10131a?style=flat-square&labelColor=c2ff67" alt="43 cases">
+<img src="https://img.shields.io/badge/local_media-archived-10131a?style=flat-square&labelColor=c2ff67" alt="local media archived">
+<img src="https://img.shields.io/badge/prompts-verbatim_or_empty-10131a?style=flat-square&labelColor=c2ff67" alt="verbatim or empty prompts">
+<img src="https://img.shields.io/badge/license-MIT_code_only-10131a?style=flat-square&labelColor=c2ff67" alt="MIT covers source code only">
+</p>
+
+## Technical Snapshot
+
+### Tech Stack
+
+<img src="https://img.shields.io/badge/HTML-e34f26?style=flat-square&logo=html5&logoColor=white&logoWidth=20&height=24" alt="HTML">
+<img src="https://img.shields.io/badge/CSS-1572b6?style=flat-square&logo=css&logoColor=white&logoWidth=20&height=24" alt="CSS">
+<img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black&logoWidth=20&height=24" alt="JavaScript">
+<img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white&logoWidth=20&height=24" alt="Python">
+<img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white&logoWidth=20&height=24" alt="GitHub Pages">
+<img src="https://img.shields.io/badge/Pillow-3776ab?style=flat-square&logo=python&logoColor=white&logoWidth=20&height=24" alt="Pillow">
+
+### Engineering Capabilities
+
+- Static GitHub Pages case archive (no Images API at browse time)
+- Local media + verbatim prompt archival with source citations
+- Python validators and GitHub Actions CI
+
+<!-- readme-tech-visualizer:end -->
+"""
+
+    embed_x = local_embed_block(collected_x)
+    embed_web = local_embed_block(web_confirmed)
+    embed_in = local_embed_block(inrepo)
+    embed_game = local_embed_block(game_main)
+
     OUT_README.write_text(
-        f"""# Awesome GPT Image GIFs
+        f"""{vis}
+# Awesome GPT Image GIFs
 
 Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 work, not this repository's original playbook showcase.
 
-**Languages:** [English](README.md) · [简体中文](README.zh-CN.md) · [Catalog page EN](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) · [案例页 中文](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh)
+**Real cases · Local media · Original prompts · Sources**
+
+**Languages:** [English](README.md) · [简体中文](README.zh-CN.md) · [Catalog page EN](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) · [案例页 中文](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh) · [Case files](docs/cases/) · [Media manifest](docs/data/local-media-manifest.json)
 
 No other language editions are maintained. Appendix playbook pages are Chinese-first and are **not** a second synced catalog.
 
-Independent community project, not an OpenAI product. Current public inventory, not exhaustive web coverage.
+Independent community project, not an OpenAI product. Current public inventory, not exhaustive web coverage. Each main-table case has a local folder with media, full original prompt, author, and source citation.
 
 ## What is this repository?
 
@@ -545,19 +653,27 @@ No. Original-character remakes, Morphic prompt cards (examples are not 2.6), and
 ## What can I do with this catalog?
 
 - Browse the [web catalog](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) (same data as this README)
-- Open original posts and link-only media
-- Copy **public original** prompts when the source published them
-- Contribute another original-author case with source, media link, prompt-or-empty, and model evidence
+- Open **local** media and full prompts under `docs/cases/<id>/`
+- Copy **public original** prompts from the local `prompt.md` when the source published them
+- Use original URLs only as citations
+- Contribute another original-author case with source, media, prompt-or-empty, and model evidence
 
 ## What can this repository not do?
 
 - It does not generate images or call the Images API at browse time
 - It does not claim exhaustive web coverage or official OpenAI verification
-- It does not redistribute third-party GIFs without a license (link-only)
+- It does not claim an author grant or CC0 for archived third-party media
 - It does not treat SVG covers or this repo's `prompt_adaptation` as third-party originals
 - Appendix pages (ideas / popular remakes) are not fully English-synced; do not treat them as a parallel inventory
 
 {tables_en}
+
+### Local media in this README
+
+{embed_web}
+{embed_x}
+{embed_in}
+{embed_game}
 
 ## How do I browse locally?
 
@@ -570,39 +686,36 @@ python3 -m http.server 8000 --directory docs
 
 ## How do I submit a case?
 
-Add a community original-author row via `docs/data/community-cases.json` (or open a PR with the original post, media URL, verbatim prompt or explicit empty, model evidence, pipeline, license boundary). Do not label SVG concepts or this repo's rewrites as third-party originals. Do not put unlicensed third-party GIFs in `docs/gifs/`.
+Add a community original-author row and archive media into `docs/cases/<id>/` (or open a PR with the original post, media, verbatim prompt or explicit empty, model evidence, pipeline, license-unknown note). Do not label SVG concepts or this repo's rewrites as third-party originals.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) and [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md).
 
 ## What are the license boundaries?
 
-Source code is under the MIT license in `LICENSE`. That **does not** license third-party media, prompts, or likenesses. Unknown rights stay link-only. Do not treat GitHub stars, traffic, or MIT as permission to reuse someone else's GIF.
+Source code is under the MIT license in `LICENSE`. That **does not** license third-party media, prompts, or likenesses. Archived files keep **license unknown**. This is not an author grant or CC0. Do not treat GitHub stars, traffic, or MIT as permission to reuse someone else's GIF.
 
 ## Which languages are maintained?
 
 English (`README.md`) and Simplified Chinese (`README.zh-CN.md`) are complete and share one catalog. No Japanese or other README exists; do not fake a sync. Site language switch: `?lang=en` / `?lang=zh`.
-
-<!-- readme-tech-visualizer:start -->
-## Technical Snapshot
-
-Static GitHub Pages plus Python validators. Browsing does not call the Images API. Tech details do not change the catalog positioning.
-<!-- readme-tech-visualizer:end -->
 """,
         encoding="utf-8",
     )
 
     OUT_README_ZH.write_text(
-        f"""# Awesome GPT Image GIFs
+        f"""{vis}
+# Awesome GPT Image GIFs
 
 Awesome GPT Image GIFs 收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。
 
+**真实案例 · 本地素材 · 原文 prompt · 出处**
+
 稳定英文名保持 **Awesome GPT Image GIFs**。这是社区 GPT Image 2.6 案例库，当前公开搜集核实清单完整入库，**不是穷尽全网**。
 
-**语言：** [English](README.md) · [简体中文](README.zh-CN.md) · [Catalog EN](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) · [案例页 中文](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh)
+**语言：** [English](README.md) · [简体中文](README.zh-CN.md) · [Catalog EN](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) · [案例页 中文](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh) · [案例目录](docs/cases/) · [素材清单](docs/data/local-media-manifest.json)
 
 没有其他已维护的语言版本。玩法/热门附页以中文为主，**不假装**与英文总目是第二套同步目录。
 
-独立社区整理，非 OpenAI 官方。作者声明 ≠ 官方验证；X 标 GIF 多为未观看 MP4；无明确授权只外链。
+独立社区整理，非 OpenAI 官方。作者声明 ≠ 官方验证；X 标 GIF 多为未观看 MP4。主表媒体已本地归档，原 URL 只作出处。许可未知，不是作者授权或 CC0。
 
 ## 这是什么仓库？
 
@@ -625,19 +738,27 @@ Awesome GPT Image GIFs 收集全网 GPT Image GIF 真实案例、原作者、原
 ## 这个目录能做什么？
 
 - 打开 [网页总目录](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh)（与本 README 同一份数据）
-- 跳转原帖与仅外链媒体
-- 在来源已公开时复制**原文** prompt
-- 提交新的原作者案例（出处、媒体链接、prompt 或标明空、模型依据）
+- 打开 `docs/cases/<id>/` 里的**本地**媒体和完整 prompt
+- 在来源已公开时从本地 `prompt.md` 复制**原文** prompt
+- 原 URL 只当作出处引用
+- 提交新的原作者案例（出处、媒体、prompt 或标明空、模型依据）
 
 ## 这个仓库做不到什么？
 
 - 浏览时不调用 Images API、不付费生成
 - 不宣称穷尽全网或官方验证
-- 无授权不转载第三方 GIF（只外链）
+- 不声称已获作者授权或 CC0
 - 不把 SVG 或本站 `prompt_adaptation` 标成第三方原文
 - 玩法/热门附页不是完整英文同步版，不能当成第二套案例数
 
 {tables_zh}
+
+### 本 README 中的本地媒体
+
+{embed_web}
+{embed_x}
+{embed_in}
+{embed_game}
 
 ## 如何本地浏览？
 
@@ -650,23 +771,17 @@ python3 -m http.server 8000 --directory docs
 
 ## 如何提交案例？
 
-向 `docs/data/community-cases.json` 补社区原作者一行（或 PR 附原帖、媒体外链、prompt 原文或标明空、模型依据、许可边界）。不要把 SVG 概念图、本站改编 prompt 标成第三方原文。无授权不要把第三方 GIF 放进 `docs/gifs/`。
+向 `docs/data/community-cases.json` 补社区原作者一行，并把素材归档进 `docs/cases/<id>/`（或 PR 附原帖、媒体、prompt 原文或标明空、模型依据、许可未知说明）。不要把 SVG 概念图、本站改编 prompt 标成第三方原文。
 
 详见 [CONTRIBUTING.md](CONTRIBUTING.md) · [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md)。
 
 ## 许可边界是什么？
 
-源码见 `LICENSE` 的 MIT。这**不能**自动覆盖第三方媒体、提示词或肖像。权利不明只外链。不要拿星数、访问量或 MIT 当可商用第三方 GIF 的许可。
+源码见 `LICENSE` 的 MIT。这**不能**自动覆盖第三方媒体、提示词或肖像。入库素材保持**许可未知**。这不是作者授权，也不是 CC0。不要拿星数、访问量或 MIT 当可商用第三方 GIF 的许可。
 
 ## 有哪些语言版本？
 
 英文 `README.md` 与简体中文 `README.zh-CN.md` 完整同步、共用一份目录。没有日文或其他 README，不假装同步。站点切换：`?lang=en` / `?lang=zh`。
-
-<!-- readme-tech-visualizer:start -->
-## Technical Snapshot
-
-静态 GitHub Pages + Python 校验。浏览不调用 Images API。技术细节不影响「这是案例收集库」的主定位。
-<!-- readme-tech-visualizer:end -->
 """,
         encoding="utf-8",
     )
@@ -686,16 +801,16 @@ A sourced catalog of original-author GPT Image 2.6 cases (post, real GIF/MP4, pr
 Main collected {c['main_collected']} = X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
 
 ## What can I do with it?
-Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open original posts. Copy public original prompts only. Submit cases. Do not treat SVG or prompt_adaptation as originals.
+Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open local media and full prompts under docs/cases/<id>/. Copy public original prompts only. Original URLs are citations. Submit cases. Do not treat SVG or prompt_adaptation as originals.
 
 ## What can it not do?
-No Images API at browse time. No paid generation. No redistribution without a license. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
+No Images API at browse time. No paid generation. No author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
 ## Which languages are maintained?
 English README.md and Simplified Chinese README.zh-CN.md. No other README editions.
 
 ## License boundaries
-MIT covers source code only. Third-party media stays link-only when rights are unknown.
+MIT covers source code only. Archived third-party media remains license-unknown. Not an author grant or CC0.
 
 ## Canonical URLs
 - https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en

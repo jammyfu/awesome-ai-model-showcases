@@ -13,16 +13,16 @@ A sourced catalog of original-author GPT Image 2.6 cases (post, real GIF/MP4, pr
 Main collected 43 = X 25 + web GIF 12 + in-repo 2 + game author-claim 4. Pending 12. Prompt-only 1. Excluded 9. Appendix 24. Seeds 6. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
 
 ## What can I do with it?
-Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open original posts. Copy public original prompts only. Submit cases. Do not treat SVG or prompt_adaptation as originals.
+Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open local media and full prompts under docs/cases/<id>/. Copy public original prompts only. Original URLs are citations. Submit cases. Do not treat SVG or prompt_adaptation as originals.
 
 ## What can it not do?
-No Images API at browse time. No paid generation. No redistribution without a license. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
+No Images API at browse time. No paid generation. No author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
 ## Which languages are maintained?
 English README.md and Simplified Chinese README.zh-CN.md. No other README editions.
 
 ## License boundaries
-MIT covers source code only. Third-party media stays link-only when rights are unknown.
+MIT covers source code only. Archived third-party media remains license-unknown. Not an author grant or CC0.
 
 ## Canonical URLs
 - https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en
