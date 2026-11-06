@@ -29,7 +29,23 @@ $ python3 tools/validate_community.py
 community catalog ok: main 43, pending 12, excluded 9, appendix 24, seeds 6; topics 10
 ```
 
-`python3 tools/verify.py` is run after this commit so `git diff --exit-code` sees a clean generated tree. CI for this commit is **not** recorded as passed until the cloud run is visible.
+After commit `94ef9fb` (clean tree so generated-file `git diff --exit-code` can pass):
+
+```
+$ python3 tools/verify.py
+...
++ /usr/bin/python3 /workspace/tools/validate_local_media.py
+local media ok: 120 files, 42 cases with files, 42/42 X dynamics (ffprobe), 42/43 main cases have media, luffy documented miss (no attachment URL; API attempt retrieved none; not an assertion the longform has none), 38704608 bytes
++ /usr/bin/python3 /workspace/tools/test_archive_guards.py
+archive guards ok: HTML-as-MP4 fails, WRONG PROMPT fails, unpublished marker required
++ /usr/bin/python3 /workspace/tools/validate_markdown_links.py
+local markdown links ok: 175 generated files, 0 missing targets
+verify ok
+```
+
+Local interpreter: Python 3.12.3. Local ffprobe: 6.1.1 (Ubuntu). CI workflow: `ubuntu-latest` + setup-python 3.12 + apt ffmpeg + `python tools/verify.py`.
+
+Pushed pending CI / local passed. Do not write “CI passed” until the cloud run for this commit is visible.
 
 ## 2026-11-06 — local media archive
 

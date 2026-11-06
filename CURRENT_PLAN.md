@@ -8,12 +8,12 @@
 2. [x] Prompt check compares archived `prompt.md` body to source/ideas/game verbatim text. Remove heading fallback. Unpublished prompts require the explicit empty marker. WRONG PROMPT fault injection must fail.
 3. [x] `attach_local` emits local detail/prompt links only when `docs/cases/<id>/` exists. Appendix / pending / seeds point at existing pages or sources. `verify` recursively checks generated local Markdown/HTML link targets.
 4. [x] Narrow Luffy wording: inventory has no attachment URL; article API attempt retrieved none; cannot assert the original longform has no media. Keep existing evidence; do not invent media.
-5. [x] Local `python3 tools/verify.py` including fault-injection tests.
-6. [ ] CI on PR #2 green for **this** commit. Do not record CI passed until the cloud run is visible.
+5. [x] Local `python3 tools/verify.py` including fault-injection tests (`verify ok` on `94ef9fb`; Python 3.12.3 / ffprobe 6.1.1).
+6. [ ] CI on PR #2 green for **this** commit. Local passed; pushed pending CI. Do not record CI passed until the cloud run is visible.
 
 ## Status
 
-Local work complete on this branch. Next: push, then record CI when the cloud can see the result.
+Local verify green. Next: push this commit, then record the GitHub Actions result when the cloud can see it. No new features.
 
 ## Out of scope
 
