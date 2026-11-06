@@ -8,9 +8,7 @@ Describe the work, its model variant (if verified), and why it is a useful examp
 - Media reuse license (if any):
 
 ## Checks
-- [ ] Ran `python tools/sync_gallery_js.py` (if gallery.json changed)
-- [ ] Ran `python tools/sync_ideas.py` (if ideas.json changed)
-- [ ] Ran `python tools/validate_gallery.py`
-- [ ] Ran `python tools/validate_ideas.py`
-- [ ] Verified GIF previews loop as intended (when a GIF is included)
+- [ ] Ran `python tools/verify.py`
+- [ ] New community cases have `docs/cases/<id>/` media + full `prompt.md`
 - [ ] Prompt status is verbatim / reconstructed / empty (empty if unpublished)
+- [ ] Main table does not mix promo / 2.5 / multimodel / failure

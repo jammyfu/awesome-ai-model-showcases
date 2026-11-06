@@ -1,27 +1,32 @@
 # Awesome GPT Image GIFs
 
-> A curated static gallery of looping AI GIFs and GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) use-case prompts. Independent community project, not an OpenAI product.
+Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) work, not this repository's original playbook showcase.
 
-This repository is static HTML, CSS, and JavaScript on GitHub Pages, plus Python validators. It does not call the Images API at browse time. Sample GIFs in docs/gifs/ are real multi-frame files. Idea cards mix those GIFs, original SVG concept covers, and link-only third-party examples. Prompts are marked verbatim, reconstructed, or empty; empty means the public source did not publish a copyable prompt.
+中文：收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。
 
-## Pages
+Independent community project. Current public inventory, not exhaustive. Author claim ≠ official verification.
 
-- [GIF gallery](https://jammyfu.github.io/awesome-gpt-image-gifs/): searchable animated GIF examples
-- [Idea playbook](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html): sourced use cases with prompts when available
-- [GitHub repository](https://github.com/jammyfu/awesome-gpt-image-gifs): source, validators, and contribution guide
+## What is this repository?
+A sourced catalog of original-author GPT Image 2.6 cases (post, real GIF/MP4, prompt-or-empty, model evidence, pipeline, verification, license boundary).
 
-## Canonical data
+## What is in the current inventory?
+Main collected 43 = X 25 + web GIF 12 + in-repo 2 + game author-claim 4. Pending 12. Prompt-only 1. Excluded 9. Appendix 24. Seeds 6. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
 
-- [docs/data/gallery.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/gallery.json): shipped GIF metadata
-- [docs/data/ideas.json](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/data/ideas.json): idea catalog
-- [playbooks/ideas-and-prompts.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/ideas-and-prompts.md): full prompts
-- [playbooks/sources.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/sources.md): attributed sources, including 路飞 @0xluffy_eth X Article
-- [playbooks/trends-2026-11.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/playbooks/trends-2026-11.md): sources dated 2026-11-06 (Beijing time)
-- [CONTRIBUTING.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/CONTRIBUTING.md)
-- [MEDIA_RIGHTS.md](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/MEDIA_RIGHTS.md)
+## What can I do with it?
+Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open local media and full prompts under docs/cases/<id>/. Copy public original prompts only. Original URLs are citations. Submit cases. Do not treat SVG or prompt_adaptation as originals.
 
-## Official references
+## What can it not do?
+No Images API at browse time. No paid generation. No author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
-- [Introducing Images 2.6](https://openai.com/index/introducing-images-2-6/) (2026-11-04)
-- [Image generation](https://developers.openai.com/api/docs/guides/image-generation)
-- [Image prompting](https://developers.openai.com/api/docs/guides/image-prompting)
+## Which languages are maintained?
+English README.md and Simplified Chinese README.zh-CN.md. No other README editions.
+
+## License boundaries
+MIT covers source code only. Archived third-party media remains license-unknown. Not an author grant or CC0.
+
+## Canonical URLs
+- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en
+- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh
+- https://github.com/jammyfu/awesome-gpt-image-gifs
+- docs/data/community-cases.json
+- playbooks/community-cases.md

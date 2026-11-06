@@ -6,3 +6,8 @@ __pycache__/
 .env.*
 !.env.example
 *.log
+.codex-local/
+.git-autosync-signal
+https:/
+*.orig
+.pytest_cache/

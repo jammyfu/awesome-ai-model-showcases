@@ -1,0 +1,734 @@
+{
+  "meta": {
+    "title": "GPT Image 2.6 · 游戏动作序列定向深搜",
+    "verified_at": "2026-11-06",
+    "timezone_note": "核实日期为北京时间日历日；不预填未来钟点",
+    "scope": "仅 X 公开读取；不改旧 x.md/x.json；不写仓、不代发、不联系作者；不下载无明示授权媒体",
+    "dedup_baseline": {
+      "x_json": "/workspace/gpt-gif-deep-1106/x.json",
+      "known_game_related_in_x_json": [
+        "x-zone-nonsticker-plays（含像素小人动作回复）",
+        "x-thinkszyg-paperboat-verify（含六宫格 sprite 模板，非游戏运行）"
+      ]
+    },
+    "search_coverage": {
+      "query_families": [
+        "EN: sprite sheet/spritesheet/frame animation/game asset/idle/walk cycle/run/attack + Image 2.6/GIF",
+        "JA: スプライト/ゲーム/ドット絵/フレーム + GPT Image 2.6/GIF",
+        "ZH: 游戏/序列帧/精灵表/像素/动作/走跑跳 + Images 2.6/GIF",
+        "定向: from/conversation Daft_Trade, maker_evan, xiaomovps, zone, higgsfield, renoiseai"
+      ],
+      "approx_posts_read": "主搜 4 次×约25 + 补搜约 25+25 + 会话翻页 Daft/xiaomovps/maker_evan/zone ≈ 150+ 条阅读（含低质转述已跳过入库）",
+      "pages": "各主查询首屏；关键会话 conversation_id 深挖至无新增高价值或边际下降",
+      "stop_basis": [
+        "已拿到带原文/半原文提示词的游戏动作与可玩演示强例",
+        "后续大量为 Higgsfield 平台同源镜像、新闻转述、纯表情包含 pixel 字样",
+        "Renoise「coming soon」等弱归属不纳入强例",
+        "不要求穷尽全部引用帖"
+      ]
+    },
+    "counts": {
+      "stronger_candidates": 4,
+      "stronger_candidates_new_vs_x_json": 4,
+      "stronger_dynamic_media_attachments": 9,
+      "stronger_with_full_original_prompt": 1,
+      "stronger_with_partial_prompt_excerpt_or_settings": 3,
+      "pending_verification_cases": 1,
+      "pending_dynamic_media_attachments": 1,
+      "already_in_x_json_game_related": 1,
+      "platform_demo_related": 1,
+      "static_sprite_sheet_only": 2,
+      "weak_or_rejected": 5,
+      "downloadable_with_clear_license": 0,
+      "counting_rule": "较强候选按案例/线程组计，不按附件；yrzhe 待核实不计较强；旧 x.json 已有不计新增；平台演示单列"
+    },
+    "top3": [
+      {
+        "url": "https://x.com/Daft_Trade/status/2118283025498906800",
+        "why": "原作者游戏动画原型；多段动作 GIF；明确 straight to GIF + 2.6"
+      },
+      {
+        "url": "https://x.com/maker_evan/status/2118222694345040253",
+        "why": "可玩街机+完整 one-shot prompt（idle/run/attack）；工作流透明（sheet→切帧）"
+      },
+      {
+        "url": "https://x.com/xiaomovps/status/2118274032227471705",
+        "why": "中文独立开发向；出拳/蓄力动作 GIF + Unity/Godot 落地讨论"
+      }
+    ],
+    "gaps": {
+      "model": "无官方技术确认级证据；多为作者宣称；yrzhe 与 Renoise coming soon 存在通道疑问",
+      "workflow": "多数未公开完整可复制 prompt；底层是原生 GIF 还是内部 sprite 再缝，作者说法不一",
+      "visual": "全部 unwatched；未宣称运行成功/游戏可用",
+      "license": "0 条明示再分发授权；提示词仅公开分享"
+    },
+    "disclaimer": "不宣称已运行成功或素材可商用。未观看媒体。不修改旧交付文件。",
+    "taxonomy_note": "较强候选=作者声明+媒体元数据已核；全部 visual_review_status=unwatched；不等于生成真实性/技术验证/游戏可运行",
+    "label": "较强候选（作者声明+媒体元数据，全部未观看）"
+  },
+  "already_in_x_json_game_related": [
+    {
+      "id": "gs-zone-pixel-actions-already",
+      "tier": "already_in_x_json_game_related",
+      "post_url": "https://x.com/zone__online/status/2118264293678608774",
+      "post_id": "2118264293678608774",
+      "pixel_reply_url": "https://x.com/zone__online/status/2118266300376223930",
+      "pixel_reply_id": "2118266300376223930",
+      "author": {
+        "username": "zone__online",
+        "name": "SleepyZone"
+      },
+      "play_summary": "旧 x.json 已收线程「非表情包玩法」；其中回复明确「3. 像素小人做动作，游戏角色素材感觉更简单了」+ animated_gif",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6已经支持生成动图啦…3. 像素小人做动作，游戏角色素材感觉更简单了"
+      },
+      "original_prompt": "",
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HWWX9P6bIAA0_Jk.mp4",
+        "https://video.twimg.com/tweet_video/HWWWIl7a4AEPien.mp4"
+      ],
+      "already_in_x_json": true,
+      "x_json_id": "x-zone-nonsticker-plays",
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "notes": "不计本文件新增强例；单列游戏相关旧线索。像素回复媒体 HW WX9P6…"
+    }
+  ],
+  "platform_demo_related": [
+    {
+      "id": "gs-higgsfield-junkyard-platform",
+      "tier": "platform_demo_related",
+      "post_url": "https://x.com/higgsfield_ai/status/2118152815625552235",
+      "post_id": "2118152815625552235",
+      "author": {
+        "username": "higgsfield_ai",
+        "name": "Higgsfield AI",
+        "followers": 253495
+      },
+      "play_summary": "平台账号演示 junkyard 游戏：称每套动作用 GPT Image 2.6 GIF sprite sheet，风格一致；同源系列还有 zombie hunter / samurai / boxing 等",
+      "model_claim": {
+        "level": "author_explicit_platform",
+        "quote": "GPT Image 2.6 kept consistent style across every GIF sprite sheet in this junkyard game. Made on Higgsfield."
+      },
+      "original_prompt": "",
+      "media": [
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2118152582791417856/vid/avc1/1440x1080/sLYymMyjMGabQOiN.mp4",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118152582791417856/img/4SDh6xxYBWxoAh9o.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1440,
+          "height": 1080,
+          "duration_ms": 33108,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "未观看视频内容"
+        }
+      ],
+      "output_workflow": {
+        "claimed": "gif_sprite_sheets_in_game_pipeline",
+        "certainty": "platform_claimed",
+        "note": "平台营销片；非独立开发者原作者一手教程"
+      },
+      "game_asset_or_runtime_evidence": {
+        "claim": "视频展示可玩感游戏画面",
+        "limitations": "未观看；平台账号；不计入原作者强例"
+      },
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅记公开外链，不下载。公开分享≠授予 IP/提示词再用许可",
+      "already_in_x_json": false,
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "notes": "相关线索，不计强例数量"
+    }
+  ],
+  "static_sprite_sheet_only": [
+    {
+      "id": "gs-mashiro-sprite-sheet-static",
+      "tier": "static_sprite_sheet_only",
+      "post_url": "https://x.com/Mashiro_0619/status/2118216167613685875",
+      "post_id": "2118216167613685875",
+      "author": {
+        "username": "Mashiro_0619",
+        "name": "真白大小姐"
+      },
+      "play_summary": "技术向：声称 2.6 GIF 底层是先画 3×3 Sprite Sheet 再裁切硬缝；附件为静图分析",
+      "model_claim": {
+        "level": "author_explicit_technical_hypothesis",
+        "quote": "模型先在一张大图里画 3×3 的 Sprite Sheet…再由服务端自动裁切硬缝成动图"
+      },
+      "original_prompt": "",
+      "media": [
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWVqXzqb0AAvP66.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1186,
+          "height": 1186,
+          "duration_ms": null,
+          "head_check": null,
+          "note": null
+        }
+      ],
+      "has_dynamic_result": false,
+      "notes": "无动态结果附件；与强动态案例分开。未观看。",
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅记公开外链，不下载。公开分享≠授予 IP/提示词再用许可",
+      "already_in_x_json": false
+    },
+    {
+      "id": "gs-maker-evan-sheet-photo",
+      "tier": "static_sprite_sheet_only",
+      "post_url": "https://x.com/maker_evan/status/2118218792795095048",
+      "post_id": "2118218792795095048",
+      "author": {
+        "username": "maker_evan",
+        "name": "chacha"
+      },
+      "play_summary": "fox ronin 对照实验的 hero sprite sheets 静图（A=2.6 Sunburst 等）",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "A = GPT Image 2.6 Sunburst … These are the hero sprite sheets as the models made them."
+      },
+      "original_prompt": "",
+      "media": [
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWVswCLbgAACxKN.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1600,
+          "height": 1720,
+          "duration_ms": null,
+          "head_check": null,
+          "note": null
+        }
+      ],
+      "has_dynamic_result": false,
+      "notes": "静图 sheet；动态游戏见强例 gs-maker-evan-fox-ronin-game",
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅记公开外链，不下载。公开分享≠授予 IP/提示词再用许可",
+      "already_in_x_json": false
+    }
+  ],
+  "weak_or_rejected": [
+    {
+      "id": "gs-renoise-coming-soon",
+      "tier": "weak_model_attribution",
+      "post_url": "https://x.com/renoiseai/status/2118284156128186393",
+      "reason": "正文写 GPT Image 2.6 is coming soon to Renoise；模型归属弱，不纳入强例",
+      "verified_at": "2026-11-06"
+    },
+    {
+      "id": "gs-kaanakz-meta-mix",
+      "tier": "rejected_mixed_pipeline",
+      "post_url": "https://x.com/kaanakz/status/2118332951645638807",
+      "reason": "像素化经 Meta AI，再喂 Images 2.6；混合管线",
+      "verified_at": "2026-11-06"
+    },
+    {
+      "id": "gs-realfede-mirror",
+      "tier": "rejected_repost",
+      "post_url": "https://x.com/RealFedeURU/status/2118315023508373879",
+      "reason": "Higgsfield junkyard 文案/媒体镜像",
+      "verified_at": "2026-11-06"
+    },
+    {
+      "id": "gs-old-pgmrs-will-speculative",
+      "tier": "weak_not_game_sequence",
+      "post_url": "https://x.com/old_pgmrs_will/status/2118159784025423885",
+      "reason": "仅猜测「ゲーム用キャラのスプライトもイケそう」，无动作序列/游戏演示",
+      "verified_at": "2026-11-06"
+    },
+    {
+      "id": "gs-rune-field-cat",
+      "tier": "weak_not_game_action",
+      "post_url": "https://x.com/Rune_Field/status/2118323145904148952",
+      "reason": "猫 GIF+可自由使用声明；偏表情/展示，非 idle/walk/run/attack 游戏动作序列",
+      "verified_at": "2026-11-06"
+    }
+  ],
+  "pending_verification": [
+    {
+      "id": "gs-yrzhe-minigame-gif-assets",
+      "tier": "pending_verification",
+      "post_url": "https://x.com/yrzhe_top/status/2118211871777890325",
+      "post_id": "2118211871777890325",
+      "thread_group_id": null,
+      "related_post_ids": [],
+      "author": {
+        "username": "yrzhe_top",
+        "name": "yrzhe.top",
+        "followers": 442
+      },
+      "created_at_utc": "2026-11-05T05:20:39.000Z",
+      "created_at_beijing": "2026-11-05 13:20:39",
+      "play_summary": "作者称用 gpt image 2.6 直接生成 GIF，试做小游戏；@renoiseai agent「素材配好直接就能用了」，附约 23s 演示视频",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "gpt image 2.6 直接生成 gif 动图，试了下这种小游戏，@renoiseai agent 素材配好直接就能用了",
+        "source_url": "https://x.com/yrzhe_top/status/2118211871777890325",
+        "evidence_note": "作者宣称；通道涉及 Renoise agent，非必然 ChatGPT 官方 UI"
+      },
+      "original_prompt": "",
+      "prompt_notes": "无公开 prompt",
+      "prompt_license": "",
+      "reference_image_urls": [],
+      "media": [
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2118211744589860864/vid/avc1/1440x1080/oBTA-x6xk2zd9fzq.mp4",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118211744589860864/img/xYK6680npgFdjZgp.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1440,
+          "height": 1080,
+          "duration_ms": 23000,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "未观看视频内容"
+        }
+      ],
+      "output_workflow": {
+        "claimed": "native_gif_direct_then_agent_assemble",
+        "author_words": "直接生成 gif 动图…素材配好直接就能用了",
+        "certainty": "author_claimed",
+        "note": "演示媒体为 amplify video（游戏画面录屏类），非 tweet animated_gif 单附件"
+      },
+      "game_asset_or_runtime_evidence": {
+        "claim": "作者自称小游戏素材可用并贴演示视频",
+        "limitations": "未观看视频；不独立验证「能用/运行成功」。Renoise 官方另帖写 2.6「coming soon」，故本条通道与模型绑定需保留疑问，但仍有作者对 2.6 的明确自称。"
+      },
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅记公开外链，不下载。公开分享≠授予 IP/提示词再用许可",
+      "already_in_x_json": false,
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "notes": "本修订新增强例。因 Renoise「coming soon」旁证，证据强度略低于前三条，仍因作者自测小游戏演示列入强例下限。 【质检】因 Renoise 官方帖写 GPT Image 2.6 is coming soon，与本帖作者「gpt image 2.6 直接生成」存在证据冲突，移出较强候选、列入待核实；不把作者声明当技术验证。全部 unwatched。"
+    }
+  ],
+  "stronger_candidates": [
+    {
+      "id": "gs-daft-trade-gamedev-combo",
+      "tier": "strong_dynamic",
+      "post_url": "https://x.com/Daft_Trade/status/2118283025498906800",
+      "post_id": "2118283025498906800",
+      "thread_group_id": "daft-trade-gamedev",
+      "related_post_ids": [
+        "2118283168071684292",
+        "2118283316050944116",
+        "2118283409781117416"
+      ],
+      "author": {
+        "username": "Daft_Trade",
+        "name": "BuyTheDip",
+        "followers": 154
+      },
+      "created_at_utc": "2026-11-05T10:03:23.000Z",
+      "created_at_beijing": "2026-11-05 18:03:23",
+      "play_summary": "游戏动画原型：一句话出像素风三连击带刀光拖尾 GIF；同线程另附蓄力法环、跳跃翻滚、火花特效多段动作演示",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "One prompt in GPT Image 2.6 gave me a 3-hit pixel-art combo with slash trails, straight to GIF.",
+        "source_url": "https://x.com/Daft_Trade/status/2118283025498906800",
+        "evidence_note": "作者本人明示 GPT Image 2.6 且写 straight to GIF；非官方技术核验"
+      },
+      "original_prompt": "",
+      "prompt_notes": "主帖未贴完整可复制 prompt。同线程回复给出设置要点（非完整提示词原文）：「Lock the camera and give each action a frame range. I used 512×512, high quality, and an opaque background. The sword combo uses 16 frames × 40 ms…」「For a looping spell… 12 frames × 80 ms…」「For a jump… Run → push off → tuck → flip → land… 16 frames × 80 ms…」不把设置说明伪造成完整 prompt。",
+      "prompt_license": "",
+      "reference_image_urls": [],
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWlW3HaEAAxdLe.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWlW3HaEAAxdLe.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 512,
+          "height": 512,
+          "duration_ms": null,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWnTgiakAAJIF-.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWnTgiakAAJIF-.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 512,
+          "height": 512,
+          "duration_ms": null,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWnb6KacAA5032.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWnb6KacAA5032.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 512,
+          "height": 512,
+          "duration_ms": null,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWnhl0bYAAofEi.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWnhl0bYAAofEi.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 512,
+          "height": 512,
+          "duration_ms": null,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "output_workflow": {
+        "claimed": "native_gif_direct",
+        "author_words": "straight to GIF",
+        "certainty": "author_claimed",
+        "note": "作者声称直接出 GIF；未观看；未知底层是否内部 sprite 再切帧"
+      },
+      "game_asset_or_runtime_evidence": {
+        "claim": "作者定位为 Game animation prototyping / #GameDev；展示连招、跳跃、法术环等动作循环",
+        "limitations": "未见可运行游戏工程或引擎导入录像；仅为动作 GIF 原型。未观看，不宣称游戏可用或运行成功。"
+      },
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅记公开外链，不下载。公开分享≠授予 IP/提示词再用许可",
+      "already_in_x_json": false,
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "notes": "本修订新增强例。计 1 案例/线程组（多附件）。"
+    },
+    {
+      "id": "gs-maker-evan-fox-ronin-game",
+      "tier": "strong_dynamic",
+      "post_url": "https://x.com/maker_evan/status/2118222694345040253",
+      "post_id": "2118222694345040253",
+      "thread_group_id": "maker-evan-fox-ronin",
+      "related_post_ids": [
+        "2118223991999787015",
+        "2118218636725027037",
+        "2118218792795095048",
+        "2118218896167886861"
+      ],
+      "author": {
+        "username": "maker_evan",
+        "name": "chacha",
+        "followers": 90
+      },
+      "created_at_utc": "2026-11-05T06:03:39.000Z",
+      "created_at_beijing": "2026-11-05 14:03:39",
+      "play_summary": "可玩网页街机：狐浪人夜市防墨灵；艺术来自 GPT Image 2.6 生成的 hero idle/run/attack/hurt 等 sprite sheet，由 GPT-6.1 Sol 切帧并组装游戏（作者称约 9 分钟）",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6 made the sprite sheets and the background for this game. GPT-6.1 Sol cut them into frames and built the rest.",
+        "source_url": "https://x.com/maker_evan/status/2118222694345040253",
+        "evidence_note": "作者明示 2.6 负责 sprite sheets/背景；切帧与游戏组装为 agent，非纯原生 GIF 直出"
+      },
+      "original_prompt": "Make a small arcade action game in one web page: a fox ronin defending a night market from ink spirits. Arrow keys move, space attacks. All the art must come from the image model selected for this run: sprite sheets for the hero (idle, run, attack, hurt), three enemies and a boss, plus a background. Cut the sheets into frames and animate them in the game. Do not draw characters in code. Add a HUD, a score, and win and game over screens. It should feel fun the moment it loads.",
+      "prompt_notes": "全文来自同会话回复 https://x.com/maker_evan/status/2118218896167886861 note_tweet；作者称 one shot。另有对照帖展示 hero sprite sheet 静图。",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用许可；仅记录公开分享事实",
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWVswCLbgAACxKN.jpg"
+      ],
+      "media": [
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2118222620546289665/vid/avc1/1280x776/5_45DZtOxtMThnXz.mp4",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118222620546289665/img/2BIV9HEKZJFQwBm8.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1280,
+          "height": 776,
+          "duration_ms": 34319,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "未观看视频内容"
+        },
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2118218561596588032/vid/avc1/1440x874/tc9MlAOH2s42gwUo.mp4",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118218561596588032/img/KkWxq6rACvZ2SFtj.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1441,
+          "height": 874,
+          "duration_ms": 9973,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "未观看视频内容"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWVswCLbgAACxKN.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1600,
+          "height": 1720,
+          "duration_ms": null,
+          "head_check": null,
+          "note": null
+        }
+      ],
+      "output_workflow": {
+        "claimed": "sprite_sheet_then_cut_into_frames",
+        "author_words": "made the sprite sheets … Sol cut them into frames and built the rest",
+        "certainty": "author_claimed",
+        "note": "明确不是「只交一张原生动画 GIF」；是 sprite sheet → 切帧 → 网页游戏。静图 sheet 见参考图。"
+      },
+      "game_asset_or_runtime_evidence": {
+        "claim": "作者提供可玩对照链接 evals.ag，并贴游戏运行录像；文案含 idle/run/attack/hurt 等动作表需求",
+        "limitations": "未在本机运行或观看录像；不宣称「运行成功/游戏可用」。艺术由 agent 二次处理。外部链接未核其长期可玩性。"
+      },
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅记公开外链，不下载。公开分享≠授予 IP/提示词再用许可",
+      "already_in_x_json": false,
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "notes": "本修订新增强例。计 1 案例/线程组。"
+    },
+    {
+      "id": "gs-maker-evan-walk-cycle",
+      "tier": "strong_dynamic",
+      "post_url": "https://x.com/maker_evan/status/2118235403430027495",
+      "post_id": "2118235403430027495",
+      "thread_group_id": "maker-evan-walk-cycle",
+      "related_post_ids": [
+        "2118235531608039709",
+        "2118241905477898501"
+      ],
+      "author": {
+        "username": "maker_evan",
+        "name": "chacha",
+        "followers": 90
+      },
+      "created_at_utc": "2026-11-05T06:54:09.000Z",
+      "created_at_beijing": "2026-11-05 14:54:09",
+      "play_summary": "像素风 walk cycle 硬测：32×32、≤8 色、无缝 8 帧；两条路径用 GPT Image 2.6 Flare/Sunburst，再经 Claude Opus 5.5 量化/修头/镜像腿；另有无图像模型纯代码对照",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "Same prompt: 32x32 grid, at most 8 colours, seamless 8-frame loop. … Two used GPT Image 2.6.",
+        "source_url": "https://x.com/maker_evan/status/2118235403430027495",
+        "evidence_note": "作者明示两条用了 2.6；但后续帖承认图像模型 alone 不够，Opus 做了调色与修帧"
+      },
+      "original_prompt": "",
+      "prompt_notes": "完整原文未知。见 prompt_excerpt（partial）。",
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWWBvlWakAAEYS-.jpg"
+      ],
+      "media": [
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2118232769663025152/vid/avc1/1920x724/ayooWwkfOTLQNASb.mp4",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118232769663025152/img/6IwejEyatKbS3iw5.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1920,
+          "height": 724,
+          "duration_ms": 10000,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "未观看视频内容"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWWBvlWakAAEYS-.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "head_check": null,
+          "note": null
+        }
+      ],
+      "output_workflow": {
+        "claimed": "sprite_sheet_then_agent_postprocess",
+        "author_words": "Neither image model got there alone… Opus snapped them to the grid…",
+        "certainty": "author_claimed",
+        "note": "2.6 出 sheet 后 agent 后处理；最终 GIF 非纯模型一键结果"
+      },
+      "game_asset_or_runtime_evidence": {
+        "claim": "明确 walk cycle 游戏素材规格（网格/色数/帧循环）",
+        "limitations": "对照实验含非 2.6 路径；未观看；不宣称可直接进引擎商用"
+      },
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅记公开外链，不下载。公开分享≠授予 IP/提示词再用许可",
+      "already_in_x_json": false,
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "notes": "本修订新增强例。与 fox-ronin 同作者不同玩法，分列。 【prompt 质检】完整原文未知，original_prompt=\"\"；确有来源英文片段写入 prompt_excerpt（partial=true）。evals.ag 任务标题曾见 “Make a pixel art sprite animation of a red panda mail carrier walking, side view…”——仅笔记，不作原文 prompt 字段。",
+      "prompt_excerpt": {
+        "text": "Same prompt: 32x32 grid, at most 8 colours, seamless 8-frame loop.",
+        "source_url": "https://x.com/maker_evan/status/2118235403430027495",
+        "partial": true,
+        "note": "帖内公开英文片段原样摘录；完整原文未知故 original_prompt 留空。evals.ag 任务标题另见 notes，不作 original_prompt。"
+      },
+      "prompt_license": ""
+    },
+    {
+      "id": "gs-xiaomovps-fighter-actions",
+      "tier": "strong_dynamic",
+      "post_url": "https://x.com/xiaomovps/status/2118274032227471705",
+      "post_id": "2118274032227471705",
+      "thread_group_id": null,
+      "related_post_ids": [],
+      "author": {
+        "username": "xiaomovps",
+        "name": "小墨同学",
+        "followers": 17628
+      },
+      "created_at_utc": "2026-11-05T09:27:39.000Z",
+      "created_at_beijing": "2026-11-05 17:27:39",
+      "play_summary": "复古 16 位街机格斗向：生成人物/场景/血条后继续出拳、蓄力等循环 GIF；作者讨论透明背景拆帧进 Unity/Godot 与 Sprite Sheet",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "最近体验了一下 GPT 最新的 Images 2.6…然后继续让它把游戏人物做成 GIF 动图，没想到现在连人物出拳、蓄力这些动作都能生成",
+        "source_url": "https://x.com/xiaomovps/status/2118274032227471705",
+        "evidence_note": "note_tweet 全文作者宣称；非官方核验"
+      },
+      "original_prompt": "",
+      "prompt_notes": "无公开可复制原文 prompt",
+      "prompt_license": "",
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWWcoNLbkAAxgxF.jpg"
+      ],
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWcoNDawAALRaJ.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWcoNDawAALRaJ.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 358,
+          "height": 356,
+          "duration_ms": null,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWcoNBbMAATJjY.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWcoNBbMAATJjY.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 362,
+          "height": 362,
+          "duration_ms": null,
+          "head_check": {
+            "http_status": 200,
+            "content_type": "video/mp4",
+            "checked_at": "2026-11-06",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWWcoNLbkAAxgxF.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1448,
+          "height": 1086,
+          "duration_ms": null,
+          "head_check": null,
+          "note": null
+        }
+      ],
+      "output_workflow": {
+        "claimed": "native_gif_and_or_sprite_sheet",
+        "author_words": "可以直接生成 GIF 动画和 Sprite Sheet 精灵序列图",
+        "certainty": "author_claimed_both",
+        "note": "作者同时提到 GIF 与 Sprite Sheet；帖内可见 animated_gif + 静图；未观看，无法确认是否另有切帧合成"
+      },
+      "game_asset_or_runtime_evidence": {
+        "claim": "作者明确写可拆帧进 Unity/Godot；展示出拳/蓄力类动作 GIF",
+        "limitations": "作者自述连续动作可能形象不一致、需调碰撞；未见引擎内运行录像。未观看，不宣称已可运行。"
+      },
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅记公开外链，不下载。公开分享≠授予 IP/提示词再用许可",
+      "already_in_x_json": false,
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "notes": "本修订新增强例。"
+    }
+  ]
+}

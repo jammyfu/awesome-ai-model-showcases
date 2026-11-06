@@ -1,0 +1,3 @@
+# Original prompt
+
+このキャラをGIFで動かして。手を振って笑う

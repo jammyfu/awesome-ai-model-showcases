@@ -1,0 +1,3139 @@
+{
+  "meta": {
+    "title": "GPT Image 2.6 X 深搜交付（质检修订）",
+    "audience": "中文",
+    "verified_at": "2026-11-06 02:05",
+    "timezone_note": "所有核实日期为北京时间，不标注其他时区名",
+    "scope": "仅 X 公开读取；不发帖、不联系作者、不写 GitHub 仓、不下载无授权第三方媒体；不代发",
+    "repo_baseline": {
+      "repo": "https://github.com/jammyfu/awesome-gpt-image-gifs",
+      "branch": "main",
+      "ideas_count": 32,
+      "real_gifs_count": 6,
+      "real_gif_slugs": [
+        "pixel-head-pat",
+        "cat-screen-crack",
+        "cat-headbutt",
+        "kangaroo-pat",
+        "martial-arts-combo",
+        "head-pat-caption"
+      ],
+      "known_x_status_ids": [
+        "2118274913337552992",
+        "2118283796181053637"
+      ],
+      "confirmed_at": "2026-11-06 02:05"
+    },
+    "taxonomy": {
+      "author_claim_media_meta_checked": "作者明确声明+媒体元数据已核（非「生成真实性已验证」；全部 visual_review_status=unwatched）",
+      "pending_verification": "待核实",
+      "prompt_only": "纯提示词无结果媒体，不计真实案例",
+      "duplicate_or_rejected": "重复/不合格"
+    },
+    "search_coverage": {
+      "languages_queries": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "th",
+        "tr",
+        "ar",
+        "pt",
+        "es",
+        "ta"
+      ],
+      "keyword_families": [
+        "GPT Image 2.6 / Images 2.6 / ChatGPT Images 2.6 / gpt-image-2.6",
+        "GIF/gif/动图/表情包/looping GIF/animated GIF",
+        "提示词/prompt/Make a looping",
+        "大肥鱼/表情包主题",
+        "official quote timeline + quoted_posts of OpenAI 2118124944928432327"
+      ],
+      "authors_timelines_sampled": [
+        "op7418",
+        "Gorden_Sun",
+        "0xluffy_eth",
+        "Adam38363368936",
+        "zone__online",
+        "Krouxzz",
+        "gdb",
+        "chaoranya",
+        "MiraMusic_AI",
+        "okan_aitool",
+        "mirai_ai2050",
+        "nonieengel",
+        "IHayato",
+        "dokken92047824",
+        "xepher113",
+        "yulikay"
+      ],
+      "pagination_detail": {
+        "op7418_replies_conversation_2118181775688241456": {
+          "pages_read": 3,
+          "posts_read_approx": 75,
+          "declared_reply_count": 88,
+          "next_token_after_page3": "b26v89c19zqg8o3juzlyxcv4qghrsk3sr4avwhuooc41p",
+          "new_gif_demos_found": [
+            "iskunzhenbai/2118239397766484445"
+          ],
+          "stop_basis": "第3页起连续多为「Codex调不了」评论与技巧复述，无新增原创 GIF/完整新 prompt；边际收益下降。未宣称读完全部 88。"
+        },
+        "openai_quoted_posts_2118124944928432327": {
+          "pages_read": 3,
+          "posts_read_approx": 75,
+          "approx_total_quotes": 1727,
+          "next_token_after_page3": "g3ech3kapxsu",
+          "stop_basis": "第2–3页连续以 RT、平台上线宣传、新闻转述为主，原创 GIF+prompt 极少；避免大量低质转述入库。未读完全部引用。"
+        },
+        "jp_kr_oc_limited": {
+          "queries": [
+            "GPT Image 2.6 GIF lang:ja",
+            "Images 2.6 GIF",
+            "作者自帖 OC"
+          ],
+          "new_cases_added": [
+            "MiraMusic_AI",
+            "okan_aitool",
+            "mirai_ai2050",
+            "IHayato",
+            "dokken92047824",
+            "supertask_jp",
+            "xepher113",
+            "yulikay",
+            "bt21_ok(pending)"
+          ],
+          "stop_basis": "有限补搜；韩文除 bt21_ok 外高价值 OC 稀少；日文已覆盖带 prompt 的主要自帖类型"
+        },
+        "adam_7plays_ocr": {
+          "thumbs_read": 7,
+          "result": "Read/OCR 显示均为结果帧（含写实人像），无提示词正文；不扩大下载"
+        }
+      },
+      "stop_reasons": [
+        "归藏回复已读 3 页/~75 条，连续低质评论后停止（仍有 next_token，未读完声明的 88）",
+        "官方引用已读 3 页/~75 条，连续 RT/宣传后停止（总量约 1727，未穷尽）",
+        "日/韩 OC 有限补搜已纳入带 prompt 或明确声明的高价值帖",
+        "Adam 七玩法缩略图 OCR 无 prompt 文本可提取",
+        "全部媒体未观看；不下载无授权第三方媒体入库",
+        "避免把多附件/多帖子计为多玩法；低质转述不入库"
+      ],
+      "not_exhausted": [
+        "官方引用剩余约 1600+ 条",
+        "归藏回复剩余约 13 条及更早分页",
+        "更多日韩时间线与小语种",
+        "逐条人工观看 mp4",
+        "非 X 源不在本交付范围"
+      ]
+    },
+    "counts": {
+      "author_claim_media_meta_checked_cases": 25,
+      "pending_verification_cases": 12,
+      "prompt_only_cases": 1,
+      "duplicate_or_rejected_cases": 9,
+      "new_cases_added_this_revision": 9,
+      "thread_groups_named": 3,
+      "thread_group_ids": [
+        "adam-7plays",
+        "op7418-fatfish",
+        "zone-nonsticker"
+      ],
+      "media_animated_gif_or_video_in_author_claim": 42,
+      "media_animated_gif_or_video_in_pending": 15,
+      "author_claim_with_original_prompt": 11,
+      "downloadable_with_clear_license": 0,
+      "counting_rule": "按案例（帖/线程组）计数，不按附件数；Adam7/归藏多GIF各计1案"
+    },
+    "top3_recommend_for_repo": [
+      {
+        "url": "https://x.com/mirai_ai2050/status/2118213713761292432",
+        "why": "完整规格化日文 prompt + 帧数/尺寸实测反馈；媒体 animated_gif 已 HEAD"
+      },
+      {
+        "url": "https://x.com/MiraMusic_AI/status/2118168013618987298",
+        "why": "从零日文 prompt 直出拉伸 GIF，带风格负向约束；作者明确 2.6"
+      },
+      {
+        "url": "https://x.com/nonieengel/status/2118382251226562570",
+        "why": "角色+风格参考 → 10 reaction 套装玩法稀缺；有部分英文 prompt（正文截断）"
+      }
+    ],
+    "disclaimer": "非全集、非官方背书。作者明确声明≠生成过程已复测；gdb 身份≠官方技术确认。公开分享提示词≠授予引用/再用许可。X animated_gif 对外通常为 MP4，未取得真实 .gif，未播放。"
+  },
+  "author_claim_media_meta_checked": [
+    {
+      "id": "x-gorden-sun-rice-gif",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/Gorden_Sun/status/2118166046175908016",
+      "post_id": "2118166046175908016",
+      "author": {
+        "username": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "followers": 70019
+      },
+      "created_at_utc": "2026-11-05T02:18:33.000Z",
+      "created_at_beijing": "2026-11-05 10:18:33",
+      "play_summary": "参考角色图一句话生成「吃白米饭+真香」中文配字循环 GIF 表情包",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT新出的GPT Image 2.6，可以一句话生成表情包动图了",
+        "evidence_links": [
+          "https://x.com/Gorden_Sun/status/2118166046175908016"
+        ]
+      },
+      "workflow": "ChatGPT 上传参考角色图 → 文本提示词直接出 GIF（非六宫格外挂合成）",
+      "original_prompt": "使用这个角色，生成一张GIF图，内容是她吃大白米饭，图片里有文字：真香！",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWU8ujEbsAEYOxw.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWU8ujEbsAEYOxw.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 508,
+          "height": 508,
+          "duration_ms": null,
+          "media_key": "16_2118165970133168129",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWU8w0Wa8AAb9LS.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1448,
+          "height": 1086,
+          "duration_ms": null,
+          "media_key": "3_2118166009131757568",
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWU8w0Wa8AAb9LS.jpg"
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链，公开可访问≠授权",
+      "metrics": {
+        "likes": 139,
+        "bookmarks": 70,
+        "impressions": 17976,
+        "replies": 34,
+        "reposts": 4
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWU8ujEbsAEYOxw.mp4",
+      "thread_group_id": null,
+      "notes": "高互动中文案例；媒体类型 API 标为 animated_gif。内容未人工逐帧观看，建议入库前观看核实。"
+    },
+    {
+      "id": "x-op7418-fatfish-pack",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/op7418/status/2118181775688241456",
+      "post_id": "2118181775688241456",
+      "author": {
+        "username": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "followers": 186552
+      },
+      "created_at_utc": "2026-11-05T03:21:03.000Z",
+      "created_at_beijing": "2026-11-05 11:21:03",
+      "play_summary": "大肥鱼角色参考图 + 结构化模板批量出循环 GIF 表情包（主题可填空）",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT-image-2.6 今天发布了，主要的新特性就是能够直接生成 GIF 动图了。…我在 Codex 里用 Codex 说调不了 2.6…然后在 GPT 里做的。",
+        "evidence_links": [
+          "https://x.com/op7418/status/2118181775688241456",
+          "https://x.com/op7418/status/2118181972451438662"
+        ]
+      },
+      "workflow": "ChatGPT（非 Codex）上传大肥鱼参考图 → 套模板提示词填「表情包主题」→ 直接出可下载 GIF",
+      "original_prompt": "请以我上传的大肥鱼图片为角色和画风参考，根据最后一行的「表情包主题」，直接制作一张可下载的动态 GIF 表情包。\n\n【角色保持一致】\n保留参考图中的蓝色渐变长发、呆毛、鲸鱼耳鳍、蓝色蝴蝶结、白色女仆头饰、蓝白女仆裙和大鲸鱼尾巴。\n保持原图的大头小身体 Q 版比例、圆脸和可爱画风，人物外观在所有帧中保持一致。\n\n【自动设计动作】\n理解我想表达的情绪或梗，将它设计成一个简单、有趣、一眼能看懂的短动作。\n突出一个核心笑点，用夸张表情、动作反差和轻微的压缩回弹增加喜感。头发、呆毛、耳鳍和尾巴自然跟随动作。\n根据主题添加必要的少量道具，保持画面简洁。\n主动设计首尾衔接，让动画能够自然循环播放。\n\n【自动配字】\n根据主题提炼一句简短、有网感的中文配字，优先控制在 2～8 个字。\n如果主题中用引号指定了台词，直接使用该台词。\n字幕放在顶部，使用粗圆体、深蓝字、白色描边；文字、字形和位置全程稳定，角色与道具不遮挡字幕。\n\n【画面与输出】\n正方形画面，纯白背景，固定镜头，主体居中并保留足够边距。\n动画约 2～3 秒，无限循环，动作清晰，适合聊天时作为表情包发送。\n最终交付实际会播放的多帧 GIF 文件，并提供下载。\n\n表情包主题：【在这里填一句话，描述你想表达的梗、情绪或动作】",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVKFMFboAApgRC.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVKFMFboAApgRC.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 414,
+          "height": 408,
+          "duration_ms": null,
+          "media_key": "16_2118180652751495168",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVKFMMbIAA4Geo.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVKFMMbIAA4Geo.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 306,
+          "height": 308,
+          "duration_ms": null,
+          "media_key": "16_2118180652780822528",
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVKFMIb0AA2teV.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVKFMIb0AA2teV.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 358,
+          "height": 352,
+          "duration_ms": null,
+          "media_key": "16_2118180652764090368",
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVKFMHawAEA-lR.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVKFMHawAEA-lR.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 308,
+          "height": 304,
+          "duration_ms": null,
+          "media_key": "16_2118180652759826433",
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWVLQtIbQAA3Tsr.jpg",
+        "https://pbs.twimg.com/media/HWVLQtDbIAAvaGI.jpg"
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；参考图为角色立绘，仅记外链",
+      "metrics": {
+        "likes": 130,
+        "bookmarks": 77,
+        "impressions": 21807,
+        "replies": 88,
+        "quotes": 7,
+        "reposts": 6
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWVKFMFboAApgRC.mp4",
+        "https://video.twimg.com/tweet_video/HWVKFMMbIAA4Geo.mp4",
+        "https://video.twimg.com/tweet_video/HWVKFMIb0AA2teV.mp4",
+        "https://video.twimg.com/tweet_video/HWVKFMHawAEA-lR.mp4"
+      ],
+      "thread_group_id": "op7418-fatfish",
+      "notes": "原文完整提示词在 note_tweet。路飞后续发了简化变体（0xluffy_eth/2118235547454083357），与本帖同源模板族，本条记归藏原帖。 计 1 案例（4 条 animated_gif 附件）。归藏会话回复已翻 3 页约 75 条；新增一手演示仅 iskunzhenbai（列入待核实衍生）。提示词公开分享≠再用许可。"
+    },
+    {
+      "id": "x-abc123-static-to-gif",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/abc123953468547/status/2118188053793837265",
+      "post_id": "2118188053793837265",
+      "author": {
+        "username": "abc123953468547",
+        "name": "A1terE&o",
+        "followers": 3064
+      },
+      "created_at_utc": "2026-11-05T03:46:00.000Z",
+      "created_at_beijing": "2026-11-05 11:46:00",
+      "play_summary": "上传静态表情包原图，一句话做成无限循环 GIF，强调角色一致性",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "刚发布的 GPT-image-2.6 真牛逼！！我只用了一句话，就让它把一张静态图片变成了 GIF 动图",
+        "evidence_links": [
+          "https://x.com/abc123953468547/status/2118188053793837265",
+          "https://x.com/abc123953468547/status/2118188187193634981"
+        ]
+      },
+      "workflow": "上传原图 → 粘贴循环动画提示词 → 直接出 GIF（作者称无需拆帧外挂合成）",
+      "original_prompt": "请把这张图片制作成一个可以无限循环播放的 GIF 动态表情包。严格保持原图角色的外貌、服装、配色、画风和构图一致，不要改变角色身份和原有文字。根据角色的表情和动作，自然设计眨眼、摇头、身体晃动、尾巴摆动等可爱的小动作，让画面生动有趣、有表情包的喜感。动画要流畅，首尾自然衔接，适合循环播放。",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVQJEiaUAAY0Cm.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVQJEiaUAAY0Cm.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 358,
+          "height": 538,
+          "duration_ms": null,
+          "media_key": "16_2118187316514803712",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWVQMD8bQAELZDi.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1260,
+          "height": 1177,
+          "duration_ms": null,
+          "media_key": "3_2118187367895089153",
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWVQMD8bQAELZDi.jpg"
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权",
+      "metrics": {
+        "likes": 3,
+        "impressions": 674,
+        "replies": 3
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWVQJEiaUAAY0Cm.mp4",
+      "thread_group_id": null,
+      "notes": "完整提示词在同会话回复帖 note_tweet"
+    },
+    {
+      "id": "x-thinkszyg-paperboat-verify",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/thinkszyg/status/2118166234495947044",
+      "post_id": "2118166234495947044",
+      "author": {
+        "username": "thinkszyg",
+        "name": "爆裂队长NEXT",
+        "followers": 2272
+      },
+      "created_at_utc": "2026-11-05T02:19:18.000Z",
+      "created_at_beijing": "2026-11-05 10:19:18",
+      "play_summary": "用纸船循环 GIF 验证账号是否已推送 Images 2.6；并附六宫格 sprite sheet 提示词模板",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "ChatGPT 上了 Images 2.6…GIF 是 2.6 才有的能力，老版本只会给你一张静态图。",
+        "evidence_links": [
+          "https://x.com/thinkszyg/status/2118166234495947044"
+        ]
+      },
+      "workflow": "复制测试句直接要 GIF；另提供「六宫格分镜」提示词模板（作者说明是从官方示例拆出）——注意六宫格本身是静图工作流，需另合成才成动图，与原生 GIF 直出要区分。",
+      "original_prompt": "Make a looping GIF of a paper boat bobbing on the water.",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWU88jtaEAAQpmr.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWU88jtaEAAQpmr.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 412,
+          "height": 402,
+          "duration_ms": null,
+          "media_key": "16_2118166210823196672",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权",
+      "metrics": {
+        "likes": 2,
+        "impressions": 503
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWU88jtaEAAQpmr.mp4",
+      "thread_group_id": null,
+      "notes": "测试句与仓库/社区常见官方示例句相近；六宫格模板与路飞「六帧再合成」玩法同族，需在入库时标注 workflow 差异。"
+    },
+    {
+      "id": "x-gdb-images26-gif",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/gdb/status/2118174986544488876",
+      "post_id": "2118174986544488876",
+      "author": {
+        "username": "gdb",
+        "name": "Greg Brockman",
+        "followers": 1086450
+      },
+      "created_at_utc": "2026-11-05T02:54:05.000Z",
+      "created_at_beijing": "2026-11-05 10:54:05",
+      "play_summary": "OpenAI 联合创始人展示 Images 2.6 GIF 演示",
+      "model_claim": {
+        "level": "author_identity_openai_cofounder_self_claim",
+        "quote": "chatgpt images 2.6 is here!",
+        "evidence_links": [
+          "https://x.com/gdb/status/2118174986544488876",
+          "https://x.com/OpenAI/status/2118124944928432327"
+        ],
+        "evidence_reality": "证据仅为：OpenAI 联合创始人身份账号发帖自称 Images 2.6 + 附件 platform_media_type=animated_gif 且 HEAD 为 video/mp4。这不等于官方技术确认/官方发布工程核验；官方产品发布帖另见 OpenAI 账号。未观看内容，未取得 .gif 源文件。"
+      },
+      "workflow": "官方相关人物演示；帖内未公开具体提示词",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWUiUo6aQAABNzM.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWUiUo6aQAABNzM.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 478,
+          "height": 356,
+          "duration_ms": null,
+          "media_key": "16_2118136937722822656",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无再分发授权；官方人物帖仍受版权约束",
+      "metrics": {
+        "likes": 695,
+        "bookmarks": 38,
+        "impressions": 51948,
+        "replies": 109,
+        "quotes": 11,
+        "reposts": 23
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWUiUo6aQAABNzM.mp4",
+      "thread_group_id": null,
+      "notes": "gdb 身份≠官方技术确认。保留作者明确声称 2.6 + 媒体元数据已核；视觉内容 unwatched。"
+    },
+    {
+      "id": "x-moltikuji-oc-eyebrow",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/moltikuji/status/2118187059102027921",
+      "post_id": "2118187059102027921",
+      "author": {
+        "username": "moltikuji",
+        "name": "もる@ポケカ・フロム",
+        "followers": 1010
+      },
+      "created_at_utc": "2026-11-05T03:42:03.000Z",
+      "created_at_beijing": "2026-11-05 11:42:03",
+      "play_summary": "日文：用 Images 2.6 把自家角色做成 GIF，反馈眉毛一致性问题",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "昨日出たChatGPT Images 2.6（GPT Image 2.6）の新機能、GIF生成でうちの子を動かしてみた",
+        "evidence_links": [
+          "https://x.com/moltikuji/status/2118187059102027921"
+        ]
+      },
+      "workflow": "参考自家角色 → ChatGPT Images 2.6 出 GIF；作者吐槽眉毛变形",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVPUCAa8AA7A6H.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVPUCAa8AA7A6H.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 436,
+          "height": 438,
+          "duration_ms": null,
+          "media_key": "16_2118186405302300672",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权；角色可能涉及作者 OC 权利",
+      "metrics": {
+        "likes": 16,
+        "impressions": 743
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWVPUCAa8AA7A6H.mp4",
+      "thread_group_id": null,
+      "notes": "日文圈少有的一手 OC 实测；无公开 prompt"
+    },
+    {
+      "id": "x-heycesr-photo-animate",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/heycesr/status/2118391412639371290",
+      "post_id": "2118391412639371290",
+      "author": {
+        "username": "heycesr",
+        "name": "cesar.wtf",
+        "followers": 2533
+      },
+      "created_at_utc": "2026-11-05T17:14:05.000Z",
+      "created_at_beijing": "2026-11-06 01:14:05",
+      "play_summary": "真实照片（左）→ GPT Image 2.6 动画化（右），经 @tryidem 调用",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "i've been testing the new gpt image 2.6 to generate gifs… left original… right gpt image 2.6… already available in @tryidem",
+        "evidence_links": [
+          "https://x.com/heycesr/status/2118391412639371290"
+        ]
+      },
+      "workflow": "上传源照片 → 要求 animate/GIF；作者称通过 Idem 产品调用，非必然 ChatGPT UI",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWYGjFTXkAA0vi3.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1536,
+          "height": 2048,
+          "duration_ms": null,
+          "media_key": "3_2118387874512998400",
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWYGjynXoAAuleE.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWYGjynXoAAuleE.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 512,
+          "height": 512,
+          "duration_ms": null,
+          "media_key": "16_2118387886676484096",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWYGjFTXkAA0vi3.jpg"
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权；含真人照片，肖像权敏感",
+      "metrics": {
+        "likes": 3,
+        "impressions": 159
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWYGjynXoAAuleE.mp4",
+      "thread_group_id": null,
+      "notes": "通道为第三方 Idem，模型名作者宣称 2.6，非官方 UI 截图核验"
+    },
+    {
+      "id": "x-kqyno7-frieren",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/kqyno7/status/2118160063835815981",
+      "post_id": "2118160063835815981",
+      "author": {
+        "username": "kqyno7",
+        "name": "Kai",
+        "followers": 881
+      },
+      "created_at_utc": "2026-11-05T01:54:47.000Z",
+      "created_at_beijing": "2026-11-05 09:54:47",
+      "play_summary": "用芙莉莲角色试原生 GIF，作者称表情动作自然",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6 上线，支持 GIF 生成…刚拿芙莉莲试了一下",
+        "evidence_links": [
+          "https://x.com/kqyno7/status/2118160063835815981"
+        ]
+      },
+      "workflow": "ChatGPT Images 2.6 直接出循环动画",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWU3Rt_b0AAPfGQ.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWU3Rt_b0AAPfGQ.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 476,
+          "height": 356,
+          "duration_ms": null,
+          "media_key": "16_2118159977290649600",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权；角色可能涉及第三方 IP（芙莉莲）",
+      "metrics": {
+        "likes": 5,
+        "impressions": 308
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWU3Rt_b0AAPfGQ.mp4",
+      "thread_group_id": null,
+      "notes": "第三方角色 IP 风险高，入库需谨慎标注"
+    },
+    {
+      "id": "x-adam-7plays-thread",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/Adam38363368936/status/2118269020369817856",
+      "post_id": "2118269020369817856",
+      "author": {
+        "username": "Adam38363368936",
+        "name": "Adam也叫吉米",
+        "followers": 18822
+      },
+      "created_at_utc": "2026-11-05T09:07:44.000Z",
+      "created_at_beijing": "2026-11-05 17:07:44",
+      "play_summary": "七玩法串：真人动态表情、物理科普、产品展示、操作教程、天文动画、商业图表、打工人情绪包；每条附结果 GIF",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "全网最全！GPT Image 2.6 的 GIF 功能实用玩法…附完整提示词",
+        "evidence_links": [
+          "https://x.com/Adam38363368936/status/2118269020369817856"
+        ]
+      },
+      "workflow": "作者称上传静态图做各类动态；各子帖写「提示词：」但公开文本未给出可复制全文，媒体多为结果 animated_gif（疑似提示词落在图内或省略）",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWYz8pbkAAmXN3.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWYz8pbkAAmXN3.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWZIRnacAA2APj.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZIRnacAA2APj.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWZVnbbUAAQK-T.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZVnbbUAAQK-T.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWZinRaUAAH8Rc.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZinRaUAAH8Rc.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWZq10acAASZiK.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZq10acAASZiK.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWZ0T0bkAAnH7M.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWZ0T0bkAAnH7M.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWaLvqbwAASsEN.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWaLvqbwAASsEN.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权；子帖各有 animated_gif 外链",
+      "metrics": {
+        "likes": 47,
+        "bookmarks": 67,
+        "impressions": 5710,
+        "reposts": 5
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWWYz8pbkAAmXN3.mp4",
+        "https://video.twimg.com/tweet_video/HWWZIRnacAA2APj.mp4",
+        "https://video.twimg.com/tweet_video/HWWZVnbbUAAQK-T.mp4",
+        "https://video.twimg.com/tweet_video/HWWZinRaUAAH8Rc.mp4",
+        "https://video.twimg.com/tweet_video/HWWZq10acAASZiK.mp4",
+        "https://video.twimg.com/tweet_video/HWWZ0T0bkAAnH7M.mp4",
+        "https://video.twimg.com/tweet_video/HWWaLvqbwAASsEN.mp4"
+      ],
+      "thread_group_id": "adam-7plays",
+      "notes": "计为 1 个案例/线程组（7 条结果 GIF），不是 7 个玩法。对已有 tweet_video_thumb 做 Read/OCR：均为结果帧（含写实人像等），未见可复制提示词正文；帖文「提示词：」后公开文本为空/省略。未扩大下载。全部 unwatched。"
+    },
+    {
+      "id": "x-zone-nonsticker-plays",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/zone__online/status/2118264293678608774",
+      "post_id": "2118264293678608774",
+      "author": {
+        "username": "zone__online",
+        "name": "SleepyZone",
+        "followers": 1333
+      },
+      "created_at_utc": "2026-11-05T08:48:57.000Z",
+      "created_at_beijing": "2026-11-05 16:48:57",
+      "play_summary": "非表情包向：舞蹈拆解、历史科普、像素动作、角色变身",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6已经支持生成动图啦…挖到了不一样的玩法",
+        "evidence_links": [
+          "https://x.com/zone__online/status/2118264293678608774"
+        ]
+      },
+      "workflow": "作者线程展示四类玩法 GIF；无公开完整提示词",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWWIl7a4AEPien.mp4",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWWvuSaoAACmj4.mp4",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWX9P6bIAA0_Jk.mp4",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWYJUiasAAhO2Q.mp4",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权",
+      "metrics": {
+        "likes": 2,
+        "impressions": 395
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWWWIl7a4AEPien.mp4",
+        "https://video.twimg.com/tweet_video/HWWWvuSaoAACmj4.mp4",
+        "https://video.twimg.com/tweet_video/HWWX9P6bIAA0_Jk.mp4",
+        "https://video.twimg.com/tweet_video/HWWYJUiasAAhO2Q.mp4"
+      ],
+      "thread_group_id": "zone-nonsticker",
+      "notes": "玩法多样但缺原文 prompt 计 1 案例/线程组。"
+    },
+    {
+      "id": "x-meow2149-ai-girl-stickers",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/meow2149/status/2118254460187373747",
+      "post_id": "2118254460187373747",
+      "author": {
+        "username": "meow2149",
+        "name": "meow",
+        "followers": 488
+      },
+      "created_at_utc": "2026-11-05T08:09:53.000Z",
+      "created_at_beijing": "2026-11-05 16:09:53",
+      "play_summary": "AI 娘四连循环表情包 GIF",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6 这次真的有点东西！以后做 AI 娘表情包，真是越来越简单了。",
+        "evidence_links": [
+          "https://x.com/meow2149/status/2118254460187373747"
+        ]
+      },
+      "workflow": "作者宣称 2.6 出表情包；无公开 prompt",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWM00FaQAA33wL.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWM00FaQAA33wL.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "16_2118254038710108160",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWM2DCagAAHHqQ.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWM2DCagAAHHqQ.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "16_2118254059903942656",
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWM3QjaEAAOKYy.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWM3QjaEAAOKYy.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "16_2118254080711856128",
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWM4nYaQAAoauT.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWM4nYaQAAoauT.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "16_2118254104019615744",
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权",
+      "metrics": {
+        "likes": 6,
+        "impressions": 406
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWWM00FaQAA33wL.mp4",
+        "https://video.twimg.com/tweet_video/HWWM2DCagAAHHqQ.mp4",
+        "https://video.twimg.com/tweet_video/HWWM3QjaEAAOKYy.mp4",
+        "https://video.twimg.com/tweet_video/HWWM4nYaQAAoauT.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": " 计 1 案例（多附件）。"
+    },
+    {
+      "id": "x-vm3jp6u04-schnauzer",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/vm3jp6u04/status/2118390692347363396",
+      "post_id": "2118390692347363396",
+      "author": {
+        "username": "vm3jp6u04",
+        "name": "許文彥",
+        "followers": 140
+      },
+      "created_at_utc": "2026-11-05T17:11:13.000Z",
+      "created_at_beijing": "2026-11-06 01:11:13",
+      "play_summary": "雪纳瑞狗 GIF + Images 2.6 四步用法说明",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "ChatGPT can now make animated GIFs. New in Images 2.6… I made this schnauzer with it.",
+        "evidence_links": [
+          "https://x.com/vm3jp6u04/status/2118390692347363396"
+        ]
+      },
+      "workflow": "要 looping GIF 或上传静图 animate；无具体 prompt 原文",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWYJBTeaoAAIzOh.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWYJBTeaoAAIzOh.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 766,
+          "height": 510,
+          "duration_ms": null,
+          "media_key": "16_2118390592736763904",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权",
+      "metrics": {
+        "likes": 0,
+        "impressions": 20
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWYJBTeaoAAIzOh.mp4",
+      "thread_group_id": null,
+      "notes": ""
+    },
+    {
+      "id": "x-seaart-doodle-gif",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/SeaArt_Ai/status/2118267088284659733",
+      "post_id": "2118267088284659733",
+      "author": {
+        "username": "SeaArt_Ai",
+        "name": "SeaArt.Ai🐋",
+        "followers": 18291
+      },
+      "created_at_utc": "2026-11-05T09:00:04.000Z",
+      "created_at_beijing": "2026-11-05 17:00:04",
+      "play_summary": "涂鸦草图 → 循环 GIF；宣称可用提示词控制时长",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6 turned this doodle into a looping GIF… You can even control the GIF's duration with a simple prompt!",
+        "evidence_links": [
+          "https://x.com/SeaArt_Ai/status/2118267088284659733"
+        ]
+      },
+      "workflow": "草图参考 → 2.6 出 looping GIF；媒体为 video 演示卷轴，非单纯 tweet animated_gif",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2118266038517374976/vid/avc1/1170x810/kP73oMAyf72qjd9n.mp4",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118266038517374976/img/b4RNoOeiyyqz5HMv.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1170,
+          "height": 810,
+          "duration_ms": 6083,
+          "media_key": "13_2118266038517374976",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权；平台账号可能混入自家产品演示",
+      "metrics": {
+        "likes": 17,
+        "impressions": 914
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/amplify_video/2118266038517374976/vid/avc1/1170x810/kP73oMAyf72qjd9n.mp4",
+      "thread_group_id": null,
+      "notes": "视频元数据可证有动态画面，但未观看；可能含 UI/宣传包装"
+    },
+    {
+      "id": "x-xulijian-avatar-stickers",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/xulijian1994/status/2118193018167828815",
+      "post_id": "2118193018167828815",
+      "author": {
+        "username": "xulijian1994",
+        "name": "Kxians",
+        "followers": 3818
+      },
+      "created_at_utc": "2026-11-05T04:05:44.000Z",
+      "created_at_beijing": "2026-11-05 12:05:44",
+      "play_summary": "X 头像 → Q 版动态表情包两则",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT-Image-2.6 现在可以直接生成 GIF 动图了…我直接把 X 头像丢给 ChatGPT",
+        "evidence_links": [
+          "https://x.com/xulijian1994/status/2118193018167828815"
+        ]
+      },
+      "workflow": "上传头像参考 → ChatGPT 出带文字动作的 Q 版 GIF",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVVTN4bIAEBnZY.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVVTN4bIAEBnZY.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "16_2118192988379881473",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVVUFnakAAV8xw.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVVUFnakAAV8xw.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "16_2118193003340926976",
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权；含作者肖像衍生",
+      "metrics": {
+        "likes": 3,
+        "impressions": 700
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWVVTN4bIAEBnZY.mp4",
+        "https://video.twimg.com/tweet_video/HWVVUFnakAAV8xw.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": ""
+    },
+    {
+      "id": "x-plasm0-animated-gif",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/plasm0/status/2118177268870562241",
+      "post_id": "2118177268870562241",
+      "author": {
+        "username": "plasm0",
+        "name": "ρŁ𝐀𝔰Ｍʘ",
+        "followers": 7061
+      },
+      "created_at_utc": "2026-11-05T03:03:09.000Z",
+      "created_at_beijing": "2026-11-05 11:03:09",
+      "play_summary": "简短标注「GPT Image 2.6 animated GIF」+ 引用官方帖",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6 animated GIF",
+        "evidence_links": [
+          "https://x.com/plasm0/status/2118177268870562241"
+        ]
+      },
+      "workflow": "未知细节",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVG5O_XoAEdP3E.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVG5O_XoAEdP3E.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "16_2118177148838060033",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权",
+      "metrics": {
+        "likes": 10,
+        "impressions": 492
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWVG5O_XoAEdP3E.mp4",
+      "thread_group_id": null,
+      "notes": ""
+    },
+    {
+      "id": "x-newsasart-claim-gif",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/NewsAsArt/status/2118236954383028693",
+      "post_id": "2118236954383028693",
+      "author": {
+        "username": "NewsAsArt",
+        "name": "News As Cartoon",
+        "followers": 17
+      },
+      "created_at_utc": "2026-11-05T07:00:19.000Z",
+      "created_at_beijing": "2026-11-05 15:00:19",
+      "play_summary": "新闻卡风格帖，作者声称附件 GIF 由 Image 2.6 制作",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "And the gif attached is of course made by Image 2.6",
+        "evidence_links": [
+          "https://x.com/NewsAsArt/status/2118236954383028693"
+        ]
+      },
+      "workflow": "未知",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWV9Q6gbgAA8xyY.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWV9Q6gbgAA8xyY.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1080,
+          "height": 1080,
+          "duration_ms": null,
+          "media_key": "16_2118236929284341760",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无授权",
+      "metrics": {
+        "likes": 0,
+        "impressions": 41
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/tweet_video/HWV9Q6gbgAA8xyY.mp4",
+      "thread_group_id": null,
+      "notes": "账号体量小，可信度一般但仍有明确声明"
+    },
+    {
+      "id": "x-miramusic-stretch",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/MiraMusic_AI/status/2118168013618987298",
+      "post_id": "2118168013618987298",
+      "author": {
+        "username": "MiraMusic_AI",
+        "name": "MiraMusic",
+        "followers": 3142
+      },
+      "created_at_utc": "2026-11-05T02:26:22.000Z",
+      "created_at_beijing": "2026-11-05 10:26:22",
+      "play_summary": "日文：从零提示词生成「拉伸」循环 GIF，附风格约束",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPTimage2.6\n进化してるー！あと生成スピードが速い！",
+        "evidence_links": [
+          "https://x.com/MiraMusic_AI/status/2118168013618987298"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "ストレッチをしているGIFを製作してください。\n仕上げはフラットでクリーンに。\n複雑な微細テクスチャ、過剰な細密描写、粒状ノイズ、ザラつき、斜めグリッド状の模様なし",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWU-HlkagAEV0iO.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWU-HlkagAEV0iO.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 512,
+          "height": 512,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWU-kOfakAAFXuX.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1536,
+          "height": 1024,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWU-kOfakAAFXuX.jpg"
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWU-HlkagAEV0iO.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "日文带完整 prompt 的高价值案例；引用官方帖 全部 visual_review_status=unwatched。"
+    },
+    {
+      "id": "x-okan-aitool-wave-laugh",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/okan_aitool/status/2118201578406772887",
+      "post_id": "2118201578406772887",
+      "author": {
+        "username": "okan_aitool",
+        "name": "あゆ｜キャラパレ運営",
+        "followers": 462
+      },
+      "created_at_utc": "2026-11-05T04:39:45.000Z",
+      "created_at_beijing": "2026-11-05 12:39:45",
+      "play_summary": "日文：一图+超短提示词「このキャラをGIFで動かして。手を振って笑う」",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "＼ChatGPTのImage 2.6アプデ！！／ …プロンプトはたったこれだけ",
+        "evidence_links": [
+          "https://x.com/okan_aitool/status/2118201578406772887"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "このキャラをGIFで動かして。手を振って笑う",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVdGeda4AAyrwo.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVdGeda4AAyrwo.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 418,
+          "height": 418,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWVdGeSasAAGxQm.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1254,
+          "height": 1254,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWVdGeWacAAddnm.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1030,
+          "height": 2048,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWVdGeSasAAGxQm.jpg"
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWVdGeda4AAyrwo.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "最短日文 prompt 示范；引用官方 全部 visual_review_status=unwatched。"
+    },
+    {
+      "id": "x-mirai-ai2050-frame-test",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/mirai_ai2050/status/2118213713761292432",
+      "post_id": "2118213713761292432",
+      "author": {
+        "username": "mirai_ai2050",
+        "name": "藍澤 ミライ",
+        "followers": 4083
+      },
+      "created_at_utc": "2026-11-05T05:27:58.000Z",
+      "created_at_beijing": "2026-11-05 13:27:58",
+      "play_summary": "日文：同角色测 16/32 帧与尺寸；完整规格化 prompt 在评论",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "今日から使えるようになったGPT Image 2.6でGIFを作ってみたよ",
+        "evidence_links": [
+          "https://x.com/mirai_ai2050/status/2118213713761292432"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "添付画像を基準に、アニメーションGIFファイルを生成してください。\n\n【出力仕様】\n・各フレームの幅：288px\n・各フレームの高さ：512px\n・総フレーム数：16フレーム\n・各フレームの表示時間：200ミリ秒\n・合計再生時間：3.2秒\n・無限ループ\n・この寸法をGIFファイルそのもののピクセル寸法として使用する。表示上のサイズだけを変えたり、余白を追加して寸法を合わせたりしない。\n\n【映像内容】\n参考画像と同じミライ、同じ顔、短いボブ、衣装、秋の街並み、日差しを維持する。\n\n構図は胸から上。顔全体と頭の上が入り、右手に持った赤いモミジが胸元に見える。\nカメラ固定、ワンカット。\n\nミライがカメラを見ながら口元を少しほころばせ、一度だけ自然に瞬きをする。\n風でボブの毛先と背景の紅葉が少し揺れる。\n最後は最初の表情と姿勢へ戻り、自然につながるループにする。\n\n全フレームを同じ人物の連続動作として描く。\nフレームを単純に複製して枚数だけを増やさず、毛先や背景の葉の動きを時間に沿って少しずつ変える。\n顔立ちや衣装を途中で変更しない。\n\n静止画、分割画像、絵コンテではなく、動くGIFを出力する。\n字幕、文字、ロゴ、透かし、音楽なし。",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVoIMqasAAR_VS.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVoIMqasAAR_VS.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 216,
+          "height": 216,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVoI72bsAAOx_0.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVoI72bsAAOx_0.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 266,
+          "height": 358,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWVoIMqasAAR_VS.mp4",
+        "https://video.twimg.com/tweet_video/HWVoI72bsAAOx_0.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "帧数/尺寸实测反馈有价值；计 1 案例（2 附件）。prompt 来自同会话评论 2118213855100997785。作者观测：指定 288×512 未兑现，帧数↑则分辨率↓ 全部 visual_review_status=unwatched。"
+    },
+    {
+      "id": "x-nonieengel-reaction-set",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/nonieengel/status/2118382251226562570",
+      "post_id": "2118382251226562570",
+      "author": {
+        "username": "nonieengel",
+        "name": "Leonie Engel",
+        "followers": 5855
+      },
+      "created_at_utc": "2026-11-05T16:37:40.000Z",
+      "created_at_beijing": "2026-11-06 00:37:40",
+      "play_summary": "英文：角色照+风格参考 → 一套 10 个 reaction GIF；prompt 在回复（正文截断）",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "You can just upload one character photo + a style reference and get a set of 10 custom reaction GIFs… Sharing the prompt below.",
+        "evidence_links": [
+          "https://x.com/nonieengel/status/2118382251226562570"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "Create a coordinated set of 10 animated reaction GIFs featuring the main character in Image 1, using Image 2 as the visual style reference.\n\nHow to use the references\n\nImage 1 …\n（公开帖 note/正文在 Image 1 处截断；回复媒体两张为角色照与风格参考图，非提示词截图。完整条目列表未在 API 文本中完整返回。）",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWYBYc2agAAlsk4.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWYBYc2agAAlsk4.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1280,
+          "height": 512,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWYBcWraoAADuRf.jpg",
+        "https://pbs.twimg.com/media/HWYBcWgakAArgCm.jpg"
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWYBYc2agAAlsk4.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "高价值 reaction 套装玩法；主帖展示拼贴 GIF。prompt 文本不完整（API 截断）。参考图已 Read：人物照 + Ilya 风格参考，不是 OCR 提示词图。未观看动图。 全部 visual_review_status=unwatched。"
+    },
+    {
+      "id": "x-ihayato-markup-gif",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/IHayato/status/2118151619212890291",
+      "post_id": "2118151619212890291",
+      "author": {
+        "username": "IHayato",
+        "name": "イケハヤ",
+        "followers": 488468
+      },
+      "created_at_utc": "2026-11-05T01:21:14.000Z",
+      "created_at_beijing": "2026-11-05 09:21:14",
+      "play_summary": "日文高互动：标记编辑演示 + 角色「まばたきして、ふわっと揺れて」GIF",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6が出たので、さっそく試してみました。",
+        "evidence_links": [
+          "https://x.com/IHayato/status/2118151619212890291"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "まばたきして、ふわっと揺れて",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWUvnunaQAA2gbE.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1920,
+          "height": 1080,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWUvSfvaIAAm0Br.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWUvSfvaIAAm0Br.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 512,
+          "height": 768,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWUvUwNaYAAI8Dy.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1536,
+          "height": 864,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWUvSfvaIAAm0Br.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "高粉日文作者；GIF 提示词短句在 note_tweet；另有标记编辑玩法。计 1 案例。 全部 visual_review_status=unwatched。"
+    },
+    {
+      "id": "x-dokken-guitar",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/dokken92047824/status/2118293666456559762",
+      "post_id": "2118293666456559762",
+      "author": {
+        "username": "dokken92047824",
+        "name": "HeartlessCat",
+        "followers": 7232
+      },
+      "created_at_utc": "2026-11-05T10:45:40.000Z",
+      "created_at_beijing": "2026-11-05 18:45:40",
+      "play_summary": "日文：附图+超短「アコギを弾く男性」出吉他手 GIF",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "Open AIが…GPT Images 2.6を発表し、GIFアニメも作れるようになったので、早速作ってみた",
+        "evidence_links": [
+          "https://x.com/dokken92047824/status/2118293666456559762"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "アコギを弾く男性",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWwY2Za4AAY-ud.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWwY2Za4AAY-ud.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 552,
+          "height": 308,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWWwY2Za4AAY-ud.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "短 prompt 写真风；未观看 全部 visual_review_status=unwatched。"
+    },
+    {
+      "id": "x-supertask-arch-timelapse",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/supertask_jp/status/2118241124133532077",
+      "post_id": "2118241124133532077",
+      "author": {
+        "username": "supertask_jp",
+        "name": "Tasuku Takahashi",
+        "followers": 786
+      },
+      "created_at_utc": "2026-11-05T07:16:53.000Z",
+      "created_at_beijing": "2026-11-05 15:16:53",
+      "play_summary": "日文：建筑效果图 → 日没时光流逝 GIF",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6で建築パースの日没タイムラプスを作ってみた。",
+        "evidence_links": [
+          "https://x.com/supertask_jp/status/2118241124133532077"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "タイムラプスでゆっくり日が変わるような感じのGIFにして",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWWBDHebsAAhSPa.jpg",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1536,
+          "height": 1024,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWBD7GagAA0Hvu.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWBD7GagAA0Hvu.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 506,
+          "height": 336,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [
+        "https://pbs.twimg.com/media/HWWBDHebsAAhSPa.jpg"
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWWBD7GagAA0Hvu.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "非表情包、建筑可视化玩法；有价值多样性 全部 visual_review_status=unwatched。"
+    },
+    {
+      "id": "x-xepher113-oc12",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/xepher113/status/2118177063727411603",
+      "post_id": "2118177063727411603",
+      "author": {
+        "username": "xepher113",
+        "name": "ふぁーねりあん",
+        "followers": 616
+      },
+      "created_at_utc": "2026-11-05T03:02:20.000Z",
+      "created_at_beijing": "2026-11-05 11:02:20",
+      "play_summary": "日文 OC：称约 12 帧，借用他人角色图",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "チャッピーのgif生成試してみた\nこれは12コマくらい？",
+        "evidence_links": [
+          "https://x.com/xepher113/status/2118177063727411603"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVGPriacAAE8cI.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVGPriacAAE8cI.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 358,
+          "height": 356,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWVGPriacAAE8cI.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "无公开 prompt；角色图借用声明。未观看 全部 visual_review_status=unwatched。"
+    },
+    {
+      "id": "x-yulikay-toast",
+      "category": "author_claim_media_meta_checked",
+      "post_url": "https://x.com/yulikay/status/2118322092709994503",
+      "post_id": "2118322092709994503",
+      "author": {
+        "username": "yulikay",
+        "name": "Yuli Kay",
+        "followers": 18960
+      },
+      "created_at_utc": "2026-11-05T12:38:38.000Z",
+      "created_at_beijing": "2026-11-05 20:38:38",
+      "play_summary": "「GPT Images 2.6 is here + GIFs」附 animated_gif",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Images 2.6 is here 🥂\n\n+ GIFs",
+        "evidence_links": [
+          "https://x.com/yulikay/status/2118322092709994503"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWXJ5_TWsAAozLT.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWXJ5_TWsAAozLT.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 414,
+          "height": 414,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWXJ5_TWsAAozLT.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "无 prompt；高粉展示帖 全部 visual_review_status=unwatched。"
+    }
+  ],
+  "pending_verification": [
+    {
+      "id": "x-chaoranya-orange-cat",
+      "category": "pending_verification",
+      "post_url": "https://x.com/chaoranya/status/2118391093633159437",
+      "post_id": "2118391093633159437",
+      "author": {
+        "username": "chaoranya",
+        "name": "超然",
+        "followers": 0
+      },
+      "created_at_utc": "2026-11-05T17:12:49.000Z",
+      "created_at_beijing": "2026-11-06 01:12:49",
+      "play_summary": "一句话橘猫打招呼循环 GIF；含参考宠物照与九宫格再挑格做 GIF 的教程流程",
+      "model_claim": {
+        "level": "author_explicit_but_unreproduced",
+        "quote": "GPT Image 2.6｜一句话，把橘猫做成动态表情包",
+        "evidence_links": [
+          "https://x.com/chaoranya/status/2118391093633159437"
+        ]
+      },
+      "workflow": "ChatGPT 创建图像直接出 GIF；可选上传参考图；另述先六表情宫格再挑一格做 GIF。作者声明『示例与操作截图由 Grok 整理提供；本帖核对了 GIF 文件，未复测生成过程』——模型产出链需谨慎对待。",
+      "original_prompt": "做一个循环 GIF 表情包：一只圆滚滚的橘猫举起爪子打招呼，眨一下眼。9 帧，每帧 120 毫秒，正方形，纯白背景，不要文字。",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2118391079322185728/vid/avc1/412x412/absMXH64ALixA_yX.mp4",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118391079322185728/img/pKtB4fyGumf1Cks4.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 412,
+          "height": 412,
+          "duration_ms": 1080,
+          "media_key": "13_2118391079322185728",
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWYJdkGbYAABBpZ.png",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "3_2118391078235889664",
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWYJdj-asAAj8wT.png",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "3_2118391078202290176",
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWYJdkIbwAAV_TT.png",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": null,
+          "height": null,
+          "duration_ms": null,
+          "media_key": "3_2118391078244302848",
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {
+        "likes": 0,
+        "impressions": 17
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": "https://video.twimg.com/amplify_video/2118391079322185728/vid/avc1/412x412/absMXH64ALixA_yX.mp4",
+      "thread_group_id": null,
+      "notes": "作者明确写 GPT Image 2.6 与提示词，并自称核对 GIF 元数据；但声明示例/截图由 Grok 整理、未复测生成过程。媒体为 amplify video 非 animated_gif。全部未观看。降至待核实。"
+    },
+    {
+      "id": "x-batzdu-demo-gif",
+      "category": "pending_verification",
+      "post_url": "https://x.com/batzdu/status/2118142933924827638",
+      "post_id": "2118142933924827638",
+      "author": {
+        "username": "batzdu",
+        "name": "batzdu",
+        "followers": 46060
+      },
+      "created_at_utc": "2026-11-05T00:46:43.000Z",
+      "created_at_beijing": "2026-11-05 08:46:43",
+      "play_summary": "引用官方帖附 animated_gif，正文无字",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "（无正文，仅引用 OpenAI 发布帖）",
+        "evidence_links": [
+          "https://x.com/batzdu/status/2118142933924827638"
+        ]
+      },
+      "workflow": "未知",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWUnxHsWsAA_2Ar.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWUnxHsWsAA_2Ar.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 472,
+          "height": 358,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {
+        "likes": 110
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWUnxHsWsAA_2Ar.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "模型声明弱；可能为官方样例镜像；未观看"
+    },
+    {
+      "id": "x-aidan-clark-gif",
+      "category": "pending_verification",
+      "post_url": "https://x.com/_aidan_clark_/status/2118180063804105025",
+      "post_id": "2118180063804105025",
+      "author": {
+        "username": "_aidan_clark_",
+        "name": "Aidan Clark",
+        "followers": 18138
+      },
+      "created_at_utc": "2026-11-05T03:14:15.000Z",
+      "created_at_beijing": "2026-11-05 11:14:15",
+      "play_summary": "引用官方帖附 animated_gif，正文无字",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "（无正文，仅引用 OpenAI 发布帖）",
+        "evidence_links": [
+          "https://x.com/_aidan_clark_/status/2118180063804105025"
+        ]
+      },
+      "workflow": "未知",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWVJieRbsAEcDMY.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWVJieRbsAEcDMY.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 476,
+          "height": 350,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {
+        "likes": 24
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWVJieRbsAEcDMY.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "OpenAI 相关人士账号；正文无模型自述细节；未观看；身份≠技术确认"
+    },
+    {
+      "id": "x-andrew-mayne-checks-out",
+      "category": "pending_verification",
+      "post_url": "https://x.com/AndrewMayne/status/2118137348307485048",
+      "post_id": "2118137348307485048",
+      "author": {
+        "username": "AndrewMayne",
+        "name": "Andrew Mayne",
+        "followers": 676111
+      },
+      "created_at_utc": "2026-11-05T00:24:31.000Z",
+      "created_at_beijing": "2026-11-05 08:24:31",
+      "play_summary": "「Checks out…」+GIF 引用官方",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "Checks out…",
+        "evidence_links": [
+          "https://x.com/AndrewMayne/status/2118137348307485048"
+        ]
+      },
+      "workflow": "未知",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWUir6dXcAAKU3m.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWUir6dXcAAKU3m.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 414,
+          "height": 414,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {
+        "likes": 15
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWUir6dXcAAKU3m.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "前 OpenAI 相关；未观看"
+    },
+    {
+      "id": "x-bt21-ok-flask-light",
+      "category": "pending_verification",
+      "post_url": "https://x.com/bt21_ok/status/2118391303872639364",
+      "post_id": "2118391303872639364",
+      "author": {
+        "username": "bt21_ok",
+        "name": "애니는 과학이다 · 서보카인드 KR",
+        "followers": 635
+      },
+      "created_at_utc": "2026-11-05T17:13:39.000Z",
+      "created_at_beijing": "2026-11-06 01:13:39",
+      "play_summary": "韩文 OC 烧瓶发光 GIF；称约16帧/1.5秒",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "引用 OpenAI 发布帖；同线程另帖写 Images 2.6",
+        "evidence_links": [
+          "https://x.com/bt21_ok/status/2118391303872639364"
+        ]
+      },
+      "workflow": "自测短 GIF 作 Shorts 钩子",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWYJp9pa8AAan9l.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWYJp9pa8AAan9l.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 312,
+          "height": 298,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {
+        "likes": 0,
+        "impressions": 12
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWYJp9pa8AAan9l.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "韩文少有 OC；模型名在父帖更明确；未观看"
+    },
+    {
+      "id": "x-hackdeacon-test",
+      "category": "pending_verification",
+      "post_url": "https://x.com/hackdeacon/status/2118396692500537383",
+      "post_id": "2118396692500537383",
+      "author": {
+        "username": "hackdeacon",
+        "name": "黑衣执事",
+        "followers": 9831
+      },
+      "created_at_utc": "2026-11-05T17:35:04.000Z",
+      "created_at_beijing": "2026-11-06 01:35:04",
+      "play_summary": "「GPT Image 2.6 GIF 测试」+animated_gif",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "GPT Image 2.6 GIF 测试",
+        "evidence_links": [
+          "https://x.com/hackdeacon/status/2118396692500537383"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWYOhU8aoAEuxwK.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWYOhU8aoAEuxwK.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 432,
+          "height": 394,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWYOhU8aoAEuxwK.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "短测帖，无详细 prompt；未观看"
+    },
+    {
+      "id": "x-jiaojiaojio-fora",
+      "category": "pending_verification",
+      "post_url": "https://x.com/jiaojiaojio/status/2118391023911289212",
+      "post_id": "2118391023911289212",
+      "author": {
+        "username": "jiaojiaojio",
+        "name": "JIO JIO",
+        "followers": 21863
+      },
+      "created_at_utc": "2026-11-05T17:12:32.000Z",
+      "created_at_beijing": "2026-11-06 01:12:32",
+      "play_summary": "给 memecoin 角色 Fora 做 GIF",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "image 2.6更新啦 给fora做个gif",
+        "evidence_links": [
+          "https://x.com/jiaojiaojio/status/2118391023911289212"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWYJZVgbEAAsTjm.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWYJZVgbEAAsTjm.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 440,
+          "height": 440,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWYJZVgbEAAsTjm.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "玩法普通；未观看"
+    },
+    {
+      "id": "x-web30708-wechat-listing",
+      "category": "pending_verification",
+      "post_url": "https://x.com/web30708/status/2118338310649385317",
+      "post_id": "2118338310649385317",
+      "author": {
+        "username": "web30708",
+        "name": "HP",
+        "followers": 737
+      },
+      "created_at_utc": "2026-11-05T13:43:04.000Z",
+      "created_at_beijing": "2026-11-05 21:43:04",
+      "play_summary": "称用 2.6 做微信表情「猫会飞但不太会」；帖内仅商店截图静图",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "我用GPT Image 2.6 搓的 GIF 表情包图已经上架到微信表情包了",
+        "evidence_links": [
+          "https://x.com/web30708/status/2118338310649385317"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "photo",
+          "content_type": "image/jpeg",
+          "url": "https://pbs.twimg.com/media/HWXZAq0aoAE1A_A.png",
+          "preview_image_url": null,
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 890,
+          "height": 806,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": null,
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [],
+      "thread_group_id": null,
+      "notes": "帖内无真实可播 GIF；口述无需提示词——无法核验动图文件"
+    },
+    {
+      "id": "x-halozhangyu-fatfish-9",
+      "category": "pending_verification",
+      "post_url": "https://x.com/halozhangyu/status/2118327841410408546",
+      "post_id": "2118327841410408546",
+      "author": {
+        "username": "halozhangyu",
+        "name": "AI军火库",
+        "followers": 22
+      },
+      "created_at_utc": "2026-11-05T13:01:28.000Z",
+      "created_at_beijing": "2026-11-05 21:01:28",
+      "play_summary": "大肥鱼九表情包；中转站推广；疑似复用归藏玩法",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "GPT Image 2.6…丢张大肥鱼参考图，一句话，GIF 直出",
+        "evidence_links": [
+          "https://x.com/halozhangyu/status/2118327841410408546"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWXP5g1XoAAJeya.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWXP5g1XoAAJeya.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 412,
+          "height": 412,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWXP5goXoAAL6dn.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWXP5goXoAAL6dn.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 414,
+          "height": 406,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWXP5gzXUAAF_fZ.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWXP5gzXUAAF_fZ.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 414,
+          "height": 414,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWXP5f3XMAEPTFg.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWXP5f3XMAEPTFg.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 414,
+          "height": 400,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWXP5g1XoAAJeya.mp4",
+        "https://video.twimg.com/tweet_video/HWXP5goXoAAL6dn.mp4",
+        "https://video.twimg.com/tweet_video/HWXP5gzXUAAF_fZ.mp4",
+        "https://video.twimg.com/tweet_video/HWXP5f3XMAEPTFg.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "玩法与 op7418 重叠；含中转推广；计待核实，不另算独立高价值玩法"
+    },
+    {
+      "id": "x-youart-platform-video",
+      "category": "pending_verification",
+      "post_url": "https://x.com/YouArtStudio/status/2118391856799056265",
+      "post_id": "2118391856799056265",
+      "author": {
+        "username": "YouArtStudio",
+        "name": "YouArt",
+        "followers": 6371
+      },
+      "created_at_utc": "2026-11-05T17:15:51.000Z",
+      "created_at_beijing": "2026-11-06 01:15:51",
+      "play_summary": "第三方平台上线 2.6 GIF 产品宣传视频",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "GPT Image 2.6 is now on YouArt",
+        "evidence_links": [
+          "https://x.com/YouArtStudio/status/2118391856799056265"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/ext_tw_video/2118391816193978368/pu/vid/avc1/1280x720/u_4dyoMtfYhB6fUD.mp4?tag=12",
+          "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2118391816193978368/pu/img/oB7C6o1UYemorPLJ.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 1920,
+          "height": 1080,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/ext_tw_video/2118391816193978368/pu/vid/avc1/1280x720/u_4dyoMtfYhB6fUD.mp4?tag=12"
+      ],
+      "thread_group_id": null,
+      "notes": "产品宣传片，需观看区分模型输出与剪辑包装"
+    },
+    {
+      "id": "x-antseed-demo-video",
+      "category": "pending_verification",
+      "post_url": "https://x.com/AntSeed/status/2118396169336275186",
+      "post_id": "2118396169336275186",
+      "author": {
+        "username": "AntSeed",
+        "name": "Antseed",
+        "followers": 7296
+      },
+      "created_at_utc": "2026-11-05T17:32:59.000Z",
+      "created_at_beijing": "2026-11-06 01:32:59",
+      "play_summary": "短视频演示（约4.7s）引用官方帖",
+      "model_claim": {
+        "level": "author_explicit_or_weak",
+        "quote": "GPT Images 2.6 is here!",
+        "evidence_links": [
+          "https://x.com/AntSeed/status/2118396169336275186"
+        ]
+      },
+      "workflow": "",
+      "original_prompt": "",
+      "prompt_license": "",
+      "media": [
+        {
+          "platform_media_type": "video",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2118396129251311617/vid/avc1/600x336/hz3nPINwKQ8usrwo.mp4",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118396129251311617/img/YiviQ1LOHrxFmVNT.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 600,
+          "height": 336,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/amplify_video/2118396129251311617/vid/avc1/600x336/hz3nPINwKQ8usrwo.mp4"
+      ],
+      "thread_group_id": null,
+      "notes": "需观看；偏宣传"
+    },
+    {
+      "id": "x-iskunzhenbai-fatfish-reply",
+      "category": "pending_verification",
+      "post_url": "https://x.com/iskunzhenbai/status/2118239397766484445",
+      "post_id": "2118239397766484445",
+      "author": {
+        "username": "iskunzhenbai",
+        "name": "Isk真白",
+        "followers": 690
+      },
+      "created_at_utc": "2026-11-05T07:10:02.000Z",
+      "created_at_beijing": "2026-11-05 15:10:02",
+      "play_summary": "归藏大肥鱼帖回复：简单中文描述驱动呆毛/耳朵/眨眼，附 2 条 animated_gif",
+      "model_claim": {
+        "level": "inferred_from_reply_context",
+        "quote": "@op7418 我用了一个简单的描述尝试了做一下：根据图中角色做成动态图…",
+        "evidence_links": [
+          "https://x.com/iskunzhenbai/status/2118239397766484445",
+          "https://x.com/op7418/status/2118181775688241456"
+        ]
+      },
+      "workflow": "回复归藏帖；上传角色图 + 短中文动作描述",
+      "original_prompt": "根据图中角色做成动态图，要求头上呆毛摆动，耳朵上下晃动，眨眼睛",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWV_fleaYAAlsDP.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWV_fleaYAAlsDP.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 414,
+          "height": 414,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": 200,
+            "checked_at": "2026-11-06 02:05",
+            "method": "HEAD"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        },
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWV_flTaQAAkfsB.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWV_flTaQAAkfsB.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 508,
+          "height": 508,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发",
+      "metrics": {},
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": true,
+      "candidate_mp4_for_watch": [
+        "https://video.twimg.com/tweet_video/HWV_fleaYAAlsDP.mp4",
+        "https://video.twimg.com/tweet_video/HWV_flTaQAAkfsB.mp4"
+      ],
+      "thread_group_id": "op7418-fatfish",
+      "notes": "归藏线程分页发现的新增演示；与大肥鱼模板同源衍生，不另计独立高价值玩法；未观看"
+    }
+  ],
+  "prompt_only": [
+    {
+      "id": "x-neurofoxxx-prompt-reply",
+      "category": "prompt_only",
+      "post_url": "https://x.com/NeuroFoxxx/status/2118395253329657904",
+      "post_id": "2118395253329657904",
+      "author": {
+        "username": "NeuroFoxxx",
+        "name": "NeuroFoxxx",
+        "followers": 22
+      },
+      "created_at_utc": "2026-11-05T17:29:20.000Z",
+      "created_at_beijing": "2026-11-06 01:29:20",
+      "play_summary": "照片/草图 → 循环 GIF 的可复制英文提示词（回复贴）",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "Try this in ChatGPT Images 2.6:",
+        "evidence_links": [
+          "https://x.com/NeuroFoxxx/status/2118395253329657904",
+          "https://x.com/NeuroFoxxx/status/2118395480434471074"
+        ]
+      },
+      "workflow": "先上传图 → 粘贴无缝循环提示词",
+      "original_prompt": "Turn this image into a seamless looping GIF. Make the subject blink, smile, and give a small wave. Keep the face, colors, outfit, and background consistent. No camera movement or extra objects.",
+      "prompt_license": "作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "n/a_no_media",
+      "license_notes": "纯提示词公开分享，无结果媒体；不计真实案例。作者公开分享提示词文本，未明示引用/再用/再分发许可；仅记录公开分享事实，不授予许可",
+      "metrics": {
+        "likes": 0,
+        "impressions": 33
+      },
+      "already_in_repo": false,
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "watch_needed": false,
+      "candidate_mp4_for_watch": null,
+      "thread_group_id": null,
+      "notes": "主帖/回复无自生成 GIF 附件；仅可复制英文提示词。不计「作者明确声明+媒体元数据已核」。"
+    }
+  ],
+  "duplicate_or_rejected": [
+    {
+      "id": "x-luffy-already",
+      "category": "duplicate_or_rejected",
+      "status": "duplicate_in_repo",
+      "post_url": "https://x.com/0xluffy_eth/status/2118274913337552992",
+      "post_id": "2118274913337552992",
+      "original_prompt": "",
+      "reason": "交办已收；仓库 sources 与 ideas 已收录文章玩法；不列为新增",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    },
+    {
+      "id": "x-krouxzz-already",
+      "category": "duplicate_or_rejected",
+      "status": "duplicate_in_repo",
+      "post_url": "https://x.com/Krouxzz/status/2118283796181053637",
+      "post_id": "2118283796181053637",
+      "original_prompt": "Make a looping GIF of this character waving.",
+      "reason": "仓库 sources.md / krouxzz-wave-ref 已收录；prompt「Make a looping GIF of this character waving.」已在库",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    },
+    {
+      "id": "x-promptlyai-midjourney-mix",
+      "category": "duplicate_or_rejected",
+      "status": "rejected",
+      "post_url": "https://x.com/PromptlyAI_YT/status/2118389133446173155",
+      "post_id": "2118389133446173155",
+      "original_prompt": "",
+      "reason": "作者写「Midjourney + GPT Images 2.6」，无法确认动图是否纯 2.6 产物",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    },
+    {
+      "id": "x-omniallai-reseller",
+      "category": "duplicate_or_rejected",
+      "status": "rejected",
+      "post_url": "https://x.com/omniallai/status/2118208307563528350",
+      "post_id": "2118208307563528350",
+      "original_prompt": "",
+      "reason": "第三方 API 分销文案，列出非官方命名（exact 等）与自有 endpoint，不宜当一手官方 2.6 案例",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    },
+    {
+      "id": "x-tuzi-ai-reseller",
+      "category": "duplicate_or_rejected",
+      "status": "rejected",
+      "post_url": "https://x.com/tuzi_ai/status/2118201124515959106",
+      "post_id": "2118201124515959106",
+      "original_prompt": "",
+      "reason": "中转 API 推广",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    },
+    {
+      "id": "x-fal-platform",
+      "category": "duplicate_or_rejected",
+      "status": "rejected_or_platform",
+      "post_url": "https://x.com/fal/status/2118127874926407952",
+      "post_id": "2118127874926407952",
+      "original_prompt": "",
+      "reason": "fal 平台上线宣传视频；可作旁证但非社区一手玩法 GIF 案例（互动高，可选后续单列平台源）",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    },
+    {
+      "id": "x-news-reposts-cluster",
+      "category": "duplicate_or_rejected",
+      "status": "rejected",
+      "post_url": null,
+      "post_id": null,
+      "original_prompt": "",
+      "reason": "大量多语新闻转述帖（含官方 35s 宣传视频二次传播），无原创玩法/无自生成 GIF：如 RoundtableSpace、xiaohu、webtekno、beartai、AITensibility、Naman_Arora7 等",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    },
+    {
+      "id": "x-luffy-simplified-prompt-repost",
+      "category": "duplicate_or_rejected",
+      "status": "related_not_new_gif",
+      "post_url": "https://x.com/0xluffy_eth/status/2118235547454083357",
+      "post_id": "2118235547454083357",
+      "original_prompt": "",
+      "reason": "路飞发布简化大肥鱼模板（与归藏模板同族）；无新 GIF 附件，属提示词扩散；不作为新增媒体案例",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    },
+    {
+      "id": "x-masyu-niji-mix",
+      "category": "duplicate_or_rejected",
+      "status": "rejected",
+      "post_url": "https://x.com/__masyu0225/status/2118241265213165676",
+      "post_id": "2118241265213165676",
+      "original_prompt": "",
+      "reason": "作者写明 企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2.6，混合管线，无法确认动图是否纯 2.6 产物",
+      "verified_at": "2026-11-06 02:05",
+      "visual_review_status": "unwatched",
+      "media": [
+        {
+          "platform_media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/tweet_video/HWWBLprbEAAEdrG.mp4",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWWBLprbEAAEdrG.jpg",
+          "original_gif_available": false,
+          "visual_review_status": "unwatched",
+          "width": 414,
+          "height": 412,
+          "duration_ms": null,
+          "media_key": null,
+          "head_check": {
+            "http_status": null,
+            "checked_at": null,
+            "method": null,
+            "note": "未对本条单独 HEAD；同类 tweet_video 抽样均为 200 video/mp4"
+          },
+          "note": "X animated_gif 对外通常为 MP4；未取得真实 .gif 源文件，未播放"
+        }
+      ],
+      "reference_image_urls": [],
+      "download_status": "not_downloaded",
+      "license_notes": "无公开再分发授权；仅记录原始外链。公开可访问≠授权可入库二次分发"
+    }
+  ]
+}

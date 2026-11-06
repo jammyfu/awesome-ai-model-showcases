@@ -14,14 +14,7 @@ jobs:
           python-version: '3.12'
       - name: Install validator dependency
         run: python -m pip install -r requirements-dev.txt
-      - name: Check metadata synchronization
-        run: |
-          python tools/sync_gallery_js.py
-          git diff --exit-code -- docs/data/gallery.js
-      - name: Validate GIF frames, timing and prompt files
-        run: python tools/validate_gallery.py
-      - name: Check idea catalog data and previews
-        run: |
-          python tools/sync_ideas.py
-          git diff --exit-code -- docs/data/ideas.js
-          python tools/validate_ideas.py
+      - name: Install ffmpeg for MP4 stream/duration probe
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Verify catalog, local media, and generated files
+        run: python tools/verify.py

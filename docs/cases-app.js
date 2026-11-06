@@ -1,0 +1,129 @@
+(() => {
+  'use strict';
+  const catalog = window.COMMUNITY_CASES;
+  if (!catalog) return;
+  const counts = catalog.meta.counts;
+  function dict() {
+    return window.UI_I18N || {};
+  }
+  function groups() {
+    const g = dict().groups || {};
+    return [
+      { key: 'main', label: g.main || 'Collected', rows: [
+        ...catalog.collected_x_author_claim,
+        ...catalog.collected_web_gif,
+        ...catalog.collected_already_in_repo,
+        ...catalog.collected_game_author_claim,
+      ] },
+      { key: 'x', label: g.x || 'X', rows: catalog.collected_x_author_claim },
+      { key: 'web', label: g.web || 'GIF', rows: catalog.collected_web_gif },
+      { key: 'inrepo', label: g.inrepo || 'In-repo', rows: catalog.collected_already_in_repo },
+      { key: 'game', label: g.game || 'Game', rows: catalog.collected_game_author_claim },
+      { key: 'pending', label: g.pending || 'Pending', rows: catalog.pending },
+      { key: 'appendix', label: g.appendix || 'Appendix', rows: [...catalog.prompt_only, ...catalog.excluded, ...catalog.appendix] },
+      { key: 'seeds', label: g.seeds || 'Seeds', rows: catalog.repo_seeds },
+    ];
+  }
+
+  const setText = (id, value) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = String(value);
+  };
+  setText('count-main', counts.main_collected);
+  setText('count-x', counts.x_author_claim_25);
+  setText('count-web', counts.web_gif_12);
+  setText('count-game', counts.game_author_claim);
+  setText('count-pending', counts.pending);
+  setText('count-appendix', counts.appendix);
+
+  const tbody = document.getElementById('case-rows');
+  const visible = document.getElementById('case-visible');
+  const empty = document.getElementById('case-empty');
+  const search = document.getElementById('case-search');
+  const chips = document.getElementById('case-filters');
+  let bucket = 'main';
+
+  function esc(s) {
+    return String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  }
+  function link(url, label, local) {
+    if (local) return `<a href="${esc(url)}">${esc(label)}</a>`;
+    if (!url) return '—';
+    return `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`;
+  }
+  function mediaCell(r, d) {
+    const files = Array.isArray(r.local_files) ? r.local_files : [];
+    const first = files.find((f) => f.ext === 'gif') || files.find((f) => ['png', 'jpg', 'jpeg', 'webp'].includes(f.ext)) || files.find((f) => f.ext === 'mp4');
+    const page = r.local_page || (r.local_dir ? r.local_dir + 'index.html' : '');
+    const prompt = r.local_prompt || '';
+    let preview = '';
+    if (first && first.path) {
+      const rel = first.path.replace(/^docs\//, '');
+      if (first.ext === 'mp4') {
+        preview = `<video src="${esc(rel)}" muted loop playsinline preload="metadata" style="max-width:160px;max-height:110px"></video>`;
+      } else {
+        preview = `<img src="${esc(rel)}" alt="${esc(r.id)}" loading="lazy" style="max-width:160px;max-height:110px;object-fit:contain">`;
+      }
+    }
+    const bits = [preview];
+    if (page) bits.push(link(page.replace(/^docs\//, ''), d.local || 'local', true));
+    if (prompt) bits.push(link(prompt.replace(/^docs\//, ''), d.promptFull || 'prompt', true));
+    if (r.source_url) bits.push(link(r.source_url, d.cite || 'source'));
+    return bits.filter(Boolean).join('<br>') || '—';
+  }
+  function renderChips() {
+    if (!chips) return;
+    chips.replaceChildren();
+    groups().forEach((g) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chip' + (g.key === bucket ? ' active' : '');
+      b.textContent = `${g.label} ${g.rows.length}`;
+      b.addEventListener('click', () => {
+        bucket = g.key;
+        renderChips();
+        render();
+      });
+      chips.append(b);
+    });
+  }
+  function render() {
+    const d = dict();
+    const q = (search && search.value || '').trim().toLowerCase();
+    const list = groups();
+    const group = list.find((g) => g.key === bucket) || list[0];
+    const rows = group.rows.filter((r) => {
+      if (!q) return true;
+      return [r.id, r.author, r.title, r.play, r.model_claim, r.pipeline, r.verify]
+        .join(' ')
+        .toLowerCase()
+        .includes(q);
+    });
+    if (visible) visible.textContent = String(rows.length);
+    if (empty) empty.hidden = rows.length > 0;
+    if (!tbody) return;
+    tbody.innerHTML = rows.map((r, i) => `<tr>
+      <td>${i + 1}</td>
+      <td>${esc(r.author)}</td>
+      <td><div class="case-title">${esc(r.title)}</div><div class="case-id">${esc(r.id)}</div></td>
+      <td>${link(r.source_url, d.post || 'source')}</td>
+      <td>${mediaCell(r, d)}</td>
+      <td>${r.local_prompt ? link(r.local_prompt.replace(/^docs\//, ''), d.promptFull || (r.prompt_status || 'prompt'), true) : esc(r.prompt_status)}</td>
+      <td>${esc((r.model_claim || '').slice(0, 48))}</td>
+      <td>${esc(r.pipeline)}</td>
+      <td>${esc(r.verify)}</td>
+      <td>${esc(d.licenseUnknown || 'license unknown')}</td>
+    </tr>`).join('');
+  }
+  if (search) search.addEventListener('input', render);
+  document.addEventListener('ui-lang', () => {
+    renderChips();
+    render();
+  });
+  function start() {
+    renderChips();
+    render();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+  else start();
+})();

@@ -1,0 +1,1080 @@
+{
+  "meta": {
+    "title": "GPT Image 2.6 · 游戏动作序列 X 深度挖掘（deep）",
+    "verified_at": "2026-11-06",
+    "timezone_note": "Asia/Taipei (UTC+8)；核实日期为北京时间日历日",
+    "scope": "仅内置公开 x 命名空间只读；不改旧 x.md/x.json 与 game-sequences.md/json；不写仓、不代发、不联系作者；无明示授权不下载媒体；无浏览器",
+    "dedup_baseline": {
+      "x_json": "/workspace/gpt-gif-deep-1106/x.json",
+      "game_sequences_json": "/workspace/gpt-gif-deep-1106/game-sequences.json",
+      "known_stronger_ids": [
+        "gs-daft-trade-gamedev-combo",
+        "gs-maker-evan-fox-ronin-game",
+        "gs-maker-evan-walk-cycle",
+        "gs-xiaomovps-fighter-actions"
+      ],
+      "known_pending_ids": [
+        "gs-yrzhe-minigame-gif-assets"
+      ],
+      "known_x_json_game": [
+        "x-zone-nonsticker-plays"
+      ]
+    },
+    "search_log": [
+      {
+        "query": "get_posts_by_ids seed batch (Daft/maker/xiaomo/yrzhe/zone/higgs…)",
+        "pages": 1,
+        "result_counts": [
+          10
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "单次批量取帖；无分页",
+        "round": 1
+      },
+      {
+        "query": "conversation_id:2118283025498906800",
+        "pages": 2,
+        "result_counts": [
+          5,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2 result_count=0，耗尽",
+        "round": 1
+      },
+      {
+        "query": "conversation_id:2118235403430027495",
+        "pages": 2,
+        "result_counts": [
+          7,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2 result_count=0，耗尽",
+        "round": 1
+      },
+      {
+        "query": "conversation OR-batch: yrzhe|renoise EN/JP|zone|mashiro",
+        "pages": 1,
+        "result_counts": [
+          25
+        ],
+        "next_token_after_last": true,
+        "stop_reason": "首轮已覆盖待核实与 Renoise coming soon；本轮未再扩非任务分支",
+        "round": 1,
+        "note": "next_token 未在本轮续；非用户要求强制分支"
+      },
+      {
+        "query": "from:higgsfield_ai (Image 2.6|sprite|GIF|game)",
+        "pages": 1,
+        "result_counts": [
+          "≈20+"
+        ],
+        "next_token_after_last": true,
+        "stop_reason": "平台同源系列帖已列全；本轮改用 get_posts_quoted_posts 追独立作者",
+        "round": 1
+      },
+      {
+        "query": "ZH relevancy: Images 2.6 + 精灵表/序列帧/像素/动作/游戏素材",
+        "pages": 1,
+        "result_counts": [
+          25
+        ],
+        "next_token_after_last": true,
+        "stop_reason": "首轮已覆盖 xiaomo/yrzhe/Mashiro；本轮优先 EN/JA 续页与作者分支",
+        "round": 1,
+        "note": "next_token 未在本轮续"
+      },
+      {
+        "query": "KO relevancy: Image 2.6 + 스프라이트/게임/픽셀",
+        "pages": 1,
+        "result_counts": [
+          25
+        ],
+        "next_token_after_last": true,
+        "stop_reason": "首屏几乎全是发布新闻；无 idle/walk/attack 原作者；未宣称后续页性质",
+        "round": 1,
+        "note": "next_token 仍有但首屏无达标原作者；本轮未强制再翻 KO"
+      },
+      {
+        "query": "from:tuzhenzhao (sprite|GIF|pixel|pocketworld|game|Image)",
+        "pages": 1,
+        "result_counts": [
+          15
+        ],
+        "next_token_after_last": true,
+        "stop_reason": "已拿到混合工作流声明与 MIT 仓库后停",
+        "round": 1
+      },
+      {
+        "query": "conversation_id:2118211871777890325",
+        "pages": 1,
+        "result_counts": [
+          2
+        ],
+        "next_token_after_last": true,
+        "stop_reason": "仅 1 条无信息回复；作者未澄清；本轮未再扩",
+        "round": 1
+      },
+      {
+        "query": "from:Daft_Trade (GIF OR sprite OR GameDev OR \"Image 2.6\" OR \"Images 2.6\" OR pixel OR animation OR gameslash)",
+        "pages": 2,
+        "result_counts": [
+          2,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；除种子帖外仅旧 gameslash 推广，无新增 2.6 动作帖",
+        "round": 2
+      },
+      {
+        "query": "from:maker_evan (sprite OR GIF OR walk OR fox OR Image OR pixel OR arcade OR game OR Sunburst OR Flare)",
+        "pages": 3,
+        "result_counts": [
+          22,
+          18,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p1 覆盖全部 2.6 高价值；p2=18 全为 10 月非 2.6 对照（无实质新 2.6 信息）；p3=0 耗尽",
+        "round": 2
+      },
+      {
+        "query": "from:xiaomovps (GIF OR 精灵 OR 动作 OR 游戏 OR Image OR 2.6 OR Sprite OR Unity OR Godot)",
+        "pages": 2,
+        "result_counts": [
+          18,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；除种子外后续为 ESP32/Grok Bot，无新增 2.6 游戏动作",
+        "round": 2
+      },
+      {
+        "query": "conversation_id:2118218636725027037",
+        "pages": 2,
+        "result_counts": [
+          5,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；p1 含完整 one-shot、sheet note、广告回复与 tuzhenzhao 网格对照",
+        "round": 2
+      },
+      {
+        "query": "conversation_id:2118222694345040253",
+        "pages": 2,
+        "result_counts": [
+          1,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；仅主帖（编辑版同 id）",
+        "round": 2
+      },
+      {
+        "query": "conversation_id:2118274032227471705",
+        "pages": 2,
+        "result_counts": [
+          8,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；7 条提问/收藏，作者未回 prompt",
+        "round": 2
+      },
+      {
+        "query": "(\"Image 2.6\" OR \"Images 2.6\" OR \"GPT Image 2.6\") (sprite OR spritesheet OR \"sprite sheet\" OR \"walk cycle\" OR \"game asset\" OR gameplay OR idle OR attack) (GIF OR gif OR animation) -is:retweet | sort=relevancy",
+        "pages": 2,
+        "result_counts": [
+          25,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "本轮重读 p1=25（含 Higgs/evals/Mashiro/镜帖）；p2=0 耗尽",
+        "round": 2,
+        "note": "不推断未读页内容；零结果续页确认耗尽"
+      },
+      {
+        "query": "(\"GPT Image 2.6\" OR \"Images 2.6\" OR \"Image 2.6\") (スプライト OR ドット絵 OR ゲーム OR フレーム OR 歩き OR 攻撃 OR アクション) -is:retweet | sort=relevancy",
+        "pages": 3,
+        "result_counts": [
+          25,
+          12,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p1 含 AM09 等；p2=12 多为发布新闻 GIF 转述（无新 idle/walk/attack 原作者工作流）；p3=0 耗尽",
+        "round": 2
+      },
+      {
+        "query": "conversation_id:2118164394400182755 (WrongNebula pixel failure)",
+        "pages": 2,
+        "result_counts": [
+          24,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；独立失败样本+evals 回复对照+讨论 PixelLab/pixeldiffusion",
+        "round": 2
+      },
+      {
+        "query": "from:AM09_21 (\"Image 2.6\" OR \"Images 2.6\" OR GIF OR sprite OR game OR Flare OR Sunburst)",
+        "pages": 2,
+        "result_counts": [
+          7,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；确认失败验证帖与相关 RT/GIF 试验，无成功游戏落地",
+        "round": 2
+      },
+      {
+        "query": "conversation_id:2118143217434800219 (AM09 failure thread)",
+        "pages": 2,
+        "result_counts": [
+          4,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽（Round-2 早先已确认）",
+        "round": 2
+      },
+      {
+        "query": "conversation_id:2118336675697090607 OR conversation_id:2118333509062492460 OR from:evals_ag (sprite OR GIF OR \"Image 2.6\" OR Sunburst OR Flare OR fox OR game)",
+        "pages": 3,
+        "result_counts": [
+          25,
+          7,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p1 为 44 游戏长文线程与对 Higgs/WrongNebula 回复（归入 maker 旧工作流补证）；p2=7 为更早非 2.6 游戏向（无实质新 2.6 游戏序列）；p3=0 耗尽",
+        "round": 2
+      },
+      {
+        "query": "get_posts_quoted_posts id=2118152815625552235 (Higgs junkyard)",
+        "pages": 2,
+        "result_counts": [
+          6,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；引用均为镜像/感想，无独立原作者工作流",
+        "round": 2,
+        "tool": "get_posts_quoted_posts"
+      },
+      {
+        "query": "get_posts_quoted_posts id=2118154923070439759 (Higgs boxing)",
+        "pages": 2,
+        "result_counts": [
+          3,
+          0
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "p2=0 耗尽；emildrops 镜像 + 日文感想，无独立作者演示",
+        "round": 2,
+        "tool": "get_posts_quoted_posts"
+      },
+      {
+        "query": "get_posts_by_ids enrichment batch (WrongNebula/aigamelab/AM09/evals article replies)",
+        "pages": 1,
+        "result_counts": [
+          8
+        ],
+        "next_token_after_last": false,
+        "stop_reason": "批量取帖无分页；拿到 article 全文与媒体元数据",
+        "round": 2
+      }
+    ],
+    "coverage_stats": {
+      "search_pages_actually_read": 43,
+      "public_x_read_calls_approx_round2_plus": "本轮续挖约 40+ 次公开读（含分页/引用/批量）；全日额度未报余额",
+      "high_value_authors_touched": [
+        "Daft_Trade",
+        "maker_evan",
+        "xiaomovps",
+        "evals_ag",
+        "WrongNebula",
+        "AM09_21",
+        "aigamelab_jp",
+        "higgsfield_ai",
+        "renoiseai",
+        "renoiseaijp",
+        "yrzhe_top",
+        "tuzhenzhao",
+        "Mashiro_0619",
+        "moekadaisuki",
+        "OnwUh12",
+        "Les_pauvres"
+      ],
+      "exhausted_branches_round2": [
+        "from:Daft_Trade",
+        "from:maker_evan",
+        "from:xiaomovps",
+        "fox parent conv",
+        "fox short conv",
+        "xiaomo conv",
+        "EN sprite relevancy",
+        "JA sprite relevancy",
+        "WrongNebula conv",
+        "from:AM09_21",
+        "evals followup query",
+        "Higgs junkyard quotes",
+        "Higgs boxing quotes"
+      ]
+    },
+    "counts": {
+      "old_cases_enriched": 4,
+      "new_independent_authors_or_workflows": 0,
+      "independent_failure_samples": 2,
+      "related_weak_game_oriented": 4,
+      "mixed_pipeline_notes": 2,
+      "platform_demo_groups": 2,
+      "platform_demo_posts_breakdown": {
+        "higgsfield_series_posts": 9,
+        "renoise_posts": 2
+      },
+      "pending_still": 1,
+      "rejected_mirrors_or_news": 7,
+      "downloadable_with_clear_license": 0,
+      "search_pages_actually_read": 43,
+      "counting_rule": "新原作者/新工作流按独立作者+可复现玩法计；同团队 evals_ag fox 场报=maker 旧工作流补证，不计新玩法；AM09/WrongNebula=独立失败样本，不混成功游戏；平台按组计（2组），帖数另列；不宣称搜到作者全部帖子"
+    },
+    "taxonomy_notes": {
+      "evals_ag": "同团队场报；补证 maker fox 旧工作流；不当独立新增玩法",
+      "AM09_WrongNebula": "独立失败样本；不混成功游戏栏",
+      "prompts": "game-agent one-shot ≠ image-model 实际 sprite prompt；模板仅重建参考",
+      "platform": "JSON 以 2 组计；组内帖数另列；旧 md 写 8 条是把 Higgs 多帖当条目，已纠正"
+    },
+    "gaps": {
+      "model": "仍无官方技术确认；yrzhe vs Renoise coming soon 未解",
+      "prompt": "Daft/xiaomo/WrongNebula/AM09 无完整可复制 prompt；maker fox 有 game-agent one-shot；图像模型实际 sprite prompt 未公开",
+      "visual": "全部 unwatched / 演示站 unrun",
+      "engine_runtime": "未见 Unity/Godot 实机导入录像",
+      "disclaimer": "不宣称已观看媒体、已运行游戏、可商用，或已搜到任何作者的全部帖子。作者宣称≠验证。"
+    },
+    "disclaimer": "不宣称已观看媒体、已运行游戏或可商用。作者宣称≠验证。不修改旧交付文件。不向任何人发消息。"
+  },
+  "old_case_enrichments": [
+    {
+      "id": "gs-daft-trade-gamedev-combo",
+      "tier": "old_case_enrichment",
+      "base_post_url": "https://x.com/Daft_Trade/status/2118283025498906800",
+      "author": {
+        "username": "Daft_Trade",
+        "name": "BuyTheDip",
+        "followers": 154
+      },
+      "newly_found_facts": [
+        {
+          "fact": "演示站完整 URL：https://gameslash.app/（主帖 Thai-made games 外链；entities 展开 title=GameSlash）",
+          "source_url": "https://x.com/Daft_Trade/status/2118283025498906800",
+          "demo_site_status": "unrun"
+        },
+        {
+          "fact": "设置回复原文确认：512×512、high quality、opaque background；sword combo 16 frames×40ms；spark 8×50ms",
+          "source_url": "https://x.com/Daft_Trade/status/2118283168071684292",
+          "media_url": "https://video.twimg.com/tweet_video/HWWnTgiakAAJIF-.mp4",
+          "media_type": "animated_gif",
+          "content_type": "video/mp4",
+          "visual_review_status": "unwatched"
+        },
+        {
+          "fact": "法环回复原文：12 frames×80ms，three sparks orbiting；要求 last frame flow into first",
+          "source_url": "https://x.com/Daft_Trade/status/2118283316050944116",
+          "media_url": "https://video.twimg.com/tweet_video/HWWnb6KacAA5032.mp4",
+          "visual_review_status": "unwatched"
+        },
+        {
+          "fact": "跳跃回复原文：Run→push off→tuck→flip→land；16×80ms；事后 flattened background color to remove flicker（修帧证据）",
+          "source_url": "https://x.com/Daft_Trade/status/2118283409781117416",
+          "media_url": "https://video.twimg.com/tweet_video/HWWnhl0bYAAofEi.mp4",
+          "defect_fix_evidence": "作者自述 flattened background color afterward to remove flicker",
+          "visual_review_status": "unwatched"
+        },
+        {
+          "fact": "会话已翻至耗尽（page2=0）；互动仅 @yudotanaka 感慨 0.1 版本加入 GIF，无额外 prompt",
+          "source_url": "https://x.com/yudotanaka/status/2118296315444785314"
+        },
+        {
+          "fact": "from:Daft_Trade 专题搜无更多 2.6 动作帖",
+          "source_url": "from:Daft_Trade search"
+        },
+        {
+          "fact": "Round-2 from:Daft_Trade 再读 p1=2 p2=0 耗尽；无新增 2.6 动作帖",
+          "source_urls": [],
+          "from_round": 2
+        }
+      ],
+      "still_missing": [
+        "完整可复制原文 prompt（仅有设置说明，不作 original_prompt）",
+        "引擎/网页游戏实机演示"
+      ],
+      "output_workflow": {
+        "claimed": "native_gif_direct",
+        "certainty": "author_claimed",
+        "note": "作者写 straight to GIF；未观看；底层是否内部 sheet 未知"
+      },
+      "original_prompt": "",
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅外链",
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched"
+    },
+    {
+      "id": "gs-maker-evan-fox-ronin-game",
+      "tier": "old_case_enrichment",
+      "base_post_url": "https://x.com/maker_evan/status/2118222694345040253",
+      "author": {
+        "username": "maker_evan",
+        "name": "chacha",
+        "followers": 90
+      },
+      "classification_reminder": "混合流程：GPT Image 2.6 出 sheet/背景 + GPT-6.1 Sol 切帧组装；不得称纯 2.6 直接出 GIF",
+      "newly_found_facts": [
+        {
+          "fact": "父线程主帖四模型对照：https://x.com/maker_evan/status/2118218636725027037 ；同 agent Sol、no follow-ups",
+          "source_url": "https://x.com/maker_evan/status/2118218636725027037",
+          "media_url": "https://video.twimg.com/amplify_video/2118218561596588032/vid/avc1/1440x874/tc9MlAOH2s42gwUo.mp4",
+          "visual_review_status": "unwatched"
+        },
+        {
+          "fact": "hero sprite sheets 对照静图 note：A=2.6 Sunburst B=Nano Banana Pro C=GPT Image 2 D=Seedream 5.0 Pro；Sol wrote its own sprite prompt each time",
+          "source_url": "https://x.com/maker_evan/status/2118218792795095048",
+          "reference_image_url": "https://pbs.twimg.com/media/HWVswCLbgAACxKN.jpg",
+          "note": "此图为模型输出 sheet（对照实验输出），非用户上传输入参考图"
+        },
+        {
+          "fact": "one-shot 原文 prompt 来源帖确认（note_tweet 全文）+ Play all four：https://evals.ag/runs/run_5XGCQ6DH4CMSS4B3D0AXJ65FN3",
+          "source_url": "https://x.com/maker_evan/status/2118218896167886861",
+          "demo_site_url": "https://evals.ag/runs/run_5XGCQ6DH4CMSS4B3D0AXJ65FN3",
+          "demo_site_status": "unrun"
+        },
+        {
+          "fact": "编辑后短版同媒体：https://x.com/maker_evan/status/2118223991999787015 （Game sprite designer is dead.）",
+          "source_url": "https://x.com/maker_evan/status/2118223991999787015"
+        },
+        {
+          "fact": "作者向 Higgsfield boxing 帖追问：Did the sheets cut cleanly into frames? … Which agent built the boxing game?",
+          "source_url": "https://x.com/maker_evan/status/2118270686041153932",
+          "quoted": "https://x.com/higgsfield_ai/status/2118154923070439759"
+        },
+        {
+          "fact": "同团队 @evals_ag 长文场报：44 games / 14 image models；给出 4×4 sheet 配方、magenta key、border crop、透明度统计；Cleanest=2.6 Sunburst",
+          "source_url": "https://x.com/evals_ag/status/2118336675697090607",
+          "related_new_case_id": "gs-deep-evals-ag-44-games-report"
+        },
+        {
+          "fact": "同团队 @evals_ag 发表 44 arcade games / 14 image models 场报长文；明确 Evan (@maker_evan) 是团队成员；同一 fox ronin one-shot；agent=GPT-6.1 Sol；Cleanest sheets=GPT Image 2.6 Sunburst；0 failed in 7 games；3/4 raw sheets 真透明背景",
+          "source_urls": [
+            "https://x.com/evals_ag/status/2118336675697090607"
+          ],
+          "classification": "maker_old_workflow_enrichment_not_new_play",
+          "from_round": 2
+        },
+        {
+          "fact": "文章区分两类 prompt：(1) 给游戏 agent 的 one-shot（强制 Do not draw characters in code）；(2) 可复用的 4×4 sprite-sheet 模板——文中写明「The agent wrote its own image prompts each time. This is our template, built from what the clean sheets had in common」——模板≠图像模型实际收到的逐次 prompt",
+          "source_urls": [
+            "https://x.com/evals_ag/status/2118336675697090607"
+          ],
+          "classification": "prompt_taxonomy",
+          "from_round": 2
+        },
+        {
+          "fact": "工作流配方（作者宣称）：每角色一张 4×4 sheet；通常品红键色；key out→trim borders→crop cells→resize→atlas→canvas 动画→无头浏览器自测",
+          "source_urls": [
+            "https://x.com/evals_ag/status/2118336675697090607"
+          ],
+          "classification": "claimed_pipeline",
+          "from_round": 2
+        },
+        {
+          "fact": "同线程媒体：盲测视频、清理对比静图、多游戏录像等（全部 unwatched）",
+          "source_urls": [
+            "https://x.com/evals_ag/status/2118336983881990390",
+            "https://x.com/evals_ag/status/2118337568425337194",
+            "https://x.com/evals_ag/status/2118337782540308609"
+          ],
+          "classification": "media_unwatched",
+          "from_round": 2
+        },
+        {
+          "fact": "evals_ag 在 WrongNebula 失败帖下回复：strict pixel art 认同；painted game sprites 上 2.6 Sunburst 最干净；附对比视频",
+          "source_urls": [
+            "https://x.com/evals_ag/status/2118345170022433142"
+          ],
+          "classification": "cross_thread_reply",
+          "from_round": 2
+        }
+      ],
+      "still_missing": [
+        "Sol 实际发给图像模型的逐次 sprite prompt（作者称每次自写，未公开）",
+        "本机运行验证"
+      ],
+      "original_prompt": "Make a small arcade action game in one web page: a fox ronin defending a night market from ink spirits. Arrow keys move, space attacks. All the art must come from the image model selected for this run: sprite sheets for the hero (idle, run, attack, hurt), three enemies and a boss, plus a background. Cut the sheets into frames and animate them in the game. Do not draw characters in code. Add a HUD, a score, and win and game over screens. It should feel fun the moment it loads.",
+      "prompt_partial": false,
+      "output_workflow": {
+        "claimed": "sprite_sheet_then_agent_cut_and_assemble",
+        "certainty": "author_claimed",
+        "models_in_pipeline": [
+          "GPT Image 2.6 (sheets/background)",
+          "GPT-6.1 Sol (cut frames + build game)"
+        ]
+      },
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅外链",
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "prompt_sources": {
+        "game_agent_one_shot": {
+          "text": "Make a small arcade action game in one web page: a fox ronin defending a night market from ink spirits. Arrow keys move, space attacks. All the art must come from the image model selected for this run: sprite sheets for the hero (idle, run, attack, hurt), three enemies and a boss, plus a background. Cut the sheets into frames and animate them in the game. Do not draw characters in code. Add a HUD, a score, and win and game over screens. It should feel fun the moment it loads.",
+          "audience": "game_agent (GPT-6.1 Sol)",
+          "source_urls": [
+            "https://x.com/maker_evan/status/2118218896167886861",
+            "https://x.com/evals_ag/status/2118336675697090607"
+          ],
+          "note": "上层 one-shot；不是图像模型实际 sprite prompt"
+        },
+        "image_model_sprite_prompt_actual": {
+          "text": "",
+          "audience": "image_model",
+          "status": "unpublished",
+          "note": "作者/文章称 Sol 每次自写；未公开逐次原文"
+        },
+        "sprite_sheet_prompt_template_reconstructed": {
+          "text": "A 4x4 sprite sheet of [character], [art style].\nRows, top to bottom: idle, run, attack, hurt. 4 frames per row.\nSame character, same size, same facing in every cell, centered in equal cells.\nFlat solid magenta background (FF00FF). No grid lines, no borders, no text, no shadows outside the cell.",
+          "audience": "image_model (template only)",
+          "source_urls": [
+            "https://x.com/evals_ag/status/2118336675697090607"
+          ],
+          "note": "文章据干净 sheet 共性重建的模板；明确不是 agent 实际发出的 prompt"
+        }
+      },
+      "related_team_field_report": {
+        "author": "@evals_ag",
+        "post_url": "https://x.com/evals_ag/status/2118336675697090607",
+        "relation": "same_team_enrichment_of_maker_fox_workflow_NOT_independent_new_play",
+        "demo_site_url": "https://evals.ag/runs/run_5XGCQ6DH4CMSS4B3D0AXJ65FN3",
+        "demo_site_status": "unrun"
+      }
+    },
+    {
+      "id": "gs-maker-evan-walk-cycle",
+      "tier": "old_case_enrichment",
+      "base_post_url": "https://x.com/maker_evan/status/2118235403430027495",
+      "author": {
+        "username": "maker_evan",
+        "name": "chacha",
+        "followers": 90
+      },
+      "classification_reminder": "混合流程：2.6 Flare/Sunburst 出 sheet + Claude Opus 5.5 量化/锁头/镜像腿/手修像素；不得称纯 2.6 直接出 GIF",
+      "newly_found_facts": [
+        {
+          "fact": "结果拆解回复：A Flare 18m47s；B Sunburst 24m49s；D 纯代码 13m43s；C Nano Banana Pro 5m43s 无 GIF；三份最终 GIF 皆 32×32 / 8 frames / 7 colours",
+          "source_url": "https://x.com/maker_evan/status/2118235531608039709",
+          "demo_site_url": "https://evals.ag/runs/run_52B3CEGJ9WW16WPDQNWKMXPWB1",
+          "demo_site_status": "unrun",
+          "evals_task_title_note": "entities title: Make a pixel art sprite animation of a red panda mail carrier walking, side view… ——仅笔记，不作 original_prompt"
+        },
+        {
+          "fact": "修帧 note_tweet 全文：sheets 看似像素但含 130,647 与 81,053 色；Opus snapped to grid→7 colours；Flare 另 locked head、mirrored legs frames 5-8、hand-fixed 14 head pixels；Images cost $0.42 Flare / $0.40 Sunburst / $0 code",
+          "source_url": "https://x.com/maker_evan/status/2118241905477898501",
+          "reference_image_url": "https://pbs.twimg.com/media/HWWBvlWakAAEYS-.jpg",
+          "defect_fix_evidence": "作者明示图像模型 alone 不够，Opus 后处理"
+        },
+        {
+          "fact": "作者在其他线程复述像素假象：on pixel art 2.6 was faking it… Opus had to snap them to the grid",
+          "source_url": "https://x.com/maker_evan/status/2118270347942428678"
+        },
+        {
+          "fact": "会话耗尽；@tuzhenzhao 提出纯代码网格路径并贴 pocketworld + GIF",
+          "source_url": "https://x.com/tuzhenzhao/status/2118248656675733809",
+          "related_mixed_case_id": "gs-deep-tuzhenzhao-pocketworld-hybrid"
+        }
+      ],
+      "still_missing": [
+        "完整 walk cycle 原文 prompt（仅有 Same prompt: 32x32… excerpt）"
+      ],
+      "original_prompt": "",
+      "prompt_excerpt": {
+        "text": "Same prompt: 32x32 grid, at most 8 colours, seamless 8-frame loop.",
+        "partial": true,
+        "source_url": "https://x.com/maker_evan/status/2118235403430027495"
+      },
+      "output_workflow": {
+        "claimed": "sprite_sheet_then_agent_postprocess",
+        "certainty": "author_claimed",
+        "models_in_pipeline": [
+          "GPT Image 2.6 Flare/Sunburst",
+          "Claude Opus 5.5 postprocess"
+        ]
+      },
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅外链",
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched",
+      "prompt_sources": {
+        "game_or_agent_prompt": {
+          "text": "",
+          "status": "empty",
+          "excerpt_partial": "Same prompt: 32x32 grid, at most 8 colours, seamless 8-frame loop.",
+          "note": "excerpt only；不作完整原文"
+        },
+        "image_model_sprite_prompt_actual": {
+          "text": "",
+          "status": "unpublished"
+        }
+      }
+    },
+    {
+      "id": "gs-xiaomovps-fighter-actions",
+      "tier": "old_case_enrichment",
+      "base_post_url": "https://x.com/xiaomovps/status/2118274032227471705",
+      "author": {
+        "username": "xiaomovps",
+        "name": "小墨同学",
+        "followers": 17628
+      },
+      "newly_found_facts": [
+        {
+          "fact": "会话内 7 条回复均无作者二次说明；无人拿到完整 prompt；问题集中在造型一致性/是否分开生成待机与出拳/Sprite Sheet 导入引擎验收",
+          "source_urls": [
+            "https://x.com/Jocker_zero/status/2118278025028808838",
+            "https://x.com/hhxk233/status/2118385571768770589",
+            "https://x.com/SChengyin/status/2118309083342389548"
+          ]
+        },
+        {
+          "fact": "from:xiaomovps 专题搜确认：该帖后无 2.6 游戏动作后续帖（下一条已转 ESP32）",
+          "source_url": "from:xiaomovps search"
+        },
+        {
+          "fact": "主帖 note_tweet 已复核：待机/出拳/跳跃、透明背景拆帧进 Unity/Godot、SVG UI；自述连续动作形象可能不一致、需调碰撞",
+          "source_url": "https://x.com/xiaomovps/status/2118274032227471705"
+        },
+        {
+          "fact": "Round-2 conversation 与 from:xiaomovps 均 p2=0 耗尽；作者仍未公开原文 prompt",
+          "source_urls": [],
+          "from_round": 2
+        }
+      ],
+      "still_missing": [
+        "原文 prompt",
+        "作者对一致性提问的回答",
+        "引擎实机录像"
+      ],
+      "original_prompt": "",
+      "output_workflow": {
+        "claimed": "native_gif_and_or_sprite_sheet",
+        "certainty": "author_claimed_both"
+      },
+      "media": [
+        {
+          "url": "https://video.twimg.com/tweet_video/HWWcoNDawAALRaJ.mp4",
+          "type": "animated_gif",
+          "content_type": "video/mp4",
+          "visual_review_status": "unwatched"
+        },
+        {
+          "url": "https://video.twimg.com/tweet_video/HWWcoNBbMAATJjY.mp4",
+          "type": "animated_gif",
+          "content_type": "video/mp4",
+          "visual_review_status": "unwatched"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWWcoNLbkAAxgxF.jpg",
+          "type": "photo",
+          "content_type": "image/jpeg",
+          "visual_review_status": "unwatched",
+          "note": "输出静图/场景，非确认输入参考图"
+        }
+      ],
+      "download_status": "not_downloaded",
+      "license_notes": "无明示再分发授权；仅外链",
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched"
+    }
+  ],
+  "new_cases": [],
+  "independent_failure_samples": [
+    {
+      "id": "gs-deep-am09-game-sprite-failure",
+      "tier": "independent_failure_sample",
+      "not_a_success_game": true,
+      "author": {
+        "handle": "AM09_21",
+        "name": "AM09:21",
+        "followers_approx": 40994
+      },
+      "post_url": "https://x.com/AM09_21/status/2118143217434800219",
+      "post_id": "2118143217434800219",
+      "play_summary": "日文作者测 GPT Image 2.6 GIF：动态+静态同帧易崩；明确写「ゲームとかに応用するならスプライトごとに生成」否则会崩；附 GIF；约 2 分钟生成。属失败/警告样本，不混入成功游戏。",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "GPT Image 2.6 (GIF) 追加検証！…ゲームとかに応用するならスプライトごとに生成しないとこんな感じに崩れるかもナ…",
+        "source_url": "https://x.com/AM09_21/status/2118143217434800219"
+      },
+      "original_prompt": "",
+      "prompt_sources": {
+        "image_model_or_gif_prompt": {
+          "text": "",
+          "status": "unpublished"
+        }
+      },
+      "media": [
+        {
+          "type": "animated_gif",
+          "mp4": "https://video.twimg.com/tweet_video/HWUoBnhaUAALYln.mp4",
+          "visual_review_status": "unwatched"
+        }
+      ],
+      "followup": {
+        "from_author_pages": [
+          7,
+          0
+        ],
+        "conversation_pages": [
+          4,
+          0
+        ],
+        "note": "Round-2 追完；另有动态静帧试验帖 2118138060936458395 等，仍非成功游戏落地"
+      },
+      "output_workflow": {
+        "claimed": "native_gif_direct",
+        "certainty": "author_claimed",
+        "pure_26_direct_gif": "unknown_unwatched"
+      },
+      "already_in_game_sequences": false,
+      "verified_at": "2026-11-06",
+      "download_status": "not_downloaded",
+      "license_notes": "公开分享≠许可"
+    },
+    {
+      "id": "gs-deep-wrongnebula-pixel-anim-failure",
+      "tier": "independent_failure_sample",
+      "not_a_success_game": true,
+      "author": {
+        "handle": "WrongNebula",
+        "name": "WrongNebula",
+        "followers_approx": 4511
+      },
+      "post_url": "https://x.com/WrongNebula/status/2118164394400182755",
+      "post_id": "2118164394400182755",
+      "play_summary": "独立作者实测 Sunburst/Flare 做 pixel art animation，结论 not there yet；后续 More methods / More tests；自承 GPT 2.6 image isn't fit for pixel art，建议 pixeldiffusion。属失败样本，非成功游戏工作流。",
+      "model_claim": {
+        "level": "author_explicit",
+        "quote": "Tested the new GPT 2.6 image models Sunburst and Flare for pixel art animation, not there yet...",
+        "source_url": "https://x.com/WrongNebula/status/2118164394400182755"
+      },
+      "original_prompt": "",
+      "prompt_sources": {
+        "image_model_prompt": {
+          "text": "",
+          "status": "unpublished"
+        }
+      },
+      "media": [
+        {
+          "type": "animated_gif",
+          "mp4": "https://video.twimg.com/tweet_video/HWU7Qt2a4AARF_K.mp4",
+          "visual_review_status": "unwatched"
+        },
+        {
+          "type": "animated_gif",
+          "mp4": "https://video.twimg.com/tweet_video/HWU9CZza8AAHW2s.mp4",
+          "post_url": "https://x.com/WrongNebula/status/2118166327945003427",
+          "visual_review_status": "unwatched"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWVKSKtbYAAFHxx.png",
+          "post_url": "https://x.com/WrongNebula/status/2118180881718493559",
+          "visual_review_status": "unwatched"
+        }
+      ],
+      "thread_enrichment": {
+        "conversation_pages": [
+          24,
+          0
+        ],
+        "notable_replies": [
+          {
+            "url": "https://x.com/evals_ag/status/2118345170022433142",
+            "note": "同团队 evals 对照：strict pixel 认同；painted sprites 更好"
+          },
+          {
+            "url": "https://x.com/WrongNebula/status/2118207074438148591",
+            "note": "作者：Yeah GPT 2.6 image isn't fit for pixel art"
+          }
+        ]
+      },
+      "output_workflow": {
+        "claimed": "native_gif_or_sheet_tests",
+        "certainty": "author_claimed",
+        "pure_26_direct_gif": "unknown_unwatched",
+        "author_verdict": "failure_for_pixel_art_animation"
+      },
+      "already_in_game_sequences": false,
+      "verified_at": "2026-11-06",
+      "download_status": "not_downloaded",
+      "license_notes": "公开分享≠许可"
+    }
+  ],
+  "mixed_or_non_pure_26": [
+    {
+      "id": "gs-deep-tuzhenzhao-pocketworld-hybrid",
+      "tier": "mixed_pipeline_not_pure_26",
+      "post_url": "https://x.com/tuzhenzhao/status/2118286041719423146",
+      "related_posts": [
+        "https://x.com/tuzhenzhao/status/2118248656675733809",
+        "https://x.com/tuzhenzhao/status/2118259165777068216",
+        "https://x.com/tuzhenzhao/status/2118293403524006374"
+      ],
+      "author": {
+        "username": "tuzhenzhao",
+        "name": "Charlie",
+        "followers": 86
+      },
+      "play_summary": "主张 2.6 负责 look/mood/key poses，Pocketworld agent 在最终像素网格用代码写 idle/attack 循环；MIT 仓库 github.com/Tu-Zhenzhao/pocketworld",
+      "model_claim": {
+        "level": "author_explicit_hybrid",
+        "quote": "2.6 handles look and mood. Pocketworld uses the image as a design guide, then authors shapes and motion on the grid as editable code.",
+        "source_url": "https://x.com/tuzhenzhao/status/2118288164452467056"
+      },
+      "original_prompt": "",
+      "repo_url": "https://github.com/Tu-Zhenzhao/pocketworld",
+      "media": [
+        {
+          "url": "https://video.twimg.com/tweet_video/HWWpwXibEAEEHcN.mp4",
+          "type": "animated_gif",
+          "content_type": "video/mp4",
+          "visual_review_status": "unwatched"
+        }
+      ],
+      "output_workflow": {
+        "claimed": "image26_brief_then_code_on_grid",
+        "certainty": "author_claimed",
+        "pure_26_direct_gif": false
+      },
+      "why_not_stronger_pure": "最终循环由代码绘制，不是纯 Image 2.6 GIF/sprite 直出",
+      "download_status": "not_downloaded",
+      "license_notes": "仓库自称 MIT（作者推文）；媒体本身未另授再分发声明；本次未下载",
+      "verified_at": "2026-11-06",
+      "visual_review_status": "unwatched"
+    },
+    {
+      "id": "gs-deep-maker-evan-cases-reaffirm-mixed",
+      "tier": "mixed_pipeline_not_pure_26",
+      "note": "旧案 gs-maker-evan-fox-ronin-game 与 gs-maker-evan-walk-cycle 在深挖后进一步确认必须进混合栏语义：前者 Sol 切帧，后者 Opus 修帧；不得在摘要中写成纯 2.6 直出 GIF",
+      "post_urls": [
+        "https://x.com/maker_evan/status/2118222694345040253",
+        "https://x.com/maker_evan/status/2118235403430027495",
+        "https://x.com/maker_evan/status/2118241905477898501"
+      ],
+      "verified_at": "2026-11-06"
+    }
+  ],
+  "platform_demo_expanded": [
+    {
+      "id": "gs-deep-higgs-series",
+      "tier": "platform_demo_group",
+      "group_count_unit": "1_group",
+      "post_count_in_group": 9,
+      "items": [
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118152815625552235",
+          "title": "junkyard chameleon game",
+          "already_in_old": true
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118151978635440250",
+          "title": "lantern festival game",
+          "already_in_old": false
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118153557551743154",
+          "title": "pixel-art zombie hunter",
+          "media": "https://video.twimg.com/amplify_video/2118153122623389696/vid/avc1/1440x1080/ohXLAx-gnnhJyUsb.mp4"
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118154233556201504",
+          "title": "space shooter",
+          "media": "https://video.twimg.com/amplify_video/2118153774183456768/vid/avc1/1440x1080/IuratPGgMFpBDGFh.mp4"
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118156173618852056",
+          "title": "samurai duel",
+          "media": "https://video.twimg.com/amplify_video/2118156082468290560/vid/avc1/1440x1080/EP-pmwWjMAyHkscC.mp4"
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118154729633337599",
+          "title": "shadow play fight",
+          "media": "https://video.twimg.com/amplify_video/2118154471884906496/vid/avc1/1440x1080/QzETh0X01BQGTwgE.mp4"
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118152221414306226",
+          "title": "anime fighters consistency",
+          "media": "https://video.twimg.com/amplify_video/2118152042317598720/vid/avc1/1440x1080/3ueXTJmFN80EspH0.mp4"
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118155412130406905",
+          "title": "frying pan vs chickens",
+          "media": "https://video.twimg.com/amplify_video/2118154995967328256/vid/avc1/1440x1080/zI1w4R-gKV0onj2s.mp4"
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2118154923070439759",
+          "title": "first-person boxing",
+          "note": "maker_evan 追问切帧与 agent"
+        }
+      ],
+      "quotes_search": {
+        "tool": "get_posts_quoted_posts",
+        "targets": [
+          {
+            "id": "2118152815625552235",
+            "pages": 2,
+            "result_counts": [
+              6,
+              0
+            ],
+            "independent_creators_found": 0
+          },
+          {
+            "id": "2118154923070439759",
+            "pages": 2,
+            "result_counts": [
+              3,
+              0
+            ],
+            "independent_creators_found": 0
+          }
+        ],
+        "conclusion": "引用/转述均为镜像或感想；未发现独立原作者新工作流"
+      },
+      "model_claim_pattern": "Made on Higgsfield + GPT Image 2.6 GIF sprite sheets",
+      "original_creator_prompt_found": false,
+      "visual_review_status": "unwatched",
+      "verified_at": "2026-11-06"
+    },
+    {
+      "id": "gs-deep-renoise-foxmask-fighters",
+      "tier": "platform_demo_group",
+      "group_count_unit": "1_group",
+      "post_count_in_group": 2,
+      "post_url_en": "https://x.com/renoiseai/status/2118284156128186393",
+      "post_url_ja": "https://x.com/renoiseaijp/status/2118288183851114722",
+      "demo_site_url": "https://renoise.ai/?utm_medium=xcom&utm_source=official-mayz-gpt-image-26-fighters",
+      "demo_site_status": "unrun",
+      "why_not_strong": "官方明确 coming soon；与 yrzhe「已经能用」冲突；平台宣传非独立原作者教程",
+      "verified_at": "2026-11-06"
+    }
+  ],
+  "pending_verification_updates": [
+    {
+      "id": "gs-yrzhe-minigame-gif-assets",
+      "tier": "pending_verification",
+      "post_url": "https://x.com/yrzhe_top/status/2118211871777890325",
+      "status": "仍待核实；矛盾未解决",
+      "new_evidence_this_dig": [
+        "Renoise EN+JP 同步宣传 fox-mask 对战 GIF sprite，并写 coming soon / 近日公開",
+        "yrzhe 会话仅 berryxia「秒啊！」；作者未澄清是否内测/其他通道",
+        "官方 loading 帖：GIFs, SVG export and up to 4K. Coming soon."
+      ],
+      "author_claim": "gpt image 2.6 直接生成 gif 动图，试了下这种小游戏，@renoiseai agent 素材配好直接就能用了",
+      "contradiction": "renoiseai / renoiseaijp 官方称 GPT Image 2.6 coming soon",
+      "media": "https://video.twimg.com/amplify_video/2118211744589860864/vid/avc1/1440x1080/oBTA-x6xk2zd9fzq.mp4",
+      "visual_review_status": "unwatched",
+      "verified_at": "2026-11-06"
+    }
+  ],
+  "related_weak_game_oriented": [
+    {
+      "id": "gs-deep-moekadaisuki-slime",
+      "post_url": "https://x.com/moekadaisuki/status/2118156923791114266",
+      "author": "moekadaisuki",
+      "summary": "史莱姆旋转 GIF；称「ゲーム制作に使えそう」；非 idle/walk/run/attack 序列",
+      "media": "https://video.twimg.com/tweet_video/HWUz5ElaEAAp9ms.mp4",
+      "visual_review_status": "unwatched",
+      "verified_at": "2026-11-06"
+    },
+    {
+      "id": "gs-deep-onwuh12-sd-motion",
+      "post_url": "https://x.com/OnwUh12/status/2118360889867088355",
+      "author": "OnwUh12",
+      "summary": "SD 角色 GIF；推测可用于游戏 motion；非完整动作表",
+      "media": "https://video.twimg.com/tweet_video/HWXt_2AboAA1pjs.mp4",
+      "visual_review_status": "unwatched",
+      "verified_at": "2026-11-06"
+    },
+    {
+      "id": "gs-deep-les-pauvres-api-16frame",
+      "post_url": "https://x.com/Les_pauvres/status/2118257726476464372",
+      "author": "Les_pauvres",
+      "summary": "技术笔记：GIF 底层 sprite sheet 切帧；API 锁死 16 帧上限；无游戏演示媒体",
+      "media": null,
+      "visual_review_status": "n/a",
+      "verified_at": "2026-11-06"
+    },
+    {
+      "id": "gs-deep-aigamelab-jp-emotion-gif",
+      "tier": "related_weak_game_oriented",
+      "author": {
+        "handle": "aigamelab_jp",
+        "name": "AIゲームラボ"
+      },
+      "post_url": "https://x.com/aigamelab_jp/status/2118193640984224180",
+      "summary": "16 コマ感情変化 GIF；作者推测「ゲーム用の素材制作に使うほうが実用性が高い」——非 idle/walk/run/attack 动作表，亦非完整游戏落地",
+      "media": [
+        {
+          "type": "animated_gif",
+          "mp4": "https://video.twimg.com/tweet_video/HWVVzLla0AAcSyg.mp4",
+          "visual_review_status": "unwatched"
+        }
+      ],
+      "verified_at": "2026-11-06"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "rej-emildrops-mirrors",
+      "urls": [
+        "https://x.com/emildrops/status/2118228605230805111"
+      ],
+      "reason": "明示 by @higgsfield_ai 的平台镜像转述"
+    },
+    {
+      "id": "rej-realfede-mirror",
+      "url": "https://x.com/RealFedeURU/status/2118315023508373879",
+      "reason": "junkyard 文案镜像（旧案已剔）"
+    },
+    {
+      "id": "rej-ko-news-only",
+      "reason": "韩文检索首屏均为发布新闻，无游戏序列原作者"
+    },
+    {
+      "id": "rej-old-pgmrs-will-speculative",
+      "url": "https://x.com/old_pgmrs_will/status/2118159784025423885",
+      "reason": "仅猜测スプライトもイケそう，无动作表"
+    },
+    {
+      "id": "rej-rune-field-cat",
+      "url": "https://x.com/Rune_Field/status/2118323145904148952",
+      "reason": "猫 GIF+自由使用声明，非游戏动作序列"
+    },
+    {
+      "id": "rej-dlkfz-william-reaction",
+      "url": "https://x.com/DLKFZWilliam2/status/2118126614743781850",
+      "reason": "产品人反应帖，无动作序列演示"
+    },
+    {
+      "id": "rej-higgs-quote-mirrors-comments",
+      "reason": "Higgs 原帖 get_posts_quoted_posts 结果为 emildrops/AryanSabha2qts 镜像与日文感想，无独立作者可玩法演示",
+      "example_urls": [
+        "https://x.com/emildrops/status/2118228605230805111",
+        "https://x.com/emildrops/status/2118411352163152167",
+        "https://x.com/AryanSabha2qts/status/2118169398330708111"
+      ]
+    }
+  ]
+}

@@ -9,9 +9,10 @@
     "Python"
   ],
   "capabilities": [
-    "Static GitHub Pages gallery",
+    "Static GitHub Pages case archive",
+    "Local media and verbatim prompt archival",
     "GIF frame and duration validation",
-    "Idea catalog JSON/JS/Markdown sync",
+    "Community catalog JSON/JS/Markdown sync",
     "GitHub Actions CI"
   ],
   "runtime": "Static files in the browser; Python 3.12 in GitHub Actions for validators",
@@ -20,7 +21,7 @@
       "package": "Pillow",
       "version": ">=10,<13",
       "source": "requirements-dev.txt",
-      "used_by": "tools/validate_gallery.py"
+      "used_by": "tools/validate_gallery.py, tools/validate_media.py, tools/generate_readme_visuals.py"
     }
   ],
   "not_present": [
@@ -28,12 +29,15 @@
     "React / Next.js",
     "backend API",
     "database",
-    "Dockerfile"
+    "Dockerfile",
+    "Images API at browse time",
+    "git-autosync-signal"
   ],
   "delivery": [
     ".github/workflows/validate.yml",
-    ".github/workflows/pages.yml"
+    ".github/workflows/pages.yml",
+    "tools/verify.py"
   ],
   "confidence": "high",
-  "hero": "existing gallery GIFs plus local SVG monogram; no paid image API used"
+  "hero": "wide PNG catalog header plus 1:1 PNG icon; no SVG fallback persisted; no paid image API"
 }

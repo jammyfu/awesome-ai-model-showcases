@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+"""Community catalog is the primary index: full inventory, not a playbook showcase."""
+from __future__ import annotations
+
+import json
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+EN_LEAD = (
+    "Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: "
+    "original authors, original media, public prompts, sources, and production pipelines. "
+    "It is a community catalog of GPT Image 2.6 work, not this repository's original playbook showcase."
+)
+ZH_LEAD = "收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集"
+
+
+def first_words(text: str, n: int = 50) -> list[str]:
+    body = re.sub(r"<[^>]+>", " ", text)
+    body = body.split("# Awesome GPT Image GIFs", 1)[-1]
+    words = re.findall(r"[A-Za-z0-9.6']+", body)
+    return words[:n]
+
+
+def main() -> int:
+    subprocess.check_call([sys.executable, str(ROOT / "tools/write_community_catalog.py")])
+    catalog = json.loads((ROOT / "docs/data/community-cases.json").read_text(encoding="utf-8"))
+    js = (ROOT / "docs/data/cases.js").read_text(encoding="utf-8")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    readme_zh = (ROOT / "README.zh-CN.md").read_text(encoding="utf-8")
+    md = (ROOT / "playbooks/community-cases.md").read_text(encoding="utf-8")
+    index = (ROOT / "docs/index.html").read_text(encoding="utf-8")
+    llms = (ROOT / "llms.txt").read_text(encoding="utf-8")
+    llms_docs = (ROOT / "docs/llms.txt").read_text(encoding="utf-8")
+    about = json.loads((ROOT / "docs/github-about.json").read_text(encoding="utf-8"))
+    counts = catalog["meta"]["counts"]
+
+    assert counts["x_author_claim_25"] == 25, counts
+    assert counts["web_gif_12"] == 12, counts
+    assert counts["pending"] == 12, counts
+    assert counts["already_in_repo"] == 2, counts
+    assert counts["game_author_claim"] == 4, counts
+    assert counts["main_collected"] == 43, counts
+    assert counts["repo_seeds"] == 6, counts
+    assert "window.COMMUNITY_CASES" in js
+    assert catalog["meta"]["not_exhaustive"] is True
+    assert catalog["meta"]["official_verified_26_game"] == 0
+    assert llms == llms_docs
+    assert str(counts["main_collected"]) in llms and str(counts["main_collected"]) in readme_zh
+
+    for rec in catalog["collected_x_author_claim"]:
+        for blob in (readme, readme_zh, md):
+            assert rec["id"] in blob, rec["id"]
+        assert rec.get("source_url"), rec["id"]
+        if rec["media_kind"] == "mp4":
+            assert rec.get("media_url"), rec["id"]
+        assert rec.get("local_detail"), rec["id"]
+        assert rec.get("local_prompt"), rec["id"]
+
+    for rec in catalog["collected_web_gif"]:
+        assert rec["id"] in readme and rec["id"] in readme_zh
+
+    assert EN_LEAD in readme
+    words = first_words(readme, 50)
+    joined = " ".join(words).lower()
+    assert "collects" in joined and "original" in joined and "playbook" in joined
+    assert ZH_LEAD in readme_zh
+    assert "<!-- readme-tech-visualizer:start -->" in readme
+    assert "<!-- readme-tech-visualizer:end -->" in readme
+    assert "<!-- readme-tech-visualizer:start -->" in readme_zh
+    assert "docs/cases/" in readme and "docs/cases/" in readme_zh
+    assert "local media" in readme.lower() and "本地素材" in readme_zh
+    assert "只外链" not in readme and "只外链" not in readme_zh
+    assert "不转载第三方" not in readme and "不转载第三方" not in readme_zh
+    for heading in (
+        "## What is this repository?",
+        "## What can I do with this catalog?",
+        "## What can this repository not do?",
+        "## How do I submit a case?",
+        "## What are the license boundaries?",
+        "## Which languages are maintained?",
+    ):
+        assert heading in readme, heading
+    for heading in (
+        "## 这是什么仓库？",
+        "## 这个目录能做什么？",
+        "## 这个仓库做不到什么？",
+        "## 如何提交案例？",
+        "## 许可边界是什么？",
+        "## 有哪些语言版本？",
+    ):
+        assert heading in readme_zh, heading
+
+    for banned in ("pixel-head-pat.gif", "cat-screen-crack.gif", "Motion worth"):
+        assert banned not in readme[:2000]
+        assert banned not in readme_zh[:2000]
+
+    assert "lang.js" in index and "data-lang=\"en\"" in index and "data-lang=\"zh\"" in index
+    assert "gifs/cat-screen-crack.gif" not in index
+    assert "not this repository's original playbook showcase" in index.lower() or "not this repository" in index
+    assert ZH_LEAD.split("；")[0] in llms or "collects real GPT Image GIF cases" in llms
+
+    topics = about["topics"]
+    assert 5 <= len(topics) <= 12
+    for t in topics:
+        assert re.fullmatch(r"[a-z0-9][a-z0-9-]{0,34}", t), t
+    assert about["homepage"].startswith("https://jammyfu.github.io/")
+    assert about["description"] == (
+        "Community catalog of real GPT Image GIF cases: original authors, "
+        "media, prompts, sources, and pipelines. GPT Image 2.6. English & 中文."
+    )
+    assert len(about["description"]) <= 350
+    for path, blob in (("README.md", readme), ("README.zh-CN.md", readme_zh), ("community-cases.md", md)):
+        for i, line in enumerate(blob.splitlines(), 1):
+            if line.startswith("|") or not line.strip() or line.startswith("|---"):
+                continue
+            if i > 1 and blob.splitlines()[i - 2].startswith("|") and "|" in line:
+                raise AssertionError(f"{path}:{i} table row split by newline: {line[:80]}")
+    for name in ("x-miramusic-stretch", "x-xepher113-oc12", "x-yulikay-toast"):
+        for blob in (readme, readme_zh):
+            table_hits = [line for line in blob.splitlines() if name in line and line.startswith("|")]
+            assert table_hits, name
+            for line in table_hits:
+                assert line.count("|") >= 10, (name, line)
+
+    print(
+        "community catalog ok: "
+        f"main {counts['main_collected']}, pending {counts['pending']}, "
+        f"excluded {counts['excluded']}, appendix {counts['appendix']}, seeds {counts['repo_seeds']}; "
+        f"topics {len(topics)}"
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
