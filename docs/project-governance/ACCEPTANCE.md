@@ -10,7 +10,8 @@ This P2 hardening round is accepted when:
 - [x] Luffy miss wording is narrowed (no attachment URL; API attempt retrieved none; not an assertion the longform has none)
 - [x] Facts hold: 42/42 X MP4, 120 local media files, 43 main cases
 - [x] Local `python3 tools/verify.py` is green, including fault-injection tests
-- [ ] CI on PR #2 is green after **this** push (unchecked until the cloud run is visible)
+- [x] CI on PR #2 is green for commit `28eddd6183a6e0b8e2fcc7718b4a41a183d39ff9`: GitHub Actions run [42139299595](https://github.com/jammyfu/awesome-gpt-image-gifs/actions/runs/42139299595) success; validate job all steps succeeded
+- [x] Mac mini Codex second independent review PASS (fault injections rejected; 175 generated docs, 0 dead links)
 
 Previous archive round (commit `7186396`) remains in effect:
 

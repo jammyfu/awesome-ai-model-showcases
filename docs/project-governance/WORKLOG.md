@@ -45,7 +45,11 @@ verify ok
 
 Local interpreter: Python 3.12.3. Local ffprobe: 6.1.1 (Ubuntu). CI workflow: `ubuntu-latest` + setup-python 3.12 + apt ffmpeg + `python tools/verify.py`.
 
-Pushed pending CI / local passed. Do not write “CI passed” until the cloud run for this commit is visible.
+Cloud CI for commit `28eddd6183a6e0b8e2fcc7718b4a41a183d39ff9`: GitHub Actions run [42139299595](https://github.com/jammyfu/awesome-gpt-image-gifs/actions/runs/42139299595) **success**. Validate job: all steps succeeded (checkout, setup-python 3.12, Pillow, ffmpeg, `python tools/verify.py`).
+
+Mac mini Codex second independent review: **PASS**. Fault injections rejected (HTML-as-MP4, WRONG PROMPT). Generated local Markdown/HTML: 175 files, 0 dead links.
+
+This P2 round is closed on the evidence above. Did not merge main. Did not change GitHub Settings.
 
 ## 2026-11-06 — local media archive
 
