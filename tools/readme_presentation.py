@@ -30,7 +30,7 @@ def featured_cards(rows: list[dict], lang: str) -> str:
         source_label = "出处" if zh else "Source"
         lines.extend([
             '<td align="center" width="33%">',
-            f'<a href="{detail}"><img src="{escape(media)}" alt="{alt}" width="240"></a><br>',
+            f'<a href="{detail}"><img src="{escape(media)}" alt="{alt}" width="200"></a><br>',
             f'<strong><a href="{detail}">{title}</a></strong><br>',
             f'{author}<br><sub>{note}</sub><br>',
             f'<a href="{prompt}">{prompt_label}</a> · <a href="{source}">{source_label}</a>',

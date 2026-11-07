@@ -15,7 +15,7 @@
 
 Implementation and independent content/code review are complete. The review's prompt-provenance wording finding has been corrected. `python3 tools/verify.py` passed, including 120 archived media files, 175 generated-document link checks, archive fault injections, bilingual presentation guards, and generated-file freshness checks. Static HTML parsing also confirmed 95 evidence rows and 9 balanced disclosures in each README. Publication uses an isolated branch and draft PR.
 
-Browser visual QA is currently limited: local Chromium cannot open its required socket in this environment; the separate cloud browser cannot reach the local preview server. No browser-rendering pass is claimed.
+Live GitHub browser checks confirmed the icon, badges, GIF previews, and gallery jump link load correctly. Preview image width was reduced to fit the repository README beside its About sidebar. Local preview execution remains unavailable in this environment; mobile and dark-theme rendering are not yet claimed as tested.
 
 ## Boundaries
 

@@ -27,19 +27,19 @@ Independent community archive. Model labels are source claims, not independent v
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md"><img src="docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif" alt="Character sticker by Linger（Lightlyn Images）" width="240"></a><br>
+<a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md"><img src="docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif" alt="Character sticker by Linger（Lightlyn Images）" width="200"></a><br>
 <strong><a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md">Character sticker</a></strong><br>
 Linger（Lightlyn Images）<br><sub>Published mascot-animation prompt</sub><br>
 <a href="docs/cases/lightlyn-orange-cat-mascot-gif/prompt.md">Original prompt</a> · <a href="https://image.lightlyn.com/gpt-image-2-6?lang=en">Source</a>
 </td>
 <td align="center" width="33%">
-<a href="docs/cases/veevid-perfume-light-sweep-gif/README.md"><img src="docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif" alt="Product loop by Veevid Team" width="240"></a><br>
+<a href="docs/cases/veevid-perfume-light-sweep-gif/README.md"><img src="docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif" alt="Product loop by Veevid Team" width="200"></a><br>
 <strong><a href="docs/cases/veevid-perfume-light-sweep-gif/README.md">Product loop</a></strong><br>
 Veevid Team<br><sub>Fixed-camera light sweep</sub><br>
 <a href="docs/cases/veevid-perfume-light-sweep-gif/prompt.md">Original prompt</a> · <a href="https://veevid.ai/blog/gpt-image-2-6-gif">Source</a>
 </td>
 <td align="center" width="33%">
-<a href="docs/cases/ravivit-paper-boat-gif/README.md"><img src="docs/cases/ravivit-paper-boat-gif/media/01-gif.gif" alt="Paper-boat loop by ラビビット | AI活用メディア（Ravivit）" width="240"></a><br>
+<a href="docs/cases/ravivit-paper-boat-gif/README.md"><img src="docs/cases/ravivit-paper-boat-gif/media/01-gif.gif" alt="Paper-boat loop by ラビビット | AI活用メディア（Ravivit）" width="200"></a><br>
 <strong><a href="docs/cases/ravivit-paper-boat-gif/README.md">Paper-boat loop</a></strong><br>
 ラビビット | AI活用メディア（Ravivit）<br><sub>Source motion brief; verbatim wording unconfirmed</sub><br>
 <a href="docs/cases/ravivit-paper-boat-gif/prompt.md">Source motion brief</a> · <a href="https://note.com/ravivit_ai/n/nb8f40b5a21b9">Source</a>

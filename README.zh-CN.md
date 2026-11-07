@@ -27,19 +27,19 @@ Awesome GPT Image GIFs 收集全网 GPT Image GIF 真实案例、原作者、原
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md"><img src="docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif" alt="角色贴纸 by Linger（Lightlyn Images）" width="240"></a><br>
+<a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md"><img src="docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif" alt="角色贴纸 by Linger（Lightlyn Images）" width="200"></a><br>
 <strong><a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md">角色贴纸</a></strong><br>
 Linger（Lightlyn Images）<br><sub>公开的吉祥物动画提示词</sub><br>
 <a href="docs/cases/lightlyn-orange-cat-mascot-gif/prompt.md">原文提示词</a> · <a href="https://image.lightlyn.com/gpt-image-2-6?lang=en">出处</a>
 </td>
 <td align="center" width="33%">
-<a href="docs/cases/veevid-perfume-light-sweep-gif/README.md"><img src="docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif" alt="产品循环 by Veevid Team" width="240"></a><br>
+<a href="docs/cases/veevid-perfume-light-sweep-gif/README.md"><img src="docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif" alt="产品循环 by Veevid Team" width="200"></a><br>
 <strong><a href="docs/cases/veevid-perfume-light-sweep-gif/README.md">产品循环</a></strong><br>
 Veevid Team<br><sub>固定机位光线扫过</sub><br>
 <a href="docs/cases/veevid-perfume-light-sweep-gif/prompt.md">原文提示词</a> · <a href="https://veevid.ai/blog/gpt-image-2-6-gif">出处</a>
 </td>
 <td align="center" width="33%">
-<a href="docs/cases/ravivit-paper-boat-gif/README.md"><img src="docs/cases/ravivit-paper-boat-gif/media/01-gif.gif" alt="纸船循环 by ラビビット | AI活用メディア（Ravivit）" width="240"></a><br>
+<a href="docs/cases/ravivit-paper-boat-gif/README.md"><img src="docs/cases/ravivit-paper-boat-gif/media/01-gif.gif" alt="纸船循环 by ラビビット | AI活用メディア（Ravivit）" width="200"></a><br>
 <strong><a href="docs/cases/ravivit-paper-boat-gif/README.md">纸船循环</a></strong><br>
 ラビビット | AI活用メディア（Ravivit）<br><sub>来源动作描述，逐字原文未确认</sub><br>
 <a href="docs/cases/ravivit-paper-boat-gif/prompt.md">来源动作描述</a> · <a href="https://note.com/ravivit_ai/n/nb8f40b5a21b9">出处</a>
