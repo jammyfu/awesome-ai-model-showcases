@@ -1,26 +1,26 @@
 # Current plan
 
-**Goal:** Close the four P2 findings from the independent review of `7186396` (media itself passed). No new features. Do not merge main. Do not change GitHub Settings.
+**Goal:** Improve the bilingual repository landing page, visual identity, and contribution path without overstating source evidence or promising star growth.
 
-## Tasks
+## Scope
 
-1. [x] Real format detection for local media (ffprobe video stream/duration when present; ISO-BMFF parser otherwise). Pillow for images; GIF multi-frame per existing semantics. Manifest ok-count / bytes / case-attachment correspondence. Ingest rejects wrong content-type. HTML-as-MP4 fault injection must fail.
-2. [x] Prompt check compares archived `prompt.md` body to source/ideas/game verbatim text. Remove heading fallback. Unpublished prompts require the explicit empty marker. WRONG PROMPT fault injection must fail.
-3. [x] `attach_local` emits local detail/prompt links only when `docs/cases/<id>/` exists. Appendix / pending / seeds point at existing pages or sources. `verify` recursively checks generated local Markdown/HTML link targets.
-4. [x] Narrow Luffy wording: inventory has no attachment URL; article API attempt retrieved none; cannot assert the original longform has no media. Keep existing evidence; do not invent media.
-5. [x] Local `python3 tools/verify.py` including fault-injection tests (`verify ok` on `94ef9fb` / `28eddd6`; Python 3.12.3 / ffprobe 6.1.1).
-6. [x] CI on PR #2 green for commit `28eddd6183a6e0b8e2fcc7718b4a41a183d39ff9`: GitHub Actions run [42139299595](https://github.com/jammyfu/awesome-gpt-image-gifs/actions/runs/42139299595) success; validate job all steps succeeded. Mac mini Codex second independent review PASS (fault injections rejected; 175 generated docs, 0 dead links).
+- Lead with the project identity, useful examples, gallery access, and an easy case-submission link.
+- Keep all 43 main cases and every pending/appendix/seed record available; preserve authors, sources, media, and evidence.
+- Use the original icon only as branding, not as a catalog result.
+- Keep English and Chinese generated from shared data and editable presentation templates.
+- Distinguish original, short/partial, and unpublished prompt links.
+- Verify generated output, archive guards, links, and documentation before committing.
 
 ## Status
 
-Done. Local verify green, cloud CI green on `28eddd6`, Codex second review PASS. Do not merge main. Do not change GitHub Settings.
+Implementation and independent content/code review are complete. The review's prompt-provenance wording finding has been corrected. `python3 tools/verify.py` passed, including 120 archived media files, 175 generated-document link checks, archive fault injections, bilingual presentation guards, and generated-file freshness checks. Static HTML parsing also confirmed 95 evidence rows and 9 balanced disclosures in each README. Publication uses an isolated branch and draft PR.
 
-## Out of scope
+Live GitHub browser checks confirmed the icon, badges, GIF previews, and gallery jump link load correctly. Preview image width was reduced to fit the repository README beside its About sidebar. Local preview execution remains unavailable in this environment; mobile and dark-theme rendering are not yet claimed as tested.
 
-GitHub Settings, merging to main, pending-12 promotion, watching MP4s, generation features, autosync/heartbeat, unrelated features.
+## Boundaries
 
-## Next candidates
+Publish through a dedicated pull request and merge only after the final review and CI checks pass. Do not change GitHub Settings, the case inventory, media files, model-evidence status, rights, or generation features for this presentation task.
 
-1. Pending-12 review stays backlog.
-2. Optional visual review of unwatched MP4s; rights-takedown if an author asks.
-3. Merge only if the owner asks.
+## Prior work
+
+The previous archive-guard review is complete. Its recorded CI run remains [42139299595](https://github.com/jammyfu/awesome-gpt-image-gifs/actions/runs/42139299595); this redesign needs its own verification and CI results.

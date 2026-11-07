@@ -10,6 +10,8 @@ import json
 import os
 from pathlib import Path
 
+from readme_presentation import render_readme
+
 ROOT = Path(__file__).resolve().parents[1]
 X_SRC = ROOT / "playbooks/research/x-inventory.json"
 WEB_SRC = ROOT / "playbooks/research/web-inventory.json"
@@ -268,26 +270,38 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
         headers,
         "|---:|---|---|---|---|---|---|---|---|---|",
     ]
+    english = headers == HEADERS_EN
+    source_label = "Source" if english else "出处"
+    file_label = "File" if english else "文件"
     for i, r in enumerate(rows, 1):
-        src = f"[出处]({r['source_url']})" if r.get("source_url") else "—"
+        src = f"[{source_label}]({r['source_url']})" if r.get("source_url") else "—"
         if r.get("local_detail"):
-            label = "来源" if str(r["local_detail"]).startswith(("http://", "https://")) else "本地"
+            external = str(r["local_detail"]).startswith(("http://", "https://"))
+            label = ("Source" if external else "Case") if english else ("来源" if external else "案例")
             media = f"[{label}]({repo_href(r['local_detail'], from_file)})"
             if r.get("local_preview"):
-                media += f" · [文件]({repo_href(r['local_preview'], from_file)})"
+                media += f" · [{file_label}]({repo_href(r['local_preview'], from_file)})"
         elif r.get("source_url") and r.get("bucket") not in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME}:
             if r.get("media_url"):
                 media = f"[{r['media_kind'] or '来源'}]({r['media_url']})"
             else:
-                media = f"[出处]({r['source_url']})"
+                media = f"[{source_label}]({r['source_url']})"
         elif r.get("media_url"):
             media = f"[{r['media_kind']}]({r['media_url']})"
         else:
             media = "—"
+        status = r.get("prompt_status") or "空"
+        if status == "空":
+            prompt_label = "Unpublished" if english else "未公开"
+        elif status == "短/部分":
+            prompt_label = "Short / partial" if english else "短 / 部分"
+        elif status.startswith("有原文"):
+            prompt_label = "Original" if english else "原文"
+        else:
+            prompt_label = cell(status)
         prompt = (
-            f"[全文]({repo_href(r['local_prompt'], from_file)})"
-            if r.get("local_prompt")
-            else cell(r.get("prompt_status") or "空")
+            f"[{prompt_label}]({repo_href(r['local_prompt'], from_file)})"
+            if r.get("local_prompt") else prompt_label
         )
         lines.append(
             "| {i} | {author} | {title} | {src} | {media} | {prompt} | {model} | {pipe} | {verify} | {lic} |".format(
@@ -303,27 +317,10 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
                 model=cell(r.get("model_claim"), 40),
                 pipe=cell(r.get("pipeline"), 36),
                 verify=cell(r.get("verify"), 36),
-                lic="许可未知",
+                lic="Unknown" if english else "许可未知",
             )
         )
     return "\n".join(lines)
-
-
-def local_embed_block(rows: list[dict]) -> str:
-    bits = []
-    for r in rows:
-        path = r.get("local_preview") or ""
-        if not path:
-            continue
-        ext = Path(path).suffix.lower()
-        alt = f"{r['id']} by {r.get('author') or 'unknown'}"
-        if ext in {".gif", ".png", ".jpg", ".jpeg", ".webp"}:
-            bits.append(f'<a href="{r["local_detail"]}"><img src="{path}" alt="{alt}" width="220"></a>')
-        elif ext == ".mp4":
-            bits.append(f'<a href="{path}">{r["id"]} local MP4</a>')
-    if not bits:
-        return ""
-    return "<p>\n" + "\n".join(bits) + "\n</p>\n"
 
 
 def main() -> None:
@@ -630,7 +627,7 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    count_table = f"""| Bucket | Count | Not mixed into confirmed 2.6 success | Count |
+    count_table = f"""| Bucket | Count | Outside the main catalog | Count |
 |---|---:|---|---:|
 | X author-claimed 2.6 | **{c['x_author_claim_25']}** | Pending | {c['pending']} |
 | Non-X real GIFs | **{c['web_gif_12']}** | Prompt-only | {c['prompt_only']} |
@@ -638,7 +635,7 @@ def main() -> None:
 | Game author-claimed | **{c['game_author_claim']}** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | {c['appendix']} |
 | **Main total** | **{c['main_collected']}** | Repository seeds (local examples) | {c['repo_seeds']} |"""
 
-    count_table_zh = f"""| 主表 | 数 | 附表（不混入已确认 2.6 成功） | 数 |
+    count_table_zh = f"""| 主表 | 数 | 附表（不计入主表） | 数 |
 |---|---:|---|---:|
 | X 作者声明 2.6 | **{c['x_author_claim_25']}** | 待核 | {c['pending']} |
 | 非 X 真 GIF | **{c['web_gif_12']}** | 纯 prompt | {c['prompt_only']} |
@@ -646,206 +643,12 @@ def main() -> None:
 | 游戏 · 作者声明 | **{c['game_author_claim']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
 | **主表合计** | **{c['main_collected']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |"""
 
-    vis = """<!-- readme-tech-visualizer:start -->
-<p align="center"><img src="docs/readme-assets/hero-wide.png" alt="Awesome GPT Image GIFs — community case archive with local media and original prompts" width="100%"></p>
-<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome GPT Image GIFs" width="96" height="96"></p>
-<p align="center">
-<img src="https://img.shields.io/badge/cases-43-10131a?style=flat-square&labelColor=c2ff67" alt="43 cases">
-<img src="https://img.shields.io/badge/local_media-archived-10131a?style=flat-square&labelColor=c2ff67" alt="local media archived">
-<img src="https://img.shields.io/badge/prompts-verbatim_or_empty-10131a?style=flat-square&labelColor=c2ff67" alt="verbatim or empty prompts">
-<img src="https://img.shields.io/badge/license-MIT_code_only-10131a?style=flat-square&labelColor=c2ff67" alt="MIT covers source code only">
-</p>
-
-## Technical Snapshot
-
-### Tech Stack
-
-<img src="https://img.shields.io/badge/HTML-e34f26?style=flat-square&logo=html5&logoColor=white&logoWidth=20&height=24" alt="HTML">
-<img src="https://img.shields.io/badge/CSS-1572b6?style=flat-square&logo=css&logoColor=white&logoWidth=20&height=24" alt="CSS">
-<img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black&logoWidth=20&height=24" alt="JavaScript">
-<img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white&logoWidth=20&height=24" alt="Python">
-<img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white&logoWidth=20&height=24" alt="GitHub Pages">
-<img src="https://img.shields.io/badge/Pillow-3776ab?style=flat-square&logo=python&logoColor=white&logoWidth=20&height=24" alt="Pillow">
-
-### Engineering Capabilities
-
-- Static GitHub Pages case archive (no Images API at browse time)
-- Local media + verbatim prompt archival with source citations
-- Python validators and GitHub Actions CI
-
-<!-- readme-tech-visualizer:end -->
-"""
-
-    embed_x = local_embed_block(collected_x)
-    embed_web = local_embed_block(web_confirmed)
-    embed_in = local_embed_block(inrepo)
-    embed_game = local_embed_block(game_main)
-
     OUT_README.write_text(
-        f"""{vis}
-# Awesome GPT Image GIFs
-
-Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 work, not this repository's original playbook showcase.
-
-**Real cases · Local media · Original prompts · Sources**
-
-**Languages:** [English](README.md) · [简体中文](README.zh-CN.md) · [Catalog page EN](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) · [案例页 中文](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh) · [Case files](docs/cases/) · [Media manifest](docs/data/local-media-manifest.json)
-
-No other language editions are maintained. Appendix playbook pages are Chinese-first and are **not** a second synced catalog.
-
-Independent community project, not an OpenAI product. Current public inventory, not exhaustive web coverage. Each main-table case has a local folder with media, full original prompt, author, and source citation.
-
-## What is this repository?
-
-A library of **community original-author cases** for GPT Image / ChatGPT Images 2.6 (`gpt-image-2.6-sunburst` / `gpt-image-2.6-flare`): who made it, the original post, the real GIF or MP4, the public prompt (empty if unpublished; adaptations never impersonate the original), model evidence, native GIF vs sprite-slice/postprocess, and verification level.
-
-It is **not** a gallery of this repo's remake playbooks, SVG concept cards, or local seed GIFs.
-
-## What is in the current inventory?
-
-Numbers come from one JSON source: `docs/data/community-cases.json`. English and Chinese pages must not invent a second count.
-
-{count_table}
-
-Officially verified Image 2.6 game outputs: **0**. Author claim ≠ official verification. X items labeled GIF are usually unwatched MP4. This repo's 12 popular-GIF restages are **not** the headline number.
-
-## Is this an original playbook gallery?
-
-No. Original-character remakes, Morphic prompt cards (examples are not 2.6), and SVG covers live on [appendix pages](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html). Local seed GIFs are Appendix D only.
-
-## What can I do with this catalog?
-
-- Browse the [web catalog](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) (same data as this README)
-- Open **local** media and full prompts under `docs/cases/<id>/`
-- Copy **public original** prompts from the local `prompt.md` when the source published them
-- Use original URLs only as citations
-- Contribute another original-author case with source, media, prompt-or-empty, and model evidence
-
-## What can this repository not do?
-
-- It does not generate images or call the Images API at browse time
-- It does not claim exhaustive web coverage or official OpenAI verification
-- It does not claim an author grant or CC0 for archived third-party media
-- It does not treat SVG covers or this repo's `prompt_adaptation` as third-party originals
-- Appendix pages (ideas / popular remakes) are not fully English-synced; do not treat them as a parallel inventory
-
-{tables_en(OUT_README)}
-
-### Local media in this README
-
-{embed_web}
-{embed_x}
-{embed_in}
-{embed_game}
-
-## How do I browse locally?
-
-```bash
-git clone https://github.com/jammyfu/awesome-gpt-image-gifs.git
-cd awesome-gpt-image-gifs
-python3 -m http.server 8000 --directory docs
-# http://localhost:8000/?lang=en
-```
-
-## How do I submit a case?
-
-Add a community original-author row and archive media into `docs/cases/<id>/` (or open a PR with the original post, media, verbatim prompt or explicit empty, model evidence, pipeline, license-unknown note). Do not label SVG concepts or this repo's rewrites as third-party originals.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md).
-
-## What are the license boundaries?
-
-Source code is under the MIT license in `LICENSE`. That **does not** license third-party media, prompts, or likenesses. Archived files keep **license unknown**. This is not an author grant or CC0. Do not treat GitHub stars, traffic, or MIT as permission to reuse someone else's GIF.
-
-## Which languages are maintained?
-
-English (`README.md`) and Simplified Chinese (`README.zh-CN.md`) are complete and share one catalog. No Japanese or other README exists; do not fake a sync. Site language switch: `?lang=en` / `?lang=zh`.
-""",
+        render_readme("en", catalog=catalog, count_table=count_table, tables=tables_en(OUT_README)),
         encoding="utf-8",
     )
-
     OUT_README_ZH.write_text(
-        f"""{vis}
-# Awesome GPT Image GIFs
-
-Awesome GPT Image GIFs 收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。
-
-**真实案例 · 本地素材 · 原文 prompt · 出处**
-
-稳定英文名保持 **Awesome GPT Image GIFs**。这是社区 GPT Image 2.6 案例库，当前公开搜集核实清单完整入库，**不是穷尽全网**。
-
-**语言：** [English](README.md) · [简体中文](README.zh-CN.md) · [Catalog EN](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en) · [案例页 中文](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh) · [案例目录](docs/cases/) · [素材清单](docs/data/local-media-manifest.json)
-
-没有其他已维护的语言版本。玩法/热门附页以中文为主，**不假装**与英文总目是第二套同步目录。
-
-独立社区整理，非 OpenAI 官方。作者声明 ≠ 官方验证；X 标 GIF 多为未观看 MP4。主表媒体已本地归档，原 URL 只作出处。许可未知，不是作者授权或 CC0。
-
-## 这是什么仓库？
-
-收集 **GPT Image / ChatGPT Images 2.6**（`gpt-image-2.6-sunburst` / `gpt-image-2.6-flare`）的社区原作者真实案例：作者、原帖、真 GIF 或 MP4、公开原文 prompt（缺则空；改编不冒充原文）、模型依据、直出 GIF 还是 sprite 切帧/后处理、验证级别。
-
-**不是**本站原创复刻方案、SVG 概念卡或本地种子 GIF 展示。
-
-## 现在收集了哪些案例？
-
-数字只来自一份数据：`docs/data/community-cases.json`。中英页面不得各写一套互相冲突的数。
-
-{count_table_zh}
-
-官方验证的 Image 2.6 游戏成品：**0**。本项目热门 GIF 重演 12 案**不是**主数字。
-
-## 这是本站原创方案集吗？
-
-不是。原创角色重演、Morphic 提示词卡（示例非 2.6）、SVG 封面在 [附页](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html)。本地种子 GIF 只在附表 D。
-
-## 这个目录能做什么？
-
-- 打开 [网页总目录](https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh)（与本 README 同一份数据）
-- 打开 `docs/cases/<id>/` 里的**本地**媒体和完整 prompt
-- 在来源已公开时从本地 `prompt.md` 复制**原文** prompt
-- 原 URL 只当作出处引用
-- 提交新的原作者案例（出处、媒体、prompt 或标明空、模型依据）
-
-## 这个仓库做不到什么？
-
-- 浏览时不调用 Images API、不付费生成
-- 不宣称穷尽全网或官方验证
-- 不声称已获作者授权或 CC0
-- 不把 SVG 或本站 `prompt_adaptation` 标成第三方原文
-- 玩法/热门附页不是完整英文同步版，不能当成第二套案例数
-
-{tables_zh(OUT_README_ZH)}
-
-### 本 README 中的本地媒体
-
-{embed_web}
-{embed_x}
-{embed_in}
-{embed_game}
-
-## 如何本地浏览？
-
-```bash
-git clone https://github.com/jammyfu/awesome-gpt-image-gifs.git
-cd awesome-gpt-image-gifs
-python3 -m http.server 8000 --directory docs
-# http://localhost:8000/?lang=zh
-```
-
-## 如何提交案例？
-
-向 `docs/data/community-cases.json` 补社区原作者一行，并把素材归档进 `docs/cases/<id>/`（或 PR 附原帖、媒体、prompt 原文或标明空、模型依据、许可未知说明）。不要把 SVG 概念图、本站改编 prompt 标成第三方原文。
-
-详见 [CONTRIBUTING.md](CONTRIBUTING.md) · [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md)。
-
-## 许可边界是什么？
-
-源码见 `LICENSE` 的 MIT。这**不能**自动覆盖第三方媒体、提示词或肖像。入库素材保持**许可未知**。这不是作者授权，也不是 CC0。不要拿星数、访问量或 MIT 当可商用第三方 GIF 的许可。
-
-## 有哪些语言版本？
-
-英文 `README.md` 与简体中文 `README.zh-CN.md` 完整同步、共用一份目录。没有日文或其他 README，不假装同步。站点切换：`?lang=en` / `?lang=zh`。
-""",
+        render_readme("zh-CN", catalog=catalog, count_table=count_table_zh, tables=tables_zh(OUT_README_ZH)),
         encoding="utf-8",
     )
 
