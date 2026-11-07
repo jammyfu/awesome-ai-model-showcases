@@ -260,7 +260,7 @@ cd awesome-gpt-image-gifs
 python3 -m http.server 8000 --directory docs
 ```
 
-Open **http://localhost:8000/?lang=en**. Switch to `?lang=zh` for Chinese.
+Open **[http://localhost:8000/?lang=en](http://localhost:8000/?lang=en)**. Switch to `?lang=zh` for Chinese.
 
 <details>
 <summary><strong>For contributors: structure and validation</strong></summary>

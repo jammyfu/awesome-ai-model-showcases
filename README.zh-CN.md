@@ -260,7 +260,7 @@ cd awesome-gpt-image-gifs
 python3 -m http.server 8000 --directory docs
 ```
 
-打开 **http://localhost:8000/?lang=zh**，切换 `?lang=en` 可看英文。
+打开 **[http://localhost:8000/?lang=zh](http://localhost:8000/?lang=zh)**，切换 `?lang=en` 可看英文。
 
 <details>
 <summary><strong>贡献者：目录结构与验证</strong></summary>
