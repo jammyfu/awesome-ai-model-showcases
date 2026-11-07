@@ -71,6 +71,45 @@ def main() -> int:
     assert "<!-- readme-tech-visualizer:start -->" in readme
     assert "<!-- readme-tech-visualizer:end -->" in readme
     assert "<!-- readme-tech-visualizer:start -->" in readme_zh
+    # Presentation is generated, but evidence and prompt availability must survive.
+    from readme_presentation import FEATURED
+    from PIL import Image
+
+    expected_ids = {r["id"] for key, group in catalog.items() if isinstance(group, list) for r in group}
+    for blob, english in ((readme, True), (readme_zh, False)):
+        for cid in expected_ids:
+            assert f"`{cid}`" in blob, f"README dropped catalog evidence: {cid}"
+        assert blob.count("<details>") == blob.count("</details>") == 9
+        assert blob.index('<a id="showcase"></a>') < blob.index('<a id="catalog"></a>')
+        assert "hero-wide.png" not in blob, "Do not put the legacy hero ahead of the real examples"
+        assert "Technical Snapshot" not in blob
+        for cid, *_ in FEATURED:
+            assert f'docs/cases/{cid}/media/01-gif.gif' in blob
+            assert f'docs/cases/{cid}/prompt.md' in blob
+        for key in ("collected_x_author_claim", "collected_web_gif", "collected_already_in_repo", "collected_game_author_claim"):
+            for rec in catalog[key]:
+                rows = [line for line in blob.splitlines() if line.startswith("|") and f"`{rec['id']}`" in line]
+                assert len(rows) == 1, rec["id"]
+                if rec["prompt_status"] == "空":
+                    expected_label = "[Unpublished]" if english else "[未公开]"
+                    assert expected_label in rows[0], rec["id"]
+                elif rec["prompt_status"] == "短/部分":
+                    expected_label = "[Short / partial]" if english else "[短 / 部分]"
+                    assert expected_label in rows[0], rec["id"]
+    assert "Source motion brief" in readme and "来源动作描述" in readme_zh
+    assert "verbatim wording unconfirmed" in readme and "逐字原文未确认" in readme_zh
+    with Image.open(ROOT / "docs/readme-assets/project-icon.png") as icon:
+        assert icon.format == "PNG" and icon.width == icon.height
+        assert icon.mode == "RGBA" and icon.getchannel("A").getextrema()[0] == 0
+    # Cap only initial README GIF transfer, never alter archived media for presentation.
+    featured_bytes = 0
+    for cid, *_ in FEATURED:
+        media = ROOT / f"docs/cases/{cid}/media/01-gif.gif"
+        featured_bytes += media.stat().st_size
+        with Image.open(media) as gif:
+            assert gif.format == "GIF" and gif.n_frames > 1
+    assert featured_bytes < 5 * 1024 * 1024, featured_bytes
+
     assert "docs/cases/" in readme and "docs/cases/" in readme_zh
     assert "local media" in readme.lower() and "本地素材" in readme_zh
     assert "只外链" not in readme and "只外链" not in readme_zh

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Generate README hero/icon PNGs from the real stack. No SVG fallback. No paid API."""
+"""Regenerate the legacy hero only; never overwrite the approved project icon.
+
+The README uses docs/readme-assets/project-icon.png, an independently managed
+brand asset. See docs/readme-assets/README_SNIPPET.md.
+"""
 from __future__ import annotations
 
 from pathlib import Path
@@ -44,12 +48,8 @@ def main() -> None:
         x += w + 14
     img.save(OUT / "hero-wide.png", "PNG")
 
-    icon = Image.new("RGB", (256, 256), "#0d1018")
-    d = ImageDraw.Draw(icon)
-    d.rounded_rectangle((10, 10, 246, 246), radius=40, outline="#c2ff67", width=6)
-    d.text((78, 62), "G", font=font(140, True), fill="#c2ff67")
-    icon.save(OUT / "project-icon.png", "PNG")
-    print("wrote", OUT / "hero-wide.png", OUT / "project-icon.png")
+    print("wrote", OUT / "hero-wide.png", "(approved project-icon.png unchanged)")
+
 
 
 if __name__ == "__main__":
