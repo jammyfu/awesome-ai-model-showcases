@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import subprocess
+import shutil
 import sys
 from pathlib import Path
 
@@ -48,6 +49,12 @@ def main() -> int:
     run([py, str(ROOT / "tools/validate_community.py")])
     run([py, str(ROOT / "tools/validate_local_media.py")])
     run([py, str(ROOT / "tools/test_archive_guards.py")])
+    run([py, str(ROOT / "tools/test_catalog_expansion.py")])
+    node = shutil.which("node")
+    if node:
+        run([node, str(ROOT / "tools/test_case_gallery.cjs")])
+    else:
+        print("SKIP: gallery JavaScript smoke test requires optional Node.js", flush=True)
     run([py, str(ROOT / "tools/validate_markdown_links.py")])
     print("verify ok")
     return 0

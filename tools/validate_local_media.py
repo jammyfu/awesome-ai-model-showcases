@@ -142,7 +142,7 @@ def main() -> int:
     main_rows = []
     for key in MAIN_KEYS:
         main_rows.extend(catalog[key])
-    assert len(main_rows) == 43, len(main_rows)
+    assert len(main_rows) == catalog["meta"]["counts"]["main_collected"], len(main_rows)
 
     files = manifest.get("files") or []
     ok = [f for f in files if f.get("ok")]
@@ -153,8 +153,6 @@ def main() -> int:
     assert len(files) == counts.get("jobs"), (len(files), counts.get("jobs"))
     byte_sum = sum(int(f.get("bytes") or 0) for f in ok)
     assert byte_sum == counts.get("bytes"), (byte_sum, counts.get("bytes"))
-    assert len(ok) == 120, len(ok)
-    assert counts.get("x_dynamic_ok") == 42, counts.get("x_dynamic_ok")
 
     by_case: dict[str, list] = {}
     ok_by_url: dict[str, dict] = {}
@@ -164,7 +162,9 @@ def main() -> int:
         ok_by_url[f["source_url"]] = {**f, "_probe": info}
 
     x_urls = x_dynamic_urls(x_inv)
-    assert len(x_urls) == 42, len(x_urls)
+    manifest_x = [f for f in files if f.get("role") == "x-dynamic" and f["case_id"].startswith("x-")]
+    assert counts.get("x_dynamic_ok") == sum(bool(f.get("ok")) for f in manifest_x)
+    assert counts.get("x_dynamic_attempted") == len(manifest_x)
     missing_x = [u for u in x_urls if u not in ok_by_url]
     assert not missing_x, missing_x
     for url in x_urls:
@@ -223,7 +223,7 @@ def main() -> int:
     via = "ffprobe" if ffprobe_bin() else "iso-bmff"
     print(
         f"local media ok: {len(ok)} files, {len(by_case)} cases with files, "
-        f"42/42 X dynamics ({via}), 42/43 main cases have media, "
+        f"{len(x_urls)}/{len(x_urls)} X dynamics ({via}), {len(main_rows)-len(no_media)}/{len(main_rows)} main cases have media, "
         f"luffy documented miss (no attachment URL; API attempt retrieved none; "
         f"not an assertion the longform has none), {counts['bytes']} bytes"
     )

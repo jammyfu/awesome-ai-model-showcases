@@ -167,15 +167,16 @@ def from_web(item: dict) -> dict:
         source_url=item.get("source_url") or "",
         media_url=item.get("media_url") or "",
         media_kind=item.get("media_type") or "gif",
-        prompt_status=prompt_flag(item.get("prompt") or ""),
+        prompt_status=item.get("prompt_status") or prompt_flag(item.get("prompt") or ""),
         model_claim=item.get("model_claim") or "页面声称 2.6",
-        pipeline="原生 GIF 直链（Pillow 多帧已核）",
-        verify="页面模型依据 + GIF 多帧探测 · 未复测生成",
+        pipeline=item.get("pipeline") or "原生 GIF 直链（Pillow 多帧已核）",
+        verify=item.get("verification") or "页面模型依据 + GIF 多帧探测 · 未复测生成",
         play=item.get("playbook") or "",
         license_notes=item.get("license_conclusion") or "许可未知 · 本地归档（非作者授权、非 CC0）",
         extra={
             "original_prompt": item.get("prompt") or "",
             "frames": (item.get("media_verify") or {}).get("frames"),
+            **{key: item[key] for key in ("prompt_provenance", "license_label", "license_url", "model_evidence_url", "source_record_url", "visual_review_status") if item.get(key)},
         },
     )
 
@@ -238,7 +239,7 @@ def attach_local(rows: list[dict]) -> None:
             preview = next((f for f in files if f.get("ext") in {"gif", "png", "jpg", "jpeg", "webp"}), None)
             video = next((f for f in files if f.get("ext") == "mp4"), None)
             r["local_preview"] = (preview or video or {}).get("local_path") or ""
-            if r.get("bucket") in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME}:
+            if r.get("bucket") in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME} and not r.get("license_label"):
                 r["license_notes"] = "许可未知 · 本地归档（非作者授权、非 CC0）。MIT 只覆盖源码。"
             continue
         r["local_dir"] = ""
@@ -291,7 +292,11 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
         else:
             media = "—"
         status = r.get("prompt_status") or "空"
-        if status == "空":
+        if status == "source_only":
+            prompt_label = "Published at source" if english else "原文见来源"
+        elif status == "aggregator_only":
+            prompt_label = "Aggregator only" if english else "仅聚合页"
+        elif status == "空":
             prompt_label = "Unpublished" if english else "未公开"
         elif status == "短/部分":
             prompt_label = "Short / partial" if english else "短 / 部分"
@@ -301,7 +306,7 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
             prompt_label = cell(status)
         prompt = (
             f"[{prompt_label}]({repo_href(r['local_prompt'], from_file)})"
-            if r.get("local_prompt") else prompt_label
+            if r.get("local_prompt") else (f"[{prompt_label}]({r['prompt_url']})" if r.get("prompt_url") else prompt_label)
         )
         lines.append(
             "| {i} | {author} | {title} | {src} | {media} | {prompt} | {model} | {pipe} | {verify} | {lic} |".format(
@@ -317,7 +322,7 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
                 model=cell(r.get("model_claim"), 40),
                 pipe=cell(r.get("pipeline"), 36),
                 verify=cell(r.get("verify"), 36),
-                lic="Unknown" if english else "许可未知",
+                lic=cell(r.get("license_label") or ("Unknown" if english else "许可未知")),
             )
         )
     return "\n".join(lines)
@@ -374,12 +379,13 @@ def main() -> None:
                 source_url=c.get("source_url") or c.get("url") or "",
                 media_url=c.get("media_url") or "",
                 media_kind=c.get("media_type") or "unknown",
-                prompt_status=prompt_flag(c.get("prompt") or ""),
+                prompt_status=c.get("prompt_status") or prompt_flag(c.get("prompt") or ""),
                 model_claim=c.get("model_claim") or c.get("conclusion") or "候选/排除",
-                pipeline="不混入已收集主表",
+                pipeline=c.get("pipeline") or "不混入已收集主表",
                 verify=c.get("conclusion") or c.get("vs_baseline") or "候选/排除",
                 play=c.get("playbook") or "",
                 license_notes=c.get("license_conclusion") or "仅外链",
+                extra={key: c[key] for key in ("prompt_url", "evidence_url", "media_download_status", "source_reported", "notes", "measured_media", "media_urls", "post_urls", "evidence_date") if c.get(key)},
             )
         )
 
@@ -509,8 +515,8 @@ def main() -> None:
     catalog = {
         "meta": {
             "title": "GPT Image 2.6 社区真实案例收集库",
-            "updated": "2026-11-06",
-            "coverage": "当前公开搜集核实清单完整入库，不是穷尽全网。主表媒体已本地归档，原 URL 仅作出处。许可未知，不是作者授权或 CC0。媒体全部未观看。",
+            "updated": web.get("meta", {}).get("updated", "2026-11-06"),
+            "coverage": "当前公开搜集核实清单完整入库，不是穷尽全网。主表媒体已本地归档，原 URL 仅作出处。许可与视觉检查按条目标注；帧序列检查不等于完整播放或生成复现。",
             "not_exhaustive": True,
             "official_verified_26_game": 0,
             "counts": {},
@@ -537,10 +543,6 @@ def main() -> None:
         "repo_seeds": len(seeds),
         "main_collected": len(collected_x) + len(web_confirmed) + len(inrepo) + len(game_main),
     }
-    assert catalog["meta"]["counts"]["x_author_claim_25"] == 25, catalog["meta"]["counts"]
-    assert catalog["meta"]["counts"]["web_gif_12"] == 12
-    assert catalog["meta"]["counts"]["pending"] == 12
-    assert catalog["meta"]["counts"]["game_author_claim"] == 4  # daft fox xiaomo varg
 
     for group in (
         collected_x,
@@ -568,15 +570,15 @@ def main() -> None:
     def tables_zh(from_file: Path) -> str:
         return "\n\n".join(
             [
-                "## 1. X 作者声明 2.6（25 组，不按附件拆卡）",
+                f"## 1. X 作者声明 2.6（{len(collected_x)} 组，不按附件拆卡）",
                 md_table(collected_x, from_file=from_file),
-                "## 2. 非 X 真 GIF（12）",
+                f"## 2. 非 X 真 GIF（{len(web_confirmed)}）",
                 md_table(web_confirmed, from_file=from_file),
-                "## 3. 本仓已收录的社区长文 / 单帖（2）",
+                f"## 3. 本仓已收录的社区长文 / 单帖（{len(inrepo)}）",
                 md_table(inrepo, from_file=from_file),
-                "## 4. 游戏动作序列 · 作者声明（4，非官方验证）",
+                f"## 4. 游戏动作序列 · 作者声明（{len(game_main)}，非官方验证）",
                 md_table(game_main, from_file=from_file),
-                "## 附表 A · 待核（12）",
+                f"## 附表 A · 待核（{len(pending)}）",
                 md_table(pending, from_file=from_file),
                 "## 附表 B · 纯 prompt / 剔除",
                 md_table(prompt_only + excluded_x, from_file=from_file),
@@ -590,15 +592,15 @@ def main() -> None:
     def tables_en(from_file: Path) -> str:
         return "\n\n".join(
             [
-                "## 1. X author-claimed 2.6 (25 groups, not split by attachment)",
+                f"## 1. X author-claimed 2.6 ({len(collected_x)} groups, not split by attachment)",
                 md_table(collected_x, HEADERS_EN, from_file=from_file),
-                "## 2. Non-X real GIFs (12)",
+                f"## 2. Non-X real GIFs ({len(web_confirmed)})",
                 md_table(web_confirmed, HEADERS_EN, from_file=from_file),
-                "## 3. Already-in-repo community longform / posts (2)",
+                f"## 3. Already-in-repo community longform / posts ({len(inrepo)})",
                 md_table(inrepo, HEADERS_EN, from_file=from_file),
-                "## 4. Game action sequences — author-claimed (4, not officially verified)",
+                f"## 4. Game action sequences — author-claimed ({len(game_main)}, not officially verified)",
                 md_table(game_main, HEADERS_EN, from_file=from_file),
-                "## Appendix A — pending (12)",
+                f"## Appendix A — pending ({len(pending)})",
                 md_table(pending, HEADERS_EN, from_file=from_file),
                 "## Appendix B — prompt-only / rejected",
                 md_table(prompt_only + excluded_x, HEADERS_EN, from_file=from_file),
@@ -667,16 +669,16 @@ A sourced catalog of original-author GPT Image 2.6 cases (post, real GIF/MP4, pr
 Main collected {c['main_collected']} = X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
 
 ## What can I do with it?
-Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open local media and full prompts under docs/cases/<id>/. Copy public original prompts only. Original URLs are citations. Submit cases. Do not treat SVG or prompt_adaptation as originals.
+Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG or prompt_adaptation as originals.
 
 ## What can it not do?
-No Images API at browse time. No paid generation. No author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
+No Images API at browse time. No paid generation. No blanket author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
 ## Which languages are maintained?
 English README.md and Simplified Chinese README.zh-CN.md. No other README editions.
 
 ## License boundaries
-MIT covers source code only. Archived third-party media remains license-unknown. Not an author grant or CC0.
+MIT covers source code only. Third-party media remains license-unknown unless a specific source grant is recorded. Follow per-case attribution; no blanket grant or CC0 claim.
 
 ## Canonical URLs
 - https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en

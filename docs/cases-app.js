@@ -51,6 +51,21 @@
     if (!url) return '—';
     return `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`;
   }
+  function promptLabel(r, d) {
+    const status = r.prompt_status || '';
+    if (status === 'source_only') return d.promptAtSource || 'Published at source';
+    if (status === 'aggregator_only') return d.promptAggregator || 'Aggregator only';
+    if (status === '空') return d.promptUnpublished || 'Unpublished';
+    if (status === '短/部分') return d.promptPartial || 'Short / partial';
+    if (status.startsWith('有原文')) return d.promptOriginal || 'Original';
+    return status || d.promptFull || 'prompt';
+  }
+  function promptCell(r, d) {
+    const label = promptLabel(r, d);
+    if (r.local_prompt) return link(r.local_prompt.replace(/^docs\//, ''), label, true);
+    if (r.prompt_url) return link(r.prompt_url, label);
+    return esc(label);
+  }
   function mediaCell(r, d) {
     const files = Array.isArray(r.local_files) ? r.local_files : [];
     const first = files.find((f) => f.ext === 'gif') || files.find((f) => ['png', 'jpg', 'jpeg', 'webp'].includes(f.ext)) || files.find((f) => f.ext === 'mp4');
@@ -67,7 +82,7 @@
     }
     const bits = [preview];
     if (page) bits.push(link(page.replace(/^docs\//, ''), d.local || 'local', true));
-    if (prompt) bits.push(link(prompt.replace(/^docs\//, ''), d.promptFull || 'prompt', true));
+    if (prompt) bits.push(promptCell(r, d));
     if (r.source_url) bits.push(link(r.source_url, d.cite || 'source'));
     return bits.filter(Boolean).join('<br>') || '—';
   }
@@ -108,11 +123,11 @@
       <td><div class="case-title">${esc(r.title)}</div><div class="case-id">${esc(r.id)}</div></td>
       <td>${link(r.source_url, d.post || 'source')}</td>
       <td>${mediaCell(r, d)}</td>
-      <td>${r.local_prompt ? link(r.local_prompt.replace(/^docs\//, ''), d.promptFull || (r.prompt_status || 'prompt'), true) : esc(r.prompt_status)}</td>
+      <td>${promptCell(r, d)}</td>
       <td>${esc((r.model_claim || '').slice(0, 48))}</td>
       <td>${esc(r.pipeline)}</td>
       <td>${esc(r.verify)}</td>
-      <td>${esc(d.licenseUnknown || 'license unknown')}</td>
+      <td>${r.license_label && r.license_url ? link(r.license_url, r.license_label) : esc(d.licenseUnknown || 'license unknown')}</td>
     </tr>`).join('');
   }
   if (search) search.addEventListener('input', render);

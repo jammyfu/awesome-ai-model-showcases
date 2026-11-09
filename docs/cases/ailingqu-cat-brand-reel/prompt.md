@@ -1,0 +1,5 @@
+# Original prompt
+
+Published prompt body by ailingqu from https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/prompts.json . The source describes its prompts as rewrites inspired by the web; this is not claimed as the upstream author's verbatim prompt. The repository script's loop suffix is documented separately in post.md, not added to this original prompt body. No exact historical submitted request has been independently verified. / 以下仅为 ailingqu 公开提示词正文；脚本后缀单独列出，实际提交请求未独立核实。
+
+A quick-cut brand reel for a fictional cat food brand called "MEOWBITE". The same flat dark-brown cat-head logo — round face, two short pointed ears, cream almond eyes, short whiskers — stays fixed at the center of every frame while everything around it changes: an orange full-bleed poster, a pink pouch of cat food, a blue ceramic cat bowl seen from above, a kraft shipping box, a round sticker, and a final dark frame with the word MEOWBITE in big cream letters. Bold graphic design, flat colors, citrus orange, cream and dark brown palette.

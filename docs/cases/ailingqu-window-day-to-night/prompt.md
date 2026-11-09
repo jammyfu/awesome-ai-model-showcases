@@ -1,0 +1,5 @@
+# Original prompt
+
+Published prompt body by ailingqu from https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/prompts.json . The source describes its prompts as rewrites inspired by the web; this is not claimed as the upstream author's verbatim prompt. The repository script's loop suffix is documented separately in post.md, not added to this original prompt body. No exact historical submitted request has been independently verified. / 以下仅为 ailingqu 公开提示词正文；脚本后缀单独列出，实际提交请求未独立核实。
+
+A girl with a short bob reading a book on a cushion by a big window, seen from the side. Outside the window the sky cycles from bright morning blue to orange sunset to a starry night and back to morning, while the room light warms up and a desk lamp switches on at night. Soft flat illustration, calm and cozy.

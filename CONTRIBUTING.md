@@ -36,7 +36,7 @@ git add <reviewed-files>
 python3 tools/verify.py
 ```
 
-The freshness checks compare generated working files with the Git index, so un-staged intentional generated changes will fail. Python + Pillow are required; install ffmpeg to use the same MP4 stream checks as CI. Without `ffprobe`, the local ISO-BMFF fallback has narrower coverage.
+The freshness checks compare generated working files with the Git index, so un-staged intentional generated changes will fail. Python + Pillow are required; Node.js also runs the optional gallery JavaScript smoke test (explicitly skipped when unavailable); install ffmpeg to use the same MP4 stream checks as CI. Without `ffprobe`, the local ISO-BMFF fallback has narrower coverage.
 
 6. Describe the source, prompt status, rights status, changed files, and validation results in your PR. A UI/docs change should include a preview when useful.
 
