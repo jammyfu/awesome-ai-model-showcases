@@ -38,13 +38,19 @@ def main() -> int:
     about = json.loads((ROOT / "docs/github-about.json").read_text(encoding="utf-8"))
     counts = catalog["meta"]["counts"]
 
-    assert counts["x_author_claim_25"] == 25, counts
-    assert counts["web_gif_12"] == 12, counts
-    assert counts["pending"] == 12, counts
-    assert counts["already_in_repo"] == 2, counts
-    assert counts["game_author_claim"] == 4, counts
-    assert counts["main_collected"] == 43, counts
-    assert counts["repo_seeds"] == 6, counts
+    x_source = json.loads((ROOT / "playbooks/research/x-inventory.json").read_text())
+    web_source = json.loads((ROOT / "playbooks/research/web-inventory.json").read_text())
+    assert counts["x_author_claim_25"] == len(x_source["author_claim_media_meta_checked"]), counts
+    assert counts["web_gif_12"] == len(web_source["confirmed_entries"]), counts
+    assert counts["pending"] == len(x_source["pending_verification"]), counts
+    keys = ("collected_x_author_claim", "collected_web_gif", "collected_already_in_repo", "collected_game_author_claim")
+    assert counts["main_collected"] == sum(len(catalog[key]) for key in keys), counts
+    assert counts["already_in_repo"] == len(catalog["collected_already_in_repo"]), counts
+    assert counts["game_author_claim"] == len(catalog["collected_game_author_claim"]), counts
+    assert counts["repo_seeds"] == len(catalog["repo_seeds"]), counts
+    ids = [r["id"] for group in catalog.values() if isinstance(group, list) for r in group]
+    assert len(ids) == len(set(ids)), "Duplicate catalog IDs"
+    assert {r["id"] for r in catalog["collected_web_gif"]} == {r["id"] for r in web_source["confirmed_entries"]}
     assert "window.COMMUNITY_CASES" in js
     assert catalog["meta"]["not_exhaustive"] is True
     assert catalog["meta"]["official_verified_26_game"] == 0

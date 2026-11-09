@@ -15,3 +15,9 @@
 **Morphic stills and sheets:** Morphic prompt-library images were made with GPT Image 2.5 / Ideogram Vector. They are not Images 2.6 outputs.
 
 If you own material here and have a rights concern, open a GitHub Issue to request review or removal.
+
+## Documented grant: ailingqu examples
+
+The eight `ailingqu-*` cases added in this expansion contain unmodified GIF files and published prompt bodies by [ailingqu / awesome-ai-gif-prompts](https://github.com/ailingqu/awesome-ai-gif-prompts/tree/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2). The source [explicitly licenses prompts and example GIFs](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). A [copy of the license text](docs/licenses/ailingqu-CC-BY-4.0.txt) is retained. Each case identifies credit, original source, license, and our added bilingual annotations. No endorsement or rights to unrelated third-party marks or likenesses are implied.
+
+这八例的 GIF 与公开提示词正文保持原样，署名 ailingqu / awesome-ai-gif-prompts，遵循 CC BY 4.0；本仓增加双语说明与核验元数据。该许可不扩展至其他来源，也不证明底层模型或所有第三方权利。

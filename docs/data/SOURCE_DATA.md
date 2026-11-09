@@ -13,15 +13,18 @@ Research inputs:
 Local archive:
 
 - `docs/cases/<id>/media/` original files, original extensions
-- `docs/cases/<id>/prompt.md` full original prompt (or explicit unpublished)
+- `docs/cases/<id>/prompt.md` published prompt text/excerpt (or explicit unpublished marker)
 - `docs/cases/<id>/post.md` original post / process notes
 - `docs/data/local-media-manifest.json` path, source URL, author, post, sha256, date, type, bytes
 
 Rules:
 
-- Main table = X25 + web12 + Luffy/Krouxzz + 4 game author-claims. Do not mix promo / 2.5 / multimodel / failure.
+- Main table = source-supported X cases + measured web GIFs + community longform + game author-claims. Counts follow the current inventories. Do not mix promo / 2.5 / multimodel / failure.
 - Cover every attachment URL already in the inventories, including replies/quotes already listed.
 - Incremental ingest: `python3 tools/ingest_local_media.py` skips files whose sha256 still matches.
 - Failures go in `playbooks/local-media-missing.md`. Do not skip silently.
 - X `animated_gif` stays `.mp4`.
-- License unknown. Not an author grant. MIT covers source code only.
+- Default license unknown. An explicit grant must cover the specific media/prompts; preserve author credit, source, license link, and modification notice. MIT covers source code only.
+- Set explicit `prompt_status` for excerpts or links. `source_only` means published at source; `aggregator_only` means original-post provenance remains unchecked.
+- Frame-sheet review is not playback or model authentication. Keep measured media metadata separate from source-reported fields and date historical observations.
+- Count keys `x_author_claim_25` and `web_gif_12` retain legacy names for reader compatibility; suffixes are not current totals.

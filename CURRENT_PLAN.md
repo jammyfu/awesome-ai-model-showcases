@@ -1,26 +1,21 @@
 # Current plan
 
-**Goal:** Improve the bilingual repository landing page, visual identity, and contribution path without overstating source evidence or promising star growth.
+**Goal:** Expand the sourced community GIF catalog while preserving prompt provenance, license scope, and the difference between file verification and model authentication.
 
 ## Scope
 
-- Lead with the project identity, useful examples, gallery access, and an easy case-submission link.
-- Keep all 43 main cases and every pending/appendix/seed record available; preserve authors, sources, media, and evidence.
-- Use the original icon only as branding, not as a catalog result.
-- Keep English and Chinese generated from shared data and editable presentation templates.
-- Distinguish original, short/partial, and unpublished prompt links.
-- Verify generated output, archive guards, links, and documentation before committing.
+- Add eight CC BY 4.0 GIFs and their source's published prompt bodies, using immutable source links.
+- Retain all previous 95 records and 120 media files; add 26 source-linked candidates outside the main table.
+- Keep script-derived suffixes distinct from historical requests. Four source records name a website provider; four do not name a provider.
+- Preserve source licenses and prompt scope in case pages, bilingual READMEs, and the gallery.
+- Revalidate source inventories, hashes, actual media formats, generated output, links, and UI rendering logic.
 
 ## Status
 
-Implementation and independent content/code review are complete. The review's prompt-provenance wording finding has been corrected. `python3 tools/verify.py` passed, including 120 archived media files, 175 generated-document link checks, archive fault injections, bilingual presentation guards, and generated-file freshness checks. Static HTML parsing also confirmed 95 evidence rows and 9 balanced disclosures in each README. Publication uses an isolated branch and draft PR.
+Implementation, fresh independent source/code review, and local verification are complete. The eight GIF files were freshly decoded, hash-checked, and reviewed as frame contact sheets on 2026-11-09. The unified verification passed for 51 main cases, 128 media files, 42 X dynamic attachments, 207 generated-document links, Python regression guards and the gallery JavaScript smoke test. Candidate evidence is dated 2026-11-07 and is not presented as a new media check. No paid generation or independent model reproduction has been performed.
 
-Live GitHub browser checks confirmed the icon, badges, GIF previews, and gallery jump link load correctly. Preview image width was reduced to fit the repository README beside its About sidebar. Local preview execution remains unavailable in this environment; mobile and dark-theme rendering are not yet claimed as tested.
+## Publication
 
-## Boundaries
+Publish a dedicated pull request, complete review and CI against its exact head, then merge under the owner's explicit instruction. Confirm the main commit and its validation/Pages runs afterward.
 
-Publish through a dedicated pull request and merge only after the final review and CI checks pass. Do not change GitHub Settings, the case inventory, media files, model-evidence status, rights, or generation features for this presentation task.
-
-## Prior work
-
-The previous archive-guard review is complete. Its recorded CI run remains [42139299595](https://github.com/jammyfu/awesome-gpt-image-gifs/actions/runs/42139299595); this redesign needs its own verification and CI results.
+See [the source report](playbooks/research/expansion-2026-11-09.md) for accepted cases and candidate restrictions.

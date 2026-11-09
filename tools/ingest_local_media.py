@@ -7,6 +7,7 @@ License remains unknown; MIT still covers source code only.
 from __future__ import annotations
 
 import hashlib
+from html import escape
 import json
 import mimetypes
 import re
@@ -132,6 +133,7 @@ def download_one(item: dict) -> dict:
         "ok": False,
         "error": "",
         "skipped_unchanged": False,
+        **{key: item[key] for key in ("license_label", "license_url") if item.get(key)},
     }
     prev = PREV.get(url)
     if prev:
@@ -202,9 +204,12 @@ def case_docs(case_id: str, meta: dict, files: list[dict]) -> None:
     d = CASES / case_id
     d.mkdir(parents=True, exist_ok=True)
     prompt = (meta.get("original_prompt") or "").strip()
+    license_text = meta.get("license_notes") or "License unknown. Archived locally at the user's request. MIT covers repo source code only. This is not an author grant or CC0."
+    provenance = meta.get("prompt_provenance") or ""
     write_text(
         d / "prompt.md",
-        "# Original prompt\n\n"
+        ("# Published prompt excerpt\n\n" if meta.get("prompt_status") == "短/部分" else "# Original prompt\n\n")
+        + (provenance + "\n\n" if provenance else "")
         + (prompt if prompt else "（原文未公开 / original prompt not published）\n"),
     )
     post_bits = [
@@ -229,7 +234,7 @@ def case_docs(case_id: str, meta: dict, files: list[dict]) -> None:
         "",
         meta.get("notes") or "",
     ]
-    write_text(d / "post.md", "\n".join(post_bits) + "\n")
+    write_text(d / "post.md", "\n".join(line.rstrip() for line in "\n".join(post_bits).splitlines()).rstrip() + "\n")
     media_md = []
     for f in files:
         if not f.get("ok"):
@@ -256,7 +261,7 @@ def case_docs(case_id: str, meta: dict, files: list[dict]) -> None:
                 "",
                 f"Pipeline: {meta.get('pipeline')} · Verification: {meta.get('verify')}",
                 "",
-                "License: **unknown**. Archived locally at the user's request. MIT covers repo source code only. This is not an author grant or CC0.",
+                license_text,
                 "",
                 "## Media",
                 "",
@@ -264,7 +269,7 @@ def case_docs(case_id: str, meta: dict, files: list[dict]) -> None:
                 "",
                 "## Prompt",
                 "",
-                "See [prompt.md](prompt.md) for the full original text (empty if unpublished).",
+                "See [prompt.md](prompt.md) for published text, its scope, or an explicit unpublished marker.",
                 "",
                 "## Post / process",
                 "",
@@ -294,11 +299,12 @@ def case_docs(case_id: str, meta: dict, files: list[dict]) -> None:
 <h1>{meta.get('title') or case_id}</h1>
 <p>Author: {meta.get('author')} · <a href="{meta.get('source_url') or '#'}">original source</a></p>
 <p>{meta.get('model_claim')}<br>{meta.get('pipeline')} · {meta.get('verify')}</p>
-<p>License unknown. Local archive, not an author grant. MIT covers source code only.</p>
+<p>{escape(license_text)}</p>
 <h2>Media</h2>
 {''.join(embeds) or '<p>No local media.</p>'}
 <h2>Prompt</h2>
-<pre>{(meta.get('original_prompt') or '（原文未公开）').replace('<','&lt;')}</pre>
+<p>{escape(provenance)}</p>
+<pre>{escape(meta.get('original_prompt') or '（原文未公开）')}</pre>
 <p><a href="prompt.md">prompt.md</a> · <a href="post.md">post.md</a> · <a href="README.md">README.md</a></p>
 </body></html>
 """,
@@ -378,11 +384,14 @@ def jobs_from_sources() -> tuple[list[dict], dict]:
             "author": e.get("author"),
             "source_url": e.get("source_url"),
             "model_claim": e.get("model_claim") or "",
-            "pipeline": "原生 GIF 直链（已本地归档）",
-            "verify": "页面模型依据 + GIF 多帧探测 · 未复测生成",
+            "pipeline": e.get("pipeline") or "原生 GIF 直链（已本地归档）",
+            "verify": e.get("verification") or "页面模型依据 + GIF 多帧探测 · 未复测生成",
             "workflow": "",
             "play": e.get("playbook") or "",
-            "notes": e.get("vs_baseline") or "",
+            "notes": e.get("notes") or e.get("vs_baseline") or "",
+            "license_notes": e.get("license_conclusion") if e.get("license_label") else None,
+            "license_label": e.get("license_label"), "license_url": e.get("license_url"),
+            "prompt_status": e.get("prompt_status"), "prompt_provenance": e.get("prompt_provenance"),
             "original_prompt": e.get("prompt") or "",
             "group": "web",
         }
@@ -522,6 +531,10 @@ def jobs_from_sources() -> tuple[list[dict], dict]:
             if text:
                 m["post_text"] = text
 
+    for job in jobs:
+        for key in ("license_label", "license_url"):
+            if meta[job["case_id"]].get(key):
+                job[key] = meta[job["case_id"]][key]
     return jobs, meta
 
 
@@ -563,7 +576,7 @@ def main() -> None:
     missing = [r for r in results if not r["ok"]]
     manifest = {
         "downloaded_at": DOWNLOADED_AT,
-        "license_note": "License unknown. Local archive at user request. Not an author grant or CC0. MIT covers source code only.",
+        "license_note": "MIT covers source code only. Licenses recorded per case, default unknown. No blanket grant or CC0.",
         "counts": {
             "jobs": len(uniq),
             "ok": sum(1 for r in results if r["ok"]),
