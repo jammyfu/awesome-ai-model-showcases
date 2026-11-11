@@ -9,7 +9,7 @@ from media_policy import ROOT, grants, is_public_asset, public_docs_paths
 def main():
     for path in grants():
         assert is_public_asset(path), f'Missing or changed bytes for approved asset: {path}'
-    paths=[*ROOT.glob('README*.md'),ROOT/'playbooks/community-cases.md',*ROOT.glob('collections/*/README*.md'),*ROOT.glob('docs/**/*.html'),ROOT/'docs/showcase-index.md',*ROOT.glob('docs/cases/*/README.md')]
+    paths=[*ROOT.glob('README*.md'),*ROOT.glob('docs/catalog.*.md'),ROOT/'playbooks/community-cases.md',*ROOT.glob('collections/*/README*.md'),*ROOT.glob('docs/**/*.html'),ROOT/'docs/showcase-index.md',*ROOT.glob('docs/cases/*/README.md')]
     for path in paths: check_references(path,ROOT)
     catalog=json.loads((ROOT/'docs/data/community-cases.json').read_text())
     for group in catalog.values():

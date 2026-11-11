@@ -54,6 +54,10 @@ def main() -> int:
             "docs/llms.txt",
             "docs/github-about.json",
             "docs/showcase-index.md",
+            "docs/catalog.en.md",
+            "docs/catalog.zh-CN.md",
+            "docs/catalog.zh-TW.md",
+            "docs/catalog.ja.md",
             "data/showcase-index.json",
             "docs/missing-thumbnails.md",
             "docs/missing-videos.md",
@@ -66,6 +70,7 @@ def main() -> int:
     run([py, str(ROOT / "tools/validate_local_media.py")])
     run([py, str(ROOT / "tools/test_archive_guards.py")])
     run([py, str(ROOT / "tools/test_catalog_expansion.py")])
+    run([py, str(ROOT / "tools/test_readme_presentation.py")])
     run([py, str(ROOT / "tools/test_public_media.py")])
     run([py, str(ROOT / "tools/test_public_catalog.py")])
     run([py, str(ROOT / "tools/test_case_media_pages.py")])

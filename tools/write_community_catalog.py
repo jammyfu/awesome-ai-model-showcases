@@ -15,6 +15,9 @@ from case_localization import attach_translations, localized, translation_link, 
 
 from readme_presentation import (
     FAMILY_TITLE,
+    VERSION_ORDER,
+    _date_desc,
+    version_anchor,
     TYPE_INDEX_LABEL,
     TYPE_ORDER,
     UI,
@@ -176,12 +179,12 @@ EN_LEAD = (
     "Awesome AI Model Showcases collects real public production cases from the latest large models "
     "(Claude Fable 5.2 / Mythos 5.2, Gemini 4 Argon / Carbon, GPT-6.2 Sol, Grok, Qwen, DeepSeek, and others) "
     "and from the previous generation that is still mainstream: GIFs, animations, HTML and game demos, and images, "
-    "each with the original post, author, published prompt, and method."
+    "with creator credits, source links, available prompts or explicit missing markers, and recorded methods."
 )
 ZH_LEAD = (
     "AI 模型制作案例集收录最新一代大模型（Claude Fable 5.2 / Mythos 5.2、Gemini 4 Argon / Carbon、"
     "GPT-6.2 Sol、Grok、Qwen、DeepSeek 等）以及上一代仍在主流使用的模型的真实制作案例："
-    "动图、动画、HTML / 游戏 demo、图像；每条都附原帖、作者、公开的提示词和做法"
+    "动图、动画、HTML / 游戏 demo、图像；保留原帖、作者、可获得的提示词或未公开标记，以及已记录的做法"
 )
 
 BUCKET_MAIN = "collected_author_claim_26"
@@ -665,7 +668,14 @@ def write_showcase(catalog: dict) -> None:
     type_lines = []
     for key in TYPE_ORDER:
         ids = [rec["id"] for rec in records if rec.get("work_type") == key]
-        type_lines.append(f"- **{TYPE_INDEX_LABEL[key]}** ({len(ids)}): " + ", ".join(f"`{cid}`" for cid in ids))
+        type_lines.append(f'<a id="{key}"></a>')
+        type_lines.append(f"### {TYPE_INDEX_LABEL[key]} ({len(ids)})")
+        for rec in records:
+            if rec["id"] in ids:
+                type_lines.append(f"- [{cell(rec['title'])}](translations/{rec['id']}.md#zh-cn) · {FAMILY_TITLE[rec['model_family']]}")
+        if not ids:
+            type_lines.append("暂无此标签案例 / No cases with this tag.")
+        type_lines.append("")
     OUT_INDEX_MD.write_text(
         "\n".join(
             [
@@ -1020,7 +1030,7 @@ def main() -> None:
 
     c = catalog["meta"]["counts"]
 
-    def tables_for(lang: str, from_file: Path) -> str:
+    def tables_for(lang: str, from_file: Path, *, version_sections: bool = False) -> str:
         headers = HEADERS_FOR[lang]
         note = sol_note(catalog, lang)
         empty = {
@@ -1068,9 +1078,19 @@ def main() -> None:
                 parts.append(f"## 家族 · {zh} — {versions}（{len(rows)}）")
             else:
                 parts.append(f"## Family · {name} — {versions} ({len(rows)})")
+            if version_sections:
+                parts.insert(len(parts) - 1, f'<a id="{fid}"></a>')
             if fid == "gpt-code":
                 parts.append(f"> {note}")
-            parts.append(md_table(rows, headers, from_file=from_file, lang=lang) if rows else empty.format(versions=versions))
+            if version_sections:
+                for version in VERSION_ORDER[fid]:
+                    version_rows = _date_desc([r for r in rows if r.get("model_version") == version])
+                    if not version_rows and version != "claude-mythos-5.2":
+                        continue
+                    parts.extend([f'<a id="{version_anchor(version)}"></a>', f"### {VERSION_LABEL[version]} ({len(version_rows)})"])
+                    parts.append(md_table(version_rows, headers, from_file=from_file, lang=lang) if version_rows else empty.format(versions=VERSION_LABEL[version]))
+            else:
+                parts.append(md_table(rows, headers, from_file=from_file, lang=lang) if rows else empty.format(versions=versions))
         appendix_rows = (pending, prompt_only + excluded_x, catalog["appendix"], seeds)
         for heading, rows in zip(appendix, appendix_rows):
             parts.append(heading)
@@ -1100,45 +1120,6 @@ def main() -> None:
         ),
         encoding="utf-8",
     )
-
-    count_tables = {
-        "en": f"""| Model family / bucket | Count | Outside the main catalog | Count |
-|---|---:|---|---:|
-| Claude (Fable 5.2 / Mythos 5.2 / Opus 5.5) | **{c['family_claude']}** | Pending | {c['pending']} |
-| Gemini (4 Carbon / 4 Argon) | **{c['family_gemini']}** | Prompt-only | {c['prompt_only']} |
-| GPT-6.2 Sol / Astra (code; public docs still say GPT-6.1 Sol) | **{c['family_gpt-code']}** | Duplicate/rejected | {c['excluded']} |
-| Grok (4.7 / Imagine) | **{c['family_grok']}** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | {c['appendix']} |
-| Qwen (3.8) | **{c['family_qwen']}** | Repository seeds (local examples) | {c['repo_seeds']} |
-| DeepSeek (V4.1 Flash) | **{c['family_deepseek']}** | | |
-| **Homepage total** | **{c['main_collected']}** | | |""",
-        "zh-CN": f"""| 模型家族 / 分栏 | 数 | 附表（不计入主表） | 数 |
-|---|---:|---|---:|
-| Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 待核 | {c['pending']} |
-| Gemini（4 Carbon / 4 Argon） | **{c['family_gemini']}** | 纯 prompt | {c['prompt_only']} |
-| GPT-6.2 Sol / Astra（代码；公开文档仍写 GPT-6.1 Sol） | **{c['family_gpt-code']}** | 重复/不合格 | {c['excluded']} |
-| Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
-| Qwen（3.8） | **{c['family_qwen']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |
-| DeepSeek（V4.1 Flash） | **{c['family_deepseek']}** | | |
-| **首页合计** | **{c['main_collected']}** | | |""",
-        "zh-TW": f"""| 模型家族 / 分欄 | 數 | 附表（不計入主表） | 數 |
-|---|---:|---|---:|
-| Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 待核 | {c['pending']} |
-| Gemini（4 Carbon / 4 Argon） | **{c['family_gemini']}** | 純 prompt | {c['prompt_only']} |
-| GPT-6.2 Sol / Astra（程式；公開文件仍寫 GPT-6.1 Sol） | **{c['family_gpt-code']}** | 重複/不合格 | {c['excluded']} |
-| Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣傳 / 多模型 / 失敗 / Morphic / 非X候選 | {c['appendix']} |
-| Qwen（3.8） | **{c['family_qwen']}** | 倉庫種子（本倉示例） | {c['repo_seeds']} |
-| DeepSeek（V4.1 Flash） | **{c['family_deepseek']}** | | |
-| **首頁合計** | **{c['main_collected']}** | | |""",
-        "ja": f"""| モデルファミリー | 件数 | 主表の外 | 件数 |
-|---|---:|---|---:|
-| Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 未確認 | {c['pending']} |
-| Gemini（4 Carbon / 4 Argon） | **{c['family_gemini']}** | プロンプトのみ | {c['prompt_only']} |
-| GPT-6.2 Sol / Astra（コード。公開文書は GPT-6.1 Sol） | **{c['family_gpt-code']}** | 重複 / 不採用 | {c['excluded']} |
-| Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣伝 / 複数モデル / 失敗 / Morphic / X 以外の候補 | {c['appendix']} |
-| Qwen（3.8） | **{c['family_qwen']}** | リポジトリの種（ローカル例） | {c['repo_seeds']} |
-| DeepSeek（V4.1 Flash） | **{c['family_deepseek']}** | | |
-| **ホームページ合計** | **{c['main_collected']}** | | |""",
-    }
 
     gpt_lines = {
         "en": (
@@ -1207,14 +1188,28 @@ def main() -> None:
     OUT_GPT_EN.write_text(gpt_archive_body("en", OUT_GPT_EN), encoding="utf-8")
     OUT_GPT_ZH.write_text(gpt_archive_body("zh-CN", OUT_GPT_ZH), encoding="utf-8")
 
+    catalog_labels = {
+        "en": ("Full case catalog", "Back to the guide", "Source-linked cases, not verified model generations. Ordered by family, configured version order, then newest complete source date; missing dates go last. AI translations are not human-reviewed. Third-party rights remain separate from MIT.", "Collection sites"),
+        "zh-CN": ("完整案例目录", "返回导览", "有来源案例不等于已验证的模型生成。按家族、既定版本顺序、完整来源日期倒序排列；无完整日期的放在最后。AI 翻译尚未经人工审校，第三方版权与 MIT 分开。", "案例收集站"),
+        "zh-TW": ("完整案例目錄", "返回導覽", "有來源案例不等於已驗證的模型生成。依家族、既定版本順序、完整來源日期倒序排列；無完整日期的放在最後。AI 翻譯尚未經人工審校，第三方版權與 MIT 分開。", "案例收集站"),
+        "ja": ("全事例目録", "案内に戻る", "出典付き事例は、検証済みのモデル生成を意味しません。ファミリー、既定のバージョン順、完全な出典日付の新しい順に並び、日付のない事例は最後です。AI 翻訳は人による校閲前です。第三者の権利は MIT と別です。", "事例収集サイト"),
+    }
     for lang, path in README_LANGS:
+        title, back, note, sites_title = catalog_labels[lang]
+        catalog_path = ROOT / f"docs/catalog.{lang}.md"
+        links = " · ".join(f"[{FAMILY_TITLE[fid]}](#{fid})" for fid in VERSION_ORDER if fid != "gpt-image")
+        catalog_path.write_text(
+            f"<!-- Generated by tools/write_community_catalog.py; do not edit. -->\n# {title}\n\n"
+            f"[{back}](../{path.name}) · [English](catalog.en.md) · [简体中文](catalog.zh-CN.md) · [繁體中文](catalog.zh-TW.md) · [日本語](catalog.ja.md)\n\n"
+            f"{note} [MEDIA_RIGHTS.md](../MEDIA_RIGHTS.md)\n\n{links}\n\n"
+            + tables_for(lang, catalog_path, version_sections=True)
+            + f"\n\n<a id=\"collection-sites\"></a>\n## {sites_title}\n\n" + collection_sites[lang],
+            encoding="utf-8",
+        )
         path.write_text(
             render_readme(
                 lang,
                 catalog=catalog,
-                count_table=count_tables[lang],
-                tables=tables_for(lang, path),
-                collection_sites=collection_sites[lang],
                 gpt_subproject_line=gpt_lines[lang],
             ),
             encoding="utf-8",

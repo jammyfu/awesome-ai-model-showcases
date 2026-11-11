@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "reviewed_at": "2026-11-11",
+    "scope": "README and linked catalog discovery, not model performance ranking",
+    "reason": "Owner requested important current platforms/versions and verifiable popularity first. Existing family order is retained because no comparable popularity evidence is recorded. Version order is explicit editorial priority based on the source-labeled generations, not proof of official release.",
+    "source": "playbooks/research/frontier-models-inventory.json"
+  },
+  "popularity": {
+    "status": "not_collected",
+    "metric": null,
+    "source": null,
+    "observed_at": null,
+    "window": null,
+    "reason": "All 183 main records have no comparable engagement measurements. Missing is unknown, not zero. Source date is used only for the explicitly labeled recent-post list and same-version ordering."
+  },
+  "family_order": [
+    "claude",
+    "gemini",
+    "gpt-code",
+    "grok",
+    "qwen",
+    "deepseek"
+  ],
+  "version_order": {
+    "claude": [
+      "claude-fable-5.2",
+      "claude-mythos-5.2",
+      "claude-opus-5.5"
+    ],
+    "gemini": [
+      "gemini-4-carbon",
+      "gemini-4-argon"
+    ],
+    "gpt-code": [
+      "gpt-6.2-sol",
+      "gpt-6.1-sol"
+    ],
+    "grok": [
+      "grok-4.7",
+      "grok-imagine-video"
+    ],
+    "qwen": [
+      "qwen4-max-preview",
+      "qwen4-preview",
+      "qwen3.8-27b"
+    ],
+    "deepseek": [
+      "deepseek-v4.1-flash-1017",
+      "deepseek-v4.1-flash"
+    ],
+    "gpt-image": [
+      "gpt-image-2.6"
+    ]
+  },
+  "featured_cases": {
+    "gpt-code": {
+      "case_id": "x-cfenghub-gpt62sol-colosseum",
+      "reason": "The source explicitly labels this result GPT-6.2 Sol. Do not use a GPT-6.1 source claim relabeled only by the owner as the starting example for the 6.2 priority version.",
+      "source": "https://x.com/cfenghub/status/2120069654437921152"
+    }
+  }
+}
