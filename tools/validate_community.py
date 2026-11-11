@@ -122,6 +122,7 @@ def main() -> int:
             assert f"]({edition})" in blob, (name, edition)
     # Presentation is generated, but evidence and prompt availability must survive.
     from readme_presentation import FEATURED
+    from media_policy import is_public_asset
     from PIL import Image
 
     gpt_ids = {r["id"] for key in gpt_keys for r in catalog[key]}
@@ -197,8 +198,8 @@ def main() -> int:
     for cid, *_ in FEATURED:
         assert f"../../docs/cases/{cid}/media/01-gif.gif" in gpt_en
         assert f"../../docs/cases/{cid}/prompt.md" in gpt_en
-    assert "Source motion brief" in gpt_en and "来源动作描述" in gpt_zh
-    assert "verbatim wording unconfirmed" in gpt_en and "逐字原文未确认" in gpt_zh
+    assert "Published prompt" in gpt_en and "公开提示词" in gpt_zh
+    assert "not verified historical requests" in gpt_en and "不是已核实的历史提交请求" in gpt_zh
     assert "assets/brand/families/gpt-image.png" not in gpt_en
     with Image.open(ROOT / "docs/readme-assets/project-icon.png") as icon:
         assert icon.format == "PNG" and icon.width == icon.height
@@ -207,7 +208,8 @@ def main() -> int:
     featured_bytes = 0
     for cid, *_ in FEATURED:
         media = ROOT / f"docs/cases/{cid}/media/01-gif.gif"
-        featured_bytes += media.stat().st_size
+        featured = next(r for r in catalog["collected_web_gif"] if r["id"] == cid)
+        featured_bytes += (ROOT / (featured.get("thumb") or str(media.relative_to(ROOT)))).stat().st_size
         with Image.open(media) as gif:
             assert gif.format == "GIF" and gif.n_frames > 1
     assert featured_bytes < 5 * 1024 * 1024, featured_bytes
@@ -290,15 +292,17 @@ def main() -> int:
             assert rec["image_url"].startswith("http"), rec["id"]
             assert rec.get("image_source", "").startswith("http"), rec["id"]
             assert rec.get("image_credit"), rec["id"]
-            assert rec.get("thumb"), rec["id"]
+        if rec.get("thumb"):
+            assert is_public_asset(rec["thumb"]), rec["id"]
             thumb = ROOT / rec["thumb"]
             assert thumb.is_file(), rec["id"]
             assert thumb.stat().st_size <= 300 * 1024, rec["id"]
             assert f"../{rec['thumb']}" in index_md
-        else:
+        if not rec.get("image_url"):
             assert f"## `{rec['id']}`" in missing_doc, rec["id"]
         video = rec.get("video") or ""
         if video:
+            assert is_public_asset(video), rec["id"]
             path = ROOT / video
             assert path.is_file(), rec["id"]
             assert path.stat().st_size < 95 * 1024 * 1024, rec["id"]

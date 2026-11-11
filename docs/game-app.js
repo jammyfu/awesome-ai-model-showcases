@@ -1,5 +1,11 @@
 (() => {
   'use strict';
+  // Fail closed: only exact docs-relative paths from the verified build registry.
+  const publicMedia = new Set(Array.isArray(window.PUBLIC_MEDIA_PATHS) ? window.PUBLIC_MEDIA_PATHS : []);
+  function approvedMedia(path) {
+    return typeof path === 'string' && !/[:?#\\]/.test(path) && !path.startsWith('/') &&
+      !path.split('/').some((part) => !part || part === '.' || part === '..') && publicMedia.has(path);
+  }
   const all = Array.isArray(window.GIF_IDEAS) ? window.GIF_IDEAS : [];
   const items = all.filter((x) => x.game_sequence);
   const cards = document.getElementById('cards');
@@ -82,24 +88,29 @@
     list.forEach((x, i) => {
       const card = el('article', 'card');
       const poster = el('div', 'poster');
-      if (x.media_kind === 'png' && x.media_url) {
-        const img = el('img');
-        img.src = x.media_url;
-        img.alt = '源站 Sprite 表（静图，未入库）：' + x.title_zh;
-        img.loading = 'lazy';
-        img.referrerPolicy = 'no-referrer';
-        poster.append(img);
-      } else if (x.media_poster_url) {
-        const img = el('img');
-        img.src = x.media_poster_url;
-        img.alt = '静帧预览，动媒是未观看的 MP4：' + x.title_zh;
-        img.loading = 'lazy';
-        img.referrerPolicy = 'no-referrer';
-        poster.append(img);
+      const candidate = [x.media_url, x.media_poster_url, x.preview].find(approvedMedia);
+      if (candidate) {
+        const isVideo = /\.(mp4|webm|mov)$/i.test(candidate);
+        const preview = el(isVideo ? 'video' : 'img');
+        preview.src = candidate;
+        if (isVideo) {
+          preview.controls = true;
+          preview.preload = 'metadata';
+        } else {
+          preview.alt = x.title_zh;
+          preview.loading = 'lazy';
+        }
+        poster.append(preview);
       } else {
-        poster.append(el('div', 'poster-empty', '打开来源查看 MP4 / 分镜 · 不是 SVG 成品'));
+        const source = el(x.source_url ? 'a' : 'div', 'poster-empty', x.source_url ? '查看原始来源 ↗ · 未转载媒体' : '无已获许可预览 · 来源未记录');
+        if (x.source_url) {
+          source.href = x.source_url;
+          source.target = '_blank';
+          source.rel = 'noopener noreferrer';
+        }
+        poster.append(source);
       }
-      poster.append(el('span', 'kind', posterKind(x)), el('span', 'index', String(i + 1).padStart(2, '0')));
+      poster.append(el('span', 'kind', candidate ? posterKind(x) : '仅来源链接 · 未转载媒体'), el('span', 'index', String(i + 1).padStart(2, '0')));
       const content = el('div', 'content');
       content.append(
         el('p', 'game-meta', (statusLabel[x.image26_status] || x.image26_status) + ' · ' + (engineLabel[x.engine_import_status] || '')),
@@ -178,21 +189,21 @@
         a.rel = 'noopener noreferrer';
         actions.append(a);
       }
-      if (x.media_url) {
+      if (approvedMedia(x.media_url)) {
         const a = el('a', '', x.media_kind === 'png' ? '分镜表 PNG ↗' : 'MP4 ↗');
         a.href = x.media_url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
         actions.append(a);
       }
-      (x.related_media_urls || []).forEach((url, n) => {
+      (x.related_media_urls || []).filter(approvedMedia).forEach((url, n) => {
         const a = el('a', '', '相关 MP4 ' + (n + 2) + ' ↗');
         a.href = url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
         actions.append(a);
       });
-      if (x.media_loop_url) {
+      if (approvedMedia(x.media_loop_url)) {
         const a = el('a', '', '切帧循环演示 ↗');
         a.href = x.media_loop_url;
         a.target = '_blank';
@@ -206,7 +217,7 @@
         a.rel = 'noopener noreferrer';
         actions.append(a);
       }
-      if (x.reference_image_url) {
+      if (approvedMedia(x.reference_image_url)) {
         const a = el('a', '', '静图 ↗');
         a.href = x.reference_image_url;
         a.target = '_blank';

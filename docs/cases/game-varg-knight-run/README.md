@@ -10,10 +10,11 @@ License: **unknown**. Archived locally at the user's request. MIT covers repo so
 
 ## Media
 
-<video src="media/02-loop.mp4" controls muted loop playsinline preload="metadata" style="max-width:100%"></video>
+Media is shown here only with a documented publication grant. Otherwise, view the original source. / 仅展示有明确授权记录的素材，其余请查看原帖。
 
-[local 02-loop.mp4](media/02-loop.mp4)
-![01-sheet.png](media/01-sheet.png)
+
+
+[View original source / 查看原帖](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md)
 
 ## Prompt
 
@@ -22,6 +23,3 @@ See [prompt.md](prompt.md) for the full original text (empty if unpublished).
 ## Post / process
 
 See [post.md](post.md).
-
-- Video: [video.mp4](media/video.mp4)
-- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.

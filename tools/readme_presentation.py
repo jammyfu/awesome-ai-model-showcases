@@ -5,56 +5,20 @@ import os
 from html import escape
 from pathlib import Path
 from string import Template
+from media_policy import is_public_asset
+from case_localization import localized, translation_link
 
 TEMPLATES = Path(__file__).resolve().parent / "templates"
 
-# Local GIF previews. Wording for the paper-boat card is an evidence label, not a new prompt.
-FEATURED = (
-    (
-        "lightlyn-orange-cat-mascot-gif",
-        {
-            "en": "Character sticker",
-            "zh-CN": "角色贴纸",
-            "zh-TW": "角色貼紙",
-            "ja": "キャラクターのステッカー",
-        },
-        {
-            "en": "Published mascot-animation prompt",
-            "zh-CN": "公开的吉祥物动画提示词",
-            "zh-TW": "公開的吉祥物動畫提示詞",
-            "ja": "公開されているマスコット用プロンプト",
-        },
-    ),
-    (
-        "veevid-perfume-light-sweep-gif",
-        {
-            "en": "Product loop",
-            "zh-CN": "产品循环",
-            "zh-TW": "產品循環",
-            "ja": "プロダクトのループ",
-        },
-        {
-            "en": "Fixed-camera light sweep",
-            "zh-CN": "固定机位光线扫过",
-            "zh-TW": "固定機位光線掃過",
-            "ja": "固定カメラの光のスイープ",
-        },
-    ),
-    (
-        "ravivit-paper-boat-gif",
-        {
-            "en": "Paper-boat loop",
-            "zh-CN": "纸船循环",
-            "zh-TW": "紙船循環",
-            "ja": "紙のボートのループ",
-        },
-        {
-            "en": "Source motion brief; verbatim wording unconfirmed",
-            "zh-CN": "来源动作描述，逐字原文未确认",
-            "zh-TW": "來源動作描述，逐字原文未確認",
-            "ja": "出典の動作説明。逐語の原文は未確認",
-        },
-    ),
+# Exact licensed examples; source model/prompt claims remain unverified.
+FEATURED = tuple(
+    (cid, dict(zip(("en", "zh-CN", "zh-TW", "ja"), titles)),
+     {lang: "CC BY 4.0 · ailingqu" for lang in ("en", "zh-CN", "zh-TW", "ja")})
+    for cid, titles in (
+        ("ailingqu-jelly-bear-wobble", ("Jelly bear wobble", "果冻熊摇晃", "果凍熊搖晃", "ゼリーベア")),
+        ("ailingqu-flower-macro-flash", ("Flower macro flash", "花卉微距快闪", "花卉微距快閃", "花のマクロ")),
+        ("ailingqu-cat-brand-reel", ("Cat logo reel", "猫头品牌快闪", "貓頭品牌快閃", "猫ロゴ")),
+    )
 )
 
 # Homepage families. GPT Image stays in the catalog JSON and in
@@ -156,7 +120,7 @@ UI = {
         "mythos": "This version is named in the inventory and has no separate sourced case here. The inventory sentence is quoted as stored:",
         "qwen": "The inventory also records a version with no separate sourced case. Quoted as stored:",
         "gif_intro": "Still-mainstream previous generation. The three cards below are local media already archived for these cases, not new generations.",
-        "cards_note": "Multi-frame format is checked; generation has not been reproduced. The paper-boat brief keeps its unconfirmed wording status. Preview does not grant reuse rights.",
+        "cards_note": 'CC BY 4.0 examples by ailingqu. Published prompts are source rewrites, not verified historical requests. Model attribution is a source claim; generation has not been reproduced. These featured thumbnails are resized derivatives.',
         "by_model": "By model",
         "by_type": "By type",
         "latest_h": "Latest additions",
@@ -180,7 +144,7 @@ UI = {
         "mythos": "清单里写了这一版，但没有单独的、带来源的案例。下面照录清单原话，不另编一条：",
         "qwen": "清单里还记了一版，没有单独案例。原话如下：",
         "gif_intro": "上一代里还在主流使用的图像模型。下面三张是这些案例已经归档的本地素材，不是新生成的图。",
-        "cards_note": "只核过是多帧文件，没有复测生成。纸船那条保留“逐字原文未确认”。预览不等于可以拿去用。",
+        "cards_note": 'ailingqu 的 CC BY 4.0 示例。公开提示词是来源改写，不是已核实的历史提交请求。模型归属为来源声明，未复测生成。缩略图为缩放衍生版本。',
         "by_model": "按模型",
         "by_type": "按类型",
         "latest_h": "最新收录",
@@ -204,7 +168,7 @@ UI = {
         "mythos": "清單裡寫了這一版，但沒有單獨、帶出處的案例。下面照錄清單原文，不另編一則：",
         "qwen": "清單裡還記了一版，沒有單獨案例。原文如下：",
         "gif_intro": "上一代仍在主流使用的圖像模型。下面三張是這些案例已經歸檔的本地素材，不是新生成的圖。",
-        "cards_note": "只核過是多幀檔案，沒有重跑生成。紙船那則保留「逐字原文未確認」。預覽不等於可以拿去用。",
+        "cards_note": 'ailingqu 的 CC BY 4.0 範例。公開提示詞是來源改寫，非已核實的歷史提交請求。模型歸屬為來源聲明，未重跑生成。縮圖為縮放衍生版本。',
         "by_model": "按模型",
         "by_type": "按類型",
         "latest_h": "最新收錄",
@@ -228,7 +192,7 @@ UI = {
         "mythos": "インベントリにはこの版の名があるが、出典付きの単独事例はない。原文のまま引用する：",
         "qwen": "インベントリには、単独事例のない版も書いてある。原文のまま：",
         "gif_intro": "いまも主流の前世代。下の 3 枚は、すでにアーカイブしてあるローカルのメディアで、新しく生成したものではない。",
-        "cards_note": "複数フレームであることだけを確認し、生成の再現はしていない。紙のボートは原文未確認のまま。プレビューは再利用の許可ではない。",
+        "cards_note": 'ailingqu の CC BY 4.0 作例。公開プロンプトは出典の書き換えで、実際の過去の入力は未検証。モデルは出典の主張で、生成は再現していない。サムネイルは縮小版。',
         "by_model": "モデル別",
         "by_type": "種類別",
         "latest_h": "新しい収録",
@@ -300,14 +264,14 @@ def _prompt_bit(row: dict, lang: str) -> str:
 
 def _bullet(row: dict, lang: str) -> str:
     ui = UI[lang]
-    title = " ".join(str(row.get("title") or row["id"]).split())
+    title = " ".join(str(localized(row, "title", lang) or row["id"]).split())
     bits = [f"**{title}**", str(row.get("author") or "")]
     if row.get("local_detail"):
-        bits.append(f"[{ui['case']}]({row['local_detail']})")
+        bits.append(f"[{ui['case']}]({translation_link(row, lang) or row['local_detail']})")
     if row.get("source_url"):
         bits.append(f"[{ui['post']}]({row['source_url']})")
     bits.append(_prompt_bit(row, lang))
-    pipe = " ".join(str(row.get("pipeline") or "").split())
+    pipe = " ".join(str(localized(row, "pipeline", lang)).split())
     if pipe:
         bits.append(f"{ui['method']}: {pipe}")
     return "- " + " · ".join(bit for bit in bits if bit)
@@ -363,17 +327,17 @@ def thumb_grid(rows: list[dict], lang: str, show_video: bool = False) -> str:
     for index, row in enumerate(rows):
         if index and index % 3 == 0:
             lines.extend(["</tr>", "<tr>"])
-        title = str(row.get("title") or row["id"])
+        title = str(localized(row, "title", lang) or row["id"])
         source = escape(row.get("image_source") or row.get("source_url") or "")
         credit = escape(row.get("image_credit") or row.get("author") or "")
         alt = escape(f"{title} — {row.get('image_credit') or row.get('author') or ''}")
-        thumb = row.get("thumb") or ""
+        thumb = (row.get("thumb") or "") if is_public_asset(row.get("thumb") or "") else ""
         lines.append('<td align="center" width="33%">')
         if thumb and source:
             lines.append(f'<a href="{source}"><img src="{escape(thumb)}" alt="{alt}" width="220"></a><br>')
         elif thumb:
             lines.append(f'<img src="{escape(thumb)}" alt="{alt}" width="220"><br>')
-        detail = row.get("local_detail") or ""
+        detail = translation_link(row, lang) or row.get("local_detail") or ""
         title_html = escape(title[:80])
         if detail and not str(detail).startswith(("http://", "https://")):
             lines.append(f'<strong><a href="{escape(detail)}">{title_html}</a></strong><br>')
@@ -386,7 +350,7 @@ def thumb_grid(rows: list[dict], lang: str, show_video: bool = False) -> str:
         elif credit:
             lines.append(f'{ui["credit"]}: {credit}')
         video = row.get("video") or ""
-        if show_video and video:
+        if show_video and is_public_asset(video):
             lines.append(f' · <a href="{escape(video)}">{escape(ui["video"])}</a>')
         lines.append("</td>")
     lines.extend(["</tr>", "</table>"])
@@ -438,7 +402,7 @@ def type_sections(rows: list[dict], lang: str) -> str:
     blocks = [f'<a id="by-type"></a>', f"## {ui['by_type']}", ""]
     for key in TYPE_ORDER:
         group = [row for row in rows if row.get("work_type") == key]
-        shown = [row for row in group if row.get("thumb")][:4]
+        shown = [row for row in group if is_public_asset(row.get("thumb") or "")][:4]
         blocks.append(f'<a id="type-{key}"></a>')
         blocks.append(f"### {TYPE_LABEL[lang][key]}")
         blocks.append(ui["type_count"].format(n=len(group)))
@@ -467,7 +431,9 @@ def featured_cards(rows: list[dict], lang: str, from_file: Path | None = None) -
     lines = ["<table>", "<tr>"]
     for cid, titles, notes in FEATURED:
         row = by_id[cid]
-        media = next(f["path"] for f in row["local_files"] if f["ext"] == "gif")
+        media = next((f["path"] for f in row["local_files"] if f["ext"] == "gif" and is_public_asset(f["path"])), "")
+        if not media:
+            continue
         assert row["original_prompt"].strip(), f"Featured prompt is missing: {cid}"
         title = titles[lang]
         note = notes[lang]
@@ -476,15 +442,17 @@ def featured_cards(rows: list[dict], lang: str, from_file: Path | None = None) -
         source = escape(row["source_url"])
         author = escape(row.get("image_credit") or row["author"])
         alt = escape(f"{title} by {row.get('image_credit') or row['author']}")
-        preview = escape(_href(row.get("thumb") or media, from_file))
+        thumb = (row.get("thumb") or "") if is_public_asset(row.get("thumb") or "") else ""
+        preview = escape(_href(thumb if is_public_asset(thumb) else media, from_file))
         media_href = escape(_href(media, from_file))
-        prompt_label = ui["brief"] if cid == "ravivit-paper-boat-gif" else ui["original"]
+        prompt_label = {"en": "Published prompt", "zh-CN": "公开提示词", "zh-TW": "公開提示詞", "ja": "公開プロンプト"}[lang]
         lines.extend([
             '<td align="center" width="33%">',
             f'<a href="{source}"><img src="{preview}" alt="{alt}" width="220"></a><br>',
             f'<strong><a href="{detail}">{escape(title)}</a></strong><br>',
             f'{ui["credit"]}: {author}<br><sub>{escape(note)}</sub><br>',
             f'<a href="{prompt}">{escape(prompt_label)}</a> · <a href="{source}">{escape(ui["post"])}</a> · <a href="{media_href}">GIF</a>',
+            f'<br><a href="{escape(row.get("license_url") or "")}">{escape(row.get("license_label") or "")}</a>',
             "</td>",
         ])
     lines.extend(["</tr>", "</table>"])
@@ -500,16 +468,16 @@ def _date_desc(rows: list[dict]) -> list[dict]:
 
 def _compact_line(row: dict, lang: str) -> str:
     ui = UI[lang]
-    title = " ".join(str(row.get("title") or row["id"]).split())
+    title = " ".join(str(localized(row, "title", lang) or row["id"]).split())
     bits = [f"**{title}**"]
     credit = row.get("image_credit") or row.get("author") or ""
     if credit:
         bits.append(f"{ui['credit']}: {credit}")
     if row.get("local_detail"):
-        bits.append(f"[{ui['case']}]({row['local_detail']})")
+        bits.append(f"[{ui['case']}]({translation_link(row, lang) or row['local_detail']})")
     if row.get("source_url"):
         bits.append(f"[{ui['post']}]({row['source_url']})")
-    if row.get("video"):
+    if is_public_asset(row.get("video") or ""):
         bits.append(f"[{ui['video']}]({row['video']})")
     return "- " + " · ".join(bits)
 
@@ -524,7 +492,7 @@ def family_sections(catalog: dict, lang: str) -> str:
         if unknown:
             raise SystemExit(f"{fam} has versions missing from VERSION_ORDER: {sorted(map(str, unknown))}")
         total = len(bucket)
-        thumbs = sum(1 for r in bucket if r.get("thumb"))
+        thumbs = sum(1 for r in bucket if is_public_asset(r.get("thumb") or ""))
         blocks.append(f'<a id="{fam}"></a>')
         blocks.append(f"## {FAMILY_TITLE[fam]}")
         cover = "gpt-sol" if fam == "gpt-code" else fam
@@ -542,8 +510,8 @@ def family_sections(catalog: dict, lang: str) -> str:
                 blocks.append(ui["mythos"])
                 blocks.append("> " + _inventory_quote(catalog, "Mythos 5.2"))
                 continue
-            with_thumb = [r for r in rows if r.get("thumb")]
-            without = [r for r in rows if not r.get("thumb")]
+            with_thumb = [r for r in rows if is_public_asset(r.get("thumb") or "")]
+            without = [r for r in rows if not is_public_asset(r.get("thumb") or "")]
             if with_thumb:
                 blocks.append(thumb_grid(with_thumb, lang, show_video=True))
             if without:

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "status": "ai-translated-not-human-reviewed",
+  "case_count": 312,
+  "fields": {
+    "title": {
+      "source_cases": 312,
+      "unique_sources": 311,
+      "locales": {
+        "en": {
+          "complete": 312,
+          "missing": 0
+        },
+        "zh-CN": {
+          "complete": 312,
+          "missing": 0
+        },
+        "zh-TW": {
+          "complete": 312,
+          "missing": 0
+        },
+        "ja": {
+          "complete": 312,
+          "missing": 0
+        }
+      }
+    },
+    "pipeline": {
+      "source_cases": 312,
+      "unique_sources": 87,
+      "locales": {
+        "en": {
+          "complete": 312,
+          "missing": 0
+        },
+        "zh-CN": {
+          "complete": 312,
+          "missing": 0
+        },
+        "zh-TW": {
+          "complete": 312,
+          "missing": 0
+        },
+        "ja": {
+          "complete": 312,
+          "missing": 0
+        }
+      }
+    },
+    "verify": {
+      "source_cases": 312,
+      "unique_sources": 54,
+      "locales": {
+        "en": {
+          "complete": 312,
+          "missing": 0
+        },
+        "zh-CN": {
+          "complete": 312,
+          "missing": 0
+        },
+        "zh-TW": {
+          "complete": 312,
+          "missing": 0
+        },
+        "ja": {
+          "complete": 312,
+          "missing": 0
+        }
+      }
+    },
+    "model_claim": {
+      "source_cases": 312,
+      "unique_sources": 129,
+      "locales": {
+        "en": {
+          "complete": 312,
+          "missing": 0
+        },
+        "zh-CN": {
+          "complete": 312,
+          "missing": 0
+        },
+        "zh-TW": {
+          "complete": 312,
+          "missing": 0
+        },
+        "ja": {
+          "complete": 312,
+          "missing": 0
+        }
+      }
+    },
+    "original_prompt": {
+      "source_cases": 73,
+      "unique_sources": 68,
+      "locales": {
+        "en": {
+          "complete": 73,
+          "missing": 0
+        },
+        "zh-CN": {
+          "complete": 73,
+          "missing": 0
+        },
+        "zh-TW": {
+          "complete": 73,
+          "missing": 0
+        },
+        "ja": {
+          "complete": 73,
+          "missing": 0
+        }
+      }
+    }
+  }
+}

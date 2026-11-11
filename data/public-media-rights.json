@@ -1,0 +1,274 @@
+{
+  "reviewed_at": "2026-11-11",
+  "policy": "Default deny for public embeds and Pages media. Entry must identify exact bytes, author, source, specific grant, and modifications. This is evidence tracking, not a legal determination of all underlying rights.",
+  "assets": [
+    {
+      "path": "docs/cases/ailingqu-ai-typing-indicator/media/01-gif.gif",
+      "sha256": "443ceada3d9e7ae594c6de457443bba7b85339b60ac294eb804036aa5b4a1f91",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ai-typing-indicator.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; bilingual annotations added."
+    },
+    {
+      "path": "assets/thumbs/ailingqu-ai-typing-indicator.gif",
+      "sha256": "443ceada3d9e7ae594c6de457443bba7b85339b60ac294eb804036aa5b4a1f91",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ai-typing-indicator.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; used as a navigation preview."
+    },
+    {
+      "path": "docs/cases/ailingqu-cat-brand-reel/media/01-gif.gif",
+      "sha256": "617a74f1a38956690720a10ccd74eaaebadda4edd52d443fae44c95accfcf9ec",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; bilingual annotations added."
+    },
+    {
+      "path": "assets/thumbs/ailingqu-cat-brand-reel.jpg",
+      "sha256": "73a17e1dd76921cc8b4b2be39ef62480b5f1a8b4dad6c81fb9978209c171acc2",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Navigation preview resized and/or reduced to a still frame; original GIF linked in the case page."
+    },
+    {
+      "path": "docs/cases/ailingqu-flower-macro-flash/media/01-gif.gif",
+      "sha256": "f8f6416154b6d062593be9f5f9be39664a221b4f9cb41a3c7ce584711158e6d1",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/flower-macro-flash.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; bilingual annotations added."
+    },
+    {
+      "path": "assets/thumbs/ailingqu-flower-macro-flash.jpg",
+      "sha256": "02dc579bc7ef353095097b243d45725407de3afde9978053ad087f575c49f6af",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/flower-macro-flash.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Navigation preview resized and/or reduced to a still frame; original GIF linked in the case page."
+    },
+    {
+      "path": "docs/cases/ailingqu-glass-butterfly/media/01-gif.gif",
+      "sha256": "7ae1f8af9ad5acd51a85a7efa846e6bd57464413071f3480389099965da23aac",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/glass-butterfly.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; bilingual annotations added."
+    },
+    {
+      "path": "assets/thumbs/ailingqu-glass-butterfly.jpg",
+      "sha256": "7ea97f6c0a52dedcecee98dc109ca116a05d545648711b4fb1741fe80374e61c",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/glass-butterfly.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Navigation preview resized and/or reduced to a still frame; original GIF linked in the case page."
+    },
+    {
+      "path": "docs/cases/ailingqu-ink-wash-horse/media/01-gif.gif",
+      "sha256": "dbbdd8fa990251f3f309336f3861ec878599661768695be498407e201c3168f7",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ink-wash-horse.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; bilingual annotations added."
+    },
+    {
+      "path": "assets/thumbs/ailingqu-ink-wash-horse.jpg",
+      "sha256": "2bd8f4321148ee68b5610be5bbb3909cdbad3fb512e5021b97cb4ff3265346cd",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ink-wash-horse.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Navigation preview resized and/or reduced to a still frame; original GIF linked in the case page."
+    },
+    {
+      "path": "docs/cases/ailingqu-jelly-bear-wobble/media/01-gif.gif",
+      "sha256": "c75ed0890e860b67fa13864d23da1fca179d8398221c7c455d9c608ba3754631",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/jelly-bear-wobble.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; bilingual annotations added."
+    },
+    {
+      "path": "assets/thumbs/ailingqu-jelly-bear-wobble.jpg",
+      "sha256": "b4eed069f8aa9c6c149c0214728c9de5f24a8f5e0a4cd07bb8c147e90dce39f4",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/jelly-bear-wobble.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Navigation preview resized and/or reduced to a still frame; original GIF linked in the case page."
+    },
+    {
+      "path": "docs/cases/ailingqu-pixel-slime-boss/media/01-gif.gif",
+      "sha256": "168ee5159a70213af7a8ac83b46f991ef29b400e0a5f211d829e6c8176e5576b",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-slime-boss.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; bilingual annotations added."
+    },
+    {
+      "path": "assets/thumbs/ailingqu-pixel-slime-boss.jpg",
+      "sha256": "f5a0920be9bcf934786b32b17005b938fc59dc6db22aa717dbe4daca5b0a04ea",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-slime-boss.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Navigation preview resized and/or reduced to a still frame; original GIF linked in the case page."
+    },
+    {
+      "path": "docs/cases/ailingqu-window-day-to-night/media/01-gif.gif",
+      "sha256": "6815286ae0a41b9791a4598838b699222d790b72a007f35ae69f43ae6f5f2d88",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/window-day-to-night.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Unmodified GIF bytes; bilingual annotations added."
+    },
+    {
+      "path": "assets/thumbs/ailingqu-window-day-to-night.jpg",
+      "sha256": "008ee4daa95dc30c6f51c953ca229455a9e49921d838109148662f7d92d33cb5",
+      "credit": "ailingqu / awesome-ai-gif-prompts",
+      "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/window-day-to-night.gif",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
+      "changes": "Navigation preview resized and/or reduced to a still frame; original GIF linked in the case page."
+    },
+    {
+      "path": "assets/brand/social-preview.png",
+      "sha256": "a56eb0eeb1bf37b52256bd28d62bc2669826c04bf1c536f66bf5f880c4c7c0cd",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "assets/brand/hero.png",
+      "sha256": "4a38da11ab1db0733c1973a9956d0ebdbf4ae80681389fdabf8299f13264223f",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "assets/brand/families/claude.png",
+      "sha256": "64a44150f8379fc503c655f7e25cb9c58f497c87be2c7eac1b06cbc26fadb4a0",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "assets/brand/families/gpt-image.png",
+      "sha256": "f24440b35215c42fa1cc19a70443211f4f7499b8901dd611c44e1b8e087f866f",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "assets/brand/families/gemini.png",
+      "sha256": "a45b543d9bb08985e61d872157e86c1b26757795ebc9fc8ba4ffea414d6d67f4",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "assets/brand/families/qwen.png",
+      "sha256": "55a0fb4ac9cb5946c891cce99575df13569c1bf268832c0744511d5371b8f548",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "assets/brand/families/gpt-sol.png",
+      "sha256": "9305f43f1149f949f91351c183abf724e9de32e0552c8abc1fa64c2bfc13af8b",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "assets/brand/families/deepseek.png",
+      "sha256": "d560d3bc25cf94c2e341c566d77cfd4a419e0ee6f93e6709678f5ad8a7dbe25c",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "assets/brand/families/grok.png",
+      "sha256": "577b5c766edd236a3e531e22b62040e6f3578fc38d11df775ff4270818baa09d",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Project-created AI-assisted brand illustration, not a catalog case or official model logo."
+    },
+    {
+      "path": "docs/readme-assets/project-icon.png",
+      "sha256": "eaae401ac11e7bcdf0a848cf755578a9307debc0bf9d4a5a3912cad1ae474deb",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/readme-assets/ICON_DESIGN.md",
+      "changes": "AI-assisted project mark created 2026-11-11; resized from original 1254px master to 512px for README use."
+    },
+    {
+      "path": "docs/readme-assets/favicon.png",
+      "sha256": "bdf584483a14a2718752dc7869cb27d2d863dcd34b0c822d0c548f9c3a504cf8",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/readme-assets/ICON_DESIGN.md",
+      "changes": "Same AI-assisted project mark resized to 32px for web icon use."
+    },
+    {
+      "path": "docs/readme-assets/apple-touch-icon.png",
+      "sha256": "6dd744e86d22bc801e8bbc5df06043c862c5cb2c6f469f3951eb9b35e29e0aba",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/readme-assets/ICON_DESIGN.md",
+      "changes": "Same AI-assisted project mark resized to 180px for web icon use."
+    }
+  ]
+}

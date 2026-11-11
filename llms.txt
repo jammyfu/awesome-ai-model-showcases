@@ -7,7 +7,7 @@ Awesome AI Model Showcases collects real public production cases from the latest
 Independent community project. Organized by model family, then version. Current public inventory, not exhaustive. Author claim ≠ official verification.
 
 ## What is this repository?
-A sourced catalog of real production cases from the latest large models: animations, HTML and game demos, images, and credited local videos. Each record keeps the post, author, prompt-or-empty, model evidence, pipeline, verification, and license boundary. The GPT Image 2.6 GIF archive is a subproject at collections/gpt-image-gifs/ and is not part of the homepage total.
+A sourced catalog of real production cases from the latest large models: animations, HTML and game demos, images, and source-linked videos; only explicitly approved media is embedded. Each record keeps the post, author, prompt-or-empty, model evidence, pipeline, verification, and license boundary. The GPT Image 2.6 GIF archive is a subproject at collections/gpt-image-gifs/ and is not part of the homepage total.
 
 ## What is in the current inventory?
 Homepage total 183 frontier-family cases: Claude 146, Gemini 6, GPT-6.2 Sol 14, Grok 11, Qwen 3, DeepSeek 3. GPT Image subproject 51 (X 25 + web GIF 20 + in-repo 2 + game author-claim 4), listed only under collections/gpt-image-gifs/. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Claude Mythos 5.2 is named in the inventory and has no separate sourced case. Pending 12. Prompt-only 1. Excluded 9. Appendix 50. Seeds 6. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English, Simplified Chinese, Traditional Chinese, and Japanese READMEs share the homepage inventory. Showcase collection sites: playbooks/research/showcase-collection-sites.json. Related GitHub projects: docs/related-projects.md. Case index: docs/showcase-index.md and data/showcase-index.json. Failed video downloads: docs/missing-videos.md.
@@ -19,7 +19,7 @@ Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?la
 No Images API at browse time. No paid generation. No blanket author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
 ## Which languages are maintained?
-English README.md, Simplified Chinese README.zh-CN.md (AI 模型制作案例集), Traditional Chinese README.zh-TW.md, and Japanese README.ja.md. Same inventory and the same case counts. The web gallery is still English and Simplified Chinese (`?lang=en` / `?lang=zh`).
+English README.md, Simplified Chinese README.zh-CN.md (AI 模型制作案例集), Traditional Chinese README.zh-TW.md, and Japanese README.ja.md. Same inventory and the same case counts. Case titles, methods, verification notes, model evidence and collected prompts have four-language AI translations marked not human-reviewed, with originals preserved. See docs/translation-policy.md and docs/data/translation-coverage.json. The web catalog is English/Simplified Chinese (`?lang=en` / `?lang=zh`); translated-case.html supports all four content languages.
 
 ## License boundaries
 MIT covers source code only. Third-party media remains license-unknown unless a specific source grant is recorded. Follow per-case attribution; no blanket grant or CC0 claim.

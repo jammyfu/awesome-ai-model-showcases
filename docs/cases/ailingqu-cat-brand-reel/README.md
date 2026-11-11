@@ -10,7 +10,15 @@ GIF and published prompt by ailingqu / awesome-ai-gif-prompts, CC BY 4.0: https:
 
 ## Media
 
-![01-gif.gif](media/01-gif.gif)
+Media is shown here only with a documented publication grant. Otherwise, view the original source. / 仅展示有明确授权记录的素材，其余请查看原帖。
+
+
+
+[View original source / 查看原帖](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif)
+
+![ailingqu-cat-brand-reel](media/01-gif.gif)
+
+ailingqu / awesome-ai-gif-prompts · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Source grant](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license). Unmodified GIF bytes; bilingual annotations added.
 
 ## Prompt
 

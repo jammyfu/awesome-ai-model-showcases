@@ -10,7 +10,11 @@ License: **unknown**. Archived locally at the user's request. MIT covers repo so
 
 ## Media
 
-![01-gif.gif](media/01-gif.gif)
+Media is shown here only with a documented publication grant. Otherwise, view the original source. / 仅展示有明确授权记录的素材，其余请查看原帖。
+
+
+
+[View original source / 查看原帖](https://note.com/ravivit_ai/n/nb8f40b5a21b9)
 
 ## Prompt
 

@@ -1,19 +1,17 @@
 # Current plan
 
-**Goal:** Keep the model-family showcase archive honest on GPT Sol naming, then harvest sourced GPT-6.2 Sol cases from collection sites.
+## Goal
 
-## Done on main
-
-- Phase 1: rename to **awesome-ai-model-showcases** / **AI 模型制作案例集**
-- Phase 2: sourced multi-model frontier cases by family
+Separate archival provenance from permission to publish media, and prevent Git LFS pointers from reaching the public Pages artifact.
 
 ## This PR
 
-- Relabel the GPT Sol family section to **GPT-6.2 Sol** (owner-confirmed) with dual-status notes vs OpenAI public **GPT-6.1 Sol** docs
-- Add **Showcase collection sites** resource list (`playbooks/research/showcase-collection-sites.json`)
-- Harvest 7 additional sourced GPT-6.2 Sol X demos (source-link only)
-- Verify green, open PR, squash-merge
+- Keep all 183 main-catalog cases and their sources; use source links for unverified media.
+- Retain eight documented CC BY 4.0 GIFs, credited previews, and project artwork.
+- Gate catalog, case pages and legacy gallery renderers on exact approved assets.
+- Build Pages from a separate approved-media artifact and reject unresolved LFS pointers.
+- Add unit, generated-content, artifact and browser regression checks.
 
 ## Status
 
-Implementation complete; awaiting CI / merge.
+Implementation and local non-browser verification passed. Browser verification runs in PR CI because local Chromium cannot create the required sockets in this environment. Draft PR only; no merge or deployment authorized by this repair request. Existing raw archive and Git history are preserved for a separate rights review.

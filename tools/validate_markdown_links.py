@@ -17,6 +17,8 @@ GENERATED = (
     ROOT / "README.ja.md",
     ROOT / "playbooks/community-cases.md",
     ROOT / "docs/showcase-index.md",
+    ROOT / "docs/translated-case.html",
+    ROOT / "docs/translation-policy.md",
     ROOT / "docs/missing-thumbnails.md",
     ROOT / "docs/missing-videos.md",
     ROOT / "collections/gpt-image-gifs/README.md",
@@ -61,6 +63,9 @@ def iter_generated() -> list[Path]:
     if cases.is_dir():
         files.extend(sorted(cases.rglob("*.md")))
         files.extend(sorted(cases.rglob("*.html")))
+    translations = ROOT / "docs/translations"
+    if translations.is_dir():
+        files.extend(sorted(translations.glob("*.md")))
     return files
 
 

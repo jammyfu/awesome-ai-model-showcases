@@ -4,7 +4,7 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
 <!-- readme-tech-visualizer:start -->
-<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome AI Model Showcases：层叠动画画格与循环标记" width="112" height="112"></p>
+<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome AI Model Showcases：层叠展品卡片与播放窗口" width="112" height="112"></p>
 <!-- readme-tech-visualizer:end -->
 
 # Awesome AI Model Showcases
@@ -42,7 +42,7 @@ ${latest}
 <a id="showcase"></a>
 ## 按模型家族看案例
 
-每个家族、每个版本下的案例全部列出，新的在前。有缩略图的做成卡片，点图看原帖，带 ▶ 视频 的可以直接看本地视频；没有缩略图的各占一行。没有案例的版本留空，不拿别的帖子来凑。
+每个家族、版本下的案例仍全部列出，新的在前。只有具备明确发布授权记录的素材才展示缩略图或播放器；其余提供原帖入口，不以远程热链替代。
 
 [飞书 AIGCreative 参考合集](docs/reference-feishu.md)会把同一个模型的作品再按用途分组（产品工作流、知识讲解、影像实验、游戏交互、研究复现）。本仓目录仍按模型家族、版本和作品类型走。
 
@@ -53,7 +53,7 @@ ${type_sections}
 <a id="collection-sites"></a>
 ## 展示站资源列表
 
-这些站在收集或对比各模型的动图、动画和 HTML demo。我们只回链，不把别人的文件再托管一份。下面的简介照抄 [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json)，不另写一套。
+这些站在收集或对比各模型的动图、动画和 HTML demo。我们只回链，不把别人的文件再托管一份。下面的简介翻译自 [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json)，保留原始说明。
 
 ${collection_sites}
 
@@ -124,11 +124,11 @@ python3 tools/verify.py
 
 ${count_table}
 
-数字来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**${inventory_date}**。首页合计是前沿家族的收录数，不是已经复现成功的数。**${main_count} 条里有 ${media_count} 条拿到了本地素材**（来源有视频时，存一份署名副本）。`assets/thumbs/` 里的导航缩略图是带署名、链回原帖的小图。逐条总表在 [docs/showcase-index.md](docs/showcase-index.md)。没下到的视频记在 [docs/missing-videos.md](docs/missing-videos.md)。
+数字来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**${inventory_date}**。首页保留 **${main_count}** 条来源案例，不代表已经复现成功，其中 **${media_count}** 条有获准公开的本地素材。许可未知的缩略图和视频不嵌入、不进入 Pages 发布包；旧归档副本仍需单独复核。参见 [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md) 和[逐条总表](docs/showcase-index.md)。
 
 ### 完整出处与证据表
 
-展开下面的家族，或打开[可搜索的网页总目录](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=zh)。标题和依据保持来源语言。同一批记录也在[独立总目录](playbooks/community-cases.md)。
+展开下面的家族，或打开[可搜索的网页总目录](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=zh)。标题和依据提供明确标注的译文，并可对照原文。同一批记录也在[独立总目录](playbooks/community-cases.md)。
 
 ${catalog_tables}
 
@@ -154,6 +154,6 @@ ${catalog_tables}
 
 ## 有哪些语言版本？
 
-**English、简体中文、繁體中文、日本語** 用同一份清单，案例数相同。原帖和提示词保留来源语言。网页画廊只有 `?lang=en` / `?lang=zh`。玩法和热门重演附页以中文为主，不是第二套目录。
+**English、简体中文、繁體中文、日本語** 共用同一份清单和案例数。案例标题、做法、核验说明、模型依据和已采集的提示词正文提供独立 AI 译文，明确标注未经人工审校。每条译文都保留原文和来源链接。网页目录支持 `?lang=en` / `?lang=zh`，案例译文阅读器支持四种语言。创意和热门复刻附录仍以中文为主。详见[翻译规则和覆盖范围](docs/translation-policy.md)。
 
 [回到顶部 ↑](#awesome-ai-model-showcases)

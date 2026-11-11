@@ -23,5 +23,10 @@ See `prompt.md`.
 
 Companion post: https://x.com/TokenGremlin/status/2119371334878744648 (floating castle / Three.js HTML demos)
 
-- Video: [video.mp4](media/video.mp4)
-- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
+## Media
+
+Media is shown here only with a documented publication grant. Otherwise, view the original source. / 仅展示有明确授权记录的素材，其余请查看原帖。
+
+
+
+[View original source / 查看原帖](https://x.com/TokenGremlin/status/2119395930805879165)

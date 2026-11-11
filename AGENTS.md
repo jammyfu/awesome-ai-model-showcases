@@ -9,6 +9,10 @@ This repository is **Awesome AI Model Showcases** / **AI 模型制作案例集**
 - Later work: `TODO_BACKLOG.md`
 - Records: `docs/project-governance/`
 
+## Project skill
+
+Before adding or repairing cases, previews, playback, project icons, or localized content, read [curate-model-showcases](.agents/skills/curate-model-showcases/SKILL.md) and its relevant quality gates. It defines source-matched representative previews, duplicate review, rights and playback evidence, original icon checks, and field-by-field localization coverage. Automated validation does not replace visual or language review; report missing or untested work explicitly.
+
 ## Verify
 
 ```bash
