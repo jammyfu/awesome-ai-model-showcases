@@ -8,7 +8,7 @@ Help people find useful animation ideas **with the original author, source, and 
 
 ### The easiest contribution: share a source
 
-[Open the case submission form](https://github.com/jammyfu/awesome-gpt-image-gifs/issues/new?template=case-submission.yml). You do not need to edit JSON or write code. Include:
+[Open the case submission form](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml). You do not need to edit JSON or write code. Include:
 
 - Original author and post URL, not only a repost or aggregator.
 - Every GIF, MP4, and reference-image URL, including attachments in the documented thread.
@@ -50,7 +50,7 @@ Original, rights-cleared seed animations live in `docs/gifs/` and `docs/data/gal
 
 ### 不写代码也能贡献
 
-[提交案例表单](https://github.com/jammyfu/awesome-gpt-image-gifs/issues/new?template=case-submission.yml)，附上原作者、原帖、全部媒体链接、公开提示词或“未公开”、模型依据与制作流程。只有部分提示词时请明确标注，不要把推测重写当成原文。没有可核实授权时，许可仍写“未知”。
+[提交案例表单](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml)，附上原作者、原帖、全部媒体链接、公开提示词或“未公开”、模型依据与制作流程。只有部分提示词时请明确标注，不要把推测重写当成原文。没有可核实授权时，许可仍写“未知”。
 
 署名更正、链接修复、来源补充和中英文说明改进，同样欢迎。
 

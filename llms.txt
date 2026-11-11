@@ -1,32 +1,32 @@
-# Awesome GPT Image GIFs
+# Awesome AI Model Showcases
 
-Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) work, not this repository's original playbook showcase.
+Awesome AI Model Showcases collects real public AI model GIF and animation cases: original authors, original media, public prompts, sources, and production pipelines. It is organized by model family (GPT Image is one subsection), not this repository's original playbook showcase.
 
-中文：收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。
+中文：AI 模型制作案例集收集全网公开的 AI 模型 GIF/动图制作案例、原作者、原媒体、提示词、出处与制作流程；按模型家族分栏（现有 GPT Image 为其中一个子栏目）；不是本站原创方案集。
 
-Independent community project. Current public inventory, not exhaustive. Author claim ≠ official verification.
+Independent community project. Organized by model family. Current public inventory, not exhaustive. Author claim ≠ official verification.
 
 ## What is this repository?
-A sourced catalog of original-author GPT Image 2.6 cases (post, real GIF/MP4, prompt-or-empty, model evidence, pipeline, verification, license boundary).
+A sourced catalog of AI model GIF/animation showcases (post, real GIF/MP4/SVG-HTML capture, prompt-or-empty, model evidence, pipeline, verification, license boundary), grouped by model family. GPT Image 2.6 is one populated subsection.
 
 ## What is in the current inventory?
-Main collected 51 = X 25 + web GIF 20 + in-repo 2 + game author-claim 4. Pending 12. Prompt-only 1. Excluded 9. Appendix 50. Seeds 6. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
+Main collected 51 = GPT Image 51 (X 25 + web GIF 20 + in-repo 2 + game author-claim 4). Other families (Claude, Gemini, GPT Sol/Astra, Grok, Qwen, DeepSeek): 0 cases in Phase 1 structure pass. Pending 12. Prompt-only 1. Excluded 9. Appendix 50. Seeds 6. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
 
 ## What can I do with it?
-Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG or prompt_adaptation as originals.
+Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.
 
 ## What can it not do?
 No Images API at browse time. No paid generation. No blanket author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
 ## Which languages are maintained?
-English README.md and Simplified Chinese README.zh-CN.md. No other README editions.
+English README.md and Simplified Chinese README.zh-CN.md (AI 模型制作案例集). No other README editions.
 
 ## License boundaries
 MIT covers source code only. Third-party media remains license-unknown unless a specific source grant is recorded. Follow per-case attribution; no blanket grant or CC0 claim.
 
 ## Canonical URLs
-- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en
-- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh
-- https://github.com/jammyfu/awesome-gpt-image-gifs
+- https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en
+- https://jammyfu.github.io/awesome-ai-model-showcases/?lang=zh
+- https://github.com/jammyfu/awesome-ai-model-showcases
 - docs/data/community-cases.json
 - playbooks/community-cases.md

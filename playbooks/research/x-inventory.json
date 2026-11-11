@@ -6,7 +6,7 @@
     "timezone_note": "所有核实日期为北京时间，不标注其他时区名",
     "scope": "仅 X 公开读取；不发帖、不联系作者、不写 GitHub 仓、不下载无授权第三方媒体；不代发",
     "repo_baseline": {
-      "repo": "https://github.com/jammyfu/awesome-gpt-image-gifs",
+      "repo": "https://github.com/jammyfu/awesome-ai-model-showcases",
       "branch": "main",
       "ideas_count": 32,
       "real_gifs_count": 6,

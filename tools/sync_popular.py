@@ -31,7 +31,7 @@ for gap in data["gaps"] + data.get("skipped_from_19", []) + data.get("skipped_fr
     lines.append(f"- {gap}")
 lines += [
     "",
-    f"[打开独立页面](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html) · [JSON](../docs/data/popular-playbooks.json)",
+    f"[打开独立页面](https://jammyfu.github.io/awesome-ai-model-showcases/popular.html) · [JSON](../docs/data/popular-playbooks.json)",
     "",
     "| # | 方案 | 年/桶 | 平台指标 | 原作 |",
     "|---:|---|---|---|---|",

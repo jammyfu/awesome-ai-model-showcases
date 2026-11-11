@@ -1,12 +1,13 @@
 # Community case catalog / 社区真实案例总目录
 
-> Updated 2026-11-09 (Beijing time). Same inventory as README.md and README.zh-CN.md. Not exhaustive; not official verification.
+> Updated 2026-11-09 (Beijing time). Same inventory as README.md and README.zh-CN.md. Organized by model family. Not exhaustive; not official verification.
 
-- Main collected: **51** (X 25 + web GIF 20 + in-repo 2 + game author-claim 4)
+- Main collected: **51** = GPT Image **51** (X 25 + web GIF 20 + in-repo 2 + game author-claim 4)
+- Other families (Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek): **0** (Phase 1 structure reserved)
 - Pending 12 · prompt-only 1 · excluded 9 · appendix 50 · seeds 6
 - Officially verified 2.6 game outputs: **0**
 
-## 1. X 作者声明 2.6（25 组，不按附件拆卡）
+## 家族 · GPT Image 2.6 — X 作者声明（25 组，不按附件拆卡）
 
 | # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -36,7 +37,7 @@
 | 24 | @xepher113（ふぁーねりあん） | `x-xepher113-oc12` 日文 OC：称约 12 帧，借用他人角色图 | [出处](https://x.com/xepher113/status/2118177063727411603) | [案例](../docs/cases/x-xepher113-oc12/README.md) · [文件](../docs/cases/x-xepher113-oc12/media/01-poster.jpg) | [未公开](../docs/cases/x-xepher113-oc12/prompt.md) | 作者声明 2.6：チャッピーのgif生成試してみた これは12コマくらい？ | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | 许可未知 |
 | 25 | @yulikay（Yuli Kay） | `x-yulikay-toast` 「GPT Images 2.6 is here + GIFs」附 animated_gif | [出处](https://x.com/yulikay/status/2118322092709994503) | [案例](../docs/cases/x-yulikay-toast/README.md) · [文件](../docs/cases/x-yulikay-toast/media/01-poster.jpg) | [未公开](../docs/cases/x-yulikay-toast/prompt.md) | 作者声明 2.6：GPT Images 2.6 is here 🥂 + GIFs | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | 许可未知 |
 
-## 2. 非 X 真 GIF（20）
+## 家族 · GPT Image 2.6 — 非 X 真 GIF（20）
 
 | # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -61,14 +62,14 @@
 | 19 | ailingqu / awesome-ai-gif-prompts | `ailingqu-pixel-slime-boss` 8-bit slime boss battle / 8-bit 史莱姆 Boss 战 | [出处](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-slime-boss.gif) | [案例](../docs/cases/ailingqu-pixel-slime-boss/README.md) · [文件](../docs/cases/ailingqu-pixel-slime-boss/media/01-gif.gif) | [原文](../docs/cases/ailingqu-pixel-slime-boss/prompt.md) | Author reports GPT Image 2.6; not authen | Source records via=chatgpt-image-2.c | GIF hashes/frames checked; frame she | CC BY 4.0 |
 | 20 | ailingqu / awesome-ai-gif-prompts | `ailingqu-ai-typing-indicator` AI assistant typing indicator / AI 助手正在输入 | [出处](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ai-typing-indicator.gif) | [案例](../docs/cases/ailingqu-ai-typing-indicator/README.md) · [文件](../docs/cases/ailingqu-ai-typing-indicator/media/01-gif.gif) | [原文](../docs/cases/ailingqu-ai-typing-indicator/prompt.md) | Author reports GPT Image 2.6; not authen | Source records via=chatgpt-image-2.c | GIF hashes/frames checked; frame she | CC BY 4.0 |
 
-## 3. 本仓已收录的社区长文 / 单帖（2）
+## 家族 · GPT Image 2.6 — 本仓已收录社区长文 / 单帖（2）
 
 | # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | @Krouxzz | `krouxzz-wave-ref` 角色挥手循环 | [出处](https://x.com/Krouxzz/status/2118283796181053637) | [案例](../docs/cases/krouxzz-wave-ref/README.md) · [文件](../docs/cases/krouxzz-wave-ref/media/03-poster-live.jpg) | [原文](../docs/cases/krouxzz-wave-ref/prompt.md) | 作者声明 2.6 | 作者称 looping GIF · X 附件实际 MP4（已本地归档） | 已在库 · 作者声明 · 未观看附件 | 许可未知 |
 | 2 | @0xluffy_eth | `luffy-x-article` 路飞 X Article：榨干 Image 2.6 的 10 个神级玩法（多玩法一组） | [出处](https://x.com/i/article/2118269816821919744) | [案例](../docs/cases/luffy-x-article/README.md) | [原文](../docs/cases/luffy-x-article/prompt.md) | 作者声明 2.6 | 社区长文；原文提示词已本地全文归档；库存无附件 URL，文章接口尝试未取 | 已在库 · 提示词逐字 · 库存无附件 URL · 接口未取得 · 不能 | 许可未知 |
 
-## 4. 游戏动作序列 · 作者声明（4，非官方验证）
+## 家族 · GPT Image 2.6 — 游戏动作序列 · 作者声明（4，非官方验证）
 
 | # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -76,6 +77,36 @@
 | 2 | maker_evan @maker_evan · 游戏 agent one-shot 已公开；图像 prompt 未公开 · 未观看 MP4 | `game-maker-evan-fox-ronin` 狐浪人网页游戏：2.6 出表、另一 agent 切帧 | [出处](https://x.com/maker_evan/status/2118222694345040253) | [案例](../docs/cases/game-maker-evan-fox-ronin/README.md) · [文件](../docs/cases/game-maker-evan-fox-ronin/media/03-still.jpg) | [原文](../docs/cases/game-maker-evan-fox-ronin/prompt.md) | 作者声明 GPT Image 2.6 出表（切帧/游戏是 GPT-6.1 Sol | sheet_then_agent_cut | 作者声明 2.6 · 非官方验证 · 未观看 | 许可未知 |
 | 3 | 小墨同学 @xiaomovps · 作者声明 Images 2.6 · X animated_gif→MP4 · 未见引擎内运行 | `game-xiaomovps-fighter` 复古格斗出拳 / 蓄力循环 | [出处](https://x.com/xiaomovps/status/2118274032227471705) | [案例](../docs/cases/game-xiaomovps-fighter/README.md) · [文件](../docs/cases/game-xiaomovps-fighter/media/03-still.jpg) | [未公开](../docs/cases/game-xiaomovps-fighter/prompt.md) | 作者声明 GPT Images 2.6（非官方验证；本仓未观看、未复测） | native_gif_and_or_sprite_claimed | 作者声明 2.6 · 非官方验证 · 未观看 | 许可未知 |
 | 4 | vargHQ gpt-image-sprite-sheet · 作者声明 gpt_image_2_6 · 非 OpenAI 官方验证 · 未复测 | `game-varg-knight-run` 骑士跑循环：作者声明 2.6 出表再切帧 | [出处](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md) | [案例](../docs/cases/game-varg-knight-run/README.md) · [文件](../docs/cases/game-varg-knight-run/media/01-sheet.png) | [原文](../docs/cases/game-varg-knight-run/prompt.md) | 作者声明 gpt_image_2_6（非官方验证；本仓未复测） | sheet_then_slice | 作者声明 2.6 · 非官方验证 · 未观看 | 许可未知 |
+
+## 家族 · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2（0）
+
+_本清单此栏暂无已核实案例（为 Fable 5.2 / Opus 5.5 / Mythos 5.2 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+
+
+## 家族 · Gemini — 4 Carbon / 4 Argon（0）
+
+_本清单此栏暂无已核实案例（为 4 Carbon / 4 Argon 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+
+
+## 家族 · GPT Sol / Astra（代码模型） — GPT-6.1 Sol / GPT-6 Sol / Astra（0）
+
+_本清单此栏暂无已核实案例（为 GPT-6.1 Sol / GPT-6 Sol / Astra 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+
+
+## 家族 · Grok — Grok 4.7（0）
+
+_本清单此栏暂无已核实案例（为 Grok 4.7 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+
+
+## 家族 · Qwen — Qwen3.8（0）
+
+_本清单此栏暂无已核实案例（为 Qwen3.8 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+
+
+## 家族 · DeepSeek — V4.1 Flash（0）
+
+_本清单此栏暂无已核实案例（为 V4.1 Flash 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+
 
 ## 附表 A · 待核（12）
 
@@ -109,7 +140,7 @@
 | 9 | x-luffy-simplified-prompt-repost | `x-luffy-simplified-prompt-repost` 路飞发布简化大肥鱼模板（与归藏模板同族）；无新 GIF 附件，属提示词扩散；不作为新增媒体案例 | [出处](https://x.com/0xluffy_eth/status/2118235547454083357) | [出处](https://x.com/0xluffy_eth/status/2118235547454083357) | — | 不入库 | 重复/不合格 | 探子剔除 | 许可未知 |
 | 10 | x-masyu-niji-mix | `x-masyu-niji-mix` 作者写明 企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2 | [出处](https://x.com/__masyu0225/status/2118241265213165676) | [出处](https://x.com/__masyu0225/status/2118241265213165676) | — | 不入库 | 重复/不合格 | 探子剔除 | 许可未知 |
 
-## 附表 C · 不混入 2.6 成功：2.5 / 宣传 / 多模型 / 失败 / 非X候选 / Morphic
+## 附表 C · 不混入主表成功：2.5 / 宣传 / 多模型 / 失败 / 非X候选 / Morphic
 
 | # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -168,9 +199,9 @@
 
 | # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | 仓库种子（本仓示例，不是社区征集主清单） | `pixel-head-pat` 像素人物摸头 / Pixel Head Pat | [出处](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/pixel-head-pat.gif) | [案例](../docs/gifs/pixel-head-pat.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
-| 2 | 仓库种子（本仓示例，不是社区征集主清单） | `cat-screen-crack` 怒猫撞裂屏幕 / Cat Cracks the Screen | [出处](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/cat-screen-crack.gif) | [案例](../docs/gifs/cat-screen-crack.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
-| 3 | 仓库种子（本仓示例，不是社区征集主清单） | `cat-headbutt` 猫咪撞镜头 / Cat Headbutt | [出处](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/cat-headbutt.gif) | [案例](../docs/gifs/cat-headbutt.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
-| 4 | 仓库种子（本仓示例，不是社区征集主清单） | `kangaroo-pat` 袋鼠摸头 / Kangaroo Head Pat | [出处](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/kangaroo-pat.gif) | [案例](../docs/gifs/kangaroo-pat.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
-| 5 | 仓库种子（本仓示例，不是社区征集主清单） | `martial-arts-combo` 太极五连鞭 / Martial Arts Combo | [出处](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/martial-arts-combo.gif) | [案例](../docs/gifs/martial-arts-combo.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
-| 6 | 仓库种子（本仓示例，不是社区征集主清单） | `head-pat-caption` 摸头表情包 / Captioned Head Pat | [出处](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/head-pat-caption.gif) | [案例](../docs/gifs/head-pat-caption.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
+| 1 | 仓库种子（本仓示例，不是社区征集主清单） | `pixel-head-pat` 像素人物摸头 / Pixel Head Pat | [出处](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/pixel-head-pat.gif) | [案例](../docs/gifs/pixel-head-pat.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
+| 2 | 仓库种子（本仓示例，不是社区征集主清单） | `cat-screen-crack` 怒猫撞裂屏幕 / Cat Cracks the Screen | [出处](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-screen-crack.gif) | [案例](../docs/gifs/cat-screen-crack.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
+| 3 | 仓库种子（本仓示例，不是社区征集主清单） | `cat-headbutt` 猫咪撞镜头 / Cat Headbutt | [出处](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-headbutt.gif) | [案例](../docs/gifs/cat-headbutt.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
+| 4 | 仓库种子（本仓示例，不是社区征集主清单） | `kangaroo-pat` 袋鼠摸头 / Kangaroo Head Pat | [出处](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/kangaroo-pat.gif) | [案例](../docs/gifs/kangaroo-pat.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
+| 5 | 仓库种子（本仓示例，不是社区征集主清单） | `martial-arts-combo` 太极五连鞭 / Martial Arts Combo | [出处](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/martial-arts-combo.gif) | [案例](../docs/gifs/martial-arts-combo.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |
+| 6 | 仓库种子（本仓示例，不是社区征集主清单） | `head-pat-caption` 摸头表情包 / Captioned Head Pat | [出处](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/head-pat-caption.gif) | [案例](../docs/gifs/head-pat-caption.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | 许可未知 |

@@ -2,12 +2,12 @@
 
 > Updated: 2026-11-06（北京时间）。`official` = OpenAI 展示方向；`tested` = 公开第三方实测或可复制提示词库；`community` = 社区案例；`concept` = 本项目原创延伸模板。Prompt 标注 `verbatim` / `reconstructed` / `empty`。X 附件多为 MP4，未观看。Morphic 条目提示词面向 2.6，**示例跑在 2.5 / Ideogram Vector，不是 2.6 成品**。游戏待机/跑/攻击见 [game-sequences.md](game-sequences.md)，与普通 GIF 分开。全球热门 GIF 复刻见 [popular-gifs.md](popular-gifs.md)（四种依据分开标），不是 2.6 作品。
 
-[打开交互式图像列表](https://jammyfu.github.io/awesome-gpt-image-gifs/ideas.html) · [游戏动作序列](https://jammyfu.github.io/awesome-gpt-image-gifs/game.html) · [结构化 JSON](../docs/data/ideas.json) · [参考出处](sources.md) · [来源与方法](trends-2026-11.md)
+[打开交互式图像列表](https://jammyfu.github.io/awesome-ai-model-showcases/ideas.html) · [游戏动作序列](https://jammyfu.github.io/awesome-ai-model-showcases/game.html) · [结构化 JSON](../docs/data/ideas.json) · [参考出处](sources.md) · [来源与方法](trends-2026-11.md)
 
 | # | 玩法 | 类别 | 来源 | Prompt | 建议模型 / 规格 |
 |---:|---|---|---|---|---|
-| 1 | [猫咪怒撞屏幕](../docs/gifs/cat-screen-crack.gif) | 表情梗图 | [参考](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/cat-screen-crack.gif) | [本站改写，非第三方原文](#idea-1) | Sunburst / 12f |
-| 2 | [摸头循环表情包](../docs/gifs/pixel-head-pat.gif) | 表情梗图 | [参考](https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/pixel-head-pat.gif) | [本站改写，非第三方原文](#idea-2) | Flare / 12f |
+| 1 | [猫咪怒撞屏幕](../docs/gifs/cat-screen-crack.gif) | 表情梗图 | [参考](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-screen-crack.gif) | [本站改写，非第三方原文](#idea-1) | Sunburst / 12f |
+| 2 | [摸头循环表情包](../docs/gifs/pixel-head-pat.gif) | 表情梗图 | [参考](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/pixel-head-pat.gif) | [本站改写，非第三方原文](#idea-2) | Flare / 12f |
 | 3 | 动漫角色点头 | 角色动画 | [参考](https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/) | [本站改写，非第三方原文](#idea-3) | Sunburst / 9f |
 | 4 | [数字助手正在输入](../docs/previews/typing-companion.svg) | 网站交互 | [参考](https://openai.com/index/introducing-images-2-6/) | [本站改写，非第三方原文](#idea-4) | Flare / 9f |
 | 5 | [手绘草图变活物](../docs/previews/sketch-owl.svg) | 角色动画 | [参考](https://openai.com/index/introducing-images-2-6/) | [本站改写，非第三方原文](#idea-5) | Sunburst / 12f |
@@ -74,7 +74,7 @@
 Create a funny looping animated GIF of an original black-and-white cat headbutting the camera glass. Beat 1: cat stares intensely. Beat 2: it lunges head-first without using its paws. Beat 3: a small spiderweb crack appears, then grows. Beat 4: the camera returns to the starting view to loop. Keep the eyes, whisker markings and background consistent. Fixed camera; expressive but non-graphic cartoon impact; no words or watermark.
 ```
 
-参考链接（2026-11-05）：https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/cat-screen-crack.gif。
+参考链接（2026-11-05）：https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-screen-crack.gif。
 
 
 <a id="idea-2"></a>
@@ -92,7 +92,7 @@ Create a funny looping animated GIF of an original black-and-white cat headbutti
 Create a seamless GIF with two ORIGINAL friendly cartoon characters. The taller blocky character on the left raises one hand, gently pats the shorter bald cartoon character on the head twice, then returns to the initial arm position. The receiver smiles and slightly nods in time. Keep faces, clothing, camera angle, grassy background and character positions unchanged. Clear contact and recovery poses, six to twelve distinct beats, no extra limbs, no captions.
 ```
 
-参考链接（2026-11-05）：https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/pixel-head-pat.gif。
+参考链接（2026-11-05）：https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/pixel-head-pat.gif。
 
 
 <a id="idea-3"></a>

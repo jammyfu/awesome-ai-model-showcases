@@ -1,7 +1,11 @@
 # Project brief
 
-Awesome GPT Image GIFs is a bilingual community catalog of public GPT Image 2.6 cases.
+**Awesome AI Model Showcases**（中文名：**AI 模型制作案例集**）is a bilingual community catalog of public AI model GIF and animation showcases, organized by model family.
 
-It stores, for each collected case: author, original post, local media (GIF/MP4/reference stills), full original prompt or an explicit empty, model evidence, pipeline, and verification status.
+GPT Image 2.6 is one populated subsection. Parallel family sections (Claude, Gemini, GPT Sol/Astra, Grok, Qwen, DeepSeek, and others as sourced) hold cases when real public posts are verified.
 
-It does not generate images at browse time, does not claim official OpenAI verification, and does not claim an author grant or CC0 for archived third-party files.
+It stores, for each collected case: model family/version, author, original post, local media or source-link citation, full original prompt or an explicit empty, model evidence, pipeline, and verification status.
+
+It does not generate images at browse time, does not claim official vendor verification, and does not claim an author grant or CC0 for archived third-party files.
+
+Repository name: `awesome-ai-model-showcases` (does not contain `gifs` in the project name; GIF/animation cases remain the content focus).

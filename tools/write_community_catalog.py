@@ -29,23 +29,41 @@ LOCAL_MANIFEST = ROOT / "docs/data/local-media-manifest.json"
 
 GITHUB_ABOUT = {
     "description": (
-        "Community catalog of real GPT Image GIF cases: original authors, "
-        "media, prompts, sources, and pipelines. GPT Image 2.6. English & 中文."
+        "AI 模型制作案例集 / Awesome AI Model Showcases: public GIF & animation "
+        "cases by model family (GPT Image, Claude, Gemini, GPT Sol, Grok, Qwen, "
+        "DeepSeek…). Authors, media, prompts, sources. English & 中文."
     ),
-    "homepage": "https://jammyfu.github.io/awesome-gpt-image-gifs/",
+    "homepage": "https://jammyfu.github.io/awesome-ai-model-showcases/",
     "topics": [
-        "animated-gif",
         "awesome-list",
+        "ai-models",
+        "animated-gif",
         "chinese",
-        "game-assets",
+        "claude",
+        "gemini",
         "gif",
         "gpt-image",
-        "gpt-image-2-6",
-        "image-generation",
         "prompt-engineering",
-        "sprite-sheet",
+        "showcase",
     ],
 }
+
+# Phase 1: GPT Image is the only populated family; other families are reserved empty.
+MODEL_FAMILY_PLACEHOLDERS = (
+    ("claude", "Claude", "Claude", "Fable 5.2 / Opus 5.5 / Mythos 5.2"),
+    ("gemini", "Gemini", "Gemini", "4 Carbon / 4 Argon"),
+    ("gpt-code", "GPT Sol / Astra (code models)", "GPT Sol / Astra（代码模型）", "GPT-6.1 Sol / GPT-6 Sol / Astra"),
+    ("grok", "Grok", "Grok", "Grok 4.7"),
+    ("qwen", "Qwen", "Qwen", "Qwen3.8"),
+    ("deepseek", "DeepSeek", "DeepSeek", "V4.1 Flash"),
+)
+
+EN_LEAD = (
+    "Awesome AI Model Showcases collects real public AI model GIF and animation cases: "
+    "original authors, original media, public prompts, sources, and production pipelines. "
+    "It is organized by model family (GPT Image is one subsection), not this repository's original playbook showcase."
+)
+ZH_LEAD = "AI 模型制作案例集收集全网公开的 AI 模型 GIF/动图制作案例、原作者、原媒体、提示词、出处与制作流程；按模型家族分栏（现有 GPT Image 为其中一个子栏目）；不是本站原创方案集"
 
 BUCKET_MAIN = "collected_author_claim_26"
 BUCKET_WEB = "collected_web_gif"
@@ -512,19 +530,34 @@ def main() -> None:
                 )
             )
 
+    for rec in collected_x + web_confirmed + inrepo + game_main:
+        rec["model_family"] = "gpt-image"
+        rec["model_version"] = "gpt-image-2.6"
+
+    empty_families = {
+        family_id: []
+        for family_id, _en, _zh, _versions in MODEL_FAMILY_PLACEHOLDERS
+    }
+
     catalog = {
         "meta": {
-            "title": "GPT Image 2.6 社区真实案例收集库",
+            "title": "AI 模型制作案例集 / Awesome AI Model Showcases",
+            "title_zh": "AI 模型制作案例集",
             "updated": web.get("meta", {}).get("updated", "2026-11-06"),
-            "coverage": "当前公开搜集核实清单完整入库，不是穷尽全网。主表媒体已本地归档，原 URL 仅作出处。许可与视觉检查按条目标注；帧序列检查不等于完整播放或生成复现。",
+            "coverage": "按模型家族分栏的公开案例收集库。Phase 1 仅重组结构：现有 GPT Image 2.6 为已填充子栏目；其他家族保留空栏待后续收录。不是穷尽全网。主表媒体已本地归档，原 URL 仅作出处。许可与视觉检查按条目标注；帧序列检查不等于完整播放或生成复现。",
             "not_exhaustive": True,
             "official_verified_26_game": 0,
+            "structure": "model_family",
             "counts": {},
         },
         "collected_x_author_claim": collected_x,
         "collected_web_gif": web_confirmed,
         "collected_already_in_repo": inrepo,
         "collected_game_author_claim": game_main,
+        "collected_by_family": {
+            "gpt-image": collected_x + web_confirmed + inrepo + game_main,
+            **empty_families,
+        },
         "pending": pending,
         "prompt_only": prompt_only,
         "excluded": excluded_x,
@@ -542,6 +575,8 @@ def main() -> None:
         "appendix": len(catalog["appendix"]),
         "repo_seeds": len(seeds),
         "main_collected": len(collected_x) + len(web_confirmed) + len(inrepo) + len(game_main),
+        "gpt_image": len(collected_x) + len(web_confirmed) + len(inrepo) + len(game_main),
+        **{f"family_{fid}": 0 for fid, *_ in MODEL_FAMILY_PLACEHOLDERS},
     }
 
     for group in (
@@ -567,58 +602,82 @@ def main() -> None:
 
     c = catalog["meta"]["counts"]
 
+    def empty_family_note(en: bool, versions: str) -> str:
+        if en:
+            return (
+                f"_No sourced cases in this inventory yet (structure reserved for {versions}). "
+                "Phase 2 will add only real, public cases with working source URLs._\n"
+            )
+        return (
+            f"_本清单此栏暂无已核实案例（为 {versions} 预留结构）。"
+            "后续仅收录有可核对出处 URL 的公开案例。_\n"
+        )
+
     def tables_zh(from_file: Path) -> str:
-        return "\n\n".join(
+        parts = [
+            f"## 家族 · GPT Image 2.6 — X 作者声明（{len(collected_x)} 组，不按附件拆卡）",
+            md_table(collected_x, from_file=from_file),
+            f"## 家族 · GPT Image 2.6 — 非 X 真 GIF（{len(web_confirmed)}）",
+            md_table(web_confirmed, from_file=from_file),
+            f"## 家族 · GPT Image 2.6 — 本仓已收录社区长文 / 单帖（{len(inrepo)}）",
+            md_table(inrepo, from_file=from_file),
+            f"## 家族 · GPT Image 2.6 — 游戏动作序列 · 作者声明（{len(game_main)}，非官方验证）",
+            md_table(game_main, from_file=from_file),
+        ]
+        for _fid, _en, zh, versions in MODEL_FAMILY_PLACEHOLDERS:
+            parts.append(f"## 家族 · {zh} — {versions}（0）")
+            parts.append(empty_family_note(False, versions))
+        parts.extend(
             [
-                f"## 1. X 作者声明 2.6（{len(collected_x)} 组，不按附件拆卡）",
-                md_table(collected_x, from_file=from_file),
-                f"## 2. 非 X 真 GIF（{len(web_confirmed)}）",
-                md_table(web_confirmed, from_file=from_file),
-                f"## 3. 本仓已收录的社区长文 / 单帖（{len(inrepo)}）",
-                md_table(inrepo, from_file=from_file),
-                f"## 4. 游戏动作序列 · 作者声明（{len(game_main)}，非官方验证）",
-                md_table(game_main, from_file=from_file),
                 f"## 附表 A · 待核（{len(pending)}）",
                 md_table(pending, from_file=from_file),
                 "## 附表 B · 纯 prompt / 剔除",
                 md_table(prompt_only + excluded_x, from_file=from_file),
-                "## 附表 C · 不混入 2.6 成功：2.5 / 宣传 / 多模型 / 失败 / 非X候选 / Morphic",
+                "## 附表 C · 不混入主表成功：2.5 / 宣传 / 多模型 / 失败 / 非X候选 / Morphic",
                 md_table(catalog["appendix"], from_file=from_file),
                 "## 附表 D · 仓库种子 GIF（本仓示例，不是社区征集主清单）",
                 md_table(seeds, from_file=from_file),
             ]
         )
+        return "\n\n".join(parts)
 
     def tables_en(from_file: Path) -> str:
-        return "\n\n".join(
+        parts = [
+            f"## Family · GPT Image 2.6 — X author-claimed ({len(collected_x)} groups, not split by attachment)",
+            md_table(collected_x, HEADERS_EN, from_file=from_file),
+            f"## Family · GPT Image 2.6 — Non-X real GIFs ({len(web_confirmed)})",
+            md_table(web_confirmed, HEADERS_EN, from_file=from_file),
+            f"## Family · GPT Image 2.6 — Already-in-repo community longform / posts ({len(inrepo)})",
+            md_table(inrepo, HEADERS_EN, from_file=from_file),
+            f"## Family · GPT Image 2.6 — Game action sequences — author-claimed ({len(game_main)}, not officially verified)",
+            md_table(game_main, HEADERS_EN, from_file=from_file),
+        ]
+        for _fid, en, _zh, versions in MODEL_FAMILY_PLACEHOLDERS:
+            parts.append(f"## Family · {en} — {versions} (0)")
+            parts.append(empty_family_note(True, versions))
+        parts.extend(
             [
-                f"## 1. X author-claimed 2.6 ({len(collected_x)} groups, not split by attachment)",
-                md_table(collected_x, HEADERS_EN, from_file=from_file),
-                f"## 2. Non-X real GIFs ({len(web_confirmed)})",
-                md_table(web_confirmed, HEADERS_EN, from_file=from_file),
-                f"## 3. Already-in-repo community longform / posts ({len(inrepo)})",
-                md_table(inrepo, HEADERS_EN, from_file=from_file),
-                f"## 4. Game action sequences — author-claimed ({len(game_main)}, not officially verified)",
-                md_table(game_main, HEADERS_EN, from_file=from_file),
                 f"## Appendix A — pending ({len(pending)})",
                 md_table(pending, HEADERS_EN, from_file=from_file),
                 "## Appendix B — prompt-only / rejected",
                 md_table(prompt_only + excluded_x, HEADERS_EN, from_file=from_file),
-                "## Appendix C — not mixed into 2.6 success: 2.5 / promo / multimodel / failure / non-X candidates / Morphic",
+                "## Appendix C — not mixed into main success: 2.5 / promo / multimodel / failure / non-X candidates / Morphic",
                 md_table(catalog["appendix"], HEADERS_EN, from_file=from_file),
                 "## Appendix D — repository-seed GIFs (local examples, not the community collection)",
                 md_table(seeds, HEADERS_EN, from_file=from_file),
             ]
         )
+        return "\n\n".join(parts)
 
     OUT_MD.write_text(
         "\n".join(
             [
                 "# Community case catalog / 社区真实案例总目录",
                 "",
-                f"> Updated {catalog['meta']['updated']} (Beijing time). Same inventory as README.md and README.zh-CN.md. Not exhaustive; not official verification.",
+                f"> Updated {catalog['meta']['updated']} (Beijing time). Same inventory as README.md and README.zh-CN.md. Organized by model family. Not exhaustive; not official verification.",
                 "",
-                f"- Main collected: **{c['main_collected']}** (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']})",
+                f"- Main collected: **{c['main_collected']}** = GPT Image **{c['gpt_image']}** (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']})",
+                "- Other families (Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek): **0** (Phase 1 structure reserved)",
                 f"- Pending {c['pending']} · prompt-only {c['prompt_only']} · excluded {c['excluded']} · appendix {c['appendix']} · seeds {c['repo_seeds']}",
                 "- Officially verified 2.6 game outputs: **0**",
                 "",
@@ -629,21 +688,25 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    count_table = f"""| Bucket | Count | Outside the main catalog | Count |
+    count_table = f"""| Model family / bucket | Count | Outside the main catalog | Count |
 |---|---:|---|---:|
-| X author-claimed 2.6 | **{c['x_author_claim_25']}** | Pending | {c['pending']} |
-| Non-X real GIFs | **{c['web_gif_12']}** | Prompt-only | {c['prompt_only']} |
-| In-repo community longform/posts | **{c['already_in_repo']}** | Duplicate/rejected | {c['excluded']} |
-| Game author-claimed | **{c['game_author_claim']}** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | {c['appendix']} |
-| **Main total** | **{c['main_collected']}** | Repository seeds (local examples) | {c['repo_seeds']} |"""
+| **GPT Image 2.6** (populated subsection) | **{c['gpt_image']}** | Pending | {c['pending']} |
+| · X author-claimed 2.6 | **{c['x_author_claim_25']}** | Prompt-only | {c['prompt_only']} |
+| · Non-X real GIFs | **{c['web_gif_12']}** | Duplicate/rejected | {c['excluded']} |
+| · In-repo community longform/posts | **{c['already_in_repo']}** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | {c['appendix']} |
+| · Game author-claimed | **{c['game_author_claim']}** | Repository seeds (local examples) | {c['repo_seeds']} |
+| Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek | **0** (structure reserved) | | |
+| **Main total** | **{c['main_collected']}** | | |"""
 
-    count_table_zh = f"""| 主表 | 数 | 附表（不计入主表） | 数 |
+    count_table_zh = f"""| 模型家族 / 分栏 | 数 | 附表（不计入主表） | 数 |
 |---|---:|---|---:|
-| X 作者声明 2.6 | **{c['x_author_claim_25']}** | 待核 | {c['pending']} |
-| 非 X 真 GIF | **{c['web_gif_12']}** | 纯 prompt | {c['prompt_only']} |
-| 已在库社区长文/单帖 | **{c['already_in_repo']}** | 重复/不合格 | {c['excluded']} |
-| 游戏 · 作者声明 | **{c['game_author_claim']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
-| **主表合计** | **{c['main_collected']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |"""
+| **GPT Image 2.6**（已填充子栏目） | **{c['gpt_image']}** | 待核 | {c['pending']} |
+| · X 作者声明 2.6 | **{c['x_author_claim_25']}** | 纯 prompt | {c['prompt_only']} |
+| · 非 X 真 GIF | **{c['web_gif_12']}** | 重复/不合格 | {c['excluded']} |
+| · 已在库社区长文/单帖 | **{c['already_in_repo']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
+| · 游戏 · 作者声明 | **{c['game_author_claim']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |
+| Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek | **0**（结构预留） | | |
+| **主表合计** | **{c['main_collected']}** | | |"""
 
     OUT_README.write_text(
         render_readme("en", catalog=catalog, count_table=count_table, tables=tables_en(OUT_README)),
@@ -654,36 +717,36 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    llms = f"""# Awesome GPT Image GIFs
+    llms = f"""# Awesome AI Model Showcases
 
-Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 (ChatGPT Images 2.6 / gpt-image-2.6-sunburst / gpt-image-2.6-flare) work, not this repository's original playbook showcase.
+{EN_LEAD}
 
-中文：收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。
+中文：{ZH_LEAD}。
 
-Independent community project. Current public inventory, not exhaustive. Author claim ≠ official verification.
+Independent community project. Organized by model family. Current public inventory, not exhaustive. Author claim ≠ official verification.
 
 ## What is this repository?
-A sourced catalog of original-author GPT Image 2.6 cases (post, real GIF/MP4, prompt-or-empty, model evidence, pipeline, verification, license boundary).
+A sourced catalog of AI model GIF/animation showcases (post, real GIF/MP4/SVG-HTML capture, prompt-or-empty, model evidence, pipeline, verification, license boundary), grouped by model family. GPT Image 2.6 is one populated subsection.
 
 ## What is in the current inventory?
-Main collected {c['main_collected']} = X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
+Main collected {c['main_collected']} = GPT Image {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}). Other families (Claude, Gemini, GPT Sol/Astra, Grok, Qwen, DeepSeek): 0 cases in Phase 1 structure pass. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
 
 ## What can I do with it?
-Browse https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG or prompt_adaptation as originals.
+Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.
 
 ## What can it not do?
 No Images API at browse time. No paid generation. No blanket author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
 ## Which languages are maintained?
-English README.md and Simplified Chinese README.zh-CN.md. No other README editions.
+English README.md and Simplified Chinese README.zh-CN.md (AI 模型制作案例集). No other README editions.
 
 ## License boundaries
 MIT covers source code only. Third-party media remains license-unknown unless a specific source grant is recorded. Follow per-case attribution; no blanket grant or CC0 claim.
 
 ## Canonical URLs
-- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=en
-- https://jammyfu.github.io/awesome-gpt-image-gifs/?lang=zh
-- https://github.com/jammyfu/awesome-gpt-image-gifs
+- https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en
+- https://jammyfu.github.io/awesome-ai-model-showcases/?lang=zh
+- https://github.com/jammyfu/awesome-ai-model-showcases
 - docs/data/community-cases.json
 - playbooks/community-cases.md
 """

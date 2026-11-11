@@ -8,6 +8,7 @@
   }
   function groups() {
     const g = dict().groups || {};
+    const by = catalog.collected_by_family || {};
     return [
       { key: 'main', label: g.main || 'Collected', rows: [
         ...catalog.collected_x_author_claim,
@@ -15,10 +16,17 @@
         ...catalog.collected_already_in_repo,
         ...catalog.collected_game_author_claim,
       ] },
+      { key: 'gpt-image', label: g.gptImage || 'GPT Image', rows: by['gpt-image'] || [] },
       { key: 'x', label: g.x || 'X', rows: catalog.collected_x_author_claim },
       { key: 'web', label: g.web || 'GIF', rows: catalog.collected_web_gif },
       { key: 'inrepo', label: g.inrepo || 'In-repo', rows: catalog.collected_already_in_repo },
       { key: 'game', label: g.game || 'Game', rows: catalog.collected_game_author_claim },
+      { key: 'claude', label: g.claude || 'Claude', rows: by.claude || [] },
+      { key: 'gemini', label: g.gemini || 'Gemini', rows: by.gemini || [] },
+      { key: 'gpt-code', label: g.gptCode || 'GPT Sol', rows: by['gpt-code'] || [] },
+      { key: 'grok', label: g.grok || 'Grok', rows: by.grok || [] },
+      { key: 'qwen', label: g.qwen || 'Qwen', rows: by.qwen || [] },
+      { key: 'deepseek', label: g.deepseek || 'DeepSeek', rows: by.deepseek || [] },
       { key: 'pending', label: g.pending || 'Pending', rows: catalog.pending },
       { key: 'appendix', label: g.appendix || 'Appendix', rows: [...catalog.prompt_only, ...catalog.excluded, ...catalog.appendix] },
       { key: 'seeds', label: g.seeds || 'Seeds', rows: catalog.repo_seeds },
