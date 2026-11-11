@@ -502,6 +502,8 @@ def family_sections(catalog: dict, lang: str) -> str:
         shown = sum(len(ids) for ids in picked[fam].values())
         blocks.append(f'<a id="{fam}"></a>')
         blocks.append(f"## {FAMILY_TITLE[fam]}")
+        cover = "gpt-sol" if fam == "gpt-code" else fam
+        blocks.append(f"![{FAMILY_TITLE[fam]} cover](assets/brand/families/{cover}.png)")
         key = "all" if shown == total else "shown"
         blocks.append(ui[key].format(shown=shown, total=total))
         if fam == "gpt-code":
