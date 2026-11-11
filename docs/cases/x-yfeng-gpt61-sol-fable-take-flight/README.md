@@ -12,7 +12,7 @@
 - Verification: Primary X URL · author says prompt in comments (not captured here) · tags also mention GPT62sol (unofficial/greyscale routing sighting — not treated as official model id)
 - Rights: 许可未知 · 仅出处链接
 
-This case is **source-linked only**. Media is not rehosted locally unless a documented grant is added later.
+A local video is kept because the repository owner asked for a credited copy. Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
 
 ## Prompt status
 
@@ -22,3 +22,6 @@ See `prompt.md`.
 ## Notes
 
 Official OpenAI Sol model in current catalog is GPT-6.1 Sol. Author hashtags include GPT62sol; treat as unofficial/user-reported, not API catalog. Section: GPT-6.2 Sol (owner). Fact: OpenAI introducing-gpt-6-1-sol + docs/models still name GPT-6.1 Sol as of 2026-11-11.
+
+- Video: [video.mp4](media/video.mp4)
+- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.

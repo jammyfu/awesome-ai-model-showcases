@@ -172,7 +172,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-gorden-sun-rice-gif/media/video.mp4"
     },
     {
       "id": "x-op7418-fatfish-pack",
@@ -280,7 +280,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-op7418-fatfish-pack/media/video.mp4"
     },
     {
       "id": "x-abc123-static-to-gif",
@@ -339,7 +339,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-abc123-static-to-gif/media/video.mp4"
     },
     {
       "id": "x-thinkszyg-paperboat-verify",
@@ -391,7 +391,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-thinkszyg-paperboat-verify/media/video.mp4"
     },
     {
       "id": "x-gdb-images26-gif",
@@ -443,7 +443,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-gdb-images26-gif/media/video.mp4"
     },
     {
       "id": "x-moltikuji-oc-eyebrow",
@@ -495,7 +495,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-moltikuji-oc-eyebrow/media/video.mp4"
     },
     {
       "id": "x-heycesr-photo-animate",
@@ -554,7 +554,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-06",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-heycesr-photo-animate/media/video.mp4"
     },
     {
       "id": "x-kqyno7-frieren",
@@ -606,7 +606,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-kqyno7-frieren/media/video.mp4"
     },
     {
       "id": "x-adam-7plays-thread",
@@ -742,7 +742,7 @@ window.COMMUNITY_CASES = {
       "image_note": "fxtwitter returned no image; live page had no still; used a URL already stored from the post",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-adam-7plays-thread/media/video.mp4"
     },
     {
       "id": "x-zone-nonsticker-plays",
@@ -808,7 +808,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-zone-nonsticker-plays/media/video.mp4"
     },
     {
       "id": "x-meow2149-ai-girl-stickers",
@@ -902,7 +902,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-meow2149-ai-girl-stickers/media/video.mp4"
     },
     {
       "id": "x-vm3jp6u04-schnauzer",
@@ -954,7 +954,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-06",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-vm3jp6u04-schnauzer/media/video.mp4"
     },
     {
       "id": "x-seaart-doodle-gif",
@@ -1006,7 +1006,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-seaart-doodle-gif/media/video.mp4"
     },
     {
       "id": "x-xulijian-avatar-stickers",
@@ -1072,7 +1072,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-xulijian-avatar-stickers/media/video.mp4"
     },
     {
       "id": "x-plasm0-animated-gif",
@@ -1124,7 +1124,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-plasm0-animated-gif/media/video.mp4"
     },
     {
       "id": "x-newsasart-claim-gif",
@@ -1176,7 +1176,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-newsasart-claim-gif/media/video.mp4"
     },
     {
       "id": "x-miramusic-stretch",
@@ -1235,7 +1235,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-miramusic-stretch/media/video.mp4"
     },
     {
       "id": "x-okan-aitool-wave-laugh",
@@ -1301,7 +1301,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-okan-aitool-wave-laugh/media/video.mp4"
     },
     {
       "id": "x-mirai-ai2050-frame-test",
@@ -1367,7 +1367,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-mirai-ai2050-frame-test/media/video.mp4"
     },
     {
       "id": "x-nonieengel-reaction-set",
@@ -1433,7 +1433,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-06",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-nonieengel-reaction-set/media/video.mp4"
     },
     {
       "id": "x-ihayato-markup-gif",
@@ -1499,7 +1499,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-ihayato-markup-gif/media/video.mp4"
     },
     {
       "id": "x-dokken-guitar",
@@ -1551,7 +1551,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-dokken-guitar/media/video.mp4"
     },
     {
       "id": "x-supertask-arch-timelapse",
@@ -1610,7 +1610,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-supertask-arch-timelapse/media/video.mp4"
     },
     {
       "id": "x-xepher113-oc12",
@@ -1662,7 +1662,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-xepher113-oc12/media/video.mp4"
     },
     {
       "id": "x-yulikay-toast",
@@ -1714,7 +1714,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/x-yulikay-toast/media/video.mp4"
     }
   ],
   "collected_web_gif": [
@@ -2716,7 +2716,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "gif",
-      "video": ""
+      "video": "docs/cases/krouxzz-wave-ref/media/video.mp4"
     },
     {
       "id": "luffy-x-article",
@@ -2818,7 +2818,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "minigame",
-      "video": ""
+      "video": "docs/cases/game-daft-pixel-combo/media/video.mp4"
     },
     {
       "id": "game-maker-evan-fox-ronin",
@@ -2877,7 +2877,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "minigame",
-      "video": ""
+      "video": "docs/cases/game-maker-evan-fox-ronin/media/video.mp4"
     },
     {
       "id": "game-xiaomovps-fighter",
@@ -2936,7 +2936,7 @@ window.COMMUNITY_CASES = {
       "image_note": "fxtwitter failed: HTTPError; live page had no still; used a URL already stored from the post",
       "date": "2026-11-05",
       "work_type": "minigame",
-      "video": ""
+      "video": "docs/cases/game-xiaomovps-fighter/media/video.mp4"
     },
     {
       "id": "game-varg-knight-run",
@@ -2988,7 +2988,7 @@ window.COMMUNITY_CASES = {
       "image_note": "",
       "date": "2026-11-05",
       "work_type": "minigame",
-      "video": ""
+      "video": "docs/cases/game-varg-knight-run/media/video.mp4"
     }
   ],
   "collected_claude": [
@@ -3027,7 +3027,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-himanshutwtxs-fable52-motion-showreel/media/video.mp4"
     },
     {
       "id": "x-wshuyi-fable52-sabertooth-hunt",
@@ -3064,7 +3064,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-wshuyi-fable52-sabertooth-hunt/media/video.mp4"
     },
     {
       "id": "x-mengto-fable52-blender-apartment",
@@ -3101,7 +3101,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-mengto-fable52-blender-apartment/media/video.mp4"
     },
     {
       "id": "x-paleknight-fable52-vs-opus55-ship",
@@ -3141,7 +3141,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-paleknight-fable52-vs-opus55-ship/media/video.mp4"
     },
     {
       "id": "web-halil-fable52-animation-prompts",
@@ -3291,7 +3291,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-financeyf5-fable52-bugatti-tourbillon/media/video.mp4"
     },
     {
       "id": "x-deryatr-fable52-tcell-film",
@@ -3328,7 +3328,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-deryatr-fable52-tcell-film/media/video.mp4"
     },
     {
       "id": "x-kloss-fable52-ocean-threejs",
@@ -3366,7 +3366,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-kloss-fable52-ocean-threejs/media/video.mp4"
     },
     {
       "id": "x-mrtactical-fable52-mechanical-keyboard",
@@ -3403,7 +3403,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-mrtactical-fable52-mechanical-keyboard/media/video.mp4"
     },
     {
       "id": "x-quxiaoyin-fable52-agentsky-film",
@@ -3440,7 +3440,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-quxiaoyin-fable52-agentsky-film/media/video.mp4"
     },
     {
       "id": "x-evanmilenko-fable52-dragon-game",
@@ -3477,7 +3477,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-evanmilenko-fable52-dragon-game/media/video.mp4"
     },
     {
       "id": "x-deryatr-fable52-ataturk-remembrance",
@@ -3514,7 +3514,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-deryatr-fable52-ataturk-remembrance/media/video.mp4"
     }
   ],
   "collected_gemini": [
@@ -3590,7 +3590,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/media/video.mp4"
     },
     {
       "id": "x-statswire-gemini-carbon-nyc-cruiser",
@@ -3627,7 +3627,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-statswire-gemini-carbon-nyc-cruiser/media/video.mp4"
     },
     {
       "id": "x-deryatr-gemini-carbon-theme-park",
@@ -3664,7 +3664,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-deryatr-gemini-carbon-theme-park/media/video.mp4"
     },
     {
       "id": "x-aiforsuccess-gemini-carbon-v8",
@@ -3701,7 +3701,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-aiforsuccess-gemini-carbon-v8/media/video.mp4"
     },
     {
       "id": "x-maxblade-fable-vs-carbon",
@@ -3741,7 +3741,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-maxblade-fable-vs-carbon/media/video.mp4"
     }
   ],
   "collected_gpt_code": [
@@ -3857,7 +3857,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-yfeng-gpt61-sol-fable-take-flight/media/video.mp4"
     },
     {
       "id": "x-raitoox-sol-stranger-things-credits",
@@ -3895,7 +3895,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-raitoox-sol-stranger-things-credits/media/video.mp4"
     },
     {
       "id": "x-tokengremlin-gpt62sol-threejs-blackhole",
@@ -3933,7 +3933,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/media/video.mp4"
     },
     {
       "id": "x-tokengremlin-gpt62sol-threejs-scenes-html",
@@ -3970,7 +3970,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/media/video.mp4"
     },
     {
       "id": "x-marcthecreatorr-gpt62sol-sailing-ship",
@@ -4010,7 +4010,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/media/video.mp4"
     },
     {
       "id": "x-teddyaisi-gpt62sol-interactive-city",
@@ -4047,7 +4047,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-teddyaisi-gpt62sol-interactive-city/media/video.mp4"
     },
     {
       "id": "x-qingzhoucloud-gpt62sol-floating-castle",
@@ -4084,7 +4084,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/media/video.mp4"
     },
     {
       "id": "x-harshithlucky3-gpt62sol-pelican-svg-animation",
@@ -4121,7 +4121,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/media/video.mp4"
     },
     {
       "id": "x-cherriessire-gpt62sol-moon-aurora-threejs",
@@ -4158,7 +4158,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/media/video.mp4"
     },
     {
       "id": "x-cfenghub-gpt62sol-colosseum",
@@ -4196,7 +4196,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-cfenghub-gpt62sol-colosseum/media/video.mp4"
     },
     {
       "id": "x-tokengremlin-gpt62sol-glass-seasons",
@@ -4234,7 +4234,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-tokengremlin-gpt62sol-glass-seasons/media/video.mp4"
     },
     {
       "id": "x-takamasa045-gpt61sol-momoyama",
@@ -4272,7 +4272,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-takamasa045-gpt61sol-momoyama/media/video.mp4"
     }
   ],
   "collected_grok": [
@@ -4348,7 +4348,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/media/video.mp4"
     },
     {
       "id": "x-aiminithoughts-grok-imagine-golden-angel",
@@ -4385,7 +4385,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-aiminithoughts-grok-imagine-golden-angel/media/video.mp4"
     }
   ],
   "collected_qwen": [
@@ -4461,7 +4461,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "animation",
-      "video": ""
+      "video": "docs/cases/x-coffeecup2020-qwen4-sagrada/media/video.mp4"
     },
     {
       "id": "x-leo114119-qwen4max-wukong-plane",
@@ -4498,7 +4498,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-leo114119-qwen4max-wukong-plane/media/video.mp4"
     }
   ],
   "collected_deepseek": [
@@ -4578,7 +4578,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-latentoperator-a380-deepseek-fable-sol/media/video.mp4"
     },
     {
       "id": "x-latentoperator-deepseek-excavator",
@@ -4615,7 +4615,7 @@ window.COMMUNITY_CASES = {
       "image_download": "saved",
       "image_note": "",
       "work_type": "html-3d",
-      "video": ""
+      "video": "docs/cases/x-latentoperator-deepseek-excavator/media/video.mp4"
     }
   ],
   "collected_by_family": {
@@ -4677,7 +4677,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-gorden-sun-rice-gif/media/video.mp4"
       },
       {
         "id": "x-op7418-fatfish-pack",
@@ -4785,7 +4785,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-op7418-fatfish-pack/media/video.mp4"
       },
       {
         "id": "x-abc123-static-to-gif",
@@ -4844,7 +4844,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-abc123-static-to-gif/media/video.mp4"
       },
       {
         "id": "x-thinkszyg-paperboat-verify",
@@ -4896,7 +4896,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-thinkszyg-paperboat-verify/media/video.mp4"
       },
       {
         "id": "x-gdb-images26-gif",
@@ -4948,7 +4948,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-gdb-images26-gif/media/video.mp4"
       },
       {
         "id": "x-moltikuji-oc-eyebrow",
@@ -5000,7 +5000,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-moltikuji-oc-eyebrow/media/video.mp4"
       },
       {
         "id": "x-heycesr-photo-animate",
@@ -5059,7 +5059,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-06",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-heycesr-photo-animate/media/video.mp4"
       },
       {
         "id": "x-kqyno7-frieren",
@@ -5111,7 +5111,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-kqyno7-frieren/media/video.mp4"
       },
       {
         "id": "x-adam-7plays-thread",
@@ -5247,7 +5247,7 @@ window.COMMUNITY_CASES = {
         "image_note": "fxtwitter returned no image; live page had no still; used a URL already stored from the post",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-adam-7plays-thread/media/video.mp4"
       },
       {
         "id": "x-zone-nonsticker-plays",
@@ -5313,7 +5313,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-zone-nonsticker-plays/media/video.mp4"
       },
       {
         "id": "x-meow2149-ai-girl-stickers",
@@ -5407,7 +5407,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-meow2149-ai-girl-stickers/media/video.mp4"
       },
       {
         "id": "x-vm3jp6u04-schnauzer",
@@ -5459,7 +5459,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-06",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-vm3jp6u04-schnauzer/media/video.mp4"
       },
       {
         "id": "x-seaart-doodle-gif",
@@ -5511,7 +5511,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-seaart-doodle-gif/media/video.mp4"
       },
       {
         "id": "x-xulijian-avatar-stickers",
@@ -5577,7 +5577,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-xulijian-avatar-stickers/media/video.mp4"
       },
       {
         "id": "x-plasm0-animated-gif",
@@ -5629,7 +5629,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-plasm0-animated-gif/media/video.mp4"
       },
       {
         "id": "x-newsasart-claim-gif",
@@ -5681,7 +5681,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-newsasart-claim-gif/media/video.mp4"
       },
       {
         "id": "x-miramusic-stretch",
@@ -5740,7 +5740,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-miramusic-stretch/media/video.mp4"
       },
       {
         "id": "x-okan-aitool-wave-laugh",
@@ -5806,7 +5806,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-okan-aitool-wave-laugh/media/video.mp4"
       },
       {
         "id": "x-mirai-ai2050-frame-test",
@@ -5872,7 +5872,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-mirai-ai2050-frame-test/media/video.mp4"
       },
       {
         "id": "x-nonieengel-reaction-set",
@@ -5938,7 +5938,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-06",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-nonieengel-reaction-set/media/video.mp4"
       },
       {
         "id": "x-ihayato-markup-gif",
@@ -6004,7 +6004,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-ihayato-markup-gif/media/video.mp4"
       },
       {
         "id": "x-dokken-guitar",
@@ -6056,7 +6056,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-dokken-guitar/media/video.mp4"
       },
       {
         "id": "x-supertask-arch-timelapse",
@@ -6115,7 +6115,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-supertask-arch-timelapse/media/video.mp4"
       },
       {
         "id": "x-xepher113-oc12",
@@ -6167,7 +6167,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-xepher113-oc12/media/video.mp4"
       },
       {
         "id": "x-yulikay-toast",
@@ -6219,7 +6219,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/x-yulikay-toast/media/video.mp4"
       },
       {
         "id": "official-lantern-monkey-gif",
@@ -7217,7 +7217,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "gif",
-        "video": ""
+        "video": "docs/cases/krouxzz-wave-ref/media/video.mp4"
       },
       {
         "id": "luffy-x-article",
@@ -7317,7 +7317,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "minigame",
-        "video": ""
+        "video": "docs/cases/game-daft-pixel-combo/media/video.mp4"
       },
       {
         "id": "game-maker-evan-fox-ronin",
@@ -7376,7 +7376,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "minigame",
-        "video": ""
+        "video": "docs/cases/game-maker-evan-fox-ronin/media/video.mp4"
       },
       {
         "id": "game-xiaomovps-fighter",
@@ -7435,7 +7435,7 @@ window.COMMUNITY_CASES = {
         "image_note": "fxtwitter failed: HTTPError; live page had no still; used a URL already stored from the post",
         "date": "2026-11-05",
         "work_type": "minigame",
-        "video": ""
+        "video": "docs/cases/game-xiaomovps-fighter/media/video.mp4"
       },
       {
         "id": "game-varg-knight-run",
@@ -7487,7 +7487,7 @@ window.COMMUNITY_CASES = {
         "image_note": "",
         "date": "2026-11-05",
         "work_type": "minigame",
-        "video": ""
+        "video": "docs/cases/game-varg-knight-run/media/video.mp4"
       }
     ],
     "claude": [
@@ -7526,7 +7526,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-himanshutwtxs-fable52-motion-showreel/media/video.mp4"
       },
       {
         "id": "x-wshuyi-fable52-sabertooth-hunt",
@@ -7563,7 +7563,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-wshuyi-fable52-sabertooth-hunt/media/video.mp4"
       },
       {
         "id": "x-mengto-fable52-blender-apartment",
@@ -7600,7 +7600,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-mengto-fable52-blender-apartment/media/video.mp4"
       },
       {
         "id": "x-paleknight-fable52-vs-opus55-ship",
@@ -7640,7 +7640,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-paleknight-fable52-vs-opus55-ship/media/video.mp4"
       },
       {
         "id": "web-halil-fable52-animation-prompts",
@@ -7790,7 +7790,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-financeyf5-fable52-bugatti-tourbillon/media/video.mp4"
       },
       {
         "id": "x-deryatr-fable52-tcell-film",
@@ -7827,7 +7827,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-deryatr-fable52-tcell-film/media/video.mp4"
       },
       {
         "id": "x-kloss-fable52-ocean-threejs",
@@ -7865,7 +7865,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-kloss-fable52-ocean-threejs/media/video.mp4"
       },
       {
         "id": "x-mrtactical-fable52-mechanical-keyboard",
@@ -7902,7 +7902,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-mrtactical-fable52-mechanical-keyboard/media/video.mp4"
       },
       {
         "id": "x-quxiaoyin-fable52-agentsky-film",
@@ -7939,7 +7939,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-quxiaoyin-fable52-agentsky-film/media/video.mp4"
       },
       {
         "id": "x-evanmilenko-fable52-dragon-game",
@@ -7976,7 +7976,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-evanmilenko-fable52-dragon-game/media/video.mp4"
       },
       {
         "id": "x-deryatr-fable52-ataturk-remembrance",
@@ -8013,7 +8013,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-deryatr-fable52-ataturk-remembrance/media/video.mp4"
       }
     ],
     "gemini": [
@@ -8089,7 +8089,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/media/video.mp4"
       },
       {
         "id": "x-statswire-gemini-carbon-nyc-cruiser",
@@ -8126,7 +8126,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-statswire-gemini-carbon-nyc-cruiser/media/video.mp4"
       },
       {
         "id": "x-deryatr-gemini-carbon-theme-park",
@@ -8163,7 +8163,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-deryatr-gemini-carbon-theme-park/media/video.mp4"
       },
       {
         "id": "x-aiforsuccess-gemini-carbon-v8",
@@ -8200,7 +8200,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-aiforsuccess-gemini-carbon-v8/media/video.mp4"
       },
       {
         "id": "x-maxblade-fable-vs-carbon",
@@ -8240,7 +8240,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-maxblade-fable-vs-carbon/media/video.mp4"
       }
     ],
     "gpt-code": [
@@ -8356,7 +8356,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-yfeng-gpt61-sol-fable-take-flight/media/video.mp4"
       },
       {
         "id": "x-raitoox-sol-stranger-things-credits",
@@ -8394,7 +8394,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-raitoox-sol-stranger-things-credits/media/video.mp4"
       },
       {
         "id": "x-tokengremlin-gpt62sol-threejs-blackhole",
@@ -8432,7 +8432,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/media/video.mp4"
       },
       {
         "id": "x-tokengremlin-gpt62sol-threejs-scenes-html",
@@ -8469,7 +8469,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/media/video.mp4"
       },
       {
         "id": "x-marcthecreatorr-gpt62sol-sailing-ship",
@@ -8509,7 +8509,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/media/video.mp4"
       },
       {
         "id": "x-teddyaisi-gpt62sol-interactive-city",
@@ -8546,7 +8546,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-teddyaisi-gpt62sol-interactive-city/media/video.mp4"
       },
       {
         "id": "x-qingzhoucloud-gpt62sol-floating-castle",
@@ -8583,7 +8583,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/media/video.mp4"
       },
       {
         "id": "x-harshithlucky3-gpt62sol-pelican-svg-animation",
@@ -8620,7 +8620,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/media/video.mp4"
       },
       {
         "id": "x-cherriessire-gpt62sol-moon-aurora-threejs",
@@ -8657,7 +8657,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/media/video.mp4"
       },
       {
         "id": "x-cfenghub-gpt62sol-colosseum",
@@ -8695,7 +8695,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-cfenghub-gpt62sol-colosseum/media/video.mp4"
       },
       {
         "id": "x-tokengremlin-gpt62sol-glass-seasons",
@@ -8733,7 +8733,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-tokengremlin-gpt62sol-glass-seasons/media/video.mp4"
       },
       {
         "id": "x-takamasa045-gpt61sol-momoyama",
@@ -8771,7 +8771,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-takamasa045-gpt61sol-momoyama/media/video.mp4"
       }
     ],
     "grok": [
@@ -8847,7 +8847,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/media/video.mp4"
       },
       {
         "id": "x-aiminithoughts-grok-imagine-golden-angel",
@@ -8884,7 +8884,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-aiminithoughts-grok-imagine-golden-angel/media/video.mp4"
       }
     ],
     "qwen": [
@@ -8960,7 +8960,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "animation",
-        "video": ""
+        "video": "docs/cases/x-coffeecup2020-qwen4-sagrada/media/video.mp4"
       },
       {
         "id": "x-leo114119-qwen4max-wukong-plane",
@@ -8997,7 +8997,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-leo114119-qwen4max-wukong-plane/media/video.mp4"
       }
     ],
     "deepseek": [
@@ -9077,7 +9077,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-latentoperator-a380-deepseek-fable-sol/media/video.mp4"
       },
       {
         "id": "x-latentoperator-deepseek-excavator",
@@ -9114,7 +9114,7 @@ window.COMMUNITY_CASES = {
         "image_download": "saved",
         "image_note": "",
         "work_type": "html-3d",
-        "video": ""
+        "video": "docs/cases/x-latentoperator-deepseek-excavator/media/video.mp4"
       }
     ]
   },

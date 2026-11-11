@@ -11,8 +11,11 @@
 - Rights: 许可未知 · 仅出处链接（不本地再托管）
 - Notes: Author labels this run GPT-6.2 Sol. OpenAI public docs still list GPT-6.1 Sol as of 2026-11-11; this is not an official 6.2 announcement.
 
-This case is **source-linked only**. Media is not rehosted locally unless a documented grant is added later.
+A local video is kept because the repository owner asked for a credited copy. Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
 
 ## Prompt status
 
 See `prompt.md`.
+
+- Video: [video.mp4](media/video.mp4)
+- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
