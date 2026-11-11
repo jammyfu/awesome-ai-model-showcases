@@ -1,8 +1,8 @@
 # Awesome AI Model Showcases
 
-Awesome AI Model Showcases collects real public production cases from the latest large models (Claude Fable 5.2 / Mythos 5.2, Gemini 4 Argon / Carbon, GPT-6.2 Sol, Grok, Qwen, DeepSeek, and others) and from the previous generation that is still mainstream: GIFs, animations, HTML and game demos, and images, each with the original post, author, published prompt, and method.
+Awesome AI Model Showcases collects real public production cases from the latest large models (Claude Fable 5.2 / Mythos 5.2, Gemini 4 Argon / Carbon, GPT-6.2 Sol, Grok, Qwen, DeepSeek, and others) and from the previous generation that is still mainstream: GIFs, animations, HTML and game demos, and images, with creator credits, source links, available prompts or explicit missing markers, and recorded methods.
 
-中文：AI 模型制作案例集收录最新一代大模型（Claude Fable 5.2 / Mythos 5.2、Gemini 4 Argon / Carbon、GPT-6.2 Sol、Grok、Qwen、DeepSeek 等）以及上一代仍在主流使用的模型的真实制作案例：动图、动画、HTML / 游戏 demo、图像；每条都附原帖、作者、公开的提示词和做法。
+中文：AI 模型制作案例集收录最新一代大模型（Claude Fable 5.2 / Mythos 5.2、Gemini 4 Argon / Carbon、GPT-6.2 Sol、Grok、Qwen、DeepSeek 等）以及上一代仍在主流使用的模型的真实制作案例：动图、动画、HTML / 游戏 demo、图像；保留原帖、作者、可获得的提示词或未公开标记，以及已记录的做法。
 
 Independent community project. Organized by model family, then version. Current public inventory, not exhaustive. Author claim ≠ official verification.
 

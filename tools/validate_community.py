@@ -14,9 +14,8 @@ from write_community_catalog import EN_LEAD, GITHUB_ABOUT, ZH_LEAD
 
 ABOUT_DESC = GITHUB_ABOUT["description"]
 README_FILES = ("README.md", "README.zh-CN.md", "README.zh-TW.md", "README.ja.md")
-# 6 frontier family tables + 4 appendices + 1 contributor <details>.
-# GPT Image evidence lives in collections/gpt-image-gifs/, not these details.
-EXPECTED_DETAILS = 11
+# Secondary model notes and local browsing; evidence lives in catalog.<locale>.md.
+EXPECTED_DETAILS = 2
 
 
 def first_words(text: str, n: int = 50) -> list[str]:
@@ -110,11 +109,10 @@ def main() -> int:
         assert rec["id"] in gpt_en_early and rec["id"] in gpt_zh_early
         assert rec["id"] not in readme and rec["id"] not in readme_zh
 
-    assert EN_LEAD in readme
     words = first_words(readme, 80)
     joined = " ".join(words).lower()
-    assert "collects" in joined and "original" in joined and "prompt" in joined
-    assert ZH_LEAD in readme_zh
+    assert "find" in joined and "creator" in joined and "source" in joined
+    assert "发现" in readme_zh and "原始出处" in readme_zh
     for name, blob in readmes.items():
         assert "<!-- readme-tech-visualizer:start -->" in blob, name
         assert "<!-- readme-tech-visualizer:end -->" in blob, name
@@ -141,9 +139,15 @@ def main() -> int:
         "README.zh-TW.md": ("[未公開]", "[短 / 部分]"),
         "README.ja.md": ("[未公開]", "[短い / 部分]"),
     }
+    evidence_pages = {}
     for name, blob in readmes.items():
+        locale = 'en' if name == 'README.md' else name.removeprefix('README.').removesuffix('.md')
+        catalog_path = f"docs/catalog.{locale}.md"
+        evidence = (ROOT / catalog_path).read_text(encoding="utf-8")
+        evidence_pages[catalog_path] = evidence
+        assert catalog_path in blob, f"README must link to full evidence: {name}"
         for cid in expected_ids:
-            assert f"`{cid}`" in blob, f"README dropped catalog evidence: {cid}"
+            assert f"`{cid}`" in evidence, f"Full catalog dropped evidence: {cid}"
         assert blob.count("<details>") == blob.count("</details>") == EXPECTED_DETAILS
         assert blob.index('<a id="showcase"></a>') < blob.index('<a id="catalog"></a>')
         assert "hero-wide.png" not in blob, "Do not put the legacy hero ahead of the real examples"
@@ -155,20 +159,16 @@ def main() -> int:
         assert blob.count("collections/gpt-image-gifs/") == 1, name
         for reserved in ("Claude", "Gemini", "GPT-6.2 Sol", "Grok", "Qwen", "DeepSeek"):
             assert reserved in blob, reserved
-        assert (
-            "Showcase collection sites" in blob
-            or "展示站资源列表" in blob
-            or "展示站資源列表" in blob
-        ), name
-        assert "jamesgreene.com/models/" in blob
-        assert "developers.openai.com/showcase" in blob
+        assert 'id="collection-sites"' in blob and 'id="collection-sites"' in evidence
+        assert "jamesgreene.com/models/" in evidence
+        assert "developers.openai.com/showcase" in evidence
         assert "GPT-6.1 Sol" in blob  # honest dual-status vs OpenAI public docs
         for cid, *_ in FEATURED:
             assert f"docs/cases/{cid}/media/01-gif.gif" not in blob
             assert cid not in blob
         for key in frontier_keys:
             for rec in catalog[key]:
-                rows = [line for line in blob.splitlines() if line.startswith("|") and f"`{rec['id']}`" in line]
+                rows = [line for line in evidence.splitlines() if line.startswith("|") and f"`{rec['id']}`" in line]
                 assert len(rows) == 1, rec["id"]
                 empty_label, partial_label = prompt_labels[name]
                 if rec["prompt_status"] == "空":
@@ -214,27 +214,13 @@ def main() -> int:
             assert gif.format == "GIF" and gif.n_frames > 1
     assert featured_bytes < 5 * 1024 * 1024, featured_bytes
 
-    assert "docs/cases/" in readme and "docs/cases/" in readme_zh
-    assert "local media" in readme.lower() and "本地素材" in readme_zh
+    assert "docs/translations/" in readme and "docs/translations/" in readme_zh
+    assert "approved local media" in readme.lower() and "获准发布的本地媒体" in readme_zh
     assert "只外链" not in readme and "只外链" not in readme_zh
     assert "不转载第三方" not in readme and "不转载第三方" not in readme_zh
-    for heading in (
-        "## What is this repository?",
-        "## What can I do with this catalog?",
-        "## What can this repository not do?",
-        "## How do I submit a case?",
-        "## What are the license boundaries?",
-        "## Which languages are maintained?",
-    ):
+    for heading in ("## Start here", "## Browse by model", "## Contribute a case or correction", "## Rights, scope, and languages"):
         assert heading in readme, heading
-    for heading in (
-        "## 这是什么仓库？",
-        "## 这个目录能做什么？",
-        "## 这个仓库做不到什么？",
-        "## 如何提交案例？",
-        "## 许可边界是什么？",
-        "## 有哪些语言版本？",
-    ):
+    for heading in ("## 从这里开始", "## 按模型查找", "## 提交案例或更正", "## 版权、范围与语言"):
         assert heading in readme_zh, heading
 
     for banned in ("pixel-head-pat.gif", "cat-screen-crack.gif", "Motion worth"):
@@ -257,7 +243,7 @@ def main() -> int:
     assert len(about["description"]) <= 350
     assert "awesome-ai-model-showcases" in about["homepage"]
     assert "gifs" not in about["homepage"].rsplit("/", 2)[-2]
-    for path, blob in (*readmes.items(), ("community-cases.md", md)):
+    for path, blob in (*readmes.items(), *evidence_pages.items(), ("community-cases.md", md)):
         for i, line in enumerate(blob.splitlines(), 1):
             if line.startswith("|") or not line.strip() or line.startswith("|---"):
                 continue

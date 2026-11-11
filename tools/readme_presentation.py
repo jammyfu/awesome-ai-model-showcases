@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+from datetime import date
 from html import escape
 from pathlib import Path
 from string import Template
@@ -245,46 +246,6 @@ def sol_note(catalog: dict, lang: str) -> str:
     )
 
 
-def _prompt_bit(row: dict, lang: str) -> str:
-    ui = UI[lang]
-    status = row.get("prompt_status") or "空"
-    if row["id"] == "ravivit-paper-boat-gif":
-        label = ui["brief"]
-    elif status == "空":
-        label = ui["empty"]
-    elif status == "短/部分":
-        label = ui["partial"]
-    elif str(status).startswith("有"):
-        label = ui["original"]
-    else:
-        label = str(status)
-    href = row.get("local_prompt") or row.get("source_url") or ""
-    return f"[{label}]({href})" if href else label
-
-
-def _bullet(row: dict, lang: str) -> str:
-    ui = UI[lang]
-    title = " ".join(str(localized(row, "title", lang) or row["id"]).split())
-    bits = [f"**{title}**", str(row.get("author") or "")]
-    if row.get("local_detail"):
-        bits.append(f"[{ui['case']}]({translation_link(row, lang) or row['local_detail']})")
-    if row.get("source_url"):
-        bits.append(f"[{ui['post']}]({row['source_url']})")
-    bits.append(_prompt_bit(row, lang))
-    pipe = " ".join(str(localized(row, "pipeline", lang)).split())
-    if pipe:
-        bits.append(f"{ui['method']}: {pipe}")
-    return "- " + " · ".join(bit for bit in bits if bit)
-
-
-def _inventory_quote(catalog: dict, needle: str) -> str:
-    notes = catalog.get("meta", {}).get("unverified_or_missing") or []
-    for note in notes:
-        if needle in note:
-            return str(note).strip()
-    raise SystemExit(f"missing inventory note containing {needle!r}")
-
-
 def version_anchor(version: str) -> str:
     return "ver-" + version.replace(".", "-")
 
@@ -316,45 +277,11 @@ def work_type_of(row: dict) -> str:
 
 
 def _full_day(value: str) -> bool:
-    return len(value) == 10 and value[4] == "-" and value[7] == "-" and value[5:7].isdigit() and value[8:10].isdigit()
-
-
-def thumb_grid(rows: list[dict], lang: str, show_video: bool = False) -> str:
-    ui = UI[lang]
-    if not rows:
-        return ""
-    lines = ["<table>", "<tr>"]
-    for index, row in enumerate(rows):
-        if index and index % 3 == 0:
-            lines.extend(["</tr>", "<tr>"])
-        title = str(localized(row, "title", lang) or row["id"])
-        source = escape(row.get("image_source") or row.get("source_url") or "")
-        credit = escape(row.get("image_credit") or row.get("author") or "")
-        alt = escape(f"{title} — {row.get('image_credit') or row.get('author') or ''}")
-        thumb = (row.get("thumb") or "") if is_public_asset(row.get("thumb") or "") else ""
-        lines.append('<td align="center" width="33%">')
-        if thumb and source:
-            lines.append(f'<a href="{source}"><img src="{escape(thumb)}" alt="{alt}" width="220"></a><br>')
-        elif thumb:
-            lines.append(f'<img src="{escape(thumb)}" alt="{alt}" width="220"><br>')
-        detail = translation_link(row, lang) or row.get("local_detail") or ""
-        title_html = escape(title[:80])
-        if detail and not str(detail).startswith(("http://", "https://")):
-            lines.append(f'<strong><a href="{escape(detail)}">{title_html}</a></strong><br>')
-        elif source:
-            lines.append(f'<strong><a href="{source}">{title_html}</a></strong><br>')
-        else:
-            lines.append(f"<strong>{title_html}</strong><br>")
-        if credit and source:
-            lines.append(f'{ui["credit"]}: {credit}<br><a href="{source}">{escape(ui["post"])}</a>')
-        elif credit:
-            lines.append(f'{ui["credit"]}: {credit}')
-        video = row.get("video") or ""
-        if show_video and is_public_asset(video):
-            lines.append(f' · <a href="{escape(video)}">{escape(ui["video"])}</a>')
-        lines.append("</td>")
-    lines.extend(["</tr>", "</table>"])
-    return "\n".join(lines)
+    """Only complete, valid publication dates participate in newest-first lists."""
+    try:
+        return len(value) == 10 and date.fromisoformat(value).isoformat() == value
+    except ValueError:
+        return False
 
 
 def _href(path: str, from_file: Path | None) -> str:
@@ -365,51 +292,28 @@ def _href(path: str, from_file: Path | None) -> str:
     return Path(os.path.relpath(target, Path(from_file).resolve().parent)).as_posix()
 
 
-def quick_nav(lang: str, catalog: dict | None = None) -> str:
-    ui = UI[lang]
-    by_family = (catalog or {}).get("collected_by_family") or {}
-    lines = [f"### {ui['by_model']}"]
-    for fam in HOMEPAGE_FAMILIES:
-        bits = []
-        present = {row.get("model_version") for row in by_family.get(fam) or []}
-        for version in VERSION_ORDER[fam]:
-            if version not in present and version != "claude-mythos-5.2":
-                continue
-            bits.append(f"[{VERSION_LABEL[version]}](#{version_anchor(version)})")
-        lines.append(f"- [{FAMILY_TITLE[fam]}](#{fam}) — " + " · ".join(bits))
-    lines.append("")
-    lines.append(f"### {ui['by_type']}")
-    for key in TYPE_ORDER:
-        lines.append(f"- [{TYPE_LABEL[lang][key]}](#type-{key})")
-    lines.append("")
-    lines.append(f"### {ui['latest_h']}")
-    lines.append(f"- [{ui['latest_link']}](#latest)")
-    lines.append(f"- [{ui['index_link']}](docs/showcase-index.md)")
-    return "\n".join(lines)
-
-
 def latest_section(rows: list[dict], lang: str) -> str:
     ui = UI[lang]
-    dated = [row for row in rows if _full_day(str(row.get("date") or ""))]
-    dated.sort(key=lambda row: (row["date"], row["id"]), reverse=True)
-    lines = [f'<a id="latest"></a>', f"## {ui['latest_h']}", ui["latest_note"], ""]
-    lines.append(thumb_grid(dated[:8], lang))
+    dated = _date_desc([row for row in rows if _full_day(str(row.get("date") or ""))])
+    headings = {"en": "Recent source posts", "zh-CN": "近期原帖", "zh-TW": "近期原帖", "ja": "最近の原投稿"}
+    notes = {
+        "en": "Five recent source-dated cases, not an ingestion log or ranking. Same-day ties use case ID; undated cases remain in the full catalog.",
+        "zh-CN": "按来源日期倒序列出五条，不代表入库时间或质量排名。同日按案例 ID 排序；无日期案例仍保留在完整目录。",
+        "zh-TW": "依來源日期倒序列出五則，不代表收錄時間或品質排名。同日依案例 ID 排序；無日期案例仍保留在完整目錄。",
+        "ja": "出典の日付が新しい 5 件です。収録順や品質ランキングではありません。同日は事例 ID 順とし、日付のない事例も全目録に残します。",
+    }
+    lines = ['<a id="latest"></a>', f"## {headings[lang]}", "", notes[lang], ""]
+    for row in dated[:5]:
+        lines.append(f"- **{row['date']} · {FAMILY_TITLE[row['model_family']]}** · " + _compact_line(row, lang)[2:])
     return "\n".join(lines).rstrip() + "\n"
 
 
 def type_sections(rows: list[dict], lang: str) -> str:
-    ui = UI[lang]
-    blocks = [f'<a id="by-type"></a>', f"## {ui['by_type']}", ""]
+    blocks = ['<a id="by-type"></a>', f"## {UI[lang]['by_type']}", ""]
     for key in TYPE_ORDER:
-        group = [row for row in rows if row.get("work_type") == key]
-        shown = [row for row in group if is_public_asset(row.get("thumb") or "")][:4]
+        count = sum(row.get("work_type") == key for row in rows)
         blocks.append(f'<a id="type-{key}"></a>')
-        blocks.append(f"### {TYPE_LABEL[lang][key]}")
-        blocks.append(ui["type_count"].format(n=len(group)))
-        if shown:
-            blocks.append(thumb_grid(shown, lang))
-        blocks.append(f"[{ui['index_link']}](docs/showcase-index.md#{key})")
-        blocks.append("")
+        blocks.append(f"- [{TYPE_LABEL[lang][key]}](docs/showcase-index.md#{key}) · **{count}**")
     return "\n".join(blocks).rstrip() + "\n"
 
 
@@ -420,7 +324,8 @@ def main_case_rows(catalog: dict) -> list[dict]:
     for fam in HOMEPAGE_FAMILIES:
         bucket = list(by_family.get(fam) or [])
         order = {version: index for index, version in enumerate(VERSION_ORDER.get(fam, ()))}
-        bucket.sort(key=lambda row: (order.get(row.get("model_version"), 99), str(row.get("date") or ""), row["id"]))
+        bucket = _date_desc(bucket)
+        bucket.sort(key=lambda row: order.get(row.get("model_version"), 99))
         rows.extend(bucket)
     return rows
 
@@ -460,9 +365,9 @@ def featured_cards(rows: list[dict], lang: str, from_file: Path | None = None) -
 
 
 def _date_desc(rows: list[dict]) -> list[dict]:
-    """Newest first; undated rows go last, then by id for a stable order."""
-    dated = sorted((r for r in rows if r.get("date")), key=lambda r: (str(r["date"]), r["id"]), reverse=True)
-    undated = sorted((r for r in rows if not r.get("date")), key=lambda r: r["id"])
+    """Newest complete source dates first; missing/partial dates last; stable ID ties."""
+    dated = sorted((r for r in rows if _full_day(str(r.get("date") or ""))), key=lambda r: (r["date"], r["id"]), reverse=True)
+    undated = sorted((r for r in rows if not _full_day(str(r.get("date") or ""))), key=lambda r: r["id"])
     return dated + undated
 
 
@@ -483,86 +388,53 @@ def _compact_line(row: dict, lang: str) -> str:
 
 
 def family_sections(catalog: dict, lang: str) -> str:
-    by_family = catalog.get("collected_by_family") or {}
-    ui = UI[lang]
-    blocks: list[str] = []
-    for fam in HOMEPAGE_FAMILIES:
-        bucket = list(by_family.get(fam) or [])
-        unknown = {r.get("model_version") for r in bucket} - set(VERSION_ORDER[fam])
-        if unknown:
-            raise SystemExit(f"{fam} has versions missing from VERSION_ORDER: {sorted(map(str, unknown))}")
-        total = len(bucket)
-        thumbs = sum(1 for r in bucket if is_public_asset(r.get("thumb") or ""))
-        blocks.append(f'<a id="{fam}"></a>')
-        blocks.append(f"## {FAMILY_TITLE[fam]}")
-        cover = "gpt-sol" if fam == "gpt-code" else fam
-        blocks.append(f"![{FAMILY_TITLE[fam]} cover](assets/brand/families/{cover}.png)")
-        blocks.append(ui["shown"].format(total=total, thumbs=thumbs))
-        if fam == "gpt-code":
-            blocks.append(sol_note(catalog, lang))
-        for version in VERSION_ORDER[fam]:
-            rows = _date_desc([r for r in bucket if r.get("model_version") == version])
-            if not rows and version != "claude-mythos-5.2":
-                continue
-            blocks.append(f'<a id="{version_anchor(version)}"></a>')
-            blocks.append(f"### {VERSION_LABEL[version]}")
-            if not rows:
-                blocks.append(ui["mythos"])
-                blocks.append("> " + _inventory_quote(catalog, "Mythos 5.2"))
-                continue
-            with_thumb = [r for r in rows if is_public_asset(r.get("thumb") or "")]
-            without = [r for r in rows if not is_public_asset(r.get("thumb") or "")]
-            if with_thumb:
-                blocks.append(thumb_grid(with_thumb, lang, show_video=True))
-            if without:
-                blocks.append("\n".join(_compact_line(r, lang) for r in without))
-        if fam == "qwen":
-            blocks.append(ui["qwen"])
-            blocks.append("> " + _inventory_quote(catalog, "Qwen 3.8 Flash Next"))
-        blocks.append("")
-    return "\n\n".join(blocks).rstrip() + "\n"
-
-
-def collapsed_tables(markdown: str) -> str:
-    """Keep every evidence row, with each category independently expandable."""
+    """A bounded entry per family; complete evidence belongs in the catalog, not the README."""
+    words = {
+        "en": ("cases", "Browse all", "No sourced case yet", "Recent example"),
+        "zh-CN": ("条", "查看全部", "暂无独立来源案例", "近期示例"),
+        "zh-TW": ("則", "查看全部", "暫無獨立來源案例", "近期範例"),
+        "ja": ("件", "全件を見る", "出典付きの単独事例は未収録", "最近の例"),
+    }
+    unit, browse, empty, sample = words[lang]
     blocks = []
-    for section in markdown.split("## "):
-        if not section.strip():
-            continue
-        heading, body = section.split("\n", 1)
-        blocks.append(
-            f"<details>\n<summary><strong>{escape(heading)}</strong></summary>\n\n"
-            f"{body.strip()}\n\n</details>"
-        )
-    return "\n\n".join(blocks)
+    for fam in HOMEPAGE_FAMILIES:
+        rows = catalog["collected_by_family"].get(fam) or []
+        unknown = {row.get("model_version") for row in rows} - set(VERSION_ORDER[fam])
+        if unknown:
+            raise ValueError(f"{fam}: add explicit version order for {sorted(map(str, unknown))}")
+        blocks += [f'<a id="{fam}"></a>', f"### {FAMILY_TITLE[fam]} · {len(rows)} {unit}", ""]
+        blocks += [f"[{browse}](docs/catalog.{lang}.md#{fam})", ""]
+        for version in VERSION_ORDER[fam]:
+            count = sum(row.get("model_version") == version for row in rows)
+            if not count and version != "claude-mythos-5.2":
+                continue
+            anchor = version_anchor(version)
+            blocks += [f'<a id="{anchor}"></a>', f"- [{VERSION_LABEL[version]}](docs/catalog.{lang}.md#{anchor}) · {count}" + (f" · {empty}" if not count else "")]
+        if rows:
+            row = _date_desc(rows)[0]
+            blocks += ["", f"{sample}: " + _compact_line(row, lang)[2:]]
+        blocks.append("")
+    return "\n".join(blocks).rstrip() + "\n"
 
 
 def render_readme(
     lang: str,
     *,
     catalog: dict,
-    count_table: str,
-    tables: str,
-    collection_sites: str = "",
     gpt_subproject_line: str = "",
 ) -> str:
     c = catalog["meta"]["counts"]
     main_rows = main_case_rows(catalog)
-    media_count = sum(bool(r.get("video") or r.get("local_files")) for r in main_rows)
+    media_count = sum(any(is_public_asset(path) for path in [r.get("video") or "", *[f["path"] for f in r.get("local_files") or []]]) for r in main_rows)
     template = (TEMPLATES / f"README.{lang}.md").read_text(encoding="utf-8")
     return Template(template).substitute(
         main_count=c["main_collected"],
         media_count=media_count,
-        web_count=c["web_gif_12"],
-        game_count=c["game_author_claim"],
         pending_count=c["pending"],
         inventory_date=catalog["meta"]["updated"],
-        count_table=count_table,
-        catalog_tables=collapsed_tables(tables),
         featured=family_sections(catalog, lang),
-        collection_sites=collection_sites,
-        quick_nav=quick_nav(lang, catalog),
-        latest=latest_section(main_case_rows(catalog), lang),
-        type_sections=type_sections(main_case_rows(catalog), lang),
+        latest=latest_section(main_rows, lang),
+        type_sections=type_sections(main_rows, lang),
         gpt_subproject_line=gpt_subproject_line,
+        sol_status=sol_note(catalog, lang),
     )
