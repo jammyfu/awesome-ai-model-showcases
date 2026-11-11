@@ -97,8 +97,10 @@ class ReadmePresentationTests(unittest.TestCase):
         for lang in LOCALES:
             output = family_sections(self.catalog, lang)
             self.assertEqual(output.count('<table>'), 6)
+            self.assertEqual(output.count('<th>'), 12)
+            self.assertEqual(output.count('<td width="240">'), 18 + len(json.loads((ROOT / 'data/readme-supplemental-previews.json').read_text())['cases']))
             extras = json.loads((ROOT / 'data/readme-supplemental-previews.json').read_text())['cases']
-            self.assertEqual(output.count('<tr><td>'), 18 + len(extras))
+            self.assertEqual(output.count('<tr><td '), 18 + len(extras))
             self.assertEqual(output.count('</table>'), 6)
             # Current main-catalog media has no publication grant. No banner,
             # unlicensed hotlink, or unrelated licensed thumbnail may fill the gap.
