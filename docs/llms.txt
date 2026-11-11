@@ -10,7 +10,7 @@ Independent community project. Organized by model family. Current public invento
 A sourced catalog of AI model GIF/animation showcases (post, real GIF/MP4/SVG-HTML capture, prompt-or-empty, model evidence, pipeline, verification, license boundary), grouped by model family. GPT Image 2.6 is one populated subsection.
 
 ## What is in the current inventory?
-Main collected 51 = GPT Image 51 (X 25 + web GIF 20 + in-repo 2 + game author-claim 4). Other families (Claude, Gemini, GPT Sol/Astra, Grok, Qwen, DeepSeek): 0 cases in Phase 1 structure pass. Pending 12. Prompt-only 1. Excluded 9. Appendix 50. Seeds 6. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
+Main collected 70 = GPT Image 51 (X 25 + web GIF 20 + in-repo 2 + game author-claim 4) + other families 19 (Claude 7, Gemini 3, GPT Sol/Astra 4, Grok 2, Qwen 1, DeepSeek 2). Non-GPT families are source-linked by default. Pending 12. Prompt-only 1. Excluded 9. Appendix 50. Seeds 6. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
 
 ## What can I do with it?
 Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.

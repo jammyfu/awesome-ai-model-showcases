@@ -50,17 +50,42 @@ def main() -> int:
     assert counts["x_author_claim_25"] == len(x_source["author_claim_media_meta_checked"]), counts
     assert counts["web_gif_12"] == len(web_source["confirmed_entries"]), counts
     assert counts["pending"] == len(x_source["pending_verification"]), counts
-    keys = ("collected_x_author_claim", "collected_web_gif", "collected_already_in_repo", "collected_game_author_claim")
-    assert counts["main_collected"] == sum(len(catalog[key]) for key in keys), counts
+    gpt_keys = ("collected_x_author_claim", "collected_web_gif", "collected_already_in_repo", "collected_game_author_claim")
+    frontier_keys = (
+        "collected_claude",
+        "collected_gemini",
+        "collected_gpt_code",
+        "collected_grok",
+        "collected_qwen",
+        "collected_deepseek",
+    )
+    assert counts["gpt_image"] == sum(len(catalog[key]) for key in gpt_keys), counts
+    assert counts["frontier_sourced"] == sum(len(catalog[key]) for key in frontier_keys), counts
+    assert counts["main_collected"] == counts["gpt_image"] + counts["frontier_sourced"], counts
     assert counts["already_in_repo"] == len(catalog["collected_already_in_repo"]), counts
     assert counts["game_author_claim"] == len(catalog["collected_game_author_claim"]), counts
     assert counts["repo_seeds"] == len(catalog["repo_seeds"]), counts
-    assert counts.get("gpt_image") == counts["main_collected"], counts
     assert catalog["meta"].get("structure") == "model_family"
     by_family = catalog.get("collected_by_family") or {}
     assert "gpt-image" in by_family and len(by_family["gpt-image"]) == counts["gpt_image"]
-    for fam in ("claude", "gemini", "gpt-code", "grok", "qwen", "deepseek"):
-        assert fam in by_family and by_family[fam] == [], fam
+    for fam, key in (
+        ("claude", "collected_claude"),
+        ("gemini", "collected_gemini"),
+        ("gpt-code", "collected_gpt_code"),
+        ("grok", "collected_grok"),
+        ("qwen", "collected_qwen"),
+        ("deepseek", "collected_deepseek"),
+    ):
+        assert fam in by_family
+        assert len(by_family[fam]) == counts[f"family_{fam}"]
+        assert by_family[fam] == catalog[key]
+        assert counts[f"family_{fam}"] == len(catalog[key])
+        for rec in catalog[key]:
+            assert rec.get("model_family") == fam, rec["id"]
+            assert rec.get("source_url"), rec["id"]
+            assert rec.get("media_storage") == "source_link_only", rec["id"]
+    frontier_src = json.loads((ROOT / "playbooks/research/frontier-models-inventory.json").read_text(encoding="utf-8"))
+    assert counts["frontier_sourced"] == len(frontier_src["cases"]), counts
     ids = [r["id"] for group in catalog.values() if isinstance(group, list) for r in group]
     assert len(ids) == len(set(ids)), "Duplicate catalog IDs"
     for rec in catalog["collected_x_author_claim"] + catalog["collected_web_gif"]:
@@ -112,7 +137,18 @@ def main() -> int:
         for cid, *_ in FEATURED:
             assert f'docs/cases/{cid}/media/01-gif.gif' in blob
             assert f'docs/cases/{cid}/prompt.md' in blob
-        for key in ("collected_x_author_claim", "collected_web_gif", "collected_already_in_repo", "collected_game_author_claim"):
+        for key in (
+            "collected_x_author_claim",
+            "collected_web_gif",
+            "collected_already_in_repo",
+            "collected_game_author_claim",
+            "collected_claude",
+            "collected_gemini",
+            "collected_gpt_code",
+            "collected_grok",
+            "collected_qwen",
+            "collected_deepseek",
+        ):
             for rec in catalog[key]:
                 rows = [line for line in blob.splitlines() if line.startswith("|") and f"`{rec['id']}`" in line]
                 assert len(rows) == 1, rec["id"]

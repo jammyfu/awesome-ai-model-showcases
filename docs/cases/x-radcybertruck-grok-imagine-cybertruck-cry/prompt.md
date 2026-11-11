@@ -1,0 +1,3 @@
+# Prompt · x-radcybertruck-grok-imagine-cybertruck-cry
+
+1 minute pixstar style video of a  flordia guy with a rat tail haircut guy on a hill crying and hugging his cybertruck  as he mutters” I’m gonna miss you truck of steel, and, (sniffles) I’ll never forget the life we had” then a cybercab pulls up and...

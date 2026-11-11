@@ -15,6 +15,7 @@ from readme_presentation import render_readme
 ROOT = Path(__file__).resolve().parents[1]
 X_SRC = ROOT / "playbooks/research/x-inventory.json"
 WEB_SRC = ROOT / "playbooks/research/web-inventory.json"
+FRONTIER_SRC = ROOT / "playbooks/research/frontier-models-inventory.json"
 IDEAS = ROOT / "docs/data/ideas.json"
 GALLERY = ROOT / "docs/data/gallery.json"
 OUT_JSON = ROOT / "docs/data/community-cases.json"
@@ -48,15 +49,15 @@ GITHUB_ABOUT = {
     ],
 }
 
-# Phase 1: GPT Image is the only populated family; other families are reserved empty.
 MODEL_FAMILY_PLACEHOLDERS = (
     ("claude", "Claude", "Claude", "Fable 5.2 / Opus 5.5 / Mythos 5.2"),
     ("gemini", "Gemini", "Gemini", "4 Carbon / 4 Argon"),
     ("gpt-code", "GPT Sol / Astra (code models)", "GPT Sol / Astra（代码模型）", "GPT-6.1 Sol / GPT-6 Sol / Astra"),
-    ("grok", "Grok", "Grok", "Grok 4.7"),
+    ("grok", "Grok", "Grok", "Grok 4.7 / Imagine Video"),
     ("qwen", "Qwen", "Qwen", "Qwen3.8"),
     ("deepseek", "DeepSeek", "DeepSeek", "V4.1 Flash"),
 )
+BUCKET_FRONTIER = "collected_frontier_sourced"
 
 EN_LEAD = (
     "Awesome AI Model Showcases collects real public AI model GIF and animation cases: "
@@ -195,6 +196,47 @@ def from_web(item: dict) -> dict:
             "original_prompt": item.get("prompt") or "",
             "frames": (item.get("media_verify") or {}).get("frames"),
             **{key: item[key] for key in ("prompt_provenance", "license_label", "license_url", "model_evidence_url", "source_record_url", "visual_review_status") if item.get(key)},
+        },
+    )
+
+
+def normalize_frontier_prompt_status(raw: str, prompt: str) -> str:
+    status = (raw or "").strip()
+    if status in {"有", "有原文", "original"}:
+        return "有原文"
+    if status in {"短/部分", "partial", "short"}:
+        return "短/部分"
+    if status in {"空", "unpublished", "empty"}:
+        return "空"
+    if status:
+        return status
+    return prompt_flag(prompt)
+
+
+def from_frontier(item: dict) -> dict:
+    prompt = item.get("prompt") or item.get("original_prompt") or ""
+    return row(
+        id=item["id"],
+        bucket=BUCKET_FRONTIER,
+        title=item.get("title") or item["id"],
+        author=item.get("author") or "unknown",
+        source_url=item.get("source_url") or "",
+        media_url=item.get("media_url") or item.get("source_url") or "",
+        media_kind=item.get("media_kind") or "source",
+        prompt_status=normalize_frontier_prompt_status(item.get("prompt_status") or "", prompt),
+        model_claim=item.get("model_claim") or item.get("model_version") or "",
+        pipeline=item.get("pipeline") or "source-linked showcase",
+        verify=item.get("verify") or "sourced public URL · not independently re-run",
+        play=item.get("title") or "",
+        license_notes=item.get("license_notes") or "许可未知 · 仅出处链接（不本地再托管）。MIT 只覆盖源码。",
+        extra={
+            "original_prompt": prompt,
+            "model_family": item.get("model_family") or "",
+            "model_version": item.get("model_version") or "",
+            "media_storage": item.get("media_storage") or "source_link_only",
+            "date": item.get("date") or "",
+            "license_label": "Source link only",
+            **{k: item[k] for k in ("also_models", "notes", "prompt_url") if item.get(k)},
         },
     )
 
@@ -534,29 +576,44 @@ def main() -> None:
         rec["model_family"] = "gpt-image"
         rec["model_version"] = "gpt-image-2.6"
 
-    empty_families = {
-        family_id: []
-        for family_id, _en, _zh, _versions in MODEL_FAMILY_PLACEHOLDERS
-    }
+    frontier_raw = json.loads(FRONTIER_SRC.read_text(encoding="utf-8")) if FRONTIER_SRC.exists() else {"cases": []}
+    frontier_by_family = {fid: [] for fid, *_ in MODEL_FAMILY_PLACEHOLDERS}
+    for item in frontier_raw.get("cases") or []:
+        fam = item.get("model_family") or ""
+        if fam not in frontier_by_family:
+            raise SystemExit(f"unknown model_family in frontier inventory: {fam} ({item.get('id')})")
+        frontier_by_family[fam].append(from_frontier(item))
+    frontier_all = [rec for fam in frontier_by_family.values() for rec in fam]
 
+    gpt_image_rows = collected_x + web_confirmed + inrepo + game_main
     catalog = {
         "meta": {
             "title": "AI 模型制作案例集 / Awesome AI Model Showcases",
             "title_zh": "AI 模型制作案例集",
-            "updated": web.get("meta", {}).get("updated", "2026-11-06"),
-            "coverage": "按模型家族分栏的公开案例收集库。Phase 1 仅重组结构：现有 GPT Image 2.6 为已填充子栏目；其他家族保留空栏待后续收录。不是穷尽全网。主表媒体已本地归档，原 URL 仅作出处。许可与视觉检查按条目标注；帧序列检查不等于完整播放或生成复现。",
+            "updated": max(
+                web.get("meta", {}).get("updated", "2026-11-06"),
+                frontier_raw.get("meta", {}).get("updated", "2026-11-06"),
+            ),
+            "coverage": "按模型家族分栏的公开案例收集库。GPT Image 2.6 为本地归档子栏目；Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek 等家族以出处链接收录真实公开案例（默认不本地再托管）。不是穷尽全网。许可与视觉检查按条目标注；帧序列检查不等于完整播放或生成复现。",
             "not_exhaustive": True,
             "official_verified_26_game": 0,
             "structure": "model_family",
             "counts": {},
+            "unverified_or_missing": frontier_raw.get("meta", {}).get("unverified_or_missing") or [],
         },
         "collected_x_author_claim": collected_x,
         "collected_web_gif": web_confirmed,
         "collected_already_in_repo": inrepo,
         "collected_game_author_claim": game_main,
+        "collected_claude": frontier_by_family["claude"],
+        "collected_gemini": frontier_by_family["gemini"],
+        "collected_gpt_code": frontier_by_family["gpt-code"],
+        "collected_grok": frontier_by_family["grok"],
+        "collected_qwen": frontier_by_family["qwen"],
+        "collected_deepseek": frontier_by_family["deepseek"],
         "collected_by_family": {
-            "gpt-image": collected_x + web_confirmed + inrepo + game_main,
-            **empty_families,
+            "gpt-image": gpt_image_rows,
+            **frontier_by_family,
         },
         "pending": pending,
         "prompt_only": prompt_only,
@@ -564,6 +621,8 @@ def main() -> None:
         "appendix": game_app + web_cand + morphic,
         "repo_seeds": seeds,
     }
+    frontier_count = len(frontier_all)
+    gpt_count = len(gpt_image_rows)
     catalog["meta"]["counts"] = {
         "x_author_claim_25": len(collected_x),
         "web_gif_12": len(web_confirmed),
@@ -574,9 +633,10 @@ def main() -> None:
         "excluded": len(excluded_x),
         "appendix": len(catalog["appendix"]),
         "repo_seeds": len(seeds),
-        "main_collected": len(collected_x) + len(web_confirmed) + len(inrepo) + len(game_main),
-        "gpt_image": len(collected_x) + len(web_confirmed) + len(inrepo) + len(game_main),
-        **{f"family_{fid}": 0 for fid, *_ in MODEL_FAMILY_PLACEHOLDERS},
+        "gpt_image": gpt_count,
+        "frontier_sourced": frontier_count,
+        "main_collected": gpt_count + frontier_count,
+        **{f"family_{fid}": len(frontier_by_family[fid]) for fid, *_ in MODEL_FAMILY_PLACEHOLDERS},
     }
 
     for group in (
@@ -584,6 +644,7 @@ def main() -> None:
         web_confirmed,
         inrepo,
         game_main,
+        frontier_all,
         pending,
         prompt_only,
         excluded_x,
@@ -602,17 +663,6 @@ def main() -> None:
 
     c = catalog["meta"]["counts"]
 
-    def empty_family_note(en: bool, versions: str) -> str:
-        if en:
-            return (
-                f"_No sourced cases in this inventory yet (structure reserved for {versions}). "
-                "Phase 2 will add only real, public cases with working source URLs._\n"
-            )
-        return (
-            f"_本清单此栏暂无已核实案例（为 {versions} 预留结构）。"
-            "后续仅收录有可核对出处 URL 的公开案例。_\n"
-        )
-
     def tables_zh(from_file: Path) -> str:
         parts = [
             f"## 家族 · GPT Image 2.6 — X 作者声明（{len(collected_x)} 组，不按附件拆卡）",
@@ -624,9 +674,10 @@ def main() -> None:
             f"## 家族 · GPT Image 2.6 — 游戏动作序列 · 作者声明（{len(game_main)}，非官方验证）",
             md_table(game_main, from_file=from_file),
         ]
-        for _fid, _en, zh, versions in MODEL_FAMILY_PLACEHOLDERS:
-            parts.append(f"## 家族 · {zh} — {versions}（0）")
-            parts.append(empty_family_note(False, versions))
+        for fid, _en, zh, versions in MODEL_FAMILY_PLACEHOLDERS:
+            rows = frontier_by_family[fid]
+            parts.append(f"## 家族 · {zh} — {versions}（{len(rows)}）")
+            parts.append(md_table(rows, from_file=from_file) if rows else f"_此栏暂无已核实案例（{versions}）。_\n")
         parts.extend(
             [
                 f"## 附表 A · 待核（{len(pending)}）",
@@ -652,9 +703,10 @@ def main() -> None:
             f"## Family · GPT Image 2.6 — Game action sequences — author-claimed ({len(game_main)}, not officially verified)",
             md_table(game_main, HEADERS_EN, from_file=from_file),
         ]
-        for _fid, en, _zh, versions in MODEL_FAMILY_PLACEHOLDERS:
-            parts.append(f"## Family · {en} — {versions} (0)")
-            parts.append(empty_family_note(True, versions))
+        for fid, en, _zh, versions in MODEL_FAMILY_PLACEHOLDERS:
+            rows = frontier_by_family[fid]
+            parts.append(f"## Family · {en} — {versions} ({len(rows)})")
+            parts.append(md_table(rows, HEADERS_EN, from_file=from_file) if rows else f"_No sourced cases yet for {versions}._\n")
         parts.extend(
             [
                 f"## Appendix A — pending ({len(pending)})",
@@ -676,8 +728,9 @@ def main() -> None:
                 "",
                 f"> Updated {catalog['meta']['updated']} (Beijing time). Same inventory as README.md and README.zh-CN.md. Organized by model family. Not exhaustive; not official verification.",
                 "",
-                f"- Main collected: **{c['main_collected']}** = GPT Image **{c['gpt_image']}** (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']})",
-                "- Other families (Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek): **0** (Phase 1 structure reserved)",
+                f"- Main collected: **{c['main_collected']}** = GPT Image **{c['gpt_image']}** + other families **{c['frontier_sourced']}**",
+                f"- GPT Image: X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}",
+                f"- Other families: Claude {c['family_claude']} · Gemini {c['family_gemini']} · GPT Sol/Astra {c['family_gpt-code']} · Grok {c['family_grok']} · Qwen {c['family_qwen']} · DeepSeek {c['family_deepseek']}",
                 f"- Pending {c['pending']} · prompt-only {c['prompt_only']} · excluded {c['excluded']} · appendix {c['appendix']} · seeds {c['repo_seeds']}",
                 "- Officially verified 2.6 game outputs: **0**",
                 "",
@@ -690,22 +743,32 @@ def main() -> None:
 
     count_table = f"""| Model family / bucket | Count | Outside the main catalog | Count |
 |---|---:|---|---:|
-| **GPT Image 2.6** (populated subsection) | **{c['gpt_image']}** | Pending | {c['pending']} |
+| **GPT Image 2.6** (local archive subsection) | **{c['gpt_image']}** | Pending | {c['pending']} |
 | · X author-claimed 2.6 | **{c['x_author_claim_25']}** | Prompt-only | {c['prompt_only']} |
 | · Non-X real GIFs | **{c['web_gif_12']}** | Duplicate/rejected | {c['excluded']} |
 | · In-repo community longform/posts | **{c['already_in_repo']}** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | {c['appendix']} |
 | · Game author-claimed | **{c['game_author_claim']}** | Repository seeds (local examples) | {c['repo_seeds']} |
-| Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek | **0** (structure reserved) | | |
+| Claude (Fable 5.2 / Opus 5.5…) | **{c['family_claude']}** | | |
+| Gemini (4 Carbon / 4 Argon) | **{c['family_gemini']}** | | |
+| GPT Sol / Astra (code) | **{c['family_gpt-code']}** | | |
+| Grok (4.7 / Imagine) | **{c['family_grok']}** | | |
+| Qwen (3.8) | **{c['family_qwen']}** | | |
+| DeepSeek (V4.1 Flash) | **{c['family_deepseek']}** | | |
 | **Main total** | **{c['main_collected']}** | | |"""
 
     count_table_zh = f"""| 模型家族 / 分栏 | 数 | 附表（不计入主表） | 数 |
 |---|---:|---|---:|
-| **GPT Image 2.6**（已填充子栏目） | **{c['gpt_image']}** | 待核 | {c['pending']} |
+| **GPT Image 2.6**（本地归档子栏目） | **{c['gpt_image']}** | 待核 | {c['pending']} |
 | · X 作者声明 2.6 | **{c['x_author_claim_25']}** | 纯 prompt | {c['prompt_only']} |
 | · 非 X 真 GIF | **{c['web_gif_12']}** | 重复/不合格 | {c['excluded']} |
 | · 已在库社区长文/单帖 | **{c['already_in_repo']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
 | · 游戏 · 作者声明 | **{c['game_author_claim']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |
-| Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek | **0**（结构预留） | | |
+| Claude（Fable 5.2 / Opus 5.5…） | **{c['family_claude']}** | | |
+| Gemini（4 Carbon / 4 Argon） | **{c['family_gemini']}** | | |
+| GPT Sol / Astra（代码） | **{c['family_gpt-code']}** | | |
+| Grok（4.7 / Imagine） | **{c['family_grok']}** | | |
+| Qwen（3.8） | **{c['family_qwen']}** | | |
+| DeepSeek（V4.1 Flash） | **{c['family_deepseek']}** | | |
 | **主表合计** | **{c['main_collected']}** | | |"""
 
     OUT_README.write_text(
@@ -729,7 +792,7 @@ Independent community project. Organized by model family. Current public invento
 A sourced catalog of AI model GIF/animation showcases (post, real GIF/MP4/SVG-HTML capture, prompt-or-empty, model evidence, pipeline, verification, license boundary), grouped by model family. GPT Image 2.6 is one populated subsection.
 
 ## What is in the current inventory?
-Main collected {c['main_collected']} = GPT Image {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}). Other families (Claude, Gemini, GPT Sol/Astra, Grok, Qwen, DeepSeek): 0 cases in Phase 1 structure pass. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
+Main collected {c['main_collected']} = GPT Image {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}) + other families {c['frontier_sourced']} (Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT Sol/Astra {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}). Non-GPT families are source-linked by default. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
 
 ## What can I do with it?
 Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.
@@ -755,7 +818,8 @@ MIT covers source code only. Third-party media remains license-unknown unless a 
     OUT_ABOUT.write_text(json.dumps(GITHUB_ABOUT, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         f"community catalog: main {c['main_collected']} "
-        f"(X{c['x_author_claim_25']}+web{c['web_gif_12']}+inrepo{c['already_in_repo']}+game{c['game_author_claim']}); "
+        f"(gpt{c['gpt_image']}+frontier{c['frontier_sourced']}; "
+        f"X{c['x_author_claim_25']}+web{c['web_gif_12']}+inrepo{c['already_in_repo']}+game{c['game_author_claim']}); "
         f"pending {c['pending']}; appendix {c['appendix']}"
     )
 

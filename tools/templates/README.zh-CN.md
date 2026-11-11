@@ -53,7 +53,7 @@ ${featured}
 <a id="catalog"></a>
 ## 案例目录一览
 
-**${main_count} 个收录案例**，按**模型家族**分栏。其中 GPT Image 2.6 为已填充子栏目（${web_count} 个非 X 多帧 GIF · ${game_count} 个游戏作者声明）；其他家族预留空栏。**${pending_count} 个待核**，单独列出。
+**${main_count} 个收录案例**，按**模型家族**分栏。其中 GPT Image 2.6 为本地归档子栏目（${web_count} 个非 X 多帧 GIF · ${game_count} 个游戏作者声明）；Claude、Gemini、GPT Sol/Astra、Grok、Qwen、DeepSeek 等以出处链接收录。**${pending_count} 个待核**，单独列出。
 
 ${count_table}
 

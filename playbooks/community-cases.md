@@ -1,9 +1,10 @@
 # Community case catalog / 社区真实案例总目录
 
-> Updated 2026-11-09 (Beijing time). Same inventory as README.md and README.zh-CN.md. Organized by model family. Not exhaustive; not official verification.
+> Updated 2026-11-11 (Beijing time). Same inventory as README.md and README.zh-CN.md. Organized by model family. Not exhaustive; not official verification.
 
-- Main collected: **51** = GPT Image **51** (X 25 + web GIF 20 + in-repo 2 + game author-claim 4)
-- Other families (Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek): **0** (Phase 1 structure reserved)
+- Main collected: **70** = GPT Image **51** + other families **19**
+- GPT Image: X 25 + web GIF 20 + in-repo 2 + game author-claim 4
+- Other families: Claude 7 · Gemini 3 · GPT Sol/Astra 4 · Grok 2 · Qwen 1 · DeepSeek 2
 - Pending 12 · prompt-only 1 · excluded 9 · appendix 50 · seeds 6
 - Officially verified 2.6 game outputs: **0**
 
@@ -78,35 +79,54 @@
 | 3 | 小墨同学 @xiaomovps · 作者声明 Images 2.6 · X animated_gif→MP4 · 未见引擎内运行 | `game-xiaomovps-fighter` 复古格斗出拳 / 蓄力循环 | [出处](https://x.com/xiaomovps/status/2118274032227471705) | [案例](../docs/cases/game-xiaomovps-fighter/README.md) · [文件](../docs/cases/game-xiaomovps-fighter/media/03-still.jpg) | [未公开](../docs/cases/game-xiaomovps-fighter/prompt.md) | 作者声明 GPT Images 2.6（非官方验证；本仓未观看、未复测） | native_gif_and_or_sprite_claimed | 作者声明 2.6 · 非官方验证 · 未观看 | 许可未知 |
 | 4 | vargHQ gpt-image-sprite-sheet · 作者声明 gpt_image_2_6 · 非 OpenAI 官方验证 · 未复测 | `game-varg-knight-run` 骑士跑循环：作者声明 2.6 出表再切帧 | [出处](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md) | [案例](../docs/cases/game-varg-knight-run/README.md) · [文件](../docs/cases/game-varg-knight-run/media/01-sheet.png) | [原文](../docs/cases/game-varg-knight-run/prompt.md) | 作者声明 gpt_image_2_6（非官方验证；本仓未复测） | sheet_then_slice | 作者声明 2.6 · 非官方验证 · 未观看 | 许可未知 |
 
-## 家族 · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2（0）
+## 家族 · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2（7）
 
-_本清单此栏暂无已核实案例（为 Fable 5.2 / Opus 5.5 / Mythos 5.2 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | @himanshutwtxs | `x-himanshutwtxs-fable52-motion-showreel` One-prompt motion designer showreel (timing, easing, shape,  | [出处](https://x.com/himanshutwtxs/status/2120017106804900304) | [案例](../docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md) | [原文](../docs/cases/x-himanshutwtxs-fable52-motion-showreel/prompt.md) | Author/community catalog claim: Claude F | Code-driven motion graphics · captur | Primary X URL working · prompt publi | Source link only |
+| 2 | @wshuyi | `x-wshuyi-fable52-sabertooth-hunt` 纯编程动画：剑齿虎捕猎野牛（自编程音效） | [出处](https://x.com/wshuyi/status/2120014892040417720) | [案例](../docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md) | [原文](../docs/cases/x-wshuyi-fable52-sabertooth-hunt/prompt.md) | Author/community catalog claim: Claude F | Pure code animation + synthesized SF | Primary X URL working · verbatim pro | Source link only |
+| 3 | @MengTo（Meng To） | `x-mengto-fable52-blender-apartment` Recreate a Three.js apartment in Blender with Fable 5.2 | [出处](https://x.com/MengTo/status/2120316203738829180) | [案例](../docs/cases/x-mengto-fable52-blender-apartment/README.md) | [未公开](../docs/cases/x-mengto-fable52-blender-apartment/prompt.md) | Author claim: Fable 5.2 (also mentions p | Claude + Blender recreation of an ex | Primary X URL + media metadata · pro | Source link only |
+| 4 | @paleknight（Vraj） | `x-paleknight-fable52-vs-opus55-ship` Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-s | [出处](https://x.com/paleknight/status/2120368418805174639) | [案例](../docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md) | [未公开](../docs/cases/x-paleknight-fable52-vs-opus55-ship/prompt.md) | Author claim: Fable 5.2 and Opus 5.5, sa | Three.js ship animation · comparison | Primary X URL · same-prompt claim ·  | Source link only |
+| 5 | Halil Sekeroglu | `web-halil-fable52-animation-prompts` Four single-message Fable 5.2 animation prompts (logo / prom | [出处](https://halilsekeroglu.com/en/fable/) | [案例](../docs/cases/web-halil-fable52-animation-prompts/README.md) | [原文](../docs/cases/web-halil-fable52-animation-prompts/prompt.md) | Author page: Animation with Fable 5.2 ·  | Single-message HTML/SVG/Three.js/Can | Public page with verbatim prompts ·  | Source link only |
+| 6 | Ofox | `web-ofox-fable52-svg-sailboat` Editable SVG sailboat illustration with CSS motion (two API  | [出处](https://ofox.ai/blog/claude-fable-5-2-svg-guide/) | [案例](../docs/cases/web-ofox-fable52-svg-sailboat/README.md) | [短 / 部分](../docs/cases/web-ofox-fable52-svg-sailboat/prompt.md) | Ofox test: anthropic/claude-fable-5.2 (l | SVG code generation → browser CSS ke | Guide publishes validation table + n | Source link only |
+| 7 | James Greene (model comparison archive) | `web-jamesgreene-code1-opus55-isometric-city` Isometric day/night city HTML loop — Claude Opus 5.5 | [出处](https://jamesgreene.com/models/) | [案例](../docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md) | [原文](../docs/cases/web-jamesgreene-code1-opus55-isometric-city/prompt.md) | jamesgreene.com labeled run: Claude Opus | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
 
+## 家族 · Gemini — 4 Carbon / 4 Argon（3）
 
-## 家族 · Gemini — 4 Carbon / 4 Argon（0）
+| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gemini4-argon-isometric-city` Isometric day/night city HTML loop — Gemini 4 Argon | [出处](https://jamesgreene.com/models/) | [案例](../docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md) | [原文](../docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/prompt.md) | jamesgreene.com labeled run: Gemini 4 Ar | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
+| 2 | @coodddaaaa（Joe William） | `x-coodddaaaa-gemini-carbon-pelican-bike` Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 | [出处](https://x.com/coodddaaaa/status/2120363353142911078) | [案例](../docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md) | [未公开](../docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/prompt.md) | Author claim: Gemini Carbon, High · Gemi | HTML animation + model-made demo vid | Primary X URL · prompt unpublished · | Source link only |
+| 3 | @StatsWire | `x-statswire-gemini-carbon-nyc-cruiser` Interactive 3D NYC cruiser tour in one HTML file (Three.js) | [出处](https://x.com/StatsWire/status/2120344850071540152) | [案例](../docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md) | [未公开](../docs/cases/x-statswire-gemini-carbon-nyc-cruiser/prompt.md) | Author claim: Gemini 4 Carbon · single . | Three.js single-file scene · screen- | Primary X URL · prompt unpublished · | Source link only |
 
-_本清单此栏暂无已核实案例（为 4 Carbon / 4 Argon 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+## 家族 · GPT Sol / Astra（代码模型） — GPT-6.1 Sol / GPT-6 Sol / Astra（4）
 
+| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gpt61-sol-isometric-city` Isometric day/night city HTML loop — GPT-6.1 Sol | [出处](https://jamesgreene.com/models/) | [案例](../docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/README.md) | [原文](../docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/prompt.md) | jamesgreene.com labeled run: GPT-6.1 Sol | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
+| 2 | Marmik Shah (Atelier exhibition) | `web-atelier-gpt61-sol-ten-frame-loops` Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max e | [出处](https://marmikshah.github.io/atelier/) | [案例](../docs/cases/web-atelier-gpt61-sol-ten-frame-loops/README.md) | [短 / 部分](../docs/cases/web-atelier-gpt61-sol-ten-frame-loops/prompt.md) | Exhibition column: OpenAI GPT-6.1 Sol ma | Ten-frame looping animations (1 fps) | Public exhibition page · briefs on s | Source link only |
+| 3 | @YFeng2022（LanFeng） | `x-yfeng-gpt61-sol-fable-take-flight` Let Fable take Flight — HTML/Three.js procedural animation ( | [出处](https://x.com/YFeng2022/status/2120324811549225082) | [案例](../docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md) | [未公开](../docs/cases/x-yfeng-gpt61-sol-fable-take-flight/prompt.md) | Author claim: GPT-6.1 Sol Max via Codex  | HTML + Three.js procedural · Python- | Primary X URL · author says prompt i | Source link only |
+| 4 | @Raitox_tech | `x-raitoox-sol-stranger-things-credits` Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG | [出处](https://x.com/Raitox_tech/status/2120125234129084492) | [案例](../docs/cases/x-raitoox-sol-stranger-things-credits/README.md) | [未公开](../docs/cases/x-raitoox-sol-stranger-things-credits/prompt.md) | Author text says '6.2 sol ULTRA' but cit | Codex · SVG trace of studio art · Hy | Primary X URL · unofficial 6.2 Sol w | Source link only |
 
-## 家族 · GPT Sol / Astra（代码模型） — GPT-6.1 Sol / GPT-6 Sol / Astra（0）
+## 家族 · Grok — Grok 4.7 / Imagine Video（2）
 
-_本清单此栏暂无已核实案例（为 GPT-6.1 Sol / GPT-6 Sol / Astra 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-grok47-isometric-city` Isometric day/night city HTML loop — Grok 4.7 | [出处](https://jamesgreene.com/models/) | [案例](../docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md) | [原文](../docs/cases/web-jamesgreene-code1-grok47-isometric-city/prompt.md) | jamesgreene.com labeled run: Grok 4.7 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
+| 2 | @RadCyberTruck | `x-radcybertruck-grok-imagine-cybertruck-cry` Grok Imagine — pixstar Cybertruck farewell clip (partial pro | [出处](https://x.com/RadCyberTruck/status/2120350558431445006) | [案例](../docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md) | [短 / 部分](../docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/prompt.md) | Author labels post 'Grok Imagine prompt' | Grok Imagine native video generation | Primary X URL · prompt truncated in  | Source link only |
 
+## 家族 · Qwen — Qwen3.8（1）
 
-## 家族 · Grok — Grok 4.7（0）
+| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | [出处](https://jamesgreene.com/models/) | [案例](../docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [原文](../docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) | jamesgreene.com labeled run: Qwen3.8 27B | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
 
-_本清单此栏暂无已核实案例（为 Grok 4.7 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
+## 家族 · DeepSeek — V4.1 Flash（2）
 
-
-## 家族 · Qwen — Qwen3.8（0）
-
-_本清单此栏暂无已核实案例（为 Qwen3.8 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
-
-
-## 家族 · DeepSeek — V4.1 Flash（0）
-
-_本清单此栏暂无已核实案例（为 V4.1 Flash 预留结构）。后续仅收录有可核对出处 URL 的公开案例。_
-
+| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city` Isometric day/night city HTML loop — DeepSeek V4.1 Flash 101 | [出处](https://jamesgreene.com/models/) | [案例](../docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md) | [原文](../docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/prompt.md) | jamesgreene.com labeled run: DeepSeek V4 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
+| 2 | @LatentOperatorX | `x-latentoperator-a380-deepseek-fable-sol` Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fab | [出处](https://x.com/LatentOperatorX/status/2120205377803518132) | [案例](../docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md) | [短 / 部分](../docs/cases/x-latentoperator-a380-deepseek-fable-sol/prompt.md) | Author timed DeepSeek V4.1 Flash (+ Harn | Three.js single-scene challenge · co | Primary X URL · short shared prompt  | Source link only |
 
 ## 附表 A · 待核（12）
 
