@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Build a single self-contained HTML file: a 3D marble computer, in the spirit of Wintergata</title>
+<style>body{font:16px/1.5 sans-serif;max-width:880px;margin:24px auto;padding:0 16px;background:#10131a;color:#eff3f8}a{color:#c2ff67}pre{white-space:pre-wrap;background:#1a1e27;padding:12px;border-radius:8px}</style></head>
+<body>
+<p><a href="../../index.html">← catalog</a></p>
+<h1>Build a single self-contained HTML file: a 3D marble computer, in the spirit of Wintergata</h1>
+<p>Author: @GodsBoy7777 · <a href="https://x.com/GodsBoy7777/status/2103117450854150194">original source</a></p>
+<p>Model: claude / claude-opus-5.5<br>Citing repo lists this under Claude Opus 5.5 and links the original post. Previous mainstream generation. Not independently re-run.<br>Three.js / HTML scene captured as video on X<br>Primary X URL listed by yihui-dev/awesome-opus5-5-videos · not independently re-run</p>
+<p>Discovery: via yihui-dev/awesome-opus5-5-videos. Local video, when present, is a credited copy, not a reuse license. MIT covers source code only.</p>
+<h2>Media</h2>
+<p><a href="media/video.mp4">Video</a></p>
+<video src="media/video.mp4" controls playsinline preload="metadata" style="max-width:100%"></video>
+
+<p><a href="https://x.com/GodsBoy7777/status/2103117450854150194">Open source media / page</a></p>
+<h2>Prompt</h2>
+<pre>Build a single self-contained HTML file: a 3D marble computer, in the spirit of Wintergatan&#x27;s marble machine and the Digi-Comp II, that adds two 4-bit numbers using nothing but marbles falling through mechanical toggles.
+
+Hard rules:
+
+1. One HTML file. Three.js from https://t.co/KCQbEZLusb via an import map, plus its OrbitControls addon. No other libraries, no physics engine, no external assets.
+
+2. The mechanism is the computer. Each bit of the result is stored in a two-state toggle (flip-flop) that a marble physically flips as it passes. Carries happen because a marble leaving one toggle rolls on to the next. Do not compute the answer in JavaScript arithmetic anywhere. The displayed result must be read from the toggle states after the last marble stops.
+
+3. Marbles move along tracks with believable gravity and timing. Nothing teleports. You may script motion along paths, but every toggle flip must be caused by a marble arriving at it.
+
+4. Input: two rows of four switches (A and B, 0 to 15), set by clicking. A lever labelled RUN releases the marbles. A counter shows how many marbles have fallen.
+
+5. Output: a row of five result toggles, most significant bit on the left, and a readout that shows the binary and decimal value read from those toggles.
+
+6. A DEMO button runs 5+6, then 9+7, then 15+15, resetting between runs, so it can be screen-recorded without touching anything.
+
+7. Looks: a wooden board, brass toggles, glass marbles, warm studio lighting, soft shadows, a slow camera that follows the busiest part of the machine. It should look good in a square 1080x1080 recording.
+
+8. Short click sounds via the Web Audio API when a toggle flips, started only after the first user click.
+
+9. It must run at 60 fps on a normal laptop and have no console errors.
+
+Output only the complete HTML file.</pre>
+</body></html>

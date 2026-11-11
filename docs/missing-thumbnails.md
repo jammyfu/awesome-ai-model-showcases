@@ -2,7 +2,35 @@
 
 范围是主表案例。下面只列没有原图直链的条目。没有编造图片或链接。
 
-主表 143 条，没有代表图 4 条。
+主表 183 条，没有代表图 8 条。
+
+## `x-felixrieseberg-fable52-three-games-saltline-tidew`
+
+- 标题：Three Games 合集页（Saltline / 钟表匠之心 / Tidewright）
+- 作者：@felixrieseberg
+- 来源：https://x.com/vineerpasam/status/2119955306096857145
+- 尝试：来源页没有 og:image、帖子图片或可对应的 demo 图。
+
+## `x-itspsneha-fable52-clip`
+
+- 标题：印度维生素该买哪些
+- 作者：@itspsneha
+- 来源：https://x.com/itspsneha/status/2120048494761451974
+- 尝试：来源页没有 og:image、帖子图片或可对应的 demo 图。
+
+## `x-miaai-lab-fable52-76-html`
+
+- 标题：76 个单文件 HTML 视觉作品集
+- 作者：@MiaAI_lab
+- 来源：https://x.com/MiaAI_lab/status/2119930229661503893
+- 尝试：来源页没有 og:image、帖子图片或可对应的 demo 图。
+
+## `x-tokifyi-fable52-clip`
+
+- 标题：温哥华鸟瞰
+- 作者：@tokifyi
+- 来源：https://x.com/tokifyi/status/2120020272153764172
+- 尝试：来源页没有 og:image、帖子图片或可对应的 demo 图。
 
 ## `x-clairevo-fable52-chatprd`
 

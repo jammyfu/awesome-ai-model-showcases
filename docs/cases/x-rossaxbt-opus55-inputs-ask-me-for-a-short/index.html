@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>&lt;inputs&gt; Ask me for: a short label for the opening toggle, one hero word, a percentage for</title>
+<style>body{font:16px/1.5 sans-serif;max-width:880px;margin:24px auto;padding:0 16px;background:#10131a;color:#eff3f8}a{color:#c2ff67}pre{white-space:pre-wrap;background:#1a1e27;padding:12px;border-radius:8px}</style></head>
+<body>
+<p><a href="../../index.html">← catalog</a></p>
+<h1>&lt;inputs&gt; Ask me for: a short label for the opening toggle, one hero word, a percentage for</h1>
+<p>Author: @rossaxbt · <a href="https://x.com/rossaxbt/status/2107121188027707651">original source</a></p>
+<p>Model: claude / claude-opus-5.5<br>Citing repo lists this under Claude Opus 5.5 and links the original post. Previous mainstream generation. Not independently re-run.<br>Three.js / HTML scene captured as video on X<br>Primary X URL listed by yihui-dev/awesome-opus5-5-videos · not independently re-run</p>
+<p>Discovery: via yihui-dev/awesome-opus5-5-videos. Local video, when present, is a credited copy, not a reuse license. MIT covers source code only.</p>
+<h2>Media</h2>
+
+<p><a href="https://x.com/rossaxbt/status/2107121188027707651">Open source media / page</a></p>
+<h2>Prompt</h2>
+<pre>&lt;inputs&gt;
+Ask me for: a short label for the opening toggle, one hero word, a percentage for the graph, the text for the final card, one accent color, and a track with a clear beat.
+&lt;/inputs&gt;
+
+&lt;direction&gt;
+A 2D motion design film in 16:9. Use a warm off-white canvas, near-black backgrounds, bold typography and one vivid orange accent. The orange dot connects every scene: it starts in the UI, becomes the dot over a letter, traces a spring graph, grows into a shape and returns on the end card. A cursor makes the opening click feel real. Keep the motion sharp and controlled, with small spring overshoots and no dead time.
+Banned: stock footage, gradients, glows, particle bursts, random transitions and motion that isn&#x27;t connected to an element already on screen.
+&lt;/direction&gt;
+
+&lt;structure&gt;
+Around 15 seconds, with a visual change on every major beat.
+Open: a cursor clicks the orange toggle beside &quot;Reduce Motion&quot;. The letters bend and move into place until only &quot;Motion&quot; remains, with the orange dot above the &quot;i&quot;.
+Spring: the dot jumps away from the word and lands on a graph. Its path draws a spring response, overshoots the target and settles beside a &quot;+22%&quot; callout.
+Shape: the dot shoots across a line, grows into an orange circle and fills the frame. A black rounded square rotates inside it, then stretches into a pill. The scene contracts to a single orange dot on black.
+Type: words like &quot;SPRINGS&quot;, &quot;EASING&quot;, &quot;KINETIC TYPE&quot;, &quot;3D&quot; and &quot;SOUND&quot; orbit the dot. The circle of type opens out into a field of tiny dots.
+Reveal: the halftone field expands and flips to black, revealing the final card: &quot;Opus 5.5&quot;, &quot;Motion designer.&quot; and &quot;0 keyframes&quot;.
+Return: the orange dot moves back through the halftone, graph and toggle. Match the final frame to the first so the video loops cleanly.
+&lt;/structure&gt;
+
+&lt;build&gt;
+1. One HTML file, 1920x1080 at 60fps. Compute every visual from time inside seek(t): no CSS transitions, timers or state carried between frames.
+2. Use closed-form springs for the toggle, bouncing dot and graph. Draw the graph from the same spring function that moves the dot.
+3. Animate letters individually for the &quot;Reduce Motion&quot; to &quot;Motion&quot; transformation. Keep the orange dot attached to the &quot;i&quot; until it begins its jump.
+4. Make the orange circle, rotating square and pill different states of the same shape. Preserve its position and motion through each transformation.
+5. Place the orbiting words along a circular path, then move their letters outward to hand the frame over to the halftone grid.
+6. Draw the halftone as a grid of dots whose sizes respond to the orange dot. Let it grow past the frame edges before revealing the end card.
+7. Sync the click, dot landing, graph peak, shape changes and final title to measured beats.</pre>
+</body></html>

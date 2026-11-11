@@ -30,6 +30,7 @@ Independent community archive. Model labels are source claims, not independent v
 ${quick_nav}
 
 - [Showcase collection sites](#collection-sites)
+- [Related projects](#related-projects)
 - [How to use this catalog](#how-to-use)
 - [Submit a case](#contribute)
 - [Media rights](#rights)
@@ -55,6 +56,11 @@ ${type_sections}
 Galleries and aggregators that collect or compare model GIF, animation, and HTML demos. Link back; do not scrape-rehost. Descriptions below are copied from [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json).
 
 ${collection_sites}
+
+<a id="related-projects"></a>
+## Related projects
+
+GitHub repositories that collect model showcases, prompts, or demos. Names, what each one covers, stars, last push, and language are in [docs/related-projects.md](docs/related-projects.md).
 
 <a id="how-to-use"></a>
 ## What can I do with this catalog?

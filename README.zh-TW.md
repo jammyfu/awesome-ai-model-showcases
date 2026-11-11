@@ -14,7 +14,7 @@
 AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Mythos 5.2、Gemini 4 Argon / Carbon、GPT-6.2 Sol、Grok、Qwen、DeepSeek 等）以及上一代仍在主流使用的模型的真實製作案例：動圖、動畫、HTML／遊戲 demo、圖像；每則都附上原帖、作者、公開的提示詞和做法。
 
 <p>
-<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-143-10131a?style=flat-square&amp;labelColor=c2ff67" alt="143 則已收錄案例"></a>
+<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-183-10131a?style=flat-square&amp;labelColor=c2ff67" alt="183 則已收錄案例"></a>
 <a href="README.md"><img src="https://img.shields.io/badge/readme-EN_%2F_ZH_%2F_ZH--TW_%2F_JA-10131a?style=flat-square&amp;labelColor=c2ff67" alt="英文、簡體中文、繁體中文、日文"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="源碼採用 MIT 授權"></a>
 </p>
@@ -47,6 +47,7 @@ GPT Image 2.6 GIF 歸檔（**51** 則，不計入首頁合計）：[collections/
 - [案例總表](docs/showcase-index.md)
 
 - [案例收集網站](#collection-sites)
+- [相關項目](#related-projects)
 - [怎麼用](#how-to-use)
 - [怎麼投稿](#contribute)
 - [媒體權利](#rights)
@@ -120,7 +121,7 @@ GPT Image 2.6 GIF 歸檔（**51** 則，不計入首頁合計）：[collections/
 
 ![Claude cover](assets/brand/families/claude.png)
 
-這個家族收了 114 則有出處的案例，這裡放 4 則。其餘都在後面的完整證據表。
+這個家族收了 146 則有出處的案例，這裡放 4 則。其餘都在後面的完整證據表。
 
 <a id="ver-claude-fable-5-2"></a>
 
@@ -264,7 +265,7 @@ GPT Image 2.6 GIF 歸檔（**51** 則，不計入首頁合計）：[collections/
 
 ![Grok cover](assets/brand/families/grok.png)
 
-這個家族收了 3 則有出處的案例，這裡放 2 則。其餘都在後面的完整證據表。
+這個家族收了 11 則有出處的案例，這裡放 2 則。其餘都在後面的完整證據表。
 
 <a id="ver-grok-4-7"></a>
 
@@ -399,30 +400,30 @@ GPT Image 2.6 GIF 歸檔（**51** 則，不計入首頁合計）：[collections/
 
 <a id="type-animation"></a>
 ### 動畫 / 動效
-這一類 94 則。下面最多四張有縮圖的預覽。
+這一類 114 則。下面最多四張有縮圖的預覽。
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/himanshutwtxs/status/2120017106804900304"><img src="assets/thumbs/x-himanshutwtxs-fable52-motion-showreel.jpg" alt="One-prompt motion designer showreel (timing, easing, shape, type) — @himanshutwtxs" width="220"></a><br>
-<strong><a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md">One-prompt motion designer showreel (timing, easing, shape, type)</a></strong><br>
-署名: @himanshutwtxs<br><a href="https://x.com/himanshutwtxs/status/2120017106804900304">原帖</a>
+<a href="https://x.com/anabology/status/2120010995309457643"><img src="assets/thumbs/x-anabology-fable52-claudia-gallery.jpg" alt="Claudia Gallery — @anabology" width="220"></a><br>
+<strong><a href="docs/cases/x-anabology-fable52-claudia-gallery/README.md">Claudia Gallery</a></strong><br>
+署名: @anabology<br><a href="https://x.com/anabology/status/2120010995309457643">原帖</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/wshuyi/status/2120014892040417720"><img src="assets/thumbs/x-wshuyi-fable52-sabertooth-hunt.jpg" alt="纯编程动画：剑齿虎捕猎野牛（自编程音效） — @wshuyi" width="220"></a><br>
-<strong><a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md">纯编程动画：剑齿虎捕猎野牛（自编程音效）</a></strong><br>
-署名: @wshuyi<br><a href="https://x.com/wshuyi/status/2120014892040417720">原帖</a>
+<a href="https://x.com/chetaslua/status/2119870650722763052"><img src="assets/thumbs/x-chetaslua-fable52-clip.jpg" alt="官方演示：从空文件夹造操作系统（转述） — @chetaslua" width="220"></a><br>
+<strong><a href="docs/cases/x-chetaslua-fable52-clip/README.md">官方演示：从空文件夹造操作系统（转述）</a></strong><br>
+署名: @chetaslua<br><a href="https://x.com/chetaslua/status/2119870650722763052">原帖</a>
 </td>
 <td align="center" width="33%">
-<a href="https://halilsekeroglu.com/en/fable/"><img src="assets/thumbs/web-halil-fable52-animation-prompts.jpg" alt="Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D) — Halil Sekeroglu" width="220"></a><br>
-<strong><a href="docs/cases/web-halil-fable52-animation-prompts/README.md">Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D)</a></strong><br>
-署名: Halil Sekeroglu<br><a href="https://halilsekeroglu.com/en/fable/">原帖</a>
+<a href="https://x.com/ChrisGPT/status/2119998815856218494"><img src="assets/thumbs/x-chrisgpt-fable52-clip.jpg" alt="给剪辑师的「抢饭碗」宣言视频 — @ChrisGPT" width="220"></a><br>
+<strong><a href="docs/cases/x-chrisgpt-fable52-clip/README.md">给剪辑师的「抢饭碗」宣言视频</a></strong><br>
+署名: @ChrisGPT<br><a href="https://x.com/ChrisGPT/status/2119998815856218494">原帖</a>
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/aakashverma/status/2119874895836524593"><img src="assets/thumbs/x-aakashverma-fable52-fable-anthropic.jpg" alt="把 Fable 5.2 的发布补进一部 Anthropic 历史片 — @aakashverma（Aakash Verma）" width="220"></a><br>
-<strong><a href="docs/cases/x-aakashverma-fable52-fable-anthropic/README.md">把 Fable 5.2 的发布补进一部 Anthropic 历史片</a></strong><br>
-署名: @aakashverma（Aakash Verma）<br><a href="https://x.com/aakashverma/status/2119874895836524593">原帖</a>
+<a href="https://x.com/MrTacticalX/status/2119955647542542439"><img src="assets/thumbs/x-mrtacticalx-fable52-fable-opus.jpg" alt="玻璃泳池，Fable 对 Opus — @MrTacticalX" width="220"></a><br>
+<strong><a href="docs/cases/x-mrtacticalx-fable52-fable-opus/README.md">玻璃泳池，Fable 对 Opus</a></strong><br>
+署名: @MrTacticalX<br><a href="https://x.com/MrTacticalX/status/2119955647542542439">原帖</a>
 </td>
 </tr>
 </table>
@@ -430,30 +431,30 @@ GPT Image 2.6 GIF 歸檔（**51** 則，不計入首頁合計）：[collections/
 
 <a id="type-html-3d"></a>
 ### HTML / 3D 場景
-這一類 49 則。下面最多四張有縮圖的預覽。
+這一類 69 則。下面最多四張有縮圖的預覽。
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/0kncn/status/2119901782482543073"><img src="assets/thumbs/x-0kncn-fable52-543073.jpg" alt="90 秒蒸汽机车变形短片，附完整提示词 — @0kncn（Okan Can）" width="220"></a><br>
-<strong><a href="docs/cases/x-0kncn-fable52-543073/README.md">90 秒蒸汽机车变形短片，附完整提示词</a></strong><br>
-署名: @0kncn（Okan Can）<br><a href="https://x.com/0kncn/status/2119901782482543073">原帖</a>
+<a href="https://x.com/anshu4321/status/2119938067758772403"><img src="assets/thumbs/x-anshu4321-fable52-indiranagar-1.jpg" alt="印度班加罗尔 Indiranagar 1 平方公里 — @anshu4321" width="220"></a><br>
+<strong><a href="docs/cases/x-anshu4321-fable52-indiranagar-1/README.md">印度班加罗尔 Indiranagar 1 平方公里</a></strong><br>
+署名: @anshu4321<br><a href="https://x.com/anshu4321/status/2119938067758772403">原帖</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/AmirMushich/status/2119903338078564844"><img src="assets/thumbs/x-amirmushich-fable52-blender-reaper.jpg" alt="Blender × Reaper，用手机录音做三维片段的音效 — @AmirMushich（AmirMušić）" width="220"></a><br>
-<strong><a href="docs/cases/x-amirmushich-fable52-blender-reaper/README.md">Blender × Reaper，用手机录音做三维片段的音效</a></strong><br>
-署名: @AmirMushich（AmirMušić）<br><a href="https://x.com/AmirMushich/status/2119903338078564844">原帖</a>
+<a href="https://x.com/felixrieseberg/status/2119925633564463609"><img src="assets/thumbs/x-felixrieseberg-fable52-saltline.jpg" alt="Saltline 第一人称射击 — @felixrieseberg" width="220"></a><br>
+<strong><a href="docs/cases/x-felixrieseberg-fable52-saltline/README.md">Saltline 第一人称射击</a></strong><br>
+署名: @felixrieseberg<br><a href="https://x.com/felixrieseberg/status/2119925633564463609">原帖</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/AmirMushich/status/2119937977426338283"><img src="assets/thumbs/x-amirmushich-fable52-worm-rider.jpg" alt="Worm Rider，用代码生成沙虫、车队与地形 — @AmirMushich（AmirMušić）" width="220"></a><br>
-<strong><a href="docs/cases/x-amirmushich-fable52-worm-rider/README.md">Worm Rider，用代码生成沙虫、车队与地形</a></strong><br>
-署名: @AmirMushich（AmirMušić）<br><a href="https://x.com/AmirMushich/status/2119937977426338283">原帖</a>
+<a href="https://x.com/higgsfield_ai/status/2119997122896601269"><img src="assets/thumbs/x-higgsfield-ai-fable52-vowlorn-rpg.jpg" alt="VOWLORN 纯代码暗黑 RPG — @higgsfield_ai" width="220"></a><br>
+<strong><a href="docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/README.md">VOWLORN 纯代码暗黑 RPG</a></strong><br>
+署名: @higgsfield_ai<br><a href="https://x.com/higgsfield_ai/status/2119997122896601269">原帖</a>
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/anstapnever/status/2119915123070644263"><img src="assets/thumbs/x-anstapnever-fable52-blackout-three.jpg" alt="《Blackout》，用 Three.js 做 79 秒二维动画 — @anstapnever（anstap）" width="220"></a><br>
-<strong><a href="docs/cases/x-anstapnever-fable52-blackout-three/README.md">《Blackout》，用 Three.js 做 79 秒二维动画</a></strong><br>
-署名: @anstapnever（anstap）<br><a href="https://x.com/anstapnever/status/2119915123070644263">原帖</a>
+<a href="https://x.com/LexnLin/status/2119966127149429093"><img src="assets/thumbs/x-lexnlin-fable52-feed-the-backrooms.jpg" alt="Feed the Backrooms：你当怪物 — @LexnLin" width="220"></a><br>
+<strong><a href="docs/cases/x-lexnlin-fable52-feed-the-backrooms/README.md">Feed the Backrooms：你当怪物</a></strong><br>
+署名: @LexnLin<br><a href="https://x.com/LexnLin/status/2119966127149429093">原帖</a>
 </td>
 </tr>
 </table>
@@ -496,6 +497,11 @@ GPT Image 2.6 GIF 歸檔（**51** 則，不計入首頁合計）：[collections/
 **跨家族**
 - [James Greene · AI model comparison](https://jamesgreene.com/models/) — Cross-family same-prompt HTML/SVG/animation leaderboard with downloadable pages and MP4 recordings.
 
+
+<a id="related-projects"></a>
+## 相關項目
+
+收集模型案例、提示詞或示範的 GitHub 倉庫。名稱、涵蓋範圍、star、最近推送和語言見 [docs/related-projects.md](docs/related-projects.md)。
 
 <a id="how-to-use"></a>
 ## 這個目錄能做什麼？
@@ -555,26 +561,26 @@ python3 tools/verify.py
 <a id="catalog"></a>
 ## 案例目錄一覽
 
-**首頁 143 則**，先按下面的前沿模型家族，再按版本。**12 則待核**不進這個合計。
+**首頁 183 則**，先按下面的前沿模型家族，再按版本。**12 則待核**不進這個合計。
 
 | 模型家族 / 分欄 | 數 | 附表（不計入主表） | 數 |
 |---|---:|---|---:|
-| Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **114** | 待核 | 12 |
+| Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **146** | 待核 | 12 |
 | Gemini（4 Carbon / 4 Argon） | **6** | 純 prompt | 1 |
 | GPT-6.2 Sol / Astra（程式；公開文件仍寫 GPT-6.1 Sol） | **14** | 重複/不合格 | 9 |
-| Grok（4.7 / Imagine） | **3** | 2.5 / 宣傳 / 多模型 / 失敗 / Morphic / 非X候選 | 50 |
+| Grok（4.7 / Imagine） | **11** | 2.5 / 宣傳 / 多模型 / 失敗 / Morphic / 非X候選 | 50 |
 | Qwen（3.8） | **3** | 倉庫種子（本倉示例） | 6 |
 | DeepSeek（V4.1 Flash） | **3** | | |
-| **首頁合計** | **143** | | |
+| **首頁合計** | **183** | | |
 
-數字來自[同一份產生目錄](docs/data/community-cases.json)。來源清單最近更新：**2026-11-11**。首頁合計是前沿家族的收錄數，不是已經重現成功的數。**143 則裡有 117 則拿到了本地素材**（來源有影片時，存一份署名副本）。`assets/thumbs/` 裡的導覽縮圖是帶署名、鏈回原帖的小圖。逐則總表在 [docs/showcase-index.md](docs/showcase-index.md)。沒下到的影片記在 [docs/missing-videos.md](docs/missing-videos.md)。
+數字來自[同一份產生目錄](docs/data/community-cases.json)。來源清單最近更新：**2026-11-11**。首頁合計是前沿家族的收錄數，不是已經重現成功的數。**183 則裡有 151 則拿到了本地素材**（來源有影片時，存一份署名副本）。`assets/thumbs/` 裡的導覽縮圖是帶署名、鏈回原帖的小圖。逐則總表在 [docs/showcase-index.md](docs/showcase-index.md)。沒下到的影片記在 [docs/missing-videos.md](docs/missing-videos.md)。
 
 ### 完整出處與證據表
 
 展開下面的家族，或打開[可搜尋的網頁總目錄](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=zh)。標題和依據保持來源語言。同一批紀錄也在[獨立總目錄](playbooks/community-cases.md)。
 
 <details>
-<summary><strong>家族 · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2（114）</strong></summary>
+<summary><strong>家族 · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2（146）</strong></summary>
 
 | # | 作者 | 做法 | 原帖 | 媒體 | prompt | 模型依據 | 管線 | 驗證 | 許可 |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -692,6 +698,38 @@ python3 tools/verify.py
 | 112 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-183568` 从 14 套咨询演示稿提取能自动检查的规则 | [出處](https://x.com/hammer_mt/status/2119906412709183568) | [案例](docs/cases/x-hammermt-fable52-183568/README.md) | [未公開](docs/cases/x-hammermt-fable52-183568/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
 | 113 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-katepass` KatePass，用 320 份旧草稿衡量编辑还剩多少工作 | [出處](https://x.com/hammer_mt/status/2119906389284057363) | [案例](docs/cases/x-hammermt-fable52-katepass/README.md) | [未公開](docs/cases/x-hammermt-fable52-katepass/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
 | 114 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-103010` 从个人 AI 使用历史整理十个可重复的评测任务 | [出處](https://x.com/hammer_mt/status/2119907037631103010) | [案例](docs/cases/x-hammermt-fable52-103010/README.md) | [未公開](docs/cases/x-hammermt-fable52-103010/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
+| 115 | @aichrislee | `x-aichrislee-opus55-build-me-a-camera-lens-in` Build me a camera lens in interactive 3D, in one HTML file w | [出處](https://x.com/aichrislee/status/2108709764817408244) | [案例](docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/README.md) · [Video](docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/media/video.mp4) | [原文](docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/prompt.md) | Citing repo lists this under Claude Opus | Code-made animation captured as vide | Primary X URL listed by yihui-dev/aw | Source link only |
+| 116 | @alightinastorm | `x-alightinastorm-fable52-a-browser-first-person-sho` A browser first-person shooter with an armory and a desert t | [出處](https://x.com/alightinastorm/status/2120020469487440210) | [案例](docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/README.md) · [Video](docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/media/video.mp4) | [未公開](docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 117 | @anabology | `x-anabology-fable52-claudia-gallery` Claudia Gallery | [出處](https://x.com/anabology/status/2120010995309457643) | [案例](docs/cases/x-anabology-fable52-claudia-gallery/README.md) · [Video](docs/cases/x-anabology-fable52-claudia-gallery/media/video.mp4) | [未公開](docs/cases/x-anabology-fable52-claudia-gallery/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 118 | @anshu4321 | `x-anshu4321-fable52-indiranagar-1` 印度班加罗尔 Indiranagar 1 平方公里 | [出處](https://x.com/anshu4321/status/2119938067758772403) | [案例](docs/cases/x-anshu4321-fable52-indiranagar-1/README.md) · [Video](docs/cases/x-anshu4321-fable52-indiranagar-1/media/video.mp4) | [未公開](docs/cases/x-anshu4321-fable52-indiranagar-1/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 119 | @chetaslua | `x-chetaslua-fable52-clip` 官方演示：从空文件夹造操作系统（转述） | [出處](https://x.com/chetaslua/status/2119870650722763052) | [案例](docs/cases/x-chetaslua-fable52-clip/README.md) · [Video](docs/cases/x-chetaslua-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-chetaslua-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 120 | @ChrisGPT | `x-chrisgpt-fable52-clip` 给剪辑师的「抢饭碗」宣言视频 | [出處](https://x.com/ChrisGPT/status/2119998815856218494) | [案例](docs/cases/x-chrisgpt-fable52-clip/README.md) · [Video](docs/cases/x-chrisgpt-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-chrisgpt-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 121 | @felixrieseberg | `x-felixrieseberg-fable52-saltline` Saltline 第一人称射击 | [出處](https://x.com/felixrieseberg/status/2119925633564463609) | [案例](docs/cases/x-felixrieseberg-fable52-saltline/README.md) · [Video](docs/cases/x-felixrieseberg-fable52-saltline/media/video.mp4) | [未公開](docs/cases/x-felixrieseberg-fable52-saltline/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 122 | @felixrieseberg | `x-felixrieseberg-fable52-three-games-saltline-tidew` Three Games 合集页（Saltline / 钟表匠之心 / Tidewright） | [出處](https://x.com/vineerpasam/status/2119955306096857145) | [案例](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/README.md) · [Video](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/media/video.mp4) | [未公開](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 123 | @Gdgtify | `x-gdgtify-opus55-create-a-20-00-second-kine` Create a 20.00-second kinetic typography film titled “ESCAPE | [出處](https://x.com/Gdgtify/status/2105669567036989608) | [案例](docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/README.md) · [Video](docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/media/video.mp4) | [原文](docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/prompt.md) | Citing repo lists this under Claude Opus | Three.js / HTML scene captured as vi | Primary X URL listed by yihui-dev/aw | Source link only |
+| 124 | @GodsBoy7777 | `x-godsboy7777-opus55-build-a-single-self-contai` Build a single self-contained HTML file: a 3D marble compute | [出處](https://x.com/GodsBoy7777/status/2103117450854150194) | [案例](docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/README.md) · [Video](docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/media/video.mp4) | [原文](docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/prompt.md) | Citing repo lists this under Claude Opus | Three.js / HTML scene captured as vi | Primary X URL listed by yihui-dev/aw | Source link only |
+| 125 | @heyiamnick | `x-heyiamnick-opus55-direction-build-a-30-secon` <direction> Build a 30-second looping motion design showreel | [出處](https://x.com/heyiamnick/status/2109174851412119558) | [案例](docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/README.md) · [Video](docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/media/video.mp4) | [原文](docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/prompt.md) | Citing repo lists this under Claude Opus | Code-made animation captured as vide | Primary X URL listed by yihui-dev/aw | Source link only |
+| 126 | @higgsfield_ai | `x-higgsfield-ai-fable52-vowlorn-rpg` VOWLORN 纯代码暗黑 RPG | [出處](https://x.com/higgsfield_ai/status/2119997122896601269) | [案例](docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/README.md) · [Video](docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/media/video.mp4) | [未公開](docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 127 | @itspsneha | `x-itspsneha-fable52-clip` 印度维生素该买哪些 | [出處](https://x.com/itspsneha/status/2120048494761451974) | [案例](docs/cases/x-itspsneha-fable52-clip/README.md) | [未公開](docs/cases/x-itspsneha-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 128 | @jev_chat | `x-jev-chat-fable52-an-acrobat-stack-on-a-bipl` An acrobat stack on a biplane above the clouds, a 3D short i | [出處](https://x.com/jev_chat/status/2120015641151426838) | [案例](docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/README.md) · [Video](docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/media/video.mp4) | [未公開](docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 129 | @_koushikde_ | `x-koushikde-opus55-make-a-15s-motion-video-in` Make a 15s motion video in code (1920x1080, 60fps, one HTML  | [出處](https://x.com/_koushikde_/status/2105730717455937635) | [案例](docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/README.md) · [Video](docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/media/video.mp4) | [原文](docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/prompt.md) | Citing repo lists this under Claude Opus | Code-made animation captured as vide | Primary X URL listed by yihui-dev/aw | Source link only |
+| 130 | @LexnLin | `x-lexnlin-fable52-a-flight-through-a-living` A flight through a living world | [出處](https://x.com/LexnLin/status/2119880654858977333) | [案例](docs/cases/x-lexnlin-fable52-a-flight-through-a-living/README.md) · [Video](docs/cases/x-lexnlin-fable52-a-flight-through-a-living/media/video.mp4) | [未公開](docs/cases/x-lexnlin-fable52-a-flight-through-a-living/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 131 | @LexnLin | `x-lexnlin-fable52-feed-the-backrooms` Feed the Backrooms：你当怪物 | [出處](https://x.com/LexnLin/status/2119966127149429093) | [案例](docs/cases/x-lexnlin-fable52-feed-the-backrooms/README.md) · [Video](docs/cases/x-lexnlin-fable52-feed-the-backrooms/media/video.mp4) | [未公開](docs/cases/x-lexnlin-fable52-feed-the-backrooms/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 132 | @maxt3chno | `x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b` GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in | [出處](https://x.com/maxt3chno/status/2119896698281467952) | [案例](docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/README.md) · [Video](docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/media/video.mp4) | [原文](docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by yihui-dev/aw | Source link only |
+| 133 | @MiaAI_lab | `x-miaai-lab-fable52-76-html` 76 个单文件 HTML 视觉作品集 | [出處](https://x.com/MiaAI_lab/status/2119930229661503893) | [案例](docs/cases/x-miaai-lab-fable52-76-html/README.md) | [未公開](docs/cases/x-miaai-lab-fable52-76-html/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 134 | @MrTacticalX | `x-mrtacticalx-fable52-fable-opus` 玻璃泳池，Fable 对 Opus | [出處](https://x.com/MrTacticalX/status/2119955647542542439) | [案例](docs/cases/x-mrtacticalx-fable52-fable-opus/README.md) · [Video](docs/cases/x-mrtacticalx-fable52-fable-opus/media/video.mp4) | [未公開](docs/cases/x-mrtacticalx-fable52-fable-opus/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 135 | @noclipepe | `x-noclipepe-fable52-chrome` Chrome 恐龙变兰博 | [出處](https://x.com/noclipepe/status/2119927838321328577) | [案例](docs/cases/x-noclipepe-fable52-chrome/README.md) · [Video](docs/cases/x-noclipepe-fable52-chrome/media/video.mp4) | [未公開](docs/cases/x-noclipepe-fable52-chrome/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 136 | @noclipepe | `x-noclipepe-fable52-clip` 童年地毯赛车 | [出處](https://x.com/noclipepe/status/2119728047754547326) | [案例](docs/cases/x-noclipepe-fable52-clip/README.md) · [Video](docs/cases/x-noclipepe-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-noclipepe-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 137 | @notjazii | `x-notjazii-fable52-a-pirate-ship-sailing-acro` A pirate ship sailing across the ocean | [出處](https://x.com/notjazii/status/2119905661505122575) | [案例](docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/README.md) · [Video](docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/media/video.mp4) | [未公開](docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 138 | @rossaxbt | `x-rossaxbt-opus55-inputs-ask-me-for-a-short` <inputs> Ask me for: a short label for the opening toggle, o | [出處](https://x.com/rossaxbt/status/2107121188027707651) | [案例](docs/cases/x-rossaxbt-opus55-inputs-ask-me-for-a-short/README.md) | [原文](docs/cases/x-rossaxbt-opus55-inputs-ask-me-for-a-short/prompt.md) | Citing repo lists this under Claude Opus | Three.js / HTML scene captured as vi | Primary X URL listed by yihui-dev/aw | Source link only |
+| 139 | @_sholtodouglas | `x-sholtodouglas-fable52-fps` 带传送门的竞技场 FPS，办公室里对战 | [出處](https://x.com/_sholtodouglas/status/2119935331499925557) | [案例](docs/cases/x-sholtodouglas-fable52-fps/README.md) · [Video](docs/cases/x-sholtodouglas-fable52-fps/media/video.mp4) | [未公開](docs/cases/x-sholtodouglas-fable52-fps/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 140 | @tokifyi | `x-tokifyi-fable52-clip` 温哥华鸟瞰 | [出處](https://x.com/tokifyi/status/2120020272153764172) | [案例](docs/cases/x-tokifyi-fable52-clip/README.md) | [未公開](docs/cases/x-tokifyi-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 141 | @twoclipping | `x-twoclipping-opus55-inputs-ask-me-for-my-produ` <inputs> Ask me for: my product's name (one lowercase word), | [出處](https://x.com/twoclipping/status/2106101258834551116) | [案例](docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/README.md) · [Video](docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/media/video.mp4) | [原文](docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/prompt.md) | Citing repo lists this under Claude Opus | Code-made animation captured as vide | Primary X URL listed by yihui-dev/aw | Source link only |
+| 142 | @ultimaxbt | `x-ultimaxbt-opus55-inputs-ask-me-for-my-produ` <inputs> Ask me for: my product, the exact request a user ty | [出處](https://x.com/ultimaxbt/status/2108210884799549714) | [案例](docs/cases/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ/README.md) | [原文](docs/cases/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ/prompt.md) | Citing repo lists this under Claude Opus | Three.js / HTML scene captured as vi | Primary X URL listed by yihui-dev/aw | Source link only |
+| 143 | @vib3coded | `x-vib3coded-fable52-clip` 果冻虎鲸材质研究 | [出處](https://x.com/vib3coded/status/2119951060752375827) | [案例](docs/cases/x-vib3coded-fable52-clip/README.md) · [Video](docs/cases/x-vib3coded-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-vib3coded-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 144 | @vib3coded | `x-vib3coded-fable52-clip-2` 瓶中体素世界 | [出處](https://x.com/vib3coded/status/2120104517282775514) | [案例](docs/cases/x-vib3coded-fable52-clip-2/README.md) · [Video](docs/cases/x-vib3coded-fable52-clip-2/media/video.mp4) | [未公開](docs/cases/x-vib3coded-fable52-clip-2/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
+| 145 | @viktoroddy | `x-viktoroddy-fable52-ribbon-hero` Ribbon Hero 首屏 | [出處](https://x.com/viktoroddy/status/2119985044542705916) | [案例](docs/cases/x-viktoroddy-fable52-ribbon-hero/README.md) · [Video](docs/cases/x-viktoroddy-fable52-ribbon-hero/media/video.mp4) | [未公開](docs/cases/x-viktoroddy-fable52-ribbon-hero/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 146 | @WesRoth | `x-wesroth-fable52-clip` 一次生成合集 | [出處](https://x.com/WesRoth/status/2119953913160093817) | [案例](docs/cases/x-wesroth-fable52-clip/README.md) · [Video](docs/cases/x-wesroth-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-wesroth-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
 
 </details>
 
@@ -734,13 +772,21 @@ python3 tools/verify.py
 </details>
 
 <details>
-<summary><strong>家族 · Grok — Grok 4.7 / Imagine Video（3）</strong></summary>
+<summary><strong>家族 · Grok — Grok 4.7 / Imagine Video（11）</strong></summary>
 
 | # | 作者 | 做法 | 原帖 | 媒體 | prompt | 模型依據 | 管線 | 驗證 | 許可 |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-grok47-isometric-city` Isometric day/night city HTML loop — Grok 4.7 | [出處](https://jamesgreene.com/models/) | [案例](docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-grok47-isometric-city/prompt.md) | jamesgreene.com labeled run: Grok 4.7 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
 | 2 | @RadCyberTruck | `x-radcybertruck-grok-imagine-cybertruck-cry` Grok Imagine — pixstar Cybertruck farewell clip (partial pro | [出處](https://x.com/RadCyberTruck/status/2120350558431445006) | [案例](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md) · [Video](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/media/video.mp4) | [短 / 部分](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/prompt.md) | Author labels post 'Grok Imagine prompt' | Grok Imagine native video generation | Primary X URL · prompt truncated in  | Source link only |
 | 3 | @Aiminithoughts | `x-aiminithoughts-grok-imagine-golden-angel` Golden Angel Warrior — Grok Imagine clip | [出處](https://x.com/Aiminithoughts/status/2120329925702070425) | [案例](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md) · [Video](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/media/video.mp4) | [原文](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/prompt.md) | Author labels the post 'Grok Imagine Pro | Grok Imagine native video | Primary X URL · prompt published in  | Source link only |
+| 4 | @Aiminithoughts（Ai Mini Thoughts Creator） | `x-aiminithoughts-grok-imagine-optimus-rising-from-ocean` Optimus Rising from Ocean | [出處](https://x.com/Aiminithoughts/status/2118762128475635964) | [案例](docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/README.md) · [Video](docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/media/video.mp4) | [短 / 部分](docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
+| 5 | @Aiminithoughts（Ai Mini Thoughts Creator） | `x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag` SpaceX Beyond Earth Montage | [出處](https://x.com/Aiminithoughts/status/2118871728680272112) | [案例](docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/README.md) · [Video](docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/media/video.mp4) | [短 / 部分](docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
+| 6 | @AwesomeGodNewL（Awesome God New Life Ministries） | `x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince` Grok Imagine Prompt: Prince transforms maid into princess | [出處](https://x.com/AwesomeGodNewL/status/2118227641027416471) | [案例](docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/README.md) · [Video](docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/media/video.mp4) | [短 / 部分](docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
+| 7 | @HaluAIArt（はる） | `x-haluaiart-grok-imagine-dark-electro-hip-hop-dance` Dark Electro Hip Hop Dance Video | [出處](https://x.com/HaluAIArt/status/2118285947921989988) | [案例](docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/README.md) · [Video](docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/media/video.mp4) | [短 / 部分](docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
+| 8 | @HawkinsonLindy（Lindy Hawkinson） | `x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v` Wind Blown Yellow Ribbon Video | [出處](https://x.com/HawkinsonLindy/status/2118934426633785350) | [案例](docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/README.md) · [Video](docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/media/video.mp4) | [短 / 部分](docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
+| 9 | @Herbertkrspyleg（Herbert Krspyleg75 Joseph） | `x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo` Neon Martial Arts Swordswoman | [出處](https://x.com/Herbertkrspyleg/status/2119232026230305214) | [案例](docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/README.md) · [Video](docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/media/video.mp4) | [短 / 部分](docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
+| 10 | @rxufnx（rxufnx） | `x-rxufnx-grok-imagine-fallen-angel-cinematic-vid` Fallen Angel Cinematic Video | [出處](https://x.com/rxufnx/status/2118327480918438306) | [案例](docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/README.md) · [Video](docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/media/video.mp4) | [短 / 部分](docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
+| 11 | @whichaiwon（Which AI Won） | `x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit` Grok Imagine Video 1.5 Lite Lip-Sync Test | [出處](https://x.com/whichaiwon/status/2118342571592446154) | [案例](docs/cases/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit/README.md) | [短 / 部分](docs/cases/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
 
 </details>
 

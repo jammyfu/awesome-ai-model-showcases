@@ -30,6 +30,7 @@ ${gpt_subproject_line}
 ${quick_nav}
 
 - [事例収集サイト](#collection-sites)
+- [関連プロジェクト](#related-projects)
 - [使い方](#how-to-use)
 - [投稿](#contribute)
 - [メディアの権利](#rights)
@@ -55,6 +56,11 @@ ${type_sections}
 各モデルの GIF、アニメーション、HTML demo を集めたり比べたりしているサイトです（Showcase collection sites）。リンクを返すだけで、スクレイピングして再ホストしません。説明文は [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json) に書いてある原文のままです。
 
 ${collection_sites}
+
+<a id="related-projects"></a>
+## 関連プロジェクト
+
+モデルの事例、プロンプト、デモを集めている GitHub リポジトリです。名前、範囲、star、最終 push、言語は [docs/related-projects.md](docs/related-projects.md) にあります。
 
 <a id="how-to-use"></a>
 ## この目録でできること

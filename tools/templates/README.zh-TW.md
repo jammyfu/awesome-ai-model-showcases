@@ -30,6 +30,7 @@ ${gpt_subproject_line}
 ${quick_nav}
 
 - [案例收集網站](#collection-sites)
+- [相關項目](#related-projects)
 - [怎麼用](#how-to-use)
 - [怎麼投稿](#contribute)
 - [媒體權利](#rights)
@@ -55,6 +56,11 @@ ${type_sections}
 這些站在收集或對比各模型的動圖、動畫和 HTML demo。我們只回鏈，不把別人的檔案再託管一份。下面的簡介照抄 [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json)，不另寫一套。
 
 ${collection_sites}
+
+<a id="related-projects"></a>
+## 相關項目
+
+收集模型案例、提示詞或示範的 GitHub 倉庫。名稱、涵蓋範圍、star、最近推送和語言見 [docs/related-projects.md](docs/related-projects.md)。
 
 <a id="how-to-use"></a>
 ## 這個目錄能做什麼？

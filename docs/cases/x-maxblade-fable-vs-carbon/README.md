@@ -10,7 +10,6 @@
 - Verification: Primary X URL · prompt not published · timings are author-reported · not re-run
 - Rights: 许可未知 · 仅出处链接（不本地再托管）
 
-
 A local video is kept because the repository owner asked for a credited copy. Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
 
 ## Prompt status
