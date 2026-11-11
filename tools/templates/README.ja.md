@@ -21,6 +21,8 @@ Awesome AI Model Showcases は、Claude Fable 5.2 / Mythos 5.2、Gemini 4 Argon 
 
 **[ギャラリーを開く ↗](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en)** · **[ファミリー別に見る ↓](#showcase)** · **[事例を送る](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml)**
 
+${gpt_subproject_line}
+
 独立したコミュニティの目録で、ベンダー公式ではありません。モデル名は出典の主張であり、こちらで改めて検証したものではありません。**第三者のメディアとプロンプトは、コードの MIT では覆われません。**
 
 ## 目次
@@ -110,11 +112,11 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 <a id="catalog"></a>
 ## 目録の概数
 
-**収録 ${main_count} 件。** モデルファミリー、その中で版。新しいファミリーを先に置きます。GPT Image 2.6 は、いまも主流で、ローカルにアーカイブしてある前世代です（X 以外の複数フレーム GIF ${web_count} · ゲームは作者申告 ${game_count}）。**未確認 ${pending_count} 件**は主表に入れません。
+**ホームページ ${main_count} 件。** 下のフロンティア・ファミリー、その中で版。**未確認 ${pending_count} 件**はこの合計に入れません。
 
 ${count_table}
 
-件数は [一つの生成目録](docs/data/community-cases.json) から来ます。出典インベントリの最終更新：**${inventory_date}**。合計は収録数であり、生成成功の確認数ではありません。**${main_count} 件のうち ${media_count} 件にローカルのメディアがあります。** [Luffy の記事](docs/cases/luffy-x-article/README.md) はプロンプトを保管していますが、添付は取得できていません。他ファミリーの本体ファイルは、個別の許諾がない限り出典リンクです。`assets/thumbs/` のサムネイルはクレジット付きで原投稿へ戻る小さいコピーです。一覧は [docs/showcase-index.md](docs/showcase-index.md) です。
+件数は [一つの生成目録](docs/data/community-cases.json) から来ます。出典インベントリの最終更新：**${inventory_date}**。ホームページの合計はフロンティア・ファミリーの収録数であり、生成成功の確認数ではありません。**${main_count} 件のうち ${media_count} 件にローカルのメディアがあります**（出典に動画がある場合のクレジット付きコピー）。`assets/thumbs/` のサムネイルはクレジット付きで原投稿へ戻る小さいコピーです。一覧は [docs/showcase-index.md](docs/showcase-index.md) です。取得できなかった動画は [docs/missing-videos.md](docs/missing-videos.md) です。
 
 ### 出典と証拠の全表
 
@@ -125,7 +127,7 @@ ${catalog_tables}
 <a id="faq"></a>
 ## これは何のリポジトリか
 
-最新世代と、いまも主流の前世代の、出典つき制作事例を、ファミリーと版で並べた目録です。このリポジトリ自身のプレイブック集ではありません。**GPT Image 2.6** は埋まっているファミリーの一つで、正面玄関ではありません。Claude、Gemini、GPT-6.2 Sol、Grok、Qwen、DeepSeek に新しい出典つき事例があります。GPT-6.2 Sol という欄名は所有者の確認に従い、OpenAI の公開ページは最終確認時点で GPT-6.1 Sol のままです。各レコードは作者、出典、取得できたローカルメディア、プロンプトの有無、モデル根拠、作り方、検証状態を一緒に持ちます。出典のモデル名は主張として残します。
+最新世代の出典つき制作事例を、ファミリーと版で並べた目録です。このリポジトリ自身のプレイブック集ではありません。Claude、Gemini、GPT-6.2 Sol、Grok、Qwen、DeepSeek がホームページのファミリーです。GPT-6.2 Sol という欄名は所有者の確認に従い、OpenAI の公開ページは最終確認時点で GPT-6.1 Sol のままです。各レコードは作者、出典、取得できたローカルメディア、プロンプトの有無、モデル根拠、作り方、検証状態を一緒に持ちます。出典のモデル名は主張として残します。
 
 ## できないこと
 

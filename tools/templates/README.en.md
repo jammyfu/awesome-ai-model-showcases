@@ -21,6 +21,8 @@ Awesome AI Model Showcases collects real public production cases from the latest
 
 **[Browse the gallery ↗](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en)** · **[Cases by family ↓](#showcase)** · **[Submit a case](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml)**
 
+${gpt_subproject_line}
+
 Independent community archive. Model labels are source claims, not independent verification. **Third-party media and prompts are not covered by the code's MIT license.**
 
 ## Contents
@@ -110,11 +112,11 @@ Prefer a pull request? Follow [CONTRIBUTING.md](CONTRIBUTING.md). Corrections to
 <a id="catalog"></a>
 ## The catalog at a glance
 
-**${main_count} collected cases**, grouped by model family and then by version. Latest families are listed first. GPT Image 2.6 remains the still-mainstream local archive (${web_count} non-X multi-frame GIFs · ${game_count} game author-claimed). **${pending_count} pending** stay outside the main total.
+**${main_count} homepage cases** across the frontier families below, grouped by family and then by version. **${pending_count} pending** stay outside that total.
 
 ${count_table}
 
-Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **${inventory_date}**. The main total is collected cases, not confirmed successful generations. **${media_count} of the ${main_count} cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment. Full media for other families stays source-linked unless a grant says otherwise. Navigation thumbnails in `assets/thumbs/` are small credited copies and link back to the original post. The row index is [docs/showcase-index.md](docs/showcase-index.md).
+Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **${inventory_date}**. The homepage total is collected frontier-family cases, not confirmed successful generations. **${media_count} of the ${main_count} cases have local media** (a credited video file when the source had one). Navigation thumbnails in `assets/thumbs/` are small credited copies and link back to the original post. The row index is [docs/showcase-index.md](docs/showcase-index.md). Failed video downloads are listed in [docs/missing-videos.md](docs/missing-videos.md).
 
 ### Full source and evidence tables
 
@@ -125,7 +127,7 @@ ${catalog_tables}
 <a id="faq"></a>
 ## What is this repository?
 
-A source-first library of real production cases from the latest large models and from the previous generation that is still mainstream. It is organized by model family, then version. It is not this repository's original playbook showcase. **GPT Image 2.6** is one populated family, not the front door. Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, and DeepSeek hold the newer sourced cases. The GPT-6.2 Sol section name follows the repo owner; OpenAI’s public pages still document GPT-6.1 Sol as of the last check. Each record keeps authorship, source links, local media where retrieved, prompt availability, model evidence, pipeline, and verification status. Model names from sources are claims, not independent verification.
+A source-first library of real production cases from the latest large models. It is organized by model family, then version. It is not this repository's original playbook showcase. Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, and DeepSeek are the homepage families. The GPT-6.2 Sol section name follows the repo owner; OpenAI’s public pages still document GPT-6.1 Sol as of the last check. Each record keeps authorship, source links, local media where retrieved, prompt availability, model evidence, pipeline, and verification status. Model names from sources are claims, not independent verification.
 
 ## What can this repository not do?
 

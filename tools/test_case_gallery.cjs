@@ -7,7 +7,7 @@ const rows=[
 {id:'aggregator',prompt_status:'aggregator_only',prompt_url:'https://example.org/secondary'},
 {id:'empty',prompt_status:'空',local_prompt:'docs/cases/b/prompt.md'},
 {id:'partial',prompt_status:'短/部分',local_prompt:'docs/cases/c/prompt.md'}];
-const catalog={meta:{counts:{}},collected_x_author_claim:[],collected_web_gif:rows,collected_already_in_repo:[],collected_game_author_claim:[],pending:[],prompt_only:[],excluded:[],appendix:[],repo_seeds:[]};
+const catalog={meta:{counts:{}},collected_by_family:{claude:rows,gemini:[],'gpt-code':[],grok:[],qwen:[],deepseek:[],'gpt-image':[]},collected_x_author_claim:[],collected_web_gif:[],collected_already_in_repo:[],collected_game_author_claim:[],pending:[],prompt_only:[],excluded:[],appendix:[],repo_seeds:[]};
 vm.runInNewContext(fs.readFileSync('docs/cases-app.js','utf8'),{window:{COMMUNITY_CASES:catalog},document:{getElementById:el,createElement:()=>el(Math.random()),addEventListener(){},readyState:'complete'}});
 const html=el('case-rows').innerHTML;
 assert.match(html,/href="https:\/\/example.org\/prompt"[^>]*>Published at source</);

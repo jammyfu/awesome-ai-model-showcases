@@ -14,12 +14,14 @@
 Awesome AI Model Showcases collects real public production cases from the latest large models (Claude Fable 5.2 / Mythos 5.2, Gemini 4 Argon / Carbon, GPT-6.2 Sol, Grok, Qwen, DeepSeek, and others) and from the previous generation that is still mainstream: GIFs, animations, HTML and game demos, and images, each with the original post, author, published prompt, and method.
 
 <p>
-<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-77-10131a?style=flat-square&amp;labelColor=c2ff67" alt="77 catalog cases"></a>
+<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-26-10131a?style=flat-square&amp;labelColor=c2ff67" alt="26 catalog cases"></a>
 <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/readme-EN_%2F_ZH_%2F_ZH--TW_%2F_JA-10131a?style=flat-square&amp;labelColor=c2ff67" alt="English, Simplified Chinese, Traditional Chinese, and Japanese"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="Source code license: MIT"></a>
 </p>
 
 **[Browse the gallery ↗](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en)** · **[Cases by family ↓](#showcase)** · **[Submit a case](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml)**
+
+GPT Image 2.6 GIF archive (**51** cases, not in the homepage total): [collections/gpt-image-gifs](collections/gpt-image-gifs/README.md).
 
 Independent community archive. Model labels are source claims, not independent verification. **Third-party media and prompts are not covered by the code's MIT license.**
 
@@ -32,7 +34,6 @@ Independent community archive. Model labels are source claims, not independent v
 - [Grok](#grok) — [Grok 4.7](#ver-grok-4-7) · [Grok Imagine Video](#ver-grok-imagine-video)
 - [Qwen](#qwen) — [Qwen3.8 27B](#ver-qwen3-8-27b)
 - [DeepSeek](#deepseek) — [DeepSeek V4.1 Flash 1017](#ver-deepseek-v4-1-flash-1017) · [DeepSeek V4.1 Flash](#ver-deepseek-v4-1-flash)
-- [GPT Image](#gpt-image) — [GPT Image 2.6](#ver-gpt-image-2-6)
 
 ### By type
 - [GIF](#type-gif)
@@ -353,79 +354,12 @@ Credit: @LatentOperatorX<br><a href="https://x.com/LatentOperatorX/status/212020
 </table>
 
 
-
-<a id="gpt-image"></a>
-
-## GPT Image
-
-![GPT Image cover](assets/brand/families/gpt-image.png)
-
-3 featured of 51 sourced cases in this family. The rest are in the full evidence tables.
-
-<a id="ver-gpt-image-2-6"></a>
-
-### GPT Image 2.6
-
-Still-mainstream previous generation. The three cards below are local media already archived for these cases, not new generations.
-
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://image.lightlyn.com/gpt-image-2-6?lang=en"><img src="assets/thumbs/lightlyn-orange-cat-mascot-gif.jpg" alt="Character sticker by Linger（Lightlyn Images）" width="220"></a><br>
-<strong><a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md">Character sticker</a></strong><br>
-Credit: Linger（Lightlyn Images）<br><sub>Published mascot-animation prompt</sub><br>
-<a href="docs/cases/lightlyn-orange-cat-mascot-gif/prompt.md">Original prompt</a> · <a href="https://image.lightlyn.com/gpt-image-2-6?lang=en">Post</a> · <a href="docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif">GIF</a>
-</td>
-<td align="center" width="33%">
-<a href="https://veevid.ai/blog/gpt-image-2-6-gif"><img src="assets/thumbs/veevid-perfume-light-sweep-gif.jpg" alt="Product loop by Veevid Team" width="220"></a><br>
-<strong><a href="docs/cases/veevid-perfume-light-sweep-gif/README.md">Product loop</a></strong><br>
-Credit: Veevid Team<br><sub>Fixed-camera light sweep</sub><br>
-<a href="docs/cases/veevid-perfume-light-sweep-gif/prompt.md">Original prompt</a> · <a href="https://veevid.ai/blog/gpt-image-2-6-gif">Post</a> · <a href="docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif">GIF</a>
-</td>
-<td align="center" width="33%">
-<a href="https://note.com/ravivit_ai/n/nb8f40b5a21b9"><img src="assets/thumbs/ravivit-paper-boat-gif.jpg" alt="Paper-boat loop by ラビビット | AI活用メディア（Ravivit）" width="220"></a><br>
-<strong><a href="docs/cases/ravivit-paper-boat-gif/README.md">Paper-boat loop</a></strong><br>
-Credit: ラビビット | AI活用メディア（Ravivit）<br><sub>Source motion brief; verbatim wording unconfirmed</sub><br>
-<a href="docs/cases/ravivit-paper-boat-gif/prompt.md">Source motion brief</a> · <a href="https://note.com/ravivit_ai/n/nb8f40b5a21b9">Post</a> · <a href="docs/cases/ravivit-paper-boat-gif/media/01-gif.gif">GIF</a>
-</td>
-</tr>
-</table>
-
-Multi-frame format is checked; generation has not been reproduced. The paper-boat brief keeps its unconfirmed wording status. Preview does not grant reuse rights.
-
-
 <a id="by-type"></a>
 ## By type
 
 <a id="type-gif"></a>
 ### GIF
-47 cases of this type. Four previews below when a thumbnail exists.
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://developers.openai.com/api/docs/guides/image-prompting"><img src="assets/thumbs/official-lantern-monkey-gif.jpg" alt="原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位 — OpenAI" width="220"></a><br>
-<strong><a href="docs/cases/official-lantern-monkey-gif/README.md">原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位</a></strong><br>
-Credit: OpenAI<br><a href="https://developers.openai.com/api/docs/guides/image-prompting">Post</a>
-</td>
-<td align="center" width="33%">
-<a href="https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/"><img src="assets/thumbs/reddit-anime-nod-gif.jpg" alt="参考角色图→动漫点头闭眼循环 — 未知（r/OpenAI 帖作者；本轮JSON接口被拦未能取handle）" width="220"></a><br>
-<strong><a href="docs/cases/reddit-anime-nod-gif/README.md">参考角色图→动漫点头闭眼循环</a></strong><br>
-Credit: 未知（r/OpenAI 帖作者；本轮JSON接口被拦未能取handle）<br><a href="https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/">Post</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Krouxzz/status/2118283796181053637"><img src="assets/thumbs/krouxzz-wave-ref.jpg" alt="角色挥手循环 — @Krouxzz" width="220"></a><br>
-<strong><a href="docs/cases/krouxzz-wave-ref/README.md">角色挥手循环</a></strong><br>
-Credit: @Krouxzz<br><a href="https://x.com/Krouxzz/status/2118283796181053637">Post</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://image.lightlyn.com/gpt-image-2-6?lang=en"><img src="assets/thumbs/lightlyn-earbuds-case-gif.jpg" alt="商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环 — Linger（Lightlyn Images）" width="220"></a><br>
-<strong><a href="docs/cases/lightlyn-earbuds-case-gif/README.md">商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环</a></strong><br>
-Credit: Linger（Lightlyn Images）<br><a href="https://image.lightlyn.com/gpt-image-2-6?lang=en">Post</a>
-</td>
-</tr>
-</table>
+0 cases of this type. Four previews below when a thumbnail exists.
 [Full showcase index](docs/showcase-index.md#gif)
 
 <a id="type-animation"></a>
@@ -492,33 +426,7 @@ Credit: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status
 
 <a id="type-minigame"></a>
 ### Mini-game
-4 cases of this type. Four previews below when a thumbnail exists.
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/Daft_Trade/status/2118283025498906800"><img src="assets/thumbs/game-daft-pixel-combo.jpg" alt="像素三连击 / 翻滚 / 法术（跳跃事后压背景） — Daft_Trade @Daft_Trade · 作者声明 2.6；跳跃承认 flatten 去闪烁 · 4 条 MP4=1 案例 · 未观看" width="220"></a><br>
-<strong><a href="docs/cases/game-daft-pixel-combo/README.md">像素三连击 / 翻滚 / 法术（跳跃事后压背景）</a></strong><br>
-Credit: Daft_Trade @Daft_Trade · 作者声明 2.6；跳跃承认 flatten 去闪烁 · 4 条 MP4=1 案例 · 未观看<br><a href="https://x.com/Daft_Trade/status/2118283025498906800">Post</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/maker_evan/status/2118222694345040253"><img src="assets/thumbs/game-maker-evan-fox-ronin.jpg" alt="狐浪人网页游戏：2.6 出表、另一 agent 切帧 — maker_evan @maker_evan · 游戏 agent one-shot 已公开；图像 prompt 未公开 · 未观看 MP4" width="220"></a><br>
-<strong><a href="docs/cases/game-maker-evan-fox-ronin/README.md">狐浪人网页游戏：2.6 出表、另一 agent 切帧</a></strong><br>
-Credit: maker_evan @maker_evan · 游戏 agent one-shot 已公开；图像 prompt 未公开 · 未观看 MP4<br><a href="https://x.com/maker_evan/status/2118222694345040253">Post</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md"><img src="assets/thumbs/game-varg-knight-run.jpg" alt="骑士跑循环：作者声明 2.6 出表再切帧 — vargHQ gpt-image-sprite-sheet · 作者声明 gpt_image_2_6 · 非 OpenAI 官方验证 · 未复测" width="220"></a><br>
-<strong><a href="docs/cases/game-varg-knight-run/README.md">骑士跑循环：作者声明 2.6 出表再切帧</a></strong><br>
-Credit: vargHQ gpt-image-sprite-sheet · 作者声明 gpt_image_2_6 · 非 OpenAI 官方验证 · 未复测<br><a href="https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md">Post</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/xiaomovps/status/2118274032227471705"><img src="assets/thumbs/game-xiaomovps-fighter.jpg" alt="复古格斗出拳 / 蓄力循环 — 小墨同学 @xiaomovps · 作者声明 Images 2.6 · X animated_gif→MP4 · 未见引擎内运行" width="220"></a><br>
-<strong><a href="docs/cases/game-xiaomovps-fighter/README.md">复古格斗出拳 / 蓄力循环</a></strong><br>
-Credit: 小墨同学 @xiaomovps · 作者声明 Images 2.6 · X animated_gif→MP4 · 未见引擎内运行<br><a href="https://x.com/xiaomovps/status/2118274032227471705">Post</a>
-</td>
-</tr>
-</table>
+0 cases of this type. Four previews below when a thumbnail exists.
 [Full showcase index](docs/showcase-index.md#minigame)
 
 <a id="type-image"></a>
@@ -611,7 +519,7 @@ Prefer a pull request? Follow [CONTRIBUTING.md](CONTRIBUTING.md). Corrections to
 <a id="catalog"></a>
 ## The catalog at a glance
 
-**77 collected cases**, grouped by model family and then by version. Latest families are listed first. GPT Image 2.6 remains the still-mainstream local archive (20 non-X multi-frame GIFs · 4 game author-claimed). **12 pending** stay outside the main total.
+**26 homepage cases** across the frontier families below, grouped by family and then by version. **12 pending** stay outside that total.
 
 | Model family / bucket | Count | Outside the main catalog | Count |
 |---|---:|---|---:|
@@ -621,101 +529,13 @@ Prefer a pull request? Follow [CONTRIBUTING.md](CONTRIBUTING.md). Corrections to
 | Grok (4.7 / Imagine) | **2** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | 50 |
 | Qwen (3.8) | **1** | Repository seeds (local examples) | 6 |
 | DeepSeek (V4.1 Flash) | **2** | | |
-| **GPT Image 2.6** (still-mainstream local archive) | **51** | | |
-| · X author-claimed 2.6 | **25** | | |
-| · Non-X real GIFs | **20** | | |
-| · In-repo community longform/posts | **2** | | |
-| · Game author-claimed | **4** | | |
-| **Main total** | **77** | | |
+| **Homepage total** | **26** | | |
 
-Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **2026-11-11**. The main total is collected cases, not confirmed successful generations. **50 of the 77 cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment. Full media for other families stays source-linked unless a grant says otherwise. Navigation thumbnails in `assets/thumbs/` are small credited copies and link back to the original post. The row index is [docs/showcase-index.md](docs/showcase-index.md).
+Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **2026-11-11**. The homepage total is collected frontier-family cases, not confirmed successful generations. **0 of the 26 cases have local media** (a credited video file when the source had one). Navigation thumbnails in `assets/thumbs/` are small credited copies and link back to the original post. The row index is [docs/showcase-index.md](docs/showcase-index.md). Failed video downloads are listed in [docs/missing-videos.md](docs/missing-videos.md).
 
 ### Full source and evidence tables
 
 Open a family below, or use the [searchable web catalog](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en). Original-language titles and evidence quotes stay as published. The same rows are in the [standalone index](playbooks/community-cases.md).
-
-<details>
-<summary><strong>Family · GPT Image 2.6 — X author-claimed (25 groups, not split by attachment)</strong></summary>
-
-| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
-|---:|---|---|---|---|---|---|---|---|---|
-| 1 | @Gorden_Sun（Gorden Sun） | `x-gorden-sun-rice-gif` 参考角色图一句话生成「吃白米饭+真香」中文配字循环 GIF 表情包 | [Source](https://x.com/Gorden_Sun/status/2118166046175908016) | [Case](docs/cases/x-gorden-sun-rice-gif/README.md) · [File](docs/cases/x-gorden-sun-rice-gif/media/01-poster.jpg) | [Short / partial](docs/cases/x-gorden-sun-rice-gif/prompt.md) | 作者声明 2.6：GPT新出的GPT Image 2.6，可以一句话生成表情包动 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 2 | @op7418（歸藏(guizang.ai)） | `x-op7418-fatfish-pack` 大肥鱼角色参考图 + 结构化模板批量出循环 GIF 表情包（主题可填空） | [Source](https://x.com/op7418/status/2118181775688241456) | [Case](docs/cases/x-op7418-fatfish-pack/README.md) · [File](docs/cases/x-op7418-fatfish-pack/media/01-poster.jpg) | [Original](docs/cases/x-op7418-fatfish-pack/prompt.md) | 作者声明 2.6：GPT-image-2.6 今天发布了，主要的新特性就是能够直 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 3 | @abc123953468547（A1terE&o） | `x-abc123-static-to-gif` 上传静态表情包原图，一句话做成无限循环 GIF，强调角色一致性（与大肥鱼同模板族，仍单列原帖） | [Source](https://x.com/abc123953468547/status/2118188053793837265) | [Case](docs/cases/x-abc123-static-to-gif/README.md) · [File](docs/cases/x-abc123-static-to-gif/media/01-poster.jpg) | [Original](docs/cases/x-abc123-static-to-gif/prompt.md) | 作者声明 2.6：刚发布的 GPT-image-2.6 真牛逼！！我只用了一句话 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 4 | @thinkszyg（爆裂队长NEXT） | `x-thinkszyg-paperboat-verify` 用纸船循环 GIF 验证账号是否已推送 Images 2.6；并附六宫格 sprite sheet 提示词模板（与 Ra | [Source](https://x.com/thinkszyg/status/2118166234495947044) | [Case](docs/cases/x-thinkszyg-paperboat-verify/README.md) · [File](docs/cases/x-thinkszyg-paperboat-verify/media/01-poster.jpg) | [Original](docs/cases/x-thinkszyg-paperboat-verify/prompt.md) | 作者声明 2.6：ChatGPT 上了 Images 2.6…GIF 是 2.6 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 5 | @gdb（Greg Brockman） | `x-gdb-images26-gif` OpenAI 联合创始人展示 Images 2.6 GIF 演示 | [Source](https://x.com/gdb/status/2118174986544488876) | [Case](docs/cases/x-gdb-images26-gif/README.md) · [File](docs/cases/x-gdb-images26-gif/media/01-poster.jpg) | [Unpublished](docs/cases/x-gdb-images26-gif/prompt.md) | 作者声明 2.6：chatgpt images 2.6 is here! | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 6 | @moltikuji（もる@ポケカ・フロム） | `x-moltikuji-oc-eyebrow` 日文：用 Images 2.6 把自家角色做成 GIF，反馈眉毛一致性问题 | [Source](https://x.com/moltikuji/status/2118187059102027921) | [Case](docs/cases/x-moltikuji-oc-eyebrow/README.md) · [File](docs/cases/x-moltikuji-oc-eyebrow/media/01-poster.jpg) | [Unpublished](docs/cases/x-moltikuji-oc-eyebrow/prompt.md) | 作者声明 2.6：昨日出たChatGPT Images 2.6（GPT Imag | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 7 | @heycesr（cesar.wtf） | `x-heycesr-photo-animate` 真实照片（左）→ GPT Image 2.6 动画化（右），经 @tryidem 调用 | [Source](https://x.com/heycesr/status/2118391412639371290) | [Case](docs/cases/x-heycesr-photo-animate/README.md) · [File](docs/cases/x-heycesr-photo-animate/media/01-poster.jpg) | [Unpublished](docs/cases/x-heycesr-photo-animate/prompt.md) | 作者声明 2.6：i've been testing the new gpt i | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 8 | @kqyno7（Kai） | `x-kqyno7-frieren` 用芙莉莲角色试原生 GIF，作者称表情动作自然 | [Source](https://x.com/kqyno7/status/2118160063835815981) | [Case](docs/cases/x-kqyno7-frieren/README.md) · [File](docs/cases/x-kqyno7-frieren/media/01-poster.jpg) | [Unpublished](docs/cases/x-kqyno7-frieren/prompt.md) | 作者声明 2.6：GPT Image 2.6 上线，支持 GIF 生成…刚拿芙莉 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 9 | @Adam38363368936（Adam也叫吉米） | `x-adam-7plays-thread` 七玩法串：真人动态表情、物理科普、产品展示、操作教程、天文动画、商业图表、打工人情绪包；每条附结果 GIF | [Source](https://x.com/Adam38363368936/status/2118269020369817856) | [Case](docs/cases/x-adam-7plays-thread/README.md) · [File](docs/cases/x-adam-7plays-thread/media/01-poster.jpg) | [Unpublished](docs/cases/x-adam-7plays-thread/prompt.md) | 作者声明 2.6：全网最全！GPT Image 2.6 的 GIF 功能实用玩法 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 10 | @zone__online（SleepyZone） | `x-zone-nonsticker-plays` 非表情包向：舞蹈拆解、历史科普、像素动作、角色变身 | [Source](https://x.com/zone__online/status/2118264293678608774) | [Case](docs/cases/x-zone-nonsticker-plays/README.md) · [File](docs/cases/x-zone-nonsticker-plays/media/01-dynamic.mp4) | [Unpublished](docs/cases/x-zone-nonsticker-plays/prompt.md) | 作者声明 2.6：GPT Image 2.6已经支持生成动图啦…挖到了不一样的玩 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 11 | @meow2149（meow） | `x-meow2149-ai-girl-stickers` AI 娘四连循环表情包 GIF | [Source](https://x.com/meow2149/status/2118254460187373747) | [Case](docs/cases/x-meow2149-ai-girl-stickers/README.md) · [File](docs/cases/x-meow2149-ai-girl-stickers/media/01-poster.jpg) | [Unpublished](docs/cases/x-meow2149-ai-girl-stickers/prompt.md) | 作者声明 2.6：GPT Image 2.6 这次真的有点东西！以后做 AI 娘 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 12 | @vm3jp6u04（許文彥） | `x-vm3jp6u04-schnauzer` 雪纳瑞狗 GIF + Images 2.6 四步用法说明 | [Source](https://x.com/vm3jp6u04/status/2118390692347363396) | [Case](docs/cases/x-vm3jp6u04-schnauzer/README.md) · [File](docs/cases/x-vm3jp6u04-schnauzer/media/01-poster.jpg) | [Unpublished](docs/cases/x-vm3jp6u04-schnauzer/prompt.md) | 作者声明 2.6：ChatGPT can now make animated G | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 13 | @SeaArt_Ai（SeaArt.Ai🐋） | `x-seaart-doodle-gif` 涂鸦草图 → 循环 GIF；宣称可用提示词控制时长 | [Source](https://x.com/SeaArt_Ai/status/2118267088284659733) | [Case](docs/cases/x-seaart-doodle-gif/README.md) · [File](docs/cases/x-seaart-doodle-gif/media/01-poster.jpg) | [Unpublished](docs/cases/x-seaart-doodle-gif/prompt.md) | 作者声明 2.6：GPT Image 2.6 turned this doodl | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 14 | @xulijian1994（Kxians） | `x-xulijian-avatar-stickers` X 头像 → Q 版动态表情包两则 | [Source](https://x.com/xulijian1994/status/2118193018167828815) | [Case](docs/cases/x-xulijian-avatar-stickers/README.md) · [File](docs/cases/x-xulijian-avatar-stickers/media/01-poster.jpg) | [Unpublished](docs/cases/x-xulijian-avatar-stickers/prompt.md) | 作者声明 2.6：GPT-Image-2.6 现在可以直接生成 GIF 动图了… | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 15 | @plasm0（ρŁ𝐀𝔰Ｍʘ） | `x-plasm0-animated-gif` 简短标注「GPT Image 2.6 animated GIF」+ 引用官方帖 | [Source](https://x.com/plasm0/status/2118177268870562241) | [Case](docs/cases/x-plasm0-animated-gif/README.md) · [File](docs/cases/x-plasm0-animated-gif/media/01-poster.jpg) | [Unpublished](docs/cases/x-plasm0-animated-gif/prompt.md) | 作者声明 2.6：GPT Image 2.6 animated GIF | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 16 | @NewsAsArt（News As Cartoon） | `x-newsasart-claim-gif` 新闻卡风格帖，作者声称附件 GIF 由 Image 2.6 制作 | [Source](https://x.com/NewsAsArt/status/2118236954383028693) | [Case](docs/cases/x-newsasart-claim-gif/README.md) · [File](docs/cases/x-newsasart-claim-gif/media/01-poster.jpg) | [Unpublished](docs/cases/x-newsasart-claim-gif/prompt.md) | 作者声明 2.6：And the gif attached is of cour | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 17 | @MiraMusic_AI（MiraMusic） | `x-miramusic-stretch` 日文：从零提示词生成「拉伸」循环 GIF，附风格约束 | [Source](https://x.com/MiraMusic_AI/status/2118168013618987298) | [Case](docs/cases/x-miramusic-stretch/README.md) · [File](docs/cases/x-miramusic-stretch/media/01-poster.jpg) | [Original](docs/cases/x-miramusic-stretch/prompt.md) | 作者声明 2.6：GPTimage2.6 进化してるー！あと生成スピードが速い！ | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 18 | @okan_aitool（あゆ｜キャラパレ運営） | `x-okan-aitool-wave-laugh` 日文：一图+超短提示词「このキャラをGIFで動かして。手を振って笑う」（与 Krouxzz 挥手同类动作，不合并删帖） | [Source](https://x.com/okan_aitool/status/2118201578406772887) | [Case](docs/cases/x-okan-aitool-wave-laugh/README.md) · [File](docs/cases/x-okan-aitool-wave-laugh/media/01-poster.jpg) | [Short / partial](docs/cases/x-okan-aitool-wave-laugh/prompt.md) | 作者声明 2.6：＼ChatGPTのImage 2.6アプデ！！／ …プロンプト | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 19 | @mirai_ai2050（藍澤 ミライ） | `x-mirai-ai2050-frame-test` 日文：同角色测 16/32 帧与尺寸；完整规格化 prompt 在评论 | [Source](https://x.com/mirai_ai2050/status/2118213713761292432) | [Case](docs/cases/x-mirai-ai2050-frame-test/README.md) · [File](docs/cases/x-mirai-ai2050-frame-test/media/02-poster.jpg) | [Original](docs/cases/x-mirai-ai2050-frame-test/prompt.md) | 作者声明 2.6：今日から使えるようになったGPT Image 2.6でGIFを | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 20 | @nonieengel（Leonie Engel） | `x-nonieengel-reaction-set` 英文：角色照+风格参考 → 一套 10 个 reaction GIF；prompt 在回复（正文截断） | [Source](https://x.com/nonieengel/status/2118382251226562570) | [Case](docs/cases/x-nonieengel-reaction-set/README.md) · [File](docs/cases/x-nonieengel-reaction-set/media/01-poster.jpg) | [Original](docs/cases/x-nonieengel-reaction-set/prompt.md) | 作者声明 2.6：You can just upload one charact | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 21 | @IHayato（イケハヤ） | `x-ihayato-markup-gif` 日文高互动：标记编辑演示 + 角色「まばたきして、ふわっと揺れて」GIF（markup + GIF；与 mirai 规格 | [Source](https://x.com/IHayato/status/2118151619212890291) | [Case](docs/cases/x-ihayato-markup-gif/README.md) · [File](docs/cases/x-ihayato-markup-gif/media/01-poster.jpg) | [Short / partial](docs/cases/x-ihayato-markup-gif/prompt.md) | 作者声明 2.6：GPT Image 2.6が出たので、さっそく試してみました。 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 22 | @dokken92047824（HeartlessCat） | `x-dokken-guitar` 日文：附图+超短「アコギを弾く男性」出吉他手 GIF | [Source](https://x.com/dokken92047824/status/2118293666456559762) | [Case](docs/cases/x-dokken-guitar/README.md) · [File](docs/cases/x-dokken-guitar/media/01-poster.jpg) | [Short / partial](docs/cases/x-dokken-guitar/prompt.md) | 作者声明 2.6：Open AIが…GPT Images 2.6を発表し、GIF | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 23 | @supertask_jp（Tasuku Takahashi） | `x-supertask-arch-timelapse` 日文：建筑效果图 → 日没时光流逝 GIF | [Source](https://x.com/supertask_jp/status/2118241124133532077) | [Case](docs/cases/x-supertask-arch-timelapse/README.md) · [File](docs/cases/x-supertask-arch-timelapse/media/01-poster.jpg) | [Short / partial](docs/cases/x-supertask-arch-timelapse/prompt.md) | 作者声明 2.6：GPT Image 2.6で建築パースの日没タイムラプスを作っ | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 24 | @xepher113（ふぁーねりあん） | `x-xepher113-oc12` 日文 OC：称约 12 帧，借用他人角色图 | [Source](https://x.com/xepher113/status/2118177063727411603) | [Case](docs/cases/x-xepher113-oc12/README.md) · [File](docs/cases/x-xepher113-oc12/media/01-poster.jpg) | [Unpublished](docs/cases/x-xepher113-oc12/prompt.md) | 作者声明 2.6：チャッピーのgif生成試してみた これは12コマくらい？ | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-| 25 | @yulikay（Yuli Kay） | `x-yulikay-toast` 「GPT Images 2.6 is here + GIFs」附 animated_gif | [Source](https://x.com/yulikay/status/2118322092709994503) | [Case](docs/cases/x-yulikay-toast/README.md) · [File](docs/cases/x-yulikay-toast/media/01-poster.jpg) | [Unpublished](docs/cases/x-yulikay-toast/prompt.md) | 作者声明 2.6：GPT Images 2.6 is here 🥂 + GIFs | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | Unknown |
-
-</details>
-
-<details>
-<summary><strong>Family · GPT Image 2.6 — Non-X real GIFs (20)</strong></summary>
-
-| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
-|---:|---|---|---|---|---|---|---|---|---|
-| 1 | OpenAI | `official-lantern-monkey-gif` 原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位 | [Source](https://developers.openai.com/api/docs/guides/image-prompting) | [Case](docs/cases/official-lantern-monkey-gif/README.md) · [File](docs/cases/official-lantern-monkey-gif/media/01-gif.gif) | [Original](docs/cases/official-lantern-monkey-gif/prompt.md) | GPT Image 2.6 Sunburst（gpt-image-2.6-sun | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 2 | Linger（Lightlyn Images） | `lightlyn-orange-cat-mascot-gif` 品牌吉祥物挥手+眨眼无缝循环GIF | [Source](https://image.lightlyn.com/gpt-image-2-6?lang=en) | [Case](docs/cases/lightlyn-orange-cat-mascot-gif/README.md) · [File](docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif) | [Original](docs/cases/lightlyn-orange-cat-mascot-gif/prompt.md) | GPT Image 2.6 Flare（页面写 2.6 Flare · 20.9 | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 3 | Linger（Lightlyn Images） | `lightlyn-earbuds-case-gif` 商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环 | [Source](https://image.lightlyn.com/gpt-image-2-6?lang=en) | [Case](docs/cases/lightlyn-earbuds-case-gif/README.md) · [File](docs/cases/lightlyn-earbuds-case-gif/media/01-gif.gif) | [Original](docs/cases/lightlyn-earbuds-case-gif/prompt.md) | GPT Image 2.6 Sunburst（2.6 Sunburst · 38 | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 4 | Linger（Lightlyn Images） | `lightlyn-photo-steam-gif` 实拍图只动蒸汽与光，杯/桌/窗锁死 | [Source](https://image.lightlyn.com/gpt-image-2-6?lang=en) | [Case](docs/cases/lightlyn-photo-steam-gif/README.md) · [File](docs/cases/lightlyn-photo-steam-gif/media/01-gif.gif) | [Original](docs/cases/lightlyn-photo-steam-gif/prompt.md) | GPT Image 2.6 Flare（with photo uploaded） | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 5 | Veevid Team | `veevid-perfume-light-sweep-gif` 产品流光：香水瓶固定，光带扫过+尘粒上浮 | [Source](https://veevid.ai/blog/gpt-image-2-6-gif) | [Case](docs/cases/veevid-perfume-light-sweep-gif/README.md) · [File](docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif) | [Original](docs/cases/veevid-perfume-light-sweep-gif/prompt.md) | GPT Image 2.6 Flare（文称自跑 Flare） | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 6 | Veevid Team | `veevid-cactus-mascot-gif` 精灵表结构提示词→仙人掌吉祥物挥手循环（9帧） | [Source](https://veevid.ai/blog/gpt-image-2-6-gif) | [Case](docs/cases/veevid-cactus-mascot-gif/README.md) · [File](docs/cases/veevid-cactus-mascot-gif/media/01-gif.gif) | [Original](docs/cases/veevid-cactus-mascot-gif/prompt.md) | GPT Image 2.6 Flare | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 7 | Veevid Team | `veevid-fox-mascot-gif` 贴纸风狐狸吉祥物挥手眨眼 | [Source](https://veevid.ai/blog/gpt-image-2-6-gif) | [Case](docs/cases/veevid-fox-mascot-gif/README.md) · [File](docs/cases/veevid-fox-mascot-gif/media/01-gif.gif) | [Original](docs/cases/veevid-fox-mascot-gif/prompt.md) | GPT Image 2.6（页面示例，Veevid上跑2.6 GIF输出） | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 8 | Veevid Team | `veevid-coffee-steam-gif` 咖啡杯蒸汽上升循环（文生GIF） | [Source](https://veevid.ai/blog/gpt-image-2-6-gif) | [Case](docs/cases/veevid-coffee-steam-gif/README.md) · [File](docs/cases/veevid-coffee-steam-gif/media/01-gif.gif) | [Original](docs/cases/veevid-coffee-steam-gif/prompt.md) | GPT Image 2.6（Veevid示例） | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 9 | Veevid Team | `veevid-dog-photo-wag-gif` 上传实拍狗→摇尾眨眼温和循环 | [Source](https://veevid.ai/blog/gpt-image-2-6-gif) | [Case](docs/cases/veevid-dog-photo-wag-gif/README.md) · [File](docs/cases/veevid-dog-photo-wag-gif/media/01-gif.gif) | [Original](docs/cases/veevid-dog-photo-wag-gif/prompt.md) | GPT Image 2.6 image-to-GIF | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 10 | Veevid Team | `veevid-robot-sketch-gif` 线稿变挥手机器人，保留墨线纸感 | [Source](https://veevid.ai/blog/gpt-image-2-6-gif) | [Case](docs/cases/veevid-robot-sketch-gif/README.md) · [File](docs/cases/veevid-robot-sketch-gif/media/01-gif.gif) | [Original](docs/cases/veevid-robot-sketch-gif/prompt.md) | GPT Image 2.6（文承认线稿本身也用2.6生成作替身） | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 11 | ラビビット / AI活用メディア（Ravivit） | `ravivit-paper-boat-gif` API原生GIF：白纸船水面轻摇，固定机位；16帧×120ms | [Source](https://note.com/ravivit_ai/n/nb8f40b5a21b9) | [Case](docs/cases/ravivit-paper-boat-gif/README.md) · [File](docs/cases/ravivit-paper-boat-gif/media/01-gif.gif) | [Original](docs/cases/ravivit-paper-boat-gif/prompt.md) | Images 2.6 / GPT Image 2.6（API生成，文内写明） | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 12 | 未知（r/OpenAI 帖作者；本轮JSON接口被拦未能取handle） | `reddit-anime-nod-gif` 参考角色图→动漫点头闭眼循环 | [Source](https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/) | [Case](docs/cases/reddit-anime-nod-gif/README.md) · [File](docs/cases/reddit-anime-nod-gif/media/01-gif.gif) | [Original](docs/cases/reddit-anime-nod-gif/prompt.md) | Image 2.6 GIF feature（帖标题与正文自称） | 原生 GIF 直链（Pillow 多帧已核） | 页面模型依据 + GIF 多帧探测 · 未复测生成 | Unknown |
-| 13 | ailingqu / awesome-ai-gif-prompts | `ailingqu-jelly-bear-wobble` Jelly bear wobble / Q 弹果冻熊摇晃 | [Source](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/jelly-bear-wobble.gif) | [Case](docs/cases/ailingqu-jelly-bear-wobble/README.md) · [File](docs/cases/ailingqu-jelly-bear-wobble/media/01-gif.gif) | [Original](docs/cases/ailingqu-jelly-bear-wobble/prompt.md) | Author reports GPT Image 2.6; not authen | Published GIF; provider not recorded | GIF hashes/frames checked; frame she | CC BY 4.0 |
-| 14 | ailingqu / awesome-ai-gif-prompts | `ailingqu-flower-macro-flash` Flower macro flash cut / 花卉微距快闪 | [Source](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/flower-macro-flash.gif) | [Case](docs/cases/ailingqu-flower-macro-flash/README.md) · [File](docs/cases/ailingqu-flower-macro-flash/media/01-gif.gif) | [Original](docs/cases/ailingqu-flower-macro-flash/prompt.md) | Author reports GPT Image 2.6; not authen | Published GIF; provider not recorded | GIF hashes/frames checked; frame she | CC BY 4.0 |
-| 15 | ailingqu / awesome-ai-gif-prompts | `ailingqu-cat-brand-reel` Cat-head logo brand reel / 猫头 Logo 品牌快闪 | [Source](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif) | [Case](docs/cases/ailingqu-cat-brand-reel/README.md) · [File](docs/cases/ailingqu-cat-brand-reel/media/01-gif.gif) | [Original](docs/cases/ailingqu-cat-brand-reel/prompt.md) | Author reports GPT Image 2.6; not authen | Published GIF; provider not recorded | GIF hashes/frames checked; frame she | CC BY 4.0 |
-| 16 | ailingqu / awesome-ai-gif-prompts | `ailingqu-window-day-to-night` Reading by the window, day to night / 窗边读书·白天到夜晚 | [Source](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/window-day-to-night.gif) | [Case](docs/cases/ailingqu-window-day-to-night/README.md) · [File](docs/cases/ailingqu-window-day-to-night/media/01-gif.gif) | [Original](docs/cases/ailingqu-window-day-to-night/prompt.md) | Author reports GPT Image 2.6; not authen | Published GIF; provider not recorded | GIF hashes/frames checked; frame she | CC BY 4.0 |
-| 17 | ailingqu / awesome-ai-gif-prompts | `ailingqu-glass-butterfly` Glass butterfly with shifting shadows / 玻璃蝴蝶与投影 | [Source](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/glass-butterfly.gif) | [Case](docs/cases/ailingqu-glass-butterfly/README.md) · [File](docs/cases/ailingqu-glass-butterfly/media/01-gif.gif) | [Original](docs/cases/ailingqu-glass-butterfly/prompt.md) | Author reports GPT Image 2.6; not authen | Source records via=chatgpt-image-2.c | GIF hashes/frames checked; frame she | CC BY 4.0 |
-| 18 | ailingqu / awesome-ai-gif-prompts | `ailingqu-ink-wash-horse` Ink-wash galloping horse / 水墨奔马 | [Source](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ink-wash-horse.gif) | [Case](docs/cases/ailingqu-ink-wash-horse/README.md) · [File](docs/cases/ailingqu-ink-wash-horse/media/01-gif.gif) | [Original](docs/cases/ailingqu-ink-wash-horse/prompt.md) | Author reports GPT Image 2.6; not authen | Source records via=chatgpt-image-2.c | GIF hashes/frames checked; frame she | CC BY 4.0 |
-| 19 | ailingqu / awesome-ai-gif-prompts | `ailingqu-pixel-slime-boss` 8-bit slime boss battle / 8-bit 史莱姆 Boss 战 | [Source](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-slime-boss.gif) | [Case](docs/cases/ailingqu-pixel-slime-boss/README.md) · [File](docs/cases/ailingqu-pixel-slime-boss/media/01-gif.gif) | [Original](docs/cases/ailingqu-pixel-slime-boss/prompt.md) | Author reports GPT Image 2.6; not authen | Source records via=chatgpt-image-2.c | GIF hashes/frames checked; frame she | CC BY 4.0 |
-| 20 | ailingqu / awesome-ai-gif-prompts | `ailingqu-ai-typing-indicator` AI assistant typing indicator / AI 助手正在输入 | [Source](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ai-typing-indicator.gif) | [Case](docs/cases/ailingqu-ai-typing-indicator/README.md) · [File](docs/cases/ailingqu-ai-typing-indicator/media/01-gif.gif) | [Original](docs/cases/ailingqu-ai-typing-indicator/prompt.md) | Author reports GPT Image 2.6; not authen | Source records via=chatgpt-image-2.c | GIF hashes/frames checked; frame she | CC BY 4.0 |
-
-</details>
-
-<details>
-<summary><strong>Family · GPT Image 2.6 — Already-in-repo community longform / posts (2)</strong></summary>
-
-| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
-|---:|---|---|---|---|---|---|---|---|---|
-| 1 | @Krouxzz | `krouxzz-wave-ref` 角色挥手循环 | [Source](https://x.com/Krouxzz/status/2118283796181053637) | [Case](docs/cases/krouxzz-wave-ref/README.md) · [File](docs/cases/krouxzz-wave-ref/media/03-poster-live.jpg) | [Original](docs/cases/krouxzz-wave-ref/prompt.md) | 作者声明 2.6 | 作者称 looping GIF · X 附件实际 MP4（已本地归档） | 已在库 · 作者声明 · 未观看附件 | Unknown |
-| 2 | @0xluffy_eth | `luffy-x-article` 路飞 X Article：榨干 Image 2.6 的 10 个神级玩法（多玩法一组） | [Source](https://x.com/i/article/2118269816821919744) | [Case](docs/cases/luffy-x-article/README.md) | [Original](docs/cases/luffy-x-article/prompt.md) | 作者声明 2.6 | 社区长文；原文提示词已本地全文归档；库存无附件 URL，文章接口尝试未取 | 已在库 · 提示词逐字 · 库存无附件 URL · 接口未取得 · 不能 | Unknown |
-
-</details>
-
-<details>
-<summary><strong>Family · GPT Image 2.6 — Game action sequences — author-claimed (4, not officially verified)</strong></summary>
-
-| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
-|---:|---|---|---|---|---|---|---|---|---|
-| 1 | Daft_Trade @Daft_Trade · 作者声明 2.6；跳跃承认 flatten 去闪烁 · 4 条 MP4=1 案例 · 未观看 | `game-daft-pixel-combo` 像素三连击 / 翻滚 / 法术（跳跃事后压背景） | [Source](https://x.com/Daft_Trade/status/2118283025498906800) | [Case](docs/cases/game-daft-pixel-combo/README.md) · [File](docs/cases/game-daft-pixel-combo/media/01-dynamic.mp4) | [Unpublished](docs/cases/game-daft-pixel-combo/prompt.md) | 作者声明 GPT Image 2.6（非官方验证；跳跃有事后修帧；本仓未观看） | native_gif_direct_claimed | 作者声明 2.6 · 非官方验证 · 未观看 | Unknown |
-| 2 | maker_evan @maker_evan · 游戏 agent one-shot 已公开；图像 prompt 未公开 · 未观看 MP4 | `game-maker-evan-fox-ronin` 狐浪人网页游戏：2.6 出表、另一 agent 切帧 | [Source](https://x.com/maker_evan/status/2118222694345040253) | [Case](docs/cases/game-maker-evan-fox-ronin/README.md) · [File](docs/cases/game-maker-evan-fox-ronin/media/03-still.jpg) | [Original](docs/cases/game-maker-evan-fox-ronin/prompt.md) | 作者声明 GPT Image 2.6 出表（切帧/游戏是 GPT-6.1 Sol | sheet_then_agent_cut | 作者声明 2.6 · 非官方验证 · 未观看 | Unknown |
-| 3 | 小墨同学 @xiaomovps · 作者声明 Images 2.6 · X animated_gif→MP4 · 未见引擎内运行 | `game-xiaomovps-fighter` 复古格斗出拳 / 蓄力循环 | [Source](https://x.com/xiaomovps/status/2118274032227471705) | [Case](docs/cases/game-xiaomovps-fighter/README.md) · [File](docs/cases/game-xiaomovps-fighter/media/03-still.jpg) | [Unpublished](docs/cases/game-xiaomovps-fighter/prompt.md) | 作者声明 GPT Images 2.6（非官方验证；本仓未观看、未复测） | native_gif_and_or_sprite_claimed | 作者声明 2.6 · 非官方验证 · 未观看 | Unknown |
-| 4 | vargHQ gpt-image-sprite-sheet · 作者声明 gpt_image_2_6 · 非 OpenAI 官方验证 · 未复测 | `game-varg-knight-run` 骑士跑循环：作者声明 2.6 出表再切帧 | [Source](https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md) | [Case](docs/cases/game-varg-knight-run/README.md) · [File](docs/cases/game-varg-knight-run/media/01-sheet.png) | [Original](docs/cases/game-varg-knight-run/prompt.md) | 作者声明 gpt_image_2_6（非官方验证；本仓未复测） | sheet_then_slice | 作者声明 2.6 · 非官方验证 · 未观看 | Unknown |
-
-</details>
 
 <details>
 <summary><strong>Family · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2 (7)</strong></summary>
@@ -775,7 +595,7 @@ Open a family below, or use the [searchable web catalog](https://jammyfu.github.
 </details>
 
 <details>
-<summary><strong>Family · Qwen — Qwen3.8 (1)</strong></summary>
+<summary><strong>Family · Qwen — Qwen3.8 / Qwen 4 Preview (1)</strong></summary>
 
 | # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -906,7 +726,7 @@ Open a family below, or use the [searchable web catalog](https://jammyfu.github.
 <a id="faq"></a>
 ## What is this repository?
 
-A source-first library of real production cases from the latest large models and from the previous generation that is still mainstream. It is organized by model family, then version. It is not this repository's original playbook showcase. **GPT Image 2.6** is one populated family, not the front door. Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, and DeepSeek hold the newer sourced cases. The GPT-6.2 Sol section name follows the repo owner; OpenAI’s public pages still document GPT-6.1 Sol as of the last check. Each record keeps authorship, source links, local media where retrieved, prompt availability, model evidence, pipeline, and verification status. Model names from sources are claims, not independent verification.
+A source-first library of real production cases from the latest large models. It is organized by model family, then version. It is not this repository's original playbook showcase. Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, and DeepSeek are the homepage families. The GPT-6.2 Sol section name follows the repo owner; OpenAI’s public pages still document GPT-6.1 Sol as of the last check. Each record keeps authorship, source links, local media where retrieved, prompt availability, model evidence, pipeline, and verification status. Model names from sources are claims, not independent verification.
 
 ## What can this repository not do?
 

@@ -14,7 +14,9 @@ from readme_presentation import (
     FAMILY_TITLE,
     TYPE_INDEX_LABEL,
     TYPE_ORDER,
+    UI,
     VERSION_LABEL,
+    featured_cards,
     main_case_rows,
     render_readme,
     sol_note,
@@ -49,12 +51,17 @@ CASE_IMAGES = ROOT / "data/case-images.json"
 OUT_INDEX_JSON = ROOT / "data/showcase-index.json"
 OUT_INDEX_MD = ROOT / "docs/showcase-index.md"
 OUT_MISSING = ROOT / "docs/missing-thumbnails.md"
+OUT_MISSING_VIDEOS = ROOT / "docs/missing-videos.md"
+CASE_VIDEOS = ROOT / "data/case-videos.json"
+OUT_GPT_EN = ROOT / "collections/gpt-image-gifs/README.md"
+OUT_GPT_ZH = ROOT / "collections/gpt-image-gifs/README.zh-CN.md"
 
 GITHUB_ABOUT = {
     "description": (
         "AI 模型制作案例集 / Awesome AI Model Showcases: latest and still-mainstream "
-        "model cases (GIF, animation, HTML/game, image) by family. Claude, Gemini, "
-        "GPT-6.2 Sol, Grok, Qwen, DeepSeek, GPT Image. EN / 简体中文 / 繁體中文 / 日本語."
+        "model cases (animation, HTML/game, image, video) by frontier family. "
+        "Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, DeepSeek. "
+        "GPT Image GIFs: collections/gpt-image-gifs. EN / 简体中文 / 繁體中文 / 日本語."
     ),
     "homepage": "https://jammyfu.github.io/awesome-ai-model-showcases/",
     "topics": [
@@ -81,7 +88,7 @@ MODEL_FAMILY_PLACEHOLDERS = (
         "GPT-6.2 Sol (owner) · OpenAI pages still list GPT-6.1 Sol",
     ),
     ("grok", "Grok", "Grok", "Grok 4.7 / Imagine Video"),
-    ("qwen", "Qwen", "Qwen", "Qwen3.8"),
+    ("qwen", "Qwen", "Qwen", "Qwen3.8 / Qwen 4 Preview"),
     ("deepseek", "DeepSeek", "DeepSeek", "V4.1 Flash"),
 )
 
@@ -473,6 +480,8 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
             media = f"[{label}]({repo_href(r['local_detail'], from_file)})"
             if r.get("local_preview"):
                 media += f" · [{ui['file']}]({repo_href(r['local_preview'], from_file)})"
+            if r.get("video"):
+                media += f" · [Video]({repo_href(r['video'], from_file)})"
         elif r.get("source_url") and r.get("bucket") not in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME}:
             if r.get("media_url"):
                 media = f"[{r['media_kind'] or ui['kind']}]({r['media_url']})"
@@ -535,6 +544,50 @@ def apply_case_images(rows: list[dict]) -> None:
         rec["work_type"] = work_type_of(rec)
 
 
+def apply_case_videos(rows: list[dict]) -> None:
+    """Attach a local video path only when data/case-videos.json records one."""
+    payload = json.loads(CASE_VIDEOS.read_text(encoding="utf-8")) if CASE_VIDEOS.is_file() else {"cases": []}
+    by_id = {item["id"]: item for item in payload.get("cases") or []}
+    for rec in rows:
+        item = by_id.get(rec["id"]) or {}
+        rel = str(item.get("video") or "")
+        if rel and (ROOT / rel).is_file():
+            rec["video"] = rel
+        else:
+            rec["video"] = ""
+
+
+def write_missing_videos(catalog_rows: list[dict]) -> None:
+    payload = json.loads(CASE_VIDEOS.read_text(encoding="utf-8")) if CASE_VIDEOS.is_file() else {"cases": []}
+    known = {rec["id"] for rec in catalog_rows}
+    failed = [
+        item for item in payload.get("cases") or []
+        if item.get("id") in known and item.get("status") == "failed"
+    ]
+    failed.sort(key=lambda item: item.get("id") or "")
+    lines = [
+        "# Cases where the video download failed",
+        "",
+        "Scope: collected cases whose source was treated as a downloadable video (X post, direct MP4, or yt-dlp). Cases with no video on the source are not listed here.",
+        "",
+        "Local copies stay credited to the original author and link back to the post. See [MEDIA_RIGHTS.md](../MEDIA_RIGHTS.md). A rights holder can ask for removal.",
+        "",
+        f"Failed: **{len(failed)}**.",
+        "",
+    ]
+    if not failed:
+        lines.append("None in this pass.")
+    for item in failed:
+        lines.extend([
+            f"## `{item['id']}`",
+            "",
+            f"- Source: {item.get('source_url') or '—'}",
+            f"- Reason: {item.get('reason') or 'download failed'}",
+            "",
+        ])
+    OUT_MISSING_VIDEOS.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+
 def write_showcase(catalog: dict) -> None:
     rows = main_case_rows(catalog)
     records = []
@@ -553,6 +606,7 @@ def write_showcase(catalog: dict) -> None:
                 "image_source": rec.get("image_source") or "",
                 "image_credit": rec.get("image_credit") or "",
                 "thumb": rec.get("thumb") or "",
+                "video": rec.get("video") or "",
             }
         )
     OUT_INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
@@ -575,8 +629,8 @@ def write_showcase(catalog: dict) -> None:
 
     def one_table(items: list[dict]) -> str:
         lines = [
-            "| 缩略图 | 标题 | 模型家族 | 版本 | 作品类型 | 日期 | 作者 | 来源 |",
-            "|---|---|---|---|---|---|---|---|",
+            "| 缩略图 | 标题 | 模型家族 | 版本 | 作品类型 | 日期 | 作者 | 来源 | 视频 |",
+            "|---|---|---|---|---|---|---|---|---|",
         ]
         for rec in items:
             thumb = f'<img src="../{rec["thumb"]}" alt="" width="120">' if rec.get("thumb") else "—"
@@ -587,8 +641,12 @@ def write_showcase(catalog: dict) -> None:
             date = rec.get("date") or "—"
             author = cell(rec.get("image_credit") or rec.get("author") or "")
             src = f"[来源]({rec['source_url']})" if rec.get("source_url") else "—"
+            video_rel = rec.get("video") or ""
+            if video_rel.startswith("docs/"):
+                video_rel = video_rel[len("docs/"):]
+            video = f"[Video]({video_rel})" if video_rel else "—"
             lines.append(
-                f"| {thumb} | `{rec['id']}` {title} | {fam} | {ver} | {kind} | {date} | {author} | {src} |"
+                f"| {thumb} | `{rec['id']}` {title} | {fam} | {ver} | {kind} | {date} | {author} | {src} | {video} |"
             )
         return "\n".join(lines)
 
@@ -857,7 +915,7 @@ def main() -> None:
                 frontier_raw.get("meta", {}).get("updated", "2026-11-06"),
                 sites_raw.get("meta", {}).get("updated", "2026-11-06"),
             ),
-            "coverage": "按模型家族分栏的公开案例收集库。GPT Image 2.6 为本地归档子栏目；Claude / Gemini / GPT-6.2 Sol / Grok / Qwen / DeepSeek 等家族以出处链接收录真实公开案例（默认不本地再托管）。GPT-6.2 Sol 分栏名按主人确认；OpenAI 公开页截至核验日仍列 GPT-6.1 Sol。不是穷尽全网。许可与视觉检查按条目标注；帧序列检查不等于完整播放或生成复现。",
+            "coverage": "首页按前沿模型家族分栏。GPT Image 2.6 GIF 归档在子项目 collections/gpt-image-gifs/，不计入首页合计。Claude / Gemini / GPT-6.2 Sol / Grok / Qwen / DeepSeek 收录真实公开案例；来源视频在署名并链回原帖的前提下做本地副本。GPT-6.2 Sol 分栏名按主人确认；OpenAI 公开页截至核验日仍列 GPT-6.1 Sol。不是穷尽全网。",
             "not_exhaustive": True,
             "official_verified_26_game": 0,
             "structure": "model_family",
@@ -905,8 +963,9 @@ def main() -> None:
         "appendix": len(catalog["appendix"]),
         "repo_seeds": len(seeds),
         "gpt_image": gpt_count,
+        "gpt_image_subproject": "collections/gpt-image-gifs/",
         "frontier_sourced": frontier_count,
-        "main_collected": gpt_count + frontier_count,
+        "main_collected": frontier_count,
         **{f"family_{fid}": len(frontier_by_family[fid]) for fid, *_ in MODEL_FAMILY_PLACEHOLDERS},
     }
 
@@ -924,7 +983,10 @@ def main() -> None:
     ):
         attach_local(group)
 
-    apply_case_images(collected_x + web_confirmed + inrepo + game_main + frontier_all)
+    homepage_and_archive = collected_x + web_confirmed + inrepo + game_main + frontier_all
+    apply_case_images(homepage_and_archive)
+    apply_case_videos(homepage_and_archive)
+    write_missing_videos(homepage_and_archive)
     catalog["meta"]["counts"]["with_image"] = sum(
         1 for rec in collected_x + web_confirmed + inrepo + game_main + frontier_all if rec.get("image_url")
     )
@@ -946,32 +1008,6 @@ def main() -> None:
     def tables_for(lang: str, from_file: Path) -> str:
         headers = HEADERS_FOR[lang]
         note = sol_note(catalog, lang)
-        gpt_heads = {
-            "en": [
-                f"## Family · GPT Image 2.6 — X author-claimed ({len(collected_x)} groups, not split by attachment)",
-                f"## Family · GPT Image 2.6 — Non-X real GIFs ({len(web_confirmed)})",
-                f"## Family · GPT Image 2.6 — Already-in-repo community longform / posts ({len(inrepo)})",
-                f"## Family · GPT Image 2.6 — Game action sequences — author-claimed ({len(game_main)}, not officially verified)",
-            ],
-            "zh-CN": [
-                f"## 家族 · GPT Image 2.6 — X 作者声明（{len(collected_x)} 组，不按附件拆卡）",
-                f"## 家族 · GPT Image 2.6 — 非 X 真 GIF（{len(web_confirmed)}）",
-                f"## 家族 · GPT Image 2.6 — 本仓已收录社区长文 / 单帖（{len(inrepo)}）",
-                f"## 家族 · GPT Image 2.6 — 游戏动作序列 · 作者声明（{len(game_main)}，非官方验证）",
-            ],
-            "zh-TW": [
-                f"## 家族 · GPT Image 2.6 — X 作者聲明（{len(collected_x)} 組，不按附件拆卡）",
-                f"## 家族 · GPT Image 2.6 — 非 X 真 GIF（{len(web_confirmed)}）",
-                f"## 家族 · GPT Image 2.6 — 本倉已收錄的社群長文 / 單帖（{len(inrepo)}）",
-                f"## 家族 · GPT Image 2.6 — 遊戲動作序列 · 作者聲明（{len(game_main)}，非官方驗證）",
-            ],
-            "ja": [
-                f"## Family · GPT Image 2.6 — X の作者申告（{len(collected_x)} 件、添付ごとに分割しない）",
-                f"## Family · GPT Image 2.6 — X 以外の実 GIF（{len(web_confirmed)}）",
-                f"## Family · GPT Image 2.6 — すでに収録済みの長文 / 単発投稿（{len(inrepo)}）",
-                f"## Family · GPT Image 2.6 — ゲーム動作シーケンス · 作者申告（{len(game_main)}、公式検証ではない）",
-            ],
-        }[lang]
         empty = {
             "en": "_No sourced cases yet for {versions}._\n",
             "zh-CN": "_此栏暂无已核实案例（{versions}）。_\n",
@@ -1006,10 +1042,6 @@ def main() -> None:
         }[lang]
         name_of = {"en": 1, "zh-CN": 2, "zh-TW": 2, "ja": 1}[lang]
         parts: list[str] = []
-        groups = (collected_x, web_confirmed, inrepo, game_main)
-        for heading, rows in zip(gpt_heads, groups):
-            parts.append(heading)
-            parts.append(md_table(rows, headers, from_file=from_file, lang=lang))
         for fid, en, zh, versions in MODEL_FAMILY_PLACEHOLDERS:
             rows = frontier_by_family[fid]
             name = (en, zh)[name_of - 1] if name_of == 2 else en
@@ -1037,9 +1069,9 @@ def main() -> None:
                 "",
                 f"> Updated {catalog['meta']['updated']} (Beijing time). Same inventory as README.md, README.zh-CN.md, README.zh-TW.md, and README.ja.md. Organized by model family, then version. Not exhaustive; not official verification.",
                 "",
-                f"- Main collected: **{c['main_collected']}** = GPT Image **{c['gpt_image']}** + other families **{c['frontier_sourced']}**",
-                f"- GPT Image: X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}",
-                f"- Other families: Claude {c['family_claude']} · Gemini {c['family_gemini']} · GPT-6.2 Sol {c['family_gpt-code']} · Grok {c['family_grok']} · Qwen {c['family_qwen']} · DeepSeek {c['family_deepseek']}",
+                f"- Homepage total: **{c['main_collected']}** frontier-family cases (GPT Image is not included)",
+                f"- Frontier families: Claude {c['family_claude']} · Gemini {c['family_gemini']} · GPT-6.2 Sol {c['family_gpt-code']} · Grok {c['family_grok']} · Qwen {c['family_qwen']} · DeepSeek {c['family_deepseek']}",
+                f"- GPT Image 2.6 GIF archive (subproject, not in the homepage total): **{c['gpt_image']}** = X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}. Listing: [collections/gpt-image-gifs](../collections/gpt-image-gifs/README.md)",
                 f"- Pending {c['pending']} · prompt-only {c['prompt_only']} · excluded {c['excluded']} · appendix {c['appendix']} · seeds {c['repo_seeds']}",
                 "- Officially verified 2.6 game outputs: **0**",
                 "",
@@ -1063,12 +1095,7 @@ def main() -> None:
 | Grok (4.7 / Imagine) | **{c['family_grok']}** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | {c['appendix']} |
 | Qwen (3.8) | **{c['family_qwen']}** | Repository seeds (local examples) | {c['repo_seeds']} |
 | DeepSeek (V4.1 Flash) | **{c['family_deepseek']}** | | |
-| **GPT Image 2.6** (still-mainstream local archive) | **{c['gpt_image']}** | | |
-| · X author-claimed 2.6 | **{c['x_author_claim_25']}** | | |
-| · Non-X real GIFs | **{c['web_gif_12']}** | | |
-| · In-repo community longform/posts | **{c['already_in_repo']}** | | |
-| · Game author-claimed | **{c['game_author_claim']}** | | |
-| **Main total** | **{c['main_collected']}** | | |""",
+| **Homepage total** | **{c['main_collected']}** | | |""",
         "zh-CN": f"""| 模型家族 / 分栏 | 数 | 附表（不计入主表） | 数 |
 |---|---:|---|---:|
 | Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 待核 | {c['pending']} |
@@ -1077,12 +1104,7 @@ def main() -> None:
 | Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
 | Qwen（3.8） | **{c['family_qwen']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |
 | DeepSeek（V4.1 Flash） | **{c['family_deepseek']}** | | |
-| **GPT Image 2.6**（仍在主流使用的本地归档） | **{c['gpt_image']}** | | |
-| · X 作者声明 2.6 | **{c['x_author_claim_25']}** | | |
-| · 非 X 真 GIF | **{c['web_gif_12']}** | | |
-| · 已在库社区长文/单帖 | **{c['already_in_repo']}** | | |
-| · 游戏 · 作者声明 | **{c['game_author_claim']}** | | |
-| **主表合计** | **{c['main_collected']}** | | |""",
+| **首页合计** | **{c['main_collected']}** | | |""",
         "zh-TW": f"""| 模型家族 / 分欄 | 數 | 附表（不計入主表） | 數 |
 |---|---:|---|---:|
 | Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 待核 | {c['pending']} |
@@ -1091,12 +1113,7 @@ def main() -> None:
 | Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣傳 / 多模型 / 失敗 / Morphic / 非X候選 | {c['appendix']} |
 | Qwen（3.8） | **{c['family_qwen']}** | 倉庫種子（本倉示例） | {c['repo_seeds']} |
 | DeepSeek（V4.1 Flash） | **{c['family_deepseek']}** | | |
-| **GPT Image 2.6**（仍在主流使用的本地歸檔） | **{c['gpt_image']}** | | |
-| · X 作者聲明 2.6 | **{c['x_author_claim_25']}** | | |
-| · 非 X 真 GIF | **{c['web_gif_12']}** | | |
-| · 已在庫的社群長文/單帖 | **{c['already_in_repo']}** | | |
-| · 遊戲 · 作者聲明 | **{c['game_author_claim']}** | | |
-| **主表合計** | **{c['main_collected']}** | | |""",
+| **首頁合計** | **{c['main_collected']}** | | |""",
         "ja": f"""| モデルファミリー | 件数 | 主表の外 | 件数 |
 |---|---:|---|---:|
 | Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 未確認 | {c['pending']} |
@@ -1105,13 +1122,75 @@ def main() -> None:
 | Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣伝 / 複数モデル / 失敗 / Morphic / X 以外の候補 | {c['appendix']} |
 | Qwen（3.8） | **{c['family_qwen']}** | リポジトリの種（ローカル例） | {c['repo_seeds']} |
 | DeepSeek（V4.1 Flash） | **{c['family_deepseek']}** | | |
-| **GPT Image 2.6**（いまも主流。ローカルアーカイブ） | **{c['gpt_image']}** | | |
-| · X の作者申告 2.6 | **{c['x_author_claim_25']}** | | |
-| · X 以外の実 GIF | **{c['web_gif_12']}** | | |
-| · 収録済みの長文 / 単発投稿 | **{c['already_in_repo']}** | | |
-| · ゲーム · 作者申告 | **{c['game_author_claim']}** | | |
-| **主表合計** | **{c['main_collected']}** | | |""",
+| **ホームページ合計** | **{c['main_collected']}** | | |""",
     }
+
+    gpt_lines = {
+        "en": (
+            f"GPT Image 2.6 GIF archive (**{c['gpt_image']}** cases, not in the homepage total): "
+            "[collections/gpt-image-gifs](collections/gpt-image-gifs/README.md)."
+        ),
+        "zh-CN": (
+            f"GPT Image 2.6 GIF 归档（**{c['gpt_image']}** 条，不计入首页合计）："
+            "[collections/gpt-image-gifs](collections/gpt-image-gifs/README.zh-CN.md)。"
+        ),
+        "zh-TW": (
+            f"GPT Image 2.6 GIF 歸檔（**{c['gpt_image']}** 則，不計入首頁合計）："
+            "[collections/gpt-image-gifs](collections/gpt-image-gifs/README.zh-CN.md)。"
+        ),
+        "ja": (
+            f"GPT Image 2.6 の GIF アーカイブ（**{c['gpt_image']}** 件。ホームページの合計には入れない）: "
+            "[collections/gpt-image-gifs](collections/gpt-image-gifs/README.md)."
+        ),
+    }
+
+    def gpt_archive_body(lang: str, path: Path) -> str:
+        headers = HEADERS_FOR[lang]
+        titles = {
+            "en": (
+                "# GPT Image 2.6 GIF archive",
+                "Subproject of [Awesome AI Model Showcases](../../README.md). These cases are not in the homepage totals.",
+                f"**{c['gpt_image']}** cases: X author-claimed {c['x_author_claim_25']} · non-X GIFs {c['web_gif_12']} · in-repo {c['already_in_repo']} · game author-claimed {c['game_author_claim']}.",
+                "Case files stay in `docs/cases/<id>/`. This page is the listing.",
+            ),
+            "zh-CN": (
+                "# GPT Image 2.6 GIF 归档",
+                "这是 [AI 模型制作案例集](../../README.zh-CN.md) 的子项目。这些案例不计入首页合计。",
+                f"共 **{c['gpt_image']}** 条：X 作者声明 {c['x_author_claim_25']} · 非 X GIF {c['web_gif_12']} · 已在库 {c['already_in_repo']} · 游戏作者声明 {c['game_author_claim']}。",
+                "案例文件仍在 `docs/cases/<id>/`。本页是目录。",
+            ),
+        }[lang]
+        heads = {
+            "en": [
+                f"## X author-claimed ({len(collected_x)} groups, not split by attachment)",
+                f"## Non-X real GIFs ({len(web_confirmed)})",
+                f"## Already-in-repo community longform / posts ({len(inrepo)})",
+                f"## Game action sequences — author-claimed ({len(game_main)}, not officially verified)",
+            ],
+            "zh-CN": [
+                f"## X 作者声明（{len(collected_x)} 组，不按附件拆卡）",
+                f"## 非 X 真 GIF（{len(web_confirmed)}）",
+                f"## 本仓已收录社区长文 / 单帖（{len(inrepo)}）",
+                f"## 游戏动作序列 · 作者声明（{len(game_main)}，非官方验证）",
+            ],
+        }[lang]
+        ui = UI[lang]
+        parts = list(titles)
+        parts.append("")
+        parts.append(ui["gif_intro"])
+        parts.append(featured_cards(catalog["collected_web_gif"], lang, from_file=path))
+        parts.append(ui["cards_note"])
+        parts.append("")
+        for heading, rows in zip(heads, (collected_x, web_confirmed, inrepo, game_main)):
+            parts.append(heading)
+            parts.append("")
+            parts.append(md_table(rows, headers, from_file=path, lang=lang))
+            parts.append("")
+        return "\n".join(parts).rstrip() + "\n"
+
+    OUT_GPT_EN.parent.mkdir(parents=True, exist_ok=True)
+    OUT_GPT_EN.write_text(gpt_archive_body("en", OUT_GPT_EN), encoding="utf-8")
+    OUT_GPT_ZH.write_text(gpt_archive_body("zh-CN", OUT_GPT_ZH), encoding="utf-8")
 
     for lang, path in README_LANGS:
         path.write_text(
@@ -1121,6 +1200,7 @@ def main() -> None:
                 count_table=count_tables[lang],
                 tables=tables_for(lang, path),
                 collection_sites=collection_sites[lang],
+                gpt_subproject_line=gpt_lines[lang],
             ),
             encoding="utf-8",
         )
@@ -1134,10 +1214,10 @@ def main() -> None:
 Independent community project. Organized by model family, then version. Current public inventory, not exhaustive. Author claim ≠ official verification.
 
 ## What is this repository?
-A sourced catalog of real production cases from the latest large models and from the previous generation that is still mainstream: GIFs, animations, HTML and game demos, and images. Each record keeps the post, author, prompt-or-empty, model evidence, pipeline, verification, and license boundary. GPT Image 2.6 is the still-mainstream local-archive family, not the center of the catalog.
+A sourced catalog of real production cases from the latest large models: animations, HTML and game demos, images, and credited local videos. Each record keeps the post, author, prompt-or-empty, model evidence, pipeline, verification, and license boundary. The GPT Image 2.6 GIF archive is a subproject at collections/gpt-image-gifs/ and is not part of the homepage total.
 
 ## What is in the current inventory?
-Main collected {c['main_collected']} = other families {c['frontier_sourced']} (Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT-6.2 Sol {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}) + GPT Image {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}). Non-GPT families are source-linked by default. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Claude Mythos 5.2 is named in the inventory and has no separate sourced case. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English, Simplified Chinese, Traditional Chinese, and Japanese READMEs share this inventory. Showcase collection sites: playbooks/research/showcase-collection-sites.json. Case index: docs/showcase-index.md and data/showcase-index.json.
+Homepage total {c['main_collected']} frontier-family cases: Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT-6.2 Sol {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}. GPT Image subproject {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}), listed only under collections/gpt-image-gifs/. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Claude Mythos 5.2 is named in the inventory and has no separate sourced case. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English, Simplified Chinese, Traditional Chinese, and Japanese READMEs share the homepage inventory. Showcase collection sites: playbooks/research/showcase-collection-sites.json. Case index: docs/showcase-index.md and data/showcase-index.json. Failed video downloads: docs/missing-videos.md.
 
 ## What can I do with it?
 Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.
@@ -1162,9 +1242,9 @@ MIT covers source code only. Third-party media remains license-unknown unless a 
     OUT_LLMS_DOCS.write_text(llms, encoding="utf-8")
     OUT_ABOUT.write_text(json.dumps(GITHUB_ABOUT, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
-        f"community catalog: main {c['main_collected']} "
-        f"(gpt{c['gpt_image']}+frontier{c['frontier_sourced']}; "
-        f"X{c['x_author_claim_25']}+web{c['web_gif_12']}+inrepo{c['already_in_repo']}+game{c['game_author_claim']}); "
+        f"community catalog: homepage {c['main_collected']} frontier; "
+        f"gpt-image subproject {c['gpt_image']} "
+        f"(X{c['x_author_claim_25']}+web{c['web_gif_12']}+inrepo{c['already_in_repo']}+game{c['game_author_claim']}); "
         f"pending {c['pending']}; appendix {c['appendix']}"
     )
 

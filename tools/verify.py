@@ -49,6 +49,9 @@ def main() -> int:
             "docs/showcase-index.md",
             "data/showcase-index.json",
             "docs/missing-thumbnails.md",
+            "docs/missing-videos.md",
+            "collections/gpt-image-gifs/README.md",
+            "collections/gpt-image-gifs/README.zh-CN.md",
         ]
     )
     run([py, str(ROOT / "tools/validate_community.py")])

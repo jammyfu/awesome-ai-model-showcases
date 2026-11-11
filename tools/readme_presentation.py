@@ -1,6 +1,7 @@
 """Presentation helpers; catalog evidence remains in write_community_catalog.py."""
 from __future__ import annotations
 
+import os
 from html import escape
 from pathlib import Path
 from string import Template
@@ -72,19 +73,19 @@ FAMILY_FEATURED = (
     ("qwen", "qwen3.8-27b", "web-jamesgreene-code1-qwen38-27b-isometric-city"),
     ("deepseek", "deepseek-v4.1-flash-1017", "web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city"),
     ("deepseek", "deepseek-v4.1-flash", "x-latentoperator-a380-deepseek-fable-sol"),
-    ("gpt-image", "gpt-image-2.6", "lightlyn-orange-cat-mascot-gif"),
-    ("gpt-image", "gpt-image-2.6", "veevid-perfume-light-sweep-gif"),
-    ("gpt-image", "gpt-image-2.6", "ravivit-paper-boat-gif"),
 )
 
-FAMILY_ORDER = ("claude", "gemini", "gpt-code", "grok", "qwen", "deepseek", "gpt-image")
+# Homepage families. GPT Image stays in the catalog JSON and in
+# collections/gpt-image-gifs/, and is not a homepage section.
+HOMEPAGE_FAMILIES = ("claude", "gemini", "gpt-code", "grok", "qwen", "deepseek")
+FAMILY_ORDER = HOMEPAGE_FAMILIES + ("gpt-image",)
 
 VERSION_ORDER = {
     "claude": ("claude-fable-5.2", "claude-mythos-5.2", "claude-opus-5.5"),
     "gemini": ("gemini-4-carbon", "gemini-4-argon"),
     "gpt-code": ("gpt-6.2-sol", "gpt-6.1-sol"),
     "grok": ("grok-4.7", "grok-imagine-video"),
-    "qwen": ("qwen3.8-27b",),
+    "qwen": ("qwen3.8-27b", "qwen4-max-preview", "qwen4-preview"),
     "deepseek": ("deepseek-v4.1-flash-1017", "deepseek-v4.1-flash"),
     "gpt-image": ("gpt-image-2.6",),
 }
@@ -100,6 +101,8 @@ VERSION_LABEL = {
     "grok-4.7": "Grok 4.7",
     "grok-imagine-video": "Grok Imagine Video",
     "qwen3.8-27b": "Qwen3.8 27B",
+    "qwen4-max-preview": "Qwen 4 Max Preview",
+    "qwen4-preview": "Qwen 4.0 Preview",
     "deepseek-v4.1-flash-1017": "DeepSeek V4.1 Flash 1017",
     "deepseek-v4.1-flash": "DeepSeek V4.1 Flash",
     "gpt-image-2.6": "GPT Image 2.6",
@@ -401,11 +404,25 @@ def thumb_grid(rows: list[dict], lang: str) -> str:
     return "\n".join(lines)
 
 
-def quick_nav(lang: str) -> str:
+def _href(path: str, from_file: Path | None) -> str:
+    if not from_file or not path or str(path).startswith(("http://", "https://", "mailto:", "#")):
+        return path
+    root = Path(__file__).resolve().parents[1]
+    target = (root / path).resolve()
+    return Path(os.path.relpath(target, Path(from_file).resolve().parent)).as_posix()
+
+
+def quick_nav(lang: str, catalog: dict | None = None) -> str:
     ui = UI[lang]
+    by_family = (catalog or {}).get("collected_by_family") or {}
     lines = [f"### {ui['by_model']}"]
-    for fam in FAMILY_ORDER:
-        bits = [f"[{VERSION_LABEL[version]}](#{version_anchor(version)})" for version in VERSION_ORDER[fam]]
+    for fam in HOMEPAGE_FAMILIES:
+        bits = []
+        present = {row.get("model_version") for row in by_family.get(fam) or []}
+        for version in VERSION_ORDER[fam]:
+            if version not in present and version != "claude-mythos-5.2":
+                continue
+            bits.append(f"[{VERSION_LABEL[version]}](#{version_anchor(version)})")
         lines.append(f"- [{FAMILY_TITLE[fam]}](#{fam}) — " + " · ".join(bits))
     lines.append("")
     lines.append(f"### {ui['by_type']}")
@@ -444,9 +461,10 @@ def type_sections(rows: list[dict], lang: str) -> str:
 
 
 def main_case_rows(catalog: dict) -> list[dict]:
+    """Homepage rows: frontier families only. GPT Image is a subproject."""
     rows: list[dict] = []
     by_family = catalog.get("collected_by_family") or {}
-    for fam in FAMILY_ORDER:
+    for fam in HOMEPAGE_FAMILIES:
         bucket = list(by_family.get(fam) or [])
         order = {version: index for index, version in enumerate(VERSION_ORDER.get(fam, ()))}
         bucket.sort(key=lambda row: (order.get(row.get("model_version"), 99), str(row.get("date") or ""), row["id"]))
@@ -454,7 +472,7 @@ def main_case_rows(catalog: dict) -> list[dict]:
     return rows
 
 
-def featured_cards(rows: list[dict], lang: str) -> str:
+def featured_cards(rows: list[dict], lang: str, from_file: Path | None = None) -> str:
     by_id = {r["id"]: r for r in rows}
     ui = UI[lang]
     lines = ["<table>", "<tr>"]
@@ -464,17 +482,20 @@ def featured_cards(rows: list[dict], lang: str) -> str:
         assert row["original_prompt"].strip(), f"Featured prompt is missing: {cid}"
         title = titles[lang]
         note = notes[lang]
-        detail, prompt, source = map(escape, (row["local_detail"], row["local_prompt"], row["source_url"]))
+        detail = escape(_href(row["local_detail"], from_file))
+        prompt = escape(_href(row["local_prompt"], from_file))
+        source = escape(row["source_url"])
         author = escape(row.get("image_credit") or row["author"])
         alt = escape(f"{title} by {row.get('image_credit') or row['author']}")
-        preview = row.get("thumb") or media
+        preview = escape(_href(row.get("thumb") or media, from_file))
+        media_href = escape(_href(media, from_file))
         prompt_label = ui["brief"] if cid == "ravivit-paper-boat-gif" else ui["original"]
         lines.extend([
             '<td align="center" width="33%">',
-            f'<a href="{source}"><img src="{escape(preview)}" alt="{alt}" width="220"></a><br>',
+            f'<a href="{source}"><img src="{preview}" alt="{alt}" width="220"></a><br>',
             f'<strong><a href="{detail}">{escape(title)}</a></strong><br>',
             f'{ui["credit"]}: {author}<br><sub>{escape(note)}</sub><br>',
-            f'<a href="{prompt}">{escape(prompt_label)}</a> · <a href="{source}">{escape(ui["post"])}</a> · <a href="{escape(media)}">GIF</a>',
+            f'<a href="{prompt}">{escape(prompt_label)}</a> · <a href="{source}">{escape(ui["post"])}</a> · <a href="{media_href}">GIF</a>',
             "</td>",
         ])
     lines.extend(["</tr>", "</table>"])
@@ -485,7 +506,7 @@ def family_sections(catalog: dict, lang: str) -> str:
     by_id = cases_by_id(catalog)
     by_family = catalog.get("collected_by_family") or {}
     ui = UI[lang]
-    picked: dict[str, dict[str, list[str]]] = {fam: {} for fam in FAMILY_ORDER}
+    picked: dict[str, dict[str, list[str]]] = {fam: {} for fam in HOMEPAGE_FAMILIES}
     for fam, version, cid in FAMILY_FEATURED:
         row = by_id.get(cid)
         if row is None:
@@ -497,7 +518,7 @@ def family_sections(catalog: dict, lang: str) -> str:
             )
         picked[fam].setdefault(version, []).append(cid)
     blocks: list[str] = []
-    for fam in FAMILY_ORDER:
+    for fam in HOMEPAGE_FAMILIES:
         total = len(by_family.get(fam) or [])
         shown = sum(len(ids) for ids in picked[fam].values())
         blocks.append(f'<a id="{fam}"></a>')
@@ -509,18 +530,14 @@ def family_sections(catalog: dict, lang: str) -> str:
         if fam == "gpt-code":
             blocks.append(sol_note(catalog, lang))
         for version in VERSION_ORDER[fam]:
+            ids = picked[fam].get(version) or []
+            if not ids and version != "claude-mythos-5.2":
+                continue
             blocks.append(f'<a id="{version_anchor(version)}"></a>')
             blocks.append(f"### {VERSION_LABEL[version]}")
-            ids = picked[fam].get(version) or []
             if not ids:
-                if version == "claude-mythos-5.2":
-                    blocks.append(ui["mythos"])
-                    blocks.append("> " + _inventory_quote(catalog, "Mythos 5.2"))
-                continue
-            if fam == "gpt-image" and version == "gpt-image-2.6":
-                blocks.append(ui["gif_intro"])
-                blocks.append(featured_cards(catalog["collected_web_gif"], lang))
-                blocks.append(ui["cards_note"])
+                blocks.append(ui["mythos"])
+                blocks.append("> " + _inventory_quote(catalog, "Mythos 5.2"))
                 continue
             blocks.append(thumb_grid([by_id[cid] for cid in ids], lang))
         if fam == "qwen":
@@ -551,15 +568,11 @@ def render_readme(
     count_table: str,
     tables: str,
     collection_sites: str = "",
+    gpt_subproject_line: str = "",
 ) -> str:
     c = catalog["meta"]["counts"]
-    main_rows = [r for key in (
-        "collected_x_author_claim",
-        "collected_web_gif",
-        "collected_already_in_repo",
-        "collected_game_author_claim",
-    ) for r in catalog[key]]
-    media_count = sum(bool(r.get("local_files")) for r in main_rows)
+    main_rows = main_case_rows(catalog)
+    media_count = sum(bool(r.get("video") or r.get("local_files")) for r in main_rows)
     template = (TEMPLATES / f"README.{lang}.md").read_text(encoding="utf-8")
     return Template(template).substitute(
         main_count=c["main_collected"],
@@ -572,7 +585,8 @@ def render_readme(
         catalog_tables=collapsed_tables(tables),
         featured=family_sections(catalog, lang),
         collection_sites=collection_sites,
-        quick_nav=quick_nav(lang),
+        quick_nav=quick_nav(lang, catalog),
         latest=latest_section(main_case_rows(catalog), lang),
         type_sections=type_sections(main_case_rows(catalog), lang),
+        gpt_subproject_line=gpt_subproject_line,
     )

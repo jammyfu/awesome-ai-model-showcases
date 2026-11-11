@@ -21,6 +21,8 @@ AI 模型制作案例集收录最新一代大模型（Claude Fable 5.2 / Mythos 
 
 **[打开案例画廊 ↗](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=zh)** · **[按模型家族看 ↓](#showcase)** · **[提交一个案例](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml)**
 
+${gpt_subproject_line}
+
 独立整理，不是厂商官方目录。模型名是来源里的说法，不是我们另做的验证。**别人的图、视频和提示词，不因为本仓代码是 MIT 就能随便用。**
 
 ## 目录
@@ -110,11 +112,11 @@ python3 tools/verify.py
 <a id="catalog"></a>
 ## 案例目录一览
 
-**${main_count} 条收录**，先按模型家族，再按版本。新家族排在前面。GPT Image 2.6 仍是上一代里还在主流使用、并且做了本地归档的那一支（${web_count} 个非 X 多帧 GIF · ${game_count} 个游戏作者声明）。**${pending_count} 条待核**不进主表。
+**首页 ${main_count} 条**，先按下面的前沿模型家族，再按版本。**${pending_count} 条待核**不进这个合计。
 
 ${count_table}
 
-数字来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**${inventory_date}**。主表是收录数，不是已经复现成功的数。**${main_count} 条里有 ${media_count} 条拿到了本地素材**；[路飞长文](docs/cases/luffy-x-article/README.md)存了提示词，附件没取到。其他家族的完整文件默认只留出处，除非那一条单独写了授权。`assets/thumbs/` 里的导航缩略图是带署名、链回原帖的小图。逐条总表在 [docs/showcase-index.md](docs/showcase-index.md)。
+数字来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**${inventory_date}**。首页合计是前沿家族的收录数，不是已经复现成功的数。**${main_count} 条里有 ${media_count} 条拿到了本地素材**（来源有视频时，存一份署名副本）。`assets/thumbs/` 里的导航缩略图是带署名、链回原帖的小图。逐条总表在 [docs/showcase-index.md](docs/showcase-index.md)。没下到的视频记在 [docs/missing-videos.md](docs/missing-videos.md)。
 
 ### 完整出处与证据表
 
@@ -125,7 +127,7 @@ ${catalog_tables}
 <a id="faq"></a>
 ## 这是什么仓库？
 
-这是一份按模型家族、再按版本整理的真实制作案例集（**AI 模型制作案例集**）。收的是最新一代，加上上一代仍在主流使用的模型。不是本站原创方案集。**GPT Image 2.6** 是其中一个已填上的家族，不是整站的门面。Claude、Gemini、GPT-6.2 Sol、Grok、Qwen、DeepSeek 放较新的、有出处的案例。GPT-6.2 Sol 这个分栏名按主人确认；OpenAI 公开页截至核验日仍写 GPT-6.1 Sol，两件事都留着。每条记录放在一起的是：作者、原帖、已取到的本地素材、提示词公开到哪一步、模型依据、做法、核验状态。来源里的模型名按原样保留。
+这是一份按模型家族、再按版本整理的真实制作案例集（**AI 模型制作案例集**）。收的是最新一代模型做出的公开案例。不是本站原创方案集。Claude、Gemini、GPT-6.2 Sol、Grok、Qwen、DeepSeek 是首页上的家族。GPT-6.2 Sol 这个分栏名按主人确认；OpenAI 公开页截至核验日仍写 GPT-6.1 Sol，两件事都留着。每条记录放在一起的是：作者、原帖、已取到的本地素材、提示词公开到哪一步、模型依据、做法、核验状态。来源里的模型名按原样保留。
 
 ## 这个仓库做不到什么？
 
