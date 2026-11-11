@@ -166,10 +166,12 @@ def main() -> int:
         assert "jamesgreene.com/models/" in evidence
         assert "developers.openai.com/showcase" in evidence
         assert "GPT-6.1 Sol" in blob  # honest dual-status vs OpenAI public docs
-        for cid, *_ in FEATURED:
-            assert f"docs/cases/{cid}/media/01-gif.gif" in blob
-            assert f"docs/cases/{cid}/prompt.md" in blob
-            assert "CC BY 4.0" in blob
+        from readme_presentation import source_spotlights
+        assert 'src="assets/brand/hero.png"' in blob
+        for spotlight in source_spotlights()['cases']:
+            assert spotlight['image_path'] in blob
+            assert spotlight['prompt_url'] in blob
+            assert spotlight['local_license_path'] in blob
         for key in frontier_keys:
             for rec in catalog[key]:
                 rows = [line for line in evidence.splitlines() if line.startswith("|") and f"`{rec['id']}`" in line]

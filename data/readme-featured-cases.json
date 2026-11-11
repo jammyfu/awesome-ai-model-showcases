@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "scope": "Separate verified source spotlight; not added to the existing community catalog or its count. Two films from one project, not two independent popularity observations.",
+  "source_project_count": 1,
+  "popularity": {
+    "scope": "repository",
+    "source_project_id": "vincentwei1021-mg-styles-15",
+    "stars": 3434,
+    "forks": 428,
+    "observed_at": "2026-11-11T18:46:11Z",
+    "source_url": "https://api.github.com/repos/Vincentwei1021/mg-styles-15",
+    "method": "GitHub connector fetch returned exact repository stargazers_count and forks_count; not film views or global ranking."
+  },
+  "cases": [
+    {
+      "id": "vincentwei1021-03-isometric",
+      "source_project_id": "vincentwei1021-mg-styles-15",
+      "catalog_membership": "separate_source_spotlight",
+      "author": "Vincentwei1021",
+      "model": "Claude Opus 5.5",
+      "model_evidence_status": "author_reported",
+      "model_evidence_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md",
+      "source_revision": "269f6ed788cf60aaf9c276b110c548d6e7d353e1",
+      "source_url": "https://github.com/Vincentwei1021/mg-styles-15",
+      "demo_url": "https://vincentwei1021.github.io/mg-styles-15/#03-isometric",
+      "prompt_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/prompts/03-isometric.md",
+      "source_code_url": "https://github.com/Vincentwei1021/mg-styles-15/tree/269f6ed788cf60aaf9c276b110c548d6e7d353e1/demos/03-isometric",
+      "image_path": "docs/readme-assets/cases/03-isometric.jpg",
+      "image_source_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/videos/03-isometric.jpg",
+      "image_sha256": "5d0f308346bc77d0f9db1844c567283996afb3697bb587f5835bf5115dad5b0f",
+      "original_video_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/videos/03-isometric.mp4",
+      "license": "MIT",
+      "license_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/LICENSE",
+      "license_evidence_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md#license",
+      "local_license_path": "docs/licenses/Vincentwei1021-mg-styles-15-MIT.txt",
+      "license_scope": "Source README explicitly licenses project code, prompts, docs and films. Third-party components retain their stated licenses.",
+      "changes": "Unmodified author-published JPEG cover frame; no crop, recoloring or generated replacement.",
+      "preview_review": {
+        "reviewed_at": "2026-11-11",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "status": "visually_reviewed_original_pixels",
+        "selection": "primary_meaningful_city_scene",
+        "frame_time": "Not published by author; using exact supplied cover, not claiming a measured timestamp.",
+        "layout_review": "pending_parent_integration",
+        "playback": "not_run; only still bytes approved"
+      },
+      "locales": {
+        "en": {
+          "title": "ISOPOLIS · Let the City Grow",
+          "summary": "A pastel isometric city grows around a glowing tower, with wind turbines, solar rooftops and elevated transit.",
+          "alt": "Author-published frame of a pastel isometric city with a glowing central tower, rooftop solar panels, wind turbines and elevated transit."
+        },
+        "zh-CN": {
+          "title": "ISOPOLIS · 让城市生长",
+          "summary": "柔和色彩的等距城市围绕发光高塔生长，风力涡轮机、屋顶太阳能板和高架交通组成微缩城市。",
+          "alt": "作者发布的等距城市画面：中央发光高塔、屋顶太阳能板、风力涡轮机与高架交通。"
+        },
+        "zh-TW": {
+          "title": "ISOPOLIS · 讓城市生長",
+          "summary": "柔和色彩的等距城市圍繞發光高塔生長，風力渦輪機、屋頂太陽能板與高架交通組成微縮城市。",
+          "alt": "作者發布的等距城市畫面：中央發光高塔、屋頂太陽能板、風力渦輪機與高架交通。"
+        },
+        "ja": {
+          "title": "ISOPOLIS · 街が育つ",
+          "summary": "光るタワーを中心に広がる、パステルカラーのアイソメトリック都市。風車、屋上の太陽光パネル、高架交通が街を彩ります。",
+          "alt": "作者が公開したアイソメトリック都市のフレーム。中央の光るタワー、屋上の太陽光パネル、風車、高架交通が見える。"
+        }
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed"
+    },
+    {
+      "id": "vincentwei1021-22-hud",
+      "source_project_id": "vincentwei1021-mg-styles-15",
+      "catalog_membership": "separate_source_spotlight",
+      "author": "Vincentwei1021",
+      "model": "Claude Opus 5.5",
+      "model_evidence_status": "author_reported",
+      "model_evidence_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md",
+      "source_revision": "269f6ed788cf60aaf9c276b110c548d6e7d353e1",
+      "source_url": "https://github.com/Vincentwei1021/mg-styles-15",
+      "demo_url": "https://vincentwei1021.github.io/mg-styles-15/#22-hud",
+      "prompt_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/prompts/22-hud.md",
+      "source_code_url": "https://github.com/Vincentwei1021/mg-styles-15/tree/269f6ed788cf60aaf9c276b110c548d6e7d353e1/demos/22-hud",
+      "image_path": "docs/readme-assets/cases/22-hud.jpg",
+      "image_source_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/videos/22-hud.jpg",
+      "image_sha256": "236ce8eeedf544c920090de78738b6890be36eebf91fb4b4d9d9acbc70ca62b5",
+      "original_video_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/videos/22-hud.mp4",
+      "license": "MIT",
+      "license_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/LICENSE",
+      "license_evidence_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md#license",
+      "local_license_path": "docs/licenses/Vincentwei1021-mg-styles-15-MIT.txt",
+      "license_scope": "Source README explicitly licenses project code, prompts, docs and films. Third-party components retain their stated licenses.",
+      "changes": "Unmodified author-published JPEG cover frame; no crop, recoloring or generated replacement.",
+      "preview_review": {
+        "reviewed_at": "2026-11-11",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "status": "visually_reviewed_original_pixels",
+        "selection": "secondary_meaningful_fictional_interface_scene",
+        "frame_time": "Not published by author; using exact supplied cover, not claiming a measured timestamp.",
+        "layout_review": "pending_parent_integration",
+        "playback": "not_run; only still bytes approved",
+        "selection_reason": "High-contrast cyan globe, targeting reticle and telemetry are visible; intentional dark HUD aesthetic, not an empty/black frame. Fictional motion design, not a functional targeting tool."
+      },
+      "locales": {
+        "en": {
+          "title": "KESTREL-9 · Cyberpunk HUD",
+          "summary": "A fictional cyan-on-black interface animates a globe, targeting rings, signal charts and telemetry.",
+          "alt": "Author-published frame of a fictional cyan-on-black HUD with a globe, target reticle and signal charts."
+        },
+        "zh-CN": {
+          "title": "KESTREL-9 · 赛博朋克 HUD",
+          "summary": "青黑配色的虚构动态界面，呈现地球、定位环、信号曲线和遥测信息。",
+          "alt": "作者发布的虚构 HUD 画面：黑底青色地球、定位准星与信号曲线。"
+        },
+        "zh-TW": {
+          "title": "KESTREL-9 · 賽博龐克 HUD",
+          "summary": "青黑配色的虛構動態介面，呈現地球、定位環、訊號曲線與遙測資訊。",
+          "alt": "作者發布的虛構 HUD 畫面：黑底青色地球、定位準星與訊號曲線。"
+        },
+        "ja": {
+          "title": "KESTREL-9 · サイバーパンク HUD",
+          "summary": "黒地にシアンで描かれた架空の動的インターフェース。地球儀、照準リング、信号グラフ、テレメトリーが並びます。",
+          "alt": "作者が公開した架空の HUD のフレーム。黒地にシアンの地球儀、照準、信号グラフが見える。"
+        }
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed"
+    }
+  ]
+}

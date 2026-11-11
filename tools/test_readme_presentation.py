@@ -5,7 +5,7 @@ import re
 import unittest
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
-from readme_presentation import DISCOVERY_ORDER, HOMEPAGE_FAMILIES, VERSION_ORDER, _date_desc, _full_day, family_sections, latest_section, main_case_rows, version_anchor
+from readme_presentation import DISCOVERY_ORDER, HOMEPAGE_FAMILIES, VERSION_ORDER, _date_desc, _full_day, family_sections, latest_section, main_case_rows, version_anchor, source_spotlights
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ('en', 'zh-CN', 'zh-TW', 'ja')
@@ -44,10 +44,19 @@ class ReadmePresentationTests(unittest.TestCase):
             self.assertEqual(text.count('<!-- readme-tech-visualizer:end -->'), 1)
             self.assertLess(text.index('github.io/'), text.index('id="examples"'))
             self.assertLess(text.index('id="examples"'), text.index('id="showcase"'))
-            self.assertEqual(text.count('/media/01-gif.gif'), 3)
-            self.assertEqual(text.count('/prompt.md'), 3)
-            self.assertIn('CC BY 4.0', text)
-            self.assertLess(text.index('id="how-to-use"'), text.index('id="showcase"'))
+            self.assertIn('src="assets/brand/hero.png"', text)
+            self.assertLess(text.index('assets/brand/hero.png'), text.index('# Awesome'))
+            opening = text.split('<a id="showcase">')[0]
+            self.assertNotIn('/media/01-gif.gif', opening)
+            self.assertNotIn('ailingqu', opening)
+            for row in source_spotlights()['cases']:
+                self.assertIn(f'src="{row["image_path"]}"', opening)
+                self.assertIn(row['prompt_url'], opening)
+                self.assertIn(row['source_code_url'], opening)
+                self.assertIn(row['locales'][lang]['alt'], opening)
+            self.assertIn('Claude Opus 5.5', opening)
+            self.assertIn('3,434', opening)
+            self.assertLess(text.index('id="showcase"'), text.index('id="how-to-use"'))
             actual = set(re.findall(r'<a id="([^"]+)"', text))
             if expected is None:
                 expected = actual
@@ -95,6 +104,29 @@ class ReadmePresentationTests(unittest.TestCase):
         rows = [{'id': 'a', 'date': ''}, {'id': 'b', 'date': '2026-11'}, {'id': 'c', 'date': '2026-11-10'}, {'id': 'd', 'date': '2026-11-11'}, {'id': 'e', 'date': '2026-11-11'}]
         self.assertEqual([r['id'] for r in _date_desc(rows)], ['e','d','c','a','b'])
         self.assertEqual(_date_desc(rows), _date_desc(list(reversed(rows))))
+
+    def test_spotlight_frames_are_real_licensed_and_not_catalog_duplicates(self):
+        import hashlib
+        from PIL import Image
+        from media_policy import grants
+        data = source_spotlights()
+        self.assertEqual(data['source_project_count'], 1)
+        self.assertEqual(data['popularity']['scope'], 'repository')
+        self.assertEqual(len(data['cases']), 2)
+        self.assertTrue(data['popularity']['observed_at'].endswith('Z'))
+        self.assertEqual(len({r['image_sha256'] for r in data['cases']}), 2)
+        for row in data['cases']:
+            self.assertNotIn(row['id'], {r['id'] for r in self.rows})
+            self.assertEqual(row['catalog_membership'], 'separate_source_spotlight')
+            grant = grants()[row['image_path']]
+            self.assertEqual(grant['sha256'], row['image_sha256'])
+            self.assertEqual(hashlib.sha256((ROOT/row['image_path']).read_bytes()).hexdigest(), row['image_sha256'])
+            self.assertIn(row['source_revision'], row['image_source_url'])
+            self.assertIn(row['source_revision'], row['license_evidence_url'])
+            self.assertIn('Copyright (c) 2026 Vincentwei1021', (ROOT/row['local_license_path']).read_text())
+            with Image.open(ROOT/row['image_path']) as im:
+                self.assertEqual(im.size, (1920, 1080))
+                im.verify()
 
     def test_full_catalog_preserves_every_main_case_and_version(self):
         for lang in LOCALES:

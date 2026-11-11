@@ -269,6 +269,35 @@
       "license": "project-created",
       "evidence_url": "docs/readme-assets/ICON_DESIGN.md",
       "changes": "Same AI-assisted project mark resized to 180px for web icon use."
+    },
+    {
+      "path": "docs/readme-assets/cases/03-isometric.jpg",
+      "sha256": "5d0f308346bc77d0f9db1844c567283996afb3697bb587f5835bf5115dad5b0f",
+      "credit": "Vincentwei1021 / mg-styles-15; source-reported Claude Opus 5.5",
+      "source_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/videos/03-isometric.jpg",
+      "license": "MIT",
+      "license_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/LICENSE",
+      "evidence_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md#license",
+      "changes": "Unmodified author-published JPEG cover frame. MIT notice retained in docs/licenses/Vincentwei1021-mg-styles-15-MIT.txt."
+    },
+    {
+      "path": "docs/readme-assets/cases/22-hud.jpg",
+      "sha256": "236ce8eeedf544c920090de78738b6890be36eebf91fb4b4d9d9acbc70ca62b5",
+      "credit": "Vincentwei1021 / mg-styles-15; source-reported Claude Opus 5.5",
+      "source_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/videos/22-hud.jpg",
+      "license": "MIT",
+      "license_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/LICENSE",
+      "evidence_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md#license",
+      "changes": "Unmodified author-published JPEG cover frame. MIT notice retained in docs/licenses/Vincentwei1021-mg-styles-15-MIT.txt."
+    },
+    {
+      "path": "docs/readme-assets/showcase-hero.png",
+      "sha256": "4a38da11ab1db0733c1973a9956d0ebdbf4ae80681389fdabf8299f13264223f",
+      "credit": "Awesome AI Model Showcases project",
+      "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "license": "project-created",
+      "evidence_url": "docs/brand-artwork.md",
+      "changes": "Byte-identical copy of the approved project-created hero for the Pages document root; illustrative brand art, not case evidence."
     }
   ]
 }

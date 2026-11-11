@@ -9,6 +9,9 @@ window.PUBLIC_MEDIA_PATHS = [
   "cases/ailingqu-pixel-slime-boss/media/01-gif.gif",
   "cases/ailingqu-window-day-to-night/media/01-gif.gif",
   "readme-assets/apple-touch-icon.png",
+  "readme-assets/cases/03-isometric.jpg",
+  "readme-assets/cases/22-hud.jpg",
   "readme-assets/favicon.png",
-  "readme-assets/project-icon.png"
+  "readme-assets/project-icon.png",
+  "readme-assets/showcase-hero.png"
 ];

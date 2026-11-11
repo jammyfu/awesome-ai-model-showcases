@@ -25,6 +25,7 @@ from readme_presentation import (
     featured_cards,
     main_case_rows,
     render_readme,
+    write_site_spotlight,
     sol_note,
     work_type_of,
 )
@@ -1214,6 +1215,8 @@ def main() -> None:
             ),
             encoding="utf-8",
         )
+
+    write_site_spotlight()
 
     llms = f"""# Awesome AI Model Showcases
 
