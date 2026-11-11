@@ -59,18 +59,21 @@ FEATURED = (
 
 # (family, version, case id). Ids must already exist in the catalog.
 FAMILY_FEATURED = (
+    ("claude", "claude-fable-5.2", "x-financeyf5-fable52-bugatti-tourbillon"),
+    ("claude", "claude-fable-5.2", "x-deryatr-fable52-tcell-film"),
     ("claude", "claude-fable-5.2", "x-himanshutwtxs-fable52-motion-showreel"),
-    ("claude", "claude-fable-5.2", "x-wshuyi-fable52-sabertooth-hunt"),
     ("claude", "claude-opus-5.5", "web-jamesgreene-code1-opus55-isometric-city"),
     ("gemini", "gemini-4-argon", "web-jamesgreene-code1-gemini4-argon-isometric-city"),
-    ("gemini", "gemini-4-carbon", "x-coodddaaaa-gemini-carbon-pelican-bike"),
-    ("gemini", "gemini-4-carbon", "x-statswire-gemini-carbon-nyc-cruiser"),
-    ("gpt-code", "gpt-6.2-sol", "x-marcthecreatorr-gpt62sol-sailing-ship"),
-    ("gpt-code", "gpt-6.2-sol", "x-harshithlucky3-gpt62sol-pelican-svg-animation"),
+    ("gemini", "gemini-4-carbon", "x-deryatr-gemini-carbon-theme-park"),
+    ("gemini", "gemini-4-carbon", "x-aiforsuccess-gemini-carbon-v8"),
+    ("gpt-code", "gpt-6.2-sol", "x-tokengremlin-gpt62sol-glass-seasons"),
+    ("gpt-code", "gpt-6.2-sol", "x-cfenghub-gpt62sol-colosseum"),
     ("gpt-code", "gpt-6.1-sol", "web-jamesgreene-code1-gpt61-sol-isometric-city"),
     ("grok", "grok-4.7", "web-jamesgreene-code1-grok47-isometric-city"),
-    ("grok", "grok-imagine-video", "x-radcybertruck-grok-imagine-cybertruck-cry"),
+    ("grok", "grok-imagine-video", "x-aiminithoughts-grok-imagine-golden-angel"),
     ("qwen", "qwen3.8-27b", "web-jamesgreene-code1-qwen38-27b-isometric-city"),
+    ("qwen", "qwen4-preview", "x-coffeecup2020-qwen4-sagrada"),
+    ("qwen", "qwen4-max-preview", "x-leo114119-qwen4max-wukong-plane"),
     ("deepseek", "deepseek-v4.1-flash-1017", "web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city"),
     ("deepseek", "deepseek-v4.1-flash", "x-latentoperator-a380-deepseek-fable-sol"),
 )

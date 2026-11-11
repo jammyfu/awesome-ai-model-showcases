@@ -14,7 +14,7 @@
 Awesome AI Model Showcases は、Claude Fable 5.2 / Mythos 5.2、Gemini 4 Argon / Carbon、GPT-6.2 Sol、Grok、Qwen、DeepSeek などの最新世代と、いまも主流の前世代について、動く画像・アニメーション・HTML やゲームの demo・画像という公開の制作事例を、原投稿・作者・公開プロンプト・作り方つきで集めた目録です。
 
 <p>
-<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-26-10131a?style=flat-square&amp;labelColor=c2ff67" alt="収録 26 件"></a>
+<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-43-10131a?style=flat-square&amp;labelColor=c2ff67" alt="収録 43 件"></a>
 <a href="README.md"><img src="https://img.shields.io/badge/readme-EN_%2F_ZH_%2F_ZH--TW_%2F_JA-10131a?style=flat-square&amp;labelColor=c2ff67" alt="英語、簡体字、繁体字、日本語"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="ソースコードは MIT"></a>
 </p>
@@ -32,7 +32,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 - [Gemini](#gemini) — [Gemini 4 Carbon](#ver-gemini-4-carbon) · [Gemini 4 Argon](#ver-gemini-4-argon)
 - [GPT-6.2 Sol](#gpt-code) — [GPT-6.2 Sol](#ver-gpt-6-2-sol) · [GPT-6.1 Sol](#ver-gpt-6-1-sol)
 - [Grok](#grok) — [Grok 4.7](#ver-grok-4-7) · [Grok Imagine Video](#ver-grok-imagine-video)
-- [Qwen](#qwen) — [Qwen3.8 27B](#ver-qwen3-8-27b)
+- [Qwen](#qwen) — [Qwen3.8 27B](#ver-qwen3-8-27b) · [Qwen 4 Max Preview](#ver-qwen4-max-preview) · [Qwen 4.0 Preview](#ver-qwen4-preview)
 - [DeepSeek](#deepseek) — [DeepSeek V4.1 Flash 1017](#ver-deepseek-v4-1-flash-1017) · [DeepSeek V4.1 Flash](#ver-deepseek-v4-1-flash)
 
 ### 種類別
@@ -77,31 +77,31 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 </tr>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/quxiaoyin/status/2120341962314150207"><img src="assets/thumbs/x-quxiaoyin-fable52-agentsky-film.jpg" alt="Point-light 3D film about AgentSky (Blender and code) — @quxiaoyin（Xiaoyin Qu）" width="220"></a><br>
+<strong><a href="docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md">Point-light 3D film about AgentSky (Blender and code)</a></strong><br>
+クレジット: @quxiaoyin（Xiaoyin Qu）<br><a href="https://x.com/quxiaoyin/status/2120341962314150207">原投稿</a>
+</td>
+<td align="center" width="33%">
 <a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
 <strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
 クレジット: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">原投稿</a>
 </td>
+<td align="center" width="33%">
+<a href="https://x.com/MrTacticalX/status/2120342453807157720"><img src="assets/thumbs/x-mrtactical-fable52-mechanical-keyboard.jpg" alt="Mechanical keyboard built and typed on in Blender — @MrTacticalX（Mr Tactical）" width="220"></a><br>
+<strong><a href="docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md">Mechanical keyboard built and typed on in Blender</a></strong><br>
+クレジット: @MrTacticalX（Mr Tactical）<br><a href="https://x.com/MrTacticalX/status/2120342453807157720">原投稿</a>
+</td>
+</tr>
+<tr>
 <td align="center" width="33%">
 <a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
 <strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
 クレジット: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
-<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
-クレジット: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">原投稿</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/"><img src="assets/thumbs/web-ofox-fable52-svg-sailboat.jpg" alt="Editable SVG sailboat illustration with CSS motion (two API calls) — Ofox" width="220"></a><br>
-<strong><a href="docs/cases/web-ofox-fable52-svg-sailboat/README.md">Editable SVG sailboat illustration with CSS motion (two API calls)</a></strong><br>
-クレジット: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Raitox_tech/status/2120125234129084492"><img src="assets/thumbs/x-raitoox-sol-stranger-things-credits.jpg" alt="Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames) — @Raitox_tech" width="220"></a><br>
-<strong><a href="docs/cases/x-raitoox-sol-stranger-things-credits/README.md">Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)</a></strong><br>
-クレジット: @Raitox_tech<br><a href="https://x.com/Raitox_tech/status/2120125234129084492">原投稿</a>
+<a href="https://x.com/_MaxBlade/status/2120355412021231795"><img src="assets/thumbs/x-maxblade-fable-vs-carbon.jpg" alt="Same prompt: Fable 5.2 vs Gemini 4 Carbon — @_MaxBlade（Max Blade）" width="220"></a><br>
+<strong><a href="docs/cases/x-maxblade-fable-vs-carbon/README.md">Same prompt: Fable 5.2 vs Gemini 4 Carbon</a></strong><br>
+クレジット: @_MaxBlade（Max Blade）<br><a href="https://x.com/_MaxBlade/status/2120355412021231795">原投稿</a>
 </td>
 </tr>
 </table>
@@ -118,7 +118,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![Claude cover](assets/brand/families/claude.png)
 
-このファミリーの出典付き事例は 7 件。ここでは 3 件。残りは下の証拠表に入っています。
+このファミリーの出典付き事例は 14 件。ここでは 4 件。残りは下の証拠表に入っています。
 
 <a id="ver-claude-fable-5-2"></a>
 
@@ -127,14 +127,19 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <table>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/FinanceYF5/status/2120372142147842296"><img src="assets/thumbs/x-financeyf5-fable52-bugatti-tourbillon.jpg" alt="Bugatti Tourbillon in Blender, then a short car film (Fable 5.2) — @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）" width="220"></a><br>
+<strong><a href="docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md">Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)</a></strong><br>
+クレジット: @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）<br><a href="https://x.com/FinanceYF5/status/2120372142147842296">原投稿</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/DeryaTR_/status/2120382619082727604"><img src="assets/thumbs/x-deryatr-fable52-tcell-film.jpg" alt="T-cell life film in Blender (12,480 frames, Fable 5.2) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-fable52-tcell-film/README.md">T-cell life film in Blender (12,480 frames, Fable 5.2)</a></strong><br>
+クレジット: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120382619082727604">原投稿</a>
+</td>
+<td align="center" width="33%">
 <a href="https://x.com/himanshutwtxs/status/2120017106804900304"><img src="assets/thumbs/x-himanshutwtxs-fable52-motion-showreel.jpg" alt="One-prompt motion designer showreel (timing, easing, shape, type) — @himanshutwtxs" width="220"></a><br>
 <strong><a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md">One-prompt motion designer showreel (timing, easing, shape, type)</a></strong><br>
 クレジット: @himanshutwtxs<br><a href="https://x.com/himanshutwtxs/status/2120017106804900304">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/wshuyi/status/2120014892040417720"><img src="assets/thumbs/x-wshuyi-fable52-sabertooth-hunt.jpg" alt="纯编程动画：剑齿虎捕猎野牛（自编程音效） — @wshuyi" width="220"></a><br>
-<strong><a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md">纯编程动画：剑齿虎捕猎野牛（自编程音效）</a></strong><br>
-クレジット: @wshuyi<br><a href="https://x.com/wshuyi/status/2120014892040417720">原投稿</a>
 </td>
 </tr>
 </table>
@@ -169,7 +174,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![Gemini cover](assets/brand/families/gemini.png)
 
-このファミリーの出典付き事例 3 件は、ここにすべてあります。同じ行が下の証拠表にもあります。
+このファミリーの出典付き事例は 6 件。ここでは 3 件。残りは下の証拠表に入っています。
 
 <a id="ver-gemini-4-carbon"></a>
 
@@ -178,14 +183,14 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
-<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
-クレジット: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">原投稿</a>
+<a href="https://x.com/DeryaTR_/status/2120393810941456710"><img src="assets/thumbs/x-deryatr-gemini-carbon-theme-park.jpg" alt="Theme Park HD pixel-art remake (playable) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-gemini-carbon-theme-park/README.md">Theme Park HD pixel-art remake (playable)</a></strong><br>
+クレジット: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120393810941456710">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/StatsWire/status/2120344850071540152"><img src="assets/thumbs/x-statswire-gemini-carbon-nyc-cruiser.jpg" alt="Interactive 3D NYC cruiser tour in one HTML file (Three.js) — @StatsWire" width="220"></a><br>
-<strong><a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md">Interactive 3D NYC cruiser tour in one HTML file (Three.js)</a></strong><br>
-クレジット: @StatsWire<br><a href="https://x.com/StatsWire/status/2120344850071540152">原投稿</a>
+<a href="https://x.com/ai_for_success/status/2120317619588972867"><img src="assets/thumbs/x-aiforsuccess-gemini-carbon-v8.jpg" alt="V8 engine in FreeCAD and Blender — @ai_for_success（AshutoshShrivastava）" width="220"></a><br>
+<strong><a href="docs/cases/x-aiforsuccess-gemini-carbon-v8/README.md">V8 engine in FreeCAD and Blender</a></strong><br>
+クレジット: @ai_for_success（AshutoshShrivastava）<br><a href="https://x.com/ai_for_success/status/2120317619588972867">原投稿</a>
 </td>
 </tr>
 </table>
@@ -212,7 +217,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![GPT-6.2 Sol cover](assets/brand/families/gpt-sol.png)
 
-このファミリーの出典付き事例は 11 件。ここでは 3 件。残りは下の証拠表に入っています。
+このファミリーの出典付き事例は 14 件。ここでは 3 件。残りは下の証拠表に入っています。
 
 欄の名前 **GPT-6.2 Sol** はリポジトリ所有者の確認に従う。2026-11-11 時点で OpenAI の公開ページは **GPT-6.1 Sol** のまま（[紹介](https://openai.com/index/introducing-gpt-6-1-sol/)、[Models](https://platform.openai.com/docs/models)）。公式の 6.2 発表は作らない。
 
@@ -223,14 +228,14 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/marcthecreatorr/status/2119503438405136765"><img src="assets/thumbs/x-marcthecreatorr-gpt62sol-sailing-ship.jpg" alt="GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt) — @marcthecreatorr（Marcel）" width="220"></a><br>
-<strong><a href="docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md">GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)</a></strong><br>
-クレジット: @marcthecreatorr（Marcel）<br><a href="https://x.com/marcthecreatorr/status/2119503438405136765">原投稿</a>
+<a href="https://x.com/TokenGremlin/status/2119852532616790037"><img src="assets/thumbs/x-tokengremlin-gpt62sol-glass-seasons.jpg" alt="Three.js lakeside scene with boat, waterfall, trees, and butterflies — @TokenGremlin（Token Gremlin）" width="220"></a><br>
+<strong><a href="docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md">Three.js lakeside scene with boat, waterfall, trees, and butterflies</a></strong><br>
+クレジット: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119852532616790037">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/HarshithLucky3/status/2119418918616150080"><img src="assets/thumbs/x-harshithlucky3-gpt62sol-pelican-svg-animation.jpg" alt="SVG animation: pelican and 2 crabs riding bicycles (Codex routing) — @HarshithLucky3（Harshith）" width="220"></a><br>
-<strong><a href="docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md">SVG animation: pelican and 2 crabs riding bicycles (Codex routing)</a></strong><br>
-クレジット: @HarshithLucky3（Harshith）<br><a href="https://x.com/HarshithLucky3/status/2119418918616150080">原投稿</a>
+<a href="https://x.com/cfenghub/status/2120069654437921152"><img src="assets/thumbs/x-cfenghub-gpt62sol-colosseum.jpg" alt="Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender — @cfenghub（CF长风）" width="220"></a><br>
+<strong><a href="docs/cases/x-cfenghub-gpt62sol-colosseum/README.md">Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender</a></strong><br>
+クレジット: @cfenghub（CF长风）<br><a href="https://x.com/cfenghub/status/2120069654437921152">原投稿</a>
 </td>
 </tr>
 </table>
@@ -257,7 +262,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![Grok cover](assets/brand/families/grok.png)
 
-このファミリーの出典付き事例 2 件は、ここにすべてあります。同じ行が下の証拠表にもあります。
+このファミリーの出典付き事例は 3 件。ここでは 2 件。残りは下の証拠表に入っています。
 
 <a id="ver-grok-4-7"></a>
 
@@ -280,9 +285,9 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/RadCyberTruck/status/2120350558431445006"><img src="assets/thumbs/x-radcybertruck-grok-imagine-cybertruck-cry.jpg" alt="Grok Imagine — pixstar Cybertruck farewell clip (partial prompt) — @RadCyberTruck" width="220"></a><br>
-<strong><a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md">Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)</a></strong><br>
-クレジット: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558431445006">原投稿</a>
+<a href="https://x.com/Aiminithoughts/status/2120329925702070425"><img src="assets/thumbs/x-aiminithoughts-grok-imagine-golden-angel.jpg" alt="Golden Angel Warrior — Grok Imagine clip — @Aiminithoughts" width="220"></a><br>
+<strong><a href="docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md">Golden Angel Warrior — Grok Imagine clip</a></strong><br>
+クレジット: @Aiminithoughts<br><a href="https://x.com/Aiminithoughts/status/2120329925702070425">原投稿</a>
 </td>
 </tr>
 </table>
@@ -295,7 +300,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![Qwen cover](assets/brand/families/qwen.png)
 
-このファミリーの出典付き事例 1 件は、ここにすべてあります。同じ行が下の証拠表にもあります。
+このファミリーの出典付き事例 3 件は、ここにすべてあります。同じ行が下の証拠表にもあります。
 
 <a id="ver-qwen3-8-27b"></a>
 
@@ -307,6 +312,34 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-qwen38-27b-isometric-city.jpg" alt="Isometric day/night city HTML loop — Qwen3.8 27B — James Greene (model comparison archive)" width="220"></a><br>
 <strong><a href="docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md">Isometric day/night city HTML loop — Qwen3.8 27B</a></strong><br>
 クレジット: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原投稿</a>
+</td>
+</tr>
+</table>
+
+<a id="ver-qwen4-max-preview"></a>
+
+### Qwen 4 Max Preview
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/leo114119/status/2120371909624033439"><img src="assets/thumbs/x-leo114119-qwen4max-wukong-plane.jpg" alt="Sun Wukong flying a plane — HTML 3D demo — @leo114119（Leo）" width="220"></a><br>
+<strong><a href="docs/cases/x-leo114119-qwen4max-wukong-plane/README.md">Sun Wukong flying a plane — HTML 3D demo</a></strong><br>
+クレジット: @leo114119（Leo）<br><a href="https://x.com/leo114119/status/2120371909624033439">原投稿</a>
+</td>
+</tr>
+</table>
+
+<a id="ver-qwen4-preview"></a>
+
+### Qwen 4.0 Preview
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/coffeecup2020/status/2120113388629995921"><img src="assets/thumbs/x-coffeecup2020-qwen4-sagrada.jpg" alt="Sagrada Família demo from Qwen 4.0 Preview — @coffeecup2020（David Y. Tan）" width="220"></a><br>
+<strong><a href="docs/cases/x-coffeecup2020-qwen4-sagrada/README.md">Sagrada Família demo from Qwen 4.0 Preview</a></strong><br>
+クレジット: @coffeecup2020（David Y. Tan）<br><a href="https://x.com/coffeecup2020/status/2120113388629995921">原投稿</a>
 </td>
 </tr>
 </table>
@@ -323,7 +356,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![DeepSeek cover](assets/brand/families/deepseek.png)
 
-このファミリーの出典付き事例 2 件は、ここにすべてあります。同じ行が下の証拠表にもあります。
+このファミリーの出典付き事例は 3 件。ここでは 2 件。残りは下の証拠表に入っています。
 
 <a id="ver-deepseek-v4-1-flash-1017"></a>
 
@@ -364,7 +397,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 <a id="type-animation"></a>
 ### アニメーション
-この種類は 7 件。サムネイルがあるものから最大 4 件。
+この種類は 12 件。サムネイルがあるものから最大 4 件。
 <table>
 <tr>
 <td align="center" width="33%">
@@ -385,9 +418,9 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 </tr>
 <tr>
 <td align="center" width="33%">
-<a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/"><img src="assets/thumbs/web-ofox-fable52-svg-sailboat.jpg" alt="Editable SVG sailboat illustration with CSS motion (two API calls) — Ofox" width="220"></a><br>
-<strong><a href="docs/cases/web-ofox-fable52-svg-sailboat/README.md">Editable SVG sailboat illustration with CSS motion (two API calls)</a></strong><br>
-クレジット: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">原投稿</a>
+<a href="https://x.com/DeryaTR_/status/2120083276916224014"><img src="assets/thumbs/x-deryatr-fable52-ataturk-remembrance.jpg" alt="10 November remembrance video by Fable 5.2 — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-fable52-ataturk-remembrance/README.md">10 November remembrance video by Fable 5.2</a></strong><br>
+クレジット: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120083276916224014">原投稿</a>
 </td>
 </tr>
 </table>
@@ -395,30 +428,30 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 <a id="type-html-3d"></a>
 ### HTML / 3D
-この種類は 19 件。サムネイルがあるものから最大 4 件。
+この種類は 31 件。サムネイルがあるものから最大 4 件。
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
-<strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
-クレジット: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">原投稿</a>
+<a href="https://x.com/DeryaTR_/status/2120382619082727604"><img src="assets/thumbs/x-deryatr-fable52-tcell-film.jpg" alt="T-cell life film in Blender (12,480 frames, Fable 5.2) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-fable52-tcell-film/README.md">T-cell life film in Blender (12,480 frames, Fable 5.2)</a></strong><br>
+クレジット: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120382619082727604">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
-<strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
-クレジット: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">原投稿</a>
+<a href="https://x.com/EvanMilenko/status/2120322640048959503"><img src="assets/thumbs/x-evanmilenko-fable52-dragon-game.jpg" alt="Dragon game built from scratch in Three.js — @EvanMilenko（Evan）" width="220"></a><br>
+<strong><a href="docs/cases/x-evanmilenko-fable52-dragon-game/README.md">Dragon game built from scratch in Three.js</a></strong><br>
+クレジット: @EvanMilenko（Evan）<br><a href="https://x.com/EvanMilenko/status/2120322640048959503">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-opus55-isometric-city.jpg" alt="Isometric day/night city HTML loop — Claude Opus 5.5 — James Greene (model comparison archive)" width="220"></a><br>
-<strong><a href="docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md">Isometric day/night city HTML loop — Claude Opus 5.5</a></strong><br>
-クレジット: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原投稿</a>
+<a href="https://x.com/FinanceYF5/status/2120372142147842296"><img src="assets/thumbs/x-financeyf5-fable52-bugatti-tourbillon.jpg" alt="Bugatti Tourbillon in Blender, then a short car film (Fable 5.2) — @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）" width="220"></a><br>
+<strong><a href="docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md">Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)</a></strong><br>
+クレジット: @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）<br><a href="https://x.com/FinanceYF5/status/2120372142147842296">原投稿</a>
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
-<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
-クレジット: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">原投稿</a>
+<a href="https://x.com/kloss_xyz/status/2120378126740095273"><img src="assets/thumbs/x-kloss-fable52-ocean-threejs.jpg" alt="Photo-real Three.js ocean that runs from sunset to sunrise — @kloss_xyz（klöss）" width="220"></a><br>
+<strong><a href="docs/cases/x-kloss-fable52-ocean-threejs/README.md">Photo-real Three.js ocean that runs from sunset to sunrise</a></strong><br>
+クレジット: @kloss_xyz（klöss）<br><a href="https://x.com/kloss_xyz/status/2120378126740095273">原投稿</a>
 </td>
 </tr>
 </table>
@@ -519,26 +552,26 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 <a id="catalog"></a>
 ## 目録の概数
 
-**ホームページ 26 件。** 下のフロンティア・ファミリー、その中で版。**未確認 12 件**はこの合計に入れません。
+**ホームページ 43 件。** 下のフロンティア・ファミリー、その中で版。**未確認 12 件**はこの合計に入れません。
 
 | モデルファミリー | 件数 | 主表の外 | 件数 |
 |---|---:|---|---:|
-| Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **7** | 未確認 | 12 |
-| Gemini（4 Carbon / 4 Argon） | **3** | プロンプトのみ | 1 |
-| GPT-6.2 Sol / Astra（コード。公開文書は GPT-6.1 Sol） | **11** | 重複 / 不採用 | 9 |
-| Grok（4.7 / Imagine） | **2** | 2.5 / 宣伝 / 複数モデル / 失敗 / Morphic / X 以外の候補 | 50 |
-| Qwen（3.8） | **1** | リポジトリの種（ローカル例） | 6 |
-| DeepSeek（V4.1 Flash） | **2** | | |
-| **ホームページ合計** | **26** | | |
+| Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **14** | 未確認 | 12 |
+| Gemini（4 Carbon / 4 Argon） | **6** | プロンプトのみ | 1 |
+| GPT-6.2 Sol / Astra（コード。公開文書は GPT-6.1 Sol） | **14** | 重複 / 不採用 | 9 |
+| Grok（4.7 / Imagine） | **3** | 2.5 / 宣伝 / 複数モデル / 失敗 / Morphic / X 以外の候補 | 50 |
+| Qwen（3.8） | **3** | リポジトリの種（ローカル例） | 6 |
+| DeepSeek（V4.1 Flash） | **3** | | |
+| **ホームページ合計** | **43** | | |
 
-件数は [一つの生成目録](docs/data/community-cases.json) から来ます。出典インベントリの最終更新：**2026-11-11**。ホームページの合計はフロンティア・ファミリーの収録数であり、生成成功の確認数ではありません。**26 件のうち 0 件にローカルのメディアがあります**（出典に動画がある場合のクレジット付きコピー）。`assets/thumbs/` のサムネイルはクレジット付きで原投稿へ戻る小さいコピーです。一覧は [docs/showcase-index.md](docs/showcase-index.md) です。取得できなかった動画は [docs/missing-videos.md](docs/missing-videos.md) です。
+件数は [一つの生成目録](docs/data/community-cases.json) から来ます。出典インベントリの最終更新：**2026-11-11**。ホームページの合計はフロンティア・ファミリーの収録数であり、生成成功の確認数ではありません。**43 件のうち 0 件にローカルのメディアがあります**（出典に動画がある場合のクレジット付きコピー）。`assets/thumbs/` のサムネイルはクレジット付きで原投稿へ戻る小さいコピーです。一覧は [docs/showcase-index.md](docs/showcase-index.md) です。取得できなかった動画は [docs/missing-videos.md](docs/missing-videos.md) です。
 
 ### 出典と証拠の全表
 
 下のファミリーを開くか、[検索できるウェブ目録](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en) を使います。タイトルと根拠の引用は出典の言語のままです。同じ行は [独立インデックス](playbooks/community-cases.md) にもあります。
 
 <details>
-<summary><strong>Family · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2 (7)</strong></summary>
+<summary><strong>Family · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2 (14)</strong></summary>
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -549,22 +582,32 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 | 5 | Halil Sekeroglu | `web-halil-fable52-animation-prompts` Four single-message Fable 5.2 animation prompts (logo / prom | [出典](https://halilsekeroglu.com/en/fable/) | [ケース](docs/cases/web-halil-fable52-animation-prompts/README.md) | [原文](docs/cases/web-halil-fable52-animation-prompts/prompt.md) | Author page: Animation with Fable 5.2 ·  | Single-message HTML/SVG/Three.js/Can | Public page with verbatim prompts ·  | Source link only |
 | 6 | Ofox | `web-ofox-fable52-svg-sailboat` Editable SVG sailboat illustration with CSS motion (two API  | [出典](https://ofox.ai/blog/claude-fable-5-2-svg-guide/) | [ケース](docs/cases/web-ofox-fable52-svg-sailboat/README.md) | [短い / 部分](docs/cases/web-ofox-fable52-svg-sailboat/prompt.md) | Ofox test: anthropic/claude-fable-5.2 (l | SVG code generation → browser CSS ke | Guide publishes validation table + n | Source link only |
 | 7 | James Greene (model comparison archive) | `web-jamesgreene-code1-opus55-isometric-city` Isometric day/night city HTML loop — Claude Opus 5.5 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-opus55-isometric-city/prompt.md) | jamesgreene.com labeled run: Claude Opus | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
+| 8 | @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will） | `x-financeyf5-fable52-bugatti-tourbillon` Bugatti Tourbillon in Blender, then a short car film (Fable  | [出典](https://x.com/FinanceYF5/status/2120372142147842296) | [ケース](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md) | [原文](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/prompt.md) | Original author @xikhar: Fable 5.2, one  | Blender modular car model, materials | FinanceYF5 post quotes @xikhar's pro | Source link only |
+| 9 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-fable52-tcell-film` T-cell life film in Blender (12,480 frames, Fable 5.2) | [出典](https://x.com/DeryaTR_/status/2120382619082727604) | [ケース](docs/cases/x-deryatr-fable52-tcell-film/README.md) | [未公開](docs/cases/x-deryatr-fable52-tcell-film/prompt.md) | Author claim: Fable 5.2 wrote the script | Blender cell film plus narration and | Primary X URL + video · prompt unpub | Source link only |
+| 10 | @kloss_xyz（klöss） | `x-kloss-fable52-ocean-threejs` Photo-real Three.js ocean that runs from sunset to sunrise | [出典](https://x.com/kloss_xyz/status/2120378126740095273) | [ケース](docs/cases/x-kloss-fable52-ocean-threejs/README.md) | [原文](docs/cases/x-kloss-fable52-ocean-threejs/prompt.md) | Author claim: Claude Fable 5.2, under 27 | Three.js photo-real ocean scene · re | Primary X URL · verbatim prompt in t | Source link only |
+| 11 | @MrTacticalX（Mr Tactical） | `x-mrtactical-fable52-mechanical-keyboard` Mechanical keyboard built and typed on in Blender | [出典](https://x.com/MrTacticalX/status/2120342453807157720) | [ケース](docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md) | [未公開](docs/cases/x-mrtactical-fable52-mechanical-keyboard/prompt.md) | Author claim: Claude Fable 5.2 in Blende | Blender mechanical keyboard model an | Primary X URL + video · prompt unpub | Source link only |
+| 12 | @quxiaoyin（Xiaoyin Qu） | `x-quxiaoyin-fable52-agentsky-film` Point-light 3D film about AgentSky (Blender and code) | [出典](https://x.com/quxiaoyin/status/2120341962314150207) | [ケース](docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md) | [未公開](docs/cases/x-quxiaoyin-fable52-agentsky-film/prompt.md) | Author claim: Claude Fable 5.2, fourth v | Blender and code point-light film ·  | Primary X URL + video · prompt unpub | Source link only |
+| 13 | @EvanMilenko（Evan） | `x-evanmilenko-fable52-dragon-game` Dragon game built from scratch in Three.js | [出典](https://x.com/EvanMilenko/status/2120322640048959503) | [ケース](docs/cases/x-evanmilenko-fable52-dragon-game/README.md) | [未公開](docs/cases/x-evanmilenko-fable52-dragon-game/prompt.md) | Author claim: Fable 5.2, Three.js dragon | Three.js dragon game · gameplay capt | Primary X URL + video · prompt unpub | Source link only |
+| 14 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-fable52-ataturk-remembrance` 10 November remembrance video by Fable 5.2 | [出典](https://x.com/DeryaTR_/status/2120083276916224014) | [ケース](docs/cases/x-deryatr-fable52-ataturk-remembrance/README.md) | [未公開](docs/cases/x-deryatr-fable52-ataturk-remembrance/prompt.md) | Author claim: video by Fable 5.2, for th | Fable 5.2 video · recorded post | Primary X URL + video · prompt unpub | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · Gemini — 4 Carbon / 4 Argon (3)</strong></summary>
+<summary><strong>Family · Gemini — 4 Carbon / 4 Argon (6)</strong></summary>
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gemini4-argon-isometric-city` Isometric day/night city HTML loop — Gemini 4 Argon | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/prompt.md) | jamesgreene.com labeled run: Gemini 4 Ar | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
 | 2 | @coodddaaaa（Joe William） | `x-coodddaaaa-gemini-carbon-pelican-bike` Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 | [出典](https://x.com/coodddaaaa/status/2120363353142911078) | [ケース](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md) | [未公開](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/prompt.md) | Author claim: Gemini Carbon, High · Gemi | HTML animation + model-made demo vid | Primary X URL · prompt unpublished · | Source link only |
 | 3 | @StatsWire | `x-statswire-gemini-carbon-nyc-cruiser` Interactive 3D NYC cruiser tour in one HTML file (Three.js) | [出典](https://x.com/StatsWire/status/2120344850071540152) | [ケース](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md) | [未公開](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/prompt.md) | Author claim: Gemini 4 Carbon · single . | Three.js single-file scene · screen- | Primary X URL · prompt unpublished · | Source link only |
+| 4 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-gemini-carbon-theme-park` Theme Park HD pixel-art remake (playable) | [出典](https://x.com/DeryaTR_/status/2120393810941456710) | [ケース](docs/cases/x-deryatr-gemini-carbon-theme-park/README.md) | [未公開](docs/cases/x-deryatr-gemini-carbon-theme-park/prompt.md) | Author claim: Gemini 4 Carbon, one shot  | HTML pixel-art remake · playable at  | Primary X URL + play link + video ·  | Source link only |
+| 5 | @ai_for_success（AshutoshShrivastava） | `x-aiforsuccess-gemini-carbon-v8` V8 engine in FreeCAD and Blender | [出典](https://x.com/ai_for_success/status/2120317619588972867) | [ケース](docs/cases/x-aiforsuccess-gemini-carbon-v8/README.md) | [未公開](docs/cases/x-aiforsuccess-gemini-carbon-v8/prompt.md) | Author claim: Gemini 4 Carbon inside Ant | FreeCAD + Blender V8 engine · record | Primary X URL + video · prompt unpub | Source link only |
+| 6 | @_MaxBlade（Max Blade） | `x-maxblade-fable-vs-carbon` Same prompt: Fable 5.2 vs Gemini 4 Carbon | [出典](https://x.com/_MaxBlade/status/2120355412021231795) | [ケース](docs/cases/x-maxblade-fable-vs-carbon/README.md) | [未公開](docs/cases/x-maxblade-fable-vs-carbon/prompt.md) | Author claim: same unpublished prompt on | Side-by-side model comparison · reco | Primary X URL · prompt not published | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · GPT-6.2 Sol / Astra (code models) — GPT-6.2 Sol (owner) · OpenAI pages still list GPT-6.1 Sol (11)</strong></summary>
+<summary><strong>Family · GPT-6.2 Sol / Astra (code models) — GPT-6.2 Sol (owner) · OpenAI pages still list GPT-6.1 Sol (14)</strong></summary>
 
 > 欄の名前 **GPT-6.2 Sol** はリポジトリ所有者の確認に従う。2026-11-11 時点で OpenAI の公開ページは **GPT-6.1 Sol** のまま（[紹介](https://openai.com/index/introducing-gpt-6-1-sol/)、[Models](https://platform.openai.com/docs/models)）。公式の 6.2 発表は作らない。
 
@@ -581,35 +624,42 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 | 9 | @qingzhoucloud（产品晓东） | `x-qingzhoucloud-gpt62sol-floating-castle` GPT-6.2 Sol 3D floating castle built with HTML + Three.js | [出典](https://x.com/qingzhoucloud/status/2119441137576579448) | [ケース](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/README.md) | [未公開](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/prompt.md) | Author claim: GPT-6.2 Sol · html + three | HTML + Three.js scene capture | Primary X URL · prompt unpublished | Source link only |
 | 10 | @HarshithLucky3（Harshith） | `x-harshithlucky3-gpt62sol-pelican-svg-animation` SVG animation: pelican and 2 crabs riding bicycles (Codex ro | [出典](https://x.com/HarshithLucky3/status/2119418918616150080) | [ケース](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md) | [短い / 部分](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/prompt.md) | Author: "GPT 6.2 Sol max (or another mod | SVG animation via Codex · recorded v | Primary X URL · short prompt publish | Source link only |
 | 11 | @cherriessire | `x-cherriessire-gpt62sol-moon-aurora-threejs` Self-contained Three.js moon scene with red aurora in one HT | [出典](https://x.com/cherriessire/status/2119488351057121420) | [ケース](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md) | [未公開](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/prompt.md) | Author: GPT 6.2 Sol after seeing routing | Self-contained Three.js HTML render  | Primary X URL · prompt unpublished | Source link only |
+| 12 | @cfenghub（CF长风） | `x-cfenghub-gpt62sol-colosseum` Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender | [出典](https://x.com/cfenghub/status/2120069654437921152) | [ケース](docs/cases/x-cfenghub-gpt62sol-colosseum/README.md) | [原文](docs/cases/x-cfenghub-gpt62sol-colosseum/prompt.md) | Author claim: GPT 6.2 Sol, one-sentence  | Three.js + GLSL + Blender · single H | Primary X URL · one-sentence prompt  | Source link only |
+| 13 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-glass-seasons` Three.js lakeside scene with boat, waterfall, trees, and but | [出典](https://x.com/TokenGremlin/status/2119852532616790037) | [ケース](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md) | [未公開](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/prompt.md) | Author claim: GPT-6.2 Sol, Three.js file | Three.js scene with textures and lig | Primary X URL + video and still · pr | Source link only |
+| 14 | @takamasa045（伊藤貴將） | `x-takamasa045-gpt61sol-momoyama` Azuchi-Momoyama castle town diorama in HTML and Three.js | [出典](https://x.com/takamasa045/status/2119769277846990949) | [ケース](docs/cases/x-takamasa045-gpt61sol-momoyama/README.md) | [原文](docs/cases/x-takamasa045-gpt61sol-momoyama/prompt.md) | Author selected GPT-6.1 Sol Max and only | HTML + Three.js interactive castle-t | Primary X URL · full prompt in the a | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · Grok — Grok 4.7 / Imagine Video (2)</strong></summary>
+<summary><strong>Family · Grok — Grok 4.7 / Imagine Video (3)</strong></summary>
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-grok47-isometric-city` Isometric day/night city HTML loop — Grok 4.7 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-grok47-isometric-city/prompt.md) | jamesgreene.com labeled run: Grok 4.7 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
 | 2 | @RadCyberTruck | `x-radcybertruck-grok-imagine-cybertruck-cry` Grok Imagine — pixstar Cybertruck farewell clip (partial pro | [出典](https://x.com/RadCyberTruck/status/2120350558431445006) | [ケース](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md) | [短い / 部分](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/prompt.md) | Author labels post 'Grok Imagine prompt' | Grok Imagine native video generation | Primary X URL · prompt truncated in  | Source link only |
+| 3 | @Aiminithoughts | `x-aiminithoughts-grok-imagine-golden-angel` Golden Angel Warrior — Grok Imagine clip | [出典](https://x.com/Aiminithoughts/status/2120329925702070425) | [ケース](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md) | [原文](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/prompt.md) | Author labels the post 'Grok Imagine Pro | Grok Imagine native video | Primary X URL · prompt published in  | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · Qwen — Qwen3.8 / Qwen 4 Preview (1)</strong></summary>
+<summary><strong>Family · Qwen — Qwen3.8 / Qwen 4 Preview (3)</strong></summary>
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) | jamesgreene.com labeled run: Qwen3.8 27B | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
+| 2 | @coffeecup2020（David Y. Tan） | `x-coffeecup2020-qwen4-sagrada` Sagrada Família demo from Qwen 4.0 Preview | [出典](https://x.com/coffeecup2020/status/2120113388629995921) | [ケース](docs/cases/x-coffeecup2020-qwen4-sagrada/README.md) | [未公開](docs/cases/x-coffeecup2020-qwen4-sagrada/prompt.md) | Author claim: Qwen 4.0 (Preview), iterat | Iterative self-critique demo · recor | Primary X URL + video · prompt unpub | Source link only |
+| 3 | @leo114119（Leo） | `x-leo114119-qwen4max-wukong-plane` Sun Wukong flying a plane — HTML 3D demo | [出典](https://x.com/leo114119/status/2120371909624033439) | [ケース](docs/cases/x-leo114119-qwen4max-wukong-plane/README.md) | [未公開](docs/cases/x-leo114119-qwen4max-wukong-plane/prompt.md) | Author claim: Qwen 4 Max Preview + qoder | HTML + 3D animation demo · recorded  | Primary X URL + video · prompt unpub | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · DeepSeek — V4.1 Flash (2)</strong></summary>
+<summary><strong>Family · DeepSeek — V4.1 Flash (3)</strong></summary>
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city` Isometric day/night city HTML loop — DeepSeek V4.1 Flash 101 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/prompt.md) | jamesgreene.com labeled run: DeepSeek V4 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
 | 2 | @LatentOperatorX | `x-latentoperator-a380-deepseek-fable-sol` Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fab | [出典](https://x.com/LatentOperatorX/status/2120205377803518132) | [ケース](docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md) | [短い / 部分](docs/cases/x-latentoperator-a380-deepseek-fable-sol/prompt.md) | Author timed DeepSeek V4.1 Flash (+ Harn | Three.js single-scene challenge · co | Primary X URL · short shared prompt  | Source link only |
+| 3 | @LatentOperatorX（Latent Operator） | `x-latentoperator-deepseek-excavator` Three.js excavator loading a dump truck — DeepSeek Harness v | [出典](https://x.com/LatentOperatorX/status/2120077800887746603) | [ケース](docs/cases/x-latentoperator-deepseek-excavator/README.md) | [短い / 部分](docs/cases/x-latentoperator-deepseek-excavator/prompt.md) | Author claim: same DeepSeek V4.1 Flash m | Three.js excavator challenge · compa | Primary X URL · published challenge  | Source link only |
 
 </details>
 

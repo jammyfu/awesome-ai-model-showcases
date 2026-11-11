@@ -14,7 +14,7 @@
 Awesome AI Model Showcases collects real public production cases from the latest large models (Claude Fable 5.2 / Mythos 5.2, Gemini 4 Argon / Carbon, GPT-6.2 Sol, Grok, Qwen, DeepSeek, and others) and from the previous generation that is still mainstream: GIFs, animations, HTML and game demos, and images, each with the original post, author, published prompt, and method.
 
 <p>
-<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-26-10131a?style=flat-square&amp;labelColor=c2ff67" alt="26 catalog cases"></a>
+<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-43-10131a?style=flat-square&amp;labelColor=c2ff67" alt="43 catalog cases"></a>
 <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/readme-EN_%2F_ZH_%2F_ZH--TW_%2F_JA-10131a?style=flat-square&amp;labelColor=c2ff67" alt="English, Simplified Chinese, Traditional Chinese, and Japanese"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="Source code license: MIT"></a>
 </p>
@@ -32,7 +32,7 @@ Independent community archive. Model labels are source claims, not independent v
 - [Gemini](#gemini) — [Gemini 4 Carbon](#ver-gemini-4-carbon) · [Gemini 4 Argon](#ver-gemini-4-argon)
 - [GPT-6.2 Sol](#gpt-code) — [GPT-6.2 Sol](#ver-gpt-6-2-sol) · [GPT-6.1 Sol](#ver-gpt-6-1-sol)
 - [Grok](#grok) — [Grok 4.7](#ver-grok-4-7) · [Grok Imagine Video](#ver-grok-imagine-video)
-- [Qwen](#qwen) — [Qwen3.8 27B](#ver-qwen3-8-27b)
+- [Qwen](#qwen) — [Qwen3.8 27B](#ver-qwen3-8-27b) · [Qwen 4 Max Preview](#ver-qwen4-max-preview) · [Qwen 4.0 Preview](#ver-qwen4-preview)
 - [DeepSeek](#deepseek) — [DeepSeek V4.1 Flash 1017](#ver-deepseek-v4-1-flash-1017) · [DeepSeek V4.1 Flash](#ver-deepseek-v4-1-flash)
 
 ### By type
@@ -77,31 +77,31 @@ Credit: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558
 </tr>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/quxiaoyin/status/2120341962314150207"><img src="assets/thumbs/x-quxiaoyin-fable52-agentsky-film.jpg" alt="Point-light 3D film about AgentSky (Blender and code) — @quxiaoyin（Xiaoyin Qu）" width="220"></a><br>
+<strong><a href="docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md">Point-light 3D film about AgentSky (Blender and code)</a></strong><br>
+Credit: @quxiaoyin（Xiaoyin Qu）<br><a href="https://x.com/quxiaoyin/status/2120341962314150207">Post</a>
+</td>
+<td align="center" width="33%">
 <a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
 <strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
 Credit: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">Post</a>
 </td>
+<td align="center" width="33%">
+<a href="https://x.com/MrTacticalX/status/2120342453807157720"><img src="assets/thumbs/x-mrtactical-fable52-mechanical-keyboard.jpg" alt="Mechanical keyboard built and typed on in Blender — @MrTacticalX（Mr Tactical）" width="220"></a><br>
+<strong><a href="docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md">Mechanical keyboard built and typed on in Blender</a></strong><br>
+Credit: @MrTacticalX（Mr Tactical）<br><a href="https://x.com/MrTacticalX/status/2120342453807157720">Post</a>
+</td>
+</tr>
+<tr>
 <td align="center" width="33%">
 <a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
 <strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
 Credit: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">Post</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
-<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
-Credit: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">Post</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/"><img src="assets/thumbs/web-ofox-fable52-svg-sailboat.jpg" alt="Editable SVG sailboat illustration with CSS motion (two API calls) — Ofox" width="220"></a><br>
-<strong><a href="docs/cases/web-ofox-fable52-svg-sailboat/README.md">Editable SVG sailboat illustration with CSS motion (two API calls)</a></strong><br>
-Credit: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">Post</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Raitox_tech/status/2120125234129084492"><img src="assets/thumbs/x-raitoox-sol-stranger-things-credits.jpg" alt="Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames) — @Raitox_tech" width="220"></a><br>
-<strong><a href="docs/cases/x-raitoox-sol-stranger-things-credits/README.md">Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)</a></strong><br>
-Credit: @Raitox_tech<br><a href="https://x.com/Raitox_tech/status/2120125234129084492">Post</a>
+<a href="https://x.com/_MaxBlade/status/2120355412021231795"><img src="assets/thumbs/x-maxblade-fable-vs-carbon.jpg" alt="Same prompt: Fable 5.2 vs Gemini 4 Carbon — @_MaxBlade（Max Blade）" width="220"></a><br>
+<strong><a href="docs/cases/x-maxblade-fable-vs-carbon/README.md">Same prompt: Fable 5.2 vs Gemini 4 Carbon</a></strong><br>
+Credit: @_MaxBlade（Max Blade）<br><a href="https://x.com/_MaxBlade/status/2120355412021231795">Post</a>
 </td>
 </tr>
 </table>
@@ -118,7 +118,7 @@ Two or three sourced cases per family, or fewer when the inventory itself has fe
 
 ![Claude cover](assets/brand/families/claude.png)
 
-3 featured of 7 sourced cases in this family. The rest are in the full evidence tables.
+4 featured of 14 sourced cases in this family. The rest are in the full evidence tables.
 
 <a id="ver-claude-fable-5-2"></a>
 
@@ -127,14 +127,19 @@ Two or three sourced cases per family, or fewer when the inventory itself has fe
 <table>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/FinanceYF5/status/2120372142147842296"><img src="assets/thumbs/x-financeyf5-fable52-bugatti-tourbillon.jpg" alt="Bugatti Tourbillon in Blender, then a short car film (Fable 5.2) — @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）" width="220"></a><br>
+<strong><a href="docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md">Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)</a></strong><br>
+Credit: @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）<br><a href="https://x.com/FinanceYF5/status/2120372142147842296">Post</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/DeryaTR_/status/2120382619082727604"><img src="assets/thumbs/x-deryatr-fable52-tcell-film.jpg" alt="T-cell life film in Blender (12,480 frames, Fable 5.2) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-fable52-tcell-film/README.md">T-cell life film in Blender (12,480 frames, Fable 5.2)</a></strong><br>
+Credit: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120382619082727604">Post</a>
+</td>
+<td align="center" width="33%">
 <a href="https://x.com/himanshutwtxs/status/2120017106804900304"><img src="assets/thumbs/x-himanshutwtxs-fable52-motion-showreel.jpg" alt="One-prompt motion designer showreel (timing, easing, shape, type) — @himanshutwtxs" width="220"></a><br>
 <strong><a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md">One-prompt motion designer showreel (timing, easing, shape, type)</a></strong><br>
 Credit: @himanshutwtxs<br><a href="https://x.com/himanshutwtxs/status/2120017106804900304">Post</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/wshuyi/status/2120014892040417720"><img src="assets/thumbs/x-wshuyi-fable52-sabertooth-hunt.jpg" alt="纯编程动画：剑齿虎捕猎野牛（自编程音效） — @wshuyi" width="220"></a><br>
-<strong><a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md">纯编程动画：剑齿虎捕猎野牛（自编程音效）</a></strong><br>
-Credit: @wshuyi<br><a href="https://x.com/wshuyi/status/2120014892040417720">Post</a>
 </td>
 </tr>
 </table>
@@ -169,7 +174,7 @@ Credit: James Greene (model comparison archive)<br><a href="https://jamesgreene.
 
 ![Gemini cover](assets/brand/families/gemini.png)
 
-All 3 sourced cases in this family are listed here. The same rows are in the full evidence tables.
+3 featured of 6 sourced cases in this family. The rest are in the full evidence tables.
 
 <a id="ver-gemini-4-carbon"></a>
 
@@ -178,14 +183,14 @@ All 3 sourced cases in this family are listed here. The same rows are in the ful
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
-<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
-Credit: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">Post</a>
+<a href="https://x.com/DeryaTR_/status/2120393810941456710"><img src="assets/thumbs/x-deryatr-gemini-carbon-theme-park.jpg" alt="Theme Park HD pixel-art remake (playable) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-gemini-carbon-theme-park/README.md">Theme Park HD pixel-art remake (playable)</a></strong><br>
+Credit: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120393810941456710">Post</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/StatsWire/status/2120344850071540152"><img src="assets/thumbs/x-statswire-gemini-carbon-nyc-cruiser.jpg" alt="Interactive 3D NYC cruiser tour in one HTML file (Three.js) — @StatsWire" width="220"></a><br>
-<strong><a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md">Interactive 3D NYC cruiser tour in one HTML file (Three.js)</a></strong><br>
-Credit: @StatsWire<br><a href="https://x.com/StatsWire/status/2120344850071540152">Post</a>
+<a href="https://x.com/ai_for_success/status/2120317619588972867"><img src="assets/thumbs/x-aiforsuccess-gemini-carbon-v8.jpg" alt="V8 engine in FreeCAD and Blender — @ai_for_success（AshutoshShrivastava）" width="220"></a><br>
+<strong><a href="docs/cases/x-aiforsuccess-gemini-carbon-v8/README.md">V8 engine in FreeCAD and Blender</a></strong><br>
+Credit: @ai_for_success（AshutoshShrivastava）<br><a href="https://x.com/ai_for_success/status/2120317619588972867">Post</a>
 </td>
 </tr>
 </table>
@@ -212,7 +217,7 @@ Credit: James Greene (model comparison archive)<br><a href="https://jamesgreene.
 
 ![GPT-6.2 Sol cover](assets/brand/families/gpt-sol.png)
 
-3 featured of 11 sourced cases in this family. The rest are in the full evidence tables.
+3 featured of 14 sourced cases in this family. The rest are in the full evidence tables.
 
 Catalog section name **GPT-6.2 Sol** follows the repo owner. As of 2026-11-11, OpenAI’s public pages still document **GPT-6.1 Sol** ([introducing GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/), [Models](https://platform.openai.com/docs/models)); this repo does not invent an official 6.2 announcement.
 
@@ -223,14 +228,14 @@ Catalog section name **GPT-6.2 Sol** follows the repo owner. As of 2026-11-11, O
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/marcthecreatorr/status/2119503438405136765"><img src="assets/thumbs/x-marcthecreatorr-gpt62sol-sailing-ship.jpg" alt="GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt) — @marcthecreatorr（Marcel）" width="220"></a><br>
-<strong><a href="docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md">GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)</a></strong><br>
-Credit: @marcthecreatorr（Marcel）<br><a href="https://x.com/marcthecreatorr/status/2119503438405136765">Post</a>
+<a href="https://x.com/TokenGremlin/status/2119852532616790037"><img src="assets/thumbs/x-tokengremlin-gpt62sol-glass-seasons.jpg" alt="Three.js lakeside scene with boat, waterfall, trees, and butterflies — @TokenGremlin（Token Gremlin）" width="220"></a><br>
+<strong><a href="docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md">Three.js lakeside scene with boat, waterfall, trees, and butterflies</a></strong><br>
+Credit: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119852532616790037">Post</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/HarshithLucky3/status/2119418918616150080"><img src="assets/thumbs/x-harshithlucky3-gpt62sol-pelican-svg-animation.jpg" alt="SVG animation: pelican and 2 crabs riding bicycles (Codex routing) — @HarshithLucky3（Harshith）" width="220"></a><br>
-<strong><a href="docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md">SVG animation: pelican and 2 crabs riding bicycles (Codex routing)</a></strong><br>
-Credit: @HarshithLucky3（Harshith）<br><a href="https://x.com/HarshithLucky3/status/2119418918616150080">Post</a>
+<a href="https://x.com/cfenghub/status/2120069654437921152"><img src="assets/thumbs/x-cfenghub-gpt62sol-colosseum.jpg" alt="Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender — @cfenghub（CF长风）" width="220"></a><br>
+<strong><a href="docs/cases/x-cfenghub-gpt62sol-colosseum/README.md">Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender</a></strong><br>
+Credit: @cfenghub（CF长风）<br><a href="https://x.com/cfenghub/status/2120069654437921152">Post</a>
 </td>
 </tr>
 </table>
@@ -257,7 +262,7 @@ Credit: James Greene (model comparison archive)<br><a href="https://jamesgreene.
 
 ![Grok cover](assets/brand/families/grok.png)
 
-All 2 sourced cases in this family are listed here. The same rows are in the full evidence tables.
+2 featured of 3 sourced cases in this family. The rest are in the full evidence tables.
 
 <a id="ver-grok-4-7"></a>
 
@@ -280,9 +285,9 @@ Credit: James Greene (model comparison archive)<br><a href="https://jamesgreene.
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/RadCyberTruck/status/2120350558431445006"><img src="assets/thumbs/x-radcybertruck-grok-imagine-cybertruck-cry.jpg" alt="Grok Imagine — pixstar Cybertruck farewell clip (partial prompt) — @RadCyberTruck" width="220"></a><br>
-<strong><a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md">Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)</a></strong><br>
-Credit: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558431445006">Post</a>
+<a href="https://x.com/Aiminithoughts/status/2120329925702070425"><img src="assets/thumbs/x-aiminithoughts-grok-imagine-golden-angel.jpg" alt="Golden Angel Warrior — Grok Imagine clip — @Aiminithoughts" width="220"></a><br>
+<strong><a href="docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md">Golden Angel Warrior — Grok Imagine clip</a></strong><br>
+Credit: @Aiminithoughts<br><a href="https://x.com/Aiminithoughts/status/2120329925702070425">Post</a>
 </td>
 </tr>
 </table>
@@ -295,7 +300,7 @@ Credit: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558
 
 ![Qwen cover](assets/brand/families/qwen.png)
 
-All 1 sourced cases in this family are listed here. The same rows are in the full evidence tables.
+All 3 sourced cases in this family are listed here. The same rows are in the full evidence tables.
 
 <a id="ver-qwen3-8-27b"></a>
 
@@ -307,6 +312,34 @@ All 1 sourced cases in this family are listed here. The same rows are in the ful
 <a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-qwen38-27b-isometric-city.jpg" alt="Isometric day/night city HTML loop — Qwen3.8 27B — James Greene (model comparison archive)" width="220"></a><br>
 <strong><a href="docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md">Isometric day/night city HTML loop — Qwen3.8 27B</a></strong><br>
 Credit: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">Post</a>
+</td>
+</tr>
+</table>
+
+<a id="ver-qwen4-max-preview"></a>
+
+### Qwen 4 Max Preview
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/leo114119/status/2120371909624033439"><img src="assets/thumbs/x-leo114119-qwen4max-wukong-plane.jpg" alt="Sun Wukong flying a plane — HTML 3D demo — @leo114119（Leo）" width="220"></a><br>
+<strong><a href="docs/cases/x-leo114119-qwen4max-wukong-plane/README.md">Sun Wukong flying a plane — HTML 3D demo</a></strong><br>
+Credit: @leo114119（Leo）<br><a href="https://x.com/leo114119/status/2120371909624033439">Post</a>
+</td>
+</tr>
+</table>
+
+<a id="ver-qwen4-preview"></a>
+
+### Qwen 4.0 Preview
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/coffeecup2020/status/2120113388629995921"><img src="assets/thumbs/x-coffeecup2020-qwen4-sagrada.jpg" alt="Sagrada Família demo from Qwen 4.0 Preview — @coffeecup2020（David Y. Tan）" width="220"></a><br>
+<strong><a href="docs/cases/x-coffeecup2020-qwen4-sagrada/README.md">Sagrada Família demo from Qwen 4.0 Preview</a></strong><br>
+Credit: @coffeecup2020（David Y. Tan）<br><a href="https://x.com/coffeecup2020/status/2120113388629995921">Post</a>
 </td>
 </tr>
 </table>
@@ -323,7 +356,7 @@ The inventory also records a version with no separate sourced case. Quoted as st
 
 ![DeepSeek cover](assets/brand/families/deepseek.png)
 
-All 2 sourced cases in this family are listed here. The same rows are in the full evidence tables.
+2 featured of 3 sourced cases in this family. The rest are in the full evidence tables.
 
 <a id="ver-deepseek-v4-1-flash-1017"></a>
 
@@ -364,7 +397,7 @@ Credit: @LatentOperatorX<br><a href="https://x.com/LatentOperatorX/status/212020
 
 <a id="type-animation"></a>
 ### Animation
-7 cases of this type. Four previews below when a thumbnail exists.
+12 cases of this type. Four previews below when a thumbnail exists.
 <table>
 <tr>
 <td align="center" width="33%">
@@ -385,9 +418,9 @@ Credit: Halil Sekeroglu<br><a href="https://halilsekeroglu.com/en/fable/">Post</
 </tr>
 <tr>
 <td align="center" width="33%">
-<a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/"><img src="assets/thumbs/web-ofox-fable52-svg-sailboat.jpg" alt="Editable SVG sailboat illustration with CSS motion (two API calls) — Ofox" width="220"></a><br>
-<strong><a href="docs/cases/web-ofox-fable52-svg-sailboat/README.md">Editable SVG sailboat illustration with CSS motion (two API calls)</a></strong><br>
-Credit: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">Post</a>
+<a href="https://x.com/DeryaTR_/status/2120083276916224014"><img src="assets/thumbs/x-deryatr-fable52-ataturk-remembrance.jpg" alt="10 November remembrance video by Fable 5.2 — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-fable52-ataturk-remembrance/README.md">10 November remembrance video by Fable 5.2</a></strong><br>
+Credit: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120083276916224014">Post</a>
 </td>
 </tr>
 </table>
@@ -395,30 +428,30 @@ Credit: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">Post<
 
 <a id="type-html-3d"></a>
 ### HTML / 3D scene
-19 cases of this type. Four previews below when a thumbnail exists.
+31 cases of this type. Four previews below when a thumbnail exists.
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
-<strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
-Credit: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">Post</a>
+<a href="https://x.com/DeryaTR_/status/2120382619082727604"><img src="assets/thumbs/x-deryatr-fable52-tcell-film.jpg" alt="T-cell life film in Blender (12,480 frames, Fable 5.2) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-fable52-tcell-film/README.md">T-cell life film in Blender (12,480 frames, Fable 5.2)</a></strong><br>
+Credit: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120382619082727604">Post</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
-<strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
-Credit: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">Post</a>
+<a href="https://x.com/EvanMilenko/status/2120322640048959503"><img src="assets/thumbs/x-evanmilenko-fable52-dragon-game.jpg" alt="Dragon game built from scratch in Three.js — @EvanMilenko（Evan）" width="220"></a><br>
+<strong><a href="docs/cases/x-evanmilenko-fable52-dragon-game/README.md">Dragon game built from scratch in Three.js</a></strong><br>
+Credit: @EvanMilenko（Evan）<br><a href="https://x.com/EvanMilenko/status/2120322640048959503">Post</a>
 </td>
 <td align="center" width="33%">
-<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-opus55-isometric-city.jpg" alt="Isometric day/night city HTML loop — Claude Opus 5.5 — James Greene (model comparison archive)" width="220"></a><br>
-<strong><a href="docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md">Isometric day/night city HTML loop — Claude Opus 5.5</a></strong><br>
-Credit: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">Post</a>
+<a href="https://x.com/FinanceYF5/status/2120372142147842296"><img src="assets/thumbs/x-financeyf5-fable52-bugatti-tourbillon.jpg" alt="Bugatti Tourbillon in Blender, then a short car film (Fable 5.2) — @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）" width="220"></a><br>
+<strong><a href="docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md">Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)</a></strong><br>
+Credit: @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）<br><a href="https://x.com/FinanceYF5/status/2120372142147842296">Post</a>
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
-<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
-Credit: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">Post</a>
+<a href="https://x.com/kloss_xyz/status/2120378126740095273"><img src="assets/thumbs/x-kloss-fable52-ocean-threejs.jpg" alt="Photo-real Three.js ocean that runs from sunset to sunrise — @kloss_xyz（klöss）" width="220"></a><br>
+<strong><a href="docs/cases/x-kloss-fable52-ocean-threejs/README.md">Photo-real Three.js ocean that runs from sunset to sunrise</a></strong><br>
+Credit: @kloss_xyz（klöss）<br><a href="https://x.com/kloss_xyz/status/2120378126740095273">Post</a>
 </td>
 </tr>
 </table>
@@ -519,26 +552,26 @@ Prefer a pull request? Follow [CONTRIBUTING.md](CONTRIBUTING.md). Corrections to
 <a id="catalog"></a>
 ## The catalog at a glance
 
-**26 homepage cases** across the frontier families below, grouped by family and then by version. **12 pending** stay outside that total.
+**43 homepage cases** across the frontier families below, grouped by family and then by version. **12 pending** stay outside that total.
 
 | Model family / bucket | Count | Outside the main catalog | Count |
 |---|---:|---|---:|
-| Claude (Fable 5.2 / Mythos 5.2 / Opus 5.5) | **7** | Pending | 12 |
-| Gemini (4 Carbon / 4 Argon) | **3** | Prompt-only | 1 |
-| GPT-6.2 Sol / Astra (code; public docs still say GPT-6.1 Sol) | **11** | Duplicate/rejected | 9 |
-| Grok (4.7 / Imagine) | **2** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | 50 |
-| Qwen (3.8) | **1** | Repository seeds (local examples) | 6 |
-| DeepSeek (V4.1 Flash) | **2** | | |
-| **Homepage total** | **26** | | |
+| Claude (Fable 5.2 / Mythos 5.2 / Opus 5.5) | **14** | Pending | 12 |
+| Gemini (4 Carbon / 4 Argon) | **6** | Prompt-only | 1 |
+| GPT-6.2 Sol / Astra (code; public docs still say GPT-6.1 Sol) | **14** | Duplicate/rejected | 9 |
+| Grok (4.7 / Imagine) | **3** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | 50 |
+| Qwen (3.8) | **3** | Repository seeds (local examples) | 6 |
+| DeepSeek (V4.1 Flash) | **3** | | |
+| **Homepage total** | **43** | | |
 
-Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **2026-11-11**. The homepage total is collected frontier-family cases, not confirmed successful generations. **0 of the 26 cases have local media** (a credited video file when the source had one). Navigation thumbnails in `assets/thumbs/` are small credited copies and link back to the original post. The row index is [docs/showcase-index.md](docs/showcase-index.md). Failed video downloads are listed in [docs/missing-videos.md](docs/missing-videos.md).
+Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **2026-11-11**. The homepage total is collected frontier-family cases, not confirmed successful generations. **0 of the 43 cases have local media** (a credited video file when the source had one). Navigation thumbnails in `assets/thumbs/` are small credited copies and link back to the original post. The row index is [docs/showcase-index.md](docs/showcase-index.md). Failed video downloads are listed in [docs/missing-videos.md](docs/missing-videos.md).
 
 ### Full source and evidence tables
 
 Open a family below, or use the [searchable web catalog](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en). Original-language titles and evidence quotes stay as published. The same rows are in the [standalone index](playbooks/community-cases.md).
 
 <details>
-<summary><strong>Family · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2 (7)</strong></summary>
+<summary><strong>Family · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2 (14)</strong></summary>
 
 | # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -549,22 +582,32 @@ Open a family below, or use the [searchable web catalog](https://jammyfu.github.
 | 5 | Halil Sekeroglu | `web-halil-fable52-animation-prompts` Four single-message Fable 5.2 animation prompts (logo / prom | [Source](https://halilsekeroglu.com/en/fable/) | [Case](docs/cases/web-halil-fable52-animation-prompts/README.md) | [Original](docs/cases/web-halil-fable52-animation-prompts/prompt.md) | Author page: Animation with Fable 5.2 ·  | Single-message HTML/SVG/Three.js/Can | Public page with verbatim prompts ·  | Source link only |
 | 6 | Ofox | `web-ofox-fable52-svg-sailboat` Editable SVG sailboat illustration with CSS motion (two API  | [Source](https://ofox.ai/blog/claude-fable-5-2-svg-guide/) | [Case](docs/cases/web-ofox-fable52-svg-sailboat/README.md) | [Short / partial](docs/cases/web-ofox-fable52-svg-sailboat/prompt.md) | Ofox test: anthropic/claude-fable-5.2 (l | SVG code generation → browser CSS ke | Guide publishes validation table + n | Source link only |
 | 7 | James Greene (model comparison archive) | `web-jamesgreene-code1-opus55-isometric-city` Isometric day/night city HTML loop — Claude Opus 5.5 | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-opus55-isometric-city/prompt.md) | jamesgreene.com labeled run: Claude Opus | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
+| 8 | @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will） | `x-financeyf5-fable52-bugatti-tourbillon` Bugatti Tourbillon in Blender, then a short car film (Fable  | [Source](https://x.com/FinanceYF5/status/2120372142147842296) | [Case](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md) | [Original](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/prompt.md) | Original author @xikhar: Fable 5.2, one  | Blender modular car model, materials | FinanceYF5 post quotes @xikhar's pro | Source link only |
+| 9 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-fable52-tcell-film` T-cell life film in Blender (12,480 frames, Fable 5.2) | [Source](https://x.com/DeryaTR_/status/2120382619082727604) | [Case](docs/cases/x-deryatr-fable52-tcell-film/README.md) | [Unpublished](docs/cases/x-deryatr-fable52-tcell-film/prompt.md) | Author claim: Fable 5.2 wrote the script | Blender cell film plus narration and | Primary X URL + video · prompt unpub | Source link only |
+| 10 | @kloss_xyz（klöss） | `x-kloss-fable52-ocean-threejs` Photo-real Three.js ocean that runs from sunset to sunrise | [Source](https://x.com/kloss_xyz/status/2120378126740095273) | [Case](docs/cases/x-kloss-fable52-ocean-threejs/README.md) | [Original](docs/cases/x-kloss-fable52-ocean-threejs/prompt.md) | Author claim: Claude Fable 5.2, under 27 | Three.js photo-real ocean scene · re | Primary X URL · verbatim prompt in t | Source link only |
+| 11 | @MrTacticalX（Mr Tactical） | `x-mrtactical-fable52-mechanical-keyboard` Mechanical keyboard built and typed on in Blender | [Source](https://x.com/MrTacticalX/status/2120342453807157720) | [Case](docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md) | [Unpublished](docs/cases/x-mrtactical-fable52-mechanical-keyboard/prompt.md) | Author claim: Claude Fable 5.2 in Blende | Blender mechanical keyboard model an | Primary X URL + video · prompt unpub | Source link only |
+| 12 | @quxiaoyin（Xiaoyin Qu） | `x-quxiaoyin-fable52-agentsky-film` Point-light 3D film about AgentSky (Blender and code) | [Source](https://x.com/quxiaoyin/status/2120341962314150207) | [Case](docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md) | [Unpublished](docs/cases/x-quxiaoyin-fable52-agentsky-film/prompt.md) | Author claim: Claude Fable 5.2, fourth v | Blender and code point-light film ·  | Primary X URL + video · prompt unpub | Source link only |
+| 13 | @EvanMilenko（Evan） | `x-evanmilenko-fable52-dragon-game` Dragon game built from scratch in Three.js | [Source](https://x.com/EvanMilenko/status/2120322640048959503) | [Case](docs/cases/x-evanmilenko-fable52-dragon-game/README.md) | [Unpublished](docs/cases/x-evanmilenko-fable52-dragon-game/prompt.md) | Author claim: Fable 5.2, Three.js dragon | Three.js dragon game · gameplay capt | Primary X URL + video · prompt unpub | Source link only |
+| 14 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-fable52-ataturk-remembrance` 10 November remembrance video by Fable 5.2 | [Source](https://x.com/DeryaTR_/status/2120083276916224014) | [Case](docs/cases/x-deryatr-fable52-ataturk-remembrance/README.md) | [Unpublished](docs/cases/x-deryatr-fable52-ataturk-remembrance/prompt.md) | Author claim: video by Fable 5.2, for th | Fable 5.2 video · recorded post | Primary X URL + video · prompt unpub | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · Gemini — 4 Carbon / 4 Argon (3)</strong></summary>
+<summary><strong>Family · Gemini — 4 Carbon / 4 Argon (6)</strong></summary>
 
 | # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gemini4-argon-isometric-city` Isometric day/night city HTML loop — Gemini 4 Argon | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/prompt.md) | jamesgreene.com labeled run: Gemini 4 Ar | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
 | 2 | @coodddaaaa（Joe William） | `x-coodddaaaa-gemini-carbon-pelican-bike` Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 | [Source](https://x.com/coodddaaaa/status/2120363353142911078) | [Case](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md) | [Unpublished](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/prompt.md) | Author claim: Gemini Carbon, High · Gemi | HTML animation + model-made demo vid | Primary X URL · prompt unpublished · | Source link only |
 | 3 | @StatsWire | `x-statswire-gemini-carbon-nyc-cruiser` Interactive 3D NYC cruiser tour in one HTML file (Three.js) | [Source](https://x.com/StatsWire/status/2120344850071540152) | [Case](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md) | [Unpublished](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/prompt.md) | Author claim: Gemini 4 Carbon · single . | Three.js single-file scene · screen- | Primary X URL · prompt unpublished · | Source link only |
+| 4 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-gemini-carbon-theme-park` Theme Park HD pixel-art remake (playable) | [Source](https://x.com/DeryaTR_/status/2120393810941456710) | [Case](docs/cases/x-deryatr-gemini-carbon-theme-park/README.md) | [Unpublished](docs/cases/x-deryatr-gemini-carbon-theme-park/prompt.md) | Author claim: Gemini 4 Carbon, one shot  | HTML pixel-art remake · playable at  | Primary X URL + play link + video ·  | Source link only |
+| 5 | @ai_for_success（AshutoshShrivastava） | `x-aiforsuccess-gemini-carbon-v8` V8 engine in FreeCAD and Blender | [Source](https://x.com/ai_for_success/status/2120317619588972867) | [Case](docs/cases/x-aiforsuccess-gemini-carbon-v8/README.md) | [Unpublished](docs/cases/x-aiforsuccess-gemini-carbon-v8/prompt.md) | Author claim: Gemini 4 Carbon inside Ant | FreeCAD + Blender V8 engine · record | Primary X URL + video · prompt unpub | Source link only |
+| 6 | @_MaxBlade（Max Blade） | `x-maxblade-fable-vs-carbon` Same prompt: Fable 5.2 vs Gemini 4 Carbon | [Source](https://x.com/_MaxBlade/status/2120355412021231795) | [Case](docs/cases/x-maxblade-fable-vs-carbon/README.md) | [Unpublished](docs/cases/x-maxblade-fable-vs-carbon/prompt.md) | Author claim: same unpublished prompt on | Side-by-side model comparison · reco | Primary X URL · prompt not published | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · GPT-6.2 Sol / Astra (code models) — GPT-6.2 Sol (owner) · OpenAI pages still list GPT-6.1 Sol (11)</strong></summary>
+<summary><strong>Family · GPT-6.2 Sol / Astra (code models) — GPT-6.2 Sol (owner) · OpenAI pages still list GPT-6.1 Sol (14)</strong></summary>
 
 > Catalog section name **GPT-6.2 Sol** follows the repo owner. As of 2026-11-11, OpenAI’s public pages still document **GPT-6.1 Sol** ([introducing GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/), [Models](https://platform.openai.com/docs/models)); this repo does not invent an official 6.2 announcement.
 
@@ -581,35 +624,42 @@ Open a family below, or use the [searchable web catalog](https://jammyfu.github.
 | 9 | @qingzhoucloud（产品晓东） | `x-qingzhoucloud-gpt62sol-floating-castle` GPT-6.2 Sol 3D floating castle built with HTML + Three.js | [Source](https://x.com/qingzhoucloud/status/2119441137576579448) | [Case](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/README.md) | [Unpublished](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/prompt.md) | Author claim: GPT-6.2 Sol · html + three | HTML + Three.js scene capture | Primary X URL · prompt unpublished | Source link only |
 | 10 | @HarshithLucky3（Harshith） | `x-harshithlucky3-gpt62sol-pelican-svg-animation` SVG animation: pelican and 2 crabs riding bicycles (Codex ro | [Source](https://x.com/HarshithLucky3/status/2119418918616150080) | [Case](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md) | [Short / partial](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/prompt.md) | Author: "GPT 6.2 Sol max (or another mod | SVG animation via Codex · recorded v | Primary X URL · short prompt publish | Source link only |
 | 11 | @cherriessire | `x-cherriessire-gpt62sol-moon-aurora-threejs` Self-contained Three.js moon scene with red aurora in one HT | [Source](https://x.com/cherriessire/status/2119488351057121420) | [Case](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md) | [Unpublished](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/prompt.md) | Author: GPT 6.2 Sol after seeing routing | Self-contained Three.js HTML render  | Primary X URL · prompt unpublished | Source link only |
+| 12 | @cfenghub（CF长风） | `x-cfenghub-gpt62sol-colosseum` Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender | [Source](https://x.com/cfenghub/status/2120069654437921152) | [Case](docs/cases/x-cfenghub-gpt62sol-colosseum/README.md) | [Original](docs/cases/x-cfenghub-gpt62sol-colosseum/prompt.md) | Author claim: GPT 6.2 Sol, one-sentence  | Three.js + GLSL + Blender · single H | Primary X URL · one-sentence prompt  | Source link only |
+| 13 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-glass-seasons` Three.js lakeside scene with boat, waterfall, trees, and but | [Source](https://x.com/TokenGremlin/status/2119852532616790037) | [Case](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md) | [Unpublished](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/prompt.md) | Author claim: GPT-6.2 Sol, Three.js file | Three.js scene with textures and lig | Primary X URL + video and still · pr | Source link only |
+| 14 | @takamasa045（伊藤貴將） | `x-takamasa045-gpt61sol-momoyama` Azuchi-Momoyama castle town diorama in HTML and Three.js | [Source](https://x.com/takamasa045/status/2119769277846990949) | [Case](docs/cases/x-takamasa045-gpt61sol-momoyama/README.md) | [Original](docs/cases/x-takamasa045-gpt61sol-momoyama/prompt.md) | Author selected GPT-6.1 Sol Max and only | HTML + Three.js interactive castle-t | Primary X URL · full prompt in the a | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · Grok — Grok 4.7 / Imagine Video (2)</strong></summary>
+<summary><strong>Family · Grok — Grok 4.7 / Imagine Video (3)</strong></summary>
 
 | # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-grok47-isometric-city` Isometric day/night city HTML loop — Grok 4.7 | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-grok47-isometric-city/prompt.md) | jamesgreene.com labeled run: Grok 4.7 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
 | 2 | @RadCyberTruck | `x-radcybertruck-grok-imagine-cybertruck-cry` Grok Imagine — pixstar Cybertruck farewell clip (partial pro | [Source](https://x.com/RadCyberTruck/status/2120350558431445006) | [Case](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md) | [Short / partial](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/prompt.md) | Author labels post 'Grok Imagine prompt' | Grok Imagine native video generation | Primary X URL · prompt truncated in  | Source link only |
+| 3 | @Aiminithoughts | `x-aiminithoughts-grok-imagine-golden-angel` Golden Angel Warrior — Grok Imagine clip | [Source](https://x.com/Aiminithoughts/status/2120329925702070425) | [Case](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md) | [Original](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/prompt.md) | Author labels the post 'Grok Imagine Pro | Grok Imagine native video | Primary X URL · prompt published in  | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · Qwen — Qwen3.8 / Qwen 4 Preview (1)</strong></summary>
+<summary><strong>Family · Qwen — Qwen3.8 / Qwen 4 Preview (3)</strong></summary>
 
 | # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) | jamesgreene.com labeled run: Qwen3.8 27B | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
+| 2 | @coffeecup2020（David Y. Tan） | `x-coffeecup2020-qwen4-sagrada` Sagrada Família demo from Qwen 4.0 Preview | [Source](https://x.com/coffeecup2020/status/2120113388629995921) | [Case](docs/cases/x-coffeecup2020-qwen4-sagrada/README.md) | [Unpublished](docs/cases/x-coffeecup2020-qwen4-sagrada/prompt.md) | Author claim: Qwen 4.0 (Preview), iterat | Iterative self-critique demo · recor | Primary X URL + video · prompt unpub | Source link only |
+| 3 | @leo114119（Leo） | `x-leo114119-qwen4max-wukong-plane` Sun Wukong flying a plane — HTML 3D demo | [Source](https://x.com/leo114119/status/2120371909624033439) | [Case](docs/cases/x-leo114119-qwen4max-wukong-plane/README.md) | [Unpublished](docs/cases/x-leo114119-qwen4max-wukong-plane/prompt.md) | Author claim: Qwen 4 Max Preview + qoder | HTML + 3D animation demo · recorded  | Primary X URL + video · prompt unpub | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · DeepSeek — V4.1 Flash (2)</strong></summary>
+<summary><strong>Family · DeepSeek — V4.1 Flash (3)</strong></summary>
 
 | # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city` Isometric day/night city HTML loop — DeepSeek V4.1 Flash 101 | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/prompt.md) | jamesgreene.com labeled run: DeepSeek V4 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
 | 2 | @LatentOperatorX | `x-latentoperator-a380-deepseek-fable-sol` Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fab | [Source](https://x.com/LatentOperatorX/status/2120205377803518132) | [Case](docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md) | [Short / partial](docs/cases/x-latentoperator-a380-deepseek-fable-sol/prompt.md) | Author timed DeepSeek V4.1 Flash (+ Harn | Three.js single-scene challenge · co | Primary X URL · short shared prompt  | Source link only |
+| 3 | @LatentOperatorX（Latent Operator） | `x-latentoperator-deepseek-excavator` Three.js excavator loading a dump truck — DeepSeek Harness v | [Source](https://x.com/LatentOperatorX/status/2120077800887746603) | [Case](docs/cases/x-latentoperator-deepseek-excavator/README.md) | [Short / partial](docs/cases/x-latentoperator-deepseek-excavator/prompt.md) | Author claim: same DeepSeek V4.1 Flash m | Three.js excavator challenge · compa | Primary X URL · published challenge  | Source link only |
 
 </details>
 

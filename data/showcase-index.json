@@ -1,7 +1,7 @@
 {
   "meta": {
     "updated": "2026-11-11",
-    "count": 26,
+    "count": 43,
     "scope": "main collected cases"
   },
   "cases": [
@@ -51,6 +51,21 @@
       "video": ""
     },
     {
+      "id": "x-deryatr-fable52-ataturk-remembrance",
+      "title": "10 November remembrance video by Fable 5.2",
+      "model_family": "claude",
+      "model_version": "claude-fable-5.2",
+      "work_type": "animation",
+      "date": "2026-11-10",
+      "author": "@DeryaTR_（Derya Unutmaz）",
+      "source_url": "https://x.com/DeryaTR_/status/2120083276916224014",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120083044631560192/img/FdgQw395xxh4ahTO.jpg",
+      "image_source": "https://x.com/DeryaTR_/status/2120083276916224014",
+      "image_credit": "@DeryaTR_（Derya Unutmaz）",
+      "thumb": "assets/thumbs/x-deryatr-fable52-ataturk-remembrance.jpg",
+      "video": ""
+    },
+    {
       "id": "web-ofox-fable52-svg-sailboat",
       "title": "Editable SVG sailboat illustration with CSS motion (two API calls)",
       "model_family": "claude",
@@ -63,6 +78,66 @@
       "image_source": "https://ofox.ai/blog/claude-fable-5-2-svg-guide/",
       "image_credit": "Ofox",
       "thumb": "assets/thumbs/web-ofox-fable52-svg-sailboat.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-deryatr-fable52-tcell-film",
+      "title": "T-cell life film in Blender (12,480 frames, Fable 5.2)",
+      "model_family": "claude",
+      "model_version": "claude-fable-5.2",
+      "work_type": "html-3d",
+      "date": "2026-11-11",
+      "author": "@DeryaTR_（Derya Unutmaz）",
+      "source_url": "https://x.com/DeryaTR_/status/2120382619082727604",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120382215389351937/img/E6ZZTSD4c1AF5co5.jpg",
+      "image_source": "https://x.com/DeryaTR_/status/2120382619082727604",
+      "image_credit": "@DeryaTR_（Derya Unutmaz）",
+      "thumb": "assets/thumbs/x-deryatr-fable52-tcell-film.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-evanmilenko-fable52-dragon-game",
+      "title": "Dragon game built from scratch in Three.js",
+      "model_family": "claude",
+      "model_version": "claude-fable-5.2",
+      "work_type": "html-3d",
+      "date": "2026-11-11",
+      "author": "@EvanMilenko（Evan）",
+      "source_url": "https://x.com/EvanMilenko/status/2120322640048959503",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120322603168452608/img/lmtIUo5krz235RAe.jpg",
+      "image_source": "https://x.com/EvanMilenko/status/2120322640048959503",
+      "image_credit": "@EvanMilenko（Evan）",
+      "thumb": "assets/thumbs/x-evanmilenko-fable52-dragon-game.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-financeyf5-fable52-bugatti-tourbillon",
+      "title": "Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)",
+      "model_family": "claude",
+      "model_version": "claude-fable-5.2",
+      "work_type": "html-3d",
+      "date": "2026-11-11",
+      "author": "@xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）",
+      "source_url": "https://x.com/FinanceYF5/status/2120372142147842296",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120372062237892608/img/_f5UkWglY6Va83zp.jpg",
+      "image_source": "https://x.com/FinanceYF5/status/2120372142147842296",
+      "image_credit": "@xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）",
+      "thumb": "assets/thumbs/x-financeyf5-fable52-bugatti-tourbillon.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-kloss-fable52-ocean-threejs",
+      "title": "Photo-real Three.js ocean that runs from sunset to sunrise",
+      "model_family": "claude",
+      "model_version": "claude-fable-5.2",
+      "work_type": "html-3d",
+      "date": "2026-11-11",
+      "author": "@kloss_xyz（klöss）",
+      "source_url": "https://x.com/kloss_xyz/status/2120378126740095273",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120378028446691329/img/eFCYP6V1EUCeJkZD.jpg",
+      "image_source": "https://x.com/kloss_xyz/status/2120378126740095273",
+      "image_credit": "@kloss_xyz（klöss）",
+      "thumb": "assets/thumbs/x-kloss-fable52-ocean-threejs.jpg",
       "video": ""
     },
     {
@@ -81,6 +156,21 @@
       "video": ""
     },
     {
+      "id": "x-mrtactical-fable52-mechanical-keyboard",
+      "title": "Mechanical keyboard built and typed on in Blender",
+      "model_family": "claude",
+      "model_version": "claude-fable-5.2",
+      "work_type": "html-3d",
+      "date": "2026-11-11",
+      "author": "@MrTacticalX（Mr Tactical）",
+      "source_url": "https://x.com/MrTacticalX/status/2120342453807157720",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120342368729567232/img/vwtFaVjBcCIo9GFL.jpg",
+      "image_source": "https://x.com/MrTacticalX/status/2120342453807157720",
+      "image_credit": "@MrTacticalX（Mr Tactical）",
+      "thumb": "assets/thumbs/x-mrtactical-fable52-mechanical-keyboard.jpg",
+      "video": ""
+    },
+    {
       "id": "x-paleknight-fable52-vs-opus55-ship",
       "title": "Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)",
       "model_family": "claude",
@@ -93,6 +183,21 @@
       "image_source": "https://x.com/paleknight/status/2120368418805174639",
       "image_credit": "@paleknight（Vraj）",
       "thumb": "assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-quxiaoyin-fable52-agentsky-film",
+      "title": "Point-light 3D film about AgentSky (Blender and code)",
+      "model_family": "claude",
+      "model_version": "claude-fable-5.2",
+      "work_type": "html-3d",
+      "date": "2026-11-11",
+      "author": "@quxiaoyin（Xiaoyin Qu）",
+      "source_url": "https://x.com/quxiaoyin/status/2120341962314150207",
+      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2120341512093401089/pu/img/teFPIv7QuM-VPUqw.jpg",
+      "image_source": "https://x.com/quxiaoyin/status/2120341962314150207",
+      "image_credit": "@quxiaoyin（Xiaoyin Qu）",
+      "thumb": "assets/thumbs/x-quxiaoyin-fable52-agentsky-film.jpg",
       "video": ""
     },
     {
@@ -111,6 +216,21 @@
       "video": ""
     },
     {
+      "id": "x-aiforsuccess-gemini-carbon-v8",
+      "title": "V8 engine in FreeCAD and Blender",
+      "model_family": "gemini",
+      "model_version": "gemini-4-carbon",
+      "work_type": "html-3d",
+      "date": "2026-11-11",
+      "author": "@ai_for_success（AshutoshShrivastava）",
+      "source_url": "https://x.com/ai_for_success/status/2120317619588972867",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120184011637325825/img/qTx_61ucZA3FmM-m.jpg",
+      "image_source": "https://x.com/ai_for_success/status/2120317619588972867",
+      "image_credit": "@ai_for_success（AshutoshShrivastava）",
+      "thumb": "assets/thumbs/x-aiforsuccess-gemini-carbon-v8.jpg",
+      "video": ""
+    },
+    {
       "id": "x-coodddaaaa-gemini-carbon-pelican-bike",
       "title": "Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试",
       "model_family": "gemini",
@@ -123,6 +243,36 @@
       "image_source": "https://x.com/coodddaaaa/status/2120363353142911078",
       "image_credit": "@coodddaaaa（Joe William）",
       "thumb": "assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-deryatr-gemini-carbon-theme-park",
+      "title": "Theme Park HD pixel-art remake (playable)",
+      "model_family": "gemini",
+      "model_version": "gemini-4-carbon",
+      "work_type": "animation",
+      "date": "2026-11-11",
+      "author": "@DeryaTR_（Derya Unutmaz）",
+      "source_url": "https://x.com/DeryaTR_/status/2120393810941456710",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120393500571082752/img/yCUcDm50Y8suwtJ5.jpg",
+      "image_source": "https://x.com/DeryaTR_/status/2120393810941456710",
+      "image_credit": "@DeryaTR_（Derya Unutmaz）",
+      "thumb": "assets/thumbs/x-deryatr-gemini-carbon-theme-park.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-maxblade-fable-vs-carbon",
+      "title": "Same prompt: Fable 5.2 vs Gemini 4 Carbon",
+      "model_family": "gemini",
+      "model_version": "gemini-4-carbon",
+      "work_type": "animation",
+      "date": "2026-11-11",
+      "author": "@_MaxBlade（Max Blade）",
+      "source_url": "https://x.com/_MaxBlade/status/2120355412021231795",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120354622246195201/img/RnuMfCrZiMW34uGS.jpg",
+      "image_source": "https://x.com/_MaxBlade/status/2120355412021231795",
+      "image_credit": "@_MaxBlade（Max Blade）",
+      "thumb": "assets/thumbs/x-maxblade-fable-vs-carbon.jpg",
       "video": ""
     },
     {
@@ -261,6 +411,36 @@
       "video": ""
     },
     {
+      "id": "x-tokengremlin-gpt62sol-glass-seasons",
+      "title": "Three.js lakeside scene with boat, waterfall, trees, and butterflies",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "work_type": "html-3d",
+      "date": "2026-11-09",
+      "author": "@TokenGremlin（Token Gremlin）",
+      "source_url": "https://x.com/TokenGremlin/status/2119852532616790037",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119849730087833600/img/ieJLfQURTiMhfGWt.jpg",
+      "image_source": "https://x.com/TokenGremlin/status/2119852532616790037",
+      "image_credit": "@TokenGremlin（Token Gremlin）",
+      "thumb": "assets/thumbs/x-tokengremlin-gpt62sol-glass-seasons.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-cfenghub-gpt62sol-colosseum",
+      "title": "Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "work_type": "html-3d",
+      "date": "2026-11-10",
+      "author": "@cfenghub（CF长风）",
+      "source_url": "https://x.com/cfenghub/status/2120069654437921152",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120062692052619264/img/I_Td9qpjSTKIZiU5.jpg",
+      "image_source": "https://x.com/cfenghub/status/2120069654437921152",
+      "image_credit": "@cfenghub（CF长风）",
+      "thumb": "assets/thumbs/x-cfenghub-gpt62sol-colosseum.jpg",
+      "video": ""
+    },
+    {
       "id": "x-raitoox-sol-stranger-things-credits",
       "title": "Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)",
       "model_family": "gpt-code",
@@ -321,6 +501,21 @@
       "video": ""
     },
     {
+      "id": "x-takamasa045-gpt61sol-momoyama",
+      "title": "Azuchi-Momoyama castle town diorama in HTML and Three.js",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.1-sol",
+      "work_type": "html-3d",
+      "date": "2026-11-09",
+      "author": "@takamasa045（伊藤貴將）",
+      "source_url": "https://x.com/takamasa045/status/2119769277846990949",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119768567646441472/img/IcNF-lyEITicLA0D.jpg",
+      "image_source": "https://x.com/takamasa045/status/2119769277846990949",
+      "image_credit": "@takamasa045（伊藤貴將）",
+      "thumb": "assets/thumbs/x-takamasa045-gpt61sol-momoyama.jpg",
+      "video": ""
+    },
+    {
       "id": "web-jamesgreene-code1-grok47-isometric-city",
       "title": "Isometric day/night city HTML loop — Grok 4.7",
       "model_family": "grok",
@@ -333,6 +528,21 @@
       "image_source": "https://jamesgreene.com/models/",
       "image_credit": "James Greene (model comparison archive)",
       "thumb": "assets/thumbs/web-jamesgreene-code1-grok47-isometric-city.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-aiminithoughts-grok-imagine-golden-angel",
+      "title": "Golden Angel Warrior — Grok Imagine clip",
+      "model_family": "grok",
+      "model_version": "grok-imagine-video",
+      "work_type": "animation",
+      "date": "2026-11-11",
+      "author": "@Aiminithoughts",
+      "source_url": "https://x.com/Aiminithoughts/status/2120329925702070425",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120329878176407552/img/TsbogFKZAbJNeDHw.jpg",
+      "image_source": "https://x.com/Aiminithoughts/status/2120329925702070425",
+      "image_credit": "@Aiminithoughts",
+      "thumb": "assets/thumbs/x-aiminithoughts-grok-imagine-golden-angel.jpg",
       "video": ""
     },
     {
@@ -366,6 +576,36 @@
       "video": ""
     },
     {
+      "id": "x-leo114119-qwen4max-wukong-plane",
+      "title": "Sun Wukong flying a plane — HTML 3D demo",
+      "model_family": "qwen",
+      "model_version": "qwen4-max-preview",
+      "work_type": "html-3d",
+      "date": "2026-11-11",
+      "author": "@leo114119（Leo）",
+      "source_url": "https://x.com/leo114119/status/2120371909624033439",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120371475978878977/img/Eeax2TiQzJZvJzH_.jpg",
+      "image_source": "https://x.com/leo114119/status/2120371909624033439",
+      "image_credit": "@leo114119（Leo）",
+      "thumb": "assets/thumbs/x-leo114119-qwen4max-wukong-plane.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-coffeecup2020-qwen4-sagrada",
+      "title": "Sagrada Família demo from Qwen 4.0 Preview",
+      "model_family": "qwen",
+      "model_version": "qwen4-preview",
+      "work_type": "animation",
+      "date": "2026-11-10",
+      "author": "@coffeecup2020（David Y. Tan）",
+      "source_url": "https://x.com/coffeecup2020/status/2120113388629995921",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120112189595889664/img/rFNAZcU8AI2iaNFS.jpg",
+      "image_source": "https://x.com/coffeecup2020/status/2120113388629995921",
+      "image_credit": "@coffeecup2020（David Y. Tan）",
+      "thumb": "assets/thumbs/x-coffeecup2020-qwen4-sagrada.jpg",
+      "video": ""
+    },
+    {
       "id": "web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city",
       "title": "Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017",
       "model_family": "deepseek",
@@ -393,6 +633,21 @@
       "image_source": "https://x.com/LatentOperatorX/status/2120205377803518132",
       "image_credit": "@LatentOperatorX",
       "thumb": "assets/thumbs/x-latentoperator-a380-deepseek-fable-sol.jpg",
+      "video": ""
+    },
+    {
+      "id": "x-latentoperator-deepseek-excavator",
+      "title": "Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code",
+      "model_family": "deepseek",
+      "model_version": "deepseek-v4.1-flash",
+      "work_type": "html-3d",
+      "date": "2026-11-10",
+      "author": "@LatentOperatorX（Latent Operator）",
+      "source_url": "https://x.com/LatentOperatorX/status/2120077800887746603",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120077706465525760/img/xceuJd2uh8ImD-rA.jpg",
+      "image_source": "https://x.com/LatentOperatorX/status/2120077800887746603",
+      "image_credit": "@LatentOperatorX（Latent Operator）",
+      "thumb": "assets/thumbs/x-latentoperator-deepseek-excavator.jpg",
       "video": ""
     }
   ]
