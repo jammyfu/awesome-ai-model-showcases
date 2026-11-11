@@ -30,7 +30,7 @@
 - Fresh Cake Happy I Love You：趋势采样已确认外链，爱意脉冲与致谢/Yay 重叠，不另开方案
 - Lily Gladstone Language #4：媒体变体错绑，保持未绑候选
 
-[打开独立页面](https://jammyfu.github.io/awesome-gpt-image-gifs/popular.html) · [JSON](../docs/data/popular-playbooks.json)
+[打开独立页面](https://jammyfu.github.io/awesome-ai-model-showcases/popular.html) · [JSON](../docs/data/popular-playbooks.json)
 
 | # | 方案 | 年/桶 | 平台指标 | 原作 |
 |---:|---|---|---|---|

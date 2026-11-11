@@ -27,7 +27,7 @@ window.GALLERY_ITEMS = [
     "media_kind": "gif",
     "rights": "repo_seed",
     "creator": "repository seed",
-    "source_url": "https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/pixel-head-pat.gif",
+    "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/pixel-head-pat.gif",
     "media_id": "local-pixel-head-pat",
     "playbook_role": "local_seed"
   },
@@ -58,7 +58,7 @@ window.GALLERY_ITEMS = [
     "media_kind": "gif",
     "rights": "repo_seed",
     "creator": "repository seed",
-    "source_url": "https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/cat-screen-crack.gif",
+    "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-screen-crack.gif",
     "media_id": "local-cat-screen-crack",
     "playbook_role": "local_seed"
   },
@@ -89,7 +89,7 @@ window.GALLERY_ITEMS = [
     "media_kind": "gif",
     "rights": "repo_seed",
     "creator": "repository seed",
-    "source_url": "https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/cat-headbutt.gif",
+    "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-headbutt.gif",
     "media_id": "local-cat-headbutt",
     "playbook_role": "local_seed"
   },
@@ -120,7 +120,7 @@ window.GALLERY_ITEMS = [
     "media_kind": "gif",
     "rights": "repo_seed",
     "creator": "repository seed",
-    "source_url": "https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/kangaroo-pat.gif",
+    "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/kangaroo-pat.gif",
     "media_id": "local-kangaroo-pat",
     "playbook_role": "local_seed"
   },
@@ -151,7 +151,7 @@ window.GALLERY_ITEMS = [
     "media_kind": "gif",
     "rights": "repo_seed",
     "creator": "repository seed",
-    "source_url": "https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/martial-arts-combo.gif",
+    "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/martial-arts-combo.gif",
     "media_id": "local-martial-arts-combo",
     "playbook_role": "local_seed"
   },
@@ -182,7 +182,7 @@ window.GALLERY_ITEMS = [
     "media_kind": "gif",
     "rights": "repo_seed",
     "creator": "repository seed",
-    "source_url": "https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/gifs/head-pat-caption.gif",
+    "source_url": "https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/head-pat-caption.gif",
     "media_id": "local-head-pat-caption",
     "playbook_role": "local_seed"
   },

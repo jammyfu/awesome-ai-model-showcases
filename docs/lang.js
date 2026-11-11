@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const KEY = 'awesome-gpt-image-gifs-lang';
+  const KEY = 'awesome-ai-model-showcases-lang';
   function queryLang() {
     const q = new URLSearchParams(location.search).get('lang');
     if (q === 'en' || q === 'zh') return q;
@@ -20,7 +20,7 @@
     en: {
       skip: 'Skip to catalog',
       brand: 'Case library',
-      brandAria: 'Awesome GPT Image GIFs home',
+      brandAria: 'Awesome AI Model Showcases home',
       navCatalog: 'Catalog',
       navGifs: 'Real GIFs',
       navGame: 'Game sequences',
@@ -28,7 +28,7 @@
       navPopular: 'Appendix · popular',
       eyebrow: 'Community catalog · not a playbook showcase',
       heroTitle: 'Real cases from the public web.',
-      heroLead: 'Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: original authors, original media, public prompts, sources, and production pipelines. It is a community catalog of GPT Image 2.6 work, not this repository\'s original playbook showcase. Current public inventory, not exhaustive. Author claim ≠ official verification. X “GIF” attachments are usually unwatched MP4. Media is archived locally; original URLs are citations. Licenses are recorded per case; unknown unless a grant is documented.',
+      heroLead: 'Awesome AI Model Showcases collects real public AI model GIF and animation cases: original authors, original media, public prompts, sources, and production pipelines. It is organized by model family (GPT Image is one subsection), not this repository\'s original playbook showcase. Current public inventory, not exhaustive. Author claim ≠ official verification. X “GIF” attachments are usually unwatched MP4. Media is archived locally; original URLs are citations. Licenses are recorded per case; unknown unless a grant is documented.',
       openCatalog: 'Open the catalog',
       markdown: 'Markdown table',
       realGifs: 'Local GIFs',
@@ -46,7 +46,7 @@
       cov5: 'Twelve popular-GIF restages are not 2.6 works',
       catalogKicker: 'COMMUNITY CASES',
       catalogTitle: 'Case catalog',
-      catalogHelp: 'Each row is an original post or source site. The main table contains author-claimed X cases, sourced GIFs, community longform, and game cases. Promo, 2.5, and failures stay out.',
+      catalogHelp: 'Each row is an original post or source site. The catalog is organized by model family; GPT Image 2.6 is the populated subsection. Promo, 2.5, and failures stay out.',
       searchCases: 'Search author, play, id…',
       emptyCases: 'No matching cases.',
       gifKicker: 'REAL GIFS ONLY',
@@ -57,7 +57,7 @@
       faqKicker: 'FAQ',
       faqTitle: 'What this catalog is',
       whatIs: 'What is this repository?',
-      whatIsBody: 'A community library of original-author GPT Image 2.6 cases: author, post, real GIF or MP4, public prompt (empty if missing), model evidence, native GIF vs sprite/postprocess, verification. Not this site\'s original playbooks.',
+      whatIsBody: 'A community library of AI model GIF/animation showcases organized by model family. GPT Image 2.6 is one subsection. Each case keeps author, post, real GIF or MP4, public prompt (empty if missing), model evidence, pipeline, and verification. Not this site\'s original playbooks.',
       whatCan: 'What can I do with it?',
       whatCanBody: 'Open local media and full prompts, use original URLs as citations, submit another original-author case. Browsing does not call the Images API.',
       whatNot: 'What can it not do?',
@@ -112,8 +112,8 @@
     },
     zh: {
       skip: '跳到案例总表',
-      brand: '案例收集库',
-      brandAria: '案例收集库首页',
+      brand: 'AI 模型制作案例集',
+      brandAria: 'AI 模型制作案例集首页',
       navCatalog: '案例总目',
       navGifs: '真 GIF',
       navGame: '游戏序列',
@@ -121,7 +121,7 @@
       navPopular: '附加·热门',
       eyebrow: '社区收集库 · 不是本站方案展',
       heroTitle: '真实案例。',
-      heroLead: 'Awesome GPT Image GIFs 收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集。当前公开搜集核实清单，不是穷尽全网。作者声明 ≠ 官方验证。X 标 GIF 多为未观看 MP4。主表媒体已本地归档，原 URL 只作出处。许可按各案例记录；无明确授权时为未知。',
+      heroLead: 'AI 模型制作案例集收集全网公开的 AI 模型 GIF/动图制作案例、原作者、原媒体、提示词、出处与制作流程；按模型家族分栏（现有 GPT Image 为其中一个子栏目）；不是本站原创方案集。当前公开搜集核实清单，不是穷尽全网。作者声明 ≠ 官方验证。X 标 GIF 多为未观看 MP4。主表媒体已本地归档，原 URL 只作出处。许可按各案例记录；无明确授权时为未知。',
       openCatalog: '打开总目录',
       markdown: 'Markdown 总表',
       realGifs: '本地 GIF',
@@ -139,7 +139,7 @@
       cov5: '热门 GIF 12 重演 = 附加参考，不是 2.6 作品',
       catalogKicker: 'COMMUNITY CASES',
       catalogTitle: '案例总目录',
-      catalogHelp: '每行都是社区原帖或源站。主表包含 X 作者声明、源站 GIF、社区长文与游戏案例。不把宣传、2.5、失败混进来。',
+      catalogHelp: '每行都是社区原帖或源站。目录按模型家族分栏；GPT Image 2.6 是已填充子栏目。不把宣传、2.5、失败混进来。',
       searchCases: '搜作者、玩法、id…',
       emptyCases: '没有匹配案例。',
       gifKicker: 'REAL GIFS ONLY',
@@ -220,8 +220,8 @@
       if (dict[key] != null) el.setAttribute('aria-label', dict[key]);
     });
     const title = lang === 'zh'
-      ? 'Awesome GPT Image GIFs｜社区真实案例收集库'
-      : 'Awesome GPT Image GIFs — community catalog of real GPT Image GIF cases';
+      ? 'Awesome AI Model Showcases｜社区真实案例收集库'
+      : 'Awesome AI Model Showcases — AI model GIF/animation cases by family';
     document.title = title;
     document.querySelectorAll('.lang-switch a').forEach((a) => {
       a.classList.toggle('active', a.getAttribute('data-lang') === lang);

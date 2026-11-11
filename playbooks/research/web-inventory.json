@@ -3,7 +3,7 @@
     "task": "gpt-gif-deep-1106-web-non-x",
     "generated_beijing": "2026-11-06（Asia/Taipei / 北京时间口径）",
     "scope": "非X：官方/提示词社区/GitHub/Reddit/博客/日中英等公开网页",
-    "baseline_note": "基准 jammyfu/awesome-gpt-image-gifs：ideas.json=32玩法，gallery.json=6真实GIF；sources已列官方/Morphic/Nereo/Lightlyn/Veevid/Nowrap/Reddit/V2EX/路飞(X)。本轮非X。",
+    "baseline_note": "基准 jammyfu/awesome-ai-model-showcases：ideas.json=32玩法，gallery.json=6真实GIF；sources已列官方/Morphic/Nereo/Lightlyn/Veevid/Nowrap/Reddit/V2EX/路飞(X)。本轮非X。",
     "updated": "2026-11-09"
   },
   "confirmed_entries": [
@@ -1463,7 +1463,7 @@
   ],
   "verification_summary": {
     "baseline_checked": {
-      "repo": "https://github.com/jammyfu/awesome-gpt-image-gifs",
+      "repo": "https://github.com/jammyfu/awesome-ai-model-showcases",
       "ideas_count": 32,
       "gallery_real_gifs": 6,
       "method": "cursor-github get_file_contents（未克隆）",

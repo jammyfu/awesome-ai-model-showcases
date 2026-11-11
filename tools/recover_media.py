@@ -666,7 +666,7 @@ def main():
         item.setdefault("creator", "repository seed")
         item.setdefault(
             "source_url",
-            f"https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/{item['image']}",
+            f"https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/{item['image']}",
         )
         item["media_id"] = local_map[item["id"]]
         item["playbook_role"] = "local_seed"
@@ -735,7 +735,7 @@ def main():
                     "model": "unknown",
                     "model_claim": "Repository seed from a ChatGPT session; exact 2.6 checkpoint not recorded",
                     "creator": "repository seed",
-                    "source_page": f"https://github.com/jammyfu/awesome-gpt-image-gifs/blob/main/docs/{path}",
+                    "source_page": f"https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/{path}",
                     "source_label": "本项目已有 GIF 案例",
                     "prompt_status": "reconstructed",
                     "playbook_role": "local_seed",

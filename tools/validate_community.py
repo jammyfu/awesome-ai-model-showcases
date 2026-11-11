@@ -11,16 +11,23 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 EN_LEAD = (
-    "Awesome GPT Image GIFs collects real GPT Image GIF cases from the public web: "
+    "Awesome AI Model Showcases collects real public AI model GIF and animation cases: "
     "original authors, original media, public prompts, sources, and production pipelines. "
-    "It is a community catalog of GPT Image 2.6 work, not this repository's original playbook showcase."
+    "It is organized by model family (GPT Image is one subsection), not this repository's original playbook showcase."
 )
-ZH_LEAD = "收集全网 GPT Image GIF 真实案例、原作者、原媒体、提示词、出处与制作流程；不是本站原创方案集"
+ZH_LEAD = "AI 模型制作案例集收集全网公开的 AI 模型 GIF/动图制作案例、原作者、原媒体、提示词、出处与制作流程；按模型家族分栏（现有 GPT Image 为其中一个子栏目）；不是本站原创方案集"
+ABOUT_DESC = (
+    "AI 模型制作案例集 / Awesome AI Model Showcases: public GIF & animation "
+    "cases by model family (GPT Image, Claude, Gemini, GPT Sol, Grok, Qwen, "
+    "DeepSeek…). Authors, media, prompts, sources. English & 中文."
+)
+# 4 GPT Image subsections + 6 reserved families + 4 appendices + 1 contributor <details>
+EXPECTED_DETAILS = 15
 
 
 def first_words(text: str, n: int = 50) -> list[str]:
     body = re.sub(r"<[^>]+>", " ", text)
-    body = body.split("# Awesome GPT Image GIFs", 1)[-1]
+    body = body.split("# Awesome AI Model Showcases", 1)[-1]
     words = re.findall(r"[A-Za-z0-9.6']+", body)
     return words[:n]
 
@@ -48,8 +55,17 @@ def main() -> int:
     assert counts["already_in_repo"] == len(catalog["collected_already_in_repo"]), counts
     assert counts["game_author_claim"] == len(catalog["collected_game_author_claim"]), counts
     assert counts["repo_seeds"] == len(catalog["repo_seeds"]), counts
+    assert counts.get("gpt_image") == counts["main_collected"], counts
+    assert catalog["meta"].get("structure") == "model_family"
+    by_family = catalog.get("collected_by_family") or {}
+    assert "gpt-image" in by_family and len(by_family["gpt-image"]) == counts["gpt_image"]
+    for fam in ("claude", "gemini", "gpt-code", "grok", "qwen", "deepseek"):
+        assert fam in by_family and by_family[fam] == [], fam
     ids = [r["id"] for group in catalog.values() if isinstance(group, list) for r in group]
     assert len(ids) == len(set(ids)), "Duplicate catalog IDs"
+    for rec in catalog["collected_x_author_claim"] + catalog["collected_web_gif"]:
+        assert rec.get("model_family") == "gpt-image", rec["id"]
+        assert rec.get("model_version") == "gpt-image-2.6", rec["id"]
     assert {r["id"] for r in catalog["collected_web_gif"]} == {r["id"] for r in web_source["confirmed_entries"]}
     assert "window.COMMUNITY_CASES" in js
     assert catalog["meta"]["not_exhaustive"] is True
@@ -85,10 +101,14 @@ def main() -> int:
     for blob, english in ((readme, True), (readme_zh, False)):
         for cid in expected_ids:
             assert f"`{cid}`" in blob, f"README dropped catalog evidence: {cid}"
-        assert blob.count("<details>") == blob.count("</details>") == 9
+        assert blob.count("<details>") == blob.count("</details>") == EXPECTED_DETAILS
         assert blob.index('<a id="showcase"></a>') < blob.index('<a id="catalog"></a>')
         assert "hero-wide.png" not in blob, "Do not put the legacy hero ahead of the real examples"
         assert "Technical Snapshot" not in blob
+        family_marker = "Family · GPT Image 2.6" if english else "家族 · GPT Image 2.6"
+        assert family_marker in blob
+        for reserved in ("Claude", "Gemini", "Grok", "Qwen", "DeepSeek"):
+            assert reserved in blob, reserved
         for cid, *_ in FEATURED:
             assert f'docs/cases/{cid}/media/01-gif.gif' in blob
             assert f'docs/cases/{cid}/prompt.md' in blob
@@ -146,18 +166,17 @@ def main() -> int:
     assert "lang.js" in index and "data-lang=\"en\"" in index and "data-lang=\"zh\"" in index
     assert "gifs/cat-screen-crack.gif" not in index
     assert "not this repository's original playbook showcase" in index.lower() or "not this repository" in index
-    assert ZH_LEAD.split("；")[0] in llms or "collects real GPT Image GIF cases" in llms
+    assert ZH_LEAD.split("；")[0] in llms or "organized by model family" in llms
 
     topics = about["topics"]
     assert 5 <= len(topics) <= 12
     for t in topics:
         assert re.fullmatch(r"[a-z0-9][a-z0-9-]{0,34}", t), t
-    assert about["homepage"].startswith("https://jammyfu.github.io/")
-    assert about["description"] == (
-        "Community catalog of real GPT Image GIF cases: original authors, "
-        "media, prompts, sources, and pipelines. GPT Image 2.6. English & 中文."
-    )
+    assert about["homepage"] == "https://jammyfu.github.io/awesome-ai-model-showcases/"
+    assert about["description"] == ABOUT_DESC
     assert len(about["description"]) <= 350
+    assert "awesome-ai-model-showcases" in about["homepage"]
+    assert "gifs" not in about["homepage"].rsplit("/", 2)[-2]
     for path, blob in (("README.md", readme), ("README.zh-CN.md", readme_zh), ("community-cases.md", md)):
         for i, line in enumerate(blob.splitlines(), 1):
             if line.startswith("|") or not line.strip() or line.startswith("|---"):

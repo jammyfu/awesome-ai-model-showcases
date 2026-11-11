@@ -1,16 +1,16 @@
 {
-  "description": "Community catalog of real GPT Image GIF cases: original authors, media, prompts, sources, and pipelines. GPT Image 2.6. English & 中文.",
-  "homepage": "https://jammyfu.github.io/awesome-gpt-image-gifs/",
+  "description": "AI 模型制作案例集 / Awesome AI Model Showcases: public GIF & animation cases by model family (GPT Image, Claude, Gemini, GPT Sol, Grok, Qwen, DeepSeek…). Authors, media, prompts, sources. English & 中文.",
+  "homepage": "https://jammyfu.github.io/awesome-ai-model-showcases/",
   "topics": [
-    "animated-gif",
     "awesome-list",
+    "ai-models",
+    "animated-gif",
     "chinese",
-    "game-assets",
+    "claude",
+    "gemini",
     "gif",
     "gpt-image",
-    "gpt-image-2-6",
-    "image-generation",
     "prompt-engineering",
-    "sprite-sheet"
+    "showcase"
   ]
 }

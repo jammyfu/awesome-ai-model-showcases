@@ -2,7 +2,7 @@
 # Run locally with a GitHub CLI installation authenticated as the intended owner.
 set -euo pipefail
 cd "$(dirname "$0")"
-REPO="jammyfu/awesome-gpt-image-gifs"
+REPO="jammyfu/awesome-ai-model-showcases"
 if ! command -v gh >/dev/null 2>&1; then
   echo 'GitHub CLI (gh) is required: https://cli.github.com/' >&2
   exit 1
