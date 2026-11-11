@@ -91,6 +91,19 @@ def sha256_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def lfs_pointer(path: Path):
+    if path.stat().st_size > 1024:
+        return None
+    try:
+        text = path.read_text("utf-8")
+    except UnicodeDecodeError:
+        return None
+    if not text.startswith("version https://git-lfs.github.com/spec/v1"):
+        return None
+    fields = dict(line.split(" ", 1) for line in text.splitlines() if " " in line)
+    return {"oid": fields.get("oid", "").removeprefix("sha256:"), "size": int(fields.get("size", "-1"))}
+
+
 def x_dynamic_urls(x_inv: dict) -> list[str]:
     urls = []
     for c in x_inv["author_claim_media_meta_checked"]:
@@ -109,6 +122,17 @@ def check_manifest_file(f: dict) -> dict:
     path = ROOT / f["local_path"]
     if not path.is_file():
         raise AssertionError(f"missing file {f['local_path']}")
+    pointer = lfs_pointer(path)
+    if pointer is not None:
+        # Checked out without LFS content (e.g. CI): the pointer's oid is the
+        # sha256 of the real file and its size is the real byte count.
+        if pointer["oid"] != f["sha256"]:
+            raise AssertionError(f"sha256 mismatch (lfs pointer) {f['local_path']}")
+        if pointer["size"] != f["bytes"]:
+            raise AssertionError(f"size mismatch (lfs pointer) {f['local_path']}")
+        if pointer["size"] >= 95 * 1024 * 1024:
+            raise AssertionError(f"oversized {f['local_path']}")
+        return {"lfs_pointer": True}
     if sha256_file(path) != f["sha256"]:
         raise AssertionError(f"sha256 mismatch {f['local_path']}")
     if path.stat().st_size != f["bytes"]:
@@ -175,7 +199,7 @@ def main() -> int:
     for url in x_urls:
         rec = ok_by_url[url]
         assert rec.get("ext") == "mp4", (url, rec.get("ext"))
-        assert rec["_probe"].get("has_video"), (url, rec["_probe"])
+        assert rec["_probe"].get("lfs_pointer") or rec["_probe"].get("has_video"), (url, rec["_probe"])
 
     x_by = {c["id"]: c for c in x_inv.get("author_claim_media_meta_checked") or []}
     web_by = {c["id"]: c for c in web_inv.get("confirmed_entries") or []}
