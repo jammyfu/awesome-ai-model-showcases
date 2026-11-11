@@ -41,3 +41,13 @@ As of the 2026-11-11 review of `fd831de`, 217 of 225 saved thumbnails and 301 of
 未经核实授权的媒体默认只提供原帖入口。署名、下载成功、仓库所有者要求归档，都不是作者授权。本次保留旧归档以便复核与恢复，但停止公开页面嵌入，并从 Pages 发布包排除未授权素材；没有清除 Git 历史，也不等于所有素材的权利问题已经解决。八个 ailingqu GIF 及其注明修改的缩略图按明确的 CC BY 4.0 来源授权保留。
 
 If you own material here and have a rights concern, open a GitHub Issue for review or removal.
+
+## Documented grants: additional model-table stills
+
+Three separately labeled still-image works accompany the README model tables. They do not enter the 183-case main catalog or imply the current coding models produced these images. Exact hashes, source revisions, four-language descriptions and original credit chains are in [the supplemental manifest](data/readme-supplemental-previews.json); visible attribution and modification records are in [preview credits](docs/readme-preview-credits.md).
+
+- Qwen-Image-2.1: Mats2208's snowy-street adaptation of Mbaro01's Calle Charcas photograph. The pinned project explicitly licenses edits of its CC BY-SA benchmark photographs under CC BY-SA 4.0. The original photographer, original photo link, adapting author and license are retained. This output and any derivatives remain CC BY-SA 4.0.
+- Imagen through the Gemini app, 2025: VulcanSphere's valley image on Wikimedia Commons, with an explicit file-specific CC0 dedication. The current description says Imagen 4.0 while the initial upload summary says 3.0; the public caption discloses this uncertainty instead of asserting a precise version. This is not Gemini 4 Carbon.
+- Grok Aurora, December 2024: VulcanSphere's astronaut riding a horse on the Moon, with an explicit file-specific CC0 dedication. This is not a Grok 4.7 coding or video example.
+
+All three files are unchanged original WebPs, with source marks preserved; the HTML only scales their display. The full [CC BY-SA 4.0](docs/licenses/CC-BY-SA-4.0.txt) and [CC0 1.0](docs/licenses/CC0-1.0.txt) texts are included. Source statements are not independent reproduction of generation. License grants do not establish model authenticity.

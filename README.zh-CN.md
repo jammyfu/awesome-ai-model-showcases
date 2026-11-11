@@ -45,7 +45,7 @@
 <a id="catalog"></a>
 ## 按模型查找
 
-六个家族共 **183 条有来源案例**。每个家族优先展示其首个有案例的重点版本中的一条入门示例，全部版本和记录都保留在[完整目录](docs/catalog.zh-CN.md)。这是一组导航，不是模型能力排名。
+六个家族共 **183 条有来源案例**。每个表格精选三个不同题材，列出预览入口、介绍、模型、作者与来源。尚未核实转载授权的媒体只提供原帖入口，不冒充已嵌入的预览图。全部版本和记录保留在[完整目录](docs/catalog.zh-CN.md)。这是编辑精选导航，不是模型能力排名。
 
 版本按编辑优先级排列：先展示来源标注的当前重点版本，同版本再看来源日期。尚无可比热度数据。[排序规则](docs/discovery-order.md)。
 
@@ -61,7 +61,14 @@
 <a id="ver-claude-opus-5-5"></a>
 - [Claude Opus 5.5](docs/catalog.zh-CN.md#ver-claude-opus-5-5) · 9
 
-入门示例: **关于 AgentSky 的点光源三维影片（Blender 与代码）** · 署名: @quxiaoyin（Xiaoyin Qu） · [案例](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#zh-cn) · [原帖](https://x.com/quxiaoyin/status/2120341962314150207)
+<table>
+<thead><tr><th>预览</th><th>案例与介绍</th><th>模型与来源</th></tr></thead>
+<tbody>
+<tr><td><a href="https://x.com/quxiaoyin/status/2120341962314150207">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>关于 AgentSky 的点光源三维影片（Blender 与代码）</strong><br>Blender 和代码制作的点光影片 · 视频录制</td><td>Claude Fable 5.2<br><small>来源声明</small><br>@quxiaoyin（Xiaoyin Qu）<br><a href="docs/translations/x-quxiaoyin-fable52-agentsky-film.md#zh-cn">案例</a> · <a href="https://x.com/quxiaoyin/status/2120341962314150207">原帖</a></td></tr>
+<tr><td><a href="https://x.com/MengTo/status/2120316203738829180">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>用 Fable 5.2 在 Blender 中重建 Three.js 公寓</strong><br>Claude + Blender 复刻既有 Three.js 公寓场景 · 屏幕录制</td><td>Claude Fable 5.2<br><small>来源声明</small><br>@MengTo（Meng To）<br><a href="docs/translations/x-mengto-fable52-blender-apartment.md#zh-cn">案例</a> · <a href="https://x.com/MengTo/status/2120316203738829180">原帖</a></td></tr>
+<tr><td><a href="https://x.com/EvanMilenko/status/2120322640048959503">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>从零用 Three.js 制作龙游戏</strong><br>Three.js 龙主题游戏 · 游戏实录</td><td>Claude Fable 5.2<br><small>来源声明</small><br>@EvanMilenko（Evan）<br><a href="docs/translations/x-evanmilenko-fable52-dragon-game.md#zh-cn">案例</a> · <a href="https://x.com/EvanMilenko/status/2120322640048959503">原帖</a></td></tr>
+</tbody>
+</table>
 
 <a id="gemini"></a>
 ### Gemini · 6 条
@@ -73,7 +80,15 @@
 <a id="ver-gemini-4-argon"></a>
 - [Gemini 4 Argon](docs/catalog.zh-CN.md#ver-gemini-4-argon) · 1
 
-入门示例: **单个 HTML 文件中的交互式三维纽约巡游（Three.js）** · 署名: @StatsWire · [案例](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#zh-cn) · [原帖](https://x.com/StatsWire/status/2120344850071540152)
+<table>
+<thead><tr><th>预览</th><th>案例与介绍</th><th>模型与来源</th></tr></thead>
+<tbody>
+<tr><td><a href="https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp"><img src="docs/readme-assets/cases/licensed-gemini-imagen4-valley.webp" alt="阳光照亮花岗岩山谷、松林、河流和木屋；保留原始 AI 标记与签名。" width="200"></a></td><td><strong>午后光照山谷</strong><br>2025 年通过 Gemini 应用创作的风景图。来源页面写 Imagen 4.0，上传摘要却写 3.0，具体版本存疑，并非 Gemini 4 Carbon。<br><small>补充授权作品 · 不计入目录总数</small><br><small>保留原图，仅缩小显示。</small></td><td>Imagen / Gemini · 2025<br><small>来源声明</small><br>VulcanSphere<br><a href="https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp">原帖</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> · <a href="https://commons.wikimedia.org/w/index.php?title=File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp&amp;oldid=1147349755">授权依据</a><br><a href="docs/readme-preview-credits.md#licensed-gemini-imagen4-valley">署名与修改说明</a></td></tr>
+<tr><td><a href="https://x.com/StatsWire/status/2120344850071540152">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>单个 HTML 文件中的交互式三维纽约巡游（Three.js）</strong><br>Three.js 单文件场景 · 屏幕录制视频</td><td>Gemini 4 Carbon<br><small>来源声明</small><br>@StatsWire<br><a href="docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#zh-cn">案例</a> · <a href="https://x.com/StatsWire/status/2120344850071540152">原帖</a></td></tr>
+<tr><td><a href="https://x.com/DeryaTR_/status/2120393810941456710">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>Theme Park 高清像素画重制版（可玩）</strong><br>HTML 像素画复刻 · 可玩地址 https://theme-park-hd.vercel.app · 视频录制</td><td>Gemini 4 Carbon<br><small>来源声明</small><br>@DeryaTR_（Derya Unutmaz）<br><a href="docs/translations/x-deryatr-gemini-carbon-theme-park.md#zh-cn">案例</a> · <a href="https://x.com/DeryaTR_/status/2120393810941456710">原帖</a></td></tr>
+<tr><td><a href="https://x.com/ai_for_success/status/2120317619588972867">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>FreeCAD 与 Blender 中的 V8 发动机</strong><br>FreeCAD + Blender V8 引擎 · 演示录屏</td><td>Gemini 4 Carbon<br><small>来源声明</small><br>@ai_for_success（AshutoshShrivastava）<br><a href="docs/translations/x-aiforsuccess-gemini-carbon-v8.md#zh-cn">案例</a> · <a href="https://x.com/ai_for_success/status/2120317619588972867">原帖</a></td></tr>
+</tbody>
+</table>
 
 <a id="gpt-code"></a>
 ### GPT-6.2 Sol · 14 条
@@ -85,7 +100,14 @@
 <a id="ver-gpt-6-1-sol"></a>
 - [GPT-6.1 Sol](docs/catalog.zh-CN.md#ver-gpt-6-1-sol) · 3
 
-入门示例: **用 Three.js、GLSL 与 Blender 制作雨中的罗马斗兽场** · 署名: @cfenghub（CF长风） · [案例](docs/translations/x-cfenghub-gpt62sol-colosseum.md#zh-cn) · [原帖](https://x.com/cfenghub/status/2120069654437921152)
+<table>
+<thead><tr><th>预览</th><th>案例与介绍</th><th>模型与来源</th></tr></thead>
+<tbody>
+<tr><td><a href="https://x.com/cfenghub/status/2120069654437921152">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>用 Three.js、GLSL 与 Blender 制作雨中的罗马斗兽场</strong><br>Three.js + GLSL + Blender · 单个 HTML · 视频录制</td><td>GPT-6.2 Sol<br><small>来源声明</small><br>@cfenghub（CF长风）<br><a href="docs/translations/x-cfenghub-gpt62sol-colosseum.md#zh-cn">案例</a> · <a href="https://x.com/cfenghub/status/2120069654437921152">原帖</a></td></tr>
+<tr><td><a href="https://x.com/TokenGremlin/status/2119395930805879165">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>一次生成单个 HTML 文件中的 Three.js 黑洞（作者路由至 GPT-6.2 Sol）</strong><br>Three.js 单个 HTML 文件 · X 录屏／视频</td><td>GPT-6.2 Sol<br><small>来源声明</small><br>@TokenGremlin（Token Gremlin）<br><a href="docs/translations/x-tokengremlin-gpt62sol-threejs-blackhole.md#zh-cn">案例</a> · <a href="https://x.com/TokenGremlin/status/2119395930805879165">原帖</a></td></tr>
+<tr><td><a href="https://x.com/HarshithLucky3/status/2119418918616150080">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>SVG 动画：鹈鹕与两只螃蟹骑自行车（Codex 路由）</strong><br>通过 Codex 制作 SVG 动画 · 视频录制</td><td>GPT-6.2 Sol<br><small>来源声明</small><br>@HarshithLucky3（Harshith）<br><a href="docs/translations/x-harshithlucky3-gpt62sol-pelican-svg-animation.md#zh-cn">案例</a> · <a href="https://x.com/HarshithLucky3/status/2119418918616150080">原帖</a></td></tr>
+</tbody>
+</table>
 
 <a id="grok"></a>
 ### Grok · 11 条
@@ -97,7 +119,15 @@
 <a id="ver-grok-imagine-video"></a>
 - [Grok Imagine Video](docs/catalog.zh-CN.md#ver-grok-imagine-video) · 10
 
-入门示例: **等距视角城市昼夜 HTML 循环动画：Grok 4.7** · 署名: James Greene (model comparison archive) · [案例](docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#zh-cn) · [原帖](https://jamesgreene.com/models/)
+<table>
+<thead><tr><th>预览</th><th>案例与介绍</th><th>模型与来源</th></tr></thead>
+<tbody>
+<tr><td><a href="https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp"><img src="docs/readme-assets/cases/licensed-grok-aurora-astronaut.webp" alt="身着宇航服的宇航员骑着棕马穿过月球地表，地球出现在地平线上。" width="200"></a></td><td><strong>宇航员在月球骑马</strong><br>VulcanSphere 称于 2024 年 12 月使用 Grok Aurora 文生图创作。并非 Grok 4.7 编程或视频案例。<br><small>补充授权作品 · 不计入目录总数</small><br><small>保留原图，仅缩小显示。</small></td><td>Grok Aurora (2024)<br><small>来源声明</small><br>VulcanSphere<br><a href="https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp">原帖</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> · <a href="https://commons.wikimedia.org/w/index.php?title=File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp&amp;oldid=1265346265">授权依据</a><br><a href="docs/readme-preview-credits.md#licensed-grok-aurora-astronaut">署名与修改说明</a></td></tr>
+<tr><td><a href="https://jamesgreene.com/models/">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>等距视角城市昼夜 HTML 循环动画：Grok 4.7</strong><br>独立 HTML／CSS／JS 动画（代码模型，非 Grok Imagine Video）</td><td>Grok 4.7<br><small>来源声明</small><br>James Greene (model comparison archive)<br><a href="docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#zh-cn">案例</a> · <a href="https://jamesgreene.com/models/">原帖</a></td></tr>
+<tr><td><a href="https://x.com/HaluAIArt/status/2118285947921989988">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>暗黑电子嘻哈舞蹈视频</strong><br>原帖标注为 Grok Imagine 原生视频</td><td>Grok Imagine Video<br><small>来源声明</small><br>@HaluAIArt（はる）<br><a href="docs/translations/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance.md#zh-cn">案例</a> · <a href="https://x.com/HaluAIArt/status/2118285947921989988">原帖</a></td></tr>
+<tr><td><a href="https://x.com/whichaiwon/status/2118342571592446154">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>Grok Imagine Video 1.5 Lite 对口型测试</strong><br>原帖标注为 Grok Imagine 原生视频</td><td>Grok Imagine Video<br><small>来源声明</small><br>@whichaiwon（Which AI Won）<br><a href="docs/translations/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit.md#zh-cn">案例</a> · <a href="https://x.com/whichaiwon/status/2118342571592446154">原帖</a></td></tr>
+</tbody>
+</table>
 
 <a id="qwen"></a>
 ### Qwen · 3 条
@@ -111,7 +141,15 @@
 <a id="ver-qwen3-8-27b"></a>
 - [Qwen3.8 27B](docs/catalog.zh-CN.md#ver-qwen3-8-27b) · 1
 
-入门示例: **孙悟空开飞机：HTML 三维演示** · 署名: @leo114119（Leo） · [案例](docs/translations/x-leo114119-qwen4max-wukong-plane.md#zh-cn) · [原帖](https://x.com/leo114119/status/2120371909624033439)
+<table>
+<thead><tr><th>预览</th><th>案例与介绍</th><th>模型与来源</th></tr></thead>
+<tbody>
+<tr><td><a href="https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html"><img src="docs/readme-assets/cases/licensed-qwen-image21-snowy-street.webp" alt="积雪覆盖的布宜诺斯艾利斯街道，行人、阳台和温暖的店铺灯光清晰可见。" width="200"></a></td><td><strong>查尔卡斯街的雪夜</strong><br>Qwen-Image-2.1 将街景照片改为雪夜。这是来源声明的图像编辑测试，并非 Qwen4 编程案例。<br><small>补充授权作品 · 不计入目录总数</small><br><small>保留原图，仅缩小显示。</small></td><td>Qwen-Image-2.1<br><small>来源声明</small><br>Mbaro01 · Mats2208<br><a href="https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html">原帖</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · <a href="https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/README.md#license">授权依据</a><br><a href="docs/readme-preview-credits.md#licensed-qwen-image21-snowy-street">署名与修改说明</a></td></tr>
+<tr><td><a href="https://x.com/leo114119/status/2120371909624033439">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>孙悟空开飞机：HTML 三维演示</strong><br>HTML + 3D 动画演示 · 视频录制</td><td>Qwen 4 Max Preview<br><small>来源声明</small><br>@leo114119（Leo）<br><a href="docs/translations/x-leo114119-qwen4max-wukong-plane.md#zh-cn">案例</a> · <a href="https://x.com/leo114119/status/2120371909624033439">原帖</a></td></tr>
+<tr><td><a href="https://x.com/coffeecup2020/status/2120113388629995921">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>Qwen 4.0 Preview 制作的圣家堂演示</strong><br>迭代式自我评审演示 · 视频录制</td><td>Qwen 4.0 Preview<br><small>来源声明</small><br>@coffeecup2020（David Y. Tan）<br><a href="docs/translations/x-coffeecup2020-qwen4-sagrada.md#zh-cn">案例</a> · <a href="https://x.com/coffeecup2020/status/2120113388629995921">原帖</a></td></tr>
+<tr><td><a href="https://jamesgreene.com/models/">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>等距视角城市昼夜 HTML 循环动画：Qwen3.8 27B</strong><br>独立 HTML／CSS／JS 动画</td><td>Qwen3.8 27B<br><small>来源声明</small><br>James Greene (model comparison archive)<br><a href="docs/translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#zh-cn">案例</a> · <a href="https://jamesgreene.com/models/">原帖</a></td></tr>
+</tbody>
+</table>
 
 <a id="deepseek"></a>
 ### DeepSeek · 3 条
@@ -123,7 +161,14 @@
 <a id="ver-deepseek-v4-1-flash"></a>
 - [DeepSeek V4.1 Flash](docs/catalog.zh-CN.md#ver-deepseek-v4-1-flash) · 2
 
-入门示例: **等距视角城市昼夜 HTML 循环动画：DeepSeek V4.1 Flash 1017** · 署名: James Greene (model comparison archive) · [案例](docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#zh-cn) · [原帖](https://jamesgreene.com/models/)
+<table>
+<thead><tr><th>预览</th><th>案例与介绍</th><th>模型与来源</th></tr></thead>
+<tbody>
+<tr><td><a href="https://jamesgreene.com/models/">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>等距视角城市昼夜 HTML 循环动画：DeepSeek V4.1 Flash 1017</strong><br>独立 HTML／CSS／JS 动画</td><td>DeepSeek V4.1 Flash 1017<br><small>来源声明</small><br>James Greene (model comparison archive)<br><a href="docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#zh-cn">案例</a> · <a href="https://jamesgreene.com/models/">原帖</a></td></tr>
+<tr><td><a href="https://x.com/LatentOperatorX/status/2120205377803518132">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>Three.js 中的空客 A380 起飞：DeepSeek V4.1 Flash、Fable 5.2 与 GPT-6.1 Sol 对比</strong><br>Three.js 单场景挑战 · 对比视频</td><td>DeepSeek V4.1 Flash<br><small>来源声明</small><br>@LatentOperatorX<br><a href="docs/translations/x-latentoperator-a380-deepseek-fable-sol.md#zh-cn">案例</a> · <a href="https://x.com/LatentOperatorX/status/2120205377803518132">原帖</a></td></tr>
+<tr><td><a href="https://x.com/LatentOperatorX/status/2120077800887746603">到原帖看效果 ↗</a><br><small>预览转载授权待核实</small></td><td><strong>Three.js 挖掘机装载自卸卡车：DeepSeek Harness 对比 Command Code</strong><br>Three.js 挖掘机挑战 · 对比视频</td><td>DeepSeek V4.1 Flash<br><small>来源声明</small><br>@LatentOperatorX（Latent Operator）<br><a href="docs/translations/x-latentoperator-deepseek-excavator.md#zh-cn">案例</a> · <a href="https://x.com/LatentOperatorX/status/2120077800887746603">原帖</a></td></tr>
+</tbody>
+</table>
 
 
 <a id="latest"></a>

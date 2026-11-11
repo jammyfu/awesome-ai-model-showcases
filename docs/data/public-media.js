@@ -11,6 +11,9 @@ window.PUBLIC_MEDIA_PATHS = [
   "readme-assets/apple-touch-icon.png",
   "readme-assets/cases/03-isometric.jpg",
   "readme-assets/cases/22-hud.jpg",
+  "readme-assets/cases/licensed-gemini-imagen4-valley.webp",
+  "readme-assets/cases/licensed-grok-aurora-astronaut.webp",
+  "readme-assets/cases/licensed-qwen-image21-snowy-street.webp",
   "readme-assets/favicon.png",
   "readme-assets/project-icon.png",
   "readme-assets/showcase-hero.png"

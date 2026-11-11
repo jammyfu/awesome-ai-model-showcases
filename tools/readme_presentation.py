@@ -413,14 +413,60 @@ def family_sections(catalog: dict, lang: str) -> str:
             anchor = version_anchor(version)
             blocks += [f'<a id="{anchor}"></a>', f"- [{VERSION_LABEL[version]}](docs/catalog.{lang}.md#{anchor}) · {count}" + (f" · {empty}" if not count else "")]
         if rows:
-            version = next(v for v in VERSION_ORDER[fam] if any(r.get("model_version") == v for r in rows))
-            row = _date_desc([r for r in rows if r.get("model_version") == version])[0]
-            override = DISCOVERY_ORDER.get("featured_cases", {}).get(fam)
-            if override:
-                row = next(r for r in rows if r["id"] == override["case_id"])
-                if row.get("model_version") != version or row["source_url"] != override["source"] or not override["reason"]:
-                    raise ValueError(f"Invalid source-matched featured case for {fam}")
-            blocks += ["", f"{sample}: " + _compact_line(row, lang)[2:]]
+            selected = json.loads((TEMPLATES.parent.parent / "data/readme-model-tables.json").read_text())["families"][fam]
+            by_id = {row["id"]: row for row in rows}
+            labels = {
+                "en": ("Preview", "Case & introduction", "Model & sources", "View at source ↗", "Preview permission pending", "Source-reported"),
+                "zh-CN": ("预览", "案例与介绍", "模型与来源", "到原帖看效果 ↗", "预览转载授权待核实", "来源声明"),
+                "zh-TW": ("預覽", "案例與介紹", "模型與來源", "到原帖看效果 ↗", "預覽轉載授權待核實", "來源聲明"),
+                "ja": ("プレビュー", "事例と紹介", "モデルと出典", "出典で見る ↗", "画像の掲載許諾は未確認", "出典による表記"),
+            }[lang]
+            blocks += ["", "<table>", "<thead><tr>" + "".join(f"<th>{label}</th>" for label in labels[:3]) + "</tr></thead>", "<tbody>"]
+            supplemental_path = TEMPLATES.parent.parent / "data/readme-supplemental-previews.json"
+            supplemental = json.loads(supplemental_path.read_text())["cases"]
+            extra_label = {
+                "en": "Additional licensed work · outside catalog count",
+                "zh-CN": "补充授权作品 · 不计入目录总数",
+                "zh-TW": "補充授權作品 · 不計入目錄總數",
+                "ja": "追加の許諾済み作品 · 目録件数には含めません",
+            }[lang]
+            for extra in supplemental:
+                if extra["model_family"] != fam:
+                    continue
+                if not is_public_asset(extra["image_path"]):
+                    raise ValueError(f"Unapproved supplemental preview: {extra['id']}")
+                loc = extra["locales"][lang]
+                link = escape(extra["source_url"], quote=True)
+                image = escape(extra["image_path"], quote=True)
+                alt = escape(loc["alt"], quote=True)
+                preview = f'<a href="{link}"><img src="{image}" alt="{alt}" width="200"></a>'
+                title = escape(loc["title"])
+                intro = escape(loc["summary"])
+                credit = escape(extra["display_credit"])
+                model = escape(extra["model"])
+                evidence_label = {"en": "Permission", "zh-CN": "授权依据", "zh-TW": "授權依據", "ja": "許諾の根拠"}[lang]
+                credit_label = {"en": "Attribution & changes", "zh-CN": "署名与修改说明", "zh-TW": "署名與修改說明", "ja": "クレジットと変更"}[lang]
+                license_url = escape(extra["license_url"], quote=True)
+                license_label = escape(extra["license"])
+                evidence = escape(extra["license_evidence_url"], quote=True)
+                blocks.append(f'<tr><td>{preview}</td><td><strong>{title}</strong><br>{intro}<br><small>{extra_label}</small><br><small>{escape(loc["changes"])}</small></td><td>{model}<br><small>{labels[5]}</small><br>{credit}<br><a href="{link}">{UI[lang]["post"]}</a> · <a href="{license_url}">{license_label}</a> · <a href="{evidence}">{evidence_label}</a><br><a href="docs/readme-preview-credits.md#{extra['id']}">{credit_label}</a></td></tr>')
+            seen = set()
+            for item in selected:
+                row = by_id[item["case_id"]]
+                if row["id"] in seen or row["source_url"] != item["source_url"]:
+                    raise ValueError(f"Duplicate or stale table selection: {row['id']}")
+                seen.add(row["id"])
+                source = escape(row["source_url"], quote=True)
+                # Source-only is explicit: never hotlink an unlicensed archive image
+                # or substitute a family banner for an actual case result.
+                preview = f'<a href="{source}">{labels[3]}</a><br><small>{labels[4]}</small>'
+                title = escape(" ".join(localized(row, "title", lang).split()))
+                intro = escape(" ".join(localized(row, "pipeline", lang).split()))
+                model = escape(VERSION_LABEL[row["model_version"]])
+                credit = escape(row.get("image_credit") or row.get("author") or "")
+                detail = escape(translation_link(row, lang), quote=True)
+                blocks.append(f'<tr><td>{preview}</td><td><strong>{title}</strong><br>{intro}</td><td>{model}<br><small>{labels[5]}</small><br>{credit}<br><a href="{detail}">{UI[lang]["case"]}</a> · <a href="{source}">{UI[lang]["post"]}</a></td></tr>')
+            blocks += ["</tbody>", "</table>"]
         blocks.append("")
     return "\n".join(blocks).rstrip() + "\n"
 
@@ -441,6 +487,27 @@ def readme_showcase_gifs(catalog: dict, lang: str) -> str:
         lines.append(f'<a href="{escape(detail)}"><img src="{escape(media)}" alt="{escape(title)} · ailingqu · GPT Image 2.6" width="232"></a>')
         links.append(f"- **[{title}]({detail})** · ailingqu · [{prompt_label}]({row['local_prompt']}) · [{UI[lang]['post']}]({row['source_url']})")
     return "\n".join(lines + ["</p>", "", *links])
+
+
+def write_preview_credits() -> None:
+    """Visible credit chain and changes for the exact additional preview bytes."""
+    root = TEMPLATES.parent.parent
+    rows = json.loads((root / "data/readme-supplemental-previews.json").read_text())["cases"]
+    lines = ["<!-- Generated by tools/write_community_catalog.py; edit data/readme-supplemental-previews.json. -->",
+             "# Preview credits / 预览署名 / 預覽署名 / プレビューのクレジット", ""]
+    for row in rows:
+        lines += [f'<a id="{row["id"]}"></a>', f'## {row["model"]}', "", row['credit'], "",
+                  f'[Source / 来源 / 來源 / 出典]({row["source_url"]}) · [{row["license"]}]({row["license_url"]}) · [Permission / 授权 / 授權 / 許諾]({row["license_evidence_url"]})', ""]
+        original = row['source_evidence'].get('original_source_url')
+        if original:
+            lines += [f'[Original photograph / 原照片 / 原照片 / 原写真]({original})', ""]
+        for lang in ("en", "zh-CN", "zh-TW", "ja"):
+            loc = row['locales'][lang]
+            lines += [f'### {lang}', "", f'**{loc["title"]}**', "", loc['summary'], "", loc['changes'], ""]
+        lines += [f'Original modification record: {row["changes"]}', "",
+                  f'SHA-256: {row["image_sha256"]}', "",
+                  f'[License text / 许可全文 / 許可全文 / ライセンス全文]({row["local_license_path"].removeprefix("docs/")})', ""]
+    (root / "docs/readme-preview-credits.md").write_text("\n".join(lines).rstrip()+"\n", encoding="utf-8")
 
 
 def source_spotlights() -> dict:

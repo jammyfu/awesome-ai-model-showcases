@@ -27,7 +27,7 @@ ${source_spotlights}
 <a id="catalog"></a>
 ## Browse by model
 
-**${main_count} source-linked cases** in six families. Each family gets one starting example from its first populated priority version here; all versions and records remain in the [full catalog](docs/catalog.en.md). This is navigation, not a model ranking.
+**${main_count} source-linked cases** in six families. Each table introduces three different subjects, with a preview entry, introduction, model label, creator, and source. Media without verified publication permission opens at its original source; it is not an embedded preview. All versions and records remain in the [full catalog](docs/catalog.en.md). This is editorial navigation, not a model ranking.
 
 Version order is editorial: important current source-labeled versions first, then source dates within a version. Comparable popularity data is not yet available. [Ordering policy](docs/discovery-order.md).
 

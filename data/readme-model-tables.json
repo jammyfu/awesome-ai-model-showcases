@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-11",
+  "selection_basis": "Three distinct subjects per model family from the existing catalog. Editorial discovery, not a popularity or quality ranking. Shared benchmark city cases remain labeled by their distinct source-reported model; no shared cover is displayed.",
+  "families": {
+    "claude": [
+      {
+        "case_id": "x-quxiaoyin-fable52-agentsky-film",
+        "source_url": "https://x.com/quxiaoyin/status/2120341962314150207"
+      },
+      {
+        "case_id": "x-mengto-fable52-blender-apartment",
+        "source_url": "https://x.com/MengTo/status/2120316203738829180"
+      },
+      {
+        "case_id": "x-evanmilenko-fable52-dragon-game",
+        "source_url": "https://x.com/EvanMilenko/status/2120322640048959503"
+      }
+    ],
+    "gemini": [
+      {
+        "case_id": "x-statswire-gemini-carbon-nyc-cruiser",
+        "source_url": "https://x.com/StatsWire/status/2120344850071540152"
+      },
+      {
+        "case_id": "x-deryatr-gemini-carbon-theme-park",
+        "source_url": "https://x.com/DeryaTR_/status/2120393810941456710"
+      },
+      {
+        "case_id": "x-aiforsuccess-gemini-carbon-v8",
+        "source_url": "https://x.com/ai_for_success/status/2120317619588972867"
+      }
+    ],
+    "gpt-code": [
+      {
+        "case_id": "x-cfenghub-gpt62sol-colosseum",
+        "source_url": "https://x.com/cfenghub/status/2120069654437921152"
+      },
+      {
+        "case_id": "x-tokengremlin-gpt62sol-threejs-blackhole",
+        "source_url": "https://x.com/TokenGremlin/status/2119395930805879165"
+      },
+      {
+        "case_id": "x-harshithlucky3-gpt62sol-pelican-svg-animation",
+        "source_url": "https://x.com/HarshithLucky3/status/2119418918616150080"
+      }
+    ],
+    "grok": [
+      {
+        "case_id": "web-jamesgreene-code1-grok47-isometric-city",
+        "source_url": "https://jamesgreene.com/models/"
+      },
+      {
+        "case_id": "x-haluaiart-grok-imagine-dark-electro-hip-hop-dance",
+        "source_url": "https://x.com/HaluAIArt/status/2118285947921989988"
+      },
+      {
+        "case_id": "x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit",
+        "source_url": "https://x.com/whichaiwon/status/2118342571592446154"
+      }
+    ],
+    "qwen": [
+      {
+        "case_id": "x-leo114119-qwen4max-wukong-plane",
+        "source_url": "https://x.com/leo114119/status/2120371909624033439"
+      },
+      {
+        "case_id": "x-coffeecup2020-qwen4-sagrada",
+        "source_url": "https://x.com/coffeecup2020/status/2120113388629995921"
+      },
+      {
+        "case_id": "web-jamesgreene-code1-qwen38-27b-isometric-city",
+        "source_url": "https://jamesgreene.com/models/"
+      }
+    ],
+    "deepseek": [
+      {
+        "case_id": "web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city",
+        "source_url": "https://jamesgreene.com/models/"
+      },
+      {
+        "case_id": "x-latentoperator-a380-deepseek-fable-sol",
+        "source_url": "https://x.com/LatentOperatorX/status/2120205377803518132"
+      },
+      {
+        "case_id": "x-latentoperator-deepseek-excavator",
+        "source_url": "https://x.com/LatentOperatorX/status/2120077800887746603"
+      }
+    ]
+  }
+}

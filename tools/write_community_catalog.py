@@ -26,6 +26,7 @@ from readme_presentation import (
     main_case_rows,
     render_readme,
     write_site_spotlight,
+    write_preview_credits,
     sol_note,
     work_type_of,
 )
@@ -1217,6 +1218,7 @@ def main() -> None:
         )
 
     write_site_spotlight()
+    write_preview_credits()
 
     llms = f"""# Awesome AI Model Showcases
 

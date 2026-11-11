@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "scope": "Additional explicitly licensed source works, separate from the 183-case coding/animation catalog. Exact model versions and work types are preserved; images are not proof of reproduced generation.",
+  "cases": [
+    {
+      "id": "licensed-qwen-image21-snowy-street",
+      "model_family": "qwen",
+      "model": "Qwen-Image-2.1",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "Original photograph: Mbaro01, Calle Charcas, ciudad de Buenos Aires 4.JPG (CC BY-SA 4.0); AI snow/night adaptation: Mats2208 / qwen-image-local using Qwen-Image-2.1 (CC BY-SA 4.0).",
+      "source_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html",
+      "image_source_url": "https://raw.githubusercontent.com/Mats2208/qwen-image-local/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/img/bench/E1_calle_nieve_qwen.webp",
+      "image_path": "docs/readme-assets/cases/licensed-qwen-image21-snowy-street.webp",
+      "image_sha256": "9ea4e96d2b360dbbad27419dd8d162cee172ac9def211670157313bed4fa740f",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_evidence_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/README.md#license",
+      "local_license_path": "docs/licenses/CC-BY-SA-4.0.txt",
+      "locales": {
+        "en": {
+          "title": "Snowy night on Charcas Street",
+          "summary": "Qwen-Image-2.1 edits a street photograph into a snowy night. Source-reported image-edit benchmark; not a Qwen4 coding demo.",
+          "alt": "Snow-covered Buenos Aires street with pedestrians, balconies and warm shop lights.",
+          "changes": "Original image unchanged; displayed smaller."
+        },
+        "zh-CN": {
+          "title": "查尔卡斯街的雪夜",
+          "summary": "Qwen-Image-2.1 将街景照片改为雪夜。这是来源声明的图像编辑测试，并非 Qwen4 编程案例。",
+          "alt": "积雪覆盖的布宜诺斯艾利斯街道，行人、阳台和温暖的店铺灯光清晰可见。",
+          "changes": "保留原图，仅缩小显示。"
+        },
+        "zh-TW": {
+          "title": "查爾卡斯街的雪夜",
+          "summary": "Qwen-Image-2.1 將街景照片改為雪夜。這是來源聲明的影像編輯測試，並非 Qwen4 程式設計案例。",
+          "alt": "積雪覆蓋的布宜諾斯艾利斯街道，行人、陽台和溫暖的店鋪燈光清晰可見。",
+          "changes": "保留原圖，僅縮小顯示。"
+        },
+        "ja": {
+          "title": "チャルカス通りの雪の夜",
+          "summary": "Qwen-Image-2.1 で街路写真を雪の夜景に編集。出典が報告する画像編集テストであり、Qwen4 のコーディング事例ではありません。",
+          "alt": "雪に覆われたブエノスアイレスの通り。歩行者、バルコニー、暖かな店の明かりが見える。",
+          "changes": "原画像は変更せず、表示のみ縮小。"
+        }
+      },
+      "changes": "Unmodified upstream WebP; CSS display scaling only. Upstream changed original photograph into a snowy night scene. Preserve CC BY-SA 4.0 on this output and any derived thumbnail.",
+      "source_evidence": {
+        "id": "licensed-qwen-image21-snowy-street",
+        "family": "qwen",
+        "model_label": "Qwen-Image-2.1 (September 2026 image model)",
+        "source_revision": "f26beee377d1861f5b5b35a7ea6efb3222d35c98",
+        "asset_path": "docs/img/bench/E1_calle_nieve_qwen.webp",
+        "asset_url": "https://raw.githubusercontent.com/Mats2208/qwen-image-local/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/img/bench/E1_calle_nieve_qwen.webp",
+        "source_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_evidence_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/README.md#license",
+        "license_scope_quote": "Edits of CC BY-SA benchmark photos are CC BY-SA 4.0.",
+        "attribution": "Original photograph: Mbaro01, Calle Charcas, ciudad de Buenos Aires 4.JPG (CC BY-SA 4.0); AI snow/night adaptation: Mats2208 / qwen-image-local using Qwen-Image-2.1 (CC BY-SA 4.0).",
+        "original_source_url": "https://commons.wikimedia.org/w/index.php?title=File:Calle_Charcas,_ciudad_de_Buenos_Aires_4.JPG&oldid=1110843796",
+        "model_evidence_urls": [
+          "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/bench/make_site.py",
+          "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/bench/suite.json",
+          "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/bench/results/qwen/results.json",
+          "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/bench/inputs/credits.json"
+        ],
+        "modifications": "Unmodified upstream WebP; CSS display scaling only. Upstream changed original photograph into a snowy night scene. Preserve CC BY-SA 4.0 on this output and any derived thumbnail.",
+        "review": "Pixels inspected 2026-11-11: detailed snowy street, buildings, pedestrians, warm windows. Meaningful actual output, not logo, blank or loading frame. No generation rerun. README/mobile layout not tested.",
+        "sha256": "9ea4e96d2b360dbbad27419dd8d162cee172ac9def211670157313bed4fa740f",
+        "dimensions": [
+          1400,
+          1069
+        ],
+        "bytes": 329094,
+        "translation_status": "AI-translated, not human reviewed"
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed",
+      "display_credit": "Mbaro01 · Mats2208"
+    },
+    {
+      "id": "licensed-gemini-imagen4-valley",
+      "model_family": "gemini",
+      "model": "Imagen / Gemini · 2025",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "VulcanSphere / Wikimedia Commons; Imagen via Gemini app (2025); CC0 1.0.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+      "image_source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+      "image_path": "docs/readme-assets/cases/licensed-gemini-imagen4-valley.webp",
+      "image_sha256": "058741fd6d0d80b9918f29394b4c7cf3e482f05189ae331c53fb83d5ff7a3a50",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp&oldid=1147349755",
+      "local_license_path": "docs/licenses/CC0-1.0.txt",
+      "locales": {
+        "en": {
+          "title": "Illuminated afternoon valley",
+          "summary": "A landscape made in the Gemini app in 2025. The source page says Imagen 4.0, but its upload summary says 3.0; the exact version is uncertain. Not Gemini 4 Carbon.",
+          "alt": "Sunlit granite valley with pine trees, a river and a wooden cabin; original AI mark and signature retained.",
+          "changes": "Original image unchanged; displayed smaller."
+        },
+        "zh-CN": {
+          "title": "午后光照山谷",
+          "summary": "2025 年通过 Gemini 应用创作的风景图。来源页面写 Imagen 4.0，上传摘要却写 3.0，具体版本存疑，并非 Gemini 4 Carbon。",
+          "alt": "阳光照亮花岗岩山谷、松林、河流和木屋；保留原始 AI 标记与签名。",
+          "changes": "保留原图，仅缩小显示。"
+        },
+        "zh-TW": {
+          "title": "午後光照山谷",
+          "summary": "2025 年透過 Gemini 應用程式創作的風景圖。來源頁面寫 Imagen 4.0，上傳摘要卻寫 3.0，具體版本存疑，並非 Gemini 4 Carbon。",
+          "alt": "陽光照亮花崗岩山谷、松林、河流和木屋；保留原始 AI 標記與簽名。",
+          "changes": "保留原圖，僅縮小顯示。"
+        },
+        "ja": {
+          "title": "午後の光に照らされた渓谷",
+          "summary": "2025 年に Gemini アプリで制作した風景画。出典ページは Imagen 4.0、アップロード要約は 3.0 と記載し、正確な版は不明です。Gemini 4 Carbon ではありません。",
+          "alt": "陽光に照らされた花崗岩の渓谷、松林、川、木造の小屋。元の AI マークと署名を保持。",
+          "changes": "原画像は変更せず、表示のみ縮小。"
+        }
+      },
+      "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
+      "source_evidence": {
+        "id": "licensed-gemini-imagen4-valley",
+        "family": "gemini",
+        "model_label": "Imagen via Gemini (2025; version uncertain)",
+        "source_date": "2025-05-24",
+        "source_revision": "1147349755",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+        "license_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp&oldid=1147349755",
+        "asset_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "creator": "VulcanSphere",
+        "attribution": "VulcanSphere / Wikimedia Commons; Imagen via Gemini app (2025); CC0 1.0.",
+        "model_evidence": "File description, author and source fields on the pinned Commons page. Source-reported generation, not independently rerun.",
+        "modifications": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
+        "review": "Pixels inspected 2026-11-11 at full resolution: actual complete scene, no blank/loading state, no unrelated logo. Distinct from other candidates. README/mobile layout not yet tested.",
+        "translation_status": "AI-translated, not human reviewed",
+        "sha256": "058741fd6d0d80b9918f29394b4c7cf3e482f05189ae331c53fb83d5ff7a3a50",
+        "sha1": "9030b24d515f452c5a1987e8caaf843bd81f9be9",
+        "bytes": 4896530,
+        "dimensions": [
+          2816,
+          1536
+        ],
+        "source_caveat": "Current pinned title, caption, description and source identify Imagen 4.0. Initial upload edit-summary excerpt says Imagen 3.0, apparently an older description; preserve source-reported status rather than claiming independent model authentication."
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed",
+      "display_credit": "VulcanSphere"
+    },
+    {
+      "id": "licensed-grok-aurora-astronaut",
+      "model_family": "grok",
+      "model": "Grok Aurora (2024)",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "VulcanSphere / Wikimedia Commons; Grok Aurora (2024); CC0 1.0.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+      "image_source_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+      "image_path": "docs/readme-assets/cases/licensed-grok-aurora-astronaut.webp",
+      "image_sha256": "554910f2a3c08cce184121c54fadd67367e422587c7ed889b633ea7adc726d07",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp&oldid=1265346265",
+      "local_license_path": "docs/licenses/CC0-1.0.txt",
+      "locales": {
+        "en": {
+          "title": "Astronaut riding a horse on the Moon",
+          "summary": "VulcanSphere reports this text-to-image work was generated with Grok Aurora in December 2024. Not a Grok 4.7 coding or video example.",
+          "alt": "Astronaut in a spacesuit riding a brown horse across a lunar landscape, with Earth on the horizon.",
+          "changes": "Original image unchanged; displayed smaller."
+        },
+        "zh-CN": {
+          "title": "宇航员在月球骑马",
+          "summary": "VulcanSphere 称于 2024 年 12 月使用 Grok Aurora 文生图创作。并非 Grok 4.7 编程或视频案例。",
+          "alt": "身着宇航服的宇航员骑着棕马穿过月球地表，地球出现在地平线上。",
+          "changes": "保留原图，仅缩小显示。"
+        },
+        "zh-TW": {
+          "title": "太空人在月球騎馬",
+          "summary": "VulcanSphere 稱於 2024 年 12 月使用 Grok Aurora 文字生圖創作。並非 Grok 4.7 程式設計或影片案例。",
+          "alt": "身著太空衣的太空人騎著棕馬穿過月球地表，地球出現在地平線上。",
+          "changes": "保留原圖，僅縮小顯示。"
+        },
+        "ja": {
+          "title": "月面で馬に乗る宇宙飛行士",
+          "summary": "VulcanSphere は、2024 年 12 月に Grok Aurora のテキスト画像生成で制作したと報告しています。Grok 4.7 のコーディングや動画の事例ではありません。",
+          "alt": "宇宙服を着た飛行士が月面で茶色の馬に乗り、地平線には地球が見える。",
+          "changes": "原画像は変更せず、表示のみ縮小。"
+        }
+      },
+      "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
+      "source_evidence": {
+        "id": "licensed-grok-aurora-astronaut",
+        "family": "grok",
+        "model_label": "Grok Aurora (2024)",
+        "source_date": "2024-12-10",
+        "source_revision": "1265346265",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+        "license_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp&oldid=1265346265",
+        "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "creator": "VulcanSphere",
+        "attribution": "VulcanSphere / Wikimedia Commons; Grok Aurora (2024); CC0 1.0.",
+        "model_evidence": "File description, author and source fields on the pinned Commons page. Source-reported generation, not independently rerun.",
+        "modifications": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
+        "review": "Pixels inspected 2026-11-11 at full resolution: actual complete scene, no blank/loading state, no unrelated logo. Distinct from other candidates. README/mobile layout not yet tested.",
+        "translation_status": "AI-translated, not human reviewed",
+        "sha256": "554910f2a3c08cce184121c54fadd67367e422587c7ed889b633ea7adc726d07",
+        "sha1": "29c0851344d540e350aa34f083c8e40716fbb8bb",
+        "bytes": 130788,
+        "dimensions": [
+          1024,
+          768
+        ]
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed",
+      "display_credit": "VulcanSphere"
+    }
+  ]
+}

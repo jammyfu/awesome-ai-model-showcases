@@ -298,6 +298,36 @@
       "license": "project-created",
       "evidence_url": "docs/brand-artwork.md",
       "changes": "Byte-identical copy of the approved project-created hero for the Pages document root; illustrative brand art, not case evidence."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-qwen-image21-snowy-street.webp",
+      "sha256": "9ea4e96d2b360dbbad27419dd8d162cee172ac9def211670157313bed4fa740f",
+      "credit": "Original photograph: Mbaro01, Calle Charcas, ciudad de Buenos Aires 4.JPG (CC BY-SA 4.0); AI snow/night adaptation: Mats2208 / qwen-image-local using Qwen-Image-2.1 (CC BY-SA 4.0).",
+      "source_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "evidence_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/README.md#license",
+      "changes": "Unmodified upstream WebP; CSS display scaling only. Upstream changed original photograph into a snowy night scene. Preserve CC BY-SA 4.0 on this output and any derived thumbnail."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-gemini-imagen4-valley.webp",
+      "sha256": "058741fd6d0d80b9918f29394b4c7cf3e482f05189ae331c53fb83d5ff7a3a50",
+      "credit": "VulcanSphere / Wikimedia Commons; Imagen via Gemini app (2025); CC0 1.0.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp&oldid=1147349755",
+      "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-grok-aurora-astronaut.webp",
+      "sha256": "554910f2a3c08cce184121c54fadd67367e422587c7ed889b633ea7adc726d07",
+      "credit": "VulcanSphere / Wikimedia Commons; Grok Aurora (2024); CC0 1.0.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp&oldid=1265346265",
+      "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them."
     }
   ]
 }

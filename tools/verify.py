@@ -43,6 +43,7 @@ def main() -> int:
             "docs/translations",
             "docs/data/public-media.js",
             "docs/index.html",
+            "docs/readme-preview-credits.md",
             "README.md",
             "README.zh-CN.md",
             "README.zh-TW.md",
