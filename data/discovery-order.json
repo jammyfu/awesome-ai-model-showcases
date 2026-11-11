@@ -51,5 +51,12 @@
     "gpt-image": [
       "gpt-image-2.6"
     ]
+  },
+  "featured_cases": {
+    "gpt-code": {
+      "case_id": "x-cfenghub-gpt62sol-colosseum",
+      "reason": "The source explicitly labels this result GPT-6.2 Sol. Do not use a GPT-6.1 source claim relabeled only by the owner as the starting example for the 6.2 priority version.",
+      "source": "https://x.com/cfenghub/status/2120069654437921152"
+    }
   }
 }

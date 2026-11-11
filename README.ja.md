@@ -38,7 +38,7 @@
 
 2026-11-11 時点で比較可能な人気指標は未収集です。ここは出典の日付順で、人気ランキングではありません。
 
-- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
+- **2026-11-11 · GPT Sol** · **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
 - **2026-11-11 · Gemini** · **単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）** · クレジット: @StatsWire · [ケース](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) · [原投稿](https://x.com/StatsWire/status/2120344850071540152)
 - **2026-11-11 · Grok** · **Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ）** · クレジット: @RadCyberTruck · [ケース](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#ja) · [原投稿](https://x.com/RadCyberTruck/status/2120350558431445006)
 - **2026-11-11 · Claude** · **AgentSkyを描く点光源の3D映像（Blenderとコード）** · クレジット: @quxiaoyin（Xiaoyin Qu） · [ケース](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja) · [原投稿](https://x.com/quxiaoyin/status/2120341962314150207)
@@ -100,7 +100,7 @@
 <a id="ver-gpt-6-1-sol"></a>
 - [GPT-6.1 Sol](docs/catalog.ja.md#ver-gpt-6-1-sol) · 3
 
-最初に見る例: **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
+最初に見る例: **Three.js、GLSL、Blenderで制作した雨に濡れるローマのコロッセオ** · クレジット: @cfenghub（CF长风） · [ケース](docs/translations/x-cfenghub-gpt62sol-colosseum.md#ja) · [原投稿](https://x.com/cfenghub/status/2120069654437921152)
 
 <a id="grok"></a>
 ### Grok · 11 件

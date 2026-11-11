@@ -38,7 +38,7 @@ Five recent source-dated cases, not an ingestion log or ranking. Same-day ties u
 
 No comparable popularity snapshot is recorded as of 2026-11-11; this is source-date order, not a popularity ranking.
 
-- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)** · Credit: @YFeng2022（LanFeng） · [Case](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#en) · [Post](https://x.com/YFeng2022/status/2120324811549225082)
+- **2026-11-11 · GPT Sol** · **Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)** · Credit: @YFeng2022（LanFeng） · [Case](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#en) · [Post](https://x.com/YFeng2022/status/2120324811549225082)
 - **2026-11-11 · Gemini** · **Interactive 3D NYC cruiser tour in one HTML file (Three.js)** · Credit: @StatsWire · [Case](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#en) · [Post](https://x.com/StatsWire/status/2120344850071540152)
 - **2026-11-11 · Grok** · **Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)** · Credit: @RadCyberTruck · [Case](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#en) · [Post](https://x.com/RadCyberTruck/status/2120350558431445006)
 - **2026-11-11 · Claude** · **Point-light 3D film about AgentSky (Blender and code)** · Credit: @quxiaoyin（Xiaoyin Qu） · [Case](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#en) · [Post](https://x.com/quxiaoyin/status/2120341962314150207)
@@ -100,7 +100,7 @@ Example to start with: **Interactive 3D NYC cruiser tour in one HTML file (Three
 <a id="ver-gpt-6-1-sol"></a>
 - [GPT-6.1 Sol](docs/catalog.en.md#ver-gpt-6-1-sol) · 3
 
-Example to start with: **Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)** · Credit: @YFeng2022（LanFeng） · [Case](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#en) · [Post](https://x.com/YFeng2022/status/2120324811549225082)
+Example to start with: **Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender** · Credit: @cfenghub（CF长风） · [Case](docs/translations/x-cfenghub-gpt62sol-colosseum.md#en) · [Post](https://x.com/cfenghub/status/2120069654437921152)
 
 <a id="grok"></a>
 ### Grok · 11 cases

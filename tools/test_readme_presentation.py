@@ -84,6 +84,10 @@ class ReadmePresentationTests(unittest.TestCase):
             qwen = output.split('<a id="qwen"></a>', 1)[1].split('<a id="deepseek"></a>', 1)[0]
             self.assertIn('x-leo114119-qwen4max-wukong-plane', qwen)
             self.assertIn(DISCOVERY_ORDER['meta']['reviewed_at'], latest_section(self.rows, lang))
+            sol = output.split('<a id="gpt-code"></a>', 1)[1].split('<a id="grok"></a>', 1)[0]
+            self.assertIn("x-cfenghub-gpt62sol-colosseum", sol)
+            self.assertNotIn("x-yfeng-gpt61-sol-fable-take-flight", sol)
+            self.assertIn(" · GPT Sol**", latest_section(self.rows, lang))
 
     def test_date_order_is_valid_and_deterministic(self):
         for bad in ('', '2026-11', '2026-02-30', '2026-13-01', 'tomorrow'):

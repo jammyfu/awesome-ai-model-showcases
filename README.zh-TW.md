@@ -38,7 +38,7 @@
 
 截至 2026-11-11 尚無可比熱度快照；此處依來源日期排列，不是熱度榜。
 
-- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight：HTML／Three.js 程序化動畫（GPT-6.1 Sol Max）** · 署名: @YFeng2022（LanFeng） · [案例](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#zh-tw) · [原帖](https://x.com/YFeng2022/status/2120324811549225082)
+- **2026-11-11 · GPT Sol** · **Let Fable take Flight：HTML／Three.js 程序化動畫（GPT-6.1 Sol Max）** · 署名: @YFeng2022（LanFeng） · [案例](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#zh-tw) · [原帖](https://x.com/YFeng2022/status/2120324811549225082)
 - **2026-11-11 · Gemini** · **單個 HTML 文件中的交互式三維紐約巡遊（Three.js）** · 署名: @StatsWire · [案例](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#zh-tw) · [原帖](https://x.com/StatsWire/status/2120344850071540152)
 - **2026-11-11 · Grok** · **Grok Imagine：pixstar 的 Cybertruck 告別短片（部分提示詞）** · 署名: @RadCyberTruck · [案例](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#zh-tw) · [原帖](https://x.com/RadCyberTruck/status/2120350558431445006)
 - **2026-11-11 · Claude** · **關於 AgentSky 的點光源三維影片（Blender 與代碼）** · 署名: @quxiaoyin（Xiaoyin Qu） · [案例](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#zh-tw) · [原帖](https://x.com/quxiaoyin/status/2120341962314150207)
@@ -100,7 +100,7 @@
 <a id="ver-gpt-6-1-sol"></a>
 - [GPT-6.1 Sol](docs/catalog.zh-TW.md#ver-gpt-6-1-sol) · 3
 
-入門範例: **Let Fable take Flight：HTML／Three.js 程序化動畫（GPT-6.1 Sol Max）** · 署名: @YFeng2022（LanFeng） · [案例](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#zh-tw) · [原帖](https://x.com/YFeng2022/status/2120324811549225082)
+入門範例: **用 Three.js、GLSL 與 Blender 製作雨中的羅馬鬥獸場** · 署名: @cfenghub（CF长风） · [案例](docs/translations/x-cfenghub-gpt62sol-colosseum.md#zh-tw) · [原帖](https://x.com/cfenghub/status/2120069654437921152)
 
 <a id="grok"></a>
 ### Grok · 11 則

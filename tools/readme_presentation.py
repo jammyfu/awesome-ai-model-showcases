@@ -305,7 +305,8 @@ def latest_section(rows: list[dict], lang: str) -> str:
     }
     lines += [missing_heat[lang].format(date=DISCOVERY_ORDER["meta"]["reviewed_at"]), ""]
     for row in dated[:5]:
-        lines.append(f"- **{row['date']} · {FAMILY_TITLE[row['model_family']]}** · " + _compact_line(row, lang)[2:])
+        family_label = "GPT Sol" if row["model_family"] == "gpt-code" else FAMILY_TITLE[row["model_family"]]
+        lines.append(f"- **{row['date']} · {family_label}** · " + _compact_line(row, lang)[2:])
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -414,6 +415,11 @@ def family_sections(catalog: dict, lang: str) -> str:
         if rows:
             version = next(v for v in VERSION_ORDER[fam] if any(r.get("model_version") == v for r in rows))
             row = _date_desc([r for r in rows if r.get("model_version") == version])[0]
+            override = DISCOVERY_ORDER.get("featured_cases", {}).get(fam)
+            if override:
+                row = next(r for r in rows if r["id"] == override["case_id"])
+                if row.get("model_version") != version or row["source_url"] != override["source"] or not override["reason"]:
+                    raise ValueError(f"Invalid source-matched featured case for {fam}")
             blocks += ["", f"{sample}: " + _compact_line(row, lang)[2:]]
         blocks.append("")
     return "\n".join(blocks).rstrip() + "\n"
