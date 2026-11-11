@@ -1,0 +1,21 @@
+# FBPlot，把代码库里的真实图表做成产品预告
+
+- Case id: `x-almaxgo-fable52-fbplot`
+- Model family: `claude` / `claude-fable-5.2`
+- Author: @al_maxgo（Al Maxgo）
+- Source: https://x.com/al_maxgo/status/2119891197317591040
+- Media (source link only): https://video.twimg.com/amplify_video/2119890367994576896/vid/avc1/320x568/DvylWJxLTlC24bc4.mp4?tag=29
+- Date (source): 2026-11-10
+- Pipeline: X post captured as video or screen recording · HTML
+- Verification: Primary X URL cited by the AIGCreative Feishu wiki · not independently re-run
+- Rights: 许可未知 · 仅出处链接（不本地再托管）· MIT 只覆盖源码
+- Discovery: via 飞书 AIGCreative wiki · 产品、品牌与创作工作流｜20 例 / 04｜从参考素材到网页与品牌成片（7 例）
+
+A local video is kept because the repository owner asked for a credited copy. Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
+
+- Video: [video.mp4](media/video.mp4)
+- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
+
+## Prompt status
+
+See `prompt.md`.

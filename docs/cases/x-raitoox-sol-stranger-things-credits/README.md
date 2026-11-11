@@ -12,7 +12,7 @@
 - Verification: Primary X URL · unofficial 6.2 Sol wording kept as author claim · official name remains GPT-6.1 Sol
 - Rights: 许可未知 · 含第三方影视美术衍生风险 · 仅出处链接
 
-This case is **source-linked only**. Media is not rehosted locally unless a documented grant is added later.
+A local video is kept because the repository owner asked for a credited copy. Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
 
 ## Prompt status
 
@@ -22,3 +22,6 @@ See `prompt.md`.
 ## Notes
 
 Section: GPT-6.2 Sol (owner). Fact: OpenAI introducing-gpt-6-1-sol + docs/models still name GPT-6.1 Sol as of 2026-11-11.
+
+- Video: [video.mp4](media/video.mp4)
+- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.

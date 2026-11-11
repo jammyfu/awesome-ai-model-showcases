@@ -4,6 +4,8 @@
 
 **Archived third-party media:** Main-catalog GIFs, MP4s, reference stills, and published prompts are stored under `docs/cases/<id>/` because the repository owner asked to keep the files locally with author and source citations. This is **not** an author grant, a redistribution license, or CC0. Treat each file as **license unknown** unless a specific work later receives a documented grant.
 
+**Videos:** The owner asked to keep a local `docs/cases/<id>/media/video.mp4` when the source post has a downloadable video, including posts that restrict reposting. Each file stays credited to the original author and links to the original post. This is still not a license to reuse the video. If you own a clip and want it removed, open a GitHub Issue and it will be taken down.
+
 **MIT does not cover media.** Stars, traffic, or the presence of a local copy are not permission to reuse someone else's GIF, video, likeness, or prompt commercially.
 
 **Manifest:** `docs/data/local-media-manifest.json` records local path, original media URL, author, original post, sha256, download date, format, and size. Original URLs are citations, not the only media entry.

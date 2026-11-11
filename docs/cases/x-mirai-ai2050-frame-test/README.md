@@ -26,3 +26,6 @@ See [prompt.md](prompt.md) for the full original text (empty if unpublished).
 ## Post / process
 
 See [post.md](post.md).
+
+- Video: [video.mp4](media/video.mp4)
+- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.

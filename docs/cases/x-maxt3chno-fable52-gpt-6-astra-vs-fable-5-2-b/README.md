@@ -1,0 +1,21 @@
+# GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in Blender
+
+- Case id: `x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b`
+- Model family: `claude` / `claude-fable-5.2`
+- Author: @maxt3chno
+- Source: https://x.com/maxt3chno/status/2119896698281467952
+- Media (source link only): https://media.skillry.dev/fable-5-2/maxt3chno-467952/video.16700423ec.mp4
+- Date (source): 2026-11-09
+- Pipeline: Three.js / HTML or Blender scene captured as video on X
+- Verification: Primary X URL listed by yihui-dev/awesome-fable5-2-videos · not independently re-run
+- Rights: 许可未知 · 仅出处链接（不本地再托管）· MIT 只覆盖源码
+- Discovery: via yihui-dev/awesome-fable5-2-videos
+
+A local video is kept because the repository owner asked for a credited copy. Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
+
+- Video: [video.mp4](media/video.mp4)
+- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
+
+## Prompt status
+
+See `prompt.md`.

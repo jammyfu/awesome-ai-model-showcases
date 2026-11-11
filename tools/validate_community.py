@@ -14,8 +14,9 @@ from write_community_catalog import EN_LEAD, GITHUB_ABOUT, ZH_LEAD
 
 ABOUT_DESC = GITHUB_ABOUT["description"]
 README_FILES = ("README.md", "README.zh-CN.md", "README.zh-TW.md", "README.ja.md")
-# 4 GPT Image subsections + 6 reserved families + 4 appendices + 1 contributor <details>
-EXPECTED_DETAILS = 15
+# 6 frontier family tables + 4 appendices + 1 contributor <details>.
+# GPT Image evidence lives in collections/gpt-image-gifs/, not these details.
+EXPECTED_DETAILS = 11
 
 
 def first_words(text: str, n: int = 50) -> list[str]:
@@ -55,7 +56,8 @@ def main() -> int:
     )
     assert counts["gpt_image"] == sum(len(catalog[key]) for key in gpt_keys), counts
     assert counts["frontier_sourced"] == sum(len(catalog[key]) for key in frontier_keys), counts
-    assert counts["main_collected"] == counts["gpt_image"] + counts["frontier_sourced"], counts
+    assert counts["main_collected"] == counts["frontier_sourced"], counts
+    assert counts.get("gpt_image_subproject") == "collections/gpt-image-gifs/"
     assert counts["already_in_repo"] == len(catalog["collected_already_in_repo"]), counts
     assert counts["game_author_claim"] == len(catalog["collected_game_author_claim"]), counts
     assert counts["repo_seeds"] == len(catalog["repo_seeds"]), counts
@@ -92,9 +94,12 @@ def main() -> int:
     assert llms == llms_docs
     assert str(counts["main_collected"]) in llms and str(counts["main_collected"]) in readme_zh
 
+    gpt_en_early = (ROOT / "collections/gpt-image-gifs/README.md").read_text(encoding="utf-8")
+    gpt_zh_early = (ROOT / "collections/gpt-image-gifs/README.zh-CN.md").read_text(encoding="utf-8")
     for rec in catalog["collected_x_author_claim"]:
-        for blob in (readme, readme_zh, md):
+        for blob in (gpt_en_early, gpt_zh_early):
             assert rec["id"] in blob, rec["id"]
+        assert rec["id"] not in readme and rec["id"] not in readme_zh
         assert rec.get("source_url"), rec["id"]
         if rec["media_kind"] == "mp4":
             assert rec.get("media_url"), rec["id"]
@@ -102,7 +107,8 @@ def main() -> int:
         assert rec.get("local_prompt"), rec["id"]
 
     for rec in catalog["collected_web_gif"]:
-        assert rec["id"] in readme and rec["id"] in readme_zh
+        assert rec["id"] in gpt_en_early and rec["id"] in gpt_zh_early
+        assert rec["id"] not in readme and rec["id"] not in readme_zh
 
     assert EN_LEAD in readme
     words = first_words(readme, 80)
@@ -118,7 +124,16 @@ def main() -> int:
     from readme_presentation import FEATURED
     from PIL import Image
 
-    expected_ids = {r["id"] for key, group in catalog.items() if isinstance(group, list) for r in group}
+    gpt_ids = {r["id"] for key in gpt_keys for r in catalog[key]}
+    homepage_ids = {r["id"] for key in frontier_keys for r in catalog[key]}
+    expected_ids = {
+        r["id"]
+        for key, group in catalog.items()
+        if isinstance(group, list) and key not in gpt_keys
+        for r in group
+    }
+    assert gpt_ids.isdisjoint(expected_ids)
+    assert homepage_ids <= expected_ids
     prompt_labels = {
         "README.md": ("[Unpublished]", "[Short / partial]"),
         "README.zh-CN.md": ("[未公开]", "[短 / 部分]"),
@@ -132,13 +147,11 @@ def main() -> int:
         assert blob.index('<a id="showcase"></a>') < blob.index('<a id="catalog"></a>')
         assert "hero-wide.png" not in blob, "Do not put the legacy hero ahead of the real examples"
         assert "Technical Snapshot" not in blob
-        if name == "README.ja.md":
-            family_marker = "Family · GPT Image 2.6"
-        elif name == "README.md":
-            family_marker = "Family · GPT Image 2.6"
-        else:
-            family_marker = "家族 · GPT Image 2.6"
-        assert family_marker in blob, name
+        assert "Family · GPT Image" not in blob, name
+        assert "家族 · GPT Image" not in blob, name
+        assert "assets/brand/families/gpt-image.png" not in blob, name
+        assert "collections/gpt-image-gifs/" in blob, name
+        assert blob.count("collections/gpt-image-gifs/") == 1, name
         for reserved in ("Claude", "Gemini", "GPT-6.2 Sol", "Grok", "Qwen", "DeepSeek"):
             assert reserved in blob, reserved
         assert (
@@ -150,20 +163,9 @@ def main() -> int:
         assert "developers.openai.com/showcase" in blob
         assert "GPT-6.1 Sol" in blob  # honest dual-status vs OpenAI public docs
         for cid, *_ in FEATURED:
-            assert f'docs/cases/{cid}/media/01-gif.gif' in blob
-            assert f'docs/cases/{cid}/prompt.md' in blob
-        for key in (
-            "collected_x_author_claim",
-            "collected_web_gif",
-            "collected_already_in_repo",
-            "collected_game_author_claim",
-            "collected_claude",
-            "collected_gemini",
-            "collected_gpt_code",
-            "collected_grok",
-            "collected_qwen",
-            "collected_deepseek",
-        ):
+            assert f"docs/cases/{cid}/media/01-gif.gif" not in blob
+            assert cid not in blob
+        for key in frontier_keys:
             for rec in catalog[key]:
                 rows = [line for line in blob.splitlines() if line.startswith("|") and f"`{rec['id']}`" in line]
                 assert len(rows) == 1, rec["id"]
@@ -172,8 +174,32 @@ def main() -> int:
                     assert empty_label in rows[0], (name, rec["id"])
                 elif rec["prompt_status"] == "短/部分":
                     assert partial_label in rows[0], (name, rec["id"])
-    assert "Source motion brief" in readme and "来源动作描述" in readme_zh
-    assert "verbatim wording unconfirmed" in readme and "逐字原文未确认" in readme_zh
+    gpt_en = (ROOT / "collections/gpt-image-gifs/README.md").read_text(encoding="utf-8")
+    gpt_zh = (ROOT / "collections/gpt-image-gifs/README.zh-CN.md").read_text(encoding="utf-8")
+    assert "[Awesome AI Model Showcases](../../README.md)" in gpt_en
+    assert "[AI 模型制作案例集](../../README.zh-CN.md)" in gpt_zh
+    for cid in gpt_ids:
+        assert f"`{cid}`" in gpt_en and f"`{cid}`" in gpt_zh, cid
+    gpt_prompt_labels = {
+        "en": ("[Unpublished]", "[Short / partial]"),
+        "zh-CN": ("[未公开]", "[短 / 部分]"),
+    }
+    for lang, blob in (("en", gpt_en), ("zh-CN", gpt_zh)):
+        for key in gpt_keys:
+            for rec in catalog[key]:
+                rows = [line for line in blob.splitlines() if line.startswith("|") and f"`{rec['id']}`" in line]
+                assert len(rows) == 1, (lang, rec["id"])
+                empty_label, partial_label = gpt_prompt_labels[lang]
+                if rec["prompt_status"] == "空":
+                    assert empty_label in rows[0], (lang, rec["id"])
+                elif rec["prompt_status"] == "短/部分":
+                    assert partial_label in rows[0], (lang, rec["id"])
+    for cid, *_ in FEATURED:
+        assert f"../../docs/cases/{cid}/media/01-gif.gif" in gpt_en
+        assert f"../../docs/cases/{cid}/prompt.md" in gpt_en
+    assert "Source motion brief" in gpt_en and "来源动作描述" in gpt_zh
+    assert "verbatim wording unconfirmed" in gpt_en and "逐字原文未确认" in gpt_zh
+    assert "assets/brand/families/gpt-image.png" not in gpt_en
     with Image.open(ROOT / "docs/readme-assets/project-icon.png") as icon:
         assert icon.format == "PNG" and icon.width == icon.height
         assert icon.mode == "RGBA" and icon.getchannel("A").getextrema()[0] == 0
@@ -236,7 +262,7 @@ def main() -> int:
             if i > 1 and blob.splitlines()[i - 2].startswith("|") and "|" in line:
                 raise AssertionError(f"{path}:{i} table row split by newline: {line[:80]}")
     for name in ("x-miramusic-stretch", "x-xepher113-oc12", "x-yulikay-toast"):
-        for blob in readmes.values():
+        for blob in (gpt_en, gpt_zh):
             table_hits = [line for line in blob.splitlines() if name in line and line.startswith("|")]
             assert table_hits, name
             for line in table_hits:
@@ -246,7 +272,8 @@ def main() -> int:
     missing_doc = (ROOT / "docs/missing-thumbnails.md").read_text(encoding="utf-8")
     index_md = (ROOT / "docs/showcase-index.md").read_text(encoding="utf-8")
     assert index["meta"]["count"] == counts["main_collected"] == len(index["cases"])
-    main_ids = [rec["id"] for key in (*gpt_keys, *frontier_keys) for rec in catalog[key]]
+    main_ids = [rec["id"] for key in frontier_keys for rec in catalog[key]]
+    assert gpt_ids.isdisjoint({rec["id"] for rec in index["cases"]})
     assert [rec["id"] for rec in index["cases"]] == [rec["id"] for rec in index["cases"] if rec["id"] in set(main_ids)]
     assert set(main_ids) == {rec["id"] for rec in index["cases"]}
     from readme_presentation import TYPE_ORDER, VERSION_ORDER
@@ -270,7 +297,16 @@ def main() -> int:
             assert f"../{rec['thumb']}" in index_md
         else:
             assert f"## `{rec['id']}`" in missing_doc, rec["id"]
-    assert "luffy-x-article" in missing_doc
+        video = rec.get("video") or ""
+        if video:
+            path = ROOT / video
+            assert path.is_file(), rec["id"]
+            assert path.stat().st_size < 95 * 1024 * 1024, rec["id"]
+            assert f"[Video](cases/{rec['id']}/media/video.mp4)" in index_md
+            case_readme = ROOT / "docs" / "cases" / rec["id"] / "README.md"
+            assert "[video.mp4](media/video.mp4)" in case_readme.read_text(encoding="utf-8"), rec["id"]
+    assert "luffy-x-article" not in {rec["id"] for rec in index["cases"]}
+    assert (ROOT / "docs/missing-videos.md").is_file()
     for name, blob in readmes.items():
         assert 'id="latest"' in blob, name
         assert 'id="by-type"' in blob, name
@@ -279,7 +315,9 @@ def main() -> int:
         assert blob.find("ver-gemini-4-carbon") < blob.find("ver-gemini-4-argon"), name
         assert blob.find("ver-gpt-6-2-sol") < blob.find("ver-gpt-6-1-sol"), name
     assert VERSION_ORDER["gemini"][0] == "gemini-4-carbon"
-    assert seen_types >= {"gif", "animation", "html-3d", "minigame"}
+    assert seen_types >= {"animation", "html-3d"}
+    archive_types = {rec.get("work_type") for key in gpt_keys for rec in catalog[key]}
+    assert {"gif", "minigame"} <= archive_types
 
     print(
         "community catalog ok: "

@@ -18,6 +18,9 @@ GENERATED = (
     ROOT / "playbooks/community-cases.md",
     ROOT / "docs/showcase-index.md",
     ROOT / "docs/missing-thumbnails.md",
+    ROOT / "docs/missing-videos.md",
+    ROOT / "collections/gpt-image-gifs/README.md",
+    ROOT / "collections/gpt-image-gifs/README.zh-CN.md",
 )
 
 

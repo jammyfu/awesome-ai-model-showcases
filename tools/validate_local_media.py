@@ -146,7 +146,8 @@ def main() -> int:
         main_rows.extend(catalog[key])
     counts_meta = catalog["meta"]["counts"]
     assert len(main_rows) == counts_meta["gpt_image"], (len(main_rows), counts_meta.get("gpt_image"))
-    assert counts_meta["main_collected"] == counts_meta["gpt_image"] + counts_meta.get("frontier_sourced", 0)
+    assert counts_meta["main_collected"] == counts_meta.get("frontier_sourced", 0)
+    assert counts_meta["gpt_image_subproject"] == "collections/gpt-image-gifs/"
 
     files = manifest.get("files") or []
     ok = [f for f in files if f.get("ok")]

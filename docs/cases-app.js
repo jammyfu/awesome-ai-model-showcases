@@ -9,13 +9,16 @@
   function groups() {
     const g = dict().groups || {};
     const by = catalog.collected_by_family || {};
+    const frontier = [
+      ...(by.claude || []),
+      ...(by.gemini || []),
+      ...(by['gpt-code'] || []),
+      ...(by.grok || []),
+      ...(by.qwen || []),
+      ...(by.deepseek || []),
+    ];
     return [
-      { key: 'main', label: g.main || 'Collected', rows: [
-        ...catalog.collected_x_author_claim,
-        ...catalog.collected_web_gif,
-        ...catalog.collected_already_in_repo,
-        ...catalog.collected_game_author_claim,
-      ] },
+      { key: 'main', label: g.main || 'Homepage', rows: frontier },
       { key: 'gpt-image', label: g.gptImage || 'GPT Image', rows: by['gpt-image'] || [] },
       { key: 'x', label: g.x || 'X', rows: catalog.collected_x_author_claim },
       { key: 'web', label: g.web || 'GIF', rows: catalog.collected_web_gif },
@@ -38,9 +41,9 @@
     if (el) el.textContent = String(value);
   };
   setText('count-main', counts.main_collected);
-  setText('count-x', counts.x_author_claim_25);
-  setText('count-web', counts.web_gif_12);
-  setText('count-game', counts.game_author_claim);
+  setText('count-x', counts.family_claude);
+  setText('count-web', counts.family_gemini);
+  setText('count-game', counts['family_gpt-code']);
   setText('count-pending', counts.pending);
   setText('count-appendix', counts.appendix);
 

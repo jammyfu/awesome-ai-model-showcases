@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>&lt;inputs&gt; Ask me for: my product&#x27;s name (one lowercase word), a 4-word tagline, the 3-step</title>
+<style>body{font:16px/1.5 sans-serif;max-width:880px;margin:24px auto;padding:0 16px;background:#10131a;color:#eff3f8}a{color:#c2ff67}pre{white-space:pre-wrap;background:#1a1e27;padding:12px;border-radius:8px}</style></head>
+<body>
+<p><a href="../../index.html">← catalog</a></p>
+<h1>&lt;inputs&gt; Ask me for: my product&#x27;s name (one lowercase word), a 4-word tagline, the 3-step</h1>
+<p>Author: @twoclipping · <a href="https://x.com/twoclipping/status/2106101258834551116">original source</a></p>
+<p>Model: claude / claude-opus-5.5<br>Citing repo lists this under Claude Opus 5.5 and links the original post. Previous mainstream generation. Not independently re-run.<br>Code-made animation captured as video on X<br>Primary X URL listed by yihui-dev/awesome-opus5-5-videos · not independently re-run</p>
+<p>Discovery: via yihui-dev/awesome-opus5-5-videos. Local video, when present, is a credited copy, not a reuse license. MIT covers source code only.</p>
+<h2>Media</h2>
+<p><a href="media/video.mp4">Video</a></p>
+<video src="media/video.mp4" controls playsinline preload="metadata" style="max-width:100%"></video>
+
+<p><a href="https://x.com/twoclipping/status/2106101258834551116">Open source media / page</a></p>
+<h2>Prompt</h2>
+<pre>&lt;inputs&gt;
+Ask me for: my product&#x27;s name (one lowercase word), a 4-word tagline, the 3-step story of what it does, a launch date and domain, a royalty-free song with a clear drop, 4 vertical talking-to-camera clips and 12 portrait photos. If I skip any, use the defaults: &quot;castr&quot;, &quot;ugc ads, cast by ai&quot;, write a brief → scan 1,000 creators → cast 4, Mixkit &quot;Cat Walk&quot; (129.6 BPM, drop at 29.7s), free Pexels clips and portraits, and transparent stickers from Pixabay (serum, mic, megaphone, vintage camera, spotlight, lips).
+&lt;/inputs&gt;
+
+&lt;direction&gt;
+A 25 second square launch trailer, 1440x1440 at 60fps, loud poster style. Cobalt #2B3BFF, ink #0E0F1F, cream #F6E4C6, pink #FF7DC7, tangerine #FF5A1F. Archivo 900 extra-condensed for names, expanded for headlines, Geist and Geist Mono for labels. Op-art sunburst, scrolling waves, film grain. Real media only: the clips play inside the design, and the stickers get a white die-cut border and a soft shadow.
+Motion rules: the camera never stops (a slow 1.03-1.07 push on every scene), nothing pops in (letters rise through a mask line one by one), nothing snaps to the beat (patterns rotate continuously), swaps are carousel glides of about 0.55s, colour changes fade over about 0.35s, stickers ease in and then keep a slow sway. No full stops after the wordmark or any headline.
+Banned: beat-snapped rotations, pop-in slams, white flashes, crossfades between scenes, hard cuts, templates.
+&lt;/direction&gt;
+
+&lt;structure&gt;
+54 beats. The song starts 8 beats before its drop.
+Beats 0-8: a cobalt sunburst turns around a breathing cream disc. The wordmark types in with a gliding caret and the tagline pill rises. The disc floods the frame into the drop.
+Beat 8, the drop: the cream becomes the face of a 3D box and &quot;ONE BRIEF&quot; rises letter by letter. The camera pulls back to the box floating on waves. On beat 12 it turns to &quot;1,000 CREATORS&quot; (stacked, with outlined echoes), on beat 14 to &quot;ZERO DMs&quot;.
+Beats 16-22: a whip to a dark desk. A tangerine &quot;BRIEF #042&quot; ticket types its rows (product, vibe, cast, due), stickers drift on, a polaroid of a real clip drops onto the corner, and a &quot;NOW CASTING&quot; stamp presses down on beat 20.
+Beats 22-34: the casting stage. A crowd of black and white portraits in an arc, a 3D stage block, and the creators gliding through like a carousel. Each plays live in a big disc in black and white, with their name in pink on the stage, their followers, and a MATCH % that counts up. One beat later a &quot;CAST ✓&quot; stamp lands and the clip fades to colour. A counter rolls 1/4 to 4/4.
+Beats 34-39: pink floods out of the last disc. The disc morphs into a phone screen (the clip keeps playing) and fans into 4 phones playing all 4 creators, with views counting up. &quot;4 ADS&quot; and &quot;BY FRIDAY&quot; rise.
+Beats 39-44, the music&#x27;s break: the pink floor drops away and a cream &quot;JOIN THE WAITLIST&quot; ticket glides down onto the sunburst. On the pickup its stub tears off.
+Beats 44-54: the ticket body morphs into a poster arch. The wordmark rises in, then the tagline, then an info bar slides up in 3 blocks (date, numbers, domain) and a ticker runs round the frame edge. Then it all folds back into the opening disc, so the last frame is the first.
+&lt;/structure&gt;
+
+&lt;build&gt;
+1. One HTML canvas. Every frame is a pure function of time inside seek(t).
+2. A beat map in beats, B = 60/BPM, with the song placed so its drop lands on beat 8.
+3. The 3D box is an orthographic projection: each face is a 1440px offscreen canvas drawn with an affine transform and shaded by its normal.
+4. Cut the clips to 30fps JPEG sequences with ffmpeg, draw frame floor(t*30), and do the black and white with ctx.filter.
+5. Trim the sticker PNGs and add the die-cut border by dilating their alpha.
+6. Sound: a downloaded SFX for every event (a shutter on every cast, whooshes on the glides, key clicks on the typing), each placed by its measured peak. Loudnorm to -14 LUFS.
+7. Render with Playwright at 60fps with 8 motion-blur subframes. Scan for single-frame pops, then compare its motion against a reference video (hard jumps per second, share of still frames).
+&lt;/build&gt;
+
+&lt;gotchas&gt;
+A pattern that rotates one notch per beat reads as stutter: rotate it continuously, and pick each ring&#x27;s speed so it lands on the same pattern at the last frame. 4 subframes ghost on fast whips, so use 8. A layer whose background is a huge flood circle still covers the screen after sliding down one frame height, so switch it to a full-frame rect once it has flooded. Counters read the frame&#x27;s time, not the subframe&#x27;s. The disc must morph inside the same camera transform as the scene it leaves, or it jumps.
+&lt;/gotchas&gt;
+
+&lt;start&gt;
+Ask me for the inputs, then show me the beat map and 6 stills (open, box, brief, casting, phones, poster) before you render.
+&lt;/start&gt;</pre>
+</body></html>

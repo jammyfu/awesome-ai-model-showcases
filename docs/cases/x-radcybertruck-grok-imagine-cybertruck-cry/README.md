@@ -10,9 +10,11 @@
 - Verification: Primary X URL · prompt truncated in post · not re-run
 - Rights: 许可未知 · 仅出处链接
 
-This case is **source-linked only**. Media is not rehosted locally unless a documented grant is added later.
+A local video is kept because the repository owner asked for a credited copy. Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
 
 ## Prompt status
 
 See `prompt.md`.
 
+- Video: [video.mp4](media/video.mp4)
+- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
