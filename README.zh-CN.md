@@ -111,7 +111,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <a id="showcase"></a>
 ## 按模型家族看案例
 
-每个家族放两三条仓库里已有、带来源的案例。库存不到这个数，就只放现有的。没有案例的版本留空，不拿别的帖子来凑。
+每个家族、每个版本下的案例全部列出，新的在前。有缩略图的做成卡片，点图看原帖，带 ▶ 视频 的可以直接看本地视频；没有缩略图的各占一行。没有案例的版本留空，不拿别的帖子来凑。
 
 [飞书 AIGCreative 参考合集](docs/reference-feishu.md)会把同一个模型的作品再按用途分组（产品工作流、知识讲解、影像实验、游戏交互、研究复现）。本仓目录仍按模型家族、版本和作品类型走。
 
@@ -121,7 +121,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 
 ![Claude cover](assets/brand/families/claude.png)
 
-这个家族收了 146 条有出处的案例，这里放 4 条。其余都在后面的完整证据表里。
+这个家族收了 146 条有出处的案例，下面按版本全部列出，新的在前。138 条带缩略图卡片，点图看原帖；没有缩略图的各占一行。后面的完整证据表是同一批记录。
 
 <a id="ver-claude-fable-5-2"></a>
 
@@ -130,22 +130,859 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <table>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/quxiaoyin/status/2120341962314150207"><img src="assets/thumbs/x-quxiaoyin-fable52-agentsky-film.jpg" alt="Point-light 3D film about AgentSky (Blender and code) — @quxiaoyin（Xiaoyin Qu）" width="220"></a><br>
+<strong><a href="docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md">Point-light 3D film about AgentSky (Blender and code)</a></strong><br>
+署名: @quxiaoyin（Xiaoyin Qu）<br><a href="https://x.com/quxiaoyin/status/2120341962314150207">原帖</a>
+ · <a href="docs/cases/x-quxiaoyin-fable52-agentsky-film/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
+<strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
+署名: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">原帖</a>
+ · <a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MrTacticalX/status/2120342453807157720"><img src="assets/thumbs/x-mrtactical-fable52-mechanical-keyboard.jpg" alt="Mechanical keyboard built and typed on in Blender — @MrTacticalX（Mr Tactical）" width="220"></a><br>
+<strong><a href="docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md">Mechanical keyboard built and typed on in Blender</a></strong><br>
+署名: @MrTacticalX（Mr Tactical）<br><a href="https://x.com/MrTacticalX/status/2120342453807157720">原帖</a>
+ · <a href="docs/cases/x-mrtactical-fable52-mechanical-keyboard/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
+<strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
+署名: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">原帖</a>
+ · <a href="docs/cases/x-mengto-fable52-blender-apartment/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/kloss_xyz/status/2120378126740095273"><img src="assets/thumbs/x-kloss-fable52-ocean-threejs.jpg" alt="Photo-real Three.js ocean that runs from sunset to sunrise — @kloss_xyz（klöss）" width="220"></a><br>
+<strong><a href="docs/cases/x-kloss-fable52-ocean-threejs/README.md">Photo-real Three.js ocean that runs from sunset to sunrise</a></strong><br>
+署名: @kloss_xyz（klöss）<br><a href="https://x.com/kloss_xyz/status/2120378126740095273">原帖</a>
+ · <a href="docs/cases/x-kloss-fable52-ocean-threejs/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
 <a href="https://x.com/FinanceYF5/status/2120372142147842296"><img src="assets/thumbs/x-financeyf5-fable52-bugatti-tourbillon.jpg" alt="Bugatti Tourbillon in Blender, then a short car film (Fable 5.2) — @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）" width="220"></a><br>
 <strong><a href="docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md">Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)</a></strong><br>
 署名: @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）<br><a href="https://x.com/FinanceYF5/status/2120372142147842296">原帖</a>
+ · <a href="docs/cases/x-financeyf5-fable52-bugatti-tourbillon/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/EvanMilenko/status/2120322640048959503"><img src="assets/thumbs/x-evanmilenko-fable52-dragon-game.jpg" alt="Dragon game built from scratch in Three.js — @EvanMilenko（Evan）" width="220"></a><br>
+<strong><a href="docs/cases/x-evanmilenko-fable52-dragon-game/README.md">Dragon game built from scratch in Three.js</a></strong><br>
+署名: @EvanMilenko（Evan）<br><a href="https://x.com/EvanMilenko/status/2120322640048959503">原帖</a>
+ · <a href="docs/cases/x-evanmilenko-fable52-dragon-game/media/video.mp4">▶ 视频</a>
 </td>
 <td align="center" width="33%">
 <a href="https://x.com/DeryaTR_/status/2120382619082727604"><img src="assets/thumbs/x-deryatr-fable52-tcell-film.jpg" alt="T-cell life film in Blender (12,480 frames, Fable 5.2) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
 <strong><a href="docs/cases/x-deryatr-fable52-tcell-film/README.md">T-cell life film in Blender (12,480 frames, Fable 5.2)</a></strong><br>
 署名: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120382619082727604">原帖</a>
+ · <a href="docs/cases/x-deryatr-fable52-tcell-film/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/"><img src="assets/thumbs/web-ofox-fable52-svg-sailboat.jpg" alt="Editable SVG sailboat illustration with CSS motion (two API calls) — Ofox" width="220"></a><br>
+<strong><a href="docs/cases/web-ofox-fable52-svg-sailboat/README.md">Editable SVG sailboat illustration with CSS motion (two API calls)</a></strong><br>
+署名: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/YinYangYoeshi/status/2119897840965001317"><img src="assets/thumbs/x-yinyangyoeshi-fable52-discovery.jpg" alt="《Discovery》，在三维房间里展开的代码短片 — @YinYangYoeshi（Yoeshi）" width="220"></a><br>
+<strong><a href="docs/cases/x-yinyangyoeshi-fable52-discovery/README.md">《Discovery》，在三维房间里展开的代码短片</a></strong><br>
+署名: @YinYangYoeshi（Yoeshi）<br><a href="https://x.com/YinYangYoeshi/status/2119897840965001317">原帖</a>
+ · <a href="docs/cases/x-yinyangyoeshi-fable52-discovery/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Webilyco/status/2119909604431626667"><img src="assets/thumbs/x-webilyco-fable52-kontur.jpg" alt="KONTUR，把建筑服务页做成带动效的项目旅程 — @Webilyco（Magda）" width="220"></a><br>
+<strong><a href="docs/cases/x-webilyco-fable52-kontur/README.md">KONTUR，把建筑服务页做成带动效的项目旅程</a></strong><br>
+署名: @Webilyco（Magda）<br><a href="https://x.com/Webilyco/status/2119909604431626667">原帖</a>
+ · <a href="docs/cases/x-webilyco-fable52-kontur/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/theo/status/2119926277801144695"><img src="assets/thumbs/x-theo-fable52-fishslop-fable-opus.jpg" alt="Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照 — @theo（Theo - t3.gg）" width="220"></a><br>
+<strong><a href="docs/cases/x-theo-fable52-fishslop-fable-opus/README.md">Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照</a></strong><br>
+署名: @theo（Theo - t3.gg）<br><a href="https://x.com/theo/status/2119926277801144695">原帖</a>
+ · <a href="docs/cases/x-theo-fable52-fishslop-fable-opus/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/The_Alex/status/2119867572875350134"><img src="assets/thumbs/x-thealex-fable52-pane-youtube-twitch.jpg" alt="Pane，开源的 YouTube 与 Twitch 播放器 — @The_Alex（Alex）" width="220"></a><br>
+<strong><a href="docs/cases/x-thealex-fable52-pane-youtube-twitch/README.md">Pane，开源的 YouTube 与 Twitch 播放器</a></strong><br>
+署名: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867572875350134">原帖</a>
+ · <a href="docs/cases/x-thealex-fable52-pane-youtube-twitch/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/The_Alex/status/2119867574972551309"><img src="assets/thumbs/x-thealex-fable52-melee.jpg" alt="在手机上试做 Melee 风格的对战 — @The_Alex（Alex）" width="220"></a><br>
+<strong><a href="docs/cases/x-thealex-fable52-melee/README.md">在手机上试做 Melee 风格的对战</a></strong><br>
+署名: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867574972551309">原帖</a>
+ · <a href="docs/cases/x-thealex-fable52-melee/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/The_Alex/status/2119917226769985785"><img src="assets/thumbs/x-thealex-fable52-claude.jpg" alt="能被 Claude 调用的编曲工作站 — @The_Alex（Alex）" width="220"></a><br>
+<strong><a href="docs/cases/x-thealex-fable52-claude/README.md">能被 Claude 调用的编曲工作站</a></strong><br>
+署名: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119917226769985785">原帖</a>
+ · <a href="docs/cases/x-thealex-fable52-claude/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/The_Alex/status/2119867576985821398"><img src="assets/thumbs/x-thealex-fable52-821398.jpg" alt="把马里奥元素做进生存玩法的俯视角原型 — @The_Alex（Alex）" width="220"></a><br>
+<strong><a href="docs/cases/x-thealex-fable52-821398/README.md">把马里奥元素做进生存玩法的俯视角原型</a></strong><br>
+署名: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867576985821398">原帖</a>
+ · <a href="docs/cases/x-thealex-fable52-821398/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/The_Alex/status/2119867570669203554"><img src="assets/thumbs/x-thealex-fable52-203554.jpg" alt="给一段口播做 9:16 剪辑，把动效也交给代理 — @The_Alex（Alex）" width="220"></a><br>
+<strong><a href="docs/cases/x-thealex-fable52-203554/README.md">给一段口播做 9:16 剪辑，把动效也交给代理</a></strong><br>
+署名: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867570669203554">原帖</a>
+ · <a href="docs/cases/x-thealex-fable52-203554/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/The_Alex/status/2119867568253177920"><img src="assets/thumbs/x-thealex-fable52-177920.jpg" alt="做一段《时之笛》风格的三维冒险 — @The_Alex（Alex）" width="220"></a><br>
+<strong><a href="docs/cases/x-thealex-fable52-177920/README.md">做一段《时之笛》风格的三维冒险</a></strong><br>
+署名: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867568253177920">原帖</a>
+ · <a href="docs/cases/x-thealex-fable52-177920/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/s_matysik/status/2119909371484213380"><img src="assets/thumbs/x-smatysik-fable52-213380.jpg" alt="从代理数据快照生成指挥台 — @s_matysik（Sebastian Matysik）" width="220"></a><br>
+<strong><a href="docs/cases/x-smatysik-fable52-213380/README.md">从代理数据快照生成指挥台</a></strong><br>
+署名: @s_matysik（Sebastian Matysik）<br><a href="https://x.com/s_matysik/status/2119909371484213380">原帖</a>
+ · <a href="docs/cases/x-smatysik-fable52-213380/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/SimonasLTU1/status/2119891671219622262"><img src="assets/thumbs/x-simonasltu1-fable52-three.jpg" alt="用 Three.js 做可操作的人体解剖浏览器 — @SimonasLTU1（Simonas）" width="220"></a><br>
+<strong><a href="docs/cases/x-simonasltu1-fable52-three/README.md">用 Three.js 做可操作的人体解剖浏览器</a></strong><br>
+署名: @SimonasLTU1（Simonas）<br><a href="https://x.com/SimonasLTU1/status/2119891671219622262">原帖</a>
+ · <a href="docs/cases/x-simonasltu1-fable52-three/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Scratcherrrr/status/2119909780269785332"><img src="assets/thumbs/x-scratcherrrr-fable52-piranha.jpg" alt="Piranha P-7，用代码做一条能拆解的食人鱼 — @Scratcherrrr（Catcher of your mind）" width="220"></a><br>
+<strong><a href="docs/cases/x-scratcherrrr-fable52-piranha/README.md">Piranha P-7，用代码做一条能拆解的食人鱼</a></strong><br>
+署名: @Scratcherrrr（Catcher of your mind）<br><a href="https://x.com/Scratcherrrr/status/2119909780269785332">原帖</a>
+ · <a href="docs/cases/x-scratcherrrr-fable52-piranha/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/rileybrown/status/2119946022767980985"><img src="assets/thumbs/x-rileybrown-fable52-the-history-writing.jpg" alt="《The History of Writing》，把文字史做成一支 96 秒动画 — @rileybrown（Riley Brown）" width="220"></a><br>
+<strong><a href="docs/cases/x-rileybrown-fable52-the-history-writing/README.md">《The History of Writing》，把文字史做成一支 96 秒动画</a></strong><br>
+署名: @rileybrown（Riley Brown）<br><a href="https://x.com/rileybrown/status/2119946022767980985">原帖</a>
+ · <a href="docs/cases/x-rileybrown-fable52-the-history-writing/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/rileybrown/status/2119902109709537708"><img src="assets/thumbs/x-rileybrown-fable52-the-edge-blender.jpg" alt="《The Edge》，用 Blender 和网页做出 13 镜头短片 — @rileybrown（Riley Brown）" width="220"></a><br>
+<strong><a href="docs/cases/x-rileybrown-fable52-the-edge-blender/README.md">《The Edge》，用 Blender 和网页做出 13 镜头短片</a></strong><br>
+署名: @rileybrown（Riley Brown）<br><a href="https://x.com/rileybrown/status/2119902109709537708">原帖</a>
+ · <a href="docs/cases/x-rileybrown-fable52-the-edge-blender/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/QRoonjha/status/2119883978962501697"><img src="assets/thumbs/x-qroonjha-fable52-501697.jpg" alt="约 5 秒的定格风格动画试验 — @QRoonjha（Qaisar Roonjha）" width="220"></a><br>
+<strong><a href="docs/cases/x-qroonjha-fable52-501697/README.md">约 5 秒的定格风格动画试验</a></strong><br>
+署名: @QRoonjha（Qaisar Roonjha）<br><a href="https://x.com/QRoonjha/status/2119883978962501697">原帖</a>
+ · <a href="docs/cases/x-qroonjha-fable52-501697/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/pwnies/status/2119887535421980695"><img src="assets/thumbs/x-pwnies-fable52-fable-opus.jpg" alt="给同一张参考图，比较 Fable 与 Opus 的网页还原 — @pwnies（Jacob Miller）" width="220"></a><br>
+<strong><a href="docs/cases/x-pwnies-fable52-fable-opus/README.md">给同一张参考图，比较 Fable 与 Opus 的网页还原</a></strong><br>
+署名: @pwnies（Jacob Miller）<br><a href="https://x.com/pwnies/status/2119887535421980695">原帖</a>
+ · <a href="docs/cases/x-pwnies-fable52-fable-opus/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/petergyang/status/2119901658394358005"><img src="assets/thumbs/x-petergyang-fable52-turbo-tails.jpg" alt="Turbo Tails，带漂移和道具的浏览器卡丁车 — @petergyang（Peter Yang）" width="220"></a><br>
+<strong><a href="docs/cases/x-petergyang-fable52-turbo-tails/README.md">Turbo Tails，带漂移和道具的浏览器卡丁车</a></strong><br>
+署名: @petergyang（Peter Yang）<br><a href="https://x.com/petergyang/status/2119901658394358005">原帖</a>
+ · <a href="docs/cases/x-petergyang-fable52-turbo-tails/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/petergyang/status/2119886560992854431"><img src="assets/thumbs/x-petergyang-fable52-854431.jpg" alt="京都伏见稻荷，20 秒代码旅行宣传片 — @petergyang（Peter Yang）" width="220"></a><br>
+<strong><a href="docs/cases/x-petergyang-fable52-854431/README.md">京都伏见稻荷，20 秒代码旅行宣传片</a></strong><br>
+署名: @petergyang（Peter Yang）<br><a href="https://x.com/petergyang/status/2119886560992854431">原帖</a>
+ · <a href="docs/cases/x-petergyang-fable52-854431/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/petergostev/status/2119877733488394520"><img src="assets/thumbs/x-petergostev-fable52-max.jpg" alt="用 Max 档做一段伊斯坦布尔水岸漫游 — @petergostev（Peter Gostev）" width="220"></a><br>
+<strong><a href="docs/cases/x-petergostev-fable52-max/README.md">用 Max 档做一段伊斯坦布尔水岸漫游</a></strong><br>
+署名: @petergostev（Peter Gostev）<br><a href="https://x.com/petergostev/status/2119877733488394520">原帖</a>
+ · <a href="docs/cases/x-petergostev-fable52-max/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/nikodemszymansk/status/2119880518875435022"><img src="assets/thumbs/x-nikodemszymansk-fable52-tokyo-night.jpg" alt="Tokyo Night GP，带湿地反光的三圈夜赛 — @nikodemszymansk（Nikodem | AI Creator）" width="220"></a><br>
+<strong><a href="docs/cases/x-nikodemszymansk-fable52-tokyo-night/README.md">Tokyo Night GP，带湿地反光的三圈夜赛</a></strong><br>
+署名: @nikodemszymansk（Nikodem | AI Creator）<br><a href="https://x.com/nikodemszymansk/status/2119880518875435022">原帖</a>
+ · <a href="docs/cases/x-nikodemszymansk-fable52-tokyo-night/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/NFT_Chen/status/2119897058597609967"><img src="assets/thumbs/x-nftchen-fable52-609967.jpg" alt="给骑单车的鹈鹕加调速、灯和车铃 — @NFT_Chen（SuSu_酥酥👅）" width="220"></a><br>
+<strong><a href="docs/cases/x-nftchen-fable52-609967/README.md">给骑单车的鹈鹕加调速、灯和车铃</a></strong><br>
+署名: @NFT_Chen（SuSu_酥酥👅）<br><a href="https://x.com/NFT_Chen/status/2119897058597609967">原帖</a>
+ · <a href="docs/cases/x-nftchen-fable52-609967/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/mihawkxxxxx/status/2119909865296699749"><img src="assets/thumbs/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker.jpg" alt="用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告 — @mihawkxxxxx（mihawkxxx）" width="220"></a><br>
+<strong><a href="docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/README.md">用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告</a></strong><br>
+署名: @mihawkxxxxx（mihawkxxx）<br><a href="https://x.com/mihawkxxxxx/status/2119909865296699749">原帖</a>
+ · <a href="docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/mattshumer_/status/2119877065701036047"><img src="assets/thumbs/x-mattshumer-fable52-mirror-earth.jpg" alt="Mirror Earth，把真实地球当作可破坏的游戏地图 — @mattshumer_（Matt Shumer）" width="220"></a><br>
+<strong><a href="docs/cases/x-mattshumer-fable52-mirror-earth/README.md">Mirror Earth，把真实地球当作可破坏的游戏地图</a></strong><br>
+署名: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119877065701036047">原帖</a>
+ · <a href="docs/cases/x-mattshumer-fable52-mirror-earth/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/mattshumer_/status/2119872098306810226"><img src="assets/thumbs/x-mattshumer-fable52-hogwarts-royale.jpg" alt="Hogwarts Royale，把霍格沃茨和大逃杀放在一起 — @mattshumer_（Matt Shumer）" width="220"></a><br>
+<strong><a href="docs/cases/x-mattshumer-fable52-hogwarts-royale/README.md">Hogwarts Royale，把霍格沃茨和大逃杀放在一起</a></strong><br>
+署名: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119872098306810226">原帖</a>
+ · <a href="docs/cases/x-mattshumer-fable52-hogwarts-royale/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/mattshumer_/status/2119884041331892403"><img src="assets/thumbs/x-mattshumer-fable52-892403.jpg" alt="把文章放进虚拟展厅，做成约 4 分 44 秒视频 — @mattshumer_（Matt Shumer）" width="220"></a><br>
+<strong><a href="docs/cases/x-mattshumer-fable52-892403/README.md">把文章放进虚拟展厅，做成约 4 分 44 秒视频</a></strong><br>
+署名: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119884041331892403">原帖</a>
+ · <a href="docs/cases/x-mattshumer-fable52-892403/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/mattshumer_/status/2119900920347828670"><img src="assets/thumbs/x-mattshumer-fable52-828670.jpg" alt="一部约 49 分钟的代码电影 — @mattshumer_（Matt Shumer）" width="220"></a><br>
+<strong><a href="docs/cases/x-mattshumer-fable52-828670/README.md">一部约 49 分钟的代码电影</a></strong><br>
+署名: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119900920347828670">原帖</a>
+ · <a href="docs/cases/x-mattshumer-fable52-828670/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/mattshumer_/status/2119870965106483384"><img src="assets/thumbs/x-mattshumer-fable52-483384.jpg" alt="一条提示启动的体素破坏引擎 — @mattshumer_（Matt Shumer）" width="220"></a><br>
+<strong><a href="docs/cases/x-mattshumer-fable52-483384/README.md">一条提示启动的体素破坏引擎</a></strong><br>
+署名: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119870965106483384">原帖</a>
+ · <a href="docs/cases/x-mattshumer-fable52-483384/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/mattshumer_/status/2119889518564147409"><img src="assets/thumbs/x-mattshumer-fable52-147409.jpg" alt="为公寓里可以制作的机器人出一版外观原型 — @mattshumer_（Matt Shumer）" width="220"></a><br>
+<strong><a href="docs/cases/x-mattshumer-fable52-147409/README.md">为公寓里可以制作的机器人出一版外观原型</a></strong><br>
+署名: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119889518564147409">原帖</a>
+ · <a href="docs/cases/x-mattshumer-fable52-147409/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MatthewBerman/status/2119868636810953017"><img src="assets/thumbs/x-matthewberman-fable52-webgl.jpg" alt="用 WebGL 演示子弹穿过装水气球 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
+<strong><a href="docs/cases/x-matthewberman-fable52-webgl/README.md">用 WebGL 演示子弹穿过装水气球</a></strong><br>
+署名: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868636810953017">原帖</a>
+ · <a href="docs/cases/x-matthewberman-fable52-webgl/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MatthewBerman/status/2119868629491789992"><img src="assets/thumbs/x-matthewberman-fable52-unreal-engine.jpg" alt="在 Unreal Engine 里做《战争机器》风格的射击原型 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
+<strong><a href="docs/cases/x-matthewberman-fable52-unreal-engine/README.md">在 Unreal Engine 里做《战争机器》风格的射击原型</a></strong><br>
+署名: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868629491789992">原帖</a>
+ · <a href="docs/cases/x-matthewberman-fable52-unreal-engine/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/MatthewBerman/status/2119868642796154944"><img src="assets/thumbs/x-matthewberman-fable52-quadrille-excel.jpg" alt="Quadrille，浏览器里的 Excel 风格表格 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
+<strong><a href="docs/cases/x-matthewberman-fable52-quadrille-excel/README.md">Quadrille，浏览器里的 Excel 风格表格</a></strong><br>
+署名: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868642796154944">原帖</a>
+ · <a href="docs/cases/x-matthewberman-fable52-quadrille-excel/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MatthewBerman/status/2119872042053128412"><img src="assets/thumbs/x-matthewberman-fable52-photon-photoshop.jpg" alt="Photon，Photoshop 风格的在线图像编辑器 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
+<strong><a href="docs/cases/x-matthewberman-fable52-photon-photoshop/README.md">Photon，Photoshop 风格的在线图像编辑器</a></strong><br>
+署名: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119872042053128412">原帖</a>
+ · <a href="docs/cases/x-matthewberman-fable52-photon-photoshop/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MatthewBerman/status/2119868640879349998"><img src="assets/thumbs/x-matthewberman-fable52-kestrel-windows.jpg" alt="Kestrel，在 Windows 本地运行的时间线编辑器 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
+<strong><a href="docs/cases/x-matthewberman-fable52-kestrel-windows/README.md">Kestrel，在 Windows 本地运行的时间线编辑器</a></strong><br>
+署名: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868640879349998">原帖</a>
+ · <a href="docs/cases/x-matthewberman-fable52-kestrel-windows/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/MatthewBerman/status/2119868633086378471"><img src="assets/thumbs/x-matthewberman-fable52-378471.jpg" alt="用 约 50 秒动效讲大语言模型 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
+<strong><a href="docs/cases/x-matthewberman-fable52-378471/README.md">用 约 50 秒动效讲大语言模型</a></strong><br>
+署名: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868633086378471">原帖</a>
+ · <a href="docs/cases/x-matthewberman-fable52-378471/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MatthewBerman/status/2119868630989254665"><img src="assets/thumbs/x-matthewberman-fable52-254665.jpg" alt="《糖豆人》风格闯关原型 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
+<strong><a href="docs/cases/x-matthewberman-fable52-254665/README.md">《糖豆人》风格闯关原型</a></strong><br>
+署名: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868630989254665">原帖</a>
+ · <a href="docs/cases/x-matthewberman-fable52-254665/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MatthewBerman/status/2119868638929060195"><img src="assets/thumbs/x-matthewberman-fable52-060195.jpg" alt="搭一座能和居民对话的三维欧洲村庄 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
+<strong><a href="docs/cases/x-matthewberman-fable52-060195/README.md">搭一座能和居民对话的三维欧洲村庄</a></strong><br>
+署名: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868638929060195">原帖</a>
+ · <a href="docs/cases/x-matthewberman-fable52-060195/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/marcthecreatorr/status/2119890973560054072"><img src="assets/thumbs/x-marcthecreatorr-fable52-054072.jpg" alt="打开网页看一艘代码生成的三维帆船 — @marcthecreatorr（Marcel）" width="220"></a><br>
+<strong><a href="docs/cases/x-marcthecreatorr-fable52-054072/README.md">打开网页看一艘代码生成的三维帆船</a></strong><br>
+署名: @marcthecreatorr（Marcel）<br><a href="https://x.com/marcthecreatorr/status/2119890973560054072">原帖</a>
+ · <a href="docs/cases/x-marcthecreatorr-fable52-054072/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Maaaaaaadiii/status/2119885527243714946"><img src="assets/thumbs/x-maaaaaaadiii-fable52-714946.jpg" alt="从贴纸到吊链和铃声，程序化做一张会动的招牌 — @Maaaaaaadiii（Hammad Hanif）" width="220"></a><br>
+<strong><a href="docs/cases/x-maaaaaaadiii-fable52-714946/README.md">从贴纸到吊链和铃声，程序化做一张会动的招牌</a></strong><br>
+署名: @Maaaaaaadiii（Hammad Hanif）<br><a href="https://x.com/Maaaaaaadiii/status/2119885527243714946">原帖</a>
+ · <a href="docs/cases/x-maaaaaaadiii-fable52-714946/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/kplikethebird/status/2119900775727902732"><img src="assets/thumbs/x-kplikethebird-fable52-blender.jpg" alt="用 Blender 重建公元一世纪的耶路撒冷街区 — @kplikethebird（Katie Parrott）" width="220"></a><br>
+<strong><a href="docs/cases/x-kplikethebird-fable52-blender/README.md">用 Blender 重建公元一世纪的耶路撒冷街区</a></strong><br>
+署名: @kplikethebird（Katie Parrott）<br><a href="https://x.com/kplikethebird/status/2119900775727902732">原帖</a>
+ · <a href="docs/cases/x-kplikethebird-fable52-blender/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/kieranklaassen/status/2119871673294037280"><img src="assets/thumbs/x-kieranklaassen-fable52-first-crush.jpg" alt="First Crush，把葡萄酒酿造步骤变成游戏 — @kieranklaassen（Kieran Klaassen）" width="220"></a><br>
+<strong><a href="docs/cases/x-kieranklaassen-fable52-first-crush/README.md">First Crush，把葡萄酒酿造步骤变成游戏</a></strong><br>
+署名: @kieranklaassen（Kieran Klaassen）<br><a href="https://x.com/kieranklaassen/status/2119871673294037280">原帖</a>
+ · <a href="docs/cases/x-kieranklaassen-fable52-first-crush/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/kieranklaassen/status/2119904489717272680"><img src="assets/thumbs/x-kieranklaassen-fable52-everycut.jpg" alt="Everycut，把录屏、文字剪辑和混音放进同一款编辑器 — @kieranklaassen（Kieran Klaassen）" width="220"></a><br>
+<strong><a href="docs/cases/x-kieranklaassen-fable52-everycut/README.md">Everycut，把录屏、文字剪辑和混音放进同一款编辑器</a></strong><br>
+署名: @kieranklaassen（Kieran Klaassen）<br><a href="https://x.com/kieranklaassen/status/2119904489717272680">原帖</a>
+ · <a href="docs/cases/x-kieranklaassen-fable52-everycut/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/kieranklaassen/status/2119868196773929160"><img src="assets/thumbs/x-kieranklaassen-fable52-ableton-push.jpg" alt="支持 Ableton Push 的环境音乐工作站 — @kieranklaassen（Kieran Klaassen）" width="220"></a><br>
+<strong><a href="docs/cases/x-kieranklaassen-fable52-ableton-push/README.md">支持 Ableton Push 的环境音乐工作站</a></strong><br>
+署名: @kieranklaassen（Kieran Klaassen）<br><a href="https://x.com/kieranklaassen/status/2119868196773929160">原帖</a>
+ · <a href="docs/cases/x-kieranklaassen-fable52-ableton-push/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/kevin_t_ngo/status/2119868968307695818"><img src="assets/thumbs/x-kevintngo-fable52-what-the-water-keeps.jpg" alt="What the Water Keeps，坐船穿过八个梦境场景 — @kevin_t_ngo（Kevin Ngo）" width="220"></a><br>
+<strong><a href="docs/cases/x-kevintngo-fable52-what-the-water-keeps/README.md">What the Water Keeps，坐船穿过八个梦境场景</a></strong><br>
+署名: @kevin_t_ngo（Kevin Ngo）<br><a href="https://x.com/kevin_t_ngo/status/2119868968307695818">原帖</a>
+ · <a href="docs/cases/x-kevintngo-fable52-what-the-water-keeps/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/kevin_t_ngo/status/2119972124211454139"><img src="assets/thumbs/x-kevintngo-fable52-python-blender.jpg" alt="用 Python 和 Blender 做一支 90 年代风格玩具广告 — @kevin_t_ngo（Kevin Ngo）" width="220"></a><br>
+<strong><a href="docs/cases/x-kevintngo-fable52-python-blender/README.md">用 Python 和 Blender 做一支 90 年代风格玩具广告</a></strong><br>
+署名: @kevin_t_ngo（Kevin Ngo）<br><a href="https://x.com/kevin_t_ngo/status/2119972124211454139">原帖</a>
+ · <a href="docs/cases/x-kevintngo-fable52-python-blender/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/kevin_t_ngo/status/2119938129079808282"><img src="assets/thumbs/x-kevintngo-fable52-javascript.jpg" alt="用 JavaScript 逐帧画一段约 100 秒的动画 — @kevin_t_ngo（Kevin Ngo）" width="220"></a><br>
+<strong><a href="docs/cases/x-kevintngo-fable52-javascript/README.md">用 JavaScript 逐帧画一段约 100 秒的动画</a></strong><br>
+署名: @kevin_t_ngo（Kevin Ngo）<br><a href="https://x.com/kevin_t_ngo/status/2119938129079808282">原帖</a>
+ · <a href="docs/cases/x-kevintngo-fable52-javascript/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/kevin_t_ngo/status/2119900487688622171"><img src="assets/thumbs/x-kevintngo-fable52-gilt-gutter.jpg" alt="Gilt &amp; Gutter，用弹药颜色做 1 对 1 射击机制 — @kevin_t_ngo（Kevin Ngo）" width="220"></a><br>
+<strong><a href="docs/cases/x-kevintngo-fable52-gilt-gutter/README.md">Gilt &amp; Gutter，用弹药颜色做 1 对 1 射击机制</a></strong><br>
+署名: @kevin_t_ngo（Kevin Ngo）<br><a href="https://x.com/kevin_t_ngo/status/2119900487688622171">原帖</a>
+ · <a href="docs/cases/x-kevintngo-fable52-gilt-gutter/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/jkeatn/status/2119874007382299087"><img src="assets/thumbs/x-jkeatn-fable52-python.jpg" alt="用 Python 模拟画笔，按虚构画家风格作画 — @jkeatn（Jake Eaton）" width="220"></a><br>
+<strong><a href="docs/cases/x-jkeatn-fable52-python/README.md">用 Python 模拟画笔，按虚构画家风格作画</a></strong><br>
+署名: @jkeatn（Jake Eaton）<br><a href="https://x.com/jkeatn/status/2119874007382299087">原帖</a>
+ · <a href="docs/cases/x-jkeatn-fable52-python/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/jev_chat/status/2120015641151426838"><img src="assets/thumbs/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl.jpg" alt="An acrobat stack on a biplane above the clouds, a 3D short in Chinese — @jev_chat" width="220"></a><br>
+<strong><a href="docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/README.md">An acrobat stack on a biplane above the clouds, a 3D short in Chinese</a></strong><br>
+署名: @jev_chat<br><a href="https://x.com/jev_chat/status/2120015641151426838">原帖</a>
+ · <a href="docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/itssotsot/status/2119909017216491720"><img src="assets/thumbs/x-itssotsot-fable52-big-little-adventure.jpg" alt="Big Little Adventure，把家具变成小角色的关卡 — @itssotsot（Sotiris Kaniras）" width="220"></a><br>
+<strong><a href="docs/cases/x-itssotsot-fable52-big-little-adventure/README.md">Big Little Adventure，把家具变成小角色的关卡</a></strong><br>
+署名: @itssotsot（Sotiris Kaniras）<br><a href="https://x.com/itssotsot/status/2119909017216491720">原帖</a>
+ · <a href="docs/cases/x-itssotsot-fable52-big-little-adventure/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/ilya_sb1/status/2119878436529246669"><img src="assets/thumbs/x-ilyasb1-fable52-orbital-data-node.jpg" alt="Orbital Data Node 07，把数据中心搬到太空 — @ilya_sb1（Ilya Rzhevskiy）" width="220"></a><br>
+<strong><a href="docs/cases/x-ilyasb1-fable52-orbital-data-node/README.md">Orbital Data Node 07，把数据中心搬到太空</a></strong><br>
+署名: @ilya_sb1（Ilya Rzhevskiy）<br><a href="https://x.com/ilya_sb1/status/2119878436529246669">原帖</a>
+ · <a href="docs/cases/x-ilyasb1-fable52-orbital-data-node/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/hello_amani/status/2119873980786237842"><img src="assets/thumbs/x-helloamani-fable52-237842.jpg" alt="把金属质感的标志做成一段三维动效 — @hello_amani（Amani • Design Partner）" width="220"></a><br>
+<strong><a href="docs/cases/x-helloamani-fable52-237842/README.md">把金属质感的标志做成一段三维动效</a></strong><br>
+署名: @hello_amani（Amani • Design Partner）<br><a href="https://x.com/hello_amani/status/2119873980786237842">原帖</a>
+ · <a href="docs/cases/x-helloamani-fable52-237842/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/hammer_mt/status/2119906374066835495"><img src="assets/thumbs/x-hammermt-fable52-write-like-mike.jpg" alt="Write Like Mike，用留出的旧文章盲评写作技能 — @hammer_mt（Mike Taylor）" width="220"></a><br>
+<strong><a href="docs/cases/x-hammermt-fable52-write-like-mike/README.md">Write Like Mike，用留出的旧文章盲评写作技能</a></strong><br>
+署名: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119906374066835495">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/hammer_mt/status/2119906441389826445"><img src="assets/thumbs/x-hammermt-fable52-vibe-check-delivery.jpg" alt="Vibe Check Delivery，三个模型做同题送报游戏 — @hammer_mt（Mike Taylor）" width="220"></a><br>
+<strong><a href="docs/cases/x-hammermt-fable52-vibe-check-delivery/README.md">Vibe Check Delivery，三个模型做同题送报游戏</a></strong><br>
+署名: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119906441389826445">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/hammer_mt/status/2119906389284057363"><img src="assets/thumbs/x-hammermt-fable52-katepass.jpg" alt="KatePass，用 320 份旧草稿衡量编辑还剩多少工作 — @hammer_mt（Mike Taylor）" width="220"></a><br>
+<strong><a href="docs/cases/x-hammermt-fable52-katepass/README.md">KatePass，用 320 份旧草稿衡量编辑还剩多少工作</a></strong><br>
+署名: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119906389284057363">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/hammer_mt/status/2119871817561346319"><img src="assets/thumbs/x-hammermt-fable52-346319.jpg" alt="用三维地图复盘《复仇者联盟》的纽约大战 — @hammer_mt（Mike Taylor）" width="220"></a><br>
+<strong><a href="docs/cases/x-hammermt-fable52-346319/README.md">用三维地图复盘《复仇者联盟》的纽约大战</a></strong><br>
+署名: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119871817561346319">原帖</a>
+ · <a href="docs/cases/x-hammermt-fable52-346319/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/hammer_mt/status/2119906412709183568"><img src="assets/thumbs/x-hammermt-fable52-183568.jpg" alt="从 14 套咨询演示稿提取能自动检查的规则 — @hammer_mt（Mike Taylor）" width="220"></a><br>
+<strong><a href="docs/cases/x-hammermt-fable52-183568/README.md">从 14 套咨询演示稿提取能自动检查的规则</a></strong><br>
+署名: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119906412709183568">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/hammer_mt/status/2119907037631103010"><img src="assets/thumbs/x-hammermt-fable52-103010.jpg" alt="从个人 AI 使用历史整理十个可重复的评测任务 — @hammer_mt（Mike Taylor）" width="220"></a><br>
+<strong><a href="docs/cases/x-hammermt-fable52-103010/README.md">从个人 AI 使用历史整理十个可重复的评测任务</a></strong><br>
+署名: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119907037631103010">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/geneohms/status/2119910054413685102"><img src="assets/thumbs/x-geneohms-fable52-685102.jpg" alt="从手机里发起任务，得到能与电脑对弈的棋盘 — @geneohms（Gene）" width="220"></a><br>
+<strong><a href="docs/cases/x-geneohms-fable52-685102/README.md">从手机里发起任务，得到能与电脑对弈的棋盘</a></strong><br>
+署名: @geneohms（Gene）<br><a href="https://x.com/geneohms/status/2119910054413685102">原帖</a>
+ · <a href="docs/cases/x-geneohms-fable52-685102/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/ForwardEditor/status/2119867747425194377"><img src="assets/thumbs/x-forwardeditor-fable52-zero.jpg" alt="给既有 F-Zero 风格赛车加金属爪漂移和瞬移 — @ForwardEditor（Future Brian）" width="220"></a><br>
+<strong><a href="docs/cases/x-forwardeditor-fable52-zero/README.md">给既有 F-Zero 风格赛车加金属爪漂移和瞬移</a></strong><br>
+署名: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867747425194377">原帖</a>
+ · <a href="docs/cases/x-forwardeditor-fable52-zero/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/ForwardEditor/status/2119867782238212524"><img src="assets/thumbs/x-forwardeditor-fable52-sorted-ios.jpg" alt="Sorted!，以纸牌接龙为灵感的 iOS 样机 — @ForwardEditor（Future Brian）" width="220"></a><br>
+<strong><a href="docs/cases/x-forwardeditor-fable52-sorted-ios/README.md">Sorted!，以纸牌接龙为灵感的 iOS 样机</a></strong><br>
+署名: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867782238212524">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/ForwardEditor/status/2119867753376940396"><img src="assets/thumbs/x-forwardeditor-fable52-idle-elite.jpg" alt="在约 8 万行的 Idle Elite 代码库中接手开发 — @ForwardEditor（Future Brian）" width="220"></a><br>
+<strong><a href="docs/cases/x-forwardeditor-fable52-idle-elite/README.md">在约 8 万行的 Idle Elite 代码库中接手开发</a></strong><br>
+署名: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867753376940396">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/ForwardEditor/status/2119867791150928106"><img src="assets/thumbs/x-forwardeditor-fable52-928106.jpg" alt="12 篇漫画试验，作者公开了没做满意的版本 — @ForwardEditor（Future Brian）" width="220"></a><br>
+<strong><a href="docs/cases/x-forwardeditor-fable52-928106/README.md">12 篇漫画试验，作者公开了没做满意的版本</a></strong><br>
+署名: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867791150928106">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/ForwardEditor/status/2119867743965163994"><img src="assets/thumbs/x-forwardeditor-fable52-163994.jpg" alt="骑龙从空岛跃下，测试视角和飞行感 — @ForwardEditor（Future Brian）" width="220"></a><br>
+<strong><a href="docs/cases/x-forwardeditor-fable52-163994/README.md">骑龙从空岛跃下，测试视角和飞行感</a></strong><br>
+署名: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867743965163994">原帖</a>
+ · <a href="docs/cases/x-forwardeditor-fable52-163994/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/felixrieseberg/status/2119867840878825523"><img src="assets/thumbs/x-felixrieseberg-fable52-interchange.jpg" alt="为虚构团体 Interchange 探索 20 款标志 — @felixrieseberg（Felix Rieseberg）" width="220"></a><br>
+<strong><a href="docs/cases/x-felixrieseberg-fable52-interchange/README.md">为虚构团体 Interchange 探索 20 款标志</a></strong><br>
+署名: @felixrieseberg（Felix Rieseberg）<br><a href="https://x.com/felixrieseberg/status/2119867840878825523">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/felixrieseberg/status/2119867839033352596"><img src="assets/thumbs/x-felixrieseberg-fable52-352596.jpg" alt="保留首版的第一人称射击等游戏样例 — @felixrieseberg（Felix Rieseberg）" width="220"></a><br>
+<strong><a href="docs/cases/x-felixrieseberg-fable52-352596/README.md">保留首版的第一人称射击等游戏样例</a></strong><br>
+署名: @felixrieseberg（Felix Rieseberg）<br><a href="https://x.com/felixrieseberg/status/2119867839033352596">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/FaridaNever/status/2119910055990505730"><img src="assets/thumbs/x-faridanever-fable52-505730.jpg" alt="水墨山景里的第三人称剑士 — @FaridaNever（Farida）" width="220"></a><br>
+<strong><a href="docs/cases/x-faridanever-fable52-505730/README.md">水墨山景里的第三人称剑士</a></strong><br>
+署名: @FaridaNever（Farida）<br><a href="https://x.com/FaridaNever/status/2119910055990505730">原帖</a>
+ · <a href="docs/cases/x-faridanever-fable52-505730/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/every/status/2119934581445145066"><img src="assets/thumbs/x-every-fable52-slack.jpg" alt="从 Slack 与会议记录中找出 38 处说法冲突 — @every（Every 📧）" width="220"></a><br>
+<strong><a href="docs/cases/x-every-fable52-slack/README.md">从 Slack 与会议记录中找出 38 处说法冲突</a></strong><br>
+署名: @every（Every 📧）<br><a href="https://x.com/every/status/2119934581445145066">原帖</a>
+ · <a href="docs/cases/x-every-fable52-slack/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/every/status/2119939866314289555"><img src="assets/thumbs/x-every-fable52-high-max.jpg" alt="High 和 Max 档，盲评同一组网页设计 — @every（Every 📧）" width="220"></a><br>
+<strong><a href="docs/cases/x-every-fable52-high-max/README.md">High 和 Max 档，盲评同一组网页设计</a></strong><br>
+署名: @every（Every 📧）<br><a href="https://x.com/every/status/2119939866314289555">原帖</a>
+ · <a href="docs/cases/x-every-fable52-high-max/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/every/status/2119928286465892357"><img src="assets/thumbs/x-every-fable52-checks.jpg" alt="放手一个周末，让代理给 Checks 做 75 项改动 — @every（Every 📧）" width="220"></a><br>
+<strong><a href="docs/cases/x-every-fable52-checks/README.md">放手一个周末，让代理给 Checks 做 75 项改动</a></strong><br>
+署名: @every（Every 📧）<br><a href="https://x.com/every/status/2119928286465892357">原帖</a>
+ · <a href="docs/cases/x-every-fable52-checks/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/ericskavinski/status/2119895601580016005"><img src="assets/thumbs/x-ericskavinski-fable52-three.jpg" alt="用 Three.js 写出落日和海面反光 — @ericskavinski（Eric Skavinski）" width="220"></a><br>
+<strong><a href="docs/cases/x-ericskavinski-fable52-three/README.md">用 Three.js 写出落日和海面反光</a></strong><br>
+署名: @ericskavinski（Eric Skavinski）<br><a href="https://x.com/ericskavinski/status/2119895601580016005">原帖</a>
+ · <a href="docs/cases/x-ericskavinski-fable52-three/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/ericmaskfr/status/2119910195325481026"><img src="assets/thumbs/x-ericmaskfr-fable52-481026.jpg" alt="80 年代迈阿密风格的开放城市和任务系统 — @ericmaskfr（eric）" width="220"></a><br>
+<strong><a href="docs/cases/x-ericmaskfr-fable52-481026/README.md">80 年代迈阿密风格的开放城市和任务系统</a></strong><br>
+署名: @ericmaskfr（eric）<br><a href="https://x.com/ericmaskfr/status/2119910195325481026">原帖</a>
+ · <a href="docs/cases/x-ericmaskfr-fable52-481026/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/emollick/status/2119876449494540554"><img src="assets/thumbs/x-emollick-fable52-scooby-doo.jpg" alt="反转 Scooby-Doo，玩家要把调查的孩子吓跑 — @emollick（Ethan Mollick）" width="220"></a><br>
+<strong><a href="docs/cases/x-emollick-fable52-scooby-doo/README.md">反转 Scooby-Doo，玩家要把调查的孩子吓跑</a></strong><br>
+署名: @emollick（Ethan Mollick）<br><a href="https://x.com/emollick/status/2119876449494540554">原帖</a>
+ · <a href="docs/cases/x-emollick-fable52-scooby-doo/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/emollick/status/2119918307457577163"><img src="assets/thumbs/x-emollick-fable52-portals.jpg" alt="Portals，穿过传送门飞进 471 个代码世界 — @emollick（Ethan Mollick）" width="220"></a><br>
+<strong><a href="docs/cases/x-emollick-fable52-portals/README.md">Portals，穿过传送门飞进 471 个代码世界</a></strong><br>
+署名: @emollick（Ethan Mollick）<br><a href="https://x.com/emollick/status/2119918307457577163">原帖</a>
+ · <a href="docs/cases/x-emollick-fable52-portals/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/dom_scholz/status/2119933150025363661"><img src="assets/thumbs/x-domscholz-fable52-ultramarine.jpg" alt="Ultramarine，同一三维任务对照两代模型 — @dom_scholz（Dominik Scholz）" width="220"></a><br>
+<strong><a href="docs/cases/x-domscholz-fable52-ultramarine/README.md">Ultramarine，同一三维任务对照两代模型</a></strong><br>
+署名: @dom_scholz（Dominik Scholz）<br><a href="https://x.com/dom_scholz/status/2119933150025363661">原帖</a>
+ · <a href="docs/cases/x-domscholz-fable52-ultramarine/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/DoctorYev/status/2119895951108423801"><img src="assets/thumbs/x-doctoryev-fable52-uare.jpg" alt="Uare，把一条宣传需求做成约 64 秒的发布片 — @DoctorYev（Yev Marusenko）" width="220"></a><br>
+<strong><a href="docs/cases/x-doctoryev-fable52-uare/README.md">Uare，把一条宣传需求做成约 64 秒的发布片</a></strong><br>
+署名: @DoctorYev（Yev Marusenko）<br><a href="https://x.com/DoctorYev/status/2119895951108423801">原帖</a>
+ · <a href="docs/cases/x-doctoryev-fable52-uare/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/DeryaTR_/status/2120083276916224014"><img src="assets/thumbs/x-deryatr-fable52-ataturk-remembrance.jpg" alt="10 November remembrance video by Fable 5.2 — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
+<strong><a href="docs/cases/x-deryatr-fable52-ataturk-remembrance/README.md">10 November remembrance video by Fable 5.2</a></strong><br>
+署名: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120083276916224014">原帖</a>
+ · <a href="docs/cases/x-deryatr-fable52-ataturk-remembrance/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/danteeonsol/status/2119887623070077213"><img src="assets/thumbs/x-danteeonsol-fable52-remotion-three-ufo.jpg" alt="用 Remotion 和 Three.js 做 UFO 到访 51 区 — @danteeonsol（Dante）" width="220"></a><br>
+<strong><a href="docs/cases/x-danteeonsol-fable52-remotion-three-ufo/README.md">用 Remotion 和 Three.js 做 UFO 到访 51 区</a></strong><br>
+署名: @danteeonsol（Dante）<br><a href="https://x.com/danteeonsol/status/2119887623070077213">原帖</a>
+ · <a href="docs/cases/x-danteeonsol-fable52-remotion-three-ufo/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/danshipper/status/2119869228207546638"><img src="assets/thumbs/x-danshipper-fable52-546638.jpg" alt="让代理采访研究者，再把录音剪成纪录片 — @danshipper（Dan Shipper）" width="220"></a><br>
+<strong><a href="docs/cases/x-danshipper-fable52-546638/README.md">让代理采访研究者，再把录音剪成纪录片</a></strong><br>
+署名: @danshipper（Dan Shipper）<br><a href="https://x.com/danshipper/status/2119869228207546638">原帖</a>
+ · <a href="docs/cases/x-danshipper-fable52-546638/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/DanielZambrini/status/2119893834276507954"><img src="assets/thumbs/x-danielzambrini-fable52-fable-opus.jpg" alt="15 秒火柴人对打，保留 Fable 与 Opus 的成本对照 — @DanielZambrini（Daniel Zambrini）" width="220"></a><br>
+<strong><a href="docs/cases/x-danielzambrini-fable52-fable-opus/README.md">15 秒火柴人对打，保留 Fable 与 Opus 的成本对照</a></strong><br>
+署名: @DanielZambrini（Daniel Zambrini）<br><a href="https://x.com/DanielZambrini/status/2119893834276507954">原帖</a>
+ · <a href="docs/cases/x-danielzambrini-fable52-fable-opus/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/claudeai/status/2119899459761131615"><img src="assets/thumbs/x-claudeai-fable52-pcb.jpg" alt="从四层 PCB 到三款能工作的电子原型 — @claudeai（Claude）" width="220"></a><br>
+<strong><a href="docs/cases/x-claudeai-fable52-pcb/README.md">从四层 PCB 到三款能工作的电子原型</a></strong><br>
+署名: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119899459761131615">原帖</a>
+ · <a href="docs/cases/x-claudeai-fable52-pcb/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/claudeai/status/2119899477855379913"><img src="assets/thumbs/x-claudeai-fable52-miplib.jpg" alt="求解 MIPLIB 开放问题，其中一个例子是 42 趟列车的排班 — @claudeai（Claude）" width="220"></a><br>
+<strong><a href="docs/cases/x-claudeai-fable52-miplib/README.md">求解 MIPLIB 开放问题，其中一个例子是 42 趟列车的排班</a></strong><br>
+署名: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119899477855379913">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/claudeai/status/2119867129751056485"><img src="assets/thumbs/x-claudeai-fable52-lean.jpg" alt="1,000 个代理用约 29 小时复现费马大定理的 Lean 证明 — @claudeai（Claude）" width="220"></a><br>
+<strong><a href="docs/cases/x-claudeai-fable52-lean/README.md">1,000 个代理用约 29 小时复现费马大定理的 Lean 证明</a></strong><br>
+署名: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119867129751056485">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/claudeai/status/2119867114450268322"><img src="assets/thumbs/x-claudeai-fable52-268322.jpg" alt="从空目录到可在笔记本启动的操作系统 — @claudeai（Claude）" width="220"></a><br>
+<strong><a href="docs/cases/x-claudeai-fable52-268322/README.md">从空目录到可在笔记本启动的操作系统</a></strong><br>
+署名: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119867114450268322">原帖</a>
+ · <a href="docs/cases/x-claudeai-fable52-268322/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/claudeai/status/2119867132452221045"><img src="assets/thumbs/x-claudeai-fable52-221045.jpg" alt="用真实机械臂拧瓶盖、复原方块和画图 — @claudeai（Claude）" width="220"></a><br>
+<strong><a href="docs/cases/x-claudeai-fable52-221045/README.md">用真实机械臂拧瓶盖、复原方块和画图</a></strong><br>
+署名: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119867132452221045">原帖</a>
+ · <a href="docs/cases/x-claudeai-fable52-221045/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/claudeai/status/2119899488995131439"><img src="assets/thumbs/x-claudeai-fable52-131439.jpg" alt="求出简化模型中模自举方法的精确界限 — @claudeai（Claude）" width="220"></a><br>
+<strong><a href="docs/cases/x-claudeai-fable52-131439/README.md">求出简化模型中模自举方法的精确界限</a></strong><br>
+署名: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119899488995131439">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/clairevo/status/2119905651359142132"><img src="assets/thumbs/x-clairevo-fable52-typed-page.jpg" alt="typed.page，带纸张、色带和写作计时的网页打字机 — @clairevo（claire vo 🖤）" width="220"></a><br>
+<strong><a href="docs/cases/x-clairevo-fable52-typed-page/README.md">typed.page，带纸张、色带和写作计时的网页打字机</a></strong><br>
+署名: @clairevo（claire vo 🖤）<br><a href="https://x.com/clairevo/status/2119905651359142132">原帖</a>
+ · <a href="docs/cases/x-clairevo-fable52-typed-page/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/chetaslua/status/2119981510199808368"><img src="assets/thumbs/x-chetaslua-fable52-808368.jpg" alt="四张代码绘图，做成并排的动效展示 — @chetaslua" width="220"></a><br>
+<strong><a href="docs/cases/x-chetaslua-fable52-808368/README.md">四张代码绘图，做成并排的动效展示</a></strong><br>
+署名: @chetaslua<br><a href="https://x.com/chetaslua/status/2119981510199808368">原帖</a>
+ · <a href="docs/cases/x-chetaslua-fable52-808368/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/BeamManP/status/2119879390322622583"><img src="assets/thumbs/x-beammanp-fable52-wasd-three.jpg" alt="用 WASD 和空格操控 Three.js 坦克 — @BeamManP（ビームマンＰ ver40）" width="220"></a><br>
+<strong><a href="docs/cases/x-beammanp-fable52-wasd-three/README.md">用 WASD 和空格操控 Three.js 坦克</a></strong><br>
+署名: @BeamManP（ビームマンＰ ver40）<br><a href="https://x.com/BeamManP/status/2119879390322622583">原帖</a>
+ · <a href="docs/cases/x-beammanp-fable52-wasd-three/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/argofowl/status/2119913148929187960"><img src="assets/thumbs/x-argofowl-fable52-spud-smash.jpg" alt="SPUD SMASH，土豆在房间里打烂蓝椅子 — @argofowl（🥔🥔🥔）" width="220"></a><br>
+<strong><a href="docs/cases/x-argofowl-fable52-spud-smash/README.md">SPUD SMASH，土豆在房间里打烂蓝椅子</a></strong><br>
+署名: @argofowl（🥔🥔🥔）<br><a href="https://x.com/argofowl/status/2119913148929187960">原帖</a>
+ · <a href="docs/cases/x-argofowl-fable52-spud-smash/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/anstapnever/status/2119915123070644263"><img src="assets/thumbs/x-anstapnever-fable52-blackout-three.jpg" alt="《Blackout》，用 Three.js 做 79 秒二维动画 — @anstapnever（anstap）" width="220"></a><br>
+<strong><a href="docs/cases/x-anstapnever-fable52-blackout-three/README.md">《Blackout》，用 Three.js 做 79 秒二维动画</a></strong><br>
+署名: @anstapnever（anstap）<br><a href="https://x.com/anstapnever/status/2119915123070644263">原帖</a>
+ · <a href="docs/cases/x-anstapnever-fable52-blackout-three/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/AmirMushich/status/2119937977426338283"><img src="assets/thumbs/x-amirmushich-fable52-worm-rider.jpg" alt="Worm Rider，用代码生成沙虫、车队与地形 — @AmirMushich（AmirMušić）" width="220"></a><br>
+<strong><a href="docs/cases/x-amirmushich-fable52-worm-rider/README.md">Worm Rider，用代码生成沙虫、车队与地形</a></strong><br>
+署名: @AmirMushich（AmirMušić）<br><a href="https://x.com/AmirMushich/status/2119937977426338283">原帖</a>
+ · <a href="docs/cases/x-amirmushich-fable52-worm-rider/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/AmirMushich/status/2119903338078564844"><img src="assets/thumbs/x-amirmushich-fable52-blender-reaper.jpg" alt="Blender × Reaper，用手机录音做三维片段的音效 — @AmirMushich（AmirMušić）" width="220"></a><br>
+<strong><a href="docs/cases/x-amirmushich-fable52-blender-reaper/README.md">Blender × Reaper，用手机录音做三维片段的音效</a></strong><br>
+署名: @AmirMushich（AmirMušić）<br><a href="https://x.com/AmirMushich/status/2119903338078564844">原帖</a>
+ · <a href="docs/cases/x-amirmushich-fable52-blender-reaper/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/amihai/status/2119894821255205099"><img src="assets/thumbs/x-amihai-fable52-205099.jpg" alt="给一块空画布，让模型自己选题构图 — @amihai（Amichai Mantinband）" width="220"></a><br>
+<strong><a href="docs/cases/x-amihai-fable52-205099/README.md">给一块空画布，让模型自己选题构图</a></strong><br>
+署名: @amihai（Amichai Mantinband）<br><a href="https://x.com/amihai/status/2119894821255205099">原帖</a>
+ · <a href="docs/cases/x-amihai-fable52-205099/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/al_maxgo/status/2119891197317591040"><img src="assets/thumbs/x-almaxgo-fable52-fbplot.jpg" alt="FBPlot，把代码库里的真实图表做成产品预告 — @al_maxgo（Al Maxgo）" width="220"></a><br>
+<strong><a href="docs/cases/x-almaxgo-fable52-fbplot/README.md">FBPlot，把代码库里的真实图表做成产品预告</a></strong><br>
+署名: @al_maxgo（Al Maxgo）<br><a href="https://x.com/al_maxgo/status/2119891197317591040">原帖</a>
+ · <a href="docs/cases/x-almaxgo-fable52-fbplot/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/alightinastorm/status/2120020469487440210"><img src="assets/thumbs/x-alightinastorm-fable52-a-browser-first-person-sho.jpg" alt="A browser first-person shooter with an armory and a desert town map — @alightinastorm" width="220"></a><br>
+<strong><a href="docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/README.md">A browser first-person shooter with an armory and a desert town map</a></strong><br>
+署名: @alightinastorm<br><a href="https://x.com/alightinastorm/status/2120020469487440210">原帖</a>
+ · <a href="docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/alexalbert__/status/2119916954337349737"><img src="assets/thumbs/x-alexalbert-fable52-pdf.jpg" alt="把达·芬奇手稿 PDF 做成可交互发明 — @alexalbert__（Alex Albert）" width="220"></a><br>
+<strong><a href="docs/cases/x-alexalbert-fable52-pdf/README.md">把达·芬奇手稿 PDF 做成可交互发明</a></strong><br>
+署名: @alexalbert__（Alex Albert）<br><a href="https://x.com/alexalbert__/status/2119916954337349737">原帖</a>
+ · <a href="docs/cases/x-alexalbert-fable52-pdf/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/akshatbahety/status/2119882437740421456"><img src="assets/thumbs/x-akshatbahety-fable52-fal.jpg" alt="30 秒图解短片，配音和音频经 Fal 生成 — @akshatbahety（Akshat Bahety）" width="220"></a><br>
+<strong><a href="docs/cases/x-akshatbahety-fable52-fal/README.md">30 秒图解短片，配音和音频经 Fal 生成</a></strong><br>
+署名: @akshatbahety（Akshat Bahety）<br><a href="https://x.com/akshatbahety/status/2119882437740421456">原帖</a>
+ · <a href="docs/cases/x-akshatbahety-fable52-fal/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/aakashverma/status/2119874895836524593"><img src="assets/thumbs/x-aakashverma-fable52-fable-anthropic.jpg" alt="把 Fable 5.2 的发布补进一部 Anthropic 历史片 — @aakashverma（Aakash Verma）" width="220"></a><br>
+<strong><a href="docs/cases/x-aakashverma-fable52-fable-anthropic/README.md">把 Fable 5.2 的发布补进一部 Anthropic 历史片</a></strong><br>
+署名: @aakashverma（Aakash Verma）<br><a href="https://x.com/aakashverma/status/2119874895836524593">原帖</a>
+ · <a href="docs/cases/x-aakashverma-fable52-fable-anthropic/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/0kncn/status/2119901782482543073"><img src="assets/thumbs/x-0kncn-fable52-543073.jpg" alt="90 秒蒸汽机车变形短片，附完整提示词 — @0kncn（Okan Can）" width="220"></a><br>
+<strong><a href="docs/cases/x-0kncn-fable52-543073/README.md">90 秒蒸汽机车变形短片，附完整提示词</a></strong><br>
+署名: @0kncn（Okan Can）<br><a href="https://x.com/0kncn/status/2119901782482543073">原帖</a>
+ · <a href="docs/cases/x-0kncn-fable52-543073/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://halilsekeroglu.com/en/fable/"><img src="assets/thumbs/web-halil-fable52-animation-prompts.jpg" alt="Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D) — Halil Sekeroglu" width="220"></a><br>
+<strong><a href="docs/cases/web-halil-fable52-animation-prompts/README.md">Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D)</a></strong><br>
+署名: Halil Sekeroglu<br><a href="https://halilsekeroglu.com/en/fable/">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/wshuyi/status/2120014892040417720"><img src="assets/thumbs/x-wshuyi-fable52-sabertooth-hunt.jpg" alt="纯编程动画：剑齿虎捕猎野牛（自编程音效） — @wshuyi" width="220"></a><br>
+<strong><a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md">纯编程动画：剑齿虎捕猎野牛（自编程音效）</a></strong><br>
+署名: @wshuyi<br><a href="https://x.com/wshuyi/status/2120014892040417720">原帖</a>
+ · <a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/notjazii/status/2119905661505122575"><img src="assets/thumbs/x-notjazii-fable52-a-pirate-ship-sailing-acro.jpg" alt="A pirate ship sailing across the ocean — @notjazii" width="220"></a><br>
+<strong><a href="docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/README.md">A pirate ship sailing across the ocean</a></strong><br>
+署名: @notjazii<br><a href="https://x.com/notjazii/status/2119905661505122575">原帖</a>
+ · <a href="docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/maxt3chno/status/2119896698281467952"><img src="assets/thumbs/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b.jpg" alt="GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in Blender — @maxt3chno" width="220"></a><br>
+<strong><a href="docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/README.md">GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in Blender</a></strong><br>
+署名: @maxt3chno<br><a href="https://x.com/maxt3chno/status/2119896698281467952">原帖</a>
+ · <a href="docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/LexnLin/status/2119880654858977333"><img src="assets/thumbs/x-lexnlin-fable52-a-flight-through-a-living.jpg" alt="A flight through a living world — @LexnLin" width="220"></a><br>
+<strong><a href="docs/cases/x-lexnlin-fable52-a-flight-through-a-living/README.md">A flight through a living world</a></strong><br>
+署名: @LexnLin<br><a href="https://x.com/LexnLin/status/2119880654858977333">原帖</a>
+ · <a href="docs/cases/x-lexnlin-fable52-a-flight-through-a-living/media/video.mp4">▶ 视频</a>
 </td>
 <td align="center" width="33%">
 <a href="https://x.com/himanshutwtxs/status/2120017106804900304"><img src="assets/thumbs/x-himanshutwtxs-fable52-motion-showreel.jpg" alt="One-prompt motion designer showreel (timing, easing, shape, type) — @himanshutwtxs" width="220"></a><br>
 <strong><a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md">One-prompt motion designer showreel (timing, easing, shape, type)</a></strong><br>
 署名: @himanshutwtxs<br><a href="https://x.com/himanshutwtxs/status/2120017106804900304">原帖</a>
+ · <a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/anabology/status/2120010995309457643"><img src="assets/thumbs/x-anabology-fable52-claudia-gallery.jpg" alt="Claudia Gallery — @anabology" width="220"></a><br>
+<strong><a href="docs/cases/x-anabology-fable52-claudia-gallery/README.md">Claudia Gallery</a></strong><br>
+署名: @anabology<br><a href="https://x.com/anabology/status/2120010995309457643">原帖</a>
+ · <a href="docs/cases/x-anabology-fable52-claudia-gallery/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/anshu4321/status/2119938067758772403"><img src="assets/thumbs/x-anshu4321-fable52-indiranagar-1.jpg" alt="印度班加罗尔 Indiranagar 1 平方公里 — @anshu4321" width="220"></a><br>
+<strong><a href="docs/cases/x-anshu4321-fable52-indiranagar-1/README.md">印度班加罗尔 Indiranagar 1 平方公里</a></strong><br>
+署名: @anshu4321<br><a href="https://x.com/anshu4321/status/2119938067758772403">原帖</a>
+ · <a href="docs/cases/x-anshu4321-fable52-indiranagar-1/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/chetaslua/status/2119870650722763052"><img src="assets/thumbs/x-chetaslua-fable52-clip.jpg" alt="官方演示：从空文件夹造操作系统（转述） — @chetaslua" width="220"></a><br>
+<strong><a href="docs/cases/x-chetaslua-fable52-clip/README.md">官方演示：从空文件夹造操作系统（转述）</a></strong><br>
+署名: @chetaslua<br><a href="https://x.com/chetaslua/status/2119870650722763052">原帖</a>
+ · <a href="docs/cases/x-chetaslua-fable52-clip/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/ChrisGPT/status/2119998815856218494"><img src="assets/thumbs/x-chrisgpt-fable52-clip.jpg" alt="给剪辑师的「抢饭碗」宣言视频 — @ChrisGPT" width="220"></a><br>
+<strong><a href="docs/cases/x-chrisgpt-fable52-clip/README.md">给剪辑师的「抢饭碗」宣言视频</a></strong><br>
+署名: @ChrisGPT<br><a href="https://x.com/ChrisGPT/status/2119998815856218494">原帖</a>
+ · <a href="docs/cases/x-chrisgpt-fable52-clip/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/felixrieseberg/status/2119925633564463609"><img src="assets/thumbs/x-felixrieseberg-fable52-saltline.jpg" alt="Saltline 第一人称射击 — @felixrieseberg" width="220"></a><br>
+<strong><a href="docs/cases/x-felixrieseberg-fable52-saltline/README.md">Saltline 第一人称射击</a></strong><br>
+署名: @felixrieseberg<br><a href="https://x.com/felixrieseberg/status/2119925633564463609">原帖</a>
+ · <a href="docs/cases/x-felixrieseberg-fable52-saltline/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/higgsfield_ai/status/2119997122896601269"><img src="assets/thumbs/x-higgsfield-ai-fable52-vowlorn-rpg.jpg" alt="VOWLORN 纯代码暗黑 RPG — @higgsfield_ai" width="220"></a><br>
+<strong><a href="docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/README.md">VOWLORN 纯代码暗黑 RPG</a></strong><br>
+署名: @higgsfield_ai<br><a href="https://x.com/higgsfield_ai/status/2119997122896601269">原帖</a>
+ · <a href="docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/LexnLin/status/2119966127149429093"><img src="assets/thumbs/x-lexnlin-fable52-feed-the-backrooms.jpg" alt="Feed the Backrooms：你当怪物 — @LexnLin" width="220"></a><br>
+<strong><a href="docs/cases/x-lexnlin-fable52-feed-the-backrooms/README.md">Feed the Backrooms：你当怪物</a></strong><br>
+署名: @LexnLin<br><a href="https://x.com/LexnLin/status/2119966127149429093">原帖</a>
+ · <a href="docs/cases/x-lexnlin-fable52-feed-the-backrooms/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MrTacticalX/status/2119955647542542439"><img src="assets/thumbs/x-mrtacticalx-fable52-fable-opus.jpg" alt="玻璃泳池，Fable 对 Opus — @MrTacticalX" width="220"></a><br>
+<strong><a href="docs/cases/x-mrtacticalx-fable52-fable-opus/README.md">玻璃泳池，Fable 对 Opus</a></strong><br>
+署名: @MrTacticalX<br><a href="https://x.com/MrTacticalX/status/2119955647542542439">原帖</a>
+ · <a href="docs/cases/x-mrtacticalx-fable52-fable-opus/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/noclipepe/status/2119927838321328577"><img src="assets/thumbs/x-noclipepe-fable52-chrome.jpg" alt="Chrome 恐龙变兰博 — @noclipepe" width="220"></a><br>
+<strong><a href="docs/cases/x-noclipepe-fable52-chrome/README.md">Chrome 恐龙变兰博</a></strong><br>
+署名: @noclipepe<br><a href="https://x.com/noclipepe/status/2119927838321328577">原帖</a>
+ · <a href="docs/cases/x-noclipepe-fable52-chrome/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/noclipepe/status/2119728047754547326"><img src="assets/thumbs/x-noclipepe-fable52-clip.jpg" alt="童年地毯赛车 — @noclipepe" width="220"></a><br>
+<strong><a href="docs/cases/x-noclipepe-fable52-clip/README.md">童年地毯赛车</a></strong><br>
+署名: @noclipepe<br><a href="https://x.com/noclipepe/status/2119728047754547326">原帖</a>
+ · <a href="docs/cases/x-noclipepe-fable52-clip/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/_sholtodouglas/status/2119935331499925557"><img src="assets/thumbs/x-sholtodouglas-fable52-fps.jpg" alt="带传送门的竞技场 FPS，办公室里对战 — @_sholtodouglas" width="220"></a><br>
+<strong><a href="docs/cases/x-sholtodouglas-fable52-fps/README.md">带传送门的竞技场 FPS，办公室里对战</a></strong><br>
+署名: @_sholtodouglas<br><a href="https://x.com/_sholtodouglas/status/2119935331499925557">原帖</a>
+ · <a href="docs/cases/x-sholtodouglas-fable52-fps/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/vib3coded/status/2119951060752375827"><img src="assets/thumbs/x-vib3coded-fable52-clip.jpg" alt="果冻虎鲸材质研究 — @vib3coded" width="220"></a><br>
+<strong><a href="docs/cases/x-vib3coded-fable52-clip/README.md">果冻虎鲸材质研究</a></strong><br>
+署名: @vib3coded<br><a href="https://x.com/vib3coded/status/2119951060752375827">原帖</a>
+ · <a href="docs/cases/x-vib3coded-fable52-clip/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/vib3coded/status/2120104517282775514"><img src="assets/thumbs/x-vib3coded-fable52-clip-2.jpg" alt="瓶中体素世界 — @vib3coded" width="220"></a><br>
+<strong><a href="docs/cases/x-vib3coded-fable52-clip-2/README.md">瓶中体素世界</a></strong><br>
+署名: @vib3coded<br><a href="https://x.com/vib3coded/status/2120104517282775514">原帖</a>
+ · <a href="docs/cases/x-vib3coded-fable52-clip-2/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/viktoroddy/status/2119985044542705916"><img src="assets/thumbs/x-viktoroddy-fable52-ribbon-hero.jpg" alt="Ribbon Hero 首屏 — @viktoroddy" width="220"></a><br>
+<strong><a href="docs/cases/x-viktoroddy-fable52-ribbon-hero/README.md">Ribbon Hero 首屏</a></strong><br>
+署名: @viktoroddy<br><a href="https://x.com/viktoroddy/status/2119985044542705916">原帖</a>
+ · <a href="docs/cases/x-viktoroddy-fable52-ribbon-hero/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/WesRoth/status/2119953913160093817"><img src="assets/thumbs/x-wesroth-fable52-clip.jpg" alt="一次生成合集 — @WesRoth" width="220"></a><br>
+<strong><a href="docs/cases/x-wesroth-fable52-clip/README.md">一次生成合集</a></strong><br>
+署名: @WesRoth<br><a href="https://x.com/WesRoth/status/2119953913160093817">原帖</a>
+ · <a href="docs/cases/x-wesroth-fable52-clip/media/video.mp4">▶ 视频</a>
 </td>
 </tr>
 </table>
+
+- **用同一份网页改版任务比较 Fable 和 Opus** · 署名: @petergyang（Peter Yang） · [案例](docs/cases/x-petergyang-fable52-fable-opus/README.md) · [原帖](https://x.com/petergyang/status/2119870223562191289)
+- **Prebid Brief，从政府议程找尚未招标的商机** · 署名: @emollick（Ethan Mollick） · [案例](docs/cases/x-emollick-fable52-prebid-brief/README.md) · [原帖](https://x.com/emollick/status/2119870150845599972)
+- **算出弱耦合下的霍金–佩奇相变** · 署名: @claudeai（Claude） · [案例](docs/cases/x-claudeai-fable52-825293/README.md) · [原帖](https://x.com/claudeai/status/2119899487044825293)
+- **重做 ChatPRD 的产品情报管线** · 署名: @clairevo（claire vo 🖤） · [案例](docs/cases/x-clairevo-fable52-chatprd/README.md) · [原帖](https://x.com/clairevo/status/2119891385784619405)
+- **Three Games 合集页（Saltline / 钟表匠之心 / Tidewright）** · 署名: @felixrieseberg · [案例](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/README.md) · [原帖](https://x.com/vineerpasam/status/2119955306096857145) · [▶ 视频](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/media/video.mp4)
+- **印度维生素该买哪些** · 署名: @itspsneha · [案例](docs/cases/x-itspsneha-fable52-clip/README.md) · [原帖](https://x.com/itspsneha/status/2120048494761451974)
+- **76 个单文件 HTML 视觉作品集** · 署名: @MiaAI_lab · [案例](docs/cases/x-miaai-lab-fable52-76-html/README.md) · [原帖](https://x.com/MiaAI_lab/status/2119930229661503893)
+- **温哥华鸟瞰** · 署名: @tokifyi · [案例](docs/cases/x-tokifyi-fable52-clip/README.md) · [原帖](https://x.com/tokifyi/status/2120020272153764172)
 
 <a id="ver-claude-mythos-5-2"></a>
 
@@ -166,6 +1003,56 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <strong><a href="docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md">Isometric day/night city HTML loop — Claude Opus 5.5</a></strong><br>
 署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
 </td>
+<td align="center" width="33%">
+<a href="https://x.com/ultimaxbt/status/2108210884799549714"><img src="assets/thumbs/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ.jpg" alt="&lt;inputs&gt; Ask me for: my product, the exact request a user types into it, 6 to 8 photos for — @ultimaxbt" width="220"></a><br>
+<strong><a href="docs/cases/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ/README.md">&lt;inputs&gt; Ask me for: my product, the exact request a user types into it, 6 to 8 </a></strong><br>
+署名: @ultimaxbt<br><a href="https://x.com/ultimaxbt/status/2108210884799549714">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/twoclipping/status/2106101258834551116"><img src="assets/thumbs/x-twoclipping-opus55-inputs-ask-me-for-my-produ.jpg" alt="&lt;inputs&gt; Ask me for: my product&#x27;s name (one lowercase word), a 4-word tagline, the 3-step — @twoclipping" width="220"></a><br>
+<strong><a href="docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/README.md">&lt;inputs&gt; Ask me for: my product&#x27;s name (one lowercase word), a 4-word tagline, t</a></strong><br>
+署名: @twoclipping<br><a href="https://x.com/twoclipping/status/2106101258834551116">原帖</a>
+ · <a href="docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/rossaxbt/status/2107121188027707651"><img src="assets/thumbs/x-rossaxbt-opus55-inputs-ask-me-for-a-short.jpg" alt="&lt;inputs&gt; Ask me for: a short label for the opening toggle, one hero word, a percentage for — @rossaxbt" width="220"></a><br>
+<strong><a href="docs/cases/x-rossaxbt-opus55-inputs-ask-me-for-a-short/README.md">&lt;inputs&gt; Ask me for: a short label for the opening toggle, one hero word, a perc</a></strong><br>
+署名: @rossaxbt<br><a href="https://x.com/rossaxbt/status/2107121188027707651">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/_koushikde_/status/2105730717455937635"><img src="assets/thumbs/x-koushikde-opus55-make-a-15s-motion-video-in.jpg" alt="Make a 15s motion video in code (1920x1080, 60fps, one HTML file drawing every frame from — @_koushikde_" width="220"></a><br>
+<strong><a href="docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/README.md">Make a 15s motion video in code (1920x1080, 60fps, one HTML file drawing every f</a></strong><br>
+署名: @_koushikde_<br><a href="https://x.com/_koushikde_/status/2105730717455937635">原帖</a>
+ · <a href="docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/heyiamnick/status/2109174851412119558"><img src="assets/thumbs/x-heyiamnick-opus55-direction-build-a-30-secon.jpg" alt="&lt;direction&gt; Build a 30-second looping motion design showreel that introduces CLAUDE, a mot — @heyiamnick" width="220"></a><br>
+<strong><a href="docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/README.md">&lt;direction&gt; Build a 30-second looping motion design showreel that introduces CLA</a></strong><br>
+署名: @heyiamnick<br><a href="https://x.com/heyiamnick/status/2109174851412119558">原帖</a>
+ · <a href="docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/GodsBoy7777/status/2103117450854150194"><img src="assets/thumbs/x-godsboy7777-opus55-build-a-single-self-contai.jpg" alt="Build a single self-contained HTML file: a 3D marble computer, in the spirit of Wintergata — @GodsBoy7777" width="220"></a><br>
+<strong><a href="docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/README.md">Build a single self-contained HTML file: a 3D marble computer, in the spirit of </a></strong><br>
+署名: @GodsBoy7777<br><a href="https://x.com/GodsBoy7777/status/2103117450854150194">原帖</a>
+ · <a href="docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Gdgtify/status/2105669567036989608"><img src="assets/thumbs/x-gdgtify-opus55-create-a-20-00-second-kine.jpg" alt="Create a 20.00-second kinetic typography film titled “ESCAPE THE ORBIT,” based on John F — @Gdgtify" width="220"></a><br>
+<strong><a href="docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/README.md">Create a 20.00-second kinetic typography film titled “ESCAPE THE ORBIT,” based o</a></strong><br>
+署名: @Gdgtify<br><a href="https://x.com/Gdgtify/status/2105669567036989608">原帖</a>
+ · <a href="docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/aichrislee/status/2108709764817408244"><img src="assets/thumbs/x-aichrislee-opus55-build-me-a-camera-lens-in.jpg" alt="Build me a camera lens in interactive 3D, in one HTML file with Three.js. Make it look rea — @aichrislee" width="220"></a><br>
+<strong><a href="docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/README.md">Build me a camera lens in interactive 3D, in one HTML file with Three.js. Make i</a></strong><br>
+署名: @aichrislee<br><a href="https://x.com/aichrislee/status/2108709764817408244">原帖</a>
+ · <a href="docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/media/video.mp4">▶ 视频</a>
+</td>
 </tr>
 </table>
 
@@ -177,7 +1064,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 
 ![Gemini cover](assets/brand/families/gemini.png)
 
-这个家族收了 6 条有出处的案例，这里放 3 条。其余都在后面的完整证据表里。
+这个家族收了 6 条有出处的案例，下面按版本全部列出，新的在前。6 条带缩略图卡片，点图看原帖；没有缩略图的各占一行。后面的完整证据表是同一批记录。
 
 <a id="ver-gemini-4-carbon"></a>
 
@@ -186,14 +1073,36 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <table>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/StatsWire/status/2120344850071540152"><img src="assets/thumbs/x-statswire-gemini-carbon-nyc-cruiser.jpg" alt="Interactive 3D NYC cruiser tour in one HTML file (Three.js) — @StatsWire" width="220"></a><br>
+<strong><a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md">Interactive 3D NYC cruiser tour in one HTML file (Three.js)</a></strong><br>
+署名: @StatsWire<br><a href="https://x.com/StatsWire/status/2120344850071540152">原帖</a>
+ · <a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/_MaxBlade/status/2120355412021231795"><img src="assets/thumbs/x-maxblade-fable-vs-carbon.jpg" alt="Same prompt: Fable 5.2 vs Gemini 4 Carbon — @_MaxBlade（Max Blade）" width="220"></a><br>
+<strong><a href="docs/cases/x-maxblade-fable-vs-carbon/README.md">Same prompt: Fable 5.2 vs Gemini 4 Carbon</a></strong><br>
+署名: @_MaxBlade（Max Blade）<br><a href="https://x.com/_MaxBlade/status/2120355412021231795">原帖</a>
+ · <a href="docs/cases/x-maxblade-fable-vs-carbon/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
 <a href="https://x.com/DeryaTR_/status/2120393810941456710"><img src="assets/thumbs/x-deryatr-gemini-carbon-theme-park.jpg" alt="Theme Park HD pixel-art remake (playable) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
 <strong><a href="docs/cases/x-deryatr-gemini-carbon-theme-park/README.md">Theme Park HD pixel-art remake (playable)</a></strong><br>
 署名: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120393810941456710">原帖</a>
+ · <a href="docs/cases/x-deryatr-gemini-carbon-theme-park/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
+<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
+署名: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">原帖</a>
+ · <a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/media/video.mp4">▶ 视频</a>
 </td>
 <td align="center" width="33%">
 <a href="https://x.com/ai_for_success/status/2120317619588972867"><img src="assets/thumbs/x-aiforsuccess-gemini-carbon-v8.jpg" alt="V8 engine in FreeCAD and Blender — @ai_for_success（AshutoshShrivastava）" width="220"></a><br>
 <strong><a href="docs/cases/x-aiforsuccess-gemini-carbon-v8/README.md">V8 engine in FreeCAD and Blender</a></strong><br>
 署名: @ai_for_success（AshutoshShrivastava）<br><a href="https://x.com/ai_for_success/status/2120317619588972867">原帖</a>
+ · <a href="docs/cases/x-aiforsuccess-gemini-carbon-v8/media/video.mp4">▶ 视频</a>
 </td>
 </tr>
 </table>
@@ -220,7 +1129,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 
 ![GPT-6.2 Sol cover](assets/brand/families/gpt-sol.png)
 
-这个家族收了 14 条有出处的案例，这里放 3 条。其余都在后面的完整证据表里。
+这个家族收了 14 条有出处的案例，下面按版本全部列出，新的在前。14 条带缩略图卡片，点图看原帖；没有缩略图的各占一行。后面的完整证据表是同一批记录。
 
 目录分栏名 **GPT-6.2 Sol** 按仓库主人确认。截至 2026-11-11，OpenAI 公开文档仍写 **GPT-6.1 Sol**（[介绍页](https://openai.com/index/introducing-gpt-6-1-sol/)、[Models](https://platform.openai.com/docs/models)）；本仓不编造官方 6.2 发布声明。
 
@@ -231,14 +1140,76 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/TokenGremlin/status/2119852532616790037"><img src="assets/thumbs/x-tokengremlin-gpt62sol-glass-seasons.jpg" alt="Three.js lakeside scene with boat, waterfall, trees, and butterflies — @TokenGremlin（Token Gremlin）" width="220"></a><br>
-<strong><a href="docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md">Three.js lakeside scene with boat, waterfall, trees, and butterflies</a></strong><br>
-署名: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119852532616790037">原帖</a>
+<a href="https://x.com/YFeng2022/status/2120324811549225082"><img src="assets/thumbs/x-yfeng-gpt61-sol-fable-take-flight.jpg" alt="Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max) — @YFeng2022（LanFeng）" width="220"></a><br>
+<strong><a href="docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md">Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)</a></strong><br>
+署名: @YFeng2022（LanFeng）<br><a href="https://x.com/YFeng2022/status/2120324811549225082">原帖</a>
+ · <a href="docs/cases/x-yfeng-gpt61-sol-fable-take-flight/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Raitox_tech/status/2120125234129084492"><img src="assets/thumbs/x-raitoox-sol-stranger-things-credits.jpg" alt="Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames) — @Raitox_tech" width="220"></a><br>
+<strong><a href="docs/cases/x-raitoox-sol-stranger-things-credits/README.md">Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)</a></strong><br>
+署名: @Raitox_tech<br><a href="https://x.com/Raitox_tech/status/2120125234129084492">原帖</a>
+ · <a href="docs/cases/x-raitoox-sol-stranger-things-credits/media/video.mp4">▶ 视频</a>
 </td>
 <td align="center" width="33%">
 <a href="https://x.com/cfenghub/status/2120069654437921152"><img src="assets/thumbs/x-cfenghub-gpt62sol-colosseum.jpg" alt="Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender — @cfenghub（CF长风）" width="220"></a><br>
 <strong><a href="docs/cases/x-cfenghub-gpt62sol-colosseum/README.md">Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender</a></strong><br>
 署名: @cfenghub（CF长风）<br><a href="https://x.com/cfenghub/status/2120069654437921152">原帖</a>
+ · <a href="docs/cases/x-cfenghub-gpt62sol-colosseum/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/TokenGremlin/status/2119852532616790037"><img src="assets/thumbs/x-tokengremlin-gpt62sol-glass-seasons.jpg" alt="Three.js lakeside scene with boat, waterfall, trees, and butterflies — @TokenGremlin（Token Gremlin）" width="220"></a><br>
+<strong><a href="docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md">Three.js lakeside scene with boat, waterfall, trees, and butterflies</a></strong><br>
+署名: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119852532616790037">原帖</a>
+ · <a href="docs/cases/x-tokengremlin-gpt62sol-glass-seasons/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/TokenGremlin/status/2119371334878744648"><img src="assets/thumbs/x-tokengremlin-gpt62sol-threejs-scenes-html.jpg" alt="Three.js scenes from one prompt packed into one HTML file (castle / demos) — @TokenGremlin（Token Gremlin）" width="220"></a><br>
+<strong><a href="docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/README.md">Three.js scenes from one prompt packed into one HTML file (castle / demos)</a></strong><br>
+署名: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119371334878744648">原帖</a>
+ · <a href="docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/TokenGremlin/status/2119395930805879165"><img src="assets/thumbs/x-tokengremlin-gpt62sol-threejs-blackhole.jpg" alt="One-shot Three.js black hole in a single HTML file (author routed to GPT-6.2 Sol) — @TokenGremlin（Token Gremlin）" width="220"></a><br>
+<strong><a href="docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/README.md">One-shot Three.js black hole in a single HTML file (author routed to GPT-6.2 Sol</a></strong><br>
+署名: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119395930805879165">原帖</a>
+ · <a href="docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/teddyaisi/status/2119503047646908664"><img src="assets/thumbs/x-teddyaisi-gpt62sol-interactive-city.jpg" alt="One-prompt interactive Three.js city in a single offline HTML file — @teddyaisi（Teddy）" width="220"></a><br>
+<strong><a href="docs/cases/x-teddyaisi-gpt62sol-interactive-city/README.md">One-prompt interactive Three.js city in a single offline HTML file</a></strong><br>
+署名: @teddyaisi（Teddy）<br><a href="https://x.com/teddyaisi/status/2119503047646908664">原帖</a>
+ · <a href="docs/cases/x-teddyaisi-gpt62sol-interactive-city/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/qingzhoucloud/status/2119441137576579448"><img src="assets/thumbs/x-qingzhoucloud-gpt62sol-floating-castle.jpg" alt="GPT-6.2 Sol 3D floating castle built with HTML + Three.js — @qingzhoucloud（产品晓东）" width="220"></a><br>
+<strong><a href="docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/README.md">GPT-6.2 Sol 3D floating castle built with HTML + Three.js</a></strong><br>
+署名: @qingzhoucloud（产品晓东）<br><a href="https://x.com/qingzhoucloud/status/2119441137576579448">原帖</a>
+ · <a href="docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/marcthecreatorr/status/2119503438405136765"><img src="assets/thumbs/x-marcthecreatorr-gpt62sol-sailing-ship.jpg" alt="GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt) — @marcthecreatorr（Marcel）" width="220"></a><br>
+<strong><a href="docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md">GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)</a></strong><br>
+署名: @marcthecreatorr（Marcel）<br><a href="https://x.com/marcthecreatorr/status/2119503438405136765">原帖</a>
+ · <a href="docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/HarshithLucky3/status/2119418918616150080"><img src="assets/thumbs/x-harshithlucky3-gpt62sol-pelican-svg-animation.jpg" alt="SVG animation: pelican and 2 crabs riding bicycles (Codex routing) — @HarshithLucky3（Harshith）" width="220"></a><br>
+<strong><a href="docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md">SVG animation: pelican and 2 crabs riding bicycles (Codex routing)</a></strong><br>
+署名: @HarshithLucky3（Harshith）<br><a href="https://x.com/HarshithLucky3/status/2119418918616150080">原帖</a>
+ · <a href="docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/cherriessire/status/2119488351057121420"><img src="assets/thumbs/x-cherriessire-gpt62sol-moon-aurora-threejs.jpg" alt="Self-contained Three.js moon scene with red aurora in one HTML file — @cherriessire" width="220"></a><br>
+<strong><a href="docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md">Self-contained Three.js moon scene with red aurora in one HTML file</a></strong><br>
+署名: @cherriessire<br><a href="https://x.com/cherriessire/status/2119488351057121420">原帖</a>
+ · <a href="docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/media/video.mp4">▶ 视频</a>
 </td>
 </tr>
 </table>
@@ -250,9 +1221,20 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <table>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/takamasa045/status/2119769277846990949"><img src="assets/thumbs/x-takamasa045-gpt61sol-momoyama.jpg" alt="Azuchi-Momoyama castle town diorama in HTML and Three.js — @takamasa045（伊藤貴將）" width="220"></a><br>
+<strong><a href="docs/cases/x-takamasa045-gpt61sol-momoyama/README.md">Azuchi-Momoyama castle town diorama in HTML and Three.js</a></strong><br>
+署名: @takamasa045（伊藤貴將）<br><a href="https://x.com/takamasa045/status/2119769277846990949">原帖</a>
+ · <a href="docs/cases/x-takamasa045-gpt61sol-momoyama/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
 <a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-gpt61-sol-isometric-city.jpg" alt="Isometric day/night city HTML loop — GPT-6.1 Sol — James Greene (model comparison archive)" width="220"></a><br>
 <strong><a href="docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/README.md">Isometric day/night city HTML loop — GPT-6.1 Sol</a></strong><br>
 署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://marmikshah.github.io/atelier/"><img src="assets/thumbs/web-atelier-gpt61-sol-ten-frame-loops.gif" alt="Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max effort column) — Marmik Shah (Atelier exhibition)" width="220"></a><br>
+<strong><a href="docs/cases/web-atelier-gpt61-sol-ten-frame-loops/README.md">Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max effort column)</a></strong><br>
+署名: Marmik Shah (Atelier exhibition)<br><a href="https://marmikshah.github.io/atelier/">原帖</a>
 </td>
 </tr>
 </table>
@@ -265,7 +1247,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 
 ![Grok cover](assets/brand/families/grok.png)
 
-这个家族收了 11 条有出处的案例，这里放 2 条。其余都在后面的完整证据表里。
+这个家族收了 11 条有出处的案例，下面按版本全部列出，新的在前。11 条带缩略图卡片，点图看原帖；没有缩略图的各占一行。后面的完整证据表是同一批记录。
 
 <a id="ver-grok-4-7"></a>
 
@@ -288,9 +1270,69 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <table>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/RadCyberTruck/status/2120350558431445006"><img src="assets/thumbs/x-radcybertruck-grok-imagine-cybertruck-cry.jpg" alt="Grok Imagine — pixstar Cybertruck farewell clip (partial prompt) — @RadCyberTruck" width="220"></a><br>
+<strong><a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md">Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)</a></strong><br>
+署名: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558431445006">原帖</a>
+ · <a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
 <a href="https://x.com/Aiminithoughts/status/2120329925702070425"><img src="assets/thumbs/x-aiminithoughts-grok-imagine-golden-angel.jpg" alt="Golden Angel Warrior — Grok Imagine clip — @Aiminithoughts" width="220"></a><br>
 <strong><a href="docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md">Golden Angel Warrior — Grok Imagine clip</a></strong><br>
 署名: @Aiminithoughts<br><a href="https://x.com/Aiminithoughts/status/2120329925702070425">原帖</a>
+ · <a href="docs/cases/x-aiminithoughts-grok-imagine-golden-angel/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Herbertkrspyleg/status/2119232026230305214"><img src="assets/thumbs/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo.jpg" alt="Neon Martial Arts Swordswoman — @Herbertkrspyleg（Herbert Krspyleg75 Joseph）" width="220"></a><br>
+<strong><a href="docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/README.md">Neon Martial Arts Swordswoman</a></strong><br>
+署名: @Herbertkrspyleg（Herbert Krspyleg75 Joseph）<br><a href="https://x.com/Herbertkrspyleg/status/2119232026230305214">原帖</a>
+ · <a href="docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/HawkinsonLindy/status/2118934426633785350"><img src="assets/thumbs/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v.jpg" alt="Wind Blown Yellow Ribbon Video — @HawkinsonLindy（Lindy Hawkinson）" width="220"></a><br>
+<strong><a href="docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/README.md">Wind Blown Yellow Ribbon Video</a></strong><br>
+署名: @HawkinsonLindy（Lindy Hawkinson）<br><a href="https://x.com/HawkinsonLindy/status/2118934426633785350">原帖</a>
+ · <a href="docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Aiminithoughts/status/2118871728680272112"><img src="assets/thumbs/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag.jpg" alt="SpaceX Beyond Earth Montage — @Aiminithoughts（Ai Mini Thoughts Creator）" width="220"></a><br>
+<strong><a href="docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/README.md">SpaceX Beyond Earth Montage</a></strong><br>
+署名: @Aiminithoughts（Ai Mini Thoughts Creator）<br><a href="https://x.com/Aiminithoughts/status/2118871728680272112">原帖</a>
+ · <a href="docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Aiminithoughts/status/2118762128475635964"><img src="assets/thumbs/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean.jpg" alt="Optimus Rising from Ocean — @Aiminithoughts（Ai Mini Thoughts Creator）" width="220"></a><br>
+<strong><a href="docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/README.md">Optimus Rising from Ocean</a></strong><br>
+署名: @Aiminithoughts（Ai Mini Thoughts Creator）<br><a href="https://x.com/Aiminithoughts/status/2118762128475635964">原帖</a>
+ · <a href="docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/whichaiwon/status/2118342571592446154"><img src="assets/thumbs/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit.jpg" alt="Grok Imagine Video 1.5 Lite Lip-Sync Test — @whichaiwon（Which AI Won）" width="220"></a><br>
+<strong><a href="docs/cases/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit/README.md">Grok Imagine Video 1.5 Lite Lip-Sync Test</a></strong><br>
+署名: @whichaiwon（Which AI Won）<br><a href="https://x.com/whichaiwon/status/2118342571592446154">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/rxufnx/status/2118327480918438306"><img src="assets/thumbs/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid.jpg" alt="Fallen Angel Cinematic Video — @rxufnx（rxufnx）" width="220"></a><br>
+<strong><a href="docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/README.md">Fallen Angel Cinematic Video</a></strong><br>
+署名: @rxufnx（rxufnx）<br><a href="https://x.com/rxufnx/status/2118327480918438306">原帖</a>
+ · <a href="docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/HaluAIArt/status/2118285947921989988"><img src="assets/thumbs/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance.jpg" alt="Dark Electro Hip Hop Dance Video — @HaluAIArt（はる）" width="220"></a><br>
+<strong><a href="docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/README.md">Dark Electro Hip Hop Dance Video</a></strong><br>
+署名: @HaluAIArt（はる）<br><a href="https://x.com/HaluAIArt/status/2118285947921989988">原帖</a>
+ · <a href="docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/media/video.mp4">▶ 视频</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/AwesomeGodNewL/status/2118227641027416471"><img src="assets/thumbs/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince.jpg" alt="Grok Imagine Prompt: Prince transforms maid into princess — @AwesomeGodNewL（Awesome God New Life Ministries）" width="220"></a><br>
+<strong><a href="docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/README.md">Grok Imagine Prompt: Prince transforms maid into princess</a></strong><br>
+署名: @AwesomeGodNewL（Awesome God New Life Ministries）<br><a href="https://x.com/AwesomeGodNewL/status/2118227641027416471">原帖</a>
+ · <a href="docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/media/video.mp4">▶ 视频</a>
 </td>
 </tr>
 </table>
@@ -303,7 +1345,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 
 ![Qwen cover](assets/brand/families/qwen.png)
 
-这个家族 3 条有出处的案例都列在这里。后面的完整证据表是同一批记录。
+这个家族收了 3 条有出处的案例，下面按版本全部列出，新的在前。3 条带缩略图卡片，点图看原帖；没有缩略图的各占一行。后面的完整证据表是同一批记录。
 
 <a id="ver-qwen3-8-27b"></a>
 
@@ -329,6 +1371,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <a href="https://x.com/leo114119/status/2120371909624033439"><img src="assets/thumbs/x-leo114119-qwen4max-wukong-plane.jpg" alt="Sun Wukong flying a plane — HTML 3D demo — @leo114119（Leo）" width="220"></a><br>
 <strong><a href="docs/cases/x-leo114119-qwen4max-wukong-plane/README.md">Sun Wukong flying a plane — HTML 3D demo</a></strong><br>
 署名: @leo114119（Leo）<br><a href="https://x.com/leo114119/status/2120371909624033439">原帖</a>
+ · <a href="docs/cases/x-leo114119-qwen4max-wukong-plane/media/video.mp4">▶ 视频</a>
 </td>
 </tr>
 </table>
@@ -343,6 +1386,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <a href="https://x.com/coffeecup2020/status/2120113388629995921"><img src="assets/thumbs/x-coffeecup2020-qwen4-sagrada.jpg" alt="Sagrada Família demo from Qwen 4.0 Preview — @coffeecup2020（David Y. Tan）" width="220"></a><br>
 <strong><a href="docs/cases/x-coffeecup2020-qwen4-sagrada/README.md">Sagrada Família demo from Qwen 4.0 Preview</a></strong><br>
 署名: @coffeecup2020（David Y. Tan）<br><a href="https://x.com/coffeecup2020/status/2120113388629995921">原帖</a>
+ · <a href="docs/cases/x-coffeecup2020-qwen4-sagrada/media/video.mp4">▶ 视频</a>
 </td>
 </tr>
 </table>
@@ -359,7 +1403,7 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 
 ![DeepSeek cover](assets/brand/families/deepseek.png)
 
-这个家族收了 3 条有出处的案例，这里放 2 条。其余都在后面的完整证据表里。
+这个家族收了 3 条有出处的案例，下面按版本全部列出，新的在前。3 条带缩略图卡片，点图看原帖；没有缩略图的各占一行。后面的完整证据表是同一批记录。
 
 <a id="ver-deepseek-v4-1-flash-1017"></a>
 
@@ -382,9 +1426,16 @@ GPT Image 2.6 GIF 归档（**51** 条，不计入首页合计）：[collections/
 <table>
 <tr>
 <td align="center" width="33%">
+<a href="https://x.com/LatentOperatorX/status/2120077800887746603"><img src="assets/thumbs/x-latentoperator-deepseek-excavator.jpg" alt="Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code — @LatentOperatorX（Latent Operator）" width="220"></a><br>
+<strong><a href="docs/cases/x-latentoperator-deepseek-excavator/README.md">Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code</a></strong><br>
+署名: @LatentOperatorX（Latent Operator）<br><a href="https://x.com/LatentOperatorX/status/2120077800887746603">原帖</a>
+ · <a href="docs/cases/x-latentoperator-deepseek-excavator/media/video.mp4">▶ 视频</a>
+</td>
+<td align="center" width="33%">
 <a href="https://x.com/LatentOperatorX/status/2120205377803518132"><img src="assets/thumbs/x-latentoperator-a380-deepseek-fable-sol.jpg" alt="Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol — @LatentOperatorX" width="220"></a><br>
 <strong><a href="docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md">Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 So</a></strong><br>
 署名: @LatentOperatorX<br><a href="https://x.com/LatentOperatorX/status/2120205377803518132">原帖</a>
+ · <a href="docs/cases/x-latentoperator-a380-deepseek-fable-sol/media/video.mp4">▶ 视频</a>
 </td>
 </tr>
 </table>
