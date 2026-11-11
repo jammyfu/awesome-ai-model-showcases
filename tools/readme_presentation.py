@@ -81,7 +81,7 @@ FAMILY_ORDER = ("claude", "gemini", "gpt-code", "grok", "qwen", "deepseek", "gpt
 
 VERSION_ORDER = {
     "claude": ("claude-fable-5.2", "claude-mythos-5.2", "claude-opus-5.5"),
-    "gemini": ("gemini-4-argon", "gemini-4-carbon"),
+    "gemini": ("gemini-4-carbon", "gemini-4-argon"),
     "gpt-code": ("gpt-6.2-sol", "gpt-6.1-sol"),
     "grok": ("grok-4.7", "grok-imagine-video"),
     "qwen": ("qwen3.8-27b",),
@@ -103,6 +103,47 @@ VERSION_LABEL = {
     "deepseek-v4.1-flash-1017": "DeepSeek V4.1 Flash 1017",
     "deepseek-v4.1-flash": "DeepSeek V4.1 Flash",
     "gpt-image-2.6": "GPT Image 2.6",
+}
+
+TYPE_ORDER = ("gif", "animation", "html-3d", "minigame", "image")
+
+TYPE_LABEL = {
+    "en": {
+        "gif": "GIF",
+        "animation": "Animation",
+        "html-3d": "HTML / 3D scene",
+        "minigame": "Mini-game",
+        "image": "Image",
+    },
+    "zh-CN": {
+        "gif": "动图 / GIF",
+        "animation": "动画 / 动效",
+        "html-3d": "HTML / 3D 场景",
+        "minigame": "小游戏",
+        "image": "图像",
+    },
+    "zh-TW": {
+        "gif": "動圖 / GIF",
+        "animation": "動畫 / 動效",
+        "html-3d": "HTML / 3D 場景",
+        "minigame": "小遊戲",
+        "image": "圖像",
+    },
+    "ja": {
+        "gif": "GIF",
+        "animation": "アニメーション",
+        "html-3d": "HTML / 3D",
+        "minigame": "ミニゲーム",
+        "image": "画像",
+    },
+}
+
+TYPE_INDEX_LABEL = {
+    "gif": "动图 / GIF",
+    "animation": "动画 / Animation",
+    "html-3d": "HTML / 3D",
+    "minigame": "小游戏 / Game",
+    "image": "图像 / Image",
 }
 
 FAMILY_TITLE = {
@@ -130,6 +171,14 @@ UI = {
         "qwen": "The inventory also records a version with no separate sourced case. Quoted as stored:",
         "gif_intro": "Still-mainstream previous generation. The three cards below are local media already archived for these cases, not new generations.",
         "cards_note": "Multi-frame format is checked; generation has not been reproduced. The paper-boat brief keeps its unconfirmed wording status. Preview does not grant reuse rights.",
+        "by_model": "By model",
+        "by_type": "By type",
+        "latest_h": "Latest additions",
+        "latest_link": "Newest dated cases",
+        "latest_note": "Dated cases only, newest first. A missing date stays out of this strip.",
+        "index_link": "Full showcase index",
+        "type_count": "{n} cases of this type. Four previews below when a thumbnail exists.",
+        "credit": "Credit",
     },
     "zh-CN": {
         "case": "案例",
@@ -145,6 +194,14 @@ UI = {
         "qwen": "清单里还记了一版，没有单独案例。原话如下：",
         "gif_intro": "上一代里还在主流使用的图像模型。下面三张是这些案例已经归档的本地素材，不是新生成的图。",
         "cards_note": "只核过是多帧文件，没有复测生成。纸船那条保留“逐字原文未确认”。预览不等于可以拿去用。",
+        "by_model": "按模型",
+        "by_type": "按类型",
+        "latest_h": "最新收录",
+        "latest_link": "有日期的最新案例",
+        "latest_note": "只排有完整日期的案例，新的在前。没有日期的不放进这一条。",
+        "index_link": "案例总表",
+        "type_count": "这一类 {n} 条。下面最多四张有缩略图的预览。",
+        "credit": "署名",
     },
     "zh-TW": {
         "case": "案例",
@@ -160,6 +217,14 @@ UI = {
         "qwen": "清單裡還記了一版，沒有單獨案例。原文如下：",
         "gif_intro": "上一代仍在主流使用的圖像模型。下面三張是這些案例已經歸檔的本地素材，不是新生成的圖。",
         "cards_note": "只核過是多幀檔案，沒有重跑生成。紙船那則保留「逐字原文未確認」。預覽不等於可以拿去用。",
+        "by_model": "按模型",
+        "by_type": "按類型",
+        "latest_h": "最新收錄",
+        "latest_link": "有日期的最新案例",
+        "latest_note": "只排有完整日期的案例，新的在前。沒有日期的不放進這一條。",
+        "index_link": "案例總表",
+        "type_count": "這一類 {n} 則。下面最多四張有縮圖的預覽。",
+        "credit": "署名",
     },
     "ja": {
         "case": "ケース",
@@ -175,6 +240,14 @@ UI = {
         "qwen": "インベントリには、単独事例のない版も書いてある。原文のまま：",
         "gif_intro": "いまも主流の前世代。下の 3 枚は、すでにアーカイブしてあるローカルのメディアで、新しく生成したものではない。",
         "cards_note": "複数フレームであることだけを確認し、生成の再現はしていない。紙のボートは原文未確認のまま。プレビューは再利用の許可ではない。",
+        "by_model": "モデル別",
+        "by_type": "種類別",
+        "latest_h": "新しい収録",
+        "latest_link": "日付のある新しい事例",
+        "latest_note": "完全な日付がある事例だけ。新しい順。日付がないものはここには出さない。",
+        "index_link": "事例インデックス",
+        "type_count": "この種類は {n} 件。サムネイルがあるものから最大 4 件。",
+        "credit": "クレジット",
     },
 }
 
@@ -259,6 +332,128 @@ def _inventory_quote(catalog: dict, needle: str) -> str:
     raise SystemExit(f"missing inventory note containing {needle!r}")
 
 
+def version_anchor(version: str) -> str:
+    return "ver-" + version.replace(".", "-")
+
+
+def work_type_of(row: dict) -> str:
+    """Classify a collected case from its recorded kind and pipeline. Not a new claim."""
+    cid = row.get("id") or ""
+    if cid.startswith("game-"):
+        return "minigame"
+    kind = str(row.get("media_kind") or "").lower()
+    pipe = f"{row.get('pipeline') or ''} {row.get('title') or ''}".lower()
+    media = str(row.get("media_url") or "").lower()
+    if kind in {"html-prompts", "html-sprite-loops", "svg"} or "svg animation" in pipe or "svg code" in pipe:
+        return "animation"
+    if kind == "html" or any(
+        token in pipe
+        for token in ("three.js", "threejs", "isometric", "blender", "html/css", "html +", "html animation", "single html", "one html")
+    ):
+        return "html-3d"
+    if row.get("model_family") == "gpt-image" and (kind in {"gif", "mp4"} or media.endswith(".gif") or "/tweet_video/" in media):
+        return "gif"
+    if kind == "gif" or media.endswith(".gif"):
+        return "gif"
+    if kind in {"png", "jpg", "jpeg", "image", "webp"}:
+        return "image"
+    if cid == "luffy-x-article":
+        return "gif"
+    return "animation"
+
+
+def _full_day(value: str) -> bool:
+    return len(value) == 10 and value[4] == "-" and value[7] == "-" and value[5:7].isdigit() and value[8:10].isdigit()
+
+
+def thumb_grid(rows: list[dict], lang: str) -> str:
+    ui = UI[lang]
+    if not rows:
+        return ""
+    lines = ["<table>", "<tr>"]
+    for index, row in enumerate(rows):
+        if index and index % 3 == 0:
+            lines.extend(["</tr>", "<tr>"])
+        title = str(row.get("title") or row["id"])
+        source = escape(row.get("image_source") or row.get("source_url") or "")
+        credit = escape(row.get("image_credit") or row.get("author") or "")
+        alt = escape(f"{title} — {row.get('image_credit') or row.get('author') or ''}")
+        thumb = row.get("thumb") or ""
+        lines.append('<td align="center" width="33%">')
+        if thumb and source:
+            lines.append(f'<a href="{source}"><img src="{escape(thumb)}" alt="{alt}" width="220"></a><br>')
+        elif thumb:
+            lines.append(f'<img src="{escape(thumb)}" alt="{alt}" width="220"><br>')
+        detail = row.get("local_detail") or ""
+        title_html = escape(title[:80])
+        if detail and not str(detail).startswith(("http://", "https://")):
+            lines.append(f'<strong><a href="{escape(detail)}">{title_html}</a></strong><br>')
+        elif source:
+            lines.append(f'<strong><a href="{source}">{title_html}</a></strong><br>')
+        else:
+            lines.append(f"<strong>{title_html}</strong><br>")
+        if credit and source:
+            lines.append(f'{ui["credit"]}: {credit}<br><a href="{source}">{escape(ui["post"])}</a>')
+        elif credit:
+            lines.append(f'{ui["credit"]}: {credit}')
+        lines.append("</td>")
+    lines.extend(["</tr>", "</table>"])
+    return "\n".join(lines)
+
+
+def quick_nav(lang: str) -> str:
+    ui = UI[lang]
+    lines = [f"### {ui['by_model']}"]
+    for fam in FAMILY_ORDER:
+        bits = [f"[{VERSION_LABEL[version]}](#{version_anchor(version)})" for version in VERSION_ORDER[fam]]
+        lines.append(f"- [{FAMILY_TITLE[fam]}](#{fam}) — " + " · ".join(bits))
+    lines.append("")
+    lines.append(f"### {ui['by_type']}")
+    for key in TYPE_ORDER:
+        lines.append(f"- [{TYPE_LABEL[lang][key]}](#type-{key})")
+    lines.append("")
+    lines.append(f"### {ui['latest_h']}")
+    lines.append(f"- [{ui['latest_link']}](#latest)")
+    lines.append(f"- [{ui['index_link']}](docs/showcase-index.md)")
+    return "\n".join(lines)
+
+
+def latest_section(rows: list[dict], lang: str) -> str:
+    ui = UI[lang]
+    dated = [row for row in rows if _full_day(str(row.get("date") or ""))]
+    dated.sort(key=lambda row: (row["date"], row["id"]), reverse=True)
+    lines = [f'<a id="latest"></a>', f"## {ui['latest_h']}", ui["latest_note"], ""]
+    lines.append(thumb_grid(dated[:8], lang))
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def type_sections(rows: list[dict], lang: str) -> str:
+    ui = UI[lang]
+    blocks = [f'<a id="by-type"></a>', f"## {ui['by_type']}", ""]
+    for key in TYPE_ORDER:
+        group = [row for row in rows if row.get("work_type") == key]
+        shown = [row for row in group if row.get("thumb")][:4]
+        blocks.append(f'<a id="type-{key}"></a>')
+        blocks.append(f"### {TYPE_LABEL[lang][key]}")
+        blocks.append(ui["type_count"].format(n=len(group)))
+        if shown:
+            blocks.append(thumb_grid(shown, lang))
+        blocks.append(f"[{ui['index_link']}](docs/showcase-index.md#{key})")
+        blocks.append("")
+    return "\n".join(blocks).rstrip() + "\n"
+
+
+def main_case_rows(catalog: dict) -> list[dict]:
+    rows: list[dict] = []
+    by_family = catalog.get("collected_by_family") or {}
+    for fam in FAMILY_ORDER:
+        bucket = list(by_family.get(fam) or [])
+        order = {version: index for index, version in enumerate(VERSION_ORDER.get(fam, ()))}
+        bucket.sort(key=lambda row: (order.get(row.get("model_version"), 99), str(row.get("date") or ""), row["id"]))
+        rows.extend(bucket)
+    return rows
+
+
 def featured_cards(rows: list[dict], lang: str) -> str:
     by_id = {r["id"]: r for r in rows}
     ui = UI[lang]
@@ -270,15 +465,16 @@ def featured_cards(rows: list[dict], lang: str) -> str:
         title = titles[lang]
         note = notes[lang]
         detail, prompt, source = map(escape, (row["local_detail"], row["local_prompt"], row["source_url"]))
-        author = escape(row["author"])
-        alt = escape(f"{title} by {row['author']}")
+        author = escape(row.get("image_credit") or row["author"])
+        alt = escape(f"{title} by {row.get('image_credit') or row['author']}")
+        preview = row.get("thumb") or media
         prompt_label = ui["brief"] if cid == "ravivit-paper-boat-gif" else ui["original"]
         lines.extend([
             '<td align="center" width="33%">',
-            f'<a href="{detail}"><img src="{escape(media)}" alt="{alt}" width="200"></a><br>',
+            f'<a href="{source}"><img src="{escape(preview)}" alt="{alt}" width="220"></a><br>',
             f'<strong><a href="{detail}">{escape(title)}</a></strong><br>',
-            f'{author}<br><sub>{escape(note)}</sub><br>',
-            f'<a href="{prompt}">{escape(prompt_label)}</a> · <a href="{source}">{escape(ui["post"])}</a>',
+            f'{ui["credit"]}: {author}<br><sub>{escape(note)}</sub><br>',
+            f'<a href="{prompt}">{escape(prompt_label)}</a> · <a href="{source}">{escape(ui["post"])}</a> · <a href="{escape(media)}">GIF</a>',
             "</td>",
         ])
     lines.extend(["</tr>", "</table>"])
@@ -306,11 +502,14 @@ def family_sections(catalog: dict, lang: str) -> str:
         shown = sum(len(ids) for ids in picked[fam].values())
         blocks.append(f'<a id="{fam}"></a>')
         blocks.append(f"## {FAMILY_TITLE[fam]}")
+        cover = "gpt-sol" if fam == "gpt-code" else fam
+        blocks.append(f"![{FAMILY_TITLE[fam]} cover](assets/brand/families/{cover}.png)")
         key = "all" if shown == total else "shown"
         blocks.append(ui[key].format(shown=shown, total=total))
         if fam == "gpt-code":
             blocks.append(sol_note(catalog, lang))
         for version in VERSION_ORDER[fam]:
+            blocks.append(f'<a id="{version_anchor(version)}"></a>')
             blocks.append(f"### {VERSION_LABEL[version]}")
             ids = picked[fam].get(version) or []
             if not ids:
@@ -323,8 +522,7 @@ def family_sections(catalog: dict, lang: str) -> str:
                 blocks.append(featured_cards(catalog["collected_web_gif"], lang))
                 blocks.append(ui["cards_note"])
                 continue
-            for cid in ids:
-                blocks.append(_bullet(by_id[cid], lang))
+            blocks.append(thumb_grid([by_id[cid] for cid in ids], lang))
         if fam == "qwen":
             blocks.append(ui["qwen"])
             blocks.append("> " + _inventory_quote(catalog, "Qwen 3.8 Flash Next"))
@@ -374,4 +572,7 @@ def render_readme(
         catalog_tables=collapsed_tables(tables),
         featured=family_sections(catalog, lang),
         collection_sites=collection_sites,
+        quick_nav=quick_nav(lang),
+        latest=latest_section(main_case_rows(catalog), lang),
+        type_sections=type_sections(main_case_rows(catalog), lang),
     )

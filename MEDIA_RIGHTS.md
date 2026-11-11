@@ -14,6 +14,16 @@
 
 **Morphic stills and sheets:** Morphic prompt-library images were made with GPT Image 2.5 / Ideogram Vector. They are not Images 2.6 outputs.
 
+## Navigation thumbnails
+
+`assets/thumbs/<case-id>.<ext>` holds one small preview per main-catalog case when a representative image could be fetched. Each file is at most 300KB. The catalog record stores `image_url` (the direct source URL), `image_source` (the post or page), and `image_credit` (the author). README grids and `docs/showcase-index.md` show that credit and link back to the original post.
+
+These thumbnails are owner-requested navigation copies. They are **not** a new license. MIT still does not cover them. A multi-frame GIF may be stored as a still JPEG when the original file is larger than the cap. If a source page explicitly forbids republication, the catalog keeps the direct URL and does not save a file.
+
+Cases with no representative image are listed in `docs/missing-thumbnails.md`. No image URL in that list was invented.
+
+`assets/thumbs/<case-id>.<ext>` 是主表案例的导航缩略图，单张不超过 300KB。每条记录有 `image_url`（原始直链）、`image_source`（来源页）和 `image_credit`（作者）。README 和 `docs/showcase-index.md` 署名并链回原帖。这是主人要求的导览副本，不是新的授权；MIT 不覆盖这些图。原图超过上限时，多帧 GIF 可能只留一帧 JPEG。来源页写明禁止转载的，只保留直链，不下载。没有拿到图的案例写在 `docs/missing-thumbnails.md`，不编造链接。
+
 If you own material here and have a rights concern, open a GitHub Issue to request review or removal.
 
 ## Documented grant: ailingqu examples
