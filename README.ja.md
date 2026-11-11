@@ -4,7 +4,7 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
 <!-- readme-tech-visualizer:start -->
-<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome AI Model Showcases：積み重なったアニメーションのコマとループ" width="112" height="112"></p>
+<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome AI Model Showcases：重なる展示カードと再生マーク" width="112" height="112"></p>
 <!-- readme-tech-visualizer:end -->
 
 # Awesome AI Model Showcases
@@ -61,47 +61,39 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/YFeng2022/status/2120324811549225082"><img src="assets/thumbs/x-yfeng-gpt61-sol-fable-take-flight.jpg" alt="Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max) — @YFeng2022（LanFeng）" width="220"></a><br>
-<strong><a href="docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md">Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)</a></strong><br>
+<strong><a href="docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja">Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）</a></strong><br>
 クレジット: @YFeng2022（LanFeng）<br><a href="https://x.com/YFeng2022/status/2120324811549225082">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/StatsWire/status/2120344850071540152"><img src="assets/thumbs/x-statswire-gemini-carbon-nyc-cruiser.jpg" alt="Interactive 3D NYC cruiser tour in one HTML file (Three.js) — @StatsWire" width="220"></a><br>
-<strong><a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md">Interactive 3D NYC cruiser tour in one HTML file (Three.js)</a></strong><br>
+<strong><a href="docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja">単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）</a></strong><br>
 クレジット: @StatsWire<br><a href="https://x.com/StatsWire/status/2120344850071540152">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/RadCyberTruck/status/2120350558431445006"><img src="assets/thumbs/x-radcybertruck-grok-imagine-cybertruck-cry.jpg" alt="Grok Imagine — pixstar Cybertruck farewell clip (partial prompt) — @RadCyberTruck" width="220"></a><br>
-<strong><a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md">Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)</a></strong><br>
+<strong><a href="docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#ja">Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ）</a></strong><br>
 クレジット: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558431445006">原投稿</a>
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/quxiaoyin/status/2120341962314150207"><img src="assets/thumbs/x-quxiaoyin-fable52-agentsky-film.jpg" alt="Point-light 3D film about AgentSky (Blender and code) — @quxiaoyin（Xiaoyin Qu）" width="220"></a><br>
-<strong><a href="docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md">Point-light 3D film about AgentSky (Blender and code)</a></strong><br>
+<strong><a href="docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja">AgentSkyを描く点光源の3D映像（Blenderとコード）</a></strong><br>
 クレジット: @quxiaoyin（Xiaoyin Qu）<br><a href="https://x.com/quxiaoyin/status/2120341962314150207">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
-<strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
+<strong><a href="docs/translations/x-paleknight-fable52-vs-opus55-ship.md#ja">Fable 5.2とOpus 5.5：同じプロンプトによるThree.jsの船（横並び比較）</a></strong><br>
 クレジット: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/MrTacticalX/status/2120342453807157720"><img src="assets/thumbs/x-mrtactical-fable52-mechanical-keyboard.jpg" alt="Mechanical keyboard built and typed on in Blender — @MrTacticalX（Mr Tactical）" width="220"></a><br>
-<strong><a href="docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md">Mechanical keyboard built and typed on in Blender</a></strong><br>
+<strong><a href="docs/translations/x-mrtactical-fable52-mechanical-keyboard.md#ja">Blenderでメカニカルキーボードを制作し、タイピングを実演</a></strong><br>
 クレジット: @MrTacticalX（Mr Tactical）<br><a href="https://x.com/MrTacticalX/status/2120342453807157720">原投稿</a>
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
-<a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
-<strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
+<strong><a href="docs/translations/x-mengto-fable52-blender-apartment.md#ja">Fable 5.2でThree.jsのアパートをBlenderに再現</a></strong><br>
 クレジット: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">原投稿</a>
 </td>
 <td align="center" width="33%">
-<a href="https://x.com/_MaxBlade/status/2120355412021231795"><img src="assets/thumbs/x-maxblade-fable-vs-carbon.jpg" alt="Same prompt: Fable 5.2 vs Gemini 4 Carbon — @_MaxBlade（Max Blade）" width="220"></a><br>
-<strong><a href="docs/cases/x-maxblade-fable-vs-carbon/README.md">Same prompt: Fable 5.2 vs Gemini 4 Carbon</a></strong><br>
+<strong><a href="docs/translations/x-maxblade-fable-vs-carbon.md#ja">同じプロンプト：Fable 5.2とGemini 4 Carbonを比較</a></strong><br>
 クレジット: @_MaxBlade（Max Blade）<br><a href="https://x.com/_MaxBlade/status/2120355412021231795">原投稿</a>
 </td>
 </tr>
@@ -111,7 +103,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <a id="showcase"></a>
 ## モデルファミリー別の事例
 
-各ファミリー・各版の事例をすべて新しい順に並べます。サムネイルのあるものはカード（画像をクリックすると原投稿へ）、▶ 動画 があればローカルの動画を見られます。サムネイルのないものは 1 行ずつ。事例のない版は空のままにします。
+全事例をファミリー・版ごとに新しい順で掲載します。公開許諾の根拠がある素材のみサムネイルや再生を表示し、それ以外は原投稿へのリンクを残します。
 
 [Feishu の AIGCreative 参照集](docs/reference-feishu.md)は、同じモデルの作品を用途（制作ワークフロー、解説、映像実験、ゲーム、研究再現）でも分けています。このカタログの導線はモデルファミリー、版、作品タイプのままです。
 
@@ -121,868 +113,149 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![Claude cover](assets/brand/families/claude.png)
 
-このファミリーの出典付き事例 146 件を、版ごとに新しい順ですべて並べる。138 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
+このファミリーの出典付き事例 146 件を、版ごとに新しい順ですべて並べる。0 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
 
 <a id="ver-claude-fable-5-2"></a>
 
 ### Claude Fable 5.2
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/quxiaoyin/status/2120341962314150207"><img src="assets/thumbs/x-quxiaoyin-fable52-agentsky-film.jpg" alt="Point-light 3D film about AgentSky (Blender and code) — @quxiaoyin（Xiaoyin Qu）" width="220"></a><br>
-<strong><a href="docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md">Point-light 3D film about AgentSky (Blender and code)</a></strong><br>
-クレジット: @quxiaoyin（Xiaoyin Qu）<br><a href="https://x.com/quxiaoyin/status/2120341962314150207">原投稿</a>
- · <a href="docs/cases/x-quxiaoyin-fable52-agentsky-film/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
-<strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
-クレジット: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">原投稿</a>
- · <a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/MrTacticalX/status/2120342453807157720"><img src="assets/thumbs/x-mrtactical-fable52-mechanical-keyboard.jpg" alt="Mechanical keyboard built and typed on in Blender — @MrTacticalX（Mr Tactical）" width="220"></a><br>
-<strong><a href="docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md">Mechanical keyboard built and typed on in Blender</a></strong><br>
-クレジット: @MrTacticalX（Mr Tactical）<br><a href="https://x.com/MrTacticalX/status/2120342453807157720">原投稿</a>
- · <a href="docs/cases/x-mrtactical-fable52-mechanical-keyboard/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
-<strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
-クレジット: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">原投稿</a>
- · <a href="docs/cases/x-mengto-fable52-blender-apartment/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/kloss_xyz/status/2120378126740095273"><img src="assets/thumbs/x-kloss-fable52-ocean-threejs.jpg" alt="Photo-real Three.js ocean that runs from sunset to sunrise — @kloss_xyz（klöss）" width="220"></a><br>
-<strong><a href="docs/cases/x-kloss-fable52-ocean-threejs/README.md">Photo-real Three.js ocean that runs from sunset to sunrise</a></strong><br>
-クレジット: @kloss_xyz（klöss）<br><a href="https://x.com/kloss_xyz/status/2120378126740095273">原投稿</a>
- · <a href="docs/cases/x-kloss-fable52-ocean-threejs/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/FinanceYF5/status/2120372142147842296"><img src="assets/thumbs/x-financeyf5-fable52-bugatti-tourbillon.jpg" alt="Bugatti Tourbillon in Blender, then a short car film (Fable 5.2) — @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）" width="220"></a><br>
-<strong><a href="docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md">Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)</a></strong><br>
-クレジット: @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）<br><a href="https://x.com/FinanceYF5/status/2120372142147842296">原投稿</a>
- · <a href="docs/cases/x-financeyf5-fable52-bugatti-tourbillon/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/EvanMilenko/status/2120322640048959503"><img src="assets/thumbs/x-evanmilenko-fable52-dragon-game.jpg" alt="Dragon game built from scratch in Three.js — @EvanMilenko（Evan）" width="220"></a><br>
-<strong><a href="docs/cases/x-evanmilenko-fable52-dragon-game/README.md">Dragon game built from scratch in Three.js</a></strong><br>
-クレジット: @EvanMilenko（Evan）<br><a href="https://x.com/EvanMilenko/status/2120322640048959503">原投稿</a>
- · <a href="docs/cases/x-evanmilenko-fable52-dragon-game/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/DeryaTR_/status/2120382619082727604"><img src="assets/thumbs/x-deryatr-fable52-tcell-film.jpg" alt="T-cell life film in Blender (12,480 frames, Fable 5.2) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
-<strong><a href="docs/cases/x-deryatr-fable52-tcell-film/README.md">T-cell life film in Blender (12,480 frames, Fable 5.2)</a></strong><br>
-クレジット: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120382619082727604">原投稿</a>
- · <a href="docs/cases/x-deryatr-fable52-tcell-film/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/"><img src="assets/thumbs/web-ofox-fable52-svg-sailboat.jpg" alt="Editable SVG sailboat illustration with CSS motion (two API calls) — Ofox" width="220"></a><br>
-<strong><a href="docs/cases/web-ofox-fable52-svg-sailboat/README.md">Editable SVG sailboat illustration with CSS motion (two API calls)</a></strong><br>
-クレジット: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">原投稿</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/YinYangYoeshi/status/2119897840965001317"><img src="assets/thumbs/x-yinyangyoeshi-fable52-discovery.jpg" alt="《Discovery》，在三维房间里展开的代码短片 — @YinYangYoeshi（Yoeshi）" width="220"></a><br>
-<strong><a href="docs/cases/x-yinyangyoeshi-fable52-discovery/README.md">《Discovery》，在三维房间里展开的代码短片</a></strong><br>
-クレジット: @YinYangYoeshi（Yoeshi）<br><a href="https://x.com/YinYangYoeshi/status/2119897840965001317">原投稿</a>
- · <a href="docs/cases/x-yinyangyoeshi-fable52-discovery/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Webilyco/status/2119909604431626667"><img src="assets/thumbs/x-webilyco-fable52-kontur.jpg" alt="KONTUR，把建筑服务页做成带动效的项目旅程 — @Webilyco（Magda）" width="220"></a><br>
-<strong><a href="docs/cases/x-webilyco-fable52-kontur/README.md">KONTUR，把建筑服务页做成带动效的项目旅程</a></strong><br>
-クレジット: @Webilyco（Magda）<br><a href="https://x.com/Webilyco/status/2119909604431626667">原投稿</a>
- · <a href="docs/cases/x-webilyco-fable52-kontur/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/theo/status/2119926277801144695"><img src="assets/thumbs/x-theo-fable52-fishslop-fable-opus.jpg" alt="Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照 — @theo（Theo - t3.gg）" width="220"></a><br>
-<strong><a href="docs/cases/x-theo-fable52-fishslop-fable-opus/README.md">Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照</a></strong><br>
-クレジット: @theo（Theo - t3.gg）<br><a href="https://x.com/theo/status/2119926277801144695">原投稿</a>
- · <a href="docs/cases/x-theo-fable52-fishslop-fable-opus/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/The_Alex/status/2119867572875350134"><img src="assets/thumbs/x-thealex-fable52-pane-youtube-twitch.jpg" alt="Pane，开源的 YouTube 与 Twitch 播放器 — @The_Alex（Alex）" width="220"></a><br>
-<strong><a href="docs/cases/x-thealex-fable52-pane-youtube-twitch/README.md">Pane，开源的 YouTube 与 Twitch 播放器</a></strong><br>
-クレジット: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867572875350134">原投稿</a>
- · <a href="docs/cases/x-thealex-fable52-pane-youtube-twitch/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/The_Alex/status/2119867574972551309"><img src="assets/thumbs/x-thealex-fable52-melee.jpg" alt="在手机上试做 Melee 风格的对战 — @The_Alex（Alex）" width="220"></a><br>
-<strong><a href="docs/cases/x-thealex-fable52-melee/README.md">在手机上试做 Melee 风格的对战</a></strong><br>
-クレジット: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867574972551309">原投稿</a>
- · <a href="docs/cases/x-thealex-fable52-melee/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/The_Alex/status/2119917226769985785"><img src="assets/thumbs/x-thealex-fable52-claude.jpg" alt="能被 Claude 调用的编曲工作站 — @The_Alex（Alex）" width="220"></a><br>
-<strong><a href="docs/cases/x-thealex-fable52-claude/README.md">能被 Claude 调用的编曲工作站</a></strong><br>
-クレジット: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119917226769985785">原投稿</a>
- · <a href="docs/cases/x-thealex-fable52-claude/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/The_Alex/status/2119867576985821398"><img src="assets/thumbs/x-thealex-fable52-821398.jpg" alt="把马里奥元素做进生存玩法的俯视角原型 — @The_Alex（Alex）" width="220"></a><br>
-<strong><a href="docs/cases/x-thealex-fable52-821398/README.md">把马里奥元素做进生存玩法的俯视角原型</a></strong><br>
-クレジット: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867576985821398">原投稿</a>
- · <a href="docs/cases/x-thealex-fable52-821398/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/The_Alex/status/2119867570669203554"><img src="assets/thumbs/x-thealex-fable52-203554.jpg" alt="给一段口播做 9:16 剪辑，把动效也交给代理 — @The_Alex（Alex）" width="220"></a><br>
-<strong><a href="docs/cases/x-thealex-fable52-203554/README.md">给一段口播做 9:16 剪辑，把动效也交给代理</a></strong><br>
-クレジット: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867570669203554">原投稿</a>
- · <a href="docs/cases/x-thealex-fable52-203554/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/The_Alex/status/2119867568253177920"><img src="assets/thumbs/x-thealex-fable52-177920.jpg" alt="做一段《时之笛》风格的三维冒险 — @The_Alex（Alex）" width="220"></a><br>
-<strong><a href="docs/cases/x-thealex-fable52-177920/README.md">做一段《时之笛》风格的三维冒险</a></strong><br>
-クレジット: @The_Alex（Alex）<br><a href="https://x.com/The_Alex/status/2119867568253177920">原投稿</a>
- · <a href="docs/cases/x-thealex-fable52-177920/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/s_matysik/status/2119909371484213380"><img src="assets/thumbs/x-smatysik-fable52-213380.jpg" alt="从代理数据快照生成指挥台 — @s_matysik（Sebastian Matysik）" width="220"></a><br>
-<strong><a href="docs/cases/x-smatysik-fable52-213380/README.md">从代理数据快照生成指挥台</a></strong><br>
-クレジット: @s_matysik（Sebastian Matysik）<br><a href="https://x.com/s_matysik/status/2119909371484213380">原投稿</a>
- · <a href="docs/cases/x-smatysik-fable52-213380/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/SimonasLTU1/status/2119891671219622262"><img src="assets/thumbs/x-simonasltu1-fable52-three.jpg" alt="用 Three.js 做可操作的人体解剖浏览器 — @SimonasLTU1（Simonas）" width="220"></a><br>
-<strong><a href="docs/cases/x-simonasltu1-fable52-three/README.md">用 Three.js 做可操作的人体解剖浏览器</a></strong><br>
-クレジット: @SimonasLTU1（Simonas）<br><a href="https://x.com/SimonasLTU1/status/2119891671219622262">原投稿</a>
- · <a href="docs/cases/x-simonasltu1-fable52-three/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Scratcherrrr/status/2119909780269785332"><img src="assets/thumbs/x-scratcherrrr-fable52-piranha.jpg" alt="Piranha P-7，用代码做一条能拆解的食人鱼 — @Scratcherrrr（Catcher of your mind）" width="220"></a><br>
-<strong><a href="docs/cases/x-scratcherrrr-fable52-piranha/README.md">Piranha P-7，用代码做一条能拆解的食人鱼</a></strong><br>
-クレジット: @Scratcherrrr（Catcher of your mind）<br><a href="https://x.com/Scratcherrrr/status/2119909780269785332">原投稿</a>
- · <a href="docs/cases/x-scratcherrrr-fable52-piranha/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/rileybrown/status/2119946022767980985"><img src="assets/thumbs/x-rileybrown-fable52-the-history-writing.jpg" alt="《The History of Writing》，把文字史做成一支 96 秒动画 — @rileybrown（Riley Brown）" width="220"></a><br>
-<strong><a href="docs/cases/x-rileybrown-fable52-the-history-writing/README.md">《The History of Writing》，把文字史做成一支 96 秒动画</a></strong><br>
-クレジット: @rileybrown（Riley Brown）<br><a href="https://x.com/rileybrown/status/2119946022767980985">原投稿</a>
- · <a href="docs/cases/x-rileybrown-fable52-the-history-writing/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/rileybrown/status/2119902109709537708"><img src="assets/thumbs/x-rileybrown-fable52-the-edge-blender.jpg" alt="《The Edge》，用 Blender 和网页做出 13 镜头短片 — @rileybrown（Riley Brown）" width="220"></a><br>
-<strong><a href="docs/cases/x-rileybrown-fable52-the-edge-blender/README.md">《The Edge》，用 Blender 和网页做出 13 镜头短片</a></strong><br>
-クレジット: @rileybrown（Riley Brown）<br><a href="https://x.com/rileybrown/status/2119902109709537708">原投稿</a>
- · <a href="docs/cases/x-rileybrown-fable52-the-edge-blender/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/QRoonjha/status/2119883978962501697"><img src="assets/thumbs/x-qroonjha-fable52-501697.jpg" alt="约 5 秒的定格风格动画试验 — @QRoonjha（Qaisar Roonjha）" width="220"></a><br>
-<strong><a href="docs/cases/x-qroonjha-fable52-501697/README.md">约 5 秒的定格风格动画试验</a></strong><br>
-クレジット: @QRoonjha（Qaisar Roonjha）<br><a href="https://x.com/QRoonjha/status/2119883978962501697">原投稿</a>
- · <a href="docs/cases/x-qroonjha-fable52-501697/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/pwnies/status/2119887535421980695"><img src="assets/thumbs/x-pwnies-fable52-fable-opus.jpg" alt="给同一张参考图，比较 Fable 与 Opus 的网页还原 — @pwnies（Jacob Miller）" width="220"></a><br>
-<strong><a href="docs/cases/x-pwnies-fable52-fable-opus/README.md">给同一张参考图，比较 Fable 与 Opus 的网页还原</a></strong><br>
-クレジット: @pwnies（Jacob Miller）<br><a href="https://x.com/pwnies/status/2119887535421980695">原投稿</a>
- · <a href="docs/cases/x-pwnies-fable52-fable-opus/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/petergyang/status/2119901658394358005"><img src="assets/thumbs/x-petergyang-fable52-turbo-tails.jpg" alt="Turbo Tails，带漂移和道具的浏览器卡丁车 — @petergyang（Peter Yang）" width="220"></a><br>
-<strong><a href="docs/cases/x-petergyang-fable52-turbo-tails/README.md">Turbo Tails，带漂移和道具的浏览器卡丁车</a></strong><br>
-クレジット: @petergyang（Peter Yang）<br><a href="https://x.com/petergyang/status/2119901658394358005">原投稿</a>
- · <a href="docs/cases/x-petergyang-fable52-turbo-tails/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/petergyang/status/2119886560992854431"><img src="assets/thumbs/x-petergyang-fable52-854431.jpg" alt="京都伏见稻荷，20 秒代码旅行宣传片 — @petergyang（Peter Yang）" width="220"></a><br>
-<strong><a href="docs/cases/x-petergyang-fable52-854431/README.md">京都伏见稻荷，20 秒代码旅行宣传片</a></strong><br>
-クレジット: @petergyang（Peter Yang）<br><a href="https://x.com/petergyang/status/2119886560992854431">原投稿</a>
- · <a href="docs/cases/x-petergyang-fable52-854431/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/petergostev/status/2119877733488394520"><img src="assets/thumbs/x-petergostev-fable52-max.jpg" alt="用 Max 档做一段伊斯坦布尔水岸漫游 — @petergostev（Peter Gostev）" width="220"></a><br>
-<strong><a href="docs/cases/x-petergostev-fable52-max/README.md">用 Max 档做一段伊斯坦布尔水岸漫游</a></strong><br>
-クレジット: @petergostev（Peter Gostev）<br><a href="https://x.com/petergostev/status/2119877733488394520">原投稿</a>
- · <a href="docs/cases/x-petergostev-fable52-max/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/nikodemszymansk/status/2119880518875435022"><img src="assets/thumbs/x-nikodemszymansk-fable52-tokyo-night.jpg" alt="Tokyo Night GP，带湿地反光的三圈夜赛 — @nikodemszymansk（Nikodem | AI Creator）" width="220"></a><br>
-<strong><a href="docs/cases/x-nikodemszymansk-fable52-tokyo-night/README.md">Tokyo Night GP，带湿地反光的三圈夜赛</a></strong><br>
-クレジット: @nikodemszymansk（Nikodem | AI Creator）<br><a href="https://x.com/nikodemszymansk/status/2119880518875435022">原投稿</a>
- · <a href="docs/cases/x-nikodemszymansk-fable52-tokyo-night/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/NFT_Chen/status/2119897058597609967"><img src="assets/thumbs/x-nftchen-fable52-609967.jpg" alt="给骑单车的鹈鹕加调速、灯和车铃 — @NFT_Chen（SuSu_酥酥👅）" width="220"></a><br>
-<strong><a href="docs/cases/x-nftchen-fable52-609967/README.md">给骑单车的鹈鹕加调速、灯和车铃</a></strong><br>
-クレジット: @NFT_Chen（SuSu_酥酥👅）<br><a href="https://x.com/NFT_Chen/status/2119897058597609967">原投稿</a>
- · <a href="docs/cases/x-nftchen-fable52-609967/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/mihawkxxxxx/status/2119909865296699749"><img src="assets/thumbs/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker.jpg" alt="用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告 — @mihawkxxxxx（mihawkxxx）" width="220"></a><br>
-<strong><a href="docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/README.md">用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告</a></strong><br>
-クレジット: @mihawkxxxxx（mihawkxxx）<br><a href="https://x.com/mihawkxxxxx/status/2119909865296699749">原投稿</a>
- · <a href="docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/mattshumer_/status/2119877065701036047"><img src="assets/thumbs/x-mattshumer-fable52-mirror-earth.jpg" alt="Mirror Earth，把真实地球当作可破坏的游戏地图 — @mattshumer_（Matt Shumer）" width="220"></a><br>
-<strong><a href="docs/cases/x-mattshumer-fable52-mirror-earth/README.md">Mirror Earth，把真实地球当作可破坏的游戏地图</a></strong><br>
-クレジット: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119877065701036047">原投稿</a>
- · <a href="docs/cases/x-mattshumer-fable52-mirror-earth/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/mattshumer_/status/2119872098306810226"><img src="assets/thumbs/x-mattshumer-fable52-hogwarts-royale.jpg" alt="Hogwarts Royale，把霍格沃茨和大逃杀放在一起 — @mattshumer_（Matt Shumer）" width="220"></a><br>
-<strong><a href="docs/cases/x-mattshumer-fable52-hogwarts-royale/README.md">Hogwarts Royale，把霍格沃茨和大逃杀放在一起</a></strong><br>
-クレジット: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119872098306810226">原投稿</a>
- · <a href="docs/cases/x-mattshumer-fable52-hogwarts-royale/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/mattshumer_/status/2119884041331892403"><img src="assets/thumbs/x-mattshumer-fable52-892403.jpg" alt="把文章放进虚拟展厅，做成约 4 分 44 秒视频 — @mattshumer_（Matt Shumer）" width="220"></a><br>
-<strong><a href="docs/cases/x-mattshumer-fable52-892403/README.md">把文章放进虚拟展厅，做成约 4 分 44 秒视频</a></strong><br>
-クレジット: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119884041331892403">原投稿</a>
- · <a href="docs/cases/x-mattshumer-fable52-892403/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/mattshumer_/status/2119900920347828670"><img src="assets/thumbs/x-mattshumer-fable52-828670.jpg" alt="一部约 49 分钟的代码电影 — @mattshumer_（Matt Shumer）" width="220"></a><br>
-<strong><a href="docs/cases/x-mattshumer-fable52-828670/README.md">一部约 49 分钟的代码电影</a></strong><br>
-クレジット: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119900920347828670">原投稿</a>
- · <a href="docs/cases/x-mattshumer-fable52-828670/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/mattshumer_/status/2119870965106483384"><img src="assets/thumbs/x-mattshumer-fable52-483384.jpg" alt="一条提示启动的体素破坏引擎 — @mattshumer_（Matt Shumer）" width="220"></a><br>
-<strong><a href="docs/cases/x-mattshumer-fable52-483384/README.md">一条提示启动的体素破坏引擎</a></strong><br>
-クレジット: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119870965106483384">原投稿</a>
- · <a href="docs/cases/x-mattshumer-fable52-483384/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/mattshumer_/status/2119889518564147409"><img src="assets/thumbs/x-mattshumer-fable52-147409.jpg" alt="为公寓里可以制作的机器人出一版外观原型 — @mattshumer_（Matt Shumer）" width="220"></a><br>
-<strong><a href="docs/cases/x-mattshumer-fable52-147409/README.md">为公寓里可以制作的机器人出一版外观原型</a></strong><br>
-クレジット: @mattshumer_（Matt Shumer）<br><a href="https://x.com/mattshumer_/status/2119889518564147409">原投稿</a>
- · <a href="docs/cases/x-mattshumer-fable52-147409/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/MatthewBerman/status/2119868636810953017"><img src="assets/thumbs/x-matthewberman-fable52-webgl.jpg" alt="用 WebGL 演示子弹穿过装水气球 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
-<strong><a href="docs/cases/x-matthewberman-fable52-webgl/README.md">用 WebGL 演示子弹穿过装水气球</a></strong><br>
-クレジット: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868636810953017">原投稿</a>
- · <a href="docs/cases/x-matthewberman-fable52-webgl/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/MatthewBerman/status/2119868629491789992"><img src="assets/thumbs/x-matthewberman-fable52-unreal-engine.jpg" alt="在 Unreal Engine 里做《战争机器》风格的射击原型 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
-<strong><a href="docs/cases/x-matthewberman-fable52-unreal-engine/README.md">在 Unreal Engine 里做《战争机器》风格的射击原型</a></strong><br>
-クレジット: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868629491789992">原投稿</a>
- · <a href="docs/cases/x-matthewberman-fable52-unreal-engine/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/MatthewBerman/status/2119868642796154944"><img src="assets/thumbs/x-matthewberman-fable52-quadrille-excel.jpg" alt="Quadrille，浏览器里的 Excel 风格表格 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
-<strong><a href="docs/cases/x-matthewberman-fable52-quadrille-excel/README.md">Quadrille，浏览器里的 Excel 风格表格</a></strong><br>
-クレジット: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868642796154944">原投稿</a>
- · <a href="docs/cases/x-matthewberman-fable52-quadrille-excel/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/MatthewBerman/status/2119872042053128412"><img src="assets/thumbs/x-matthewberman-fable52-photon-photoshop.jpg" alt="Photon，Photoshop 风格的在线图像编辑器 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
-<strong><a href="docs/cases/x-matthewberman-fable52-photon-photoshop/README.md">Photon，Photoshop 风格的在线图像编辑器</a></strong><br>
-クレジット: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119872042053128412">原投稿</a>
- · <a href="docs/cases/x-matthewberman-fable52-photon-photoshop/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/MatthewBerman/status/2119868640879349998"><img src="assets/thumbs/x-matthewberman-fable52-kestrel-windows.jpg" alt="Kestrel，在 Windows 本地运行的时间线编辑器 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
-<strong><a href="docs/cases/x-matthewberman-fable52-kestrel-windows/README.md">Kestrel，在 Windows 本地运行的时间线编辑器</a></strong><br>
-クレジット: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868640879349998">原投稿</a>
- · <a href="docs/cases/x-matthewberman-fable52-kestrel-windows/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/MatthewBerman/status/2119868633086378471"><img src="assets/thumbs/x-matthewberman-fable52-378471.jpg" alt="用 约 50 秒动效讲大语言模型 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
-<strong><a href="docs/cases/x-matthewberman-fable52-378471/README.md">用 约 50 秒动效讲大语言模型</a></strong><br>
-クレジット: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868633086378471">原投稿</a>
- · <a href="docs/cases/x-matthewberman-fable52-378471/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/MatthewBerman/status/2119868630989254665"><img src="assets/thumbs/x-matthewberman-fable52-254665.jpg" alt="《糖豆人》风格闯关原型 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
-<strong><a href="docs/cases/x-matthewberman-fable52-254665/README.md">《糖豆人》风格闯关原型</a></strong><br>
-クレジット: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868630989254665">原投稿</a>
- · <a href="docs/cases/x-matthewberman-fable52-254665/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/MatthewBerman/status/2119868638929060195"><img src="assets/thumbs/x-matthewberman-fable52-060195.jpg" alt="搭一座能和居民对话的三维欧洲村庄 — @MatthewBerman（Matthew Berman）" width="220"></a><br>
-<strong><a href="docs/cases/x-matthewberman-fable52-060195/README.md">搭一座能和居民对话的三维欧洲村庄</a></strong><br>
-クレジット: @MatthewBerman（Matthew Berman）<br><a href="https://x.com/MatthewBerman/status/2119868638929060195">原投稿</a>
- · <a href="docs/cases/x-matthewberman-fable52-060195/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/marcthecreatorr/status/2119890973560054072"><img src="assets/thumbs/x-marcthecreatorr-fable52-054072.jpg" alt="打开网页看一艘代码生成的三维帆船 — @marcthecreatorr（Marcel）" width="220"></a><br>
-<strong><a href="docs/cases/x-marcthecreatorr-fable52-054072/README.md">打开网页看一艘代码生成的三维帆船</a></strong><br>
-クレジット: @marcthecreatorr（Marcel）<br><a href="https://x.com/marcthecreatorr/status/2119890973560054072">原投稿</a>
- · <a href="docs/cases/x-marcthecreatorr-fable52-054072/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Maaaaaaadiii/status/2119885527243714946"><img src="assets/thumbs/x-maaaaaaadiii-fable52-714946.jpg" alt="从贴纸到吊链和铃声，程序化做一张会动的招牌 — @Maaaaaaadiii（Hammad Hanif）" width="220"></a><br>
-<strong><a href="docs/cases/x-maaaaaaadiii-fable52-714946/README.md">从贴纸到吊链和铃声，程序化做一张会动的招牌</a></strong><br>
-クレジット: @Maaaaaaadiii（Hammad Hanif）<br><a href="https://x.com/Maaaaaaadiii/status/2119885527243714946">原投稿</a>
- · <a href="docs/cases/x-maaaaaaadiii-fable52-714946/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/kplikethebird/status/2119900775727902732"><img src="assets/thumbs/x-kplikethebird-fable52-blender.jpg" alt="用 Blender 重建公元一世纪的耶路撒冷街区 — @kplikethebird（Katie Parrott）" width="220"></a><br>
-<strong><a href="docs/cases/x-kplikethebird-fable52-blender/README.md">用 Blender 重建公元一世纪的耶路撒冷街区</a></strong><br>
-クレジット: @kplikethebird（Katie Parrott）<br><a href="https://x.com/kplikethebird/status/2119900775727902732">原投稿</a>
- · <a href="docs/cases/x-kplikethebird-fable52-blender/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/kieranklaassen/status/2119871673294037280"><img src="assets/thumbs/x-kieranklaassen-fable52-first-crush.jpg" alt="First Crush，把葡萄酒酿造步骤变成游戏 — @kieranklaassen（Kieran Klaassen）" width="220"></a><br>
-<strong><a href="docs/cases/x-kieranklaassen-fable52-first-crush/README.md">First Crush，把葡萄酒酿造步骤变成游戏</a></strong><br>
-クレジット: @kieranklaassen（Kieran Klaassen）<br><a href="https://x.com/kieranklaassen/status/2119871673294037280">原投稿</a>
- · <a href="docs/cases/x-kieranklaassen-fable52-first-crush/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/kieranklaassen/status/2119904489717272680"><img src="assets/thumbs/x-kieranklaassen-fable52-everycut.jpg" alt="Everycut，把录屏、文字剪辑和混音放进同一款编辑器 — @kieranklaassen（Kieran Klaassen）" width="220"></a><br>
-<strong><a href="docs/cases/x-kieranklaassen-fable52-everycut/README.md">Everycut，把录屏、文字剪辑和混音放进同一款编辑器</a></strong><br>
-クレジット: @kieranklaassen（Kieran Klaassen）<br><a href="https://x.com/kieranklaassen/status/2119904489717272680">原投稿</a>
- · <a href="docs/cases/x-kieranklaassen-fable52-everycut/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/kieranklaassen/status/2119868196773929160"><img src="assets/thumbs/x-kieranklaassen-fable52-ableton-push.jpg" alt="支持 Ableton Push 的环境音乐工作站 — @kieranklaassen（Kieran Klaassen）" width="220"></a><br>
-<strong><a href="docs/cases/x-kieranklaassen-fable52-ableton-push/README.md">支持 Ableton Push 的环境音乐工作站</a></strong><br>
-クレジット: @kieranklaassen（Kieran Klaassen）<br><a href="https://x.com/kieranklaassen/status/2119868196773929160">原投稿</a>
- · <a href="docs/cases/x-kieranklaassen-fable52-ableton-push/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/kevin_t_ngo/status/2119868968307695818"><img src="assets/thumbs/x-kevintngo-fable52-what-the-water-keeps.jpg" alt="What the Water Keeps，坐船穿过八个梦境场景 — @kevin_t_ngo（Kevin Ngo）" width="220"></a><br>
-<strong><a href="docs/cases/x-kevintngo-fable52-what-the-water-keeps/README.md">What the Water Keeps，坐船穿过八个梦境场景</a></strong><br>
-クレジット: @kevin_t_ngo（Kevin Ngo）<br><a href="https://x.com/kevin_t_ngo/status/2119868968307695818">原投稿</a>
- · <a href="docs/cases/x-kevintngo-fable52-what-the-water-keeps/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/kevin_t_ngo/status/2119972124211454139"><img src="assets/thumbs/x-kevintngo-fable52-python-blender.jpg" alt="用 Python 和 Blender 做一支 90 年代风格玩具广告 — @kevin_t_ngo（Kevin Ngo）" width="220"></a><br>
-<strong><a href="docs/cases/x-kevintngo-fable52-python-blender/README.md">用 Python 和 Blender 做一支 90 年代风格玩具广告</a></strong><br>
-クレジット: @kevin_t_ngo（Kevin Ngo）<br><a href="https://x.com/kevin_t_ngo/status/2119972124211454139">原投稿</a>
- · <a href="docs/cases/x-kevintngo-fable52-python-blender/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/kevin_t_ngo/status/2119938129079808282"><img src="assets/thumbs/x-kevintngo-fable52-javascript.jpg" alt="用 JavaScript 逐帧画一段约 100 秒的动画 — @kevin_t_ngo（Kevin Ngo）" width="220"></a><br>
-<strong><a href="docs/cases/x-kevintngo-fable52-javascript/README.md">用 JavaScript 逐帧画一段约 100 秒的动画</a></strong><br>
-クレジット: @kevin_t_ngo（Kevin Ngo）<br><a href="https://x.com/kevin_t_ngo/status/2119938129079808282">原投稿</a>
- · <a href="docs/cases/x-kevintngo-fable52-javascript/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/kevin_t_ngo/status/2119900487688622171"><img src="assets/thumbs/x-kevintngo-fable52-gilt-gutter.jpg" alt="Gilt &amp; Gutter，用弹药颜色做 1 对 1 射击机制 — @kevin_t_ngo（Kevin Ngo）" width="220"></a><br>
-<strong><a href="docs/cases/x-kevintngo-fable52-gilt-gutter/README.md">Gilt &amp; Gutter，用弹药颜色做 1 对 1 射击机制</a></strong><br>
-クレジット: @kevin_t_ngo（Kevin Ngo）<br><a href="https://x.com/kevin_t_ngo/status/2119900487688622171">原投稿</a>
- · <a href="docs/cases/x-kevintngo-fable52-gilt-gutter/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/jkeatn/status/2119874007382299087"><img src="assets/thumbs/x-jkeatn-fable52-python.jpg" alt="用 Python 模拟画笔，按虚构画家风格作画 — @jkeatn（Jake Eaton）" width="220"></a><br>
-<strong><a href="docs/cases/x-jkeatn-fable52-python/README.md">用 Python 模拟画笔，按虚构画家风格作画</a></strong><br>
-クレジット: @jkeatn（Jake Eaton）<br><a href="https://x.com/jkeatn/status/2119874007382299087">原投稿</a>
- · <a href="docs/cases/x-jkeatn-fable52-python/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/jev_chat/status/2120015641151426838"><img src="assets/thumbs/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl.jpg" alt="An acrobat stack on a biplane above the clouds, a 3D short in Chinese — @jev_chat" width="220"></a><br>
-<strong><a href="docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/README.md">An acrobat stack on a biplane above the clouds, a 3D short in Chinese</a></strong><br>
-クレジット: @jev_chat<br><a href="https://x.com/jev_chat/status/2120015641151426838">原投稿</a>
- · <a href="docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/itssotsot/status/2119909017216491720"><img src="assets/thumbs/x-itssotsot-fable52-big-little-adventure.jpg" alt="Big Little Adventure，把家具变成小角色的关卡 — @itssotsot（Sotiris Kaniras）" width="220"></a><br>
-<strong><a href="docs/cases/x-itssotsot-fable52-big-little-adventure/README.md">Big Little Adventure，把家具变成小角色的关卡</a></strong><br>
-クレジット: @itssotsot（Sotiris Kaniras）<br><a href="https://x.com/itssotsot/status/2119909017216491720">原投稿</a>
- · <a href="docs/cases/x-itssotsot-fable52-big-little-adventure/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ilya_sb1/status/2119878436529246669"><img src="assets/thumbs/x-ilyasb1-fable52-orbital-data-node.jpg" alt="Orbital Data Node 07，把数据中心搬到太空 — @ilya_sb1（Ilya Rzhevskiy）" width="220"></a><br>
-<strong><a href="docs/cases/x-ilyasb1-fable52-orbital-data-node/README.md">Orbital Data Node 07，把数据中心搬到太空</a></strong><br>
-クレジット: @ilya_sb1（Ilya Rzhevskiy）<br><a href="https://x.com/ilya_sb1/status/2119878436529246669">原投稿</a>
- · <a href="docs/cases/x-ilyasb1-fable52-orbital-data-node/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/hello_amani/status/2119873980786237842"><img src="assets/thumbs/x-helloamani-fable52-237842.jpg" alt="把金属质感的标志做成一段三维动效 — @hello_amani（Amani • Design Partner）" width="220"></a><br>
-<strong><a href="docs/cases/x-helloamani-fable52-237842/README.md">把金属质感的标志做成一段三维动效</a></strong><br>
-クレジット: @hello_amani（Amani • Design Partner）<br><a href="https://x.com/hello_amani/status/2119873980786237842">原投稿</a>
- · <a href="docs/cases/x-helloamani-fable52-237842/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/hammer_mt/status/2119906374066835495"><img src="assets/thumbs/x-hammermt-fable52-write-like-mike.jpg" alt="Write Like Mike，用留出的旧文章盲评写作技能 — @hammer_mt（Mike Taylor）" width="220"></a><br>
-<strong><a href="docs/cases/x-hammermt-fable52-write-like-mike/README.md">Write Like Mike，用留出的旧文章盲评写作技能</a></strong><br>
-クレジット: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119906374066835495">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/hammer_mt/status/2119906441389826445"><img src="assets/thumbs/x-hammermt-fable52-vibe-check-delivery.jpg" alt="Vibe Check Delivery，三个模型做同题送报游戏 — @hammer_mt（Mike Taylor）" width="220"></a><br>
-<strong><a href="docs/cases/x-hammermt-fable52-vibe-check-delivery/README.md">Vibe Check Delivery，三个模型做同题送报游戏</a></strong><br>
-クレジット: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119906441389826445">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/hammer_mt/status/2119906389284057363"><img src="assets/thumbs/x-hammermt-fable52-katepass.jpg" alt="KatePass，用 320 份旧草稿衡量编辑还剩多少工作 — @hammer_mt（Mike Taylor）" width="220"></a><br>
-<strong><a href="docs/cases/x-hammermt-fable52-katepass/README.md">KatePass，用 320 份旧草稿衡量编辑还剩多少工作</a></strong><br>
-クレジット: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119906389284057363">原投稿</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/hammer_mt/status/2119871817561346319"><img src="assets/thumbs/x-hammermt-fable52-346319.jpg" alt="用三维地图复盘《复仇者联盟》的纽约大战 — @hammer_mt（Mike Taylor）" width="220"></a><br>
-<strong><a href="docs/cases/x-hammermt-fable52-346319/README.md">用三维地图复盘《复仇者联盟》的纽约大战</a></strong><br>
-クレジット: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119871817561346319">原投稿</a>
- · <a href="docs/cases/x-hammermt-fable52-346319/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/hammer_mt/status/2119906412709183568"><img src="assets/thumbs/x-hammermt-fable52-183568.jpg" alt="从 14 套咨询演示稿提取能自动检查的规则 — @hammer_mt（Mike Taylor）" width="220"></a><br>
-<strong><a href="docs/cases/x-hammermt-fable52-183568/README.md">从 14 套咨询演示稿提取能自动检查的规则</a></strong><br>
-クレジット: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119906412709183568">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/hammer_mt/status/2119907037631103010"><img src="assets/thumbs/x-hammermt-fable52-103010.jpg" alt="从个人 AI 使用历史整理十个可重复的评测任务 — @hammer_mt（Mike Taylor）" width="220"></a><br>
-<strong><a href="docs/cases/x-hammermt-fable52-103010/README.md">从个人 AI 使用历史整理十个可重复的评测任务</a></strong><br>
-クレジット: @hammer_mt（Mike Taylor）<br><a href="https://x.com/hammer_mt/status/2119907037631103010">原投稿</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/geneohms/status/2119910054413685102"><img src="assets/thumbs/x-geneohms-fable52-685102.jpg" alt="从手机里发起任务，得到能与电脑对弈的棋盘 — @geneohms（Gene）" width="220"></a><br>
-<strong><a href="docs/cases/x-geneohms-fable52-685102/README.md">从手机里发起任务，得到能与电脑对弈的棋盘</a></strong><br>
-クレジット: @geneohms（Gene）<br><a href="https://x.com/geneohms/status/2119910054413685102">原投稿</a>
- · <a href="docs/cases/x-geneohms-fable52-685102/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ForwardEditor/status/2119867747425194377"><img src="assets/thumbs/x-forwardeditor-fable52-zero.jpg" alt="给既有 F-Zero 风格赛车加金属爪漂移和瞬移 — @ForwardEditor（Future Brian）" width="220"></a><br>
-<strong><a href="docs/cases/x-forwardeditor-fable52-zero/README.md">给既有 F-Zero 风格赛车加金属爪漂移和瞬移</a></strong><br>
-クレジット: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867747425194377">原投稿</a>
- · <a href="docs/cases/x-forwardeditor-fable52-zero/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ForwardEditor/status/2119867782238212524"><img src="assets/thumbs/x-forwardeditor-fable52-sorted-ios.jpg" alt="Sorted!，以纸牌接龙为灵感的 iOS 样机 — @ForwardEditor（Future Brian）" width="220"></a><br>
-<strong><a href="docs/cases/x-forwardeditor-fable52-sorted-ios/README.md">Sorted!，以纸牌接龙为灵感的 iOS 样机</a></strong><br>
-クレジット: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867782238212524">原投稿</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/ForwardEditor/status/2119867753376940396"><img src="assets/thumbs/x-forwardeditor-fable52-idle-elite.jpg" alt="在约 8 万行的 Idle Elite 代码库中接手开发 — @ForwardEditor（Future Brian）" width="220"></a><br>
-<strong><a href="docs/cases/x-forwardeditor-fable52-idle-elite/README.md">在约 8 万行的 Idle Elite 代码库中接手开发</a></strong><br>
-クレジット: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867753376940396">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ForwardEditor/status/2119867791150928106"><img src="assets/thumbs/x-forwardeditor-fable52-928106.jpg" alt="12 篇漫画试验，作者公开了没做满意的版本 — @ForwardEditor（Future Brian）" width="220"></a><br>
-<strong><a href="docs/cases/x-forwardeditor-fable52-928106/README.md">12 篇漫画试验，作者公开了没做满意的版本</a></strong><br>
-クレジット: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867791150928106">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ForwardEditor/status/2119867743965163994"><img src="assets/thumbs/x-forwardeditor-fable52-163994.jpg" alt="骑龙从空岛跃下，测试视角和飞行感 — @ForwardEditor（Future Brian）" width="220"></a><br>
-<strong><a href="docs/cases/x-forwardeditor-fable52-163994/README.md">骑龙从空岛跃下，测试视角和飞行感</a></strong><br>
-クレジット: @ForwardEditor（Future Brian）<br><a href="https://x.com/ForwardEditor/status/2119867743965163994">原投稿</a>
- · <a href="docs/cases/x-forwardeditor-fable52-163994/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/felixrieseberg/status/2119867840878825523"><img src="assets/thumbs/x-felixrieseberg-fable52-interchange.jpg" alt="为虚构团体 Interchange 探索 20 款标志 — @felixrieseberg（Felix Rieseberg）" width="220"></a><br>
-<strong><a href="docs/cases/x-felixrieseberg-fable52-interchange/README.md">为虚构团体 Interchange 探索 20 款标志</a></strong><br>
-クレジット: @felixrieseberg（Felix Rieseberg）<br><a href="https://x.com/felixrieseberg/status/2119867840878825523">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/felixrieseberg/status/2119867839033352596"><img src="assets/thumbs/x-felixrieseberg-fable52-352596.jpg" alt="保留首版的第一人称射击等游戏样例 — @felixrieseberg（Felix Rieseberg）" width="220"></a><br>
-<strong><a href="docs/cases/x-felixrieseberg-fable52-352596/README.md">保留首版的第一人称射击等游戏样例</a></strong><br>
-クレジット: @felixrieseberg（Felix Rieseberg）<br><a href="https://x.com/felixrieseberg/status/2119867839033352596">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/FaridaNever/status/2119910055990505730"><img src="assets/thumbs/x-faridanever-fable52-505730.jpg" alt="水墨山景里的第三人称剑士 — @FaridaNever（Farida）" width="220"></a><br>
-<strong><a href="docs/cases/x-faridanever-fable52-505730/README.md">水墨山景里的第三人称剑士</a></strong><br>
-クレジット: @FaridaNever（Farida）<br><a href="https://x.com/FaridaNever/status/2119910055990505730">原投稿</a>
- · <a href="docs/cases/x-faridanever-fable52-505730/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/every/status/2119934581445145066"><img src="assets/thumbs/x-every-fable52-slack.jpg" alt="从 Slack 与会议记录中找出 38 处说法冲突 — @every（Every 📧）" width="220"></a><br>
-<strong><a href="docs/cases/x-every-fable52-slack/README.md">从 Slack 与会议记录中找出 38 处说法冲突</a></strong><br>
-クレジット: @every（Every 📧）<br><a href="https://x.com/every/status/2119934581445145066">原投稿</a>
- · <a href="docs/cases/x-every-fable52-slack/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/every/status/2119939866314289555"><img src="assets/thumbs/x-every-fable52-high-max.jpg" alt="High 和 Max 档，盲评同一组网页设计 — @every（Every 📧）" width="220"></a><br>
-<strong><a href="docs/cases/x-every-fable52-high-max/README.md">High 和 Max 档，盲评同一组网页设计</a></strong><br>
-クレジット: @every（Every 📧）<br><a href="https://x.com/every/status/2119939866314289555">原投稿</a>
- · <a href="docs/cases/x-every-fable52-high-max/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/every/status/2119928286465892357"><img src="assets/thumbs/x-every-fable52-checks.jpg" alt="放手一个周末，让代理给 Checks 做 75 项改动 — @every（Every 📧）" width="220"></a><br>
-<strong><a href="docs/cases/x-every-fable52-checks/README.md">放手一个周末，让代理给 Checks 做 75 项改动</a></strong><br>
-クレジット: @every（Every 📧）<br><a href="https://x.com/every/status/2119928286465892357">原投稿</a>
- · <a href="docs/cases/x-every-fable52-checks/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/ericskavinski/status/2119895601580016005"><img src="assets/thumbs/x-ericskavinski-fable52-three.jpg" alt="用 Three.js 写出落日和海面反光 — @ericskavinski（Eric Skavinski）" width="220"></a><br>
-<strong><a href="docs/cases/x-ericskavinski-fable52-three/README.md">用 Three.js 写出落日和海面反光</a></strong><br>
-クレジット: @ericskavinski（Eric Skavinski）<br><a href="https://x.com/ericskavinski/status/2119895601580016005">原投稿</a>
- · <a href="docs/cases/x-ericskavinski-fable52-three/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ericmaskfr/status/2119910195325481026"><img src="assets/thumbs/x-ericmaskfr-fable52-481026.jpg" alt="80 年代迈阿密风格的开放城市和任务系统 — @ericmaskfr（eric）" width="220"></a><br>
-<strong><a href="docs/cases/x-ericmaskfr-fable52-481026/README.md">80 年代迈阿密风格的开放城市和任务系统</a></strong><br>
-クレジット: @ericmaskfr（eric）<br><a href="https://x.com/ericmaskfr/status/2119910195325481026">原投稿</a>
- · <a href="docs/cases/x-ericmaskfr-fable52-481026/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/emollick/status/2119876449494540554"><img src="assets/thumbs/x-emollick-fable52-scooby-doo.jpg" alt="反转 Scooby-Doo，玩家要把调查的孩子吓跑 — @emollick（Ethan Mollick）" width="220"></a><br>
-<strong><a href="docs/cases/x-emollick-fable52-scooby-doo/README.md">反转 Scooby-Doo，玩家要把调查的孩子吓跑</a></strong><br>
-クレジット: @emollick（Ethan Mollick）<br><a href="https://x.com/emollick/status/2119876449494540554">原投稿</a>
- · <a href="docs/cases/x-emollick-fable52-scooby-doo/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/emollick/status/2119918307457577163"><img src="assets/thumbs/x-emollick-fable52-portals.jpg" alt="Portals，穿过传送门飞进 471 个代码世界 — @emollick（Ethan Mollick）" width="220"></a><br>
-<strong><a href="docs/cases/x-emollick-fable52-portals/README.md">Portals，穿过传送门飞进 471 个代码世界</a></strong><br>
-クレジット: @emollick（Ethan Mollick）<br><a href="https://x.com/emollick/status/2119918307457577163">原投稿</a>
- · <a href="docs/cases/x-emollick-fable52-portals/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/dom_scholz/status/2119933150025363661"><img src="assets/thumbs/x-domscholz-fable52-ultramarine.jpg" alt="Ultramarine，同一三维任务对照两代模型 — @dom_scholz（Dominik Scholz）" width="220"></a><br>
-<strong><a href="docs/cases/x-domscholz-fable52-ultramarine/README.md">Ultramarine，同一三维任务对照两代模型</a></strong><br>
-クレジット: @dom_scholz（Dominik Scholz）<br><a href="https://x.com/dom_scholz/status/2119933150025363661">原投稿</a>
- · <a href="docs/cases/x-domscholz-fable52-ultramarine/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/DoctorYev/status/2119895951108423801"><img src="assets/thumbs/x-doctoryev-fable52-uare.jpg" alt="Uare，把一条宣传需求做成约 64 秒的发布片 — @DoctorYev（Yev Marusenko）" width="220"></a><br>
-<strong><a href="docs/cases/x-doctoryev-fable52-uare/README.md">Uare，把一条宣传需求做成约 64 秒的发布片</a></strong><br>
-クレジット: @DoctorYev（Yev Marusenko）<br><a href="https://x.com/DoctorYev/status/2119895951108423801">原投稿</a>
- · <a href="docs/cases/x-doctoryev-fable52-uare/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/DeryaTR_/status/2120083276916224014"><img src="assets/thumbs/x-deryatr-fable52-ataturk-remembrance.jpg" alt="10 November remembrance video by Fable 5.2 — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
-<strong><a href="docs/cases/x-deryatr-fable52-ataturk-remembrance/README.md">10 November remembrance video by Fable 5.2</a></strong><br>
-クレジット: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120083276916224014">原投稿</a>
- · <a href="docs/cases/x-deryatr-fable52-ataturk-remembrance/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/danteeonsol/status/2119887623070077213"><img src="assets/thumbs/x-danteeonsol-fable52-remotion-three-ufo.jpg" alt="用 Remotion 和 Three.js 做 UFO 到访 51 区 — @danteeonsol（Dante）" width="220"></a><br>
-<strong><a href="docs/cases/x-danteeonsol-fable52-remotion-three-ufo/README.md">用 Remotion 和 Three.js 做 UFO 到访 51 区</a></strong><br>
-クレジット: @danteeonsol（Dante）<br><a href="https://x.com/danteeonsol/status/2119887623070077213">原投稿</a>
- · <a href="docs/cases/x-danteeonsol-fable52-remotion-three-ufo/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/danshipper/status/2119869228207546638"><img src="assets/thumbs/x-danshipper-fable52-546638.jpg" alt="让代理采访研究者，再把录音剪成纪录片 — @danshipper（Dan Shipper）" width="220"></a><br>
-<strong><a href="docs/cases/x-danshipper-fable52-546638/README.md">让代理采访研究者，再把录音剪成纪录片</a></strong><br>
-クレジット: @danshipper（Dan Shipper）<br><a href="https://x.com/danshipper/status/2119869228207546638">原投稿</a>
- · <a href="docs/cases/x-danshipper-fable52-546638/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/DanielZambrini/status/2119893834276507954"><img src="assets/thumbs/x-danielzambrini-fable52-fable-opus.jpg" alt="15 秒火柴人对打，保留 Fable 与 Opus 的成本对照 — @DanielZambrini（Daniel Zambrini）" width="220"></a><br>
-<strong><a href="docs/cases/x-danielzambrini-fable52-fable-opus/README.md">15 秒火柴人对打，保留 Fable 与 Opus 的成本对照</a></strong><br>
-クレジット: @DanielZambrini（Daniel Zambrini）<br><a href="https://x.com/DanielZambrini/status/2119893834276507954">原投稿</a>
- · <a href="docs/cases/x-danielzambrini-fable52-fable-opus/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/claudeai/status/2119899459761131615"><img src="assets/thumbs/x-claudeai-fable52-pcb.jpg" alt="从四层 PCB 到三款能工作的电子原型 — @claudeai（Claude）" width="220"></a><br>
-<strong><a href="docs/cases/x-claudeai-fable52-pcb/README.md">从四层 PCB 到三款能工作的电子原型</a></strong><br>
-クレジット: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119899459761131615">原投稿</a>
- · <a href="docs/cases/x-claudeai-fable52-pcb/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/claudeai/status/2119899477855379913"><img src="assets/thumbs/x-claudeai-fable52-miplib.jpg" alt="求解 MIPLIB 开放问题，其中一个例子是 42 趟列车的排班 — @claudeai（Claude）" width="220"></a><br>
-<strong><a href="docs/cases/x-claudeai-fable52-miplib/README.md">求解 MIPLIB 开放问题，其中一个例子是 42 趟列车的排班</a></strong><br>
-クレジット: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119899477855379913">原投稿</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/claudeai/status/2119867129751056485"><img src="assets/thumbs/x-claudeai-fable52-lean.jpg" alt="1,000 个代理用约 29 小时复现费马大定理的 Lean 证明 — @claudeai（Claude）" width="220"></a><br>
-<strong><a href="docs/cases/x-claudeai-fable52-lean/README.md">1,000 个代理用约 29 小时复现费马大定理的 Lean 证明</a></strong><br>
-クレジット: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119867129751056485">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/claudeai/status/2119867114450268322"><img src="assets/thumbs/x-claudeai-fable52-268322.jpg" alt="从空目录到可在笔记本启动的操作系统 — @claudeai（Claude）" width="220"></a><br>
-<strong><a href="docs/cases/x-claudeai-fable52-268322/README.md">从空目录到可在笔记本启动的操作系统</a></strong><br>
-クレジット: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119867114450268322">原投稿</a>
- · <a href="docs/cases/x-claudeai-fable52-268322/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/claudeai/status/2119867132452221045"><img src="assets/thumbs/x-claudeai-fable52-221045.jpg" alt="用真实机械臂拧瓶盖、复原方块和画图 — @claudeai（Claude）" width="220"></a><br>
-<strong><a href="docs/cases/x-claudeai-fable52-221045/README.md">用真实机械臂拧瓶盖、复原方块和画图</a></strong><br>
-クレジット: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119867132452221045">原投稿</a>
- · <a href="docs/cases/x-claudeai-fable52-221045/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/claudeai/status/2119899488995131439"><img src="assets/thumbs/x-claudeai-fable52-131439.jpg" alt="求出简化模型中模自举方法的精确界限 — @claudeai（Claude）" width="220"></a><br>
-<strong><a href="docs/cases/x-claudeai-fable52-131439/README.md">求出简化模型中模自举方法的精确界限</a></strong><br>
-クレジット: @claudeai（Claude）<br><a href="https://x.com/claudeai/status/2119899488995131439">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/clairevo/status/2119905651359142132"><img src="assets/thumbs/x-clairevo-fable52-typed-page.jpg" alt="typed.page，带纸张、色带和写作计时的网页打字机 — @clairevo（claire vo 🖤）" width="220"></a><br>
-<strong><a href="docs/cases/x-clairevo-fable52-typed-page/README.md">typed.page，带纸张、色带和写作计时的网页打字机</a></strong><br>
-クレジット: @clairevo（claire vo 🖤）<br><a href="https://x.com/clairevo/status/2119905651359142132">原投稿</a>
- · <a href="docs/cases/x-clairevo-fable52-typed-page/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/chetaslua/status/2119981510199808368"><img src="assets/thumbs/x-chetaslua-fable52-808368.jpg" alt="四张代码绘图，做成并排的动效展示 — @chetaslua" width="220"></a><br>
-<strong><a href="docs/cases/x-chetaslua-fable52-808368/README.md">四张代码绘图，做成并排的动效展示</a></strong><br>
-クレジット: @chetaslua<br><a href="https://x.com/chetaslua/status/2119981510199808368">原投稿</a>
- · <a href="docs/cases/x-chetaslua-fable52-808368/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/BeamManP/status/2119879390322622583"><img src="assets/thumbs/x-beammanp-fable52-wasd-three.jpg" alt="用 WASD 和空格操控 Three.js 坦克 — @BeamManP（ビームマンＰ ver40）" width="220"></a><br>
-<strong><a href="docs/cases/x-beammanp-fable52-wasd-three/README.md">用 WASD 和空格操控 Three.js 坦克</a></strong><br>
-クレジット: @BeamManP（ビームマンＰ ver40）<br><a href="https://x.com/BeamManP/status/2119879390322622583">原投稿</a>
- · <a href="docs/cases/x-beammanp-fable52-wasd-three/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/argofowl/status/2119913148929187960"><img src="assets/thumbs/x-argofowl-fable52-spud-smash.jpg" alt="SPUD SMASH，土豆在房间里打烂蓝椅子 — @argofowl（🥔🥔🥔）" width="220"></a><br>
-<strong><a href="docs/cases/x-argofowl-fable52-spud-smash/README.md">SPUD SMASH，土豆在房间里打烂蓝椅子</a></strong><br>
-クレジット: @argofowl（🥔🥔🥔）<br><a href="https://x.com/argofowl/status/2119913148929187960">原投稿</a>
- · <a href="docs/cases/x-argofowl-fable52-spud-smash/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/anstapnever/status/2119915123070644263"><img src="assets/thumbs/x-anstapnever-fable52-blackout-three.jpg" alt="《Blackout》，用 Three.js 做 79 秒二维动画 — @anstapnever（anstap）" width="220"></a><br>
-<strong><a href="docs/cases/x-anstapnever-fable52-blackout-three/README.md">《Blackout》，用 Three.js 做 79 秒二维动画</a></strong><br>
-クレジット: @anstapnever（anstap）<br><a href="https://x.com/anstapnever/status/2119915123070644263">原投稿</a>
- · <a href="docs/cases/x-anstapnever-fable52-blackout-three/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/AmirMushich/status/2119937977426338283"><img src="assets/thumbs/x-amirmushich-fable52-worm-rider.jpg" alt="Worm Rider，用代码生成沙虫、车队与地形 — @AmirMushich（AmirMušić）" width="220"></a><br>
-<strong><a href="docs/cases/x-amirmushich-fable52-worm-rider/README.md">Worm Rider，用代码生成沙虫、车队与地形</a></strong><br>
-クレジット: @AmirMushich（AmirMušić）<br><a href="https://x.com/AmirMushich/status/2119937977426338283">原投稿</a>
- · <a href="docs/cases/x-amirmushich-fable52-worm-rider/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/AmirMushich/status/2119903338078564844"><img src="assets/thumbs/x-amirmushich-fable52-blender-reaper.jpg" alt="Blender × Reaper，用手机录音做三维片段的音效 — @AmirMushich（AmirMušić）" width="220"></a><br>
-<strong><a href="docs/cases/x-amirmushich-fable52-blender-reaper/README.md">Blender × Reaper，用手机录音做三维片段的音效</a></strong><br>
-クレジット: @AmirMushich（AmirMušić）<br><a href="https://x.com/AmirMushich/status/2119903338078564844">原投稿</a>
- · <a href="docs/cases/x-amirmushich-fable52-blender-reaper/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/amihai/status/2119894821255205099"><img src="assets/thumbs/x-amihai-fable52-205099.jpg" alt="给一块空画布，让模型自己选题构图 — @amihai（Amichai Mantinband）" width="220"></a><br>
-<strong><a href="docs/cases/x-amihai-fable52-205099/README.md">给一块空画布，让模型自己选题构图</a></strong><br>
-クレジット: @amihai（Amichai Mantinband）<br><a href="https://x.com/amihai/status/2119894821255205099">原投稿</a>
- · <a href="docs/cases/x-amihai-fable52-205099/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/al_maxgo/status/2119891197317591040"><img src="assets/thumbs/x-almaxgo-fable52-fbplot.jpg" alt="FBPlot，把代码库里的真实图表做成产品预告 — @al_maxgo（Al Maxgo）" width="220"></a><br>
-<strong><a href="docs/cases/x-almaxgo-fable52-fbplot/README.md">FBPlot，把代码库里的真实图表做成产品预告</a></strong><br>
-クレジット: @al_maxgo（Al Maxgo）<br><a href="https://x.com/al_maxgo/status/2119891197317591040">原投稿</a>
- · <a href="docs/cases/x-almaxgo-fable52-fbplot/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/alightinastorm/status/2120020469487440210"><img src="assets/thumbs/x-alightinastorm-fable52-a-browser-first-person-sho.jpg" alt="A browser first-person shooter with an armory and a desert town map — @alightinastorm" width="220"></a><br>
-<strong><a href="docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/README.md">A browser first-person shooter with an armory and a desert town map</a></strong><br>
-クレジット: @alightinastorm<br><a href="https://x.com/alightinastorm/status/2120020469487440210">原投稿</a>
- · <a href="docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/alexalbert__/status/2119916954337349737"><img src="assets/thumbs/x-alexalbert-fable52-pdf.jpg" alt="把达·芬奇手稿 PDF 做成可交互发明 — @alexalbert__（Alex Albert）" width="220"></a><br>
-<strong><a href="docs/cases/x-alexalbert-fable52-pdf/README.md">把达·芬奇手稿 PDF 做成可交互发明</a></strong><br>
-クレジット: @alexalbert__（Alex Albert）<br><a href="https://x.com/alexalbert__/status/2119916954337349737">原投稿</a>
- · <a href="docs/cases/x-alexalbert-fable52-pdf/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/akshatbahety/status/2119882437740421456"><img src="assets/thumbs/x-akshatbahety-fable52-fal.jpg" alt="30 秒图解短片，配音和音频经 Fal 生成 — @akshatbahety（Akshat Bahety）" width="220"></a><br>
-<strong><a href="docs/cases/x-akshatbahety-fable52-fal/README.md">30 秒图解短片，配音和音频经 Fal 生成</a></strong><br>
-クレジット: @akshatbahety（Akshat Bahety）<br><a href="https://x.com/akshatbahety/status/2119882437740421456">原投稿</a>
- · <a href="docs/cases/x-akshatbahety-fable52-fal/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/aakashverma/status/2119874895836524593"><img src="assets/thumbs/x-aakashverma-fable52-fable-anthropic.jpg" alt="把 Fable 5.2 的发布补进一部 Anthropic 历史片 — @aakashverma（Aakash Verma）" width="220"></a><br>
-<strong><a href="docs/cases/x-aakashverma-fable52-fable-anthropic/README.md">把 Fable 5.2 的发布补进一部 Anthropic 历史片</a></strong><br>
-クレジット: @aakashverma（Aakash Verma）<br><a href="https://x.com/aakashverma/status/2119874895836524593">原投稿</a>
- · <a href="docs/cases/x-aakashverma-fable52-fable-anthropic/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/0kncn/status/2119901782482543073"><img src="assets/thumbs/x-0kncn-fable52-543073.jpg" alt="90 秒蒸汽机车变形短片，附完整提示词 — @0kncn（Okan Can）" width="220"></a><br>
-<strong><a href="docs/cases/x-0kncn-fable52-543073/README.md">90 秒蒸汽机车变形短片，附完整提示词</a></strong><br>
-クレジット: @0kncn（Okan Can）<br><a href="https://x.com/0kncn/status/2119901782482543073">原投稿</a>
- · <a href="docs/cases/x-0kncn-fable52-543073/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://halilsekeroglu.com/en/fable/"><img src="assets/thumbs/web-halil-fable52-animation-prompts.jpg" alt="Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D) — Halil Sekeroglu" width="220"></a><br>
-<strong><a href="docs/cases/web-halil-fable52-animation-prompts/README.md">Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D)</a></strong><br>
-クレジット: Halil Sekeroglu<br><a href="https://halilsekeroglu.com/en/fable/">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/wshuyi/status/2120014892040417720"><img src="assets/thumbs/x-wshuyi-fable52-sabertooth-hunt.jpg" alt="纯编程动画：剑齿虎捕猎野牛（自编程音效） — @wshuyi" width="220"></a><br>
-<strong><a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md">纯编程动画：剑齿虎捕猎野牛（自编程音效）</a></strong><br>
-クレジット: @wshuyi<br><a href="https://x.com/wshuyi/status/2120014892040417720">原投稿</a>
- · <a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/notjazii/status/2119905661505122575"><img src="assets/thumbs/x-notjazii-fable52-a-pirate-ship-sailing-acro.jpg" alt="A pirate ship sailing across the ocean — @notjazii" width="220"></a><br>
-<strong><a href="docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/README.md">A pirate ship sailing across the ocean</a></strong><br>
-クレジット: @notjazii<br><a href="https://x.com/notjazii/status/2119905661505122575">原投稿</a>
- · <a href="docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/maxt3chno/status/2119896698281467952"><img src="assets/thumbs/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b.jpg" alt="GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in Blender — @maxt3chno" width="220"></a><br>
-<strong><a href="docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/README.md">GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in Blender</a></strong><br>
-クレジット: @maxt3chno<br><a href="https://x.com/maxt3chno/status/2119896698281467952">原投稿</a>
- · <a href="docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/LexnLin/status/2119880654858977333"><img src="assets/thumbs/x-lexnlin-fable52-a-flight-through-a-living.jpg" alt="A flight through a living world — @LexnLin" width="220"></a><br>
-<strong><a href="docs/cases/x-lexnlin-fable52-a-flight-through-a-living/README.md">A flight through a living world</a></strong><br>
-クレジット: @LexnLin<br><a href="https://x.com/LexnLin/status/2119880654858977333">原投稿</a>
- · <a href="docs/cases/x-lexnlin-fable52-a-flight-through-a-living/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/himanshutwtxs/status/2120017106804900304"><img src="assets/thumbs/x-himanshutwtxs-fable52-motion-showreel.jpg" alt="One-prompt motion designer showreel (timing, easing, shape, type) — @himanshutwtxs" width="220"></a><br>
-<strong><a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md">One-prompt motion designer showreel (timing, easing, shape, type)</a></strong><br>
-クレジット: @himanshutwtxs<br><a href="https://x.com/himanshutwtxs/status/2120017106804900304">原投稿</a>
- · <a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/anabology/status/2120010995309457643"><img src="assets/thumbs/x-anabology-fable52-claudia-gallery.jpg" alt="Claudia Gallery — @anabology" width="220"></a><br>
-<strong><a href="docs/cases/x-anabology-fable52-claudia-gallery/README.md">Claudia Gallery</a></strong><br>
-クレジット: @anabology<br><a href="https://x.com/anabology/status/2120010995309457643">原投稿</a>
- · <a href="docs/cases/x-anabology-fable52-claudia-gallery/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/anshu4321/status/2119938067758772403"><img src="assets/thumbs/x-anshu4321-fable52-indiranagar-1.jpg" alt="印度班加罗尔 Indiranagar 1 平方公里 — @anshu4321" width="220"></a><br>
-<strong><a href="docs/cases/x-anshu4321-fable52-indiranagar-1/README.md">印度班加罗尔 Indiranagar 1 平方公里</a></strong><br>
-クレジット: @anshu4321<br><a href="https://x.com/anshu4321/status/2119938067758772403">原投稿</a>
- · <a href="docs/cases/x-anshu4321-fable52-indiranagar-1/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/chetaslua/status/2119870650722763052"><img src="assets/thumbs/x-chetaslua-fable52-clip.jpg" alt="官方演示：从空文件夹造操作系统（转述） — @chetaslua" width="220"></a><br>
-<strong><a href="docs/cases/x-chetaslua-fable52-clip/README.md">官方演示：从空文件夹造操作系统（转述）</a></strong><br>
-クレジット: @chetaslua<br><a href="https://x.com/chetaslua/status/2119870650722763052">原投稿</a>
- · <a href="docs/cases/x-chetaslua-fable52-clip/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/ChrisGPT/status/2119998815856218494"><img src="assets/thumbs/x-chrisgpt-fable52-clip.jpg" alt="给剪辑师的「抢饭碗」宣言视频 — @ChrisGPT" width="220"></a><br>
-<strong><a href="docs/cases/x-chrisgpt-fable52-clip/README.md">给剪辑师的「抢饭碗」宣言视频</a></strong><br>
-クレジット: @ChrisGPT<br><a href="https://x.com/ChrisGPT/status/2119998815856218494">原投稿</a>
- · <a href="docs/cases/x-chrisgpt-fable52-clip/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/felixrieseberg/status/2119925633564463609"><img src="assets/thumbs/x-felixrieseberg-fable52-saltline.jpg" alt="Saltline 第一人称射击 — @felixrieseberg" width="220"></a><br>
-<strong><a href="docs/cases/x-felixrieseberg-fable52-saltline/README.md">Saltline 第一人称射击</a></strong><br>
-クレジット: @felixrieseberg<br><a href="https://x.com/felixrieseberg/status/2119925633564463609">原投稿</a>
- · <a href="docs/cases/x-felixrieseberg-fable52-saltline/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/higgsfield_ai/status/2119997122896601269"><img src="assets/thumbs/x-higgsfield-ai-fable52-vowlorn-rpg.jpg" alt="VOWLORN 纯代码暗黑 RPG — @higgsfield_ai" width="220"></a><br>
-<strong><a href="docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/README.md">VOWLORN 纯代码暗黑 RPG</a></strong><br>
-クレジット: @higgsfield_ai<br><a href="https://x.com/higgsfield_ai/status/2119997122896601269">原投稿</a>
- · <a href="docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/LexnLin/status/2119966127149429093"><img src="assets/thumbs/x-lexnlin-fable52-feed-the-backrooms.jpg" alt="Feed the Backrooms：你当怪物 — @LexnLin" width="220"></a><br>
-<strong><a href="docs/cases/x-lexnlin-fable52-feed-the-backrooms/README.md">Feed the Backrooms：你当怪物</a></strong><br>
-クレジット: @LexnLin<br><a href="https://x.com/LexnLin/status/2119966127149429093">原投稿</a>
- · <a href="docs/cases/x-lexnlin-fable52-feed-the-backrooms/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/MrTacticalX/status/2119955647542542439"><img src="assets/thumbs/x-mrtacticalx-fable52-fable-opus.jpg" alt="玻璃泳池，Fable 对 Opus — @MrTacticalX" width="220"></a><br>
-<strong><a href="docs/cases/x-mrtacticalx-fable52-fable-opus/README.md">玻璃泳池，Fable 对 Opus</a></strong><br>
-クレジット: @MrTacticalX<br><a href="https://x.com/MrTacticalX/status/2119955647542542439">原投稿</a>
- · <a href="docs/cases/x-mrtacticalx-fable52-fable-opus/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/noclipepe/status/2119927838321328577"><img src="assets/thumbs/x-noclipepe-fable52-chrome.jpg" alt="Chrome 恐龙变兰博 — @noclipepe" width="220"></a><br>
-<strong><a href="docs/cases/x-noclipepe-fable52-chrome/README.md">Chrome 恐龙变兰博</a></strong><br>
-クレジット: @noclipepe<br><a href="https://x.com/noclipepe/status/2119927838321328577">原投稿</a>
- · <a href="docs/cases/x-noclipepe-fable52-chrome/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/noclipepe/status/2119728047754547326"><img src="assets/thumbs/x-noclipepe-fable52-clip.jpg" alt="童年地毯赛车 — @noclipepe" width="220"></a><br>
-<strong><a href="docs/cases/x-noclipepe-fable52-clip/README.md">童年地毯赛车</a></strong><br>
-クレジット: @noclipepe<br><a href="https://x.com/noclipepe/status/2119728047754547326">原投稿</a>
- · <a href="docs/cases/x-noclipepe-fable52-clip/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/_sholtodouglas/status/2119935331499925557"><img src="assets/thumbs/x-sholtodouglas-fable52-fps.jpg" alt="带传送门的竞技场 FPS，办公室里对战 — @_sholtodouglas" width="220"></a><br>
-<strong><a href="docs/cases/x-sholtodouglas-fable52-fps/README.md">带传送门的竞技场 FPS，办公室里对战</a></strong><br>
-クレジット: @_sholtodouglas<br><a href="https://x.com/_sholtodouglas/status/2119935331499925557">原投稿</a>
- · <a href="docs/cases/x-sholtodouglas-fable52-fps/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/vib3coded/status/2119951060752375827"><img src="assets/thumbs/x-vib3coded-fable52-clip.jpg" alt="果冻虎鲸材质研究 — @vib3coded" width="220"></a><br>
-<strong><a href="docs/cases/x-vib3coded-fable52-clip/README.md">果冻虎鲸材质研究</a></strong><br>
-クレジット: @vib3coded<br><a href="https://x.com/vib3coded/status/2119951060752375827">原投稿</a>
- · <a href="docs/cases/x-vib3coded-fable52-clip/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/vib3coded/status/2120104517282775514"><img src="assets/thumbs/x-vib3coded-fable52-clip-2.jpg" alt="瓶中体素世界 — @vib3coded" width="220"></a><br>
-<strong><a href="docs/cases/x-vib3coded-fable52-clip-2/README.md">瓶中体素世界</a></strong><br>
-クレジット: @vib3coded<br><a href="https://x.com/vib3coded/status/2120104517282775514">原投稿</a>
- · <a href="docs/cases/x-vib3coded-fable52-clip-2/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/viktoroddy/status/2119985044542705916"><img src="assets/thumbs/x-viktoroddy-fable52-ribbon-hero.jpg" alt="Ribbon Hero 首屏 — @viktoroddy" width="220"></a><br>
-<strong><a href="docs/cases/x-viktoroddy-fable52-ribbon-hero/README.md">Ribbon Hero 首屏</a></strong><br>
-クレジット: @viktoroddy<br><a href="https://x.com/viktoroddy/status/2119985044542705916">原投稿</a>
- · <a href="docs/cases/x-viktoroddy-fable52-ribbon-hero/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/WesRoth/status/2119953913160093817"><img src="assets/thumbs/x-wesroth-fable52-clip.jpg" alt="一次生成合集 — @WesRoth" width="220"></a><br>
-<strong><a href="docs/cases/x-wesroth-fable52-clip/README.md">一次生成合集</a></strong><br>
-クレジット: @WesRoth<br><a href="https://x.com/WesRoth/status/2119953913160093817">原投稿</a>
- · <a href="docs/cases/x-wesroth-fable52-clip/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-</table>
-
-- **用同一份网页改版任务比较 Fable 和 Opus** · クレジット: @petergyang（Peter Yang） · [ケース](docs/cases/x-petergyang-fable52-fable-opus/README.md) · [原投稿](https://x.com/petergyang/status/2119870223562191289)
-- **Prebid Brief，从政府议程找尚未招标的商机** · クレジット: @emollick（Ethan Mollick） · [ケース](docs/cases/x-emollick-fable52-prebid-brief/README.md) · [原投稿](https://x.com/emollick/status/2119870150845599972)
-- **算出弱耦合下的霍金–佩奇相变** · クレジット: @claudeai（Claude） · [ケース](docs/cases/x-claudeai-fable52-825293/README.md) · [原投稿](https://x.com/claudeai/status/2119899487044825293)
-- **重做 ChatPRD 的产品情报管线** · クレジット: @clairevo（claire vo 🖤） · [ケース](docs/cases/x-clairevo-fable52-chatprd/README.md) · [原投稿](https://x.com/clairevo/status/2119891385784619405)
-- **Three Games 合集页（Saltline / 钟表匠之心 / Tidewright）** · クレジット: @felixrieseberg · [ケース](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/README.md) · [原投稿](https://x.com/vineerpasam/status/2119955306096857145) · [▶ 動画](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/media/video.mp4)
-- **印度维生素该买哪些** · クレジット: @itspsneha · [ケース](docs/cases/x-itspsneha-fable52-clip/README.md) · [原投稿](https://x.com/itspsneha/status/2120048494761451974)
-- **76 个单文件 HTML 视觉作品集** · クレジット: @MiaAI_lab · [ケース](docs/cases/x-miaai-lab-fable52-76-html/README.md) · [原投稿](https://x.com/MiaAI_lab/status/2119930229661503893)
-- **温哥华鸟瞰** · クレジット: @tokifyi · [ケース](docs/cases/x-tokifyi-fable52-clip/README.md) · [原投稿](https://x.com/tokifyi/status/2120020272153764172)
+- **AgentSkyを描く点光源の3D映像（Blenderとコード）** · クレジット: @quxiaoyin（Xiaoyin Qu） · [ケース](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja) · [原投稿](https://x.com/quxiaoyin/status/2120341962314150207)
+- **Fable 5.2とOpus 5.5：同じプロンプトによるThree.jsの船（横並び比較）** · クレジット: @paleknight（Vraj） · [ケース](docs/translations/x-paleknight-fable52-vs-opus55-ship.md#ja) · [原投稿](https://x.com/paleknight/status/2120368418805174639)
+- **Blenderでメカニカルキーボードを制作し、タイピングを実演** · クレジット: @MrTacticalX（Mr Tactical） · [ケース](docs/translations/x-mrtactical-fable52-mechanical-keyboard.md#ja) · [原投稿](https://x.com/MrTacticalX/status/2120342453807157720)
+- **Fable 5.2でThree.jsのアパートをBlenderに再現** · クレジット: @MengTo（Meng To） · [ケース](docs/translations/x-mengto-fable52-blender-apartment.md#ja) · [原投稿](https://x.com/MengTo/status/2120316203738829180)
+- **日没から日の出まで動く写実的なThree.jsの海** · クレジット: @kloss_xyz（klöss） · [ケース](docs/translations/x-kloss-fable52-ocean-threejs.md#ja) · [原投稿](https://x.com/kloss_xyz/status/2120378126740095273)
+- **BlenderでBugatti Tourbillonを制作し、自動車の短編映像へ（Fable 5.2）** · クレジット: @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will） · [ケース](docs/translations/x-financeyf5-fable52-bugatti-tourbillon.md#ja) · [原投稿](https://x.com/FinanceYF5/status/2120372142147842296)
+- **Three.jsでゼロから制作したドラゴンゲーム** · クレジット: @EvanMilenko（Evan） · [ケース](docs/translations/x-evanmilenko-fable52-dragon-game.md#ja) · [原投稿](https://x.com/EvanMilenko/status/2120322640048959503)
+- **BlenderによるT細胞の生命の映像（12,480フレーム、Fable 5.2）** · クレジット: @DeryaTR_（Derya Unutmaz） · [ケース](docs/translations/x-deryatr-fable52-tcell-film.md#ja) · [原投稿](https://x.com/DeryaTR_/status/2120382619082727604)
+- **CSSアニメ付きの編集可能なSVG帆船イラスト（API呼び出し2回）** · クレジット: Ofox · [ケース](docs/translations/web-ofox-fable52-svg-sailboat.md#ja) · [原投稿](https://ofox.ai/blog/claude-fable-5-2-svg-guide/)
+- **『Discovery』：3Dの部屋を舞台に展開するコード制作の短編** · クレジット: @YinYangYoeshi（Yoeshi） · [ケース](docs/translations/x-yinyangyoeshi-fable52-discovery.md#ja) · [原投稿](https://x.com/YinYangYoeshi/status/2119897840965001317)
+- **KONTUR：建築サービスのページを、動きのあるプロジェクト体験に** · クレジット: @Webilyco（Magda） · [ケース](docs/translations/x-webilyco-fable52-kontur.md#ja) · [原投稿](https://x.com/Webilyco/status/2119909604431626667)
+- **Fishslop：同じ水槽ゲームをFableとOpusで比較** · クレジット: @theo（Theo - t3.gg） · [ケース](docs/translations/x-theo-fable52-fishslop-fable-opus.md#ja) · [原投稿](https://x.com/theo/status/2119926277801144695)
+- **Pane：オープンソースのYouTube・Twitchプレーヤー** · クレジット: @The_Alex（Alex） · [ケース](docs/translations/x-thealex-fable52-pane-youtube-twitch.md#ja) · [原投稿](https://x.com/The_Alex/status/2119867572875350134)
+- **スマホでMelee風の対戦ゲームを試作** · クレジット: @The_Alex（Alex） · [ケース](docs/translations/x-thealex-fable52-melee.md#ja) · [原投稿](https://x.com/The_Alex/status/2119867574972551309)
+- **Claudeから呼び出せる編曲ワークステーション** · クレジット: @The_Alex（Alex） · [ケース](docs/translations/x-thealex-fable52-claude.md#ja) · [原投稿](https://x.com/The_Alex/status/2119917226769985785)
+- **マリオの要素を取り入れた見下ろし型サバイバルゲームの試作** · クレジット: @The_Alex（Alex） · [ケース](docs/translations/x-thealex-fable52-821398.md#ja) · [原投稿](https://x.com/The_Alex/status/2119867576985821398)
+- **トーク映像を9:16に編集し、モーショングラフィックスもエージェントに任せる** · クレジット: @The_Alex（Alex） · [ケース](docs/translations/x-thealex-fable52-203554.md#ja) · [原投稿](https://x.com/The_Alex/status/2119867570669203554)
+- **『時のオカリナ』風の3Dアドベンチャーを制作** · クレジット: @The_Alex（Alex） · [ケース](docs/translations/x-thealex-fable52-177920.md#ja) · [原投稿](https://x.com/The_Alex/status/2119867568253177920)
+- **エージェントのデータスナップショットから指令ダッシュボードを生成** · クレジット: @s_matysik（Sebastian Matysik） · [ケース](docs/translations/x-smatysik-fable52-213380.md#ja) · [原投稿](https://x.com/s_matysik/status/2119909371484213380)
+- **Three.jsで操作可能な人体解剖ビューアーを制作** · クレジット: @SimonasLTU1（Simonas） · [ケース](docs/translations/x-simonasltu1-fable52-three.md#ja) · [原投稿](https://x.com/SimonasLTU1/status/2119891671219622262)
+- **Piranha P-7：分解できるピラニアをコードで制作** · クレジット: @Scratcherrrr（Catcher of your mind） · [ケース](docs/translations/x-scratcherrrr-fable52-piranha.md#ja) · [原投稿](https://x.com/Scratcherrrr/status/2119909780269785332)
+- **『The History of Writing』：文字の歴史を96秒のアニメに** · クレジット: @rileybrown（Riley Brown） · [ケース](docs/translations/x-rileybrown-fable52-the-history-writing.md#ja) · [原投稿](https://x.com/rileybrown/status/2119946022767980985)
+- **『The Edge』：Blenderとウェブで制作した13ショットの短編** · クレジット: @rileybrown（Riley Brown） · [ケース](docs/translations/x-rileybrown-fable52-the-edge-blender.md#ja) · [原投稿](https://x.com/rileybrown/status/2119902109709537708)
+- **約5秒のストップモーション風アニメ実験** · クレジット: @QRoonjha（Qaisar Roonjha） · [ケース](docs/translations/x-qroonjha-fable52-501697.md#ja) · [原投稿](https://x.com/QRoonjha/status/2119883978962501697)
+- **同じ参照画像からのウェブ再現をFableとOpusで比較** · クレジット: @pwnies（Jacob Miller） · [ケース](docs/translations/x-pwnies-fable52-fable-opus.md#ja) · [原投稿](https://x.com/pwnies/status/2119887535421980695)
+- **Turbo Tails：ドリフトとアイテムを備えたブラウザーカートレース** · クレジット: @petergyang（Peter Yang） · [ケース](docs/translations/x-petergyang-fable52-turbo-tails.md#ja) · [原投稿](https://x.com/petergyang/status/2119901658394358005)
+- **同じウェブサイト改修課題でFableとOpusを比較** · クレジット: @petergyang（Peter Yang） · [ケース](docs/translations/x-petergyang-fable52-fable-opus.md#ja) · [原投稿](https://x.com/petergyang/status/2119870223562191289)
+- **京都・伏見稲荷：コードで制作した20秒の観光PR映像** · クレジット: @petergyang（Peter Yang） · [ケース](docs/translations/x-petergyang-fable52-854431.md#ja) · [原投稿](https://x.com/petergyang/status/2119886560992854431)
+- **Max設定でイスタンブールの水辺散策を制作** · クレジット: @petergostev（Peter Gostev） · [ケース](docs/translations/x-petergostev-fable52-max.md#ja) · [原投稿](https://x.com/petergostev/status/2119877733488394520)
+- **Tokyo Night GP：濡れた路面の反射がある3周のナイトレース** · クレジット: @nikodemszymansk（Nikodem | AI Creator） · [ケース](docs/translations/x-nikodemszymansk-fable52-tokyo-night.md#ja) · [原投稿](https://x.com/nikodemszymansk/status/2119880518875435022)
+- **自転車に乗るペリカンに速度調節、ライト、ベルを追加** · クレジット: @NFT_Chen（SuSu_酥酥👅） · [ケース](docs/translations/x-nftchen-fable52-609967.md#ja) · [原投稿](https://x.com/NFT_Chen/status/2119897058597609967)
+- **Roblox MCPで『The Clockmaker’s Mansion』と予告編を制作** · クレジット: @mihawkxxxxx（mihawkxxx） · [ケース](docs/translations/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker.md#ja) · [原投稿](https://x.com/mihawkxxxxx/status/2119909865296699749)
+- **Mirror Earth：実際の地球を破壊可能なゲームマップに** · クレジット: @mattshumer_（Matt Shumer） · [ケース](docs/translations/x-mattshumer-fable52-mirror-earth.md#ja) · [原投稿](https://x.com/mattshumer_/status/2119877065701036047)
+- **Hogwarts Royale：ホグワーツとバトルロイヤルを組み合わせる** · クレジット: @mattshumer_（Matt Shumer） · [ケース](docs/translations/x-mattshumer-fable52-hogwarts-royale.md#ja) · [原投稿](https://x.com/mattshumer_/status/2119872098306810226)
+- **記事を仮想展示室に配置し、約4分44秒の映像に** · クレジット: @mattshumer_（Matt Shumer） · [ケース](docs/translations/x-mattshumer-fable52-892403.md#ja) · [原投稿](https://x.com/mattshumer_/status/2119884041331892403)
+- **約49分のコードで作った映画** · クレジット: @mattshumer_（Matt Shumer） · [ケース](docs/translations/x-mattshumer-fable52-828670.md#ja) · [原投稿](https://x.com/mattshumer_/status/2119900920347828670)
+- **1つのプロンプトで始動するボクセル破壊エンジン** · クレジット: @mattshumer_（Matt Shumer） · [ケース](docs/translations/x-mattshumer-fable52-483384.md#ja) · [原投稿](https://x.com/mattshumer_/status/2119870965106483384)
+- **アパートで製作できるロボットの外観プロトタイプ** · クレジット: @mattshumer_（Matt Shumer） · [ケース](docs/translations/x-mattshumer-fable52-147409.md#ja) · [原投稿](https://x.com/mattshumer_/status/2119889518564147409)
+- **水入り風船を弾丸が貫く様子をWebGLで実演** · クレジット: @MatthewBerman（Matthew Berman） · [ケース](docs/translations/x-matthewberman-fable52-webgl.md#ja) · [原投稿](https://x.com/MatthewBerman/status/2119868636810953017)
+- **Unreal Engineで『Gears of War』風シューティングの試作** · クレジット: @MatthewBerman（Matthew Berman） · [ケース](docs/translations/x-matthewberman-fable52-unreal-engine.md#ja) · [原投稿](https://x.com/MatthewBerman/status/2119868629491789992)
+- **Quadrille：ブラウザーで使うExcel風スプレッドシート** · クレジット: @MatthewBerman（Matthew Berman） · [ケース](docs/translations/x-matthewberman-fable52-quadrille-excel.md#ja) · [原投稿](https://x.com/MatthewBerman/status/2119868642796154944)
+- **Photon：Photoshop風のオンライン画像エディター** · クレジット: @MatthewBerman（Matthew Berman） · [ケース](docs/translations/x-matthewberman-fable52-photon-photoshop.md#ja) · [原投稿](https://x.com/MatthewBerman/status/2119872042053128412)
+- **Kestrel：Windows上でローカル動作するタイムラインエディター** · クレジット: @MatthewBerman（Matthew Berman） · [ケース](docs/translations/x-matthewberman-fable52-kestrel-windows.md#ja) · [原投稿](https://x.com/MatthewBerman/status/2119868640879349998)
+- **約50秒のモーショングラフィックスで大規模言語モデルを解説** · クレジット: @MatthewBerman（Matthew Berman） · [ケース](docs/translations/x-matthewberman-fable52-378471.md#ja) · [原投稿](https://x.com/MatthewBerman/status/2119868633086378471)
+- **『Fall Guys』風の障害物コースゲームの試作** · クレジット: @MatthewBerman（Matthew Berman） · [ケース](docs/translations/x-matthewberman-fable52-254665.md#ja) · [原投稿](https://x.com/MatthewBerman/status/2119868630989254665)
+- **住民と会話できる3Dのヨーロッパ風村を構築** · クレジット: @MatthewBerman（Matthew Berman） · [ケース](docs/translations/x-matthewberman-fable52-060195.md#ja) · [原投稿](https://x.com/MatthewBerman/status/2119868638929060195)
+- **ウェブページでコード生成の3D帆船を見る** · クレジット: @marcthecreatorr（Marcel） · [ケース](docs/translations/x-marcthecreatorr-fable52-054072.md#ja) · [原投稿](https://x.com/marcthecreatorr/status/2119890973560054072)
+- **ステッカーから吊りチェーン、ベルの音まで、プログラムで動く看板を制作** · クレジット: @Maaaaaaadiii（Hammad Hanif） · [ケース](docs/translations/x-maaaaaaadiii-fable52-714946.md#ja) · [原投稿](https://x.com/Maaaaaaadiii/status/2119885527243714946)
+- **Blenderで紀元1世紀のエルサレムの街区を再現** · クレジット: @kplikethebird（Katie Parrott） · [ケース](docs/translations/x-kplikethebird-fable52-blender.md#ja) · [原投稿](https://x.com/kplikethebird/status/2119900775727902732)
+- **First Crush：ワイン醸造の工程をゲームに** · クレジット: @kieranklaassen（Kieran Klaassen） · [ケース](docs/translations/x-kieranklaassen-fable52-first-crush.md#ja) · [原投稿](https://x.com/kieranklaassen/status/2119871673294037280)
+- **Everycut：画面録画、テキストベースの編集、音声ミックスを1つのエディターに** · クレジット: @kieranklaassen（Kieran Klaassen） · [ケース](docs/translations/x-kieranklaassen-fable52-everycut.md#ja) · [原投稿](https://x.com/kieranklaassen/status/2119904489717272680)
+- **Ableton Push対応のアンビエント音楽ワークステーション** · クレジット: @kieranklaassen（Kieran Klaassen） · [ケース](docs/translations/x-kieranklaassen-fable52-ableton-push.md#ja) · [原投稿](https://x.com/kieranklaassen/status/2119868196773929160)
+- **What the Water Keeps：船で8つの夢の場面を巡る** · クレジット: @kevin_t_ngo（Kevin Ngo） · [ケース](docs/translations/x-kevintngo-fable52-what-the-water-keeps.md#ja) · [原投稿](https://x.com/kevin_t_ngo/status/2119868968307695818)
+- **PythonとBlenderで1990年代風のおもちゃCMを制作** · クレジット: @kevin_t_ngo（Kevin Ngo） · [ケース](docs/translations/x-kevintngo-fable52-python-blender.md#ja) · [原投稿](https://x.com/kevin_t_ngo/status/2119972124211454139)
+- **JavaScriptで約100秒のアニメを1フレームずつ描く** · クレジット: @kevin_t_ngo（Kevin Ngo） · [ケース](docs/translations/x-kevintngo-fable52-javascript.md#ja) · [原投稿](https://x.com/kevin_t_ngo/status/2119938129079808282)
+- **Gilt & Gutter：弾薬の色を使った1対1の射撃システム** · クレジット: @kevin_t_ngo（Kevin Ngo） · [ケース](docs/translations/x-kevintngo-fable52-gilt-gutter.md#ja) · [原投稿](https://x.com/kevin_t_ngo/status/2119900487688622171)
+- **Pythonで筆をシミュレートし、架空の画家の作風で描く** · クレジット: @jkeatn（Jake Eaton） · [ケース](docs/translations/x-jkeatn-fable52-python.md#ja) · [原投稿](https://x.com/jkeatn/status/2119874007382299087)
+- **雲の上の複葉機で組み上がる曲芸の人間タワー、中国語の3D短編** · クレジット: @jev_chat · [ケース](docs/translations/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl.md#ja) · [原投稿](https://x.com/jev_chat/status/2120015641151426838)
+- **Big Little Adventure：家具が小さなキャラクターのステージに** · クレジット: @itssotsot（Sotiris Kaniras） · [ケース](docs/translations/x-itssotsot-fable52-big-little-adventure.md#ja) · [原投稿](https://x.com/itssotsot/status/2119909017216491720)
+- **Orbital Data Node 07：データセンターを宇宙へ** · クレジット: @ilya_sb1（Ilya Rzhevskiy） · [ケース](docs/translations/x-ilyasb1-fable52-orbital-data-node.md#ja) · [原投稿](https://x.com/ilya_sb1/status/2119878436529246669)
+- **金属質感のロゴを3Dモーショングラフィックスに** · クレジット: @hello_amani（Amani • Design Partner） · [ケース](docs/translations/x-helloamani-fable52-237842.md#ja) · [原投稿](https://x.com/hello_amani/status/2119873980786237842)
+- **Write Like Mike：評価用に取り分けた過去の記事で執筆スキルをブラインド評価** · クレジット: @hammer_mt（Mike Taylor） · [ケース](docs/translations/x-hammermt-fable52-write-like-mike.md#ja) · [原投稿](https://x.com/hammer_mt/status/2119906374066835495)
+- **Vibe Check Delivery：3つのモデルが同じ課題で新聞配達ゲームを制作** · クレジット: @hammer_mt（Mike Taylor） · [ケース](docs/translations/x-hammermt-fable52-vibe-check-delivery.md#ja) · [原投稿](https://x.com/hammer_mt/status/2119906441389826445)
+- **KatePass：320件の過去の草稿で編集作業の残量を測定** · クレジット: @hammer_mt（Mike Taylor） · [ケース](docs/translations/x-hammermt-fable52-katepass.md#ja) · [原投稿](https://x.com/hammer_mt/status/2119906389284057363)
+- **3Dマップで『アベンジャーズ』のニューヨーク決戦を振り返る** · クレジット: @hammer_mt（Mike Taylor） · [ケース](docs/translations/x-hammermt-fable52-346319.md#ja) · [原投稿](https://x.com/hammer_mt/status/2119871817561346319)
+- **14組のコンサルティング資料から自動チェックできるルールを抽出** · クレジット: @hammer_mt（Mike Taylor） · [ケース](docs/translations/x-hammermt-fable52-183568.md#ja) · [原投稿](https://x.com/hammer_mt/status/2119906412709183568)
+- **個人のAI利用履歴から再現可能な評価課題を10個整理** · クレジット: @hammer_mt（Mike Taylor） · [ケース](docs/translations/x-hammermt-fable52-103010.md#ja) · [原投稿](https://x.com/hammer_mt/status/2119907037631103010)
+- **スマホから依頼し、コンピューターと対戦できる盤面を作成** · クレジット: @geneohms（Gene） · [ケース](docs/translations/x-geneohms-fable52-685102.md#ja) · [原投稿](https://x.com/geneohms/status/2119910054413685102)
+- **既存のF-Zero風レースに金属の爪を使ったドリフトと瞬間移動を追加** · クレジット: @ForwardEditor（Future Brian） · [ケース](docs/translations/x-forwardeditor-fable52-zero.md#ja) · [原投稿](https://x.com/ForwardEditor/status/2119867747425194377)
+- **Sorted!：ソリティアに着想を得たiOSプロトタイプ** · クレジット: @ForwardEditor（Future Brian） · [ケース](docs/translations/x-forwardeditor-fable52-sorted-ios.md#ja) · [原投稿](https://x.com/ForwardEditor/status/2119867782238212524)
+- **約8万行のIdle Eliteコードベースで開発を引き継ぐ** · クレジット: @ForwardEditor（Future Brian） · [ケース](docs/translations/x-forwardeditor-fable52-idle-elite.md#ja) · [原投稿](https://x.com/ForwardEditor/status/2119867753376940396)
+- **12本の漫画実験。作者が満足していない版も公開** · クレジット: @ForwardEditor（Future Brian） · [ケース](docs/translations/x-forwardeditor-fable52-928106.md#ja) · [原投稿](https://x.com/ForwardEditor/status/2119867791150928106)
+- **ドラゴンに乗って浮島から飛び降り、視点と飛行感を検証** · クレジット: @ForwardEditor（Future Brian） · [ケース](docs/translations/x-forwardeditor-fable52-163994.md#ja) · [原投稿](https://x.com/ForwardEditor/status/2119867743965163994)
+- **架空の団体Interchangeのロゴを20案検討** · クレジット: @felixrieseberg（Felix Rieseberg） · [ケース](docs/translations/x-felixrieseberg-fable52-interchange.md#ja) · [原投稿](https://x.com/felixrieseberg/status/2119867840878825523)
+- **FPSなどのゲームサンプルを初版のまま保存** · クレジット: @felixrieseberg（Felix Rieseberg） · [ケース](docs/translations/x-felixrieseberg-fable52-352596.md#ja) · [原投稿](https://x.com/felixrieseberg/status/2119867839033352596)
+- **水墨画の山景色を進む三人称視点の剣士** · クレジット: @FaridaNever（Farida） · [ケース](docs/translations/x-faridanever-fable52-505730.md#ja) · [原投稿](https://x.com/FaridaNever/status/2119910055990505730)
+- **Slackと議事録から38件の発言の矛盾を発見** · クレジット: @every（Every 📧） · [ケース](docs/translations/x-every-fable52-slack.md#ja) · [原投稿](https://x.com/every/status/2119934581445145066)
+- **HighとMax設定による同じウェブデザイン群をブラインド評価** · クレジット: @every（Every 📧） · [ケース](docs/translations/x-every-fable52-high-max.md#ja) · [原投稿](https://x.com/every/status/2119939866314289555)
+- **週末を丸ごと任せ、エージェントにChecksを75項目改修させる** · クレジット: @every（Every 📧） · [ケース](docs/translations/x-every-fable52-checks.md#ja) · [原投稿](https://x.com/every/status/2119928286465892357)
+- **Three.jsで夕日と海面の反射を描く** · クレジット: @ericskavinski（Eric Skavinski） · [ケース](docs/translations/x-ericskavinski-fable52-three.md#ja) · [原投稿](https://x.com/ericskavinski/status/2119895601580016005)
+- **1980年代のマイアミ風オープンシティとミッションシステム** · クレジット: @ericmaskfr（eric） · [ケース](docs/translations/x-ericmaskfr-fable52-481026.md#ja) · [原投稿](https://x.com/ericmaskfr/status/2119910195325481026)
+- **Scooby-Dooの立場を逆転。調査する子どもたちをプレーヤーが追い払う** · クレジット: @emollick（Ethan Mollick） · [ケース](docs/translations/x-emollick-fable52-scooby-doo.md#ja) · [原投稿](https://x.com/emollick/status/2119876449494540554)
+- **Prebid Brief：政府の議題から入札前のビジネス機会を探す** · クレジット: @emollick（Ethan Mollick） · [ケース](docs/translations/x-emollick-fable52-prebid-brief.md#ja) · [原投稿](https://x.com/emollick/status/2119870150845599972)
+- **Portals：ポータルを抜け、コードで作った471の世界へ飛ぶ** · クレジット: @emollick（Ethan Mollick） · [ケース](docs/translations/x-emollick-fable52-portals.md#ja) · [原投稿](https://x.com/emollick/status/2119918307457577163)
+- **Ultramarine：同じ3D課題で2世代のモデルを比較** · クレジット: @dom_scholz（Dominik Scholz） · [ケース](docs/translations/x-domscholz-fable52-ultramarine.md#ja) · [原投稿](https://x.com/dom_scholz/status/2119933150025363661)
+- **Uare：1つの宣伝依頼から約64秒の発表映像を制作** · クレジット: @DoctorYev（Yev Marusenko） · [ケース](docs/translations/x-doctoryev-fable52-uare.md#ja) · [原投稿](https://x.com/DoctorYev/status/2119895951108423801)
+- **Fable 5.2による11月10日の追悼映像** · クレジット: @DeryaTR_（Derya Unutmaz） · [ケース](docs/translations/x-deryatr-fable52-ataturk-remembrance.md#ja) · [原投稿](https://x.com/DeryaTR_/status/2120083276916224014)
+- **RemotionとThree.jsでUFOのエリア51訪問を制作** · クレジット: @danteeonsol（Dante） · [ケース](docs/translations/x-danteeonsol-fable52-remotion-three-ufo.md#ja) · [原投稿](https://x.com/danteeonsol/status/2119887623070077213)
+- **エージェントが研究者に取材し、録音をドキュメンタリーに編集** · クレジット: @danshipper（Dan Shipper） · [ケース](docs/translations/x-danshipper-fable52-546638.md#ja) · [原投稿](https://x.com/danshipper/status/2119869228207546638)
+- **15秒の棒人間バトル。FableとOpusの費用比較も掲載** · クレジット: @DanielZambrini（Daniel Zambrini） · [ケース](docs/translations/x-danielzambrini-fable52-fable-opus.md#ja) · [原投稿](https://x.com/DanielZambrini/status/2119893834276507954)
+- **4層基板から3つの動作する電子回路プロトタイプへ** · クレジット: @claudeai（Claude） · [ケース](docs/translations/x-claudeai-fable52-pcb.md#ja) · [原投稿](https://x.com/claudeai/status/2119899459761131615)
+- **MIPLIBの未解決問題を解く。例の1つは42本の列車の運行計画** · クレジット: @claudeai（Claude） · [ケース](docs/translations/x-claudeai-fable52-miplib.md#ja) · [原投稿](https://x.com/claudeai/status/2119899477855379913)
+- **1,000のエージェントが約29時間でフェルマーの最終定理のLean証明を再現** · クレジット: @claudeai（Claude） · [ケース](docs/translations/x-claudeai-fable52-lean.md#ja) · [原投稿](https://x.com/claudeai/status/2119867129751056485)
+- **弱結合でのホーキング＝ペイジ相転移を計算** · クレジット: @claudeai（Claude） · [ケース](docs/translations/x-claudeai-fable52-825293.md#ja) · [原投稿](https://x.com/claudeai/status/2119899487044825293)
+- **空のディレクトリから、ノートPCで起動するOSへ** · クレジット: @claudeai（Claude） · [ケース](docs/translations/x-claudeai-fable52-268322.md#ja) · [原投稿](https://x.com/claudeai/status/2119867114450268322)
+- **実際のロボットアームでボトルのキャップを回し、キューブを復元し、絵を描く** · クレジット: @claudeai（Claude） · [ケース](docs/translations/x-claudeai-fable52-221045.md#ja) · [原投稿](https://x.com/claudeai/status/2119867132452221045)
+- **簡略化モデルでモジュラー・ブートストラップの厳密な限界を求める** · クレジット: @claudeai（Claude） · [ケース](docs/translations/x-claudeai-fable52-131439.md#ja) · [原投稿](https://x.com/claudeai/status/2119899488995131439)
+- **typed.page：紙、インクリボン、執筆タイマーを備えたウェブタイプライター** · クレジット: @clairevo（claire vo 🖤） · [ケース](docs/translations/x-clairevo-fable52-typed-page.md#ja) · [原投稿](https://x.com/clairevo/status/2119905651359142132)
+- **ChatPRDの製品情報収集・分析パイプラインを再構築** · クレジット: @clairevo（claire vo 🖤） · [ケース](docs/translations/x-clairevo-fable52-chatprd.md#ja) · [原投稿](https://x.com/clairevo/status/2119891385784619405)
+- **コードで描いた4枚の絵を、横並びのアニメとして展示** · クレジット: @chetaslua · [ケース](docs/translations/x-chetaslua-fable52-808368.md#ja) · [原投稿](https://x.com/chetaslua/status/2119981510199808368)
+- **WASDとスペースキーでThree.jsの戦車を操作** · クレジット: @BeamManP（ビームマンＰ ver40） · [ケース](docs/translations/x-beammanp-fable52-wasd-three.md#ja) · [原投稿](https://x.com/BeamManP/status/2119879390322622583)
+- **SPUD SMASH：ジャガイモが部屋の青い椅子を破壊** · クレジット: @argofowl（🥔🥔🥔） · [ケース](docs/translations/x-argofowl-fable52-spud-smash.md#ja) · [原投稿](https://x.com/argofowl/status/2119913148929187960)
+- **『Blackout』：Three.jsで作った79秒の2Dアニメ** · クレジット: @anstapnever（anstap） · [ケース](docs/translations/x-anstapnever-fable52-blackout-three.md#ja) · [原投稿](https://x.com/anstapnever/status/2119915123070644263)
+- **Worm Rider：サンドワーム、車列、地形をコードで生成** · クレジット: @AmirMushich（AmirMušić） · [ケース](docs/translations/x-amirmushich-fable52-worm-rider.md#ja) · [原投稿](https://x.com/AmirMushich/status/2119937977426338283)
+- **Blender×Reaper：スマホの録音を3D映像の効果音に** · クレジット: @AmirMushich（AmirMušić） · [ケース](docs/translations/x-amirmushich-fable52-blender-reaper.md#ja) · [原投稿](https://x.com/AmirMushich/status/2119903338078564844)
+- **空のキャンバスを渡し、モデル自身に題材と構図を選ばせる** · クレジット: @amihai（Amichai Mantinband） · [ケース](docs/translations/x-amihai-fable52-205099.md#ja) · [原投稿](https://x.com/amihai/status/2119894821255205099)
+- **FBPlot：コードベース内の実際のグラフを製品ティーザー映像に** · クレジット: @al_maxgo（Al Maxgo） · [ケース](docs/translations/x-almaxgo-fable52-fbplot.md#ja) · [原投稿](https://x.com/al_maxgo/status/2119891197317591040)
+- **武器庫と砂漠の町のマップを備えたブラウザーFPS** · クレジット: @alightinastorm · [ケース](docs/translations/x-alightinastorm-fable52-a-browser-first-person-sho.md#ja) · [原投稿](https://x.com/alightinastorm/status/2120020469487440210)
+- **レオナルド・ダ・ヴィンチの手稿PDFを操作できる発明に** · クレジット: @alexalbert__（Alex Albert） · [ケース](docs/translations/x-alexalbert-fable52-pdf.md#ja) · [原投稿](https://x.com/alexalbert__/status/2119916954337349737)
+- **Falで生成したナレーションと音声による30秒の図解映像** · クレジット: @akshatbahety（Akshat Bahety） · [ケース](docs/translations/x-akshatbahety-fable52-fal.md#ja) · [原投稿](https://x.com/akshatbahety/status/2119882437740421456)
+- **Anthropicの歴史映像にFable 5.2の発表を追加** · クレジット: @aakashverma（Aakash Verma） · [ケース](docs/translations/x-aakashverma-fable52-fable-anthropic.md#ja) · [原投稿](https://x.com/aakashverma/status/2119874895836524593)
+- **90秒の蒸気機関車変形映像。完全なプロンプトを掲載** · クレジット: @0kncn（Okan Can） · [ケース](docs/translations/x-0kncn-fable52-543073.md#ja) · [原投稿](https://x.com/0kncn/status/2119901782482543073)
+- **各1メッセージで作るFable 5.2のアニメ用プロンプト4種（ロゴ／プロモーション／映画風／3D）** · クレジット: Halil Sekeroglu · [ケース](docs/translations/web-halil-fable52-animation-prompts.md#ja) · [原投稿](https://halilsekeroglu.com/en/fable/)
+- **完全にコードで制作したアニメ：サーベルタイガーがバイソンを狩る（効果音もプログラム生成）** · クレジット: @wshuyi · [ケース](docs/translations/x-wshuyi-fable52-sabertooth-hunt.md#ja) · [原投稿](https://x.com/wshuyi/status/2120014892040417720)
+- **大海原を進む海賊船** · クレジット: @notjazii · [ケース](docs/translations/x-notjazii-fable52-a-pirate-ship-sailing-acro.md#ja) · [原投稿](https://x.com/notjazii/status/2119905661505122575)
+- **GPT-6 AstraとFable 5.2でBlenderのゾンビワシを制作して比較** · クレジット: @maxt3chno · [ケース](docs/translations/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b.md#ja) · [原投稿](https://x.com/maxt3chno/status/2119896698281467952)
+- **生きている世界を飛び抜ける** · クレジット: @LexnLin · [ケース](docs/translations/x-lexnlin-fable52-a-flight-through-a-living.md#ja) · [原投稿](https://x.com/LexnLin/status/2119880654858977333)
+- **1つのプロンプトでモーションデザイナーのショーリール（タイミング、イージング、形、文字）** · クレジット: @himanshutwtxs · [ケース](docs/translations/x-himanshutwtxs-fable52-motion-showreel.md#ja) · [原投稿](https://x.com/himanshutwtxs/status/2120017106804900304)
+- **Claudiaギャラリー** · クレジット: @anabology · [ケース](docs/translations/x-anabology-fable52-claudia-gallery.md#ja) · [原投稿](https://x.com/anabology/status/2120010995309457643)
+- **インド・ベンガルールのIndiranagar、1平方キロメートル** · クレジット: @anshu4321 · [ケース](docs/translations/x-anshu4321-fable52-indiranagar-1.md#ja) · [原投稿](https://x.com/anshu4321/status/2119938067758772403)
+- **公式デモ：空のフォルダーからOSを作る（伝聞による紹介）** · クレジット: @chetaslua · [ケース](docs/translations/x-chetaslua-fable52-clip.md#ja) · [原投稿](https://x.com/chetaslua/status/2119870650722763052)
+- **映像編集者に向けた「仕事を奪う」宣言動画** · クレジット: @ChrisGPT · [ケース](docs/translations/x-chrisgpt-fable52-clip.md#ja) · [原投稿](https://x.com/ChrisGPT/status/2119998815856218494)
+- **Saltlineの一人称視点シューティング** · クレジット: @felixrieseberg · [ケース](docs/translations/x-felixrieseberg-fable52-saltline.md#ja) · [原投稿](https://x.com/felixrieseberg/status/2119925633564463609)
+- **Three Gamesの作品集ページ（Saltline／時計職人の心／Tidewright）** · クレジット: @felixrieseberg · [ケース](docs/translations/x-felixrieseberg-fable52-three-games-saltline-tidew.md#ja) · [原投稿](https://x.com/vineerpasam/status/2119955306096857145)
+- **VOWLORN：すべてコードで作ったダークRPG** · クレジット: @higgsfield_ai · [ケース](docs/translations/x-higgsfield-ai-fable52-vowlorn-rpg.md#ja) · [原投稿](https://x.com/higgsfield_ai/status/2119997122896601269)
+- **インドで買うべきビタミンはどれか** · クレジット: @itspsneha · [ケース](docs/translations/x-itspsneha-fable52-clip.md#ja) · [原投稿](https://x.com/itspsneha/status/2120048494761451974)
+- **Feed the Backrooms：自分が怪物になる** · クレジット: @LexnLin · [ケース](docs/translations/x-lexnlin-fable52-feed-the-backrooms.md#ja) · [原投稿](https://x.com/LexnLin/status/2119966127149429093)
+- **単一HTMLファイルによるビジュアル作品76点の作品集** · クレジット: @MiaAI_lab · [ケース](docs/translations/x-miaai-lab-fable52-76-html.md#ja) · [原投稿](https://x.com/MiaAI_lab/status/2119930229661503893)
+- **ガラスのプール：Fable対Opus** · クレジット: @MrTacticalX · [ケース](docs/translations/x-mrtacticalx-fable52-fable-opus.md#ja) · [原投稿](https://x.com/MrTacticalX/status/2119955647542542439)
+- **Chromeの恐竜がランボーに** · クレジット: @noclipepe · [ケース](docs/translations/x-noclipepe-fable52-chrome.md#ja) · [原投稿](https://x.com/noclipepe/status/2119927838321328577)
+- **子どもの頃のカーペットレース** · クレジット: @noclipepe · [ケース](docs/translations/x-noclipepe-fable52-clip.md#ja) · [原投稿](https://x.com/noclipepe/status/2119728047754547326)
+- **ポータル付きアリーナFPS：オフィスで対戦** · クレジット: @_sholtodouglas · [ケース](docs/translations/x-sholtodouglas-fable52-fps.md#ja) · [原投稿](https://x.com/_sholtodouglas/status/2119935331499925557)
+- **バンクーバーの鳥瞰** · クレジット: @tokifyi · [ケース](docs/translations/x-tokifyi-fable52-clip.md#ja) · [原投稿](https://x.com/tokifyi/status/2120020272153764172)
+- **ゼリーのシャチのマテリアル研究** · クレジット: @vib3coded · [ケース](docs/translations/x-vib3coded-fable52-clip.md#ja) · [原投稿](https://x.com/vib3coded/status/2119951060752375827)
+- **瓶の中のボクセル世界** · クレジット: @vib3coded · [ケース](docs/translations/x-vib3coded-fable52-clip-2.md#ja) · [原投稿](https://x.com/vib3coded/status/2120104517282775514)
+- **Ribbon Heroのファーストビュー** · クレジット: @viktoroddy · [ケース](docs/translations/x-viktoroddy-fable52-ribbon-hero.md#ja) · [原投稿](https://x.com/viktoroddy/status/2119985044542705916)
+- **一度の生成による作品集** · クレジット: @WesRoth · [ケース](docs/translations/x-wesroth-fable52-clip.md#ja) · [原投稿](https://x.com/WesRoth/status/2119953913160093817)
 
 <a id="ver-claude-mythos-5-2"></a>
 
@@ -996,65 +269,15 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ### Claude Opus 5.5
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-opus55-isometric-city.jpg" alt="Isometric day/night city HTML loop — Claude Opus 5.5 — James Greene (model comparison archive)" width="220"></a><br>
-<strong><a href="docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md">Isometric day/night city HTML loop — Claude Opus 5.5</a></strong><br>
-クレジット: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ultimaxbt/status/2108210884799549714"><img src="assets/thumbs/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ.jpg" alt="&lt;inputs&gt; Ask me for: my product, the exact request a user types into it, 6 to 8 photos for — @ultimaxbt" width="220"></a><br>
-<strong><a href="docs/cases/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ/README.md">&lt;inputs&gt; Ask me for: my product, the exact request a user types into it, 6 to 8 </a></strong><br>
-クレジット: @ultimaxbt<br><a href="https://x.com/ultimaxbt/status/2108210884799549714">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/twoclipping/status/2106101258834551116"><img src="assets/thumbs/x-twoclipping-opus55-inputs-ask-me-for-my-produ.jpg" alt="&lt;inputs&gt; Ask me for: my product&#x27;s name (one lowercase word), a 4-word tagline, the 3-step — @twoclipping" width="220"></a><br>
-<strong><a href="docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/README.md">&lt;inputs&gt; Ask me for: my product&#x27;s name (one lowercase word), a 4-word tagline, t</a></strong><br>
-クレジット: @twoclipping<br><a href="https://x.com/twoclipping/status/2106101258834551116">原投稿</a>
- · <a href="docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/rossaxbt/status/2107121188027707651"><img src="assets/thumbs/x-rossaxbt-opus55-inputs-ask-me-for-a-short.jpg" alt="&lt;inputs&gt; Ask me for: a short label for the opening toggle, one hero word, a percentage for — @rossaxbt" width="220"></a><br>
-<strong><a href="docs/cases/x-rossaxbt-opus55-inputs-ask-me-for-a-short/README.md">&lt;inputs&gt; Ask me for: a short label for the opening toggle, one hero word, a perc</a></strong><br>
-クレジット: @rossaxbt<br><a href="https://x.com/rossaxbt/status/2107121188027707651">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/_koushikde_/status/2105730717455937635"><img src="assets/thumbs/x-koushikde-opus55-make-a-15s-motion-video-in.jpg" alt="Make a 15s motion video in code (1920x1080, 60fps, one HTML file drawing every frame from — @_koushikde_" width="220"></a><br>
-<strong><a href="docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/README.md">Make a 15s motion video in code (1920x1080, 60fps, one HTML file drawing every f</a></strong><br>
-クレジット: @_koushikde_<br><a href="https://x.com/_koushikde_/status/2105730717455937635">原投稿</a>
- · <a href="docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/heyiamnick/status/2109174851412119558"><img src="assets/thumbs/x-heyiamnick-opus55-direction-build-a-30-secon.jpg" alt="&lt;direction&gt; Build a 30-second looping motion design showreel that introduces CLAUDE, a mot — @heyiamnick" width="220"></a><br>
-<strong><a href="docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/README.md">&lt;direction&gt; Build a 30-second looping motion design showreel that introduces CLA</a></strong><br>
-クレジット: @heyiamnick<br><a href="https://x.com/heyiamnick/status/2109174851412119558">原投稿</a>
- · <a href="docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/GodsBoy7777/status/2103117450854150194"><img src="assets/thumbs/x-godsboy7777-opus55-build-a-single-self-contai.jpg" alt="Build a single self-contained HTML file: a 3D marble computer, in the spirit of Wintergata — @GodsBoy7777" width="220"></a><br>
-<strong><a href="docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/README.md">Build a single self-contained HTML file: a 3D marble computer, in the spirit of </a></strong><br>
-クレジット: @GodsBoy7777<br><a href="https://x.com/GodsBoy7777/status/2103117450854150194">原投稿</a>
- · <a href="docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Gdgtify/status/2105669567036989608"><img src="assets/thumbs/x-gdgtify-opus55-create-a-20-00-second-kine.jpg" alt="Create a 20.00-second kinetic typography film titled “ESCAPE THE ORBIT,” based on John F — @Gdgtify" width="220"></a><br>
-<strong><a href="docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/README.md">Create a 20.00-second kinetic typography film titled “ESCAPE THE ORBIT,” based o</a></strong><br>
-クレジット: @Gdgtify<br><a href="https://x.com/Gdgtify/status/2105669567036989608">原投稿</a>
- · <a href="docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/aichrislee/status/2108709764817408244"><img src="assets/thumbs/x-aichrislee-opus55-build-me-a-camera-lens-in.jpg" alt="Build me a camera lens in interactive 3D, in one HTML file with Three.js. Make it look rea — @aichrislee" width="220"></a><br>
-<strong><a href="docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/README.md">Build me a camera lens in interactive 3D, in one HTML file with Three.js. Make i</a></strong><br>
-クレジット: @aichrislee<br><a href="https://x.com/aichrislee/status/2108709764817408244">原投稿</a>
- · <a href="docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-</table>
+- **アイソメトリック都市の昼夜HTMLループ：Claude Opus 5.5** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-opus55-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
+- **<inputs> 私に尋ねること：製品、ユーザーが入力する正確なリクエスト、…用の写真6〜8枚** · クレジット: @ultimaxbt · [ケース](docs/translations/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ.md#ja) · [原投稿](https://x.com/ultimaxbt/status/2108210884799549714)
+- **<inputs> 私に尋ねること：製品名（小文字の1語）、4語のキャッチコピー、3段階の…** · クレジット: @twoclipping · [ケース](docs/translations/x-twoclipping-opus55-inputs-ask-me-for-my-produ.md#ja) · [原投稿](https://x.com/twoclipping/status/2106101258834551116)
+- **<inputs> 私に尋ねること：冒頭の切り替えスイッチ用の短いラベル、メインとなる1語、…用のパーセンテージ** · クレジット: @rossaxbt · [ケース](docs/translations/x-rossaxbt-opus55-inputs-ask-me-for-a-short.md#ja) · [原投稿](https://x.com/rossaxbt/status/2107121188027707651)
+- **コードで15秒のモーション動画を制作（1920x1080、60fps、1つのHTMLファイルですべてのフレームを描画、…から** · クレジット: @_koushikde_ · [ケース](docs/translations/x-koushikde-opus55-make-a-15s-motion-video-in.md#ja) · [原投稿](https://x.com/_koushikde_/status/2105730717455937635)
+- **<direction> CLAUDEを紹介する30秒のループ・モーションデザイン作品集を制作。CLAUDEはモー…** · クレジット: @heyiamnick · [ケース](docs/translations/x-heyiamnick-opus55-direction-build-a-30-secon.md#ja) · [原投稿](https://x.com/heyiamnick/status/2109174851412119558)
+- **単体で完結するHTMLファイルを制作：Wintergata…に着想を得た3Dビー玉コンピューター** · クレジット: @GodsBoy7777 · [ケース](docs/translations/x-godsboy7777-opus55-build-a-single-self-contai.md#ja) · [原投稿](https://x.com/GodsBoy7777/status/2103117450854150194)
+- **「ESCAPE THE ORBIT」という題名の20.00秒のキネティックタイポグラフィ映像を、John F…をもとに制作** · クレジット: @Gdgtify · [ケース](docs/translations/x-gdgtify-opus55-create-a-20-00-second-kine.md#ja) · [原投稿](https://x.com/Gdgtify/status/2105669567036989608)
+- **Three.jsを使い、単一HTMLファイルで操作できる3Dカメラレンズを作って。見た目をリアルに…** · クレジット: @aichrislee · [ケース](docs/translations/x-aichrislee-opus55-build-me-a-camera-lens-in.md#ja) · [原投稿](https://x.com/aichrislee/status/2108709764817408244)
 
 
 
@@ -1064,62 +287,23 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![Gemini cover](assets/brand/families/gemini.png)
 
-このファミリーの出典付き事例 6 件を、版ごとに新しい順ですべて並べる。6 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
+このファミリーの出典付き事例 6 件を、版ごとに新しい順ですべて並べる。0 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
 
 <a id="ver-gemini-4-carbon"></a>
 
 ### Gemini 4 Carbon
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/StatsWire/status/2120344850071540152"><img src="assets/thumbs/x-statswire-gemini-carbon-nyc-cruiser.jpg" alt="Interactive 3D NYC cruiser tour in one HTML file (Three.js) — @StatsWire" width="220"></a><br>
-<strong><a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md">Interactive 3D NYC cruiser tour in one HTML file (Three.js)</a></strong><br>
-クレジット: @StatsWire<br><a href="https://x.com/StatsWire/status/2120344850071540152">原投稿</a>
- · <a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/_MaxBlade/status/2120355412021231795"><img src="assets/thumbs/x-maxblade-fable-vs-carbon.jpg" alt="Same prompt: Fable 5.2 vs Gemini 4 Carbon — @_MaxBlade（Max Blade）" width="220"></a><br>
-<strong><a href="docs/cases/x-maxblade-fable-vs-carbon/README.md">Same prompt: Fable 5.2 vs Gemini 4 Carbon</a></strong><br>
-クレジット: @_MaxBlade（Max Blade）<br><a href="https://x.com/_MaxBlade/status/2120355412021231795">原投稿</a>
- · <a href="docs/cases/x-maxblade-fable-vs-carbon/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/DeryaTR_/status/2120393810941456710"><img src="assets/thumbs/x-deryatr-gemini-carbon-theme-park.jpg" alt="Theme Park HD pixel-art remake (playable) — @DeryaTR_（Derya Unutmaz）" width="220"></a><br>
-<strong><a href="docs/cases/x-deryatr-gemini-carbon-theme-park/README.md">Theme Park HD pixel-art remake (playable)</a></strong><br>
-クレジット: @DeryaTR_（Derya Unutmaz）<br><a href="https://x.com/DeryaTR_/status/2120393810941456710">原投稿</a>
- · <a href="docs/cases/x-deryatr-gemini-carbon-theme-park/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
-<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
-クレジット: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">原投稿</a>
- · <a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ai_for_success/status/2120317619588972867"><img src="assets/thumbs/x-aiforsuccess-gemini-carbon-v8.jpg" alt="V8 engine in FreeCAD and Blender — @ai_for_success（AshutoshShrivastava）" width="220"></a><br>
-<strong><a href="docs/cases/x-aiforsuccess-gemini-carbon-v8/README.md">V8 engine in FreeCAD and Blender</a></strong><br>
-クレジット: @ai_for_success（AshutoshShrivastava）<br><a href="https://x.com/ai_for_success/status/2120317619588972867">原投稿</a>
- · <a href="docs/cases/x-aiforsuccess-gemini-carbon-v8/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-</table>
+- **単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）** · クレジット: @StatsWire · [ケース](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) · [原投稿](https://x.com/StatsWire/status/2120344850071540152)
+- **同じプロンプト：Fable 5.2とGemini 4 Carbonを比較** · クレジット: @_MaxBlade（Max Blade） · [ケース](docs/translations/x-maxblade-fable-vs-carbon.md#ja) · [原投稿](https://x.com/_MaxBlade/status/2120355412021231795)
+- **Theme ParkのHDピクセルアート版リメイク（プレイ可能）** · クレジット: @DeryaTR_（Derya Unutmaz） · [ケース](docs/translations/x-deryatr-gemini-carbon-theme-park.md#ja) · [原投稿](https://x.com/DeryaTR_/status/2120393810941456710)
+- **Gemini Carbon：自転車に乗るペリカンのHTMLアニメ検証** · クレジット: @coodddaaaa（Joe William） · [ケース](docs/translations/x-coodddaaaa-gemini-carbon-pelican-bike.md#ja) · [原投稿](https://x.com/coodddaaaa/status/2120363353142911078)
+- **FreeCADとBlenderによるV8エンジン** · クレジット: @ai_for_success（AshutoshShrivastava） · [ケース](docs/translations/x-aiforsuccess-gemini-carbon-v8.md#ja) · [原投稿](https://x.com/ai_for_success/status/2120317619588972867)
 
 <a id="ver-gemini-4-argon"></a>
 
 ### Gemini 4 Argon
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-gemini4-argon-isometric-city.jpg" alt="Isometric day/night city HTML loop — Gemini 4 Argon — James Greene (model comparison archive)" width="220"></a><br>
-<strong><a href="docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md">Isometric day/night city HTML loop — Gemini 4 Argon</a></strong><br>
-クレジット: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原投稿</a>
-</td>
-</tr>
-</table>
+- **アイソメトリック都市の昼夜HTMLループ：Gemini 4 Argon** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-gemini4-argon-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
 
 
 
@@ -1129,7 +313,7 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![GPT-6.2 Sol cover](assets/brand/families/gpt-sol.png)
 
-このファミリーの出典付き事例 14 件を、版ごとに新しい順ですべて並べる。14 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
+このファミリーの出典付き事例 14 件を、版ごとに新しい順ですべて並べる。0 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
 
 欄の名前 **GPT-6.2 Sol** はリポジトリ所有者の確認に従う。2026-11-11 時点で OpenAI の公開ページは **GPT-6.1 Sol** のまま（[紹介](https://openai.com/index/introducing-gpt-6-1-sol/)、[Models](https://platform.openai.com/docs/models)）。公式の 6.2 発表は作らない。
 
@@ -1137,107 +321,25 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ### GPT-6.2 Sol
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/YFeng2022/status/2120324811549225082"><img src="assets/thumbs/x-yfeng-gpt61-sol-fable-take-flight.jpg" alt="Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max) — @YFeng2022（LanFeng）" width="220"></a><br>
-<strong><a href="docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md">Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)</a></strong><br>
-クレジット: @YFeng2022（LanFeng）<br><a href="https://x.com/YFeng2022/status/2120324811549225082">原投稿</a>
- · <a href="docs/cases/x-yfeng-gpt61-sol-fable-take-flight/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Raitox_tech/status/2120125234129084492"><img src="assets/thumbs/x-raitoox-sol-stranger-things-credits.jpg" alt="Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames) — @Raitox_tech" width="220"></a><br>
-<strong><a href="docs/cases/x-raitoox-sol-stranger-things-credits/README.md">Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)</a></strong><br>
-クレジット: @Raitox_tech<br><a href="https://x.com/Raitox_tech/status/2120125234129084492">原投稿</a>
- · <a href="docs/cases/x-raitoox-sol-stranger-things-credits/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/cfenghub/status/2120069654437921152"><img src="assets/thumbs/x-cfenghub-gpt62sol-colosseum.jpg" alt="Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender — @cfenghub（CF长风）" width="220"></a><br>
-<strong><a href="docs/cases/x-cfenghub-gpt62sol-colosseum/README.md">Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender</a></strong><br>
-クレジット: @cfenghub（CF长风）<br><a href="https://x.com/cfenghub/status/2120069654437921152">原投稿</a>
- · <a href="docs/cases/x-cfenghub-gpt62sol-colosseum/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/TokenGremlin/status/2119852532616790037"><img src="assets/thumbs/x-tokengremlin-gpt62sol-glass-seasons.jpg" alt="Three.js lakeside scene with boat, waterfall, trees, and butterflies — @TokenGremlin（Token Gremlin）" width="220"></a><br>
-<strong><a href="docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md">Three.js lakeside scene with boat, waterfall, trees, and butterflies</a></strong><br>
-クレジット: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119852532616790037">原投稿</a>
- · <a href="docs/cases/x-tokengremlin-gpt62sol-glass-seasons/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/TokenGremlin/status/2119371334878744648"><img src="assets/thumbs/x-tokengremlin-gpt62sol-threejs-scenes-html.jpg" alt="Three.js scenes from one prompt packed into one HTML file (castle / demos) — @TokenGremlin（Token Gremlin）" width="220"></a><br>
-<strong><a href="docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/README.md">Three.js scenes from one prompt packed into one HTML file (castle / demos)</a></strong><br>
-クレジット: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119371334878744648">原投稿</a>
- · <a href="docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/TokenGremlin/status/2119395930805879165"><img src="assets/thumbs/x-tokengremlin-gpt62sol-threejs-blackhole.jpg" alt="One-shot Three.js black hole in a single HTML file (author routed to GPT-6.2 Sol) — @TokenGremlin（Token Gremlin）" width="220"></a><br>
-<strong><a href="docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/README.md">One-shot Three.js black hole in a single HTML file (author routed to GPT-6.2 Sol</a></strong><br>
-クレジット: @TokenGremlin（Token Gremlin）<br><a href="https://x.com/TokenGremlin/status/2119395930805879165">原投稿</a>
- · <a href="docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/teddyaisi/status/2119503047646908664"><img src="assets/thumbs/x-teddyaisi-gpt62sol-interactive-city.jpg" alt="One-prompt interactive Three.js city in a single offline HTML file — @teddyaisi（Teddy）" width="220"></a><br>
-<strong><a href="docs/cases/x-teddyaisi-gpt62sol-interactive-city/README.md">One-prompt interactive Three.js city in a single offline HTML file</a></strong><br>
-クレジット: @teddyaisi（Teddy）<br><a href="https://x.com/teddyaisi/status/2119503047646908664">原投稿</a>
- · <a href="docs/cases/x-teddyaisi-gpt62sol-interactive-city/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/qingzhoucloud/status/2119441137576579448"><img src="assets/thumbs/x-qingzhoucloud-gpt62sol-floating-castle.jpg" alt="GPT-6.2 Sol 3D floating castle built with HTML + Three.js — @qingzhoucloud（产品晓东）" width="220"></a><br>
-<strong><a href="docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/README.md">GPT-6.2 Sol 3D floating castle built with HTML + Three.js</a></strong><br>
-クレジット: @qingzhoucloud（产品晓东）<br><a href="https://x.com/qingzhoucloud/status/2119441137576579448">原投稿</a>
- · <a href="docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/marcthecreatorr/status/2119503438405136765"><img src="assets/thumbs/x-marcthecreatorr-gpt62sol-sailing-ship.jpg" alt="GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt) — @marcthecreatorr（Marcel）" width="220"></a><br>
-<strong><a href="docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md">GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)</a></strong><br>
-クレジット: @marcthecreatorr（Marcel）<br><a href="https://x.com/marcthecreatorr/status/2119503438405136765">原投稿</a>
- · <a href="docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/HarshithLucky3/status/2119418918616150080"><img src="assets/thumbs/x-harshithlucky3-gpt62sol-pelican-svg-animation.jpg" alt="SVG animation: pelican and 2 crabs riding bicycles (Codex routing) — @HarshithLucky3（Harshith）" width="220"></a><br>
-<strong><a href="docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md">SVG animation: pelican and 2 crabs riding bicycles (Codex routing)</a></strong><br>
-クレジット: @HarshithLucky3（Harshith）<br><a href="https://x.com/HarshithLucky3/status/2119418918616150080">原投稿</a>
- · <a href="docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/cherriessire/status/2119488351057121420"><img src="assets/thumbs/x-cherriessire-gpt62sol-moon-aurora-threejs.jpg" alt="Self-contained Three.js moon scene with red aurora in one HTML file — @cherriessire" width="220"></a><br>
-<strong><a href="docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md">Self-contained Three.js moon scene with red aurora in one HTML file</a></strong><br>
-クレジット: @cherriessire<br><a href="https://x.com/cherriessire/status/2119488351057121420">原投稿</a>
- · <a href="docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-</table>
+- **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
+- **HTML／CSS／JS＋SVGで『ストレンジャー・シングス5』のエンドクレジットを再現（HyperFrames）** · クレジット: @Raitox_tech · [ケース](docs/translations/x-raitoox-sol-stranger-things-credits.md#ja) · [原投稿](https://x.com/Raitox_tech/status/2120125234129084492)
+- **Three.js、GLSL、Blenderで制作した雨に濡れるローマのコロッセオ** · クレジット: @cfenghub（CF长风） · [ケース](docs/translations/x-cfenghub-gpt62sol-colosseum.md#ja) · [原投稿](https://x.com/cfenghub/status/2120069654437921152)
+- **船、滝、木々、蝶のあるThree.jsの湖畔シーン** · クレジット: @TokenGremlin（Token Gremlin） · [ケース](docs/translations/x-tokengremlin-gpt62sol-glass-seasons.md#ja) · [原投稿](https://x.com/TokenGremlin/status/2119852532616790037)
+- **1つのプロンプトで生成し、単一HTMLファイルにまとめたThree.jsシーン（城／デモ）** · クレジット: @TokenGremlin（Token Gremlin） · [ケース](docs/translations/x-tokengremlin-gpt62sol-threejs-scenes-html.md#ja) · [原投稿](https://x.com/TokenGremlin/status/2119371334878744648)
+- **単一HTMLファイルのThree.jsブラックホールを一度で生成（作者はGPT-6.2 Solへルーティング）** · クレジット: @TokenGremlin（Token Gremlin） · [ケース](docs/translations/x-tokengremlin-gpt62sol-threejs-blackhole.md#ja) · [原投稿](https://x.com/TokenGremlin/status/2119395930805879165)
+- **1つのプロンプトで作る、単一のオフラインHTMLファイルで操作可能なThree.js都市** · クレジット: @teddyaisi（Teddy） · [ケース](docs/translations/x-teddyaisi-gpt62sol-interactive-city.md#ja) · [原投稿](https://x.com/teddyaisi/status/2119503047646908664)
+- **GPT-6.2 SolがHTML＋Three.jsで制作した3Dの空中城** · クレジット: @qingzhoucloud（产品晓东） · [ケース](docs/translations/x-qingzhoucloud-gpt62sol-floating-castle.md#ja) · [原投稿](https://x.com/qingzhoucloud/status/2119441137576579448)
+- **GPT-6.2 SolとOpus 5.5：操作できるThree.js帆船（同じプロンプト）** · クレジット: @marcthecreatorr（Marcel） · [ケース](docs/translations/x-marcthecreatorr-gpt62sol-sailing-ship.md#ja) · [原投稿](https://x.com/marcthecreatorr/status/2119503438405136765)
+- **SVGアニメ：自転車に乗るペリカンとカニ2匹（Codexルーティング）** · クレジット: @HarshithLucky3（Harshith） · [ケース](docs/translations/x-harshithlucky3-gpt62sol-pelican-svg-animation.md#ja) · [原投稿](https://x.com/HarshithLucky3/status/2119418918616150080)
+- **単一HTMLファイルで完結する、赤いオーロラのあるThree.js月面シーン** · クレジット: @cherriessire · [ケース](docs/translations/x-cherriessire-gpt62sol-moon-aurora-threejs.md#ja) · [原投稿](https://x.com/cherriessire/status/2119488351057121420)
 
 <a id="ver-gpt-6-1-sol"></a>
 
 ### GPT-6.1 Sol
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/takamasa045/status/2119769277846990949"><img src="assets/thumbs/x-takamasa045-gpt61sol-momoyama.jpg" alt="Azuchi-Momoyama castle town diorama in HTML and Three.js — @takamasa045（伊藤貴將）" width="220"></a><br>
-<strong><a href="docs/cases/x-takamasa045-gpt61sol-momoyama/README.md">Azuchi-Momoyama castle town diorama in HTML and Three.js</a></strong><br>
-クレジット: @takamasa045（伊藤貴將）<br><a href="https://x.com/takamasa045/status/2119769277846990949">原投稿</a>
- · <a href="docs/cases/x-takamasa045-gpt61sol-momoyama/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-gpt61-sol-isometric-city.jpg" alt="Isometric day/night city HTML loop — GPT-6.1 Sol — James Greene (model comparison archive)" width="220"></a><br>
-<strong><a href="docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/README.md">Isometric day/night city HTML loop — GPT-6.1 Sol</a></strong><br>
-クレジット: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://marmikshah.github.io/atelier/"><img src="assets/thumbs/web-atelier-gpt61-sol-ten-frame-loops.gif" alt="Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max effort column) — Marmik Shah (Atelier exhibition)" width="220"></a><br>
-<strong><a href="docs/cases/web-atelier-gpt61-sol-ten-frame-loops/README.md">Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max effort column)</a></strong><br>
-クレジット: Marmik Shah (Atelier exhibition)<br><a href="https://marmikshah.github.io/atelier/">原投稿</a>
-</td>
-</tr>
-</table>
+- **HTMLとThree.jsで制作した安土桃山時代の城下町ジオラマ** · クレジット: @takamasa045（伊藤貴將） · [ケース](docs/translations/x-takamasa045-gpt61sol-momoyama.md#ja) · [原投稿](https://x.com/takamasa045/status/2119769277846990949)
+- **アイソメトリック都市の昼夜HTMLループ：GPT-6.1 Sol** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-gpt61-sol-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
+- **Atelier：10フレームのループスプライト制作課題（GPT-6.1 Sol最大推論設定の欄）** · クレジット: Marmik Shah (Atelier exhibition) · [ケース](docs/translations/web-atelier-gpt61-sol-ten-frame-loops.md#ja) · [原投稿](https://marmikshah.github.io/atelier/)
 
 
 
@@ -1247,95 +349,28 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![Grok cover](assets/brand/families/grok.png)
 
-このファミリーの出典付き事例 11 件を、版ごとに新しい順ですべて並べる。11 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
+このファミリーの出典付き事例 11 件を、版ごとに新しい順ですべて並べる。0 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
 
 <a id="ver-grok-4-7"></a>
 
 ### Grok 4.7
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-grok47-isometric-city.jpg" alt="Isometric day/night city HTML loop — Grok 4.7 — James Greene (model comparison archive)" width="220"></a><br>
-<strong><a href="docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md">Isometric day/night city HTML loop — Grok 4.7</a></strong><br>
-クレジット: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原投稿</a>
-</td>
-</tr>
-</table>
+- **アイソメトリック都市の昼夜HTMLループ：Grok 4.7** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
 
 <a id="ver-grok-imagine-video"></a>
 
 ### Grok Imagine Video
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/RadCyberTruck/status/2120350558431445006"><img src="assets/thumbs/x-radcybertruck-grok-imagine-cybertruck-cry.jpg" alt="Grok Imagine — pixstar Cybertruck farewell clip (partial prompt) — @RadCyberTruck" width="220"></a><br>
-<strong><a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md">Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)</a></strong><br>
-クレジット: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558431445006">原投稿</a>
- · <a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Aiminithoughts/status/2120329925702070425"><img src="assets/thumbs/x-aiminithoughts-grok-imagine-golden-angel.jpg" alt="Golden Angel Warrior — Grok Imagine clip — @Aiminithoughts" width="220"></a><br>
-<strong><a href="docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md">Golden Angel Warrior — Grok Imagine clip</a></strong><br>
-クレジット: @Aiminithoughts<br><a href="https://x.com/Aiminithoughts/status/2120329925702070425">原投稿</a>
- · <a href="docs/cases/x-aiminithoughts-grok-imagine-golden-angel/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Herbertkrspyleg/status/2119232026230305214"><img src="assets/thumbs/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo.jpg" alt="Neon Martial Arts Swordswoman — @Herbertkrspyleg（Herbert Krspyleg75 Joseph）" width="220"></a><br>
-<strong><a href="docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/README.md">Neon Martial Arts Swordswoman</a></strong><br>
-クレジット: @Herbertkrspyleg（Herbert Krspyleg75 Joseph）<br><a href="https://x.com/Herbertkrspyleg/status/2119232026230305214">原投稿</a>
- · <a href="docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/HawkinsonLindy/status/2118934426633785350"><img src="assets/thumbs/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v.jpg" alt="Wind Blown Yellow Ribbon Video — @HawkinsonLindy（Lindy Hawkinson）" width="220"></a><br>
-<strong><a href="docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/README.md">Wind Blown Yellow Ribbon Video</a></strong><br>
-クレジット: @HawkinsonLindy（Lindy Hawkinson）<br><a href="https://x.com/HawkinsonLindy/status/2118934426633785350">原投稿</a>
- · <a href="docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Aiminithoughts/status/2118871728680272112"><img src="assets/thumbs/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag.jpg" alt="SpaceX Beyond Earth Montage — @Aiminithoughts（Ai Mini Thoughts Creator）" width="220"></a><br>
-<strong><a href="docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/README.md">SpaceX Beyond Earth Montage</a></strong><br>
-クレジット: @Aiminithoughts（Ai Mini Thoughts Creator）<br><a href="https://x.com/Aiminithoughts/status/2118871728680272112">原投稿</a>
- · <a href="docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/Aiminithoughts/status/2118762128475635964"><img src="assets/thumbs/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean.jpg" alt="Optimus Rising from Ocean — @Aiminithoughts（Ai Mini Thoughts Creator）" width="220"></a><br>
-<strong><a href="docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/README.md">Optimus Rising from Ocean</a></strong><br>
-クレジット: @Aiminithoughts（Ai Mini Thoughts Creator）<br><a href="https://x.com/Aiminithoughts/status/2118762128475635964">原投稿</a>
- · <a href="docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/whichaiwon/status/2118342571592446154"><img src="assets/thumbs/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit.jpg" alt="Grok Imagine Video 1.5 Lite Lip-Sync Test — @whichaiwon（Which AI Won）" width="220"></a><br>
-<strong><a href="docs/cases/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit/README.md">Grok Imagine Video 1.5 Lite Lip-Sync Test</a></strong><br>
-クレジット: @whichaiwon（Which AI Won）<br><a href="https://x.com/whichaiwon/status/2118342571592446154">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/rxufnx/status/2118327480918438306"><img src="assets/thumbs/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid.jpg" alt="Fallen Angel Cinematic Video — @rxufnx（rxufnx）" width="220"></a><br>
-<strong><a href="docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/README.md">Fallen Angel Cinematic Video</a></strong><br>
-クレジット: @rxufnx（rxufnx）<br><a href="https://x.com/rxufnx/status/2118327480918438306">原投稿</a>
- · <a href="docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/HaluAIArt/status/2118285947921989988"><img src="assets/thumbs/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance.jpg" alt="Dark Electro Hip Hop Dance Video — @HaluAIArt（はる）" width="220"></a><br>
-<strong><a href="docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/README.md">Dark Electro Hip Hop Dance Video</a></strong><br>
-クレジット: @HaluAIArt（はる）<br><a href="https://x.com/HaluAIArt/status/2118285947921989988">原投稿</a>
- · <a href="docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/AwesomeGodNewL/status/2118227641027416471"><img src="assets/thumbs/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince.jpg" alt="Grok Imagine Prompt: Prince transforms maid into princess — @AwesomeGodNewL（Awesome God New Life Ministries）" width="220"></a><br>
-<strong><a href="docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/README.md">Grok Imagine Prompt: Prince transforms maid into princess</a></strong><br>
-クレジット: @AwesomeGodNewL（Awesome God New Life Ministries）<br><a href="https://x.com/AwesomeGodNewL/status/2118227641027416471">原投稿</a>
- · <a href="docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-</table>
+- **Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ）** · クレジット: @RadCyberTruck · [ケース](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#ja) · [原投稿](https://x.com/RadCyberTruck/status/2120350558431445006)
+- **黄金の天使戦士：Grok Imagineの短編映像** · クレジット: @Aiminithoughts · [ケース](docs/translations/x-aiminithoughts-grok-imagine-golden-angel.md#ja) · [原投稿](https://x.com/Aiminithoughts/status/2120329925702070425)
+- **ネオンの武術女剣士** · クレジット: @Herbertkrspyleg（Herbert Krspyleg75 Joseph） · [ケース](docs/translations/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo.md#ja) · [原投稿](https://x.com/Herbertkrspyleg/status/2119232026230305214)
+- **風になびく黄色いリボンの映像** · クレジット: @HawkinsonLindy（Lindy Hawkinson） · [ケース](docs/translations/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v.md#ja) · [原投稿](https://x.com/HawkinsonLindy/status/2118934426633785350)
+- **SpaceX、地球の彼方へ向かうモンタージュ** · クレジット: @Aiminithoughts（Ai Mini Thoughts Creator） · [ケース](docs/translations/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag.md#ja) · [原投稿](https://x.com/Aiminithoughts/status/2118871728680272112)
+- **海から現れるOptimus** · クレジット: @Aiminithoughts（Ai Mini Thoughts Creator） · [ケース](docs/translations/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean.md#ja) · [原投稿](https://x.com/Aiminithoughts/status/2118762128475635964)
+- **Grok Imagine Video 1.5 Liteのリップシンク検証** · クレジット: @whichaiwon（Which AI Won） · [ケース](docs/translations/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit.md#ja) · [原投稿](https://x.com/whichaiwon/status/2118342571592446154)
+- **堕天使のシネマティック映像** · クレジット: @rxufnx（rxufnx） · [ケース](docs/translations/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid.md#ja) · [原投稿](https://x.com/rxufnx/status/2118327480918438306)
+- **ダークなエレクトロ・ヒップホップのダンス映像** · クレジット: @HaluAIArt（はる） · [ケース](docs/translations/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance.md#ja) · [原投稿](https://x.com/HaluAIArt/status/2118285947921989988)
+- **Grok Imagineプロンプト：王子がメイドを王女に変える** · クレジット: @AwesomeGodNewL（Awesome God New Life Ministries） · [ケース](docs/translations/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince.md#ja) · [原投稿](https://x.com/AwesomeGodNewL/status/2118227641027416471)
 
 
 
@@ -1345,51 +380,25 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![Qwen cover](assets/brand/families/qwen.png)
 
-このファミリーの出典付き事例 3 件を、版ごとに新しい順ですべて並べる。3 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
+このファミリーの出典付き事例 3 件を、版ごとに新しい順ですべて並べる。0 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
 
 <a id="ver-qwen3-8-27b"></a>
 
 ### Qwen3.8 27B
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-qwen38-27b-isometric-city.jpg" alt="Isometric day/night city HTML loop — Qwen3.8 27B — James Greene (model comparison archive)" width="220"></a><br>
-<strong><a href="docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md">Isometric day/night city HTML loop — Qwen3.8 27B</a></strong><br>
-クレジット: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原投稿</a>
-</td>
-</tr>
-</table>
+- **アイソメトリック都市の昼夜HTMLループ：Qwen3.8 27B** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
 
 <a id="ver-qwen4-max-preview"></a>
 
 ### Qwen 4 Max Preview
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/leo114119/status/2120371909624033439"><img src="assets/thumbs/x-leo114119-qwen4max-wukong-plane.jpg" alt="Sun Wukong flying a plane — HTML 3D demo — @leo114119（Leo）" width="220"></a><br>
-<strong><a href="docs/cases/x-leo114119-qwen4max-wukong-plane/README.md">Sun Wukong flying a plane — HTML 3D demo</a></strong><br>
-クレジット: @leo114119（Leo）<br><a href="https://x.com/leo114119/status/2120371909624033439">原投稿</a>
- · <a href="docs/cases/x-leo114119-qwen4max-wukong-plane/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-</table>
+- **飛行機を操縦する孫悟空：HTMLの3Dデモ** · クレジット: @leo114119（Leo） · [ケース](docs/translations/x-leo114119-qwen4max-wukong-plane.md#ja) · [原投稿](https://x.com/leo114119/status/2120371909624033439)
 
 <a id="ver-qwen4-preview"></a>
 
 ### Qwen 4.0 Preview
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/coffeecup2020/status/2120113388629995921"><img src="assets/thumbs/x-coffeecup2020-qwen4-sagrada.jpg" alt="Sagrada Família demo from Qwen 4.0 Preview — @coffeecup2020（David Y. Tan）" width="220"></a><br>
-<strong><a href="docs/cases/x-coffeecup2020-qwen4-sagrada/README.md">Sagrada Família demo from Qwen 4.0 Preview</a></strong><br>
-クレジット: @coffeecup2020（David Y. Tan）<br><a href="https://x.com/coffeecup2020/status/2120113388629995921">原投稿</a>
- · <a href="docs/cases/x-coffeecup2020-qwen4-sagrada/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-</table>
+- **Qwen 4.0 Previewによるサグラダ・ファミリアのデモ** · クレジット: @coffeecup2020（David Y. Tan） · [ケース](docs/translations/x-coffeecup2020-qwen4-sagrada.md#ja) · [原投稿](https://x.com/coffeecup2020/status/2120113388629995921)
 
 インベントリには、単独事例のない版も書いてある。原文のまま：
 
@@ -1403,42 +412,20 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 
 ![DeepSeek cover](assets/brand/families/deepseek.png)
 
-このファミリーの出典付き事例 3 件を、版ごとに新しい順ですべて並べる。3 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
+このファミリーの出典付き事例 3 件を、版ごとに新しい順ですべて並べる。0 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。
 
 <a id="ver-deepseek-v4-1-flash-1017"></a>
 
 ### DeepSeek V4.1 Flash 1017
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.jpg" alt="Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017 — James Greene (model comparison archive)" width="220"></a><br>
-<strong><a href="docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md">Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017</a></strong><br>
-クレジット: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原投稿</a>
-</td>
-</tr>
-</table>
+- **アイソメトリック都市の昼夜HTMLループ：DeepSeek V4.1 Flash 1017** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
 
 <a id="ver-deepseek-v4-1-flash"></a>
 
 ### DeepSeek V4.1 Flash
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/LatentOperatorX/status/2120077800887746603"><img src="assets/thumbs/x-latentoperator-deepseek-excavator.jpg" alt="Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code — @LatentOperatorX（Latent Operator）" width="220"></a><br>
-<strong><a href="docs/cases/x-latentoperator-deepseek-excavator/README.md">Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code</a></strong><br>
-クレジット: @LatentOperatorX（Latent Operator）<br><a href="https://x.com/LatentOperatorX/status/2120077800887746603">原投稿</a>
- · <a href="docs/cases/x-latentoperator-deepseek-excavator/media/video.mp4">▶ 動画</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/LatentOperatorX/status/2120205377803518132"><img src="assets/thumbs/x-latentoperator-a380-deepseek-fable-sol.jpg" alt="Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol — @LatentOperatorX" width="220"></a><br>
-<strong><a href="docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md">Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 So</a></strong><br>
-クレジット: @LatentOperatorX<br><a href="https://x.com/LatentOperatorX/status/2120205377803518132">原投稿</a>
- · <a href="docs/cases/x-latentoperator-a380-deepseek-fable-sol/media/video.mp4">▶ 動画</a>
-</td>
-</tr>
-</table>
+- **Three.jsのショベルカーがダンプに積み込み：DeepSeek HarnessとCommand Codeを比較** · クレジット: @LatentOperatorX（Latent Operator） · [ケース](docs/translations/x-latentoperator-deepseek-excavator.md#ja) · [原投稿](https://x.com/LatentOperatorX/status/2120077800887746603)
+- **Three.jsによるエアバスA380の離陸：DeepSeek V4.1 Flash、Fable 5.2、GPT-6.1 Solを比較** · クレジット: @LatentOperatorX · [ケース](docs/translations/x-latentoperator-a380-deepseek-fable-sol.md#ja) · [原投稿](https://x.com/LatentOperatorX/status/2120205377803518132)
 
 
 <a id="by-type"></a>
@@ -1452,63 +439,11 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <a id="type-animation"></a>
 ### アニメーション
 この種類は 114 件。サムネイルがあるものから最大 4 件。
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/anabology/status/2120010995309457643"><img src="assets/thumbs/x-anabology-fable52-claudia-gallery.jpg" alt="Claudia Gallery — @anabology" width="220"></a><br>
-<strong><a href="docs/cases/x-anabology-fable52-claudia-gallery/README.md">Claudia Gallery</a></strong><br>
-クレジット: @anabology<br><a href="https://x.com/anabology/status/2120010995309457643">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/chetaslua/status/2119870650722763052"><img src="assets/thumbs/x-chetaslua-fable52-clip.jpg" alt="官方演示：从空文件夹造操作系统（转述） — @chetaslua" width="220"></a><br>
-<strong><a href="docs/cases/x-chetaslua-fable52-clip/README.md">官方演示：从空文件夹造操作系统（转述）</a></strong><br>
-クレジット: @chetaslua<br><a href="https://x.com/chetaslua/status/2119870650722763052">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/ChrisGPT/status/2119998815856218494"><img src="assets/thumbs/x-chrisgpt-fable52-clip.jpg" alt="给剪辑师的「抢饭碗」宣言视频 — @ChrisGPT" width="220"></a><br>
-<strong><a href="docs/cases/x-chrisgpt-fable52-clip/README.md">给剪辑师的「抢饭碗」宣言视频</a></strong><br>
-クレジット: @ChrisGPT<br><a href="https://x.com/ChrisGPT/status/2119998815856218494">原投稿</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/MrTacticalX/status/2119955647542542439"><img src="assets/thumbs/x-mrtacticalx-fable52-fable-opus.jpg" alt="玻璃泳池，Fable 对 Opus — @MrTacticalX" width="220"></a><br>
-<strong><a href="docs/cases/x-mrtacticalx-fable52-fable-opus/README.md">玻璃泳池，Fable 对 Opus</a></strong><br>
-クレジット: @MrTacticalX<br><a href="https://x.com/MrTacticalX/status/2119955647542542439">原投稿</a>
-</td>
-</tr>
-</table>
 [事例インデックス](docs/showcase-index.md#animation)
 
 <a id="type-html-3d"></a>
 ### HTML / 3D
 この種類は 69 件。サムネイルがあるものから最大 4 件。
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/anshu4321/status/2119938067758772403"><img src="assets/thumbs/x-anshu4321-fable52-indiranagar-1.jpg" alt="印度班加罗尔 Indiranagar 1 平方公里 — @anshu4321" width="220"></a><br>
-<strong><a href="docs/cases/x-anshu4321-fable52-indiranagar-1/README.md">印度班加罗尔 Indiranagar 1 平方公里</a></strong><br>
-クレジット: @anshu4321<br><a href="https://x.com/anshu4321/status/2119938067758772403">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/felixrieseberg/status/2119925633564463609"><img src="assets/thumbs/x-felixrieseberg-fable52-saltline.jpg" alt="Saltline 第一人称射击 — @felixrieseberg" width="220"></a><br>
-<strong><a href="docs/cases/x-felixrieseberg-fable52-saltline/README.md">Saltline 第一人称射击</a></strong><br>
-クレジット: @felixrieseberg<br><a href="https://x.com/felixrieseberg/status/2119925633564463609">原投稿</a>
-</td>
-<td align="center" width="33%">
-<a href="https://x.com/higgsfield_ai/status/2119997122896601269"><img src="assets/thumbs/x-higgsfield-ai-fable52-vowlorn-rpg.jpg" alt="VOWLORN 纯代码暗黑 RPG — @higgsfield_ai" width="220"></a><br>
-<strong><a href="docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/README.md">VOWLORN 纯代码暗黑 RPG</a></strong><br>
-クレジット: @higgsfield_ai<br><a href="https://x.com/higgsfield_ai/status/2119997122896601269">原投稿</a>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://x.com/LexnLin/status/2119966127149429093"><img src="assets/thumbs/x-lexnlin-fable52-feed-the-backrooms.jpg" alt="Feed the Backrooms：你当怪物 — @LexnLin" width="220"></a><br>
-<strong><a href="docs/cases/x-lexnlin-fable52-feed-the-backrooms/README.md">Feed the Backrooms：你当怪物</a></strong><br>
-クレジット: @LexnLin<br><a href="https://x.com/LexnLin/status/2119966127149429093">原投稿</a>
-</td>
-</tr>
-</table>
 [事例インデックス](docs/showcase-index.md#html-3d)
 
 <a id="type-minigame"></a>
@@ -1525,28 +460,28 @@ GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計
 <a id="collection-sites"></a>
 ## 事例収集サイト
 
-各モデルの GIF、アニメーション、HTML demo を集めたり比べたりしているサイトです（Showcase collection sites）。リンクを返すだけで、スクレイピングして再ホストしません。説明文は [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json) に書いてある原文のままです。
+各モデルの GIF、アニメーション、HTML demo を集めたり比べたりしているサイトです（Showcase collection sites）。リンクを返すだけで、スクレイピングして再ホストしません。説明文は [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json) の原文から翻訳しています。
 
 **GPT-6.2 Sol**
-- [OpenAI Developers Showcase](https://developers.openai.com/showcase) — Official OpenAI community demo gallery (games, 3D scenes, tools); not GPT-6.2-specific, useful Sol/Codex-era context.
-- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Same-brief multi-model HTML/animation archive including Sol-family isometric city runs with openable pages.
-- [Atelier — the model exhibition](https://marmikshah.github.io/atelier/) — Shared brief × model grid of ten-frame looping sprite animations, including a GPT-6.1 Sol column.
-- [AGI Hunt · GPT-6.2 Sol Three.js reports](https://agihunt.info/en/p/1a1bb426b5d29845aa6a62b76dd) — Aggregator card for TokenGremlin’s GPT-6.2 Sol one-shot Three.js black-hole / HTML demos from X.
-- [AGI Hunt · GPT-6.2 Sol village HTML report](https://agihunt.info/en/p/1a1bb89900a97844bb6b978dbb4) — Aggregator for user-reported GPT-6.2 Sol single-file Three.js village demos.
-- [OmniaKey · GPT-6.2 Sol status notes](https://omniakey.com/blog/gpt-6-2-sol) — Roundup stating OpenAI public catalog still lists GPT-6.1 Sol and summarizing unconfirmed 6.2 routing reports.
-- [João Queirós · GPT-6.2 Sol preview evidence review](https://www.ai.joaoqueiros.com/blog/gpt-6-2-sol-preview-worldofai-demos-evidence) — Evidence-focused write-up of World of AI / community demos without treating them as an official 6.2 release.
-- [TokenGremlin X — primary greyscale sighting thread](https://x.com/TokenGremlin/status/2119395930805879165) — Widely cited primary X post claiming routing to GPT-6.2 Sol with Three.js HTML proof clips.
+- [OpenAI Developers Showcase](https://developers.openai.com/showcase) — OpenAI 公式のコミュニティデモ集（ゲーム、3D シーン、ツール）。GPT-6.2 専用ではなく、Sol／Codex 時代の背景資料。
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — 共通の制作指示による複数モデルの HTML／アニメーション集。Sol 系列のアイソメトリック都市作品を含み、ページを開いて確認できる。
+- [Atelier — the model exhibition](https://marmikshah.github.io/atelier/) — 共通の制作指示とモデルを組み合わせた、10 フレームのループスプライトアニメーション一覧。GPT-6.1 Sol の列を含む。
+- [AGI Hunt · GPT-6.2 Sol Three.js reports](https://agihunt.info/en/p/1a1bb426b5d29845aa6a62b76dd) — TokenGremlin が X に投稿した、GPT-6.2 Sol のワンショット Three.js ブラックホール／HTML デモを紹介する集約サイトのカード。
+- [AGI Hunt · GPT-6.2 Sol village HTML report](https://agihunt.info/en/p/1a1bb89900a97844bb6b978dbb4) — ユーザー報告による GPT-6.2 Sol の単一ファイル Three.js 村デモをまとめたページ。
+- [OmniaKey · GPT-6.2 Sol status notes](https://omniakey.com/blog/gpt-6-2-sol) — OpenAI の公開カタログが GPT-6.1 Sol のままであることと、未確認の 6.2 ルーティング報告をまとめた記事。
+- [João Queirós · GPT-6.2 Sol preview evidence review](https://www.ai.joaoqueiros.com/blog/gpt-6-2-sol-preview-worldofai-demos-evidence) — World of AI／コミュニティのデモを証拠に基づいて整理した記事。6.2 の公式発表としては扱わない。
+- [TokenGremlin X — primary greyscale sighting thread](https://x.com/TokenGremlin/status/2119395930805879165) — GPT-6.2 Sol へのルーティングを主張し、Three.js HTML の実例映像を添えた、広く引用される X 原投稿。
 
 **Claude**
-- [liang8989/awesome-fable5-2-videos](https://github.com/liang8989/awesome-fable5-2-videos) — Curated Claude Fable 5.2 motion/3D/game videos from X with credits and published prompts when available.
-- [DramaSo · Fable 5.2 prompts & videos](https://drama.so/prompts/fable-5-2) — Community gallery of Fable 5.2 code/animation works with creator credits and some verbatim prompts.
-- [AIGC创意猎人 · Claude Fable 5.2 案例合集](https://aigcreative.feishu.cn/wiki/ZB58w4kilimVTPkIosFcN2N4nnd) — Feishu wiki page that groups Claude Fable 5.2 works by use case (product workflow, teaching, film, games, research). Each entry has a short brief, evidence limits, and a link to the original X post.
+- [liang8989/awesome-fable5-2-videos](https://github.com/liang8989/awesome-fable5-2-videos) — X から選ばれた Claude Fable 5.2 のモーション／3D／ゲーム動画集。作者名と、入手できた公開プロンプトを掲載。
+- [DramaSo · Fable 5.2 prompts & videos](https://drama.so/prompts/fable-5-2) — Fable 5.2 のコード／アニメーション作品を集めたコミュニティギャラリー。作者名と一部のプロンプト原文を掲載。
+- [AIGC创意猎人 · Claude Fable 5.2 案例合集](https://aigcreative.feishu.cn/wiki/ZB58w4kilimVTPkIosFcN2N4nnd) — Claude Fable 5.2 の作品を用途別（製品ワークフロー、教育、映像、ゲーム、研究）に整理した Feishu wiki。各項目に概要、証拠の限界、X 原投稿へのリンクがある。
 
 **Gemini**
-- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Includes Gemini 4 Argon (and other Gemini) HTML animation runs under shared briefs.
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Gemini 4 Argon などの Gemini モデルが共通の制作指示で作成した HTML アニメーションを収録。
 
 **横断**
-- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Cross-family same-prompt HTML/SVG/animation leaderboard with downloadable pages and MP4 recordings.
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — 同一プロンプトによる HTML／SVG／アニメーションをモデル系列横断で比較するランキング。ページと MP4 収録版をダウンロード可能。
 
 
 <a id="related-projects"></a>
@@ -1624,163 +559,163 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 | DeepSeek（V4.1 Flash） | **3** | | |
 | **ホームページ合計** | **183** | | |
 
-件数は [一つの生成目録](docs/data/community-cases.json) から来ます。出典インベントリの最終更新：**2026-11-11**。ホームページの合計はフロンティア・ファミリーの収録数であり、生成成功の確認数ではありません。**183 件のうち 151 件にローカルのメディアがあります**（出典に動画がある場合のクレジット付きコピー）。`assets/thumbs/` のサムネイルはクレジット付きで原投稿へ戻る小さいコピーです。一覧は [docs/showcase-index.md](docs/showcase-index.md) です。取得できなかった動画は [docs/missing-videos.md](docs/missing-videos.md) です。
+件数は[生成目録](docs/data/community-cases.json)に基づきます。最終更新：**2026-11-11**。ホームページは **183 件**の出典付き事例で、生成成功の検証数ではありません。公開を承認したローカルメディアは **0 件**です。許諾不明の画像・動画は埋め込まず Pages にも配信しません。既存アーカイブの権利確認は別途必要です。[MEDIA_RIGHTS.md](MEDIA_RIGHTS.md)と[一覧](docs/showcase-index.md)を参照してください。
 
 ### 出典と証拠の全表
 
-下のファミリーを開くか、[検索できるウェブ目録](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en) を使います。タイトルと根拠の引用は出典の言語のままです。同じ行は [独立インデックス](playbooks/community-cases.md) にもあります。
+下のファミリーを開くか、[検索できるウェブ目録](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en) を使います。タイトルと根拠には翻訳と明記した訳文を用意し、原文と対照できます。同じ行は [独立インデックス](playbooks/community-cases.md) にもあります。
 
 <details>
 <summary><strong>Family · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2 (146)</strong></summary>
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | @himanshutwtxs | `x-himanshutwtxs-fable52-motion-showreel` One-prompt motion designer showreel (timing, easing, shape,  | [出典](https://x.com/himanshutwtxs/status/2120017106804900304) | [ケース](docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md) · [Video](docs/cases/x-himanshutwtxs-fable52-motion-showreel/media/video.mp4) | [原文](docs/cases/x-himanshutwtxs-fable52-motion-showreel/prompt.md) | Author/community catalog claim: Claude F | Code-driven motion graphics · captur | Primary X URL working · prompt publi | Source link only |
-| 2 | @wshuyi | `x-wshuyi-fable52-sabertooth-hunt` 纯编程动画：剑齿虎捕猎野牛（自编程音效） | [出典](https://x.com/wshuyi/status/2120014892040417720) | [ケース](docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md) · [Video](docs/cases/x-wshuyi-fable52-sabertooth-hunt/media/video.mp4) | [原文](docs/cases/x-wshuyi-fable52-sabertooth-hunt/prompt.md) | Author/community catalog claim: Claude F | Pure code animation + synthesized SF | Primary X URL working · verbatim pro | Source link only |
-| 3 | @MengTo（Meng To） | `x-mengto-fable52-blender-apartment` Recreate a Three.js apartment in Blender with Fable 5.2 | [出典](https://x.com/MengTo/status/2120316203738829180) | [ケース](docs/cases/x-mengto-fable52-blender-apartment/README.md) · [Video](docs/cases/x-mengto-fable52-blender-apartment/media/video.mp4) | [未公開](docs/cases/x-mengto-fable52-blender-apartment/prompt.md) | Author claim: Fable 5.2 (also mentions p | Claude + Blender recreation of an ex | Primary X URL + media metadata · pro | Source link only |
-| 4 | @paleknight（Vraj） | `x-paleknight-fable52-vs-opus55-ship` Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-s | [出典](https://x.com/paleknight/status/2120368418805174639) | [ケース](docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md) · [Video](docs/cases/x-paleknight-fable52-vs-opus55-ship/media/video.mp4) | [未公開](docs/cases/x-paleknight-fable52-vs-opus55-ship/prompt.md) | Author claim: Fable 5.2 and Opus 5.5, sa | Three.js ship animation · comparison | Primary X URL · same-prompt claim ·  | Source link only |
-| 5 | Halil Sekeroglu | `web-halil-fable52-animation-prompts` Four single-message Fable 5.2 animation prompts (logo / prom | [出典](https://halilsekeroglu.com/en/fable/) | [ケース](docs/cases/web-halil-fable52-animation-prompts/README.md) | [原文](docs/cases/web-halil-fable52-animation-prompts/prompt.md) | Author page: Animation with Fable 5.2 ·  | Single-message HTML/SVG/Three.js/Can | Public page with verbatim prompts ·  | Source link only |
-| 6 | Ofox | `web-ofox-fable52-svg-sailboat` Editable SVG sailboat illustration with CSS motion (two API  | [出典](https://ofox.ai/blog/claude-fable-5-2-svg-guide/) | [ケース](docs/cases/web-ofox-fable52-svg-sailboat/README.md) | [短い / 部分](docs/cases/web-ofox-fable52-svg-sailboat/prompt.md) | Ofox test: anthropic/claude-fable-5.2 (l | SVG code generation → browser CSS ke | Guide publishes validation table + n | Source link only |
-| 7 | James Greene (model comparison archive) | `web-jamesgreene-code1-opus55-isometric-city` Isometric day/night city HTML loop — Claude Opus 5.5 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-opus55-isometric-city/prompt.md) | jamesgreene.com labeled run: Claude Opus | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
-| 8 | @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will） | `x-financeyf5-fable52-bugatti-tourbillon` Bugatti Tourbillon in Blender, then a short car film (Fable  | [出典](https://x.com/FinanceYF5/status/2120372142147842296) | [ケース](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md) · [Video](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/media/video.mp4) | [原文](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/prompt.md) | Original author @xikhar: Fable 5.2, one  | Blender modular car model, materials | FinanceYF5 post quotes @xikhar's pro | Source link only |
-| 9 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-fable52-tcell-film` T-cell life film in Blender (12,480 frames, Fable 5.2) | [出典](https://x.com/DeryaTR_/status/2120382619082727604) | [ケース](docs/cases/x-deryatr-fable52-tcell-film/README.md) · [Video](docs/cases/x-deryatr-fable52-tcell-film/media/video.mp4) | [未公開](docs/cases/x-deryatr-fable52-tcell-film/prompt.md) | Author claim: Fable 5.2 wrote the script | Blender cell film plus narration and | Primary X URL + video · prompt unpub | Source link only |
-| 10 | @kloss_xyz（klöss） | `x-kloss-fable52-ocean-threejs` Photo-real Three.js ocean that runs from sunset to sunrise | [出典](https://x.com/kloss_xyz/status/2120378126740095273) | [ケース](docs/cases/x-kloss-fable52-ocean-threejs/README.md) · [Video](docs/cases/x-kloss-fable52-ocean-threejs/media/video.mp4) | [原文](docs/cases/x-kloss-fable52-ocean-threejs/prompt.md) | Author claim: Claude Fable 5.2, under 27 | Three.js photo-real ocean scene · re | Primary X URL · verbatim prompt in t | Source link only |
-| 11 | @MrTacticalX（Mr Tactical） | `x-mrtactical-fable52-mechanical-keyboard` Mechanical keyboard built and typed on in Blender | [出典](https://x.com/MrTacticalX/status/2120342453807157720) | [ケース](docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md) · [Video](docs/cases/x-mrtactical-fable52-mechanical-keyboard/media/video.mp4) | [未公開](docs/cases/x-mrtactical-fable52-mechanical-keyboard/prompt.md) | Author claim: Claude Fable 5.2 in Blende | Blender mechanical keyboard model an | Primary X URL + video · prompt unpub | Source link only |
-| 12 | @quxiaoyin（Xiaoyin Qu） | `x-quxiaoyin-fable52-agentsky-film` Point-light 3D film about AgentSky (Blender and code) | [出典](https://x.com/quxiaoyin/status/2120341962314150207) | [ケース](docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md) · [Video](docs/cases/x-quxiaoyin-fable52-agentsky-film/media/video.mp4) | [未公開](docs/cases/x-quxiaoyin-fable52-agentsky-film/prompt.md) | Author claim: Claude Fable 5.2, fourth v | Blender and code point-light film ·  | Primary X URL + video · prompt unpub | Source link only |
-| 13 | @EvanMilenko（Evan） | `x-evanmilenko-fable52-dragon-game` Dragon game built from scratch in Three.js | [出典](https://x.com/EvanMilenko/status/2120322640048959503) | [ケース](docs/cases/x-evanmilenko-fable52-dragon-game/README.md) · [Video](docs/cases/x-evanmilenko-fable52-dragon-game/media/video.mp4) | [未公開](docs/cases/x-evanmilenko-fable52-dragon-game/prompt.md) | Author claim: Fable 5.2, Three.js dragon | Three.js dragon game · gameplay capt | Primary X URL + video · prompt unpub | Source link only |
-| 14 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-fable52-ataturk-remembrance` 10 November remembrance video by Fable 5.2 | [出典](https://x.com/DeryaTR_/status/2120083276916224014) | [ケース](docs/cases/x-deryatr-fable52-ataturk-remembrance/README.md) · [Video](docs/cases/x-deryatr-fable52-ataturk-remembrance/media/video.mp4) | [未公開](docs/cases/x-deryatr-fable52-ataturk-remembrance/prompt.md) | Author claim: video by Fable 5.2, for th | Fable 5.2 video · recorded post | Primary X URL + video · prompt unpub | Source link only |
-| 15 | @kieranklaassen（Kieran Klaassen） | `x-kieranklaassen-fable52-everycut` Everycut，把录屏、文字剪辑和混音放进同一款编辑器 | [出典](https://x.com/kieranklaassen/status/2119904489717272680) | [ケース](docs/cases/x-kieranklaassen-fable52-everycut/README.md) · [Video](docs/cases/x-kieranklaassen-fable52-everycut/media/video.mp4) | [未公開](docs/cases/x-kieranklaassen-fable52-everycut/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 16 | @kieranklaassen（Kieran Klaassen） | `x-kieranklaassen-fable52-ableton-push` 支持 Ableton Push 的环境音乐工作站 | [出典](https://x.com/kieranklaassen/status/2119868196773929160) | [ケース](docs/cases/x-kieranklaassen-fable52-ableton-push/README.md) · [Video](docs/cases/x-kieranklaassen-fable52-ableton-push/media/video.mp4) | [未公開](docs/cases/x-kieranklaassen-fable52-ableton-push/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 17 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-quadrille-excel` Quadrille，浏览器里的 Excel 风格表格 | [出典](https://x.com/MatthewBerman/status/2119868642796154944) | [ケース](docs/cases/x-matthewberman-fable52-quadrille-excel/README.md) · [Video](docs/cases/x-matthewberman-fable52-quadrille-excel/media/video.mp4) | [未公開](docs/cases/x-matthewberman-fable52-quadrille-excel/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 18 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-photon-photoshop` Photon，Photoshop 风格的在线图像编辑器 | [出典](https://x.com/MatthewBerman/status/2119872042053128412) | [ケース](docs/cases/x-matthewberman-fable52-photon-photoshop/README.md) · [Video](docs/cases/x-matthewberman-fable52-photon-photoshop/media/video.mp4) | [未公開](docs/cases/x-matthewberman-fable52-photon-photoshop/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 19 | @felixrieseberg（Felix Rieseberg） | `x-felixrieseberg-fable52-interchange` 为虚构团体 Interchange 探索 20 款标志 | [出典](https://x.com/felixrieseberg/status/2119867840878825523) | [ケース](docs/cases/x-felixrieseberg-fable52-interchange/README.md) | [未公開](docs/cases/x-felixrieseberg-fable52-interchange/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 20 | @emollick（Ethan Mollick） | `x-emollick-fable52-prebid-brief` Prebid Brief，从政府议程找尚未招标的商机 | [出典](https://x.com/emollick/status/2119870150845599972) | [ケース](docs/cases/x-emollick-fable52-prebid-brief/README.md) | [未公開](docs/cases/x-emollick-fable52-prebid-brief/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 21 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-kestrel-windows` Kestrel，在 Windows 本地运行的时间线编辑器 | [出典](https://x.com/MatthewBerman/status/2119868640879349998) | [ケース](docs/cases/x-matthewberman-fable52-kestrel-windows/README.md) · [Video](docs/cases/x-matthewberman-fable52-kestrel-windows/media/video.mp4) | [未公開](docs/cases/x-matthewberman-fable52-kestrel-windows/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 22 | @The_Alex（Alex） | `x-thealex-fable52-claude` 能被 Claude 调用的编曲工作站 | [出典](https://x.com/The_Alex/status/2119917226769985785) | [ケース](docs/cases/x-thealex-fable52-claude/README.md) · [Video](docs/cases/x-thealex-fable52-claude/media/video.mp4) | [未公開](docs/cases/x-thealex-fable52-claude/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 23 | @clairevo（claire vo 🖤） | `x-clairevo-fable52-typed-page` typed.page，带纸张、色带和写作计时的网页打字机 | [出典](https://x.com/clairevo/status/2119905651359142132) | [ケース](docs/cases/x-clairevo-fable52-typed-page/README.md) · [Video](docs/cases/x-clairevo-fable52-typed-page/media/video.mp4) | [未公開](docs/cases/x-clairevo-fable52-typed-page/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 24 | @s_matysik（Sebastian Matysik） | `x-smatysik-fable52-213380` 从代理数据快照生成指挥台 | [出典](https://x.com/s_matysik/status/2119909371484213380) | [ケース](docs/cases/x-smatysik-fable52-213380/README.md) · [Video](docs/cases/x-smatysik-fable52-213380/media/video.mp4) | [未公開](docs/cases/x-smatysik-fable52-213380/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 25 | @every（Every 📧） | `x-every-fable52-checks` 放手一个周末，让代理给 Checks 做 75 项改动 | [出典](https://x.com/every/status/2119928286465892357) | [ケース](docs/cases/x-every-fable52-checks/README.md) · [Video](docs/cases/x-every-fable52-checks/media/video.mp4) | [未公開](docs/cases/x-every-fable52-checks/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 26 | @clairevo（claire vo 🖤） | `x-clairevo-fable52-chatprd` 重做 ChatPRD 的产品情报管线 | [出典](https://x.com/clairevo/status/2119891385784619405) | [ケース](docs/cases/x-clairevo-fable52-chatprd/README.md) | [未公開](docs/cases/x-clairevo-fable52-chatprd/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 27 | @The_Alex（Alex） | `x-thealex-fable52-pane-youtube-twitch` Pane，开源的 YouTube 与 Twitch 播放器 | [出典](https://x.com/The_Alex/status/2119867572875350134) | [ケース](docs/cases/x-thealex-fable52-pane-youtube-twitch/README.md) · [Video](docs/cases/x-thealex-fable52-pane-youtube-twitch/media/video.mp4) | [未公開](docs/cases/x-thealex-fable52-pane-youtube-twitch/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 28 | @Webilyco（Magda） | `x-webilyco-fable52-kontur` KONTUR，把建筑服务页做成带动效的项目旅程 | [出典](https://x.com/Webilyco/status/2119909604431626667) | [ケース](docs/cases/x-webilyco-fable52-kontur/README.md) · [Video](docs/cases/x-webilyco-fable52-kontur/media/video.mp4) | [未公開](docs/cases/x-webilyco-fable52-kontur/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 29 | @pwnies（Jacob Miller） | `x-pwnies-fable52-fable-opus` 给同一张参考图，比较 Fable 与 Opus 的网页还原 | [出典](https://x.com/pwnies/status/2119887535421980695) | [ケース](docs/cases/x-pwnies-fable52-fable-opus/README.md) · [Video](docs/cases/x-pwnies-fable52-fable-opus/media/video.mp4) | [未公開](docs/cases/x-pwnies-fable52-fable-opus/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 30 | @petergyang（Peter Yang） | `x-petergyang-fable52-fable-opus` 用同一份网页改版任务比较 Fable 和 Opus | [出典](https://x.com/petergyang/status/2119870223562191289) | [ケース](docs/cases/x-petergyang-fable52-fable-opus/README.md) | [未公開](docs/cases/x-petergyang-fable52-fable-opus/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 31 | @DoctorYev（Yev Marusenko） | `x-doctoryev-fable52-uare` Uare，把一条宣传需求做成约 64 秒的发布片 | [出典](https://x.com/DoctorYev/status/2119895951108423801) | [ケース](docs/cases/x-doctoryev-fable52-uare/README.md) · [Video](docs/cases/x-doctoryev-fable52-uare/media/video.mp4) | [未公開](docs/cases/x-doctoryev-fable52-uare/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 32 | @al_maxgo（Al Maxgo） | `x-almaxgo-fable52-fbplot` FBPlot，把代码库里的真实图表做成产品预告 | [出典](https://x.com/al_maxgo/status/2119891197317591040) | [ケース](docs/cases/x-almaxgo-fable52-fbplot/README.md) · [Video](docs/cases/x-almaxgo-fable52-fbplot/media/video.mp4) | [未公開](docs/cases/x-almaxgo-fable52-fbplot/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 33 | @every（Every 📧） | `x-every-fable52-high-max` High 和 Max 档，盲评同一组网页设计 | [出典](https://x.com/every/status/2119939866314289555) | [ケース](docs/cases/x-every-fable52-high-max/README.md) · [Video](docs/cases/x-every-fable52-high-max/media/video.mp4) | [未公開](docs/cases/x-every-fable52-high-max/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 34 | @alexalbert__（Alex Albert） | `x-alexalbert-fable52-pdf` 把达·芬奇手稿 PDF 做成可交互发明 | [出典](https://x.com/alexalbert__/status/2119916954337349737) | [ケース](docs/cases/x-alexalbert-fable52-pdf/README.md) · [Video](docs/cases/x-alexalbert-fable52-pdf/media/video.mp4) | [未公開](docs/cases/x-alexalbert-fable52-pdf/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 35 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-378471` 用 约 50 秒动效讲大语言模型 | [出典](https://x.com/MatthewBerman/status/2119868633086378471) | [ケース](docs/cases/x-matthewberman-fable52-378471/README.md) · [Video](docs/cases/x-matthewberman-fable52-378471/media/video.mp4) | [未公開](docs/cases/x-matthewberman-fable52-378471/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 36 | @kieranklaassen（Kieran Klaassen） | `x-kieranklaassen-fable52-first-crush` First Crush，把葡萄酒酿造步骤变成游戏 | [出典](https://x.com/kieranklaassen/status/2119871673294037280) | [ケース](docs/cases/x-kieranklaassen-fable52-first-crush/README.md) · [Video](docs/cases/x-kieranklaassen-fable52-first-crush/media/video.mp4) | [未公開](docs/cases/x-kieranklaassen-fable52-first-crush/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 37 | @rileybrown（Riley Brown） | `x-rileybrown-fable52-the-history-writing` 《The History of Writing》，把文字史做成一支 96 秒动画 | [出典](https://x.com/rileybrown/status/2119946022767980985) | [ケース](docs/cases/x-rileybrown-fable52-the-history-writing/README.md) · [Video](docs/cases/x-rileybrown-fable52-the-history-writing/media/video.mp4) | [未公開](docs/cases/x-rileybrown-fable52-the-history-writing/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 38 | @SimonasLTU1（Simonas） | `x-simonasltu1-fable52-three` 用 Three.js 做可操作的人体解剖浏览器 | [出典](https://x.com/SimonasLTU1/status/2119891671219622262) | [ケース](docs/cases/x-simonasltu1-fable52-three/README.md) · [Video](docs/cases/x-simonasltu1-fable52-three/media/video.mp4) | [未公開](docs/cases/x-simonasltu1-fable52-three/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 39 | @aakashverma（Aakash Verma） | `x-aakashverma-fable52-fable-anthropic` 把 Fable 5.2 的发布补进一部 Anthropic 历史片 | [出典](https://x.com/aakashverma/status/2119874895836524593) | [ケース](docs/cases/x-aakashverma-fable52-fable-anthropic/README.md) · [Video](docs/cases/x-aakashverma-fable52-fable-anthropic/media/video.mp4) | [未公開](docs/cases/x-aakashverma-fable52-fable-anthropic/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 40 | @akshatbahety（Akshat Bahety） | `x-akshatbahety-fable52-fal` 30 秒图解短片，配音和音频经 Fal 生成 | [出典](https://x.com/akshatbahety/status/2119882437740421456) | [ケース](docs/cases/x-akshatbahety-fable52-fal/README.md) · [Video](docs/cases/x-akshatbahety-fable52-fal/media/video.mp4) | [未公開](docs/cases/x-akshatbahety-fable52-fal/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 41 | @kplikethebird（Katie Parrott） | `x-kplikethebird-fable52-blender` 用 Blender 重建公元一世纪的耶路撒冷街区 | [出典](https://x.com/kplikethebird/status/2119900775727902732) | [ケース](docs/cases/x-kplikethebird-fable52-blender/README.md) · [Video](docs/cases/x-kplikethebird-fable52-blender/media/video.mp4) | [未公開](docs/cases/x-kplikethebird-fable52-blender/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 42 | @rileybrown（Riley Brown） | `x-rileybrown-fable52-the-edge-blender` 《The Edge》，用 Blender 和网页做出 13 镜头短片 | [出典](https://x.com/rileybrown/status/2119902109709537708) | [ケース](docs/cases/x-rileybrown-fable52-the-edge-blender/README.md) · [Video](docs/cases/x-rileybrown-fable52-the-edge-blender/media/video.mp4) | [未公開](docs/cases/x-rileybrown-fable52-the-edge-blender/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 43 | @0kncn（Okan Can） | `x-0kncn-fable52-543073` 90 秒蒸汽机车变形短片，附完整提示词 | [出典](https://x.com/0kncn/status/2119901782482543073) | [ケース](docs/cases/x-0kncn-fable52-543073/README.md) · [Video](docs/cases/x-0kncn-fable52-543073/media/video.mp4) | [未公開](docs/cases/x-0kncn-fable52-543073/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 44 | @petergyang（Peter Yang） | `x-petergyang-fable52-854431` 京都伏见稻荷，20 秒代码旅行宣传片 | [出典](https://x.com/petergyang/status/2119886560992854431) | [ケース](docs/cases/x-petergyang-fable52-854431/README.md) · [Video](docs/cases/x-petergyang-fable52-854431/media/video.mp4) | [未公開](docs/cases/x-petergyang-fable52-854431/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 45 | @AmirMushich（AmirMušić） | `x-amirmushich-fable52-blender-reaper` Blender × Reaper，用手机录音做三维片段的音效 | [出典](https://x.com/AmirMushich/status/2119903338078564844) | [ケース](docs/cases/x-amirmushich-fable52-blender-reaper/README.md) · [Video](docs/cases/x-amirmushich-fable52-blender-reaper/media/video.mp4) | [未公開](docs/cases/x-amirmushich-fable52-blender-reaper/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 46 | @jkeatn（Jake Eaton） | `x-jkeatn-fable52-python` 用 Python 模拟画笔，按虚构画家风格作画 | [出典](https://x.com/jkeatn/status/2119874007382299087) | [ケース](docs/cases/x-jkeatn-fable52-python/README.md) · [Video](docs/cases/x-jkeatn-fable52-python/media/video.mp4) | [未公開](docs/cases/x-jkeatn-fable52-python/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 47 | @The_Alex（Alex） | `x-thealex-fable52-203554` 给一段口播做 9:16 剪辑，把动效也交给代理 | [出典](https://x.com/The_Alex/status/2119867570669203554) | [ケース](docs/cases/x-thealex-fable52-203554/README.md) · [Video](docs/cases/x-thealex-fable52-203554/media/video.mp4) | [未公開](docs/cases/x-thealex-fable52-203554/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 48 | @danshipper（Dan Shipper） | `x-danshipper-fable52-546638` 让代理采访研究者，再把录音剪成纪录片 | [出典](https://x.com/danshipper/status/2119869228207546638) | [ケース](docs/cases/x-danshipper-fable52-546638/README.md) · [Video](docs/cases/x-danshipper-fable52-546638/media/video.mp4) | [未公開](docs/cases/x-danshipper-fable52-546638/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 49 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-892403` 把文章放进虚拟展厅，做成约 4 分 44 秒视频 | [出典](https://x.com/mattshumer_/status/2119884041331892403) | [ケース](docs/cases/x-mattshumer-fable52-892403/README.md) · [Video](docs/cases/x-mattshumer-fable52-892403/media/video.mp4) | [未公開](docs/cases/x-mattshumer-fable52-892403/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 50 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-828670` 一部约 49 分钟的代码电影 | [出典](https://x.com/mattshumer_/status/2119900920347828670) | [ケース](docs/cases/x-mattshumer-fable52-828670/README.md) · [Video](docs/cases/x-mattshumer-fable52-828670/media/video.mp4) | [未公開](docs/cases/x-mattshumer-fable52-828670/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 51 | @YinYangYoeshi（Yoeshi） | `x-yinyangyoeshi-fable52-discovery` 《Discovery》，在三维房间里展开的代码短片 | [出典](https://x.com/YinYangYoeshi/status/2119897840965001317) | [ケース](docs/cases/x-yinyangyoeshi-fable52-discovery/README.md) · [Video](docs/cases/x-yinyangyoeshi-fable52-discovery/media/video.mp4) | [未公開](docs/cases/x-yinyangyoeshi-fable52-discovery/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 52 | @danteeonsol（Dante） | `x-danteeonsol-fable52-remotion-three-ufo` 用 Remotion 和 Three.js 做 UFO 到访 51 区 | [出典](https://x.com/danteeonsol/status/2119887623070077213) | [ケース](docs/cases/x-danteeonsol-fable52-remotion-three-ufo/README.md) · [Video](docs/cases/x-danteeonsol-fable52-remotion-three-ufo/media/video.mp4) | [未公開](docs/cases/x-danteeonsol-fable52-remotion-three-ufo/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 53 | @anstapnever（anstap） | `x-anstapnever-fable52-blackout-three` 《Blackout》，用 Three.js 做 79 秒二维动画 | [出典](https://x.com/anstapnever/status/2119915123070644263) | [ケース](docs/cases/x-anstapnever-fable52-blackout-three/README.md) · [Video](docs/cases/x-anstapnever-fable52-blackout-three/media/video.mp4) | [未公開](docs/cases/x-anstapnever-fable52-blackout-three/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 54 | @kevin_t_ngo（Kevin Ngo） | `x-kevintngo-fable52-python-blender` 用 Python 和 Blender 做一支 90 年代风格玩具广告 | [出典](https://x.com/kevin_t_ngo/status/2119972124211454139) | [ケース](docs/cases/x-kevintngo-fable52-python-blender/README.md) · [Video](docs/cases/x-kevintngo-fable52-python-blender/media/video.mp4) | [未公開](docs/cases/x-kevintngo-fable52-python-blender/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 55 | @kevin_t_ngo（Kevin Ngo） | `x-kevintngo-fable52-javascript` 用 JavaScript 逐帧画一段约 100 秒的动画 | [出典](https://x.com/kevin_t_ngo/status/2119938129079808282) | [ケース](docs/cases/x-kevintngo-fable52-javascript/README.md) · [Video](docs/cases/x-kevintngo-fable52-javascript/media/video.mp4) | [未公開](docs/cases/x-kevintngo-fable52-javascript/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 56 | @DanielZambrini（Daniel Zambrini） | `x-danielzambrini-fable52-fable-opus` 15 秒火柴人对打，保留 Fable 与 Opus 的成本对照 | [出典](https://x.com/DanielZambrini/status/2119893834276507954) | [ケース](docs/cases/x-danielzambrini-fable52-fable-opus/README.md) · [Video](docs/cases/x-danielzambrini-fable52-fable-opus/media/video.mp4) | [未公開](docs/cases/x-danielzambrini-fable52-fable-opus/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 57 | @Maaaaaaadiii（Hammad Hanif） | `x-maaaaaaadiii-fable52-714946` 从贴纸到吊链和铃声，程序化做一张会动的招牌 | [出典](https://x.com/Maaaaaaadiii/status/2119885527243714946) | [ケース](docs/cases/x-maaaaaaadiii-fable52-714946/README.md) · [Video](docs/cases/x-maaaaaaadiii-fable52-714946/media/video.mp4) | [未公開](docs/cases/x-maaaaaaadiii-fable52-714946/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 58 | @Scratcherrrr（Catcher of your mind） | `x-scratcherrrr-fable52-piranha` Piranha P-7，用代码做一条能拆解的食人鱼 | [出典](https://x.com/Scratcherrrr/status/2119909780269785332) | [ケース](docs/cases/x-scratcherrrr-fable52-piranha/README.md) · [Video](docs/cases/x-scratcherrrr-fable52-piranha/media/video.mp4) | [未公開](docs/cases/x-scratcherrrr-fable52-piranha/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 59 | @QRoonjha（Qaisar Roonjha） | `x-qroonjha-fable52-501697` 约 5 秒的定格风格动画试验 | [出典](https://x.com/QRoonjha/status/2119883978962501697) | [ケース](docs/cases/x-qroonjha-fable52-501697/README.md) · [Video](docs/cases/x-qroonjha-fable52-501697/media/video.mp4) | [未公開](docs/cases/x-qroonjha-fable52-501697/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 60 | @hello_amani（Amani • Design Partner） | `x-helloamani-fable52-237842` 把金属质感的标志做成一段三维动效 | [出典](https://x.com/hello_amani/status/2119873980786237842) | [ケース](docs/cases/x-helloamani-fable52-237842/README.md) · [Video](docs/cases/x-helloamani-fable52-237842/media/video.mp4) | [未公開](docs/cases/x-helloamani-fable52-237842/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 61 | @ericskavinski（Eric Skavinski） | `x-ericskavinski-fable52-three` 用 Three.js 写出落日和海面反光 | [出典](https://x.com/ericskavinski/status/2119895601580016005) | [ケース](docs/cases/x-ericskavinski-fable52-three/README.md) · [Video](docs/cases/x-ericskavinski-fable52-three/media/video.mp4) | [未公開](docs/cases/x-ericskavinski-fable52-three/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 62 | @chetaslua | `x-chetaslua-fable52-808368` 四张代码绘图，做成并排的动效展示 | [出典](https://x.com/chetaslua/status/2119981510199808368) | [ケース](docs/cases/x-chetaslua-fable52-808368/README.md) · [Video](docs/cases/x-chetaslua-fable52-808368/media/video.mp4) | [未公開](docs/cases/x-chetaslua-fable52-808368/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 63 | @amihai（Amichai Mantinband） | `x-amihai-fable52-205099` 给一块空画布，让模型自己选题构图 | [出典](https://x.com/amihai/status/2119894821255205099) | [ケース](docs/cases/x-amihai-fable52-205099/README.md) · [Video](docs/cases/x-amihai-fable52-205099/media/video.mp4) | [未公開](docs/cases/x-amihai-fable52-205099/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 64 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-928106` 12 篇漫画试验，作者公开了没做满意的版本 | [出典](https://x.com/ForwardEditor/status/2119867791150928106) | [ケース](docs/cases/x-forwardeditor-fable52-928106/README.md) | [未公開](docs/cases/x-forwardeditor-fable52-928106/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 65 | @petergyang（Peter Yang） | `x-petergyang-fable52-turbo-tails` Turbo Tails，带漂移和道具的浏览器卡丁车 | [出典](https://x.com/petergyang/status/2119901658394358005) | [ケース](docs/cases/x-petergyang-fable52-turbo-tails/README.md) · [Video](docs/cases/x-petergyang-fable52-turbo-tails/media/video.mp4) | [未公開](docs/cases/x-petergyang-fable52-turbo-tails/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 66 | @emollick（Ethan Mollick） | `x-emollick-fable52-scooby-doo` 反转 Scooby-Doo，玩家要把调查的孩子吓跑 | [出典](https://x.com/emollick/status/2119876449494540554) | [ケース](docs/cases/x-emollick-fable52-scooby-doo/README.md) · [Video](docs/cases/x-emollick-fable52-scooby-doo/media/video.mp4) | [未公開](docs/cases/x-emollick-fable52-scooby-doo/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 67 | @argofowl（🥔🥔🥔） | `x-argofowl-fable52-spud-smash` SPUD SMASH，土豆在房间里打烂蓝椅子 | [出典](https://x.com/argofowl/status/2119913148929187960) | [ケース](docs/cases/x-argofowl-fable52-spud-smash/README.md) · [Video](docs/cases/x-argofowl-fable52-spud-smash/media/video.mp4) | [未公開](docs/cases/x-argofowl-fable52-spud-smash/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 68 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-hogwarts-royale` Hogwarts Royale，把霍格沃茨和大逃杀放在一起 | [出典](https://x.com/mattshumer_/status/2119872098306810226) | [ケース](docs/cases/x-mattshumer-fable52-hogwarts-royale/README.md) · [Video](docs/cases/x-mattshumer-fable52-hogwarts-royale/media/video.mp4) | [未公開](docs/cases/x-mattshumer-fable52-hogwarts-royale/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 69 | @felixrieseberg（Felix Rieseberg） | `x-felixrieseberg-fable52-352596` 保留首版的第一人称射击等游戏样例 | [出典](https://x.com/felixrieseberg/status/2119867839033352596) | [ケース](docs/cases/x-felixrieseberg-fable52-352596/README.md) | [未公開](docs/cases/x-felixrieseberg-fable52-352596/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 70 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-unreal-engine` 在 Unreal Engine 里做《战争机器》风格的射击原型 | [出典](https://x.com/MatthewBerman/status/2119868629491789992) | [ケース](docs/cases/x-matthewberman-fable52-unreal-engine/README.md) · [Video](docs/cases/x-matthewberman-fable52-unreal-engine/media/video.mp4) | [未公開](docs/cases/x-matthewberman-fable52-unreal-engine/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 71 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-254665` 《糖豆人》风格闯关原型 | [出典](https://x.com/MatthewBerman/status/2119868630989254665) | [ケース](docs/cases/x-matthewberman-fable52-254665/README.md) · [Video](docs/cases/x-matthewberman-fable52-254665/media/video.mp4) | [未公開](docs/cases/x-matthewberman-fable52-254665/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 72 | @AmirMushich（AmirMušić） | `x-amirmushich-fable52-worm-rider` Worm Rider，用代码生成沙虫、车队与地形 | [出典](https://x.com/AmirMushich/status/2119937977426338283) | [ケース](docs/cases/x-amirmushich-fable52-worm-rider/README.md) · [Video](docs/cases/x-amirmushich-fable52-worm-rider/media/video.mp4) | [未公開](docs/cases/x-amirmushich-fable52-worm-rider/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 73 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-483384` 一条提示启动的体素破坏引擎 | [出典](https://x.com/mattshumer_/status/2119870965106483384) | [ケース](docs/cases/x-mattshumer-fable52-483384/README.md) · [Video](docs/cases/x-mattshumer-fable52-483384/media/video.mp4) | [未公開](docs/cases/x-mattshumer-fable52-483384/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 74 | @theo（Theo - t3.gg） | `x-theo-fable52-fishslop-fable-opus` Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照 | [出典](https://x.com/theo/status/2119926277801144695) | [ケース](docs/cases/x-theo-fable52-fishslop-fable-opus/README.md) · [Video](docs/cases/x-theo-fable52-fishslop-fable-opus/media/video.mp4) | [未公開](docs/cases/x-theo-fable52-fishslop-fable-opus/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 75 | @emollick（Ethan Mollick） | `x-emollick-fable52-portals` Portals，穿过传送门飞进 471 个代码世界 | [出典](https://x.com/emollick/status/2119918307457577163) | [ケース](docs/cases/x-emollick-fable52-portals/README.md) · [Video](docs/cases/x-emollick-fable52-portals/media/video.mp4) | [未公開](docs/cases/x-emollick-fable52-portals/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 76 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-webgl` 用 WebGL 演示子弹穿过装水气球 | [出典](https://x.com/MatthewBerman/status/2119868636810953017) | [ケース](docs/cases/x-matthewberman-fable52-webgl/README.md) · [Video](docs/cases/x-matthewberman-fable52-webgl/media/video.mp4) | [未公開](docs/cases/x-matthewberman-fable52-webgl/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 77 | @dom_scholz（Dominik Scholz） | `x-domscholz-fable52-ultramarine` Ultramarine，同一三维任务对照两代模型 | [出典](https://x.com/dom_scholz/status/2119933150025363661) | [ケース](docs/cases/x-domscholz-fable52-ultramarine/README.md) · [Video](docs/cases/x-domscholz-fable52-ultramarine/media/video.mp4) | [未公開](docs/cases/x-domscholz-fable52-ultramarine/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 78 | @kevin_t_ngo（Kevin Ngo） | `x-kevintngo-fable52-gilt-gutter` Gilt & Gutter，用弹药颜色做 1 对 1 射击机制 | [出典](https://x.com/kevin_t_ngo/status/2119900487688622171) | [ケース](docs/cases/x-kevintngo-fable52-gilt-gutter/README.md) · [Video](docs/cases/x-kevintngo-fable52-gilt-gutter/media/video.mp4) | [未公開](docs/cases/x-kevintngo-fable52-gilt-gutter/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 79 | @kevin_t_ngo（Kevin Ngo） | `x-kevintngo-fable52-what-the-water-keeps` What the Water Keeps，坐船穿过八个梦境场景 | [出典](https://x.com/kevin_t_ngo/status/2119868968307695818) | [ケース](docs/cases/x-kevintngo-fable52-what-the-water-keeps/README.md) · [Video](docs/cases/x-kevintngo-fable52-what-the-water-keeps/media/video.mp4) | [未公開](docs/cases/x-kevintngo-fable52-what-the-water-keeps/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 80 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-vibe-check-delivery` Vibe Check Delivery，三个模型做同题送报游戏 | [出典](https://x.com/hammer_mt/status/2119906441389826445) | [ケース](docs/cases/x-hammermt-fable52-vibe-check-delivery/README.md) | [未公開](docs/cases/x-hammermt-fable52-vibe-check-delivery/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 81 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-mirror-earth` Mirror Earth，把真实地球当作可破坏的游戏地图 | [出典](https://x.com/mattshumer_/status/2119877065701036047) | [ケース](docs/cases/x-mattshumer-fable52-mirror-earth/README.md) · [Video](docs/cases/x-mattshumer-fable52-mirror-earth/media/video.mp4) | [未公開](docs/cases/x-mattshumer-fable52-mirror-earth/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 82 | @marcthecreatorr（Marcel） | `x-marcthecreatorr-fable52-054072` 打开网页看一艘代码生成的三维帆船 | [出典](https://x.com/marcthecreatorr/status/2119890973560054072) | [ケース](docs/cases/x-marcthecreatorr-fable52-054072/README.md) · [Video](docs/cases/x-marcthecreatorr-fable52-054072/media/video.mp4) | [未公開](docs/cases/x-marcthecreatorr-fable52-054072/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 83 | @ericmaskfr（eric） | `x-ericmaskfr-fable52-481026` 80 年代迈阿密风格的开放城市和任务系统 | [出典](https://x.com/ericmaskfr/status/2119910195325481026) | [ケース](docs/cases/x-ericmaskfr-fable52-481026/README.md) · [Video](docs/cases/x-ericmaskfr-fable52-481026/media/video.mp4) | [未公開](docs/cases/x-ericmaskfr-fable52-481026/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 84 | @FaridaNever（Farida） | `x-faridanever-fable52-505730` 水墨山景里的第三人称剑士 | [出典](https://x.com/FaridaNever/status/2119910055990505730) | [ケース](docs/cases/x-faridanever-fable52-505730/README.md) · [Video](docs/cases/x-faridanever-fable52-505730/media/video.mp4) | [未公開](docs/cases/x-faridanever-fable52-505730/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 85 | @mihawkxxxxx（mihawkxxx） | `x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker` 用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告 | [出典](https://x.com/mihawkxxxxx/status/2119909865296699749) | [ケース](docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/README.md) · [Video](docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/media/video.mp4) | [未公開](docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 86 | @geneohms（Gene） | `x-geneohms-fable52-685102` 从手机里发起任务，得到能与电脑对弈的棋盘 | [出典](https://x.com/geneohms/status/2119910054413685102) | [ケース](docs/cases/x-geneohms-fable52-685102/README.md) · [Video](docs/cases/x-geneohms-fable52-685102/media/video.mp4) | [未公開](docs/cases/x-geneohms-fable52-685102/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 87 | @itssotsot（Sotiris Kaniras） | `x-itssotsot-fable52-big-little-adventure` Big Little Adventure，把家具变成小角色的关卡 | [出典](https://x.com/itssotsot/status/2119909017216491720) | [ケース](docs/cases/x-itssotsot-fable52-big-little-adventure/README.md) · [Video](docs/cases/x-itssotsot-fable52-big-little-adventure/media/video.mp4) | [未公開](docs/cases/x-itssotsot-fable52-big-little-adventure/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 88 | @nikodemszymansk（Nikodem / AI Creator） | `x-nikodemszymansk-fable52-tokyo-night` Tokyo Night GP，带湿地反光的三圈夜赛 | [出典](https://x.com/nikodemszymansk/status/2119880518875435022) | [ケース](docs/cases/x-nikodemszymansk-fable52-tokyo-night/README.md) · [Video](docs/cases/x-nikodemszymansk-fable52-tokyo-night/media/video.mp4) | [未公開](docs/cases/x-nikodemszymansk-fable52-tokyo-night/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 89 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-zero` 给既有 F-Zero 风格赛车加金属爪漂移和瞬移 | [出典](https://x.com/ForwardEditor/status/2119867747425194377) | [ケース](docs/cases/x-forwardeditor-fable52-zero/README.md) · [Video](docs/cases/x-forwardeditor-fable52-zero/media/video.mp4) | [未公開](docs/cases/x-forwardeditor-fable52-zero/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 90 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-sorted-ios` Sorted!，以纸牌接龙为灵感的 iOS 样机 | [出典](https://x.com/ForwardEditor/status/2119867782238212524) | [ケース](docs/cases/x-forwardeditor-fable52-sorted-ios/README.md) | [未公開](docs/cases/x-forwardeditor-fable52-sorted-ios/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 91 | @The_Alex（Alex） | `x-thealex-fable52-177920` 做一段《时之笛》风格的三维冒险 | [出典](https://x.com/The_Alex/status/2119867568253177920) | [ケース](docs/cases/x-thealex-fable52-177920/README.md) · [Video](docs/cases/x-thealex-fable52-177920/media/video.mp4) | [未公開](docs/cases/x-thealex-fable52-177920/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 92 | @The_Alex（Alex） | `x-thealex-fable52-melee` 在手机上试做 Melee 风格的对战 | [出典](https://x.com/The_Alex/status/2119867574972551309) | [ケース](docs/cases/x-thealex-fable52-melee/README.md) · [Video](docs/cases/x-thealex-fable52-melee/media/video.mp4) | [未公開](docs/cases/x-thealex-fable52-melee/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 93 | @The_Alex（Alex） | `x-thealex-fable52-821398` 把马里奥元素做进生存玩法的俯视角原型 | [出典](https://x.com/The_Alex/status/2119867576985821398) | [ケース](docs/cases/x-thealex-fable52-821398/README.md) · [Video](docs/cases/x-thealex-fable52-821398/media/video.mp4) | [未公開](docs/cases/x-thealex-fable52-821398/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 94 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-060195` 搭一座能和居民对话的三维欧洲村庄 | [出典](https://x.com/MatthewBerman/status/2119868638929060195) | [ケース](docs/cases/x-matthewberman-fable52-060195/README.md) · [Video](docs/cases/x-matthewberman-fable52-060195/media/video.mp4) | [未公開](docs/cases/x-matthewberman-fable52-060195/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 95 | @BeamManP（ビームマンＰ ver40） | `x-beammanp-fable52-wasd-three` 用 WASD 和空格操控 Three.js 坦克 | [出典](https://x.com/BeamManP/status/2119879390322622583) | [ケース](docs/cases/x-beammanp-fable52-wasd-three/README.md) · [Video](docs/cases/x-beammanp-fable52-wasd-three/media/video.mp4) | [未公開](docs/cases/x-beammanp-fable52-wasd-three/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 96 | @ilya_sb1（Ilya Rzhevskiy） | `x-ilyasb1-fable52-orbital-data-node` Orbital Data Node 07，把数据中心搬到太空 | [出典](https://x.com/ilya_sb1/status/2119878436529246669) | [ケース](docs/cases/x-ilyasb1-fable52-orbital-data-node/README.md) · [Video](docs/cases/x-ilyasb1-fable52-orbital-data-node/media/video.mp4) | [未公開](docs/cases/x-ilyasb1-fable52-orbital-data-node/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 97 | @NFT_Chen（SuSu_酥酥👅） | `x-nftchen-fable52-609967` 给骑单车的鹈鹕加调速、灯和车铃 | [出典](https://x.com/NFT_Chen/status/2119897058597609967) | [ケース](docs/cases/x-nftchen-fable52-609967/README.md) · [Video](docs/cases/x-nftchen-fable52-609967/media/video.mp4) | [未公開](docs/cases/x-nftchen-fable52-609967/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 98 | @petergostev（Peter Gostev） | `x-petergostev-fable52-max` 用 Max 档做一段伊斯坦布尔水岸漫游 | [出典](https://x.com/petergostev/status/2119877733488394520) | [ケース](docs/cases/x-petergostev-fable52-max/README.md) · [Video](docs/cases/x-petergostev-fable52-max/media/video.mp4) | [未公開](docs/cases/x-petergostev-fable52-max/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 99 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-163994` 骑龙从空岛跃下，测试视角和飞行感 | [出典](https://x.com/ForwardEditor/status/2119867743965163994) | [ケース](docs/cases/x-forwardeditor-fable52-163994/README.md) · [Video](docs/cases/x-forwardeditor-fable52-163994/media/video.mp4) | [未公開](docs/cases/x-forwardeditor-fable52-163994/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 100 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-346319` 用三维地图复盘《复仇者联盟》的纽约大战 | [出典](https://x.com/hammer_mt/status/2119871817561346319) | [ケース](docs/cases/x-hammermt-fable52-346319/README.md) · [Video](docs/cases/x-hammermt-fable52-346319/media/video.mp4) | [未公開](docs/cases/x-hammermt-fable52-346319/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 101 | @claudeai（Claude） | `x-claudeai-fable52-268322` 从空目录到可在笔记本启动的操作系统 | [出典](https://x.com/claudeai/status/2119867114450268322) | [ケース](docs/cases/x-claudeai-fable52-268322/README.md) · [Video](docs/cases/x-claudeai-fable52-268322/media/video.mp4) | [未公開](docs/cases/x-claudeai-fable52-268322/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 102 | @claudeai（Claude） | `x-claudeai-fable52-pcb` 从四层 PCB 到三款能工作的电子原型 | [出典](https://x.com/claudeai/status/2119899459761131615) | [ケース](docs/cases/x-claudeai-fable52-pcb/README.md) · [Video](docs/cases/x-claudeai-fable52-pcb/media/video.mp4) | [未公開](docs/cases/x-claudeai-fable52-pcb/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 103 | @claudeai（Claude） | `x-claudeai-fable52-lean` 1,000 个代理用约 29 小时复现费马大定理的 Lean 证明 | [出典](https://x.com/claudeai/status/2119867129751056485) | [ケース](docs/cases/x-claudeai-fable52-lean/README.md) | [未公開](docs/cases/x-claudeai-fable52-lean/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 104 | @claudeai（Claude） | `x-claudeai-fable52-825293` 算出弱耦合下的霍金–佩奇相变 | [出典](https://x.com/claudeai/status/2119899487044825293) | [ケース](docs/cases/x-claudeai-fable52-825293/README.md) | [未公開](docs/cases/x-claudeai-fable52-825293/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 105 | @claudeai（Claude） | `x-claudeai-fable52-131439` 求出简化模型中模自举方法的精确界限 | [出典](https://x.com/claudeai/status/2119899488995131439) | [ケース](docs/cases/x-claudeai-fable52-131439/README.md) | [未公開](docs/cases/x-claudeai-fable52-131439/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 106 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-idle-elite` 在约 8 万行的 Idle Elite 代码库中接手开发 | [出典](https://x.com/ForwardEditor/status/2119867753376940396) | [ケース](docs/cases/x-forwardeditor-fable52-idle-elite/README.md) | [未公開](docs/cases/x-forwardeditor-fable52-idle-elite/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 107 | @claudeai（Claude） | `x-claudeai-fable52-221045` 用真实机械臂拧瓶盖、复原方块和画图 | [出典](https://x.com/claudeai/status/2119867132452221045) | [ケース](docs/cases/x-claudeai-fable52-221045/README.md) · [Video](docs/cases/x-claudeai-fable52-221045/media/video.mp4) | [未公開](docs/cases/x-claudeai-fable52-221045/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 108 | @claudeai（Claude） | `x-claudeai-fable52-miplib` 求解 MIPLIB 开放问题，其中一个例子是 42 趟列车的排班 | [出典](https://x.com/claudeai/status/2119899477855379913) | [ケース](docs/cases/x-claudeai-fable52-miplib/README.md) | [未公開](docs/cases/x-claudeai-fable52-miplib/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 109 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-147409` 为公寓里可以制作的机器人出一版外观原型 | [出典](https://x.com/mattshumer_/status/2119889518564147409) | [ケース](docs/cases/x-mattshumer-fable52-147409/README.md) · [Video](docs/cases/x-mattshumer-fable52-147409/media/video.mp4) | [未公開](docs/cases/x-mattshumer-fable52-147409/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 110 | @every（Every 📧） | `x-every-fable52-slack` 从 Slack 与会议记录中找出 38 处说法冲突 | [出典](https://x.com/every/status/2119934581445145066) | [ケース](docs/cases/x-every-fable52-slack/README.md) · [Video](docs/cases/x-every-fable52-slack/media/video.mp4) | [未公開](docs/cases/x-every-fable52-slack/prompt.md) | Feishu AIGCreative wiki lists this under | X post captured as video or screen r | Primary X URL cited by the AIGCreati | Source link only |
-| 111 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-write-like-mike` Write Like Mike，用留出的旧文章盲评写作技能 | [出典](https://x.com/hammer_mt/status/2119906374066835495) | [ケース](docs/cases/x-hammermt-fable52-write-like-mike/README.md) | [未公開](docs/cases/x-hammermt-fable52-write-like-mike/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 112 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-183568` 从 14 套咨询演示稿提取能自动检查的规则 | [出典](https://x.com/hammer_mt/status/2119906412709183568) | [ケース](docs/cases/x-hammermt-fable52-183568/README.md) | [未公開](docs/cases/x-hammermt-fable52-183568/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 113 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-katepass` KatePass，用 320 份旧草稿衡量编辑还剩多少工作 | [出典](https://x.com/hammer_mt/status/2119906389284057363) | [ケース](docs/cases/x-hammermt-fable52-katepass/README.md) | [未公開](docs/cases/x-hammermt-fable52-katepass/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 114 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-103010` 从个人 AI 使用历史整理十个可重复的评测任务 | [出典](https://x.com/hammer_mt/status/2119907037631103010) | [ケース](docs/cases/x-hammermt-fable52-103010/README.md) | [未公開](docs/cases/x-hammermt-fable52-103010/prompt.md) | Feishu AIGCreative wiki lists this under | X post (photos or page; no video on  | Primary X URL cited by the AIGCreati | Source link only |
-| 115 | @aichrislee | `x-aichrislee-opus55-build-me-a-camera-lens-in` Build me a camera lens in interactive 3D, in one HTML file w | [出典](https://x.com/aichrislee/status/2108709764817408244) | [ケース](docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/README.md) · [Video](docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/media/video.mp4) | [原文](docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/prompt.md) | Citing repo lists this under Claude Opus | Code-made animation captured as vide | Primary X URL listed by yihui-dev/aw | Source link only |
-| 116 | @alightinastorm | `x-alightinastorm-fable52-a-browser-first-person-sho` A browser first-person shooter with an armory and a desert t | [出典](https://x.com/alightinastorm/status/2120020469487440210) | [ケース](docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/README.md) · [Video](docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/media/video.mp4) | [未公開](docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 117 | @anabology | `x-anabology-fable52-claudia-gallery` Claudia Gallery | [出典](https://x.com/anabology/status/2120010995309457643) | [ケース](docs/cases/x-anabology-fable52-claudia-gallery/README.md) · [Video](docs/cases/x-anabology-fable52-claudia-gallery/media/video.mp4) | [未公開](docs/cases/x-anabology-fable52-claudia-gallery/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 118 | @anshu4321 | `x-anshu4321-fable52-indiranagar-1` 印度班加罗尔 Indiranagar 1 平方公里 | [出典](https://x.com/anshu4321/status/2119938067758772403) | [ケース](docs/cases/x-anshu4321-fable52-indiranagar-1/README.md) · [Video](docs/cases/x-anshu4321-fable52-indiranagar-1/media/video.mp4) | [未公開](docs/cases/x-anshu4321-fable52-indiranagar-1/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 119 | @chetaslua | `x-chetaslua-fable52-clip` 官方演示：从空文件夹造操作系统（转述） | [出典](https://x.com/chetaslua/status/2119870650722763052) | [ケース](docs/cases/x-chetaslua-fable52-clip/README.md) · [Video](docs/cases/x-chetaslua-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-chetaslua-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 120 | @ChrisGPT | `x-chrisgpt-fable52-clip` 给剪辑师的「抢饭碗」宣言视频 | [出典](https://x.com/ChrisGPT/status/2119998815856218494) | [ケース](docs/cases/x-chrisgpt-fable52-clip/README.md) · [Video](docs/cases/x-chrisgpt-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-chrisgpt-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 121 | @felixrieseberg | `x-felixrieseberg-fable52-saltline` Saltline 第一人称射击 | [出典](https://x.com/felixrieseberg/status/2119925633564463609) | [ケース](docs/cases/x-felixrieseberg-fable52-saltline/README.md) · [Video](docs/cases/x-felixrieseberg-fable52-saltline/media/video.mp4) | [未公開](docs/cases/x-felixrieseberg-fable52-saltline/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 122 | @felixrieseberg | `x-felixrieseberg-fable52-three-games-saltline-tidew` Three Games 合集页（Saltline / 钟表匠之心 / Tidewright） | [出典](https://x.com/vineerpasam/status/2119955306096857145) | [ケース](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/README.md) · [Video](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/media/video.mp4) | [未公開](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 123 | @Gdgtify | `x-gdgtify-opus55-create-a-20-00-second-kine` Create a 20.00-second kinetic typography film titled “ESCAPE | [出典](https://x.com/Gdgtify/status/2105669567036989608) | [ケース](docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/README.md) · [Video](docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/media/video.mp4) | [原文](docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/prompt.md) | Citing repo lists this under Claude Opus | Three.js / HTML scene captured as vi | Primary X URL listed by yihui-dev/aw | Source link only |
-| 124 | @GodsBoy7777 | `x-godsboy7777-opus55-build-a-single-self-contai` Build a single self-contained HTML file: a 3D marble compute | [出典](https://x.com/GodsBoy7777/status/2103117450854150194) | [ケース](docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/README.md) · [Video](docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/media/video.mp4) | [原文](docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/prompt.md) | Citing repo lists this under Claude Opus | Three.js / HTML scene captured as vi | Primary X URL listed by yihui-dev/aw | Source link only |
-| 125 | @heyiamnick | `x-heyiamnick-opus55-direction-build-a-30-secon` <direction> Build a 30-second looping motion design showreel | [出典](https://x.com/heyiamnick/status/2109174851412119558) | [ケース](docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/README.md) · [Video](docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/media/video.mp4) | [原文](docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/prompt.md) | Citing repo lists this under Claude Opus | Code-made animation captured as vide | Primary X URL listed by yihui-dev/aw | Source link only |
-| 126 | @higgsfield_ai | `x-higgsfield-ai-fable52-vowlorn-rpg` VOWLORN 纯代码暗黑 RPG | [出典](https://x.com/higgsfield_ai/status/2119997122896601269) | [ケース](docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/README.md) · [Video](docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/media/video.mp4) | [未公開](docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 127 | @itspsneha | `x-itspsneha-fable52-clip` 印度维生素该买哪些 | [出典](https://x.com/itspsneha/status/2120048494761451974) | [ケース](docs/cases/x-itspsneha-fable52-clip/README.md) | [未公開](docs/cases/x-itspsneha-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 128 | @jev_chat | `x-jev-chat-fable52-an-acrobat-stack-on-a-bipl` An acrobat stack on a biplane above the clouds, a 3D short i | [出典](https://x.com/jev_chat/status/2120015641151426838) | [ケース](docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/README.md) · [Video](docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/media/video.mp4) | [未公開](docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 129 | @_koushikde_ | `x-koushikde-opus55-make-a-15s-motion-video-in` Make a 15s motion video in code (1920x1080, 60fps, one HTML  | [出典](https://x.com/_koushikde_/status/2105730717455937635) | [ケース](docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/README.md) · [Video](docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/media/video.mp4) | [原文](docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/prompt.md) | Citing repo lists this under Claude Opus | Code-made animation captured as vide | Primary X URL listed by yihui-dev/aw | Source link only |
-| 130 | @LexnLin | `x-lexnlin-fable52-a-flight-through-a-living` A flight through a living world | [出典](https://x.com/LexnLin/status/2119880654858977333) | [ケース](docs/cases/x-lexnlin-fable52-a-flight-through-a-living/README.md) · [Video](docs/cases/x-lexnlin-fable52-a-flight-through-a-living/media/video.mp4) | [未公開](docs/cases/x-lexnlin-fable52-a-flight-through-a-living/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 131 | @LexnLin | `x-lexnlin-fable52-feed-the-backrooms` Feed the Backrooms：你当怪物 | [出典](https://x.com/LexnLin/status/2119966127149429093) | [ケース](docs/cases/x-lexnlin-fable52-feed-the-backrooms/README.md) · [Video](docs/cases/x-lexnlin-fable52-feed-the-backrooms/media/video.mp4) | [未公開](docs/cases/x-lexnlin-fable52-feed-the-backrooms/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 132 | @maxt3chno | `x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b` GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in | [出典](https://x.com/maxt3chno/status/2119896698281467952) | [ケース](docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/README.md) · [Video](docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/media/video.mp4) | [原文](docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by yihui-dev/aw | Source link only |
-| 133 | @MiaAI_lab | `x-miaai-lab-fable52-76-html` 76 个单文件 HTML 视觉作品集 | [出典](https://x.com/MiaAI_lab/status/2119930229661503893) | [ケース](docs/cases/x-miaai-lab-fable52-76-html/README.md) | [未公開](docs/cases/x-miaai-lab-fable52-76-html/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 134 | @MrTacticalX | `x-mrtacticalx-fable52-fable-opus` 玻璃泳池，Fable 对 Opus | [出典](https://x.com/MrTacticalX/status/2119955647542542439) | [ケース](docs/cases/x-mrtacticalx-fable52-fable-opus/README.md) · [Video](docs/cases/x-mrtacticalx-fable52-fable-opus/media/video.mp4) | [未公開](docs/cases/x-mrtacticalx-fable52-fable-opus/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 135 | @noclipepe | `x-noclipepe-fable52-chrome` Chrome 恐龙变兰博 | [出典](https://x.com/noclipepe/status/2119927838321328577) | [ケース](docs/cases/x-noclipepe-fable52-chrome/README.md) · [Video](docs/cases/x-noclipepe-fable52-chrome/media/video.mp4) | [未公開](docs/cases/x-noclipepe-fable52-chrome/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 136 | @noclipepe | `x-noclipepe-fable52-clip` 童年地毯赛车 | [出典](https://x.com/noclipepe/status/2119728047754547326) | [ケース](docs/cases/x-noclipepe-fable52-clip/README.md) · [Video](docs/cases/x-noclipepe-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-noclipepe-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 137 | @notjazii | `x-notjazii-fable52-a-pirate-ship-sailing-acro` A pirate ship sailing across the ocean | [出典](https://x.com/notjazii/status/2119905661505122575) | [ケース](docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/README.md) · [Video](docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/media/video.mp4) | [未公開](docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 138 | @rossaxbt | `x-rossaxbt-opus55-inputs-ask-me-for-a-short` <inputs> Ask me for: a short label for the opening toggle, o | [出典](https://x.com/rossaxbt/status/2107121188027707651) | [ケース](docs/cases/x-rossaxbt-opus55-inputs-ask-me-for-a-short/README.md) | [原文](docs/cases/x-rossaxbt-opus55-inputs-ask-me-for-a-short/prompt.md) | Citing repo lists this under Claude Opus | Three.js / HTML scene captured as vi | Primary X URL listed by yihui-dev/aw | Source link only |
-| 139 | @_sholtodouglas | `x-sholtodouglas-fable52-fps` 带传送门的竞技场 FPS，办公室里对战 | [出典](https://x.com/_sholtodouglas/status/2119935331499925557) | [ケース](docs/cases/x-sholtodouglas-fable52-fps/README.md) · [Video](docs/cases/x-sholtodouglas-fable52-fps/media/video.mp4) | [未公開](docs/cases/x-sholtodouglas-fable52-fps/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 140 | @tokifyi | `x-tokifyi-fable52-clip` 温哥华鸟瞰 | [出典](https://x.com/tokifyi/status/2120020272153764172) | [ケース](docs/cases/x-tokifyi-fable52-clip/README.md) | [未公開](docs/cases/x-tokifyi-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 141 | @twoclipping | `x-twoclipping-opus55-inputs-ask-me-for-my-produ` <inputs> Ask me for: my product's name (one lowercase word), | [出典](https://x.com/twoclipping/status/2106101258834551116) | [ケース](docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/README.md) · [Video](docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/media/video.mp4) | [原文](docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/prompt.md) | Citing repo lists this under Claude Opus | Code-made animation captured as vide | Primary X URL listed by yihui-dev/aw | Source link only |
-| 142 | @ultimaxbt | `x-ultimaxbt-opus55-inputs-ask-me-for-my-produ` <inputs> Ask me for: my product, the exact request a user ty | [出典](https://x.com/ultimaxbt/status/2108210884799549714) | [ケース](docs/cases/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ/README.md) | [原文](docs/cases/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ/prompt.md) | Citing repo lists this under Claude Opus | Three.js / HTML scene captured as vi | Primary X URL listed by yihui-dev/aw | Source link only |
-| 143 | @vib3coded | `x-vib3coded-fable52-clip` 果冻虎鲸材质研究 | [出典](https://x.com/vib3coded/status/2119951060752375827) | [ケース](docs/cases/x-vib3coded-fable52-clip/README.md) · [Video](docs/cases/x-vib3coded-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-vib3coded-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 144 | @vib3coded | `x-vib3coded-fable52-clip-2` 瓶中体素世界 | [出典](https://x.com/vib3coded/status/2120104517282775514) | [ケース](docs/cases/x-vib3coded-fable52-clip-2/README.md) · [Video](docs/cases/x-vib3coded-fable52-clip-2/media/video.mp4) | [未公開](docs/cases/x-vib3coded-fable52-clip-2/prompt.md) | Citing repo lists this under Claude Fabl | Three.js / HTML or Blender scene cap | Primary X URL listed by fengyiqicode | Source link only |
-| 145 | @viktoroddy | `x-viktoroddy-fable52-ribbon-hero` Ribbon Hero 首屏 | [出典](https://x.com/viktoroddy/status/2119985044542705916) | [ケース](docs/cases/x-viktoroddy-fable52-ribbon-hero/README.md) · [Video](docs/cases/x-viktoroddy-fable52-ribbon-hero/media/video.mp4) | [未公開](docs/cases/x-viktoroddy-fable52-ribbon-hero/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
-| 146 | @WesRoth | `x-wesroth-fable52-clip` 一次生成合集 | [出典](https://x.com/WesRoth/status/2119953913160093817) | [ケース](docs/cases/x-wesroth-fable52-clip/README.md) · [Video](docs/cases/x-wesroth-fable52-clip/media/video.mp4) | [未公開](docs/cases/x-wesroth-fable52-clip/prompt.md) | Citing repo lists this under Claude Fabl | Code-made animation captured as vide | Primary X URL listed by fengyiqicode | Source link only |
+| 1 | @himanshutwtxs | `x-himanshutwtxs-fable52-motion-showreel` 1つのプロンプトでモーションデザイナーのショーリール（タイミング、イージング、形、文字） | [出典](https://x.com/himanshutwtxs/status/2120017106804900304) | [ケース](docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md) | [原文](docs/cases/x-himanshutwtxs-fable52-motion-showreel/prompt.md) · [翻訳と原文](docs/translations/x-himanshutwtxs-fable52-motion-showreel.md#ja) | 作者／コミュニティカタログによる申告：Claude Fable 5.2（awes | コードによるモーショングラフィックス · X の動画として収録 | 原投稿の X URL は閲覧可能 · 作者の投稿／awesome-fab | 出典リンクのみ |
+| 2 | @wshuyi | `x-wshuyi-fable52-sabertooth-hunt` 完全にコードで制作したアニメ：サーベルタイガーがバイソンを狩る（効果音もプログラム生成） | [出典](https://x.com/wshuyi/status/2120014892040417720) | [ケース](docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md) | [原文](docs/cases/x-wshuyi-fable52-sabertooth-hunt/prompt.md) · [翻訳と原文](docs/translations/x-wshuyi-fable52-sabertooth-hunt.md#ja) | 作者／コミュニティカタログによる申告：Claude Fable 5.2 | コードのみのアニメーションと合成効果音 · 動画として収録 | 原投稿の X URL は閲覧可能 · プロンプト原文公開済み · 独立し | 出典リンクのみ |
+| 3 | @MengTo（Meng To） | `x-mengto-fable52-blender-apartment` Fable 5.2でThree.jsのアパートをBlenderに再現 | [出典](https://x.com/MengTo/status/2120316203738829180) | [ケース](docs/cases/x-mengto-fable52-blender-apartment/README.md) | [未公開](docs/cases/x-mengto-fable52-blender-apartment/prompt.md) · [翻訳と原文](docs/translations/x-mengto-fable52-blender-apartment.md#ja) | 作者の申告：Fable 5.2（以前はOpus 5.5に夢中だったとも記載） | Claude と Blender で既存の Three.js の室内シー | 原投稿の X URL とメディアのメタデータ · プロンプト未公開 ·  | 出典リンクのみ |
+| 4 | @paleknight（Vraj） | `x-paleknight-fable52-vs-opus55-ship` Fable 5.2とOpus 5.5：同じプロンプトによるThree.jsの船（横並び比較） | [出典](https://x.com/paleknight/status/2120368418805174639) | [ケース](docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md) | [未公開](docs/cases/x-paleknight-fable52-vs-opus55-ship/prompt.md) · [翻訳と原文](docs/translations/x-paleknight-fable52-vs-opus55-ship.md#ja) | 作者の申告：Fable 5.2とOpus 5.5、同じプロンプト、手修正なし | Three.js の帆船アニメーション · 比較映像 | 原投稿の X URL · 同一プロンプトという主張 · 投稿にプロンプト | 出典リンクのみ |
+| 5 | Halil Sekeroglu | `web-halil-fable52-animation-prompts` 各1メッセージで作るFable 5.2のアニメ用プロンプト4種（ロゴ／プロモーション／映画風／3D） | [出典](https://halilsekeroglu.com/en/fable/) | [ケース](docs/cases/web-halil-fable52-animation-prompts/README.md) | [原文](docs/cases/web-halil-fable52-animation-prompts/prompt.md) · [翻訳と原文](docs/translations/web-halil-fable52-animation-prompts.md#ja) | 作者のページ：Fable 5.2によるアニメーション。2026-11-10にcl | 改変用に公開された、1 メッセージで完結する HTML／SVG／Thre | プロンプト原文を掲載した公開ページ · 第三者の GIF 再配信サイトで | 出典リンクのみ |
+| 6 | Ofox | `web-ofox-fable52-svg-sailboat` CSSアニメ付きの編集可能なSVG帆船イラスト（API呼び出し2回） | [出典](https://ofox.ai/blog/claude-fable-5-2-svg-guide/) | [ケース](docs/cases/web-ofox-fable52-svg-sailboat/README.md) | [短い / 部分](docs/cases/web-ofox-fable52-svg-sailboat/prompt.md) · [翻訳と原文](docs/translations/web-ofox-fable52-svg-sailboat.md#ja) | Ofoxのテスト：2026-11-11、anthropic/claude-fab | SVG コードを生成し、ブラウザで #boat に CSS キーフレーム | ガイドに検証表があり、SVG≠GIF と明記 · 記事ではプロンプトを部 | 出典リンクのみ |
+| 7 | James Greene (model comparison archive) | `web-jamesgreene-code1-opus55-isometric-city` アイソメトリック都市の昼夜HTMLループ：Claude Opus 5.5 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-opus55-isometric-city/prompt.md) · [翻訳と原文](docs/translations/web-jamesgreene-code1-opus55-isometric-city.md#ja) | jamesgreene.comによる実行モデルの表示：Claude Opus 5 | 単体で動作する HTML／CSS／JS アニメーション · 同じページに | 公開 HTML 作品と共通の制作指示を掲載 · 本リポジトリによる再実行 | 出典リンクのみ |
+| 8 | @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will） | `x-financeyf5-fable52-bugatti-tourbillon` BlenderでBugatti Tourbillonを制作し、自動車の短編映像へ（Fable 5.2） | [出典](https://x.com/FinanceYF5/status/2120372142147842296) | [ケース](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/README.md) | [原文](docs/cases/x-financeyf5-fable52-bugatti-tourbillon/prompt.md) · [翻訳と原文](docs/translations/x-financeyf5-fable52-bugatti-tourbillon.md#ja) | 原作者@xikhar：Fable 5.2、1つのプロンプトと参照画像、約2.5時 | Blender によるモジュール式自動車モデル、マテリアル、短い 3D  | FinanceYF5 の投稿が @xikhar のプロンプト返信を引用し | 出典リンクのみ |
+| 9 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-fable52-tcell-film` BlenderによるT細胞の生命の映像（12,480フレーム、Fable 5.2） | [出典](https://x.com/DeryaTR_/status/2120382619082727604) | [ケース](docs/cases/x-deryatr-fable52-tcell-film/README.md) | [未公開](docs/cases/x-deryatr-fable52-tcell-film/prompt.md) · [翻訳と原文](docs/translations/x-deryatr-fable52-tcell-film.md#ja) | 作者の申告：Fable 5.2が脚本を執筆し、免疫学の内容を確認、Blender | Blender による細胞の映像、ナレーションと音楽付き · 画面収録 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 10 | @kloss_xyz（klöss） | `x-kloss-fable52-ocean-threejs` 日没から日の出まで動く写実的なThree.jsの海 | [出典](https://x.com/kloss_xyz/status/2120378126740095273) | [ケース](docs/cases/x-kloss-fable52-ocean-threejs/README.md) | [原文](docs/cases/x-kloss-fable52-ocean-threejs/prompt.md) · [翻訳と原文](docs/translations/x-kloss-fable52-ocean-threejs.md#ja) | 作者の申告：Claude Fable 5.2、27分未満 | Three.js による写実的な海のシーン · スマートフォン縦向き動画 | 原投稿の X URL · 作者の返信にプロンプト原文 · 再実行なし | 出典リンクのみ |
+| 11 | @MrTacticalX（Mr Tactical） | `x-mrtactical-fable52-mechanical-keyboard` Blenderでメカニカルキーボードを制作し、タイピングを実演 | [出典](https://x.com/MrTacticalX/status/2120342453807157720) | [ケース](docs/cases/x-mrtactical-fable52-mechanical-keyboard/README.md) | [未公開](docs/cases/x-mrtactical-fable52-mechanical-keyboard/prompt.md) · [翻訳と原文](docs/translations/x-mrtactical-fable52-mechanical-keyboard.md#ja) | 作者の申告：BlenderでClaude Fable 5.2を使用、2時間55分 | Blender によるメカニカルキーボードのモデルとタイピング映像 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 12 | @quxiaoyin（Xiaoyin Qu） | `x-quxiaoyin-fable52-agentsky-film` AgentSkyを描く点光源の3D映像（Blenderとコード） | [出典](https://x.com/quxiaoyin/status/2120341962314150207) | [ケース](docs/cases/x-quxiaoyin-fable52-agentsky-film/README.md) | [未公開](docs/cases/x-quxiaoyin-fable52-agentsky-film/prompt.md) · [翻訳と原文](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja) | 作者の申告：Claude Fable 5.2、3回の不採用を経た第4版。Blen | Blender とコードで制作した点光の映像 · 動画収録 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 13 | @EvanMilenko（Evan） | `x-evanmilenko-fable52-dragon-game` Three.jsでゼロから制作したドラゴンゲーム | [出典](https://x.com/EvanMilenko/status/2120322640048959503) | [ケース](docs/cases/x-evanmilenko-fable52-dragon-game/README.md) | [未公開](docs/cases/x-evanmilenko-fable52-dragon-game/prompt.md) · [翻訳と原文](docs/translations/x-evanmilenko-fable52-dragon-game.md#ja) | 作者の申告：Fable 5.2、Three.jsのドラゴンゲームをゼロから制作 | Three.js のドラゴンゲーム · プレイ映像 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 14 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-fable52-ataturk-remembrance` Fable 5.2による11月10日の追悼映像 | [出典](https://x.com/DeryaTR_/status/2120083276916224014) | [ケース](docs/cases/x-deryatr-fable52-ataturk-remembrance/README.md) | [未公開](docs/cases/x-deryatr-fable52-ataturk-remembrance/prompt.md) · [翻訳と原文](docs/translations/x-deryatr-fable52-ataturk-remembrance.md#ja) | 作者の申告：ムスタファ・ケマル・アタテュルクを追悼する11月10日の映像をFab | Fable 5.2 の映像 · 投稿の収録版 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 15 | @kieranklaassen（Kieran Klaassen） | `x-kieranklaassen-fable52-everycut` Everycut：画面録画、テキストベースの編集、音声ミックスを1つのエディターに | [出典](https://x.com/kieranklaassen/status/2119904489717272680) | [ケース](docs/cases/x-kieranklaassen-fable52-everycut/README.md) | [未公開](docs/cases/x-kieranklaassen-fable52-everycut/prompt.md) · [翻訳と原文](docs/translations/x-kieranklaassen-fable52-everycut.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 16 | @kieranklaassen（Kieran Klaassen） | `x-kieranklaassen-fable52-ableton-push` Ableton Push対応のアンビエント音楽ワークステーション | [出典](https://x.com/kieranklaassen/status/2119868196773929160) | [ケース](docs/cases/x-kieranklaassen-fable52-ableton-push/README.md) | [未公開](docs/cases/x-kieranklaassen-fable52-ableton-push/prompt.md) · [翻訳と原文](docs/translations/x-kieranklaassen-fable52-ableton-push.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 17 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-quadrille-excel` Quadrille：ブラウザーで使うExcel風スプレッドシート | [出典](https://x.com/MatthewBerman/status/2119868642796154944) | [ケース](docs/cases/x-matthewberman-fable52-quadrille-excel/README.md) | [未公開](docs/cases/x-matthewberman-fable52-quadrille-excel/prompt.md) · [翻訳と原文](docs/translations/x-matthewberman-fable52-quadrille-excel.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 18 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-photon-photoshop` Photon：Photoshop風のオンライン画像エディター | [出典](https://x.com/MatthewBerman/status/2119872042053128412) | [ケース](docs/cases/x-matthewberman-fable52-photon-photoshop/README.md) | [未公開](docs/cases/x-matthewberman-fable52-photon-photoshop/prompt.md) · [翻訳と原文](docs/translations/x-matthewberman-fable52-photon-photoshop.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 19 | @felixrieseberg（Felix Rieseberg） | `x-felixrieseberg-fable52-interchange` 架空の団体Interchangeのロゴを20案検討 | [出典](https://x.com/felixrieseberg/status/2119867840878825523) | [ケース](docs/cases/x-felixrieseberg-fable52-interchange/README.md) | [未公開](docs/cases/x-felixrieseberg-fable52-interchange/prompt.md) · [翻訳と原文](docs/translations/x-felixrieseberg-fable52-interchange.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 20 | @emollick（Ethan Mollick） | `x-emollick-fable52-prebid-brief` Prebid Brief：政府の議題から入札前のビジネス機会を探す | [出典](https://x.com/emollick/status/2119870150845599972) | [ケース](docs/cases/x-emollick-fable52-prebid-brief/README.md) | [未公開](docs/cases/x-emollick-fable52-prebid-brief/prompt.md) · [翻訳と原文](docs/translations/x-emollick-fable52-prebid-brief.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 21 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-kestrel-windows` Kestrel：Windows上でローカル動作するタイムラインエディター | [出典](https://x.com/MatthewBerman/status/2119868640879349998) | [ケース](docs/cases/x-matthewberman-fable52-kestrel-windows/README.md) | [未公開](docs/cases/x-matthewberman-fable52-kestrel-windows/prompt.md) · [翻訳と原文](docs/translations/x-matthewberman-fable52-kestrel-windows.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 22 | @The_Alex（Alex） | `x-thealex-fable52-claude` Claudeから呼び出せる編曲ワークステーション | [出典](https://x.com/The_Alex/status/2119917226769985785) | [ケース](docs/cases/x-thealex-fable52-claude/README.md) | [未公開](docs/cases/x-thealex-fable52-claude/prompt.md) · [翻訳と原文](docs/translations/x-thealex-fable52-claude.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 23 | @clairevo（claire vo 🖤） | `x-clairevo-fable52-typed-page` typed.page：紙、インクリボン、執筆タイマーを備えたウェブタイプライター | [出典](https://x.com/clairevo/status/2119905651359142132) | [ケース](docs/cases/x-clairevo-fable52-typed-page/README.md) | [未公開](docs/cases/x-clairevo-fable52-typed-page/prompt.md) · [翻訳と原文](docs/translations/x-clairevo-fable52-typed-page.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 24 | @s_matysik（Sebastian Matysik） | `x-smatysik-fable52-213380` エージェントのデータスナップショットから指令ダッシュボードを生成 | [出典](https://x.com/s_matysik/status/2119909371484213380) | [ケース](docs/cases/x-smatysik-fable52-213380/README.md) | [未公開](docs/cases/x-smatysik-fable52-213380/prompt.md) · [翻訳と原文](docs/translations/x-smatysik-fable52-213380.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 25 | @every（Every 📧） | `x-every-fable52-checks` 週末を丸ごと任せ、エージェントにChecksを75項目改修させる | [出典](https://x.com/every/status/2119928286465892357) | [ケース](docs/cases/x-every-fable52-checks/README.md) | [未公開](docs/cases/x-every-fable52-checks/prompt.md) · [翻訳と原文](docs/translations/x-every-fable52-checks.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 26 | @clairevo（claire vo 🖤） | `x-clairevo-fable52-chatprd` ChatPRDの製品情報収集・分析パイプラインを再構築 | [出典](https://x.com/clairevo/status/2119891385784619405) | [ケース](docs/cases/x-clairevo-fable52-chatprd/README.md) | [未公開](docs/cases/x-clairevo-fable52-chatprd/prompt.md) · [翻訳と原文](docs/translations/x-clairevo-fable52-chatprd.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 27 | @The_Alex（Alex） | `x-thealex-fable52-pane-youtube-twitch` Pane：オープンソースのYouTube・Twitchプレーヤー | [出典](https://x.com/The_Alex/status/2119867572875350134) | [ケース](docs/cases/x-thealex-fable52-pane-youtube-twitch/README.md) | [未公開](docs/cases/x-thealex-fable52-pane-youtube-twitch/prompt.md) · [翻訳と原文](docs/translations/x-thealex-fable52-pane-youtube-twitch.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 28 | @Webilyco（Magda） | `x-webilyco-fable52-kontur` KONTUR：建築サービスのページを、動きのあるプロジェクト体験に | [出典](https://x.com/Webilyco/status/2119909604431626667) | [ケース](docs/cases/x-webilyco-fable52-kontur/README.md) | [未公開](docs/cases/x-webilyco-fable52-kontur/prompt.md) · [翻訳と原文](docs/translations/x-webilyco-fable52-kontur.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 29 | @pwnies（Jacob Miller） | `x-pwnies-fable52-fable-opus` 同じ参照画像からのウェブ再現をFableとOpusで比較 | [出典](https://x.com/pwnies/status/2119887535421980695) | [ケース](docs/cases/x-pwnies-fable52-fable-opus/README.md) | [未公開](docs/cases/x-pwnies-fable52-fable-opus/prompt.md) · [翻訳と原文](docs/translations/x-pwnies-fable52-fable-opus.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 30 | @petergyang（Peter Yang） | `x-petergyang-fable52-fable-opus` 同じウェブサイト改修課題でFableとOpusを比較 | [出典](https://x.com/petergyang/status/2119870223562191289) | [ケース](docs/cases/x-petergyang-fable52-fable-opus/README.md) | [未公開](docs/cases/x-petergyang-fable52-fable-opus/prompt.md) · [翻訳と原文](docs/translations/x-petergyang-fable52-fable-opus.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 31 | @DoctorYev（Yev Marusenko） | `x-doctoryev-fable52-uare` Uare：1つの宣伝依頼から約64秒の発表映像を制作 | [出典](https://x.com/DoctorYev/status/2119895951108423801) | [ケース](docs/cases/x-doctoryev-fable52-uare/README.md) | [未公開](docs/cases/x-doctoryev-fable52-uare/prompt.md) · [翻訳と原文](docs/translations/x-doctoryev-fable52-uare.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 32 | @al_maxgo（Al Maxgo） | `x-almaxgo-fable52-fbplot` FBPlot：コードベース内の実際のグラフを製品ティーザー映像に | [出典](https://x.com/al_maxgo/status/2119891197317591040) | [ケース](docs/cases/x-almaxgo-fable52-fbplot/README.md) | [未公開](docs/cases/x-almaxgo-fable52-fbplot/prompt.md) · [翻訳と原文](docs/translations/x-almaxgo-fable52-fbplot.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 33 | @every（Every 📧） | `x-every-fable52-high-max` HighとMax設定による同じウェブデザイン群をブラインド評価 | [出典](https://x.com/every/status/2119939866314289555) | [ケース](docs/cases/x-every-fable52-high-max/README.md) | [未公開](docs/cases/x-every-fable52-high-max/prompt.md) · [翻訳と原文](docs/translations/x-every-fable52-high-max.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 34 | @alexalbert__（Alex Albert） | `x-alexalbert-fable52-pdf` レオナルド・ダ・ヴィンチの手稿PDFを操作できる発明に | [出典](https://x.com/alexalbert__/status/2119916954337349737) | [ケース](docs/cases/x-alexalbert-fable52-pdf/README.md) | [未公開](docs/cases/x-alexalbert-fable52-pdf/prompt.md) · [翻訳と原文](docs/translations/x-alexalbert-fable52-pdf.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 35 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-378471` 約50秒のモーショングラフィックスで大規模言語モデルを解説 | [出典](https://x.com/MatthewBerman/status/2119868633086378471) | [ケース](docs/cases/x-matthewberman-fable52-378471/README.md) | [未公開](docs/cases/x-matthewberman-fable52-378471/prompt.md) · [翻訳と原文](docs/translations/x-matthewberman-fable52-378471.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 36 | @kieranklaassen（Kieran Klaassen） | `x-kieranklaassen-fable52-first-crush` First Crush：ワイン醸造の工程をゲームに | [出典](https://x.com/kieranklaassen/status/2119871673294037280) | [ケース](docs/cases/x-kieranklaassen-fable52-first-crush/README.md) | [未公開](docs/cases/x-kieranklaassen-fable52-first-crush/prompt.md) · [翻訳と原文](docs/translations/x-kieranklaassen-fable52-first-crush.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 37 | @rileybrown（Riley Brown） | `x-rileybrown-fable52-the-history-writing` 『The History of Writing』：文字の歴史を96秒のアニメに | [出典](https://x.com/rileybrown/status/2119946022767980985) | [ケース](docs/cases/x-rileybrown-fable52-the-history-writing/README.md) | [未公開](docs/cases/x-rileybrown-fable52-the-history-writing/prompt.md) · [翻訳と原文](docs/translations/x-rileybrown-fable52-the-history-writing.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 38 | @SimonasLTU1（Simonas） | `x-simonasltu1-fable52-three` Three.jsで操作可能な人体解剖ビューアーを制作 | [出典](https://x.com/SimonasLTU1/status/2119891671219622262) | [ケース](docs/cases/x-simonasltu1-fable52-three/README.md) | [未公開](docs/cases/x-simonasltu1-fable52-three/prompt.md) · [翻訳と原文](docs/translations/x-simonasltu1-fable52-three.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js, HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 39 | @aakashverma（Aakash Verma） | `x-aakashverma-fable52-fable-anthropic` Anthropicの歴史映像にFable 5.2の発表を追加 | [出典](https://x.com/aakashverma/status/2119874895836524593) | [ケース](docs/cases/x-aakashverma-fable52-fable-anthropic/README.md) | [未公開](docs/cases/x-aakashverma-fable52-fable-anthropic/prompt.md) · [翻訳と原文](docs/translations/x-aakashverma-fable52-fable-anthropic.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Python | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 40 | @akshatbahety（Akshat Bahety） | `x-akshatbahety-fable52-fal` Falで生成したナレーションと音声による30秒の図解映像 | [出典](https://x.com/akshatbahety/status/2119882437740421456) | [ケース](docs/cases/x-akshatbahety-fable52-fal/README.md) | [未公開](docs/cases/x-akshatbahety-fable52-fal/prompt.md) · [翻訳と原文](docs/translations/x-akshatbahety-fable52-fal.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 41 | @kplikethebird（Katie Parrott） | `x-kplikethebird-fable52-blender` Blenderで紀元1世紀のエルサレムの街区を再現 | [出典](https://x.com/kplikethebird/status/2119900775727902732) | [ケース](docs/cases/x-kplikethebird-fable52-blender/README.md) | [未公開](docs/cases/x-kplikethebird-fable52-blender/prompt.md) · [翻訳と原文](docs/translations/x-kplikethebird-fable52-blender.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Blender, HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 42 | @rileybrown（Riley Brown） | `x-rileybrown-fable52-the-edge-blender` 『The Edge』：Blenderとウェブで制作した13ショットの短編 | [出典](https://x.com/rileybrown/status/2119902109709537708) | [ケース](docs/cases/x-rileybrown-fable52-the-edge-blender/README.md) | [未公開](docs/cases/x-rileybrown-fable52-the-edge-blender/prompt.md) · [翻訳と原文](docs/translations/x-rileybrown-fable52-the-edge-blender.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Blender, HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 43 | @0kncn（Okan Can） | `x-0kncn-fable52-543073` 90秒の蒸気機関車変形映像。完全なプロンプトを掲載 | [出典](https://x.com/0kncn/status/2119901782482543073) | [ケース](docs/cases/x-0kncn-fable52-543073/README.md) | [未公開](docs/cases/x-0kncn-fable52-543073/prompt.md) · [翻訳と原文](docs/translations/x-0kncn-fable52-543073.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Blender, Python | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 44 | @petergyang（Peter Yang） | `x-petergyang-fable52-854431` 京都・伏見稲荷：コードで制作した20秒の観光PR映像 | [出典](https://x.com/petergyang/status/2119886560992854431) | [ケース](docs/cases/x-petergyang-fable52-854431/README.md) | [未公開](docs/cases/x-petergyang-fable52-854431/prompt.md) · [翻訳と原文](docs/translations/x-petergyang-fable52-854431.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 45 | @AmirMushich（AmirMušić） | `x-amirmushich-fable52-blender-reaper` Blender×Reaper：スマホの録音を3D映像の効果音に | [出典](https://x.com/AmirMushich/status/2119903338078564844) | [ケース](docs/cases/x-amirmushich-fable52-blender-reaper/README.md) | [未公開](docs/cases/x-amirmushich-fable52-blender-reaper/prompt.md) · [翻訳と原文](docs/translations/x-amirmushich-fable52-blender-reaper.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Blender | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 46 | @jkeatn（Jake Eaton） | `x-jkeatn-fable52-python` Pythonで筆をシミュレートし、架空の画家の作風で描く | [出典](https://x.com/jkeatn/status/2119874007382299087) | [ケース](docs/cases/x-jkeatn-fable52-python/README.md) | [未公開](docs/cases/x-jkeatn-fable52-python/prompt.md) · [翻訳と原文](docs/translations/x-jkeatn-fable52-python.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Python | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 47 | @The_Alex（Alex） | `x-thealex-fable52-203554` トーク映像を9:16に編集し、モーショングラフィックスもエージェントに任せる | [出典](https://x.com/The_Alex/status/2119867570669203554) | [ケース](docs/cases/x-thealex-fable52-203554/README.md) | [未公開](docs/cases/x-thealex-fable52-203554/prompt.md) · [翻訳と原文](docs/translations/x-thealex-fable52-203554.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 48 | @danshipper（Dan Shipper） | `x-danshipper-fable52-546638` エージェントが研究者に取材し、録音をドキュメンタリーに編集 | [出典](https://x.com/danshipper/status/2119869228207546638) | [ケース](docs/cases/x-danshipper-fable52-546638/README.md) | [未公開](docs/cases/x-danshipper-fable52-546638/prompt.md) · [翻訳と原文](docs/translations/x-danshipper-fable52-546638.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 49 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-892403` 記事を仮想展示室に配置し、約4分44秒の映像に | [出典](https://x.com/mattshumer_/status/2119884041331892403) | [ケース](docs/cases/x-mattshumer-fable52-892403/README.md) | [未公開](docs/cases/x-mattshumer-fable52-892403/prompt.md) · [翻訳と原文](docs/translations/x-mattshumer-fable52-892403.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 50 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-828670` 約49分のコードで作った映画 | [出典](https://x.com/mattshumer_/status/2119900920347828670) | [ケース](docs/cases/x-mattshumer-fable52-828670/README.md) | [未公開](docs/cases/x-mattshumer-fable52-828670/prompt.md) · [翻訳と原文](docs/translations/x-mattshumer-fable52-828670.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 51 | @YinYangYoeshi（Yoeshi） | `x-yinyangyoeshi-fable52-discovery` 『Discovery』：3Dの部屋を舞台に展開するコード制作の短編 | [出典](https://x.com/YinYangYoeshi/status/2119897840965001317) | [ケース](docs/cases/x-yinyangyoeshi-fable52-discovery/README.md) | [未公開](docs/cases/x-yinyangyoeshi-fable52-discovery/prompt.md) · [翻訳と原文](docs/translations/x-yinyangyoeshi-fable52-discovery.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 52 | @danteeonsol（Dante） | `x-danteeonsol-fable52-remotion-three-ufo` RemotionとThree.jsでUFOのエリア51訪問を制作 | [出典](https://x.com/danteeonsol/status/2119887623070077213) | [ケース](docs/cases/x-danteeonsol-fable52-remotion-three-ufo/README.md) | [未公開](docs/cases/x-danteeonsol-fable52-remotion-three-ufo/prompt.md) · [翻訳と原文](docs/translations/x-danteeonsol-fable52-remotion-three-ufo.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js, Remotion | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 53 | @anstapnever（anstap） | `x-anstapnever-fable52-blackout-three` 『Blackout』：Three.jsで作った79秒の2Dアニメ | [出典](https://x.com/anstapnever/status/2119915123070644263) | [ケース](docs/cases/x-anstapnever-fable52-blackout-three/README.md) | [未公開](docs/cases/x-anstapnever-fable52-blackout-three/prompt.md) · [翻訳と原文](docs/translations/x-anstapnever-fable52-blackout-three.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 54 | @kevin_t_ngo（Kevin Ngo） | `x-kevintngo-fable52-python-blender` PythonとBlenderで1990年代風のおもちゃCMを制作 | [出典](https://x.com/kevin_t_ngo/status/2119972124211454139) | [ケース](docs/cases/x-kevintngo-fable52-python-blender/README.md) | [未公開](docs/cases/x-kevintngo-fable52-python-blender/prompt.md) · [翻訳と原文](docs/translations/x-kevintngo-fable52-python-blender.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Blender, Python | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 55 | @kevin_t_ngo（Kevin Ngo） | `x-kevintngo-fable52-javascript` JavaScriptで約100秒のアニメを1フレームずつ描く | [出典](https://x.com/kevin_t_ngo/status/2119938129079808282) | [ケース](docs/cases/x-kevintngo-fable52-javascript/README.md) | [未公開](docs/cases/x-kevintngo-fable52-javascript/prompt.md) · [翻訳と原文](docs/translations/x-kevintngo-fable52-javascript.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · JavaScript | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 56 | @DanielZambrini（Daniel Zambrini） | `x-danielzambrini-fable52-fable-opus` 15秒の棒人間バトル。FableとOpusの費用比較も掲載 | [出典](https://x.com/DanielZambrini/status/2119893834276507954) | [ケース](docs/cases/x-danielzambrini-fable52-fable-opus/README.md) | [未公開](docs/cases/x-danielzambrini-fable52-fable-opus/prompt.md) · [翻訳と原文](docs/translations/x-danielzambrini-fable52-fable-opus.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 57 | @Maaaaaaadiii（Hammad Hanif） | `x-maaaaaaadiii-fable52-714946` ステッカーから吊りチェーン、ベルの音まで、プログラムで動く看板を制作 | [出典](https://x.com/Maaaaaaadiii/status/2119885527243714946) | [ケース](docs/cases/x-maaaaaaadiii-fable52-714946/README.md) | [未公開](docs/cases/x-maaaaaaadiii-fable52-714946/prompt.md) · [翻訳と原文](docs/translations/x-maaaaaaadiii-fable52-714946.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 58 | @Scratcherrrr（Catcher of your mind） | `x-scratcherrrr-fable52-piranha` Piranha P-7：分解できるピラニアをコードで制作 | [出典](https://x.com/Scratcherrrr/status/2119909780269785332) | [ケース](docs/cases/x-scratcherrrr-fable52-piranha/README.md) | [未公開](docs/cases/x-scratcherrrr-fable52-piranha/prompt.md) · [翻訳と原文](docs/translations/x-scratcherrrr-fable52-piranha.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js, Blender | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 59 | @QRoonjha（Qaisar Roonjha） | `x-qroonjha-fable52-501697` 約5秒のストップモーション風アニメ実験 | [出典](https://x.com/QRoonjha/status/2119883978962501697) | [ケース](docs/cases/x-qroonjha-fable52-501697/README.md) | [未公開](docs/cases/x-qroonjha-fable52-501697/prompt.md) · [翻訳と原文](docs/translations/x-qroonjha-fable52-501697.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 60 | @hello_amani（Amani • Design Partner） | `x-helloamani-fable52-237842` 金属質感のロゴを3Dモーショングラフィックスに | [出典](https://x.com/hello_amani/status/2119873980786237842) | [ケース](docs/cases/x-helloamani-fable52-237842/README.md) | [未公開](docs/cases/x-helloamani-fable52-237842/prompt.md) · [翻訳と原文](docs/translations/x-helloamani-fable52-237842.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 61 | @ericskavinski（Eric Skavinski） | `x-ericskavinski-fable52-three` Three.jsで夕日と海面の反射を描く | [出典](https://x.com/ericskavinski/status/2119895601580016005) | [ケース](docs/cases/x-ericskavinski-fable52-three/README.md) | [未公開](docs/cases/x-ericskavinski-fable52-three/prompt.md) · [翻訳と原文](docs/translations/x-ericskavinski-fable52-three.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 62 | @chetaslua | `x-chetaslua-fable52-808368` コードで描いた4枚の絵を、横並びのアニメとして展示 | [出典](https://x.com/chetaslua/status/2119981510199808368) | [ケース](docs/cases/x-chetaslua-fable52-808368/README.md) | [未公開](docs/cases/x-chetaslua-fable52-808368/prompt.md) · [翻訳と原文](docs/translations/x-chetaslua-fable52-808368.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 63 | @amihai（Amichai Mantinband） | `x-amihai-fable52-205099` 空のキャンバスを渡し、モデル自身に題材と構図を選ばせる | [出典](https://x.com/amihai/status/2119894821255205099) | [ケース](docs/cases/x-amihai-fable52-205099/README.md) | [未公開](docs/cases/x-amihai-fable52-205099/prompt.md) · [翻訳と原文](docs/translations/x-amihai-fable52-205099.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 64 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-928106` 12本の漫画実験。作者が満足していない版も公開 | [出典](https://x.com/ForwardEditor/status/2119867791150928106) | [ケース](docs/cases/x-forwardeditor-fable52-928106/README.md) | [未公開](docs/cases/x-forwardeditor-fable52-928106/prompt.md) · [翻訳と原文](docs/translations/x-forwardeditor-fable52-928106.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 65 | @petergyang（Peter Yang） | `x-petergyang-fable52-turbo-tails` Turbo Tails：ドリフトとアイテムを備えたブラウザーカートレース | [出典](https://x.com/petergyang/status/2119901658394358005) | [ケース](docs/cases/x-petergyang-fable52-turbo-tails/README.md) | [未公開](docs/cases/x-petergyang-fable52-turbo-tails/prompt.md) · [翻訳と原文](docs/translations/x-petergyang-fable52-turbo-tails.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 66 | @emollick（Ethan Mollick） | `x-emollick-fable52-scooby-doo` Scooby-Dooの立場を逆転。調査する子どもたちをプレーヤーが追い払う | [出典](https://x.com/emollick/status/2119876449494540554) | [ケース](docs/cases/x-emollick-fable52-scooby-doo/README.md) | [未公開](docs/cases/x-emollick-fable52-scooby-doo/prompt.md) · [翻訳と原文](docs/translations/x-emollick-fable52-scooby-doo.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 67 | @argofowl（🥔🥔🥔） | `x-argofowl-fable52-spud-smash` SPUD SMASH：ジャガイモが部屋の青い椅子を破壊 | [出典](https://x.com/argofowl/status/2119913148929187960) | [ケース](docs/cases/x-argofowl-fable52-spud-smash/README.md) | [未公開](docs/cases/x-argofowl-fable52-spud-smash/prompt.md) · [翻訳と原文](docs/translations/x-argofowl-fable52-spud-smash.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 68 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-hogwarts-royale` Hogwarts Royale：ホグワーツとバトルロイヤルを組み合わせる | [出典](https://x.com/mattshumer_/status/2119872098306810226) | [ケース](docs/cases/x-mattshumer-fable52-hogwarts-royale/README.md) | [未公開](docs/cases/x-mattshumer-fable52-hogwarts-royale/prompt.md) · [翻訳と原文](docs/translations/x-mattshumer-fable52-hogwarts-royale.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 69 | @felixrieseberg（Felix Rieseberg） | `x-felixrieseberg-fable52-352596` FPSなどのゲームサンプルを初版のまま保存 | [出典](https://x.com/felixrieseberg/status/2119867839033352596) | [ケース](docs/cases/x-felixrieseberg-fable52-352596/README.md) | [未公開](docs/cases/x-felixrieseberg-fable52-352596/prompt.md) · [翻訳と原文](docs/translations/x-felixrieseberg-fable52-352596.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 70 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-unreal-engine` Unreal Engineで『Gears of War』風シューティングの試作 | [出典](https://x.com/MatthewBerman/status/2119868629491789992) | [ケース](docs/cases/x-matthewberman-fable52-unreal-engine/README.md) | [未公開](docs/cases/x-matthewberman-fable52-unreal-engine/prompt.md) · [翻訳と原文](docs/translations/x-matthewberman-fable52-unreal-engine.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 71 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-254665` 『Fall Guys』風の障害物コースゲームの試作 | [出典](https://x.com/MatthewBerman/status/2119868630989254665) | [ケース](docs/cases/x-matthewberman-fable52-254665/README.md) | [未公開](docs/cases/x-matthewberman-fable52-254665/prompt.md) · [翻訳と原文](docs/translations/x-matthewberman-fable52-254665.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 72 | @AmirMushich（AmirMušić） | `x-amirmushich-fable52-worm-rider` Worm Rider：サンドワーム、車列、地形をコードで生成 | [出典](https://x.com/AmirMushich/status/2119937977426338283) | [ケース](docs/cases/x-amirmushich-fable52-worm-rider/README.md) | [未公開](docs/cases/x-amirmushich-fable52-worm-rider/prompt.md) · [翻訳と原文](docs/translations/x-amirmushich-fable52-worm-rider.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js, HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 73 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-483384` 1つのプロンプトで始動するボクセル破壊エンジン | [出典](https://x.com/mattshumer_/status/2119870965106483384) | [ケース](docs/cases/x-mattshumer-fable52-483384/README.md) | [未公開](docs/cases/x-mattshumer-fable52-483384/prompt.md) · [翻訳と原文](docs/translations/x-mattshumer-fable52-483384.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 74 | @theo（Theo - t3.gg） | `x-theo-fable52-fishslop-fable-opus` Fishslop：同じ水槽ゲームをFableとOpusで比較 | [出典](https://x.com/theo/status/2119926277801144695) | [ケース](docs/cases/x-theo-fable52-fishslop-fable-opus/README.md) | [未公開](docs/cases/x-theo-fable52-fishslop-fable-opus/prompt.md) · [翻訳と原文](docs/translations/x-theo-fable52-fishslop-fable-opus.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 75 | @emollick（Ethan Mollick） | `x-emollick-fable52-portals` Portals：ポータルを抜け、コードで作った471の世界へ飛ぶ | [出典](https://x.com/emollick/status/2119918307457577163) | [ケース](docs/cases/x-emollick-fable52-portals/README.md) | [未公開](docs/cases/x-emollick-fable52-portals/prompt.md) · [翻訳と原文](docs/translations/x-emollick-fable52-portals.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 76 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-webgl` 水入り風船を弾丸が貫く様子をWebGLで実演 | [出典](https://x.com/MatthewBerman/status/2119868636810953017) | [ケース](docs/cases/x-matthewberman-fable52-webgl/README.md) | [未公開](docs/cases/x-matthewberman-fable52-webgl/prompt.md) · [翻訳と原文](docs/translations/x-matthewberman-fable52-webgl.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 77 | @dom_scholz（Dominik Scholz） | `x-domscholz-fable52-ultramarine` Ultramarine：同じ3D課題で2世代のモデルを比較 | [出典](https://x.com/dom_scholz/status/2119933150025363661) | [ケース](docs/cases/x-domscholz-fable52-ultramarine/README.md) | [未公開](docs/cases/x-domscholz-fable52-ultramarine/prompt.md) · [翻訳と原文](docs/translations/x-domscholz-fable52-ultramarine.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 78 | @kevin_t_ngo（Kevin Ngo） | `x-kevintngo-fable52-gilt-gutter` Gilt & Gutter：弾薬の色を使った1対1の射撃システム | [出典](https://x.com/kevin_t_ngo/status/2119900487688622171) | [ケース](docs/cases/x-kevintngo-fable52-gilt-gutter/README.md) | [未公開](docs/cases/x-kevintngo-fable52-gilt-gutter/prompt.md) · [翻訳と原文](docs/translations/x-kevintngo-fable52-gilt-gutter.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 79 | @kevin_t_ngo（Kevin Ngo） | `x-kevintngo-fable52-what-the-water-keeps` What the Water Keeps：船で8つの夢の場面を巡る | [出典](https://x.com/kevin_t_ngo/status/2119868968307695818) | [ケース](docs/cases/x-kevintngo-fable52-what-the-water-keeps/README.md) | [未公開](docs/cases/x-kevintngo-fable52-what-the-water-keeps/prompt.md) · [翻訳と原文](docs/translations/x-kevintngo-fable52-what-the-water-keeps.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 80 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-vibe-check-delivery` Vibe Check Delivery：3つのモデルが同じ課題で新聞配達ゲームを制作 | [出典](https://x.com/hammer_mt/status/2119906441389826445) | [ケース](docs/cases/x-hammermt-fable52-vibe-check-delivery/README.md) | [未公開](docs/cases/x-hammermt-fable52-vibe-check-delivery/prompt.md) · [翻訳と原文](docs/translations/x-hammermt-fable52-vibe-check-delivery.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 81 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-mirror-earth` Mirror Earth：実際の地球を破壊可能なゲームマップに | [出典](https://x.com/mattshumer_/status/2119877065701036047) | [ケース](docs/cases/x-mattshumer-fable52-mirror-earth/README.md) | [未公開](docs/cases/x-mattshumer-fable52-mirror-earth/prompt.md) · [翻訳と原文](docs/translations/x-mattshumer-fable52-mirror-earth.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · HTML | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 82 | @marcthecreatorr（Marcel） | `x-marcthecreatorr-fable52-054072` ウェブページでコード生成の3D帆船を見る | [出典](https://x.com/marcthecreatorr/status/2119890973560054072) | [ケース](docs/cases/x-marcthecreatorr-fable52-054072/README.md) | [未公開](docs/cases/x-marcthecreatorr-fable52-054072/prompt.md) · [翻訳と原文](docs/translations/x-marcthecreatorr-fable52-054072.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js, Blender,  | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 83 | @ericmaskfr（eric） | `x-ericmaskfr-fable52-481026` 1980年代のマイアミ風オープンシティとミッションシステム | [出典](https://x.com/ericmaskfr/status/2119910195325481026) | [ケース](docs/cases/x-ericmaskfr-fable52-481026/README.md) | [未公開](docs/cases/x-ericmaskfr-fable52-481026/prompt.md) · [翻訳と原文](docs/translations/x-ericmaskfr-fable52-481026.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Python | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 84 | @FaridaNever（Farida） | `x-faridanever-fable52-505730` 水墨画の山景色を進む三人称視点の剣士 | [出典](https://x.com/FaridaNever/status/2119910055990505730) | [ケース](docs/cases/x-faridanever-fable52-505730/README.md) | [未公開](docs/cases/x-faridanever-fable52-505730/prompt.md) · [翻訳と原文](docs/translations/x-faridanever-fable52-505730.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 85 | @mihawkxxxxx（mihawkxxx） | `x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker` Roblox MCPで『The Clockmaker’s Mansion』と予告編を制作 | [出典](https://x.com/mihawkxxxxx/status/2119909865296699749) | [ケース](docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/README.md) | [未公開](docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/prompt.md) · [翻訳と原文](docs/translations/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 86 | @geneohms（Gene） | `x-geneohms-fable52-685102` スマホから依頼し、コンピューターと対戦できる盤面を作成 | [出典](https://x.com/geneohms/status/2119910054413685102) | [ケース](docs/cases/x-geneohms-fable52-685102/README.md) | [未公開](docs/cases/x-geneohms-fable52-685102/prompt.md) · [翻訳と原文](docs/translations/x-geneohms-fable52-685102.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 87 | @itssotsot（Sotiris Kaniras） | `x-itssotsot-fable52-big-little-adventure` Big Little Adventure：家具が小さなキャラクターのステージに | [出典](https://x.com/itssotsot/status/2119909017216491720) | [ケース](docs/cases/x-itssotsot-fable52-big-little-adventure/README.md) | [未公開](docs/cases/x-itssotsot-fable52-big-little-adventure/prompt.md) · [翻訳と原文](docs/translations/x-itssotsot-fable52-big-little-adventure.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 88 | @nikodemszymansk（Nikodem / AI Creator） | `x-nikodemszymansk-fable52-tokyo-night` Tokyo Night GP：濡れた路面の反射がある3周のナイトレース | [出典](https://x.com/nikodemszymansk/status/2119880518875435022) | [ケース](docs/cases/x-nikodemszymansk-fable52-tokyo-night/README.md) | [未公開](docs/cases/x-nikodemszymansk-fable52-tokyo-night/prompt.md) · [翻訳と原文](docs/translations/x-nikodemszymansk-fable52-tokyo-night.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 89 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-zero` 既存のF-Zero風レースに金属の爪を使ったドリフトと瞬間移動を追加 | [出典](https://x.com/ForwardEditor/status/2119867747425194377) | [ケース](docs/cases/x-forwardeditor-fable52-zero/README.md) | [未公開](docs/cases/x-forwardeditor-fable52-zero/prompt.md) · [翻訳と原文](docs/translations/x-forwardeditor-fable52-zero.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 90 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-sorted-ios` Sorted!：ソリティアに着想を得たiOSプロトタイプ | [出典](https://x.com/ForwardEditor/status/2119867782238212524) | [ケース](docs/cases/x-forwardeditor-fable52-sorted-ios/README.md) | [未公開](docs/cases/x-forwardeditor-fable52-sorted-ios/prompt.md) · [翻訳と原文](docs/translations/x-forwardeditor-fable52-sorted-ios.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 91 | @The_Alex（Alex） | `x-thealex-fable52-177920` 『時のオカリナ』風の3Dアドベンチャーを制作 | [出典](https://x.com/The_Alex/status/2119867568253177920) | [ケース](docs/cases/x-thealex-fable52-177920/README.md) | [未公開](docs/cases/x-thealex-fable52-177920/prompt.md) · [翻訳と原文](docs/translations/x-thealex-fable52-177920.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 92 | @The_Alex（Alex） | `x-thealex-fable52-melee` スマホでMelee風の対戦ゲームを試作 | [出典](https://x.com/The_Alex/status/2119867574972551309) | [ケース](docs/cases/x-thealex-fable52-melee/README.md) | [未公開](docs/cases/x-thealex-fable52-melee/prompt.md) · [翻訳と原文](docs/translations/x-thealex-fable52-melee.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 93 | @The_Alex（Alex） | `x-thealex-fable52-821398` マリオの要素を取り入れた見下ろし型サバイバルゲームの試作 | [出典](https://x.com/The_Alex/status/2119867576985821398) | [ケース](docs/cases/x-thealex-fable52-821398/README.md) | [未公開](docs/cases/x-thealex-fable52-821398/prompt.md) · [翻訳と原文](docs/translations/x-thealex-fable52-821398.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 94 | @MatthewBerman（Matthew Berman） | `x-matthewberman-fable52-060195` 住民と会話できる3Dのヨーロッパ風村を構築 | [出典](https://x.com/MatthewBerman/status/2119868638929060195) | [ケース](docs/cases/x-matthewberman-fable52-060195/README.md) | [未公開](docs/cases/x-matthewberman-fable52-060195/prompt.md) · [翻訳と原文](docs/translations/x-matthewberman-fable52-060195.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 95 | @BeamManP（ビームマンＰ ver40） | `x-beammanp-fable52-wasd-three` WASDとスペースキーでThree.jsの戦車を操作 | [出典](https://x.com/BeamManP/status/2119879390322622583) | [ケース](docs/cases/x-beammanp-fable52-wasd-three/README.md) | [未公開](docs/cases/x-beammanp-fable52-wasd-three/prompt.md) · [翻訳と原文](docs/translations/x-beammanp-fable52-wasd-three.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 96 | @ilya_sb1（Ilya Rzhevskiy） | `x-ilyasb1-fable52-orbital-data-node` Orbital Data Node 07：データセンターを宇宙へ | [出典](https://x.com/ilya_sb1/status/2119878436529246669) | [ケース](docs/cases/x-ilyasb1-fable52-orbital-data-node/README.md) | [未公開](docs/cases/x-ilyasb1-fable52-orbital-data-node/prompt.md) · [翻訳と原文](docs/translations/x-ilyasb1-fable52-orbital-data-node.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 · Three.js | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 97 | @NFT_Chen（SuSu_酥酥👅） | `x-nftchen-fable52-609967` 自転車に乗るペリカンに速度調節、ライト、ベルを追加 | [出典](https://x.com/NFT_Chen/status/2119897058597609967) | [ケース](docs/cases/x-nftchen-fable52-609967/README.md) | [未公開](docs/cases/x-nftchen-fable52-609967/prompt.md) · [翻訳と原文](docs/translations/x-nftchen-fable52-609967.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 98 | @petergostev（Peter Gostev） | `x-petergostev-fable52-max` Max設定でイスタンブールの水辺散策を制作 | [出典](https://x.com/petergostev/status/2119877733488394520) | [ケース](docs/cases/x-petergostev-fable52-max/README.md) | [未公開](docs/cases/x-petergostev-fable52-max/prompt.md) · [翻訳と原文](docs/translations/x-petergostev-fable52-max.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 99 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-163994` ドラゴンに乗って浮島から飛び降り、視点と飛行感を検証 | [出典](https://x.com/ForwardEditor/status/2119867743965163994) | [ケース](docs/cases/x-forwardeditor-fable52-163994/README.md) | [未公開](docs/cases/x-forwardeditor-fable52-163994/prompt.md) · [翻訳と原文](docs/translations/x-forwardeditor-fable52-163994.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 100 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-346319` 3Dマップで『アベンジャーズ』のニューヨーク決戦を振り返る | [出典](https://x.com/hammer_mt/status/2119871817561346319) | [ケース](docs/cases/x-hammermt-fable52-346319/README.md) | [未公開](docs/cases/x-hammermt-fable52-346319/prompt.md) · [翻訳と原文](docs/translations/x-hammermt-fable52-346319.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 101 | @claudeai（Claude） | `x-claudeai-fable52-268322` 空のディレクトリから、ノートPCで起動するOSへ | [出典](https://x.com/claudeai/status/2119867114450268322) | [ケース](docs/cases/x-claudeai-fable52-268322/README.md) | [未公開](docs/cases/x-claudeai-fable52-268322/prompt.md) · [翻訳と原文](docs/translations/x-claudeai-fable52-268322.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 102 | @claudeai（Claude） | `x-claudeai-fable52-pcb` 4層基板から3つの動作する電子回路プロトタイプへ | [出典](https://x.com/claudeai/status/2119899459761131615) | [ケース](docs/cases/x-claudeai-fable52-pcb/README.md) | [未公開](docs/cases/x-claudeai-fable52-pcb/prompt.md) · [翻訳と原文](docs/translations/x-claudeai-fable52-pcb.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 103 | @claudeai（Claude） | `x-claudeai-fable52-lean` 1,000のエージェントが約29時間でフェルマーの最終定理のLean証明を再現 | [出典](https://x.com/claudeai/status/2119867129751056485) | [ケース](docs/cases/x-claudeai-fable52-lean/README.md) | [未公開](docs/cases/x-claudeai-fable52-lean/prompt.md) · [翻訳と原文](docs/translations/x-claudeai-fable52-lean.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 104 | @claudeai（Claude） | `x-claudeai-fable52-825293` 弱結合でのホーキング＝ペイジ相転移を計算 | [出典](https://x.com/claudeai/status/2119899487044825293) | [ケース](docs/cases/x-claudeai-fable52-825293/README.md) | [未公開](docs/cases/x-claudeai-fable52-825293/prompt.md) · [翻訳と原文](docs/translations/x-claudeai-fable52-825293.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 105 | @claudeai（Claude） | `x-claudeai-fable52-131439` 簡略化モデルでモジュラー・ブートストラップの厳密な限界を求める | [出典](https://x.com/claudeai/status/2119899488995131439) | [ケース](docs/cases/x-claudeai-fable52-131439/README.md) | [未公開](docs/cases/x-claudeai-fable52-131439/prompt.md) · [翻訳と原文](docs/translations/x-claudeai-fable52-131439.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 106 | @ForwardEditor（Future Brian） | `x-forwardeditor-fable52-idle-elite` 約8万行のIdle Eliteコードベースで開発を引き継ぐ | [出典](https://x.com/ForwardEditor/status/2119867753376940396) | [ケース](docs/cases/x-forwardeditor-fable52-idle-elite/README.md) | [未公開](docs/cases/x-forwardeditor-fable52-idle-elite/prompt.md) · [翻訳と原文](docs/translations/x-forwardeditor-fable52-idle-elite.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 107 | @claudeai（Claude） | `x-claudeai-fable52-221045` 実際のロボットアームでボトルのキャップを回し、キューブを復元し、絵を描く | [出典](https://x.com/claudeai/status/2119867132452221045) | [ケース](docs/cases/x-claudeai-fable52-221045/README.md) | [未公開](docs/cases/x-claudeai-fable52-221045/prompt.md) · [翻訳と原文](docs/translations/x-claudeai-fable52-221045.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 108 | @claudeai（Claude） | `x-claudeai-fable52-miplib` MIPLIBの未解決問題を解く。例の1つは42本の列車の運行計画 | [出典](https://x.com/claudeai/status/2119899477855379913) | [ケース](docs/cases/x-claudeai-fable52-miplib/README.md) | [未公開](docs/cases/x-claudeai-fable52-miplib/prompt.md) · [翻訳と原文](docs/translations/x-claudeai-fable52-miplib.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 109 | @mattshumer_（Matt Shumer） | `x-mattshumer-fable52-147409` アパートで製作できるロボットの外観プロトタイプ | [出典](https://x.com/mattshumer_/status/2119889518564147409) | [ケース](docs/cases/x-mattshumer-fable52-147409/README.md) | [未公開](docs/cases/x-mattshumer-fable52-147409/prompt.md) · [翻訳と原文](docs/translations/x-mattshumer-fable52-147409.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 110 | @every（Every 📧） | `x-every-fable52-slack` Slackと議事録から38件の発言の矛盾を発見 | [出典](https://x.com/every/status/2119934581445145066) | [ケース](docs/cases/x-every-fable52-slack/README.md) | [未公開](docs/cases/x-every-fable52-slack/prompt.md) · [翻訳と原文](docs/translations/x-every-fable52-slack.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿の動画または画面収録 | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 111 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-write-like-mike` Write Like Mike：評価用に取り分けた過去の記事で執筆スキルをブラインド評価 | [出典](https://x.com/hammer_mt/status/2119906374066835495) | [ケース](docs/cases/x-hammermt-fable52-write-like-mike/README.md) | [未公開](docs/cases/x-hammermt-fable52-write-like-mike/prompt.md) · [翻訳と原文](docs/translations/x-hammermt-fable52-write-like-mike.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 112 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-183568` 14組のコンサルティング資料から自動チェックできるルールを抽出 | [出典](https://x.com/hammer_mt/status/2119906412709183568) | [ケース](docs/cases/x-hammermt-fable52-183568/README.md) | [未公開](docs/cases/x-hammermt-fable52-183568/prompt.md) · [翻訳と原文](docs/translations/x-hammermt-fable52-183568.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 113 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-katepass` KatePass：320件の過去の草稿で編集作業の残量を測定 | [出典](https://x.com/hammer_mt/status/2119906389284057363) | [ケース](docs/cases/x-hammermt-fable52-katepass/README.md) | [未公開](docs/cases/x-hammermt-fable52-katepass/prompt.md) · [翻訳と原文](docs/translations/x-hammermt-fable52-katepass.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 114 | @hammer_mt（Mike Taylor） | `x-hammermt-fable52-103010` 個人のAI利用履歴から再現可能な評価課題を10個整理 | [出典](https://x.com/hammer_mt/status/2119907037631103010) | [ケース](docs/cases/x-hammermt-fable52-103010/README.md) | [未公開](docs/cases/x-hammermt-fable52-103010/prompt.md) · [翻訳と原文](docs/translations/x-hammermt-fable52-103010.md#ja) | 飛書のAIGCreative WikiではClaude Fable 5.2に分類 | X 投稿（写真またはページ。原投稿に動画なし） | AIGCreative の Feishu wiki が引用する原投稿の  | 出典リンクのみ |
+| 115 | @aichrislee | `x-aichrislee-opus55-build-me-a-camera-lens-in` Three.jsを使い、単一HTMLファイルで操作できる3Dカメラレンズを作って。見た目をリアルに… | [出典](https://x.com/aichrislee/status/2108709764817408244) | [ケース](docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/README.md) | [原文](docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/prompt.md) · [翻訳と原文](docs/translations/x-aichrislee-opus55-build-me-a-camera-lens-in.md#ja) | 引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世 | コードで制作したアニメーションを X の動画として収録 | yihui-dev/awesome-opus5-5-videos に掲載 | 出典リンクのみ |
+| 116 | @alightinastorm | `x-alightinastorm-fable52-a-browser-first-person-sho` 武器庫と砂漠の町のマップを備えたブラウザーFPS | [出典](https://x.com/alightinastorm/status/2120020469487440210) | [ケース](docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/README.md) | [未公開](docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/prompt.md) · [翻訳と原文](docs/translations/x-alightinastorm-fable52-a-browser-first-person-sho.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 117 | @anabology | `x-anabology-fable52-claudia-gallery` Claudiaギャラリー | [出典](https://x.com/anabology/status/2120010995309457643) | [ケース](docs/cases/x-anabology-fable52-claudia-gallery/README.md) | [未公開](docs/cases/x-anabology-fable52-claudia-gallery/prompt.md) · [翻訳と原文](docs/translations/x-anabology-fable52-claudia-gallery.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 118 | @anshu4321 | `x-anshu4321-fable52-indiranagar-1` インド・ベンガルールのIndiranagar、1平方キロメートル | [出典](https://x.com/anshu4321/status/2119938067758772403) | [ケース](docs/cases/x-anshu4321-fable52-indiranagar-1/README.md) | [未公開](docs/cases/x-anshu4321-fable52-indiranagar-1/prompt.md) · [翻訳と原文](docs/translations/x-anshu4321-fable52-indiranagar-1.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 119 | @chetaslua | `x-chetaslua-fable52-clip` 公式デモ：空のフォルダーからOSを作る（伝聞による紹介） | [出典](https://x.com/chetaslua/status/2119870650722763052) | [ケース](docs/cases/x-chetaslua-fable52-clip/README.md) | [未公開](docs/cases/x-chetaslua-fable52-clip/prompt.md) · [翻訳と原文](docs/translations/x-chetaslua-fable52-clip.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 120 | @ChrisGPT | `x-chrisgpt-fable52-clip` 映像編集者に向けた「仕事を奪う」宣言動画 | [出典](https://x.com/ChrisGPT/status/2119998815856218494) | [ケース](docs/cases/x-chrisgpt-fable52-clip/README.md) | [未公開](docs/cases/x-chrisgpt-fable52-clip/prompt.md) · [翻訳と原文](docs/translations/x-chrisgpt-fable52-clip.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 121 | @felixrieseberg | `x-felixrieseberg-fable52-saltline` Saltlineの一人称視点シューティング | [出典](https://x.com/felixrieseberg/status/2119925633564463609) | [ケース](docs/cases/x-felixrieseberg-fable52-saltline/README.md) | [未公開](docs/cases/x-felixrieseberg-fable52-saltline/prompt.md) · [翻訳と原文](docs/translations/x-felixrieseberg-fable52-saltline.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 122 | @felixrieseberg | `x-felixrieseberg-fable52-three-games-saltline-tidew` Three Gamesの作品集ページ（Saltline／時計職人の心／Tidewright） | [出典](https://x.com/vineerpasam/status/2119955306096857145) | [ケース](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/README.md) | [未公開](docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/prompt.md) · [翻訳と原文](docs/translations/x-felixrieseberg-fable52-three-games-saltline-tidew.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 123 | @Gdgtify | `x-gdgtify-opus55-create-a-20-00-second-kine` 「ESCAPE THE ORBIT」という題名の20.00秒のキネティックタイポグラフィ映像を、John F…をもとに制 | [出典](https://x.com/Gdgtify/status/2105669567036989608) | [ケース](docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/README.md) | [原文](docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/prompt.md) · [翻訳と原文](docs/translations/x-gdgtify-opus55-create-a-20-00-second-kine.md#ja) | 引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世 | Three.js／HTML のシーンを X の動画として収録 | yihui-dev/awesome-opus5-5-videos に掲載 | 出典リンクのみ |
+| 124 | @GodsBoy7777 | `x-godsboy7777-opus55-build-a-single-self-contai` 単体で完結するHTMLファイルを制作：Wintergata…に着想を得た3Dビー玉コンピューター | [出典](https://x.com/GodsBoy7777/status/2103117450854150194) | [ケース](docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/README.md) | [原文](docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/prompt.md) · [翻訳と原文](docs/translations/x-godsboy7777-opus55-build-a-single-self-contai.md#ja) | 引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世 | Three.js／HTML のシーンを X の動画として収録 | yihui-dev/awesome-opus5-5-videos に掲載 | 出典リンクのみ |
+| 125 | @heyiamnick | `x-heyiamnick-opus55-direction-build-a-30-secon` <direction> CLAUDEを紹介する30秒のループ・モーションデザイン作品集を制作。CLAUDEはモー… | [出典](https://x.com/heyiamnick/status/2109174851412119558) | [ケース](docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/README.md) | [原文](docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/prompt.md) · [翻訳と原文](docs/translations/x-heyiamnick-opus55-direction-build-a-30-secon.md#ja) | 引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世 | コードで制作したアニメーションを X の動画として収録 | yihui-dev/awesome-opus5-5-videos に掲載 | 出典リンクのみ |
+| 126 | @higgsfield_ai | `x-higgsfield-ai-fable52-vowlorn-rpg` VOWLORN：すべてコードで作ったダークRPG | [出典](https://x.com/higgsfield_ai/status/2119997122896601269) | [ケース](docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/README.md) | [未公開](docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/prompt.md) · [翻訳と原文](docs/translations/x-higgsfield-ai-fable52-vowlorn-rpg.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 127 | @itspsneha | `x-itspsneha-fable52-clip` インドで買うべきビタミンはどれか | [出典](https://x.com/itspsneha/status/2120048494761451974) | [ケース](docs/cases/x-itspsneha-fable52-clip/README.md) | [未公開](docs/cases/x-itspsneha-fable52-clip/prompt.md) · [翻訳と原文](docs/translations/x-itspsneha-fable52-clip.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 128 | @jev_chat | `x-jev-chat-fable52-an-acrobat-stack-on-a-bipl` 雲の上の複葉機で組み上がる曲芸の人間タワー、中国語の3D短編 | [出典](https://x.com/jev_chat/status/2120015641151426838) | [ケース](docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/README.md) | [未公開](docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/prompt.md) · [翻訳と原文](docs/translations/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 129 | @_koushikde_ | `x-koushikde-opus55-make-a-15s-motion-video-in` コードで15秒のモーション動画を制作（1920x1080、60fps、1つのHTMLファイルですべてのフレームを描画、… | [出典](https://x.com/_koushikde_/status/2105730717455937635) | [ケース](docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/README.md) | [原文](docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/prompt.md) · [翻訳と原文](docs/translations/x-koushikde-opus55-make-a-15s-motion-video-in.md#ja) | 引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世 | コードで制作したアニメーションを X の動画として収録 | yihui-dev/awesome-opus5-5-videos に掲載 | 出典リンクのみ |
+| 130 | @LexnLin | `x-lexnlin-fable52-a-flight-through-a-living` 生きている世界を飛び抜ける | [出典](https://x.com/LexnLin/status/2119880654858977333) | [ケース](docs/cases/x-lexnlin-fable52-a-flight-through-a-living/README.md) | [未公開](docs/cases/x-lexnlin-fable52-a-flight-through-a-living/prompt.md) · [翻訳と原文](docs/translations/x-lexnlin-fable52-a-flight-through-a-living.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 131 | @LexnLin | `x-lexnlin-fable52-feed-the-backrooms` Feed the Backrooms：自分が怪物になる | [出典](https://x.com/LexnLin/status/2119966127149429093) | [ケース](docs/cases/x-lexnlin-fable52-feed-the-backrooms/README.md) | [未公開](docs/cases/x-lexnlin-fable52-feed-the-backrooms/prompt.md) · [翻訳と原文](docs/translations/x-lexnlin-fable52-feed-the-backrooms.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 132 | @maxt3chno | `x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b` GPT-6 AstraとFable 5.2でBlenderのゾンビワシを制作して比較 | [出典](https://x.com/maxt3chno/status/2119896698281467952) | [ケース](docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/README.md) | [原文](docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/prompt.md) · [翻訳と原文](docs/translations/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | yihui-dev/awesome-fable5-2-videos に掲 | 出典リンクのみ |
+| 133 | @MiaAI_lab | `x-miaai-lab-fable52-76-html` 単一HTMLファイルによるビジュアル作品76点の作品集 | [出典](https://x.com/MiaAI_lab/status/2119930229661503893) | [ケース](docs/cases/x-miaai-lab-fable52-76-html/README.md) | [未公開](docs/cases/x-miaai-lab-fable52-76-html/prompt.md) · [翻訳と原文](docs/translations/x-miaai-lab-fable52-76-html.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 134 | @MrTacticalX | `x-mrtacticalx-fable52-fable-opus` ガラスのプール：Fable対Opus | [出典](https://x.com/MrTacticalX/status/2119955647542542439) | [ケース](docs/cases/x-mrtacticalx-fable52-fable-opus/README.md) | [未公開](docs/cases/x-mrtacticalx-fable52-fable-opus/prompt.md) · [翻訳と原文](docs/translations/x-mrtacticalx-fable52-fable-opus.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 135 | @noclipepe | `x-noclipepe-fable52-chrome` Chromeの恐竜がランボーに | [出典](https://x.com/noclipepe/status/2119927838321328577) | [ケース](docs/cases/x-noclipepe-fable52-chrome/README.md) | [未公開](docs/cases/x-noclipepe-fable52-chrome/prompt.md) · [翻訳と原文](docs/translations/x-noclipepe-fable52-chrome.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 136 | @noclipepe | `x-noclipepe-fable52-clip` 子どもの頃のカーペットレース | [出典](https://x.com/noclipepe/status/2119728047754547326) | [ケース](docs/cases/x-noclipepe-fable52-clip/README.md) | [未公開](docs/cases/x-noclipepe-fable52-clip/prompt.md) · [翻訳と原文](docs/translations/x-noclipepe-fable52-clip.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 137 | @notjazii | `x-notjazii-fable52-a-pirate-ship-sailing-acro` 大海原を進む海賊船 | [出典](https://x.com/notjazii/status/2119905661505122575) | [ケース](docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/README.md) | [未公開](docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/prompt.md) · [翻訳と原文](docs/translations/x-notjazii-fable52-a-pirate-ship-sailing-acro.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 138 | @rossaxbt | `x-rossaxbt-opus55-inputs-ask-me-for-a-short` <inputs> 私に尋ねること：冒頭の切り替えスイッチ用の短いラベル、メインとなる1語、…用のパーセンテージ | [出典](https://x.com/rossaxbt/status/2107121188027707651) | [ケース](docs/cases/x-rossaxbt-opus55-inputs-ask-me-for-a-short/README.md) | [原文](docs/cases/x-rossaxbt-opus55-inputs-ask-me-for-a-short/prompt.md) · [翻訳と原文](docs/translations/x-rossaxbt-opus55-inputs-ask-me-for-a-short.md#ja) | 引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世 | Three.js／HTML のシーンを X の動画として収録 | yihui-dev/awesome-opus5-5-videos に掲載 | 出典リンクのみ |
+| 139 | @_sholtodouglas | `x-sholtodouglas-fable52-fps` ポータル付きアリーナFPS：オフィスで対戦 | [出典](https://x.com/_sholtodouglas/status/2119935331499925557) | [ケース](docs/cases/x-sholtodouglas-fable52-fps/README.md) | [未公開](docs/cases/x-sholtodouglas-fable52-fps/prompt.md) · [翻訳と原文](docs/translations/x-sholtodouglas-fable52-fps.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 140 | @tokifyi | `x-tokifyi-fable52-clip` バンクーバーの鳥瞰 | [出典](https://x.com/tokifyi/status/2120020272153764172) | [ケース](docs/cases/x-tokifyi-fable52-clip/README.md) | [未公開](docs/cases/x-tokifyi-fable52-clip/prompt.md) · [翻訳と原文](docs/translations/x-tokifyi-fable52-clip.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 141 | @twoclipping | `x-twoclipping-opus55-inputs-ask-me-for-my-produ` <inputs> 私に尋ねること：製品名（小文字の1語）、4語のキャッチコピー、3段階の… | [出典](https://x.com/twoclipping/status/2106101258834551116) | [ケース](docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/README.md) | [原文](docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/prompt.md) · [翻訳と原文](docs/translations/x-twoclipping-opus55-inputs-ask-me-for-my-produ.md#ja) | 引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世 | コードで制作したアニメーションを X の動画として収録 | yihui-dev/awesome-opus5-5-videos に掲載 | 出典リンクのみ |
+| 142 | @ultimaxbt | `x-ultimaxbt-opus55-inputs-ask-me-for-my-produ` <inputs> 私に尋ねること：製品、ユーザーが入力する正確なリクエスト、…用の写真6〜8枚 | [出典](https://x.com/ultimaxbt/status/2108210884799549714) | [ケース](docs/cases/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ/README.md) | [原文](docs/cases/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ/prompt.md) · [翻訳と原文](docs/translations/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ.md#ja) | 引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世 | Three.js／HTML のシーンを X の動画として収録 | yihui-dev/awesome-opus5-5-videos に掲載 | 出典リンクのみ |
+| 143 | @vib3coded | `x-vib3coded-fable52-clip` ゼリーのシャチのマテリアル研究 | [出典](https://x.com/vib3coded/status/2119951060752375827) | [ケース](docs/cases/x-vib3coded-fable52-clip/README.md) | [未公開](docs/cases/x-vib3coded-fable52-clip/prompt.md) · [翻訳と原文](docs/translations/x-vib3coded-fable52-clip.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 144 | @vib3coded | `x-vib3coded-fable52-clip-2` 瓶の中のボクセル世界 | [出典](https://x.com/vib3coded/status/2120104517282775514) | [ケース](docs/cases/x-vib3coded-fable52-clip-2/README.md) | [未公開](docs/cases/x-vib3coded-fable52-clip-2/prompt.md) · [翻訳と原文](docs/translations/x-vib3coded-fable52-clip-2.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | Three.js／HTML または Blender のシーンを X の動 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 145 | @viktoroddy | `x-viktoroddy-fable52-ribbon-hero` Ribbon Heroのファーストビュー | [出典](https://x.com/viktoroddy/status/2119985044542705916) | [ケース](docs/cases/x-viktoroddy-fable52-ribbon-hero/README.md) | [未公開](docs/cases/x-viktoroddy-fable52-ribbon-hero/prompt.md) · [翻訳と原文](docs/translations/x-viktoroddy-fable52-ribbon-hero.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
+| 146 | @WesRoth | `x-wesroth-fable52-clip` 一度の生成による作品集 | [出典](https://x.com/WesRoth/status/2119953913160093817) | [ケース](docs/cases/x-wesroth-fable52-clip/README.md) | [未公開](docs/cases/x-wesroth-fable52-clip/prompt.md) · [翻訳と原文](docs/translations/x-wesroth-fable52-clip.md#ja) | 引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独 | コードで制作したアニメーションを X の動画として収録 | fengyiqicoder/awesome-fable-5.2 に掲載さ | 出典リンクのみ |
 
 </details>
 
@@ -1789,12 +724,12 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gemini4-argon-isometric-city` Isometric day/night city HTML loop — Gemini 4 Argon | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/prompt.md) | jamesgreene.com labeled run: Gemini 4 Ar | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
-| 2 | @coodddaaaa（Joe William） | `x-coodddaaaa-gemini-carbon-pelican-bike` Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 | [出典](https://x.com/coodddaaaa/status/2120363353142911078) | [ケース](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md) · [Video](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/media/video.mp4) | [未公開](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/prompt.md) | Author claim: Gemini Carbon, High · Gemi | HTML animation + model-made demo vid | Primary X URL · prompt unpublished · | Source link only |
-| 3 | @StatsWire | `x-statswire-gemini-carbon-nyc-cruiser` Interactive 3D NYC cruiser tour in one HTML file (Three.js) | [出典](https://x.com/StatsWire/status/2120344850071540152) | [ケース](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md) · [Video](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/media/video.mp4) | [未公開](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/prompt.md) | Author claim: Gemini 4 Carbon · single . | Three.js single-file scene · screen- | Primary X URL · prompt unpublished · | Source link only |
-| 4 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-gemini-carbon-theme-park` Theme Park HD pixel-art remake (playable) | [出典](https://x.com/DeryaTR_/status/2120393810941456710) | [ケース](docs/cases/x-deryatr-gemini-carbon-theme-park/README.md) · [Video](docs/cases/x-deryatr-gemini-carbon-theme-park/media/video.mp4) | [未公開](docs/cases/x-deryatr-gemini-carbon-theme-park/prompt.md) | Author claim: Gemini 4 Carbon, one shot  | HTML pixel-art remake · playable at  | Primary X URL + play link + video ·  | Source link only |
-| 5 | @ai_for_success（AshutoshShrivastava） | `x-aiforsuccess-gemini-carbon-v8` V8 engine in FreeCAD and Blender | [出典](https://x.com/ai_for_success/status/2120317619588972867) | [ケース](docs/cases/x-aiforsuccess-gemini-carbon-v8/README.md) · [Video](docs/cases/x-aiforsuccess-gemini-carbon-v8/media/video.mp4) | [未公開](docs/cases/x-aiforsuccess-gemini-carbon-v8/prompt.md) | Author claim: Gemini 4 Carbon inside Ant | FreeCAD + Blender V8 engine · record | Primary X URL + video · prompt unpub | Source link only |
-| 6 | @_MaxBlade（Max Blade） | `x-maxblade-fable-vs-carbon` Same prompt: Fable 5.2 vs Gemini 4 Carbon | [出典](https://x.com/_MaxBlade/status/2120355412021231795) | [ケース](docs/cases/x-maxblade-fable-vs-carbon/README.md) · [Video](docs/cases/x-maxblade-fable-vs-carbon/media/video.mp4) | [未公開](docs/cases/x-maxblade-fable-vs-carbon/prompt.md) | Author claim: same unpublished prompt on | Side-by-side model comparison · reco | Primary X URL · prompt not published | Source link only |
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gemini4-argon-isometric-city` アイソメトリック都市の昼夜HTMLループ：Gemini 4 Argon | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/prompt.md) · [翻訳と原文](docs/translations/web-jamesgreene-code1-gemini4-argon-isometric-city.md#ja) | jamesgreene.comによる実行モデルの表示：Gemini 4 Argo | 単体で動作する HTML／CSS／JS アニメーション | 公開 HTML 作品と共通の制作指示 · Argon は Carbon  | 出典リンクのみ |
+| 2 | @coodddaaaa（Joe William） | `x-coodddaaaa-gemini-carbon-pelican-bike` Gemini Carbon：自転車に乗るペリカンのHTMLアニメ検証 | [出典](https://x.com/coodddaaaa/status/2120363353142911078) | [ケース](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md) | [未公開](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/prompt.md) · [翻訳と原文](docs/translations/x-coodddaaaa-gemini-carbon-pelican-bike.md#ja) | 作者の申告：Gemini Carbon、High設定、Gemini Ultra  | HTML アニメーションとモデル制作デモの動画収録 | 原投稿の X URL · プロンプト未公開 · 作者の主張であり提供元の | 出典リンクのみ |
+| 3 | @StatsWire | `x-statswire-gemini-carbon-nyc-cruiser` 単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js） | [出典](https://x.com/StatsWire/status/2120344850071540152) | [ケース](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md) | [未公開](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/prompt.md) · [翻訳と原文](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) | 作者の申告：Gemini 4 Carbon、単一.htmlファイル、Three. | Three.js の単一ファイルシーン · 画面収録動画 | 原投稿の X URL · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 4 | @DeryaTR_（Derya Unutmaz） | `x-deryatr-gemini-carbon-theme-park` Theme ParkのHDピクセルアート版リメイク（プレイ可能） | [出典](https://x.com/DeryaTR_/status/2120393810941456710) | [ケース](docs/cases/x-deryatr-gemini-carbon-theme-park/README.md) | [未公開](docs/cases/x-deryatr-gemini-carbon-theme-park/prompt.md) · [翻訳と原文](docs/translations/x-deryatr-gemini-carbon-theme-park.md#ja) | 作者の申告：Gemini 4 Carbon、1994年のTheme Parkの動 | HTML ピクセルアートの再現 · https://theme-park | 原投稿の X URL、プレイ用リンク、動画 · プロンプト未公開 · 再 | 出典リンクのみ |
+| 5 | @ai_for_success（AshutoshShrivastava） | `x-aiforsuccess-gemini-carbon-v8` FreeCADとBlenderによるV8エンジン | [出典](https://x.com/ai_for_success/status/2120317619588972867) | [ケース](docs/cases/x-aiforsuccess-gemini-carbon-v8/README.md) | [未公開](docs/cases/x-aiforsuccess-gemini-carbon-v8/prompt.md) · [翻訳と原文](docs/translations/x-aiforsuccess-gemini-carbon-v8.md#ja) | 作者の申告：Antigravity内のGemini 4 Carbon、FreeC | FreeCAD と Blender による V8 エンジン · デモ収録 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 6 | @_MaxBlade（Max Blade） | `x-maxblade-fable-vs-carbon` 同じプロンプト：Fable 5.2とGemini 4 Carbonを比較 | [出典](https://x.com/_MaxBlade/status/2120355412021231795) | [ケース](docs/cases/x-maxblade-fable-vs-carbon/README.md) | [未公開](docs/cases/x-maxblade-fable-vs-carbon/prompt.md) · [翻訳と原文](docs/translations/x-maxblade-fable-vs-carbon.md#ja) | 作者の申告：Fable 5.2とGemini 4 Carbonに同じ非公開プロン | モデルの横並び比較 · 動画収録 | 原投稿の X URL · プロンプト未公開 · 所要時間は作者報告 ·  | 出典リンクのみ |
 
 </details>
 
@@ -1805,20 +740,20 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gpt61-sol-isometric-city` Isometric day/night city HTML loop — GPT-6.1 Sol | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/prompt.md) | jamesgreene.com labeled run: GPT-6.1 Sol | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
-| 2 | Marmik Shah (Atelier exhibition) | `web-atelier-gpt61-sol-ten-frame-loops` Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max e | [出典](https://marmikshah.github.io/atelier/) | [ケース](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/README.md) | [短い / 部分](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/prompt.md) | Exhibition column: OpenAI GPT-6.1 Sol ma | Ten-frame looping animations (1 fps) | Public exhibition page · briefs on s | Source link only |
-| 3 | @YFeng2022（LanFeng） | `x-yfeng-gpt61-sol-fable-take-flight` Let Fable take Flight — HTML/Three.js procedural animation ( | [出典](https://x.com/YFeng2022/status/2120324811549225082) | [ケース](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md) · [Video](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/media/video.mp4) | [未公開](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/prompt.md) | Author claim: GPT-6.1 Sol Max via Codex  | HTML + Three.js procedural · Python- | Primary X URL · author says prompt i | Source link only |
-| 4 | @Raitox_tech | `x-raitoox-sol-stranger-things-credits` Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG | [出典](https://x.com/Raitox_tech/status/2120125234129084492) | [ケース](docs/cases/x-raitoox-sol-stranger-things-credits/README.md) · [Video](docs/cases/x-raitoox-sol-stranger-things-credits/media/video.mp4) | [未公開](docs/cases/x-raitoox-sol-stranger-things-credits/prompt.md) | Author text says '6.2 sol ULTRA' but cit | Codex · SVG trace of studio art · Hy | Primary X URL · unofficial 6.2 Sol w | Source link only |
-| 5 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-threejs-blackhole` One-shot Three.js black hole in a single HTML file (author r | [出典](https://x.com/TokenGremlin/status/2119395930805879165) | [ケース](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/README.md) · [Video](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/media/video.mp4) | [未公開](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/prompt.md) | Author: "I'm being routed to GPT-6.2 Sol | Three.js single HTML file · screen/v | Primary X URL working · author routi | Source link only |
-| 6 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-threejs-scenes-html` Three.js scenes from one prompt packed into one HTML file (c | [出典](https://x.com/TokenGremlin/status/2119371334878744648) | [ケース](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/README.md) · [Video](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/media/video.mp4) | [未公開](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/prompt.md) | Author attributes demos to GPT-6.2 Sol s | Single-prompt Three.js → one HTML fi | Primary X URL · widely quoted sighti | Source link only |
-| 7 | @marcthecreatorr（Marcel） | `x-marcthecreatorr-gpt62sol-sailing-ship` GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship  | [出典](https://x.com/marcthecreatorr/status/2119503438405136765) | [ケース](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md) · [Video](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/media/video.mp4) | [短い / 部分](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/prompt.md) | Author timed GPT 6.2 Sol (~27m, $3) vs O | Three.js interactive ship · comparis | Primary X URL · shared short prompt  | Source link only |
-| 8 | @teddyaisi（Teddy） | `x-teddyaisi-gpt62sol-interactive-city` One-prompt interactive Three.js city in a single offline HTM | [出典](https://x.com/teddyaisi/status/2119503047646908664) | [ケース](docs/cases/x-teddyaisi-gpt62sol-interactive-city/README.md) · [Video](docs/cases/x-teddyaisi-gpt62sol-interactive-city/media/video.mp4) | [未公開](docs/cases/x-teddyaisi-gpt62sol-interactive-city/prompt.md) | Author: first GPT-6.2 Sol one-prompt tes | Fully interactive Three.js · single  | Primary X URL · prompt unpublished · | Source link only |
-| 9 | @qingzhoucloud（产品晓东） | `x-qingzhoucloud-gpt62sol-floating-castle` GPT-6.2 Sol 3D floating castle built with HTML + Three.js | [出典](https://x.com/qingzhoucloud/status/2119441137576579448) | [ケース](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/README.md) · [Video](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/media/video.mp4) | [未公開](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/prompt.md) | Author claim: GPT-6.2 Sol · html + three | HTML + Three.js scene capture | Primary X URL · prompt unpublished | Source link only |
-| 10 | @HarshithLucky3（Harshith） | `x-harshithlucky3-gpt62sol-pelican-svg-animation` SVG animation: pelican and 2 crabs riding bicycles (Codex ro | [出典](https://x.com/HarshithLucky3/status/2119418918616150080) | [ケース](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md) · [Video](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/media/video.mp4) | [短い / 部分](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/prompt.md) | Author: "GPT 6.2 Sol max (or another mod | SVG animation via Codex · recorded v | Primary X URL · short prompt publish | Source link only |
-| 11 | @cherriessire | `x-cherriessire-gpt62sol-moon-aurora-threejs` Self-contained Three.js moon scene with red aurora in one HT | [出典](https://x.com/cherriessire/status/2119488351057121420) | [ケース](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md) · [Video](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/media/video.mp4) | [未公開](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/prompt.md) | Author: GPT 6.2 Sol after seeing routing | Self-contained Three.js HTML render  | Primary X URL · prompt unpublished | Source link only |
-| 12 | @cfenghub（CF长风） | `x-cfenghub-gpt62sol-colosseum` Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender | [出典](https://x.com/cfenghub/status/2120069654437921152) | [ケース](docs/cases/x-cfenghub-gpt62sol-colosseum/README.md) · [Video](docs/cases/x-cfenghub-gpt62sol-colosseum/media/video.mp4) | [原文](docs/cases/x-cfenghub-gpt62sol-colosseum/prompt.md) | Author claim: GPT 6.2 Sol, one-sentence  | Three.js + GLSL + Blender · single H | Primary X URL · one-sentence prompt  | Source link only |
-| 13 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-glass-seasons` Three.js lakeside scene with boat, waterfall, trees, and but | [出典](https://x.com/TokenGremlin/status/2119852532616790037) | [ケース](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md) · [Video](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/media/video.mp4) | [未公開](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/prompt.md) | Author claim: GPT-6.2 Sol, Three.js file | Three.js scene with textures and lig | Primary X URL + video and still · pr | Source link only |
-| 14 | @takamasa045（伊藤貴將） | `x-takamasa045-gpt61sol-momoyama` Azuchi-Momoyama castle town diorama in HTML and Three.js | [出典](https://x.com/takamasa045/status/2119769277846990949) | [ケース](docs/cases/x-takamasa045-gpt61sol-momoyama/README.md) · [Video](docs/cases/x-takamasa045-gpt61sol-momoyama/media/video.mp4) | [原文](docs/cases/x-takamasa045-gpt61sol-momoyama/prompt.md) | Author selected GPT-6.1 Sol Max and only | HTML + Three.js interactive castle-t | Primary X URL · full prompt in the a | Source link only |
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gpt61-sol-isometric-city` アイソメトリック都市の昼夜HTMLループ：GPT-6.1 Sol | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/prompt.md) · [翻訳と原文](docs/translations/web-jamesgreene-code1-gpt61-sol-isometric-city.md#ja) | jamesgreene.comによる実行モデルの表示：GPT-6.1 Sol（公 | 単体で動作する HTML／CSS／JS アニメーション | 公開 HTML 作品と共通の制作指示 · 公式カタログ名は GPT-6. | 出典リンクのみ |
+| 2 | Marmik Shah (Atelier exhibition) | `web-atelier-gpt61-sol-ten-frame-loops` Atelier：10フレームのループスプライト制作課題（GPT-6.1 Sol最大推論設定の欄） | [出典](https://marmikshah.github.io/atelier/) | [ケース](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/README.md) | [短い / 部分](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/prompt.md) · [翻訳と原文](docs/translations/web-atelier-gpt61-sol-ten-frame-loops.md#ja) | 展示の欄：OpenAI GPT-6.1 Sol最大推論設定。各行で課題を共有。カ | 10 フレームのループアニメーション（1 fps）· 制作指示をサイトで | 公開展示ページ · 制作指示をサイトに掲載 · 各タイルを開かない限り、 | 出典リンクのみ |
+| 3 | @YFeng2022（LanFeng） | `x-yfeng-gpt61-sol-fable-take-flight` Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol M | [出典](https://x.com/YFeng2022/status/2120324811549225082) | [ケース](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md) | [未公開](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/prompt.md) · [翻訳と原文](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) | 作者の申告：Codex経由のGPT-6.1 Sol Max、コードのみ、3D素材 | HTML と Three.js の手続き型制作 · Python 合成音 | 原投稿の X URL · 作者によればプロンプトはコメント内（未収集）· | 出典リンクのみ |
+| 4 | @Raitox_tech | `x-raitoox-sol-stranger-things-credits` HTML／CSS／JS＋SVGで『ストレンジャー・シングス5』のエンドクレジットを再現（HyperFrames） | [出典](https://x.com/Raitox_tech/status/2120125234129084492) | [ケース](docs/cases/x-raitoox-sol-stranger-things-credits/README.md) | [未公開](docs/cases/x-raitoox-sol-stranger-things-credits/prompt.md) · [翻訳と原文](docs/translations/x-raitoox-sol-stranger-things-credits.md#ja) | 作者は本文で「6.2 sol ULTRA」と記す一方、トークン費用は「GPT-6 | Codex · スタジオ作品を SVG でトレース · HyperFra | 原投稿の X URL · 非公式の 6.2 Sol 表記は作者の主張とし | 出典リンクのみ |
+| 5 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-threejs-blackhole` 単一HTMLファイルのThree.jsブラックホールを一度で生成（作者はGPT-6.2 Solへルーティング） | [出典](https://x.com/TokenGremlin/status/2119395930805879165) | [ケース](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/README.md) | [未公開](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/prompt.md) · [翻訳と原文](docs/translations/x-tokengremlin-gpt62sol-threejs-blackhole.md#ja) | 作者：「GPT-6.2 Solにルーティングされている」。Three.jsブラッ | Three.js の単一 HTML ファイル · X の画面／動画収録 | 原投稿の X URL は閲覧可能 · 作者によるルーティングの主張 ·  | 出典リンクのみ |
+| 6 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-threejs-scenes-html` 1つのプロンプトで生成し、単一HTMLファイルにまとめたThree.jsシーン（城／デモ） | [出典](https://x.com/TokenGremlin/status/2119371334878744648) | [ケース](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/README.md) | [未公開](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/prompt.md) · [翻訳と原文](docs/translations/x-tokengremlin-gpt62sol-threejs-scenes-html.md#ja) | 作者は一部のChatGPTユーザーに現れたGPT-6.2 Solによるデモと説明 | 1 つのプロンプトで Three.js を生成 → 単一 HTML ファ | 原投稿の X URL · 広く引用された目撃情報のまとめ · 公式発表で | 出典リンクのみ |
+| 7 | @marcthecreatorr（Marcel） | `x-marcthecreatorr-gpt62sol-sailing-ship` GPT-6.2 SolとOpus 5.5：操作できるThree.js帆船（同じプロンプト） | [出典](https://x.com/marcthecreatorr/status/2119503438405136765) | [ケース](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md) | [短い / 部分](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/prompt.md) · [翻訳と原文](docs/translations/x-marcthecreatorr-gpt62sol-sailing-ship.md#ja) | 作者の計測：GPT 6.2 Solは約27分・3米ドル、Opus 5.5 max | Three.js のインタラクティブな帆船 · 比較動画 | 原投稿の X URL · 共通の短いプロンプト公開済み · 所要時間は作 | 出典リンクのみ |
+| 8 | @teddyaisi（Teddy） | `x-teddyaisi-gpt62sol-interactive-city` 1つのプロンプトで作る、単一のオフラインHTMLファイルで操作可能なThree.js都市 | [出典](https://x.com/teddyaisi/status/2119503047646908664) | [ケース](docs/cases/x-teddyaisi-gpt62sol-interactive-city/README.md) | [未公開](docs/cases/x-teddyaisi-gpt62sol-interactive-city/prompt.md) · [翻訳と原文](docs/translations/x-teddyaisi-gpt62sol-interactive-city.md#ja) | 作者：GPT-6.2 Solで初の単一プロンプト検証。OpenAIの公開文書は依 | 完全に操作可能な Three.js · 単一 HTML · オフライン動 | 原投稿の X URL · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 9 | @qingzhoucloud（产品晓东） | `x-qingzhoucloud-gpt62sol-floating-castle` GPT-6.2 SolがHTML＋Three.jsで制作した3Dの空中城 | [出典](https://x.com/qingzhoucloud/status/2119441137576579448) | [ケース](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/README.md) | [未公開](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/prompt.md) · [翻訳と原文](docs/translations/x-qingzhoucloud-gpt62sol-floating-castle.md#ja) | 作者の申告：GPT-6.2 Sol、html＋three.js。OpenAIの公 | HTML と Three.js のシーン収録 | 原投稿の X URL · プロンプト未公開 | 出典リンクのみ |
+| 10 | @HarshithLucky3（Harshith） | `x-harshithlucky3-gpt62sol-pelican-svg-animation` SVGアニメ：自転車に乗るペリカンとカニ2匹（Codexルーティング） | [出典](https://x.com/HarshithLucky3/status/2119418918616150080) | [ケース](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md) | [短い / 部分](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/prompt.md) · [翻訳と原文](docs/translations/x-harshithlucky3-gpt62sol-pelican-svg-animation.md#ja) | 作者：「Codex内のGPT 6.2 Sol max（または別のモデル）」／「私 | Codex で制作した SVG アニメーション · 動画収録 | 原投稿の X URL · 短いプロンプト公開済み · 作者は 6.2 以 | 出典リンクのみ |
+| 11 | @cherriessire | `x-cherriessire-gpt62sol-moon-aurora-threejs` 単一HTMLファイルで完結する、赤いオーロラのあるThree.js月面シーン | [出典](https://x.com/cherriessire/status/2119488351057121420) | [ケース](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md) | [未公開](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/prompt.md) · [翻訳と原文](docs/translations/x-cherriessire-gpt62sol-moon-aurora-threejs.md#ja) | 作者：ルーティング報告を見てGPT 6.2 Solと記載。OpenAIの公開文書 | 単体で動作する Three.js HTML レンダリング · 動画収録 | 原投稿の X URL · プロンプト未公開 | 出典リンクのみ |
+| 12 | @cfenghub（CF长风） | `x-cfenghub-gpt62sol-colosseum` Three.js、GLSL、Blenderで制作した雨に濡れるローマのコロッセオ | [出典](https://x.com/cfenghub/status/2120069654437921152) | [ケース](docs/cases/x-cfenghub-gpt62sol-colosseum/README.md) | [原文](docs/cases/x-cfenghub-gpt62sol-colosseum/prompt.md) · [翻訳と原文](docs/translations/x-cfenghub-gpt62sol-colosseum.md#ja) | 作者の申告：GPT 6.2 Sol、一文のプロンプト、モデルの所要時間は約40分 | Three.js + GLSL + Blender · 単一 HTML  | 原投稿の X URL · 投稿に 1 文のプロンプト公開 · 再実行なし | 出典リンクのみ |
+| 13 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-glass-seasons` 船、滝、木々、蝶のあるThree.jsの湖畔シーン | [出典](https://x.com/TokenGremlin/status/2119852532616790037) | [ケース](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/README.md) | [未公開](docs/cases/x-tokengremlin-gpt62sol-glass-seasons/prompt.md) · [翻訳と原文](docs/translations/x-tokengremlin-gpt62sol-glass-seasons.md#ja) | 作者の申告：GPT-6.2 Sol、テクスチャを含むThree.jsファイルは約 | テクスチャと照明を備えた Three.js シーン · 動画収録 | 原投稿の X URL と動画・静止画 · プロンプト未公開 · 再実行な | 出典リンクのみ |
+| 14 | @takamasa045（伊藤貴將） | `x-takamasa045-gpt61sol-momoyama` HTMLとThree.jsで制作した安土桃山時代の城下町ジオラマ | [出典](https://x.com/takamasa045/status/2119769277846990949) | [ケース](docs/cases/x-takamasa045-gpt61sol-momoyama/README.md) | [原文](docs/cases/x-takamasa045-gpt61sol-momoyama/prompt.md) · [翻訳と原文](docs/translations/x-takamasa045-gpt61sol-momoyama.md#ja) | 作者が選択したのはGPT-6.1 Sol Maxで、6.2へルーティングされたか | HTML と Three.js の操作可能な城下町ジオラマ · 動画収録 | 原投稿の X URL · 作者の返信に完全なプロンプト · 再実行なし | 出典リンクのみ |
 
 </details>
 
@@ -1827,17 +762,17 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-grok47-isometric-city` Isometric day/night city HTML loop — Grok 4.7 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-grok47-isometric-city/prompt.md) | jamesgreene.com labeled run: Grok 4.7 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
-| 2 | @RadCyberTruck | `x-radcybertruck-grok-imagine-cybertruck-cry` Grok Imagine — pixstar Cybertruck farewell clip (partial pro | [出典](https://x.com/RadCyberTruck/status/2120350558431445006) | [ケース](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md) · [Video](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/media/video.mp4) | [短い / 部分](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/prompt.md) | Author labels post 'Grok Imagine prompt' | Grok Imagine native video generation | Primary X URL · prompt truncated in  | Source link only |
-| 3 | @Aiminithoughts | `x-aiminithoughts-grok-imagine-golden-angel` Golden Angel Warrior — Grok Imagine clip | [出典](https://x.com/Aiminithoughts/status/2120329925702070425) | [ケース](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md) · [Video](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/media/video.mp4) | [原文](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/prompt.md) | Author labels the post 'Grok Imagine Pro | Grok Imagine native video | Primary X URL · prompt published in  | Source link only |
-| 4 | @Aiminithoughts（Ai Mini Thoughts Creator） | `x-aiminithoughts-grok-imagine-optimus-rising-from-ocean` Optimus Rising from Ocean | [出典](https://x.com/Aiminithoughts/status/2118762128475635964) | [ケース](docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/README.md) · [Video](docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/media/video.mp4) | [短い / 部分](docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
-| 5 | @Aiminithoughts（Ai Mini Thoughts Creator） | `x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag` SpaceX Beyond Earth Montage | [出典](https://x.com/Aiminithoughts/status/2118871728680272112) | [ケース](docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/README.md) · [Video](docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/media/video.mp4) | [短い / 部分](docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
-| 6 | @AwesomeGodNewL（Awesome God New Life Ministries） | `x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince` Grok Imagine Prompt: Prince transforms maid into princess | [出典](https://x.com/AwesomeGodNewL/status/2118227641027416471) | [ケース](docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/README.md) · [Video](docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/media/video.mp4) | [短い / 部分](docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
-| 7 | @HaluAIArt（はる） | `x-haluaiart-grok-imagine-dark-electro-hip-hop-dance` Dark Electro Hip Hop Dance Video | [出典](https://x.com/HaluAIArt/status/2118285947921989988) | [ケース](docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/README.md) · [Video](docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/media/video.mp4) | [短い / 部分](docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
-| 8 | @HawkinsonLindy（Lindy Hawkinson） | `x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v` Wind Blown Yellow Ribbon Video | [出典](https://x.com/HawkinsonLindy/status/2118934426633785350) | [ケース](docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/README.md) · [Video](docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/media/video.mp4) | [短い / 部分](docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
-| 9 | @Herbertkrspyleg（Herbert Krspyleg75 Joseph） | `x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo` Neon Martial Arts Swordswoman | [出典](https://x.com/Herbertkrspyleg/status/2119232026230305214) | [ケース](docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/README.md) · [Video](docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/media/video.mp4) | [短い / 部分](docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
-| 10 | @rxufnx（rxufnx） | `x-rxufnx-grok-imagine-fallen-angel-cinematic-vid` Fallen Angel Cinematic Video | [出典](https://x.com/rxufnx/status/2118327480918438306) | [ケース](docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/README.md) · [Video](docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/media/video.mp4) | [短い / 部分](docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
-| 11 | @whichaiwon（Which AI Won） | `x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit` Grok Imagine Video 1.5 Lite Lip-Sync Test | [出典](https://x.com/whichaiwon/status/2118342571592446154) | [ケース](docs/cases/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit/README.md) | [短い / 部分](docs/cases/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit/prompt.md) | Citing repo attributes this clip to Grok | Grok Imagine native video, as credit | Primary X URL listed by YouMind-Open | Source link only |
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-grok47-isometric-city` アイソメトリック都市の昼夜HTMLループ：Grok 4.7 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-grok47-isometric-city/prompt.md) · [翻訳と原文](docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#ja) | jamesgreene.comによる実行モデルの表示：Grok 4.7 | 単体で動作する HTML／CSS／JS アニメーション（コードモデル。G | 公開 HTML 作品と共通の制作指示 | 出典リンクのみ |
+| 2 | @RadCyberTruck | `x-radcybertruck-grok-imagine-cybertruck-cry` Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ） | [出典](https://x.com/RadCyberTruck/status/2120350558431445006) | [ケース](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md) | [短い / 部分](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/prompt.md) · [翻訳と原文](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#ja) | 作者は投稿を「Grok Imagineのプロンプト」と表示 | Grok Imagine のネイティブ動画生成（コードから GIF への | 原投稿の X URL · 投稿のプロンプトは途中まで · 再実行なし | 出典リンクのみ |
+| 3 | @Aiminithoughts | `x-aiminithoughts-grok-imagine-golden-angel` 黄金の天使戦士：Grok Imagineの短編映像 | [出典](https://x.com/Aiminithoughts/status/2120329925702070425) | [ケース](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/README.md) | [原文](docs/cases/x-aiminithoughts-grok-imagine-golden-angel/prompt.md) · [翻訳と原文](docs/translations/x-aiminithoughts-grok-imagine-golden-angel.md#ja) | 作者はこの投稿を「Grok Imagineのプロンプト」と表示 | Grok Imagine のネイティブ動画 | 原投稿の X URL · 投稿にプロンプト公開 · 再実行なし | 出典リンクのみ |
+| 4 | @Aiminithoughts（Ai Mini Thoughts Creator） | `x-aiminithoughts-grok-imagine-optimus-rising-from-ocean` 海から現れるOptimus | [出典](https://x.com/Aiminithoughts/status/2118762128475635964) | [ケース](docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/README.md) | [短い / 部分](docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/prompt.md) · [翻訳と原文](docs/translations/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean.md#ja) | 引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリ | 原投稿の表記による Grok Imagine ネイティブ動画 | YouMind-OpenLab/awesome-grok-imagine | 出典リンクのみ |
+| 5 | @Aiminithoughts（Ai Mini Thoughts Creator） | `x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag` SpaceX、地球の彼方へ向かうモンタージュ | [出典](https://x.com/Aiminithoughts/status/2118871728680272112) | [ケース](docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/README.md) | [短い / 部分](docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/prompt.md) · [翻訳と原文](docs/translations/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag.md#ja) | 引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリ | 原投稿の表記による Grok Imagine ネイティブ動画 | YouMind-OpenLab/awesome-grok-imagine | 出典リンクのみ |
+| 6 | @AwesomeGodNewL（Awesome God New Life Ministries） | `x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince` Grok Imagineプロンプト：王子がメイドを王女に変える | [出典](https://x.com/AwesomeGodNewL/status/2118227641027416471) | [ケース](docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/README.md) | [短い / 部分](docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/prompt.md) · [翻訳と原文](docs/translations/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince.md#ja) | 引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリ | 原投稿の表記による Grok Imagine ネイティブ動画 | YouMind-OpenLab/awesome-grok-imagine | 出典リンクのみ |
+| 7 | @HaluAIArt（はる） | `x-haluaiart-grok-imagine-dark-electro-hip-hop-dance` ダークなエレクトロ・ヒップホップのダンス映像 | [出典](https://x.com/HaluAIArt/status/2118285947921989988) | [ケース](docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/README.md) | [短い / 部分](docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/prompt.md) · [翻訳と原文](docs/translations/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance.md#ja) | 引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリ | 原投稿の表記による Grok Imagine ネイティブ動画 | YouMind-OpenLab/awesome-grok-imagine | 出典リンクのみ |
+| 8 | @HawkinsonLindy（Lindy Hawkinson） | `x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v` 風になびく黄色いリボンの映像 | [出典](https://x.com/HawkinsonLindy/status/2118934426633785350) | [ケース](docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/README.md) | [短い / 部分](docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/prompt.md) · [翻訳と原文](docs/translations/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v.md#ja) | 引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリ | 原投稿の表記による Grok Imagine ネイティブ動画 | YouMind-OpenLab/awesome-grok-imagine | 出典リンクのみ |
+| 9 | @Herbertkrspyleg（Herbert Krspyleg75 Joseph） | `x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo` ネオンの武術女剣士 | [出典](https://x.com/Herbertkrspyleg/status/2119232026230305214) | [ケース](docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/README.md) | [短い / 部分](docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/prompt.md) · [翻訳と原文](docs/translations/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo.md#ja) | 引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリ | 原投稿の表記による Grok Imagine ネイティブ動画 | YouMind-OpenLab/awesome-grok-imagine | 出典リンクのみ |
+| 10 | @rxufnx（rxufnx） | `x-rxufnx-grok-imagine-fallen-angel-cinematic-vid` 堕天使のシネマティック映像 | [出典](https://x.com/rxufnx/status/2118327480918438306) | [ケース](docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/README.md) | [短い / 部分](docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/prompt.md) · [翻訳と原文](docs/translations/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid.md#ja) | 引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリ | 原投稿の表記による Grok Imagine ネイティブ動画 | YouMind-OpenLab/awesome-grok-imagine | 出典リンクのみ |
+| 11 | @whichaiwon（Which AI Won） | `x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit` Grok Imagine Video 1.5 Liteのリップシンク検証 | [出典](https://x.com/whichaiwon/status/2118342571592446154) | [ケース](docs/cases/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit/README.md) | [短い / 部分](docs/cases/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit/prompt.md) · [翻訳と原文](docs/translations/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit.md#ja) | 引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリ | 原投稿の表記による Grok Imagine ネイティブ動画 | YouMind-OpenLab/awesome-grok-imagine | 出典リンクのみ |
 
 </details>
 
@@ -1846,9 +781,9 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) | jamesgreene.com labeled run: Qwen3.8 27B | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
-| 2 | @coffeecup2020（David Y. Tan） | `x-coffeecup2020-qwen4-sagrada` Sagrada Família demo from Qwen 4.0 Preview | [出典](https://x.com/coffeecup2020/status/2120113388629995921) | [ケース](docs/cases/x-coffeecup2020-qwen4-sagrada/README.md) · [Video](docs/cases/x-coffeecup2020-qwen4-sagrada/media/video.mp4) | [未公開](docs/cases/x-coffeecup2020-qwen4-sagrada/prompt.md) | Author claim: Qwen 4.0 (Preview), iterat | Iterative self-critique demo · recor | Primary X URL + video · prompt unpub | Source link only |
-| 3 | @leo114119（Leo） | `x-leo114119-qwen4max-wukong-plane` Sun Wukong flying a plane — HTML 3D demo | [出典](https://x.com/leo114119/status/2120371909624033439) | [ケース](docs/cases/x-leo114119-qwen4max-wukong-plane/README.md) · [Video](docs/cases/x-leo114119-qwen4max-wukong-plane/media/video.mp4) | [未公開](docs/cases/x-leo114119-qwen4max-wukong-plane/prompt.md) | Author claim: Qwen 4 Max Preview + qoder | HTML + 3D animation demo · recorded  | Primary X URL + video · prompt unpub | Source link only |
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` アイソメトリック都市の昼夜HTMLループ：Qwen3.8 27B | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) · [翻訳と原文](docs/translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#ja) | jamesgreene.comによる実行モデルの表示：Qwen3.8 27B（2 | 単体で動作する HTML／CSS／JS アニメーション | 公開 HTML 作品と共通の制作指示 | 出典リンクのみ |
+| 2 | @coffeecup2020（David Y. Tan） | `x-coffeecup2020-qwen4-sagrada` Qwen 4.0 Previewによるサグラダ・ファミリアのデモ | [出典](https://x.com/coffeecup2020/status/2120113388629995921) | [ケース](docs/cases/x-coffeecup2020-qwen4-sagrada/README.md) | [未公開](docs/cases/x-coffeecup2020-qwen4-sagrada/prompt.md) · [翻訳と原文](docs/translations/x-coffeecup2020-qwen4-sagrada.md#ja) | 作者の申告：Qwen 4.0（Preview）、トークン上限まで自己批評を反復。 | 反復的な自己批評のデモ · 動画収録 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+| 3 | @leo114119（Leo） | `x-leo114119-qwen4max-wukong-plane` 飛行機を操縦する孫悟空：HTMLの3Dデモ | [出典](https://x.com/leo114119/status/2120371909624033439) | [ケース](docs/cases/x-leo114119-qwen4max-wukong-plane/README.md) | [未公開](docs/cases/x-leo114119-qwen4max-wukong-plane/prompt.md) · [翻訳と原文](docs/translations/x-leo114119-qwen4max-wukong-plane.md#ja) | 作者の申告：Qwen 4 Max Preview＋qoder。結果をDeepSe | HTML と 3D アニメーションのデモ · 動画収録 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
 
 </details>
 
@@ -1857,9 +792,9 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city` Isometric day/night city HTML loop — DeepSeek V4.1 Flash 101 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/prompt.md) | jamesgreene.com labeled run: DeepSeek V4 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
-| 2 | @LatentOperatorX | `x-latentoperator-a380-deepseek-fable-sol` Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fab | [出典](https://x.com/LatentOperatorX/status/2120205377803518132) | [ケース](docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md) · [Video](docs/cases/x-latentoperator-a380-deepseek-fable-sol/media/video.mp4) | [短い / 部分](docs/cases/x-latentoperator-a380-deepseek-fable-sol/prompt.md) | Author timed DeepSeek V4.1 Flash (+ Harn | Three.js single-scene challenge · co | Primary X URL · short shared prompt  | Source link only |
-| 3 | @LatentOperatorX（Latent Operator） | `x-latentoperator-deepseek-excavator` Three.js excavator loading a dump truck — DeepSeek Harness v | [出典](https://x.com/LatentOperatorX/status/2120077800887746603) | [ケース](docs/cases/x-latentoperator-deepseek-excavator/README.md) · [Video](docs/cases/x-latentoperator-deepseek-excavator/media/video.mp4) | [短い / 部分](docs/cases/x-latentoperator-deepseek-excavator/prompt.md) | Author claim: same DeepSeek V4.1 Flash m | Three.js excavator challenge · compa | Primary X URL · published challenge  | Source link only |
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city` アイソメトリック都市の昼夜HTMLループ：DeepSeek V4.1 Flash 1017 | [出典](https://jamesgreene.com/models/) | [ケース](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md) | [原文](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/prompt.md) · [翻訳と原文](docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#ja) | jamesgreene.comによる実行モデルの表示：DeepSeek V4.1 | 単体で動作する HTML／CSS／JS アニメーション | 公開 HTML 作品と共通の制作指示 | 出典リンクのみ |
+| 2 | @LatentOperatorX | `x-latentoperator-a380-deepseek-fable-sol` Three.jsによるエアバスA380の離陸：DeepSeek V4.1 Flash、Fable 5.2、GPT-6.1 | [出典](https://x.com/LatentOperatorX/status/2120205377803518132) | [ケース](docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md) | [短い / 部分](docs/cases/x-latentoperator-a380-deepseek-fable-sol/prompt.md) · [翻訳と原文](docs/translations/x-latentoperator-a380-deepseek-fable-sol.md#ja) | 作者が同じ短いプロンプトでDeepSeek V4.1 Flash（＋Harnes | Three.js の単一シーン課題 · 比較動画 | 原投稿の X URL · 共通の短いプロンプト公開済み · 複数モデルの | 出典リンクのみ |
+| 3 | @LatentOperatorX（Latent Operator） | `x-latentoperator-deepseek-excavator` Three.jsのショベルカーがダンプに積み込み：DeepSeek HarnessとCommand Codeを比較 | [出典](https://x.com/LatentOperatorX/status/2120077800887746603) | [ケース](docs/cases/x-latentoperator-deepseek-excavator/README.md) | [短い / 部分](docs/cases/x-latentoperator-deepseek-excavator/prompt.md) · [翻訳と原文](docs/translations/x-latentoperator-deepseek-excavator.md#ja) | 作者の申告：同じDeepSeek V4.1 Flashモデルを使用し、DeepS | Three.js の掘削機制作課題 · 比較動画 | 原投稿の X URL · 課題文公開済み · 評価環境の所要時間は作者報 | 出典リンクのみ |
 
 </details>
 
@@ -1868,18 +803,18 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | @chaoranya（超然） | `x-chaoranya-orange-cat` 一句话橘猫打招呼循环 GIF；含参考宠物照与九宫格再挑格做 GIF 的教程流程 | [出典](https://x.com/chaoranya/status/2118391093633159437) | [mp4](https://video.twimg.com/amplify_video/2118391079322185728/vid/avc1/412x412/absMXH64ALixA_yX.mp4) | 原文 | 作者声明 2.6：GPT Image 2.6｜一句话，把橘猫做成动态表情包 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 2 | @batzdu（batzdu） | `x-batzdu-demo-gif` 引用官方帖附 animated_gif，正文无字 | [出典](https://x.com/batzdu/status/2118142933924827638) | [mp4](https://video.twimg.com/tweet_video/HWUnxHsWsAA_2Ar.mp4) | 未公開 | 作者声明 2.6：（无正文，仅引用 OpenAI 发布帖） | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 3 | @_aidan_clark_（Aidan Clark） | `x-aidan-clark-gif` 引用官方帖附 animated_gif，正文无字 | [出典](https://x.com/_aidan_clark_/status/2118180063804105025) | [mp4](https://video.twimg.com/tweet_video/HWVJieRbsAEcDMY.mp4) | 未公開 | 作者声明 2.6：（无正文，仅引用 OpenAI 发布帖） | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 4 | @AndrewMayne（Andrew Mayne） | `x-andrew-mayne-checks-out` 「Checks out…」+GIF 引用官方 | [出典](https://x.com/AndrewMayne/status/2118137348307485048) | [mp4](https://video.twimg.com/tweet_video/HWUir6dXcAAKU3m.mp4) | 未公開 | 作者声明 2.6：Checks out… | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 5 | @bt21_ok（애니는 과학이다 · 서보카인드 KR） | `x-bt21-ok-flask-light` 韩文 OC 烧瓶发光 GIF；称约16帧/1.5秒 | [出典](https://x.com/bt21_ok/status/2118391303872639364) | [mp4](https://video.twimg.com/tweet_video/HWYJp9pa8AAan9l.mp4) | 未公開 | 作者声明 2.6：引用 OpenAI 发布帖；同线程另帖写 Images 2.6 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 6 | @hackdeacon（黑衣执事） | `x-hackdeacon-test` 「GPT Image 2.6 GIF 测试」+animated_gif | [出典](https://x.com/hackdeacon/status/2118396692500537383) | [mp4](https://video.twimg.com/tweet_video/HWYOhU8aoAEuxwK.mp4) | 未公開 | 作者声明 2.6：GPT Image 2.6 GIF 测试 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 7 | @jiaojiaojio（JIO JIO） | `x-jiaojiaojio-fora` 给 memecoin 角色 Fora 做 GIF | [出典](https://x.com/jiaojiaojio/status/2118391023911289212) | [mp4](https://video.twimg.com/tweet_video/HWYJZVgbEAAsTjm.mp4) | 未公開 | 作者声明 2.6：image 2.6更新啦 给fora做个gif | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 8 | @web30708（HP） | `x-web30708-wechat-listing` 称用 2.6 做微信表情「猫会飞但不太会」；帖内仅商店截图静图 | [出典](https://x.com/web30708/status/2118338310649385317) | [unknown](https://pbs.twimg.com/media/HWXZAq0aoAE1A_A.png) | 未公開 | 作者声明 2.6：我用GPT Image 2.6 搓的 GIF 表情包图已经上架 | 未知 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 9 | @halozhangyu（AI军火库） | `x-halozhangyu-fatfish-9` 大肥鱼九表情包；中转站推广；疑似复用归藏玩法 | [出典](https://x.com/halozhangyu/status/2118327841410408546) | [mp4](https://video.twimg.com/tweet_video/HWXP5g1XoAAJeya.mp4) | 未公開 | 作者声明 2.6：GPT Image 2.6…丢张大肥鱼参考图，一句话，GIF  | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 10 | @YouArtStudio（YouArt） | `x-youart-platform-video` 第三方平台上线 2.6 GIF 产品宣传视频 | [出典](https://x.com/YouArtStudio/status/2118391856799056265) | [mp4](https://video.twimg.com/ext_tw_video/2118391816193978368/pu/vid/avc1/1280x720/u_4dyoMtfYhB6fUD.mp4?tag=12) | 未公開 | 作者声明 2.6：GPT Image 2.6 is now on YouArt | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 11 | @AntSeed（Antseed） | `x-antseed-demo-video` 短视频演示（约4.7s）引用官方帖 | [出典](https://x.com/AntSeed/status/2118396169336275186) | [mp4](https://video.twimg.com/amplify_video/2118396129251311617/vid/avc1/600x336/hz3nPINwKQ8usrwo.mp4) | 未公開 | 作者声明 2.6：GPT Images 2.6 is here! | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 12 | @iskunzhenbai（Isk真白） | `x-iskunzhenbai-fatfish-reply` 归藏大肥鱼帖回复：简单中文描述驱动呆毛/耳朵/眨眼，附 2 条 animated_gif | [出典](https://x.com/iskunzhenbai/status/2118239397766484445) | [mp4](https://video.twimg.com/tweet_video/HWV_fleaYAAlsDP.mp4) | 短い / 部分 | 作者声明 2.6：@op7418 我用了一个简单的描述尝试了做一下：根据图中角色 | 作者称直出 GIF · X 附件实际 MP4 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
+| 1 | @chaoranya（超然） | `x-chaoranya-orange-cat` 一文で茶トラ猫のあいさつループGIF。ペットの参照写真と、9コマから選んでGIF化する手順を掲載 | [出典](https://x.com/chaoranya/status/2118391093633159437) | [出典](https://x.com/chaoranya/status/2118391093633159437) | 原文 · [翻訳と原文](docs/translations/x-chaoranya-orange-cat.md#ja) | 作者による2.6使用の主張：GPT Image 2.6｜一文で茶トラ猫を動くスタ | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 2 | @batzdu（batzdu） | `x-batzdu-demo-gif` 公式投稿を引用してanimated_gifを添付。本文なし | [出典](https://x.com/batzdu/status/2118142933924827638) | [出典](https://x.com/batzdu/status/2118142933924827638) | 未公開 · [翻訳と原文](docs/translations/x-batzdu-demo-gif.md#ja) | 作者による2.6使用の主張：（本文なし、OpenAIの発表投稿の引用のみ） | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 3 | @_aidan_clark_（Aidan Clark） | `x-aidan-clark-gif` 公式投稿を引用してanimated_gifを添付。本文なし | [出典](https://x.com/_aidan_clark_/status/2118180063804105025) | [出典](https://x.com/_aidan_clark_/status/2118180063804105025) | 未公開 · [翻訳と原文](docs/translations/x-aidan-clark-gif.md#ja) | 作者による2.6使用の主張：（本文なし、OpenAIの発表投稿の引用のみ） | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 4 | @AndrewMayne（Andrew Mayne） | `x-andrew-mayne-checks-out` 「Checks out…」とGIFで公式投稿を引用 | [出典](https://x.com/AndrewMayne/status/2118137348307485048) | [出典](https://x.com/AndrewMayne/status/2118137348307485048) | 未公開 · [翻訳と原文](docs/translations/x-andrew-mayne-checks-out.md#ja) | 作者による2.6使用の主張：確かにそうだ… | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 5 | @bt21_ok（애니는 과학이다 · 서보카인드 KR） | `x-bt21-ok-flask-light` 韓国語のオリジナルキャラクター投稿、フラスコが光るGIF。約16フレーム／1.5秒と記載 | [出典](https://x.com/bt21_ok/status/2118391303872639364) | [出典](https://x.com/bt21_ok/status/2118391303872639364) | 未公開 · [翻訳と原文](docs/translations/x-bt21-ok-flask-light.md#ja) | 作者による2.6使用の主張：OpenAIの発表投稿を引用。同じスレッドの別投稿に | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 6 | @hackdeacon（黑衣执事） | `x-hackdeacon-test` 「GPT Image 2.6 GIF 测试」（GPT Image 2.6 GIFテスト）とanimated_gif | [出典](https://x.com/hackdeacon/status/2118396692500537383) | [出典](https://x.com/hackdeacon/status/2118396692500537383) | 未公開 · [翻訳と原文](docs/translations/x-hackdeacon-test.md#ja) | 作者による2.6使用の主張：GPT Image 2.6 GIFテスト | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 7 | @jiaojiaojio（JIO JIO） | `x-jiaojiaojio-fora` ミームコインのキャラクターForaをGIF化 | [出典](https://x.com/jiaojiaojio/status/2118391023911289212) | [出典](https://x.com/jiaojiaojio/status/2118391023911289212) | 未公開 · [翻訳と原文](docs/translations/x-jiaojiaojio-fora.md#ja) | 作者による2.6使用の主張：image 2.6が更新、foraのGIFを作る | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 8 | @web30708（HP） | `x-web30708-wechat-listing` WeChatスタンプ「猫会飞但不太会」（猫は飛べるが、あまり上手ではない）を2.6で制作したと主張。投稿はストア画面の静 | [出典](https://x.com/web30708/status/2118338310649385317) | [出典](https://x.com/web30708/status/2118338310649385317) | 未公開 · [翻訳と原文](docs/translations/x-web30708-wechat-listing.md#ja) | 作者による2.6使用の主張：GPT Image 2.6で作ったGIFスタンプがW | 不明 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 9 | @halozhangyu（AI军火库） | `x-halozhangyu-fatfish-9` 大肥魚のスタンプ9点。中継サービスの宣伝で、帰蔵の手法を再利用した可能性 | [出典](https://x.com/halozhangyu/status/2118327841410408546) | [出典](https://x.com/halozhangyu/status/2118327841410408546) | 未公開 · [翻訳と原文](docs/translations/x-halozhangyu-fatfish-9.md#ja) | 作者による2.6使用の主張：GPT Image 2.6…大肥魚の参照画像を渡し、 | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 10 | @YouArtStudio（YouArt） | `x-youart-platform-video` サードパーティープラットフォームによる2.6 GIF製品公開の宣伝動画 | [出典](https://x.com/YouArtStudio/status/2118391856799056265) | [出典](https://x.com/YouArtStudio/status/2118391856799056265) | 未公開 · [翻訳と原文](docs/translations/x-youart-platform-video.md#ja) | 作者による2.6使用の主張：GPT Image 2.6がYouArtに登場 | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 11 | @AntSeed（Antseed） | `x-antseed-demo-video` 公式投稿を引用した短い動画デモ（約4.7秒） | [出典](https://x.com/AntSeed/status/2118396169336275186) | [出典](https://x.com/AntSeed/status/2118396169336275186) | 未公開 · [翻訳と原文](docs/translations/x-antseed-demo-video.md#ja) | 作者による2.6使用の主張：GPT Images 2.6が登場！ | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 12 | @iskunzhenbai（Isk真白） | `x-iskunzhenbai-fatfish-reply` 帰蔵の大肥魚投稿への返信：短い中国語の説明でアホ毛・耳・まばたきを動かす。animated_gifを2点添付 | [出典](https://x.com/iskunzhenbai/status/2118239397766484445) | [出典](https://x.com/iskunzhenbai/status/2118239397766484445) | 短い / 部分 · [翻訳と原文](docs/translations/x-iskunzhenbai-fatfish-reply.md#ja) | 作者による2.6使用の主張：@op7418 簡単な説明で試した。「画像のキャラク | 作者は GIF の直接出力と説明 · X の添付は実際には MP4 | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
 
 </details>
 
@@ -1888,16 +823,16 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | @NeuroFoxxx（NeuroFoxxx） | `x-neurofoxxx-prompt-reply` 照片/草图 → 循环 GIF 的可复制英文提示词（回复贴） | [出典](https://x.com/NeuroFoxxx/status/2118395253329657904) | [出典](https://x.com/NeuroFoxxx/status/2118395253329657904) | 原文 | 作者声明 2.6：Try this in ChatGPT Images 2.6: | 先上传图 → 粘贴无缝循环提示词 | 作者声明 + 媒体元数据已核 · 未观看 · 未复测 | ライセンス不明 |
-| 2 | x-luffy-already | `x-luffy-already` 交办已收；仓库 sources 与 ideas 已收录文章玩法；不列为新增 | [出典](https://x.com/0xluffy_eth/status/2118274913337552992) | [出典](https://x.com/0xluffy_eth/status/2118274913337552992) | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
-| 3 | x-krouxzz-already | `x-krouxzz-already` 仓库 sources.md / krouxzz-wave-ref 已收录；prompt「Make a looping G | [出典](https://x.com/Krouxzz/status/2118283796181053637) | [出典](https://x.com/Krouxzz/status/2118283796181053637) | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
-| 4 | x-promptlyai-midjourney-mix | `x-promptlyai-midjourney-mix` 作者写「Midjourney + GPT Images 2.6」，无法确认动图是否纯 2.6 产物 | [出典](https://x.com/PromptlyAI_YT/status/2118389133446173155) | [出典](https://x.com/PromptlyAI_YT/status/2118389133446173155) | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
-| 5 | x-omniallai-reseller | `x-omniallai-reseller` 第三方 API 分销文案，列出非官方命名（exact 等）与自有 endpoint，不宜当一手官方 2.6 案例 | [出典](https://x.com/omniallai/status/2118208307563528350) | [出典](https://x.com/omniallai/status/2118208307563528350) | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
-| 6 | x-tuzi-ai-reseller | `x-tuzi-ai-reseller` 中转 API 推广 | [出典](https://x.com/tuzi_ai/status/2118201124515959106) | [出典](https://x.com/tuzi_ai/status/2118201124515959106) | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
-| 7 | x-fal-platform | `x-fal-platform` fal 平台上线宣传视频；可作旁证但非社区一手玩法 GIF 案例（互动高，可选后续单列平台源） | [出典](https://x.com/fal/status/2118127874926407952) | [出典](https://x.com/fal/status/2118127874926407952) | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
-| 8 | x-news-reposts-cluster | `x-news-reposts-cluster` 大量多语新闻转述帖（含官方 35s 宣传视频二次传播），无原创玩法/无自生成 GIF：如 RoundtableSpace | — | — | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
-| 9 | x-luffy-simplified-prompt-repost | `x-luffy-simplified-prompt-repost` 路飞发布简化大肥鱼模板（与归藏模板同族）；无新 GIF 附件，属提示词扩散；不作为新增媒体案例 | [出典](https://x.com/0xluffy_eth/status/2118235547454083357) | [出典](https://x.com/0xluffy_eth/status/2118235547454083357) | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
-| 10 | x-masyu-niji-mix | `x-masyu-niji-mix` 作者写明 企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2 | [出典](https://x.com/__masyu0225/status/2118241265213165676) | [出典](https://x.com/__masyu0225/status/2118241265213165676) | — | 不入库 | 重复/不合格 | 探子剔除 | ライセンス不明 |
+| 1 | @NeuroFoxxx（NeuroFoxxx） | `x-neurofoxxx-prompt-reply` 写真／スケッチ→ループGIFのコピー可能な英語プロンプト（返信投稿） | [出典](https://x.com/NeuroFoxxx/status/2118395253329657904) | [出典](https://x.com/NeuroFoxxx/status/2118395253329657904) | 原文 · [翻訳と原文](docs/translations/x-neurofoxxx-prompt-reply.md#ja) | 作者による2.6使用の主張：ChatGPT Images 2.6でこれを試して： | 画像をアップロード → シームレスループのプロンプトを貼り付け | 作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現 | ライセンス不明 |
+| 2 | x-luffy-already | `x-luffy-already` 依頼は受領済み。記事の活用法はリポジトリのsourcesとideasに収録済みで、新規には数えない | [出典](https://x.com/0xluffy_eth/status/2118274913337552992) | [出典](https://x.com/0xluffy_eth/status/2118274913337552992) | — · [翻訳と原文](docs/translations/x-luffy-already.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
+| 3 | x-krouxzz-already | `x-krouxzz-already` リポジトリのsources.md／krouxzz-wave-refに収録済み。プロンプト「Make a looping  | [出典](https://x.com/Krouxzz/status/2118283796181053637) | [出典](https://x.com/Krouxzz/status/2118283796181053637) | — · [翻訳と原文](docs/translations/x-krouxzz-already.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
+| 4 | x-promptlyai-midjourney-mix | `x-promptlyai-midjourney-mix` 作者は「Midjourney + GPT Images 2.6」と記載。アニメが2.6のみの出力か確認できない | [出典](https://x.com/PromptlyAI_YT/status/2118389133446173155) | [出典](https://x.com/PromptlyAI_YT/status/2118389133446173155) | — · [翻訳と原文](docs/translations/x-promptlyai-midjourney-mix.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
+| 5 | x-omniallai-reseller | `x-omniallai-reseller` 非公式名称（exactなど）と独自エンドポイントを記したサードパーティーAPI販売文。公式2.6の一次事例としては不適切 | [出典](https://x.com/omniallai/status/2118208307563528350) | [出典](https://x.com/omniallai/status/2118208307563528350) | — · [翻訳と原文](docs/translations/x-omniallai-reseller.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
+| 6 | x-tuzi-ai-reseller | `x-tuzi-ai-reseller` 中継APIの宣伝 | [出典](https://x.com/tuzi_ai/status/2118201124515959106) | [出典](https://x.com/tuzi_ai/status/2118201124515959106) | — · [翻訳と原文](docs/translations/x-tuzi-ai-reseller.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
+| 7 | x-fal-platform | `x-fal-platform` falプラットフォームの公開宣伝動画。補足資料にはなるが、コミュニティの一次GIF活用例ではない（反響が大きく、後日プラ | [出典](https://x.com/fal/status/2118127874926407952) | [出典](https://x.com/fal/status/2118127874926407952) | — · [翻訳と原文](docs/translations/x-fal-platform.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
+| 8 | x-news-reposts-cluster | `x-news-reposts-cluster` 多言語のニュース紹介投稿が多数（公式35秒PR動画の再拡散を含む）。独自の活用法や自作GIFなし。例：Roundtabl | — | — | — · [翻訳と原文](docs/translations/x-news-reposts-cluster.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
+| 9 | x-luffy-simplified-prompt-repost | `x-luffy-simplified-prompt-repost` 路飛が大肥魚の簡略テンプレートを公開（帰蔵と同系統）。新しいGIF添付はなく、プロンプトの拡散のみ。新規メディア事例には | [出典](https://x.com/0xluffy_eth/status/2118235547454083357) | [出典](https://x.com/0xluffy_eth/status/2118235547454083357) | — · [翻訳と原文](docs/translations/x-luffy-simplified-prompt-repost.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
+| 10 | x-masyu-niji-mix | `x-masyu-niji-mix` 作者は「企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2. | [出典](https://x.com/__masyu0225/status/2118241265213165676) | [出典](https://x.com/__masyu0225/status/2118241265213165676) | — · [翻訳と原文](docs/translations/x-masyu-niji-mix.md#ja) | カタログに収録しない | 重複／不適格 | 調査時に除外 | ライセンス不明 |
 
 </details>
 
@@ -1906,56 +841,56 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | maker_evan @maker_evan · 多模型后处理 walk cycle · 纯代码对照不算 2.6 · 未观看 MP4 | `game-maker-evan-walk-cycle` 像素 walk cycle 对照（含其他模型修帧） | [出典](https://x.com/maker_evan/status/2118235403430027495) | [mp4](https://video.twimg.com/amplify_video/2118232769663025152/vid/avc1/1920x724/ayooWwkfOTLQNASb.mp4) | 未公開 | 作者声明两条 GPT Image 2.6 + Claude Opus 5.5 后 | sheet_then_agent_postprocess | 多模型后处理 · 不是纯 2.6 | ライセンス不明 |
-| 2 | SSSS.CRYPTOMAN @SSSS_CRYPTOMAN · 原帖写明 GPT Image 2.5 · 不是 2.6 · 默认隐藏 · 未观看 MP4 | `game-ssss-4x4-spec` 【2.5 历史规格】游戏 4×4 分镜表 | [出典](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136) | [mp4](https://video.twimg.com/tweet_video/HRzfplxaYAAEzX5.mp4) | 原文 | GPT Image 2.5（原帖写明；不是 Image 2.6） | sheet_then_slice | GPT Image 2.5 · 不是 2.6 | ライセンス不明 |
-| 3 | Higgsfield @higgsfield_ai · 9 帖=1 组宣传演示 · 未观看 MP4 · 无原文 prompt | `game-higgsfield-boxing` 宣传方 9 帖游戏演示（1 组，非 9 案） | [出典](https://x.com/higgsfield_ai/status/2118154923070439759) | [mp4](https://video.twimg.com/amplify_video/2118154871027445760/vid/avc1/960x720/Bq_LlhwmfHmeaEya.mp4) | 未公開 | 宣传方宣称 ChatGPT Images 2.6（未观看；非官方验证） | native_gif_claimed | 宣传方宣称 · 未观看 | ライセンス不明 |
-| 4 | AM09:21 @AM09_21 · 作者声明 2.6 GIF 失败验证 · 未观看 MP4 | `game-am09-sprite-failure` 失败样本：动态+静态同帧会崩 | [出典](https://x.com/AM09_21/status/2118143217434800219) | [mp4](https://video.twimg.com/tweet_video/HWUoBnhaUAALYln.mp4) | 未公開 | 作者声明 GPT Image 2.6 GIF（失败/注意事项；非成功落地） | native_gif_claimed | 失败样本 · 不计成功 | ライセンス不明 |
-| 5 | WrongNebula · Sunburst/Flare 像素动画失败 · 未观看 MP4 | `game-wrongnebula-pixel-failure` 失败样本：像素动画 not there yet | [出典](https://x.com/WrongNebula/status/2118164394400182755) | [mp4](https://video.twimg.com/tweet_video/HWU7Qt2a4AARF_K.mp4) | 未公開 | 作者声明 GPT Image 2.6 Sunburst/Flare（失败结论：不 | native_gif_or_sheet_tests | 失败样本 · 不计成功 | ライセンス不明 |
-| 6 | itvincent | `v2ex-pelican-bike` 一句话鹈鹕骑自行车GIF | [出典](https://www.v2ex.com/t/1254763) | [gif](https://i.imgur.com/ZthxiAB.gif) | 短い / 部分 | GPT Image 2.6（楼主自称） | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 7 | K,z Lick（原文案例；Atlas转载） | `atlas-robot-wave-pre26` 粘土机器人八帧挥手（本地拼GIF） | [出典](https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif) | [unknown](https://static.atlascloud.ai/uploads/01_robot_wave_d7b491e387.gif) | 未公開 | 非Images 2.6（Atlas明文） | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 8 | Isana（Atlas转载） | `atlas-teacup-pre26` 角色举茶杯循环 | [出典](https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif) | [unknown](https://static.atlascloud.ai/uploads/02_tea_cup_loop_6581c7b529.gif) | 未公開 | 非Images 2.6 | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 9 | Morphic | `morphic-sprite-prompts-run-on-25` 2.6向提示词库（面包师分镜/剪纸锦鲤等） | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 未公開 | 提示词面向2.6；示例跑在GPT Image 2.5 / Ideogram Ve | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 10 | Cocoloop Editorial | `cocoloop-boat-sheet-unconfirmed` Codex要GIF却得PNG→六宫格纸船本地拼GIF | [出典](https://news.cocoloop.cn/en/2026/11/chatgpt-gif-six-frame-sheet/) | [出典](https://news.cocoloop.cn/en/2026/11/chatgpt-gif-six-frame-sheet/) | 未公開 | 无法确认是否真跑到2.6 | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 11 | Makari｜AIイラスト | `makari-note-jp-cases` LINE贴纸/致谢字GIF/商品前后对比GIF（日文实测） | [出典](https://note.com/makari_5108010/n/nbfdb5c15e70b) | [出典](https://note.com/makari_5108010/n/nbfdb5c15e70b) | 未公開 | ChatGPT Images 2.6（自称） | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 12 | WEEL（田村 洋樹监修） | `weel-jp-emotion-gifs` 静图→喜怒哀乐四套GIF；参照图@调用 | [出典](https://weel.co.jp/media/tech/chatgpt-images-2-6/) | [出典](https://weel.co.jp/media/tech/chatgpt-images-2-6/) | 未公開 | ChatGPT Images 2.6 | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 13 | OpenArt（公告署名 Created by OpenArt） | `openart-launch-sprite-videos` 股价表情六宫格精灵表提示词（涨/跌） | [出典](https://openai.com/index/introducing-images-2-6/) | [出典](https://openai.com/index/introducing-images-2-6/) | 短い / 部分 | Images 2.6 能力展示 | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 14 | xianyu110 | `xianyu110-mirror-gallery` 官方文档案例镜像仓（含提灯GIF镜像） | [出典](https://github.com/xianyu110/awesome-gpt-images-2.6) | [unknown](https://raw.githubusercontent.com/xianyu110/awesome-gpt-images-2.6/main/images/monkey-lantern-gpt-image-2-6-sunburst.gif) | 未公開 | 镜像自官方2.6文档 | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 15 | sparkpix.ai | `sparkpix-wave-gif` 肖像轻挥手 | [出典](https://sparkpix.ai/gpt-image-2-6) | [webp](https://cdn.sparkpix.ai/showcases/gpt-image-2-6/wave-gif-c349481d.webp) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) | Publisher states all examples were produ | Publisher claims native GIF; only We | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 16 | sparkpix.ai | `sparkpix-coffee-gif` 咖啡蒸汽与纱帘局部运动 | [出典](https://sparkpix.ai/gpt-image-2-6) | [webp](https://cdn.sparkpix.ai/showcases/gpt-image-2-6/coffee-gif-783cd7b1.webp) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) | Publisher states all examples were produ | Publisher claims native GIF; only We | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 17 | sparkpix.ai | `sparkpix-dog-gif` 金毛摇尾与歪头 | [出典](https://sparkpix.ai/gpt-image-2-6) | [webp](https://cdn.sparkpix.ai/showcases/gpt-image-2-6/dog-gif-41fb01f5.webp) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) | Publisher states all examples were produ | Publisher claims native GIF; only We | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 18 | sparkpix.ai | `sparkpix-sneaker-gif` 白色运动鞋旋转展台 | [出典](https://sparkpix.ai/gpt-image-2-6) | [webp](https://cdn.sparkpix.ai/showcases/gpt-image-2-6/sneaker-gif-849b3159.webp) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) | Publisher states all examples were produ | Publisher claims native GIF; only We | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 19 | sparkpix.ai | `sparkpix-sticker-gif` 猫咪挥爪与 HI! 跳字贴纸 | [出典](https://sparkpix.ai/gpt-image-2-6) | [webp](https://cdn.sparkpix.ai/showcases/gpt-image-2-6/sticker-gif-b6e0fa56.webp) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) | Publisher states all examples were produ | Publisher claims native GIF; only We | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 20 | sparkpix.ai | `sparkpix-boat-gif` 红纸船海浪循环 | [出典](https://sparkpix.ai/gpt-image-2-6) | [webp](https://cdn.sparkpix.ai/showcases/gpt-image-2-6/boat-gif-942576f6.webp) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) | Publisher states all examples were produ | Publisher claims native GIF; only We | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 21 | Ofox | `ofox-orange-bird-native-gif` 橙鸟抬翅回位原生 GIF | [出典](https://ofox.ai/blog/gpt-image-2-6-gif-guide/) | [gif](https://ofox.ai/blog/_assets/downloads/image26-gif-complete/ofox-native-bird.gif) | [出典で公開](https://ofox.ai/blog/_assets/downloads/image26-gif-complete/ofox-request.json) | Public request JSON explicitly sets open | Supplier API test: output_format=gif | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 22 | Gregory Wieber / @dreamwieber | `gpt-image-2-6-claymation-kitten-ball-pit-gif` 黏土定格风小猫在球池中玩耍 | [出典](https://x.com/dreamwieber/status/2118191599872344467) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-claymation-kitten-ball-pit-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-claymation-kitten-ball-pit-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 23 | Lucy / @princess414141 | `gpt-image-2-6-dancing-frog-top-hat` 戴礼帽跳舞的卡通青蛙 | [出典](https://x.com/princess414141/status/2118144125354877152) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-dancing-frog-top-hat.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-dancing-frog-top-hat.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 24 | 鱼哥 / @MrGafish | `gpt-image-2-6-diligent-bee-daily-checkin-gif` 卡通小蜜蜂在手机上发帖打卡 | [出典](https://x.com/MrGafish/status/2118217749680025722) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-diligent-bee-daily-checkin-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-diligent-bee-daily-checkin-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 25 | Koei / こうえい / @koe_ai414 | `gpt-image-2-6-elderly-man-splitting-firewood-gif` 雪中庭院里老人劈柴 | [出典](https://x.com/koe_ai414/status/2118153765094351279) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-elderly-man-splitting-firewood-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-elderly-man-splitting-firewood-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 26 | リマレレ / @rem_rev | `gpt-image-2-6-heisei-flip-phone-decomail-gif` 东京街头折叠手机屏幕播放平成风格动画 | [出典](https://x.com/rem_rev/status/2118252486360498485) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-heisei-flip-phone-decomail-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-heisei-flip-phone-decomail-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 27 | 知识猫 / @GeekCatX | `gpt-image-2-6-idiom-riddle-ceramic-shelf-gif` 四件陶瓷摆件依次跳动的成语猜谜 | [出典](https://x.com/GeekCatX/status/2118160560290480519) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-idiom-riddle-ceramic-shelf-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-idiom-riddle-ceramic-shelf-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 28 | 鄭鈞霆 / @ZHENGJUNTING92 | `gpt-image-2-6-luminol-beaker-vortex-gif` 烧杯漩涡随滴入液体变成蓝绿紫荧光 | [出典](https://x.com/ZHENGJUNTING92/status/2118252052556255364) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-luminol-beaker-vortex-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-luminol-beaker-vortex-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 29 | Gregory Wieber / @dreamwieber | `gpt-image-2-6-nyc-snow-globe-gif` 纽约雪景水晶球，雪花飘落 | [出典](https://x.com/dreamwieber/status/2118190877567037732) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-nyc-snow-globe-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-nyc-snow-globe-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 30 | じゃむまる / @jammaru_lab | `gpt-image-2-6-osaka-castle-construction-gif` 大阪城从石垣逐层建成天守阁 | [出典](https://x.com/jammaru_lab/status/2118153279821787623) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-osaka-castle-construction-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-osaka-castle-construction-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 31 | ヤレヤル / @YaReYaRu30Life | `gpt-image-2-6-pixel-hero-sword-swing-gif` 像素风勇者挥舞发光剑 | [出典](https://x.com/YaReYaRu30Life/status/2118166505603153922) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-pixel-hero-sword-swing-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-pixel-hero-sword-swing-gif.yaml) | Secondary AgentCraft catalog labels GPT  | AgentCraft says previews were recons | Secondary label; primary post unveri | ライセンス不明 |
-| 32 | DEXTUNE / @dextune | `gpt-image-2-6-pixel-jungle-radar-outpost-gif` 像素风丛林哨站与卫星天线扫描 | [出典](https://x.com/dextune/status/2118523179702624694) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-pixel-jungle-radar-outpost-gif.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-pixel-jungle-radar-outpost-gif.yaml) | Secondary AgentCraft catalog labels GPT  | Published prompt explicitly requests | Secondary label; primary post unveri | ライセンス不明 |
-| 33 | XinYuAI / @Superboy4949 | `gpt-image-2-6-steaming-ramen-bowl-chopsticks` 深色木台上冒热气的拉面碗 | [出典](https://x.com/Superboy4949/status/2118627045379105006) | [gif](https://raw.githubusercontent.com/ai-boost/awesome-image-video-prompts/main/previews/gpt-image-2-6-steaming-ramen-bowl-chopsticks.gif) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-steaming-ramen-bowl-chopsticks.yaml) | Secondary catalog labels 2.6; transcribe | Only Step 1 still-image prompt is tr | Secondary label; primary post unveri | ライセンス不明 |
-| 34 | PTTL team | `pttl-pelican-loop` 鹈鹕在 Kerkini 湖船篷上展翅 | [出典](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) | [webp](https://www.pttl.gr/wp-content/uploads/2026/11/kerkini-dalmatian-pelican-boat-loop.webp) | [出典で公開](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) | First-party article presents two self-ge | Author claims text-to-GIF in ChatGPT | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 35 | PTTL team | `pttl-owl-loop` 月夜树枝上兴奋跳跃的猫头鹰 | [出典](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) | [webp](https://www.pttl.gr/wp-content/uploads/2026/11/excited-owl-moonlight-loop.webp) | [出典で公開](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) | First-party article presents two self-ge | Author claims text-to-GIF in ChatGPT | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 36 | Graham Barlow / TechRadar | `techradar-chester-gif-iteration` Chester 宠物照动画：万圣节眨眼、施法与月球蝴蝶 | [出典](https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-2-6-is-here-and-it-can-turn-your-photos-into-animated-gifs-so-i-tried-it-on-my-cat) | [gif](https://cdn.mos.cms.futurecdn.net/i2zJ45jTyLsVLybbTM62BL.gif) | [出典で公開](https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-2-6-is-here-and-it-can-turn-your-photos-into-animated-gifs-so-i-tried-it-on-my-cat) | 2026-11-05 journalist's first-party Imag | Photo to GIF, motion revision, named | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 37 | 布留川英一 / Hidekazu Furukawa / @npaka123 | `npaka-dance-edit-workflow` 猫跳舞与参考角色动画，再改为笑脸 | [出典](https://note.com/npaka/n/n7e86091b23c3) | [出典](https://note.com/npaka/n/n7e86091b23c3) | [出典で公開](https://note.com/npaka/n/n7e86091b23c3) | Author's own note embeds his own X posts | Text-to-cat dance, reference-charact | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 38 | Opusly | `opusly-tgif-cat-demo` 免费账户 TGIF 礼帽橘猫舞蹈实测 | [出典](https://www.opusly.ai/blog/how-to-make-a-gif-in-chatgpt) | [webp_screenshot](https://www.opusly.ai/blog/chatgpt-gif/chatgpt-gif-result.webp) | [出典で公開](https://www.opusly.ai/blog/how-to-make-a-gif-in-chatgpt) | Publisher states 2026-11-05 free ChatGPT | Text-to-cat dance; public asset is p | 2026-11-07 source record; not newly  | ライセンス不明 |
-| 39 | vargHQ / vargai Inc. | `varg-pip-wave-hop` Pip mascot waves twice and hops / Pip 吉祥物挥手两次后小跳 | [出典](https://github.com/vargHQ/skills/blob/main/gpt-image-gif/SKILL.md) | [gif](https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_4fbc831c7e61.gif) | [出典で公開](https://github.com/vargHQ/skills/blob/main/gpt-image-gif/SKILL.md) | Source reports gpt_image_2_6; not authen | Documentation request example, media | 2026-11-07 source record; media not  | ライセンス不明 |
-| 40 | vargHQ / vargai Inc. | `varg-thanks-sticker` Pip THANKS! transparent bowing sticker / Pip 合掌鞠躬 THANKS! 透明 | [出典](https://github.com/vargHQ/skills/blob/main/gpt-image-sticker-pack/SKILL.md) | [gif](https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_2cfe66f52749.gif) | [出典で公開](https://github.com/vargHQ/skills/blob/main/gpt-image-sticker-pack/SKILL.md) | Source reports gpt_image_2_6; not authen | Documentation request example, media | 2026-11-07 source record; media not  | ライセンス不明 |
-| 41 | web | `openai-social-png` openai-social-png | [出典](https://images.ctfassets.net/kftzwdyauwt9/.../images-2-6-social.png) | [出典](https://images.ctfassets.net/kftzwdyauwt9/.../images-2-6-social.png) | 未公開 | 候选/排除 | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 42 | web | `nowrap-429` nowrap-429 | [出典](https://nowrap.ai/tools/chatgpt-images-2-6) | [出典](https://nowrap.ai/tools/chatgpt-images-2-6) | 未公開 | 候选/排除 | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 43 | web | `github-sdk-only` vercel/ai PR、openai-python类型定义等为工程支持非案例GIF | — | — | 未公開 | 候选/排除 | 不混入已收集主表 | 候选/排除 | ライセンス不明 |
-| 44 | Morphic | `baker-mascot-sprite` 面包师吉祥物分镜表 | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 有面向 2.6 的提示词 | 示例跑在 2.5 / Ideogram · 不是 2.6 成品 | 提示词卡 · SVG 概念封面 | 示例非 2.6 | ライセンス不明 |
-| 45 | Morphic | `papercraft-koi` 剪纸锦鲤环游 | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 有面向 2.6 的提示词 | 示例跑在 2.5 / Ideogram · 不是 2.6 成品 | 提示词卡 · SVG 概念封面 | 示例非 2.6 | ライセンス不明 |
-| 46 | Morphic | `character-ref-sheet` 吉祥物三视图设定表 | [出典](https://morphic.com/resources/how-to/chatgpt-images-2-6-guide) | [出典](https://morphic.com/resources/how-to/chatgpt-images-2-6-guide) | 有面向 2.6 的提示词 | 示例跑在 2.5 / Ideogram · 不是 2.6 成品 | 提示词卡 · SVG 概念封面 | 示例非 2.6 | ライセンス不明 |
-| 47 | Morphic | `packaging-dieline` 茶叶盒展开刀模 | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 有面向 2.6 的提示词 | 示例跑在 2.5 / Ideogram · 不是 2.6 成品 | 提示词卡 · SVG 概念封面 | 示例非 2.6 | ライセンス不明 |
-| 48 | Morphic | `labelled-bakery-cutaway` 六区标注烘焙剖面 | [出典](https://morphic.com/resources/how-to/chatgpt-images-2-6-guide) | [出典](https://morphic.com/resources/how-to/chatgpt-images-2-6-guide) | 有面向 2.6 的提示词 | 示例跑在 2.5 / Ideogram · 不是 2.6 成品 | 提示词卡 · SVG 概念封面 | 示例非 2.6 | ライセンス不明 |
-| 49 | Morphic | `winter-edition-edit` 只改一处的冬季版 | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 有面向 2.6 的提示词 | 示例跑在 2.5 / Ideogram · 不是 2.6 成品 | 提示词卡 · SVG 概念封面 | 示例非 2.6 | ライセンス不明 |
-| 50 | Morphic | `autumn-bake-poster` 橱窗里的精确字海报 | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 有面向 2.6 的提示词 | 示例跑在 2.5 / Ideogram · 不是 2.6 成品 | 提示词卡 · SVG 概念封面 | 示例非 2.6 | ライセンス不明 |
+| 1 | maker_evan @maker_evan · 多模型后处理 walk cycle · 纯代码对照不算 2.6 · 未观看 MP4 | `game-maker-evan-walk-cycle` ピクセルの歩行サイクル比較（他モデルによるフレーム修正を含む） | [出典](https://x.com/maker_evan/status/2118235403430027495) | [出典](https://x.com/maker_evan/status/2118235403430027495) | 未公開 · [翻訳と原文](docs/translations/game-maker-evan-walk-cycle.md#ja) | 作者によると2件はGPT Image 2.6とClaude Opus 5.5によ | スプライトシート作成後、エージェントが後処理 | 複数モデルによる後処理 · 2.6 単独ではない | ライセンス不明 |
+| 2 | SSSS.CRYPTOMAN @SSSS_CRYPTOMAN · 原帖写明 GPT Image 2.5 · 不是 2.6 · 默认隐藏 · 未观看 MP4 | `game-ssss-4x4-spec` 【2.5の過去仕様】ゲーム用4×4絵コンテシート | [出典](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136) | [出典](https://x.com/SSSS_CRYPTOMAN/status/2097797456117539136) | 原文 · [翻訳と原文](docs/translations/game-ssss-4x4-spec.md#ja) | GPT Image 2.5（元投稿に明記。Image 2.6ではない） | スプライトシートを作成後に分割 | GPT Image 2.5 · 2.6 ではない | ライセンス不明 |
+| 3 | Higgsfield @higgsfield_ai · 9 帖=1 组宣传演示 · 未观看 MP4 · 无原文 prompt | `game-higgsfield-boxing` 宣伝元によるゲームデモ9投稿（9事例ではなく1組） | [出典](https://x.com/higgsfield_ai/status/2118154923070439759) | [出典](https://x.com/higgsfield_ai/status/2118154923070439759) | 未公開 · [翻訳と原文](docs/translations/game-higgsfield-boxing.md#ja) | 宣伝元はChatGPT Images 2.6と主張（未視聴、公式検証なし） | ネイティブ GIF 出力という主張 | 宣伝側の主張 · 未視聴 | ライセンス不明 |
+| 4 | AM09:21 @AM09_21 · 作者声明 2.6 GIF 失败验证 · 未观看 MP4 | `game-am09-sprite-failure` 失敗例：同じフレームに動く要素と静止要素を混在させると破綻 | [出典](https://x.com/AM09_21/status/2118143217434800219) | [出典](https://x.com/AM09_21/status/2118143217434800219) | 未公開 · [翻訳と原文](docs/translations/game-am09-sprite-failure.md#ja) | 作者はGPT Image 2.6 GIFと主張（失敗・注意点の事例で、成功した実 | ネイティブ GIF 出力という主張 | 失敗例 · 成功数には含めない | ライセンス不明 |
+| 5 | WrongNebula · Sunburst/Flare 像素动画失败 · 未观看 MP4 | `game-wrongnebula-pixel-failure` 失敗例：ピクセルアニメはまだ十分な水準に達していない | [出典](https://x.com/WrongNebula/status/2118164394400182755) | [出典](https://x.com/WrongNebula/status/2118164394400182755) | 未公開 · [翻訳と原文](docs/translations/game-wrongnebula-pixel-failure.md#ja) | 作者はGPT Image 2.6 Sunburst/Flareと主張（失敗の結論 | ネイティブ GIF またはスプライトシートのテスト | 失敗例 · 成功数には含めない | ライセンス不明 |
+| 6 | itvincent | `v2ex-pelican-bike` 一文で自転車に乗るペリカンのGIF | [出典](https://www.v2ex.com/t/1254763) | [出典](https://www.v2ex.com/t/1254763) | 短い / 部分 · [翻訳と原文](docs/translations/v2ex-pelican-bike.md#ja) | GPT Image 2.6（投稿者の自己申告） | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 7 | K,z Lick（原文案例；Atlas转载） | `atlas-robot-wave-pre26` 粘土ロボットが8フレームで手を振る（GIFはローカルで合成） | [出典](https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif) | [出典](https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif) | 未公開 · [翻訳と原文](docs/translations/atlas-robot-wave-pre26.md#ja) | Images 2.6ではない（Atlasと明記） | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 8 | Isana（Atlas转载） | `atlas-teacup-pre26` キャラクターがティーカップを持ち上げるループ | [出典](https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif) | [出典](https://www.atlascloud.ai/blog/tips/gpt-image-2.6-image-to-gif) | 未公開 · [翻訳と原文](docs/translations/atlas-teacup-pre26.md#ja) | Images 2.6ではない | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 9 | Morphic | `morphic-sprite-prompts-run-on-25` 2.6向けプロンプト集（パン職人の絵コンテ、切り絵のコイなど） | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 未公開 · [翻訳と原文](docs/translations/morphic-sprite-prompts-run-on-25.md#ja) | プロンプトは2.6向けだが、作例はGPT Image 2.5／Ideogram  | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 10 | Cocoloop Editorial | `cocoloop-boat-sheet-unconfirmed` CodexにGIFを頼んだがPNGが返る→6コマの紙の船をローカルでGIF化 | [出典](https://news.cocoloop.cn/en/2026/11/chatgpt-gif-six-frame-sheet/) | [出典](https://news.cocoloop.cn/en/2026/11/chatgpt-gif-six-frame-sheet/) | 未公開 · [翻訳と原文](docs/translations/cocoloop-boat-sheet-unconfirmed.md#ja) | 実際に2.6で実行されたか確認できない | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 11 | Makari｜AIイラスト | `makari-note-jp-cases` LINEスタンプ／お礼の文字GIF／商品のビフォーアフターGIF（日本語の実機検証） | [出典](https://note.com/makari_5108010/n/nbfdb5c15e70b) | [出典](https://note.com/makari_5108010/n/nbfdb5c15e70b) | 未公開 · [翻訳と原文](docs/translations/makari-note-jp-cases.md#ja) | ChatGPT Images 2.6（自己申告） | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 12 | WEEL（田村 洋樹监修） | `weel-jp-emotion-gifs` 静止画→喜怒哀楽の4組のGIF。参照画像を@で呼び出す | [出典](https://weel.co.jp/media/tech/chatgpt-images-2-6/) | [出典](https://weel.co.jp/media/tech/chatgpt-images-2-6/) | 未公開 · [翻訳と原文](docs/translations/weel-jp-emotion-gifs.md#ja) | ChatGPT Images 2.6 | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 13 | OpenArt（公告署名 Created by OpenArt） | `openart-launch-sprite-videos` 株価リアクション用6コマのスプライトシートプロンプト（上昇／下落） | [出典](https://openai.com/index/introducing-images-2-6/) | [出典](https://openai.com/index/introducing-images-2-6/) | 短い / 部分 · [翻訳と原文](docs/translations/openart-launch-sprite-videos.md#ja) | Images 2.6の機能デモ | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 14 | xianyu110 | `xianyu110-mirror-gallery` 公式ドキュメント事例のミラーリポジトリ（提灯GIFのミラーを含む） | [出典](https://github.com/xianyu110/awesome-gpt-images-2.6) | [出典](https://github.com/xianyu110/awesome-gpt-images-2.6) | 未公開 · [翻訳と原文](docs/translations/xianyu110-mirror-gallery.md#ja) | 公式2.6ドキュメントからのミラー | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 15 | sparkpix.ai | `sparkpix-wave-gif` 肖像が軽く手を振る | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) · [翻訳と原文](docs/translations/sparkpix-wave-gif.md#ja) | 公開者によると、すべての作例を2026-11-06にgpt-image-2.6- | 公開者はネイティブ GIF と主張。確認した HTML には WebP  | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 16 | sparkpix.ai | `sparkpix-coffee-gif` コーヒーの湯気と薄いカーテンだけを動かす | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) · [翻訳と原文](docs/translations/sparkpix-coffee-gif.md#ja) | 公開者によると、すべての作例を2026-11-06にgpt-image-2.6- | 公開者はネイティブ GIF と主張。確認した HTML には WebP  | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 17 | sparkpix.ai | `sparkpix-dog-gif` ゴールデンレトリバーがしっぽを振り、首をかしげる | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) · [翻訳と原文](docs/translations/sparkpix-dog-gif.md#ja) | 公開者によると、すべての作例を2026-11-06にgpt-image-2.6- | 公開者はネイティブ GIF と主張。確認した HTML には WebP  | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 18 | sparkpix.ai | `sparkpix-sneaker-gif` 回転展示台に載った白いスニーカー | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) · [翻訳と原文](docs/translations/sparkpix-sneaker-gif.md#ja) | 公開者によると、すべての作例を2026-11-06にgpt-image-2.6- | 公開者はネイティブ GIF と主張。確認した HTML には WebP  | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 19 | sparkpix.ai | `sparkpix-sticker-gif` 猫が前足を振り、「HI!」の文字が跳ねるステッカー | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) · [翻訳と原文](docs/translations/sparkpix-sticker-gif.md#ja) | 公開者によると、すべての作例を2026-11-06にgpt-image-2.6- | 公開者はネイティブ GIF と主張。確認した HTML には WebP  | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 20 | sparkpix.ai | `sparkpix-boat-gif` 赤い紙の船と波のループ | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典](https://sparkpix.ai/gpt-image-2-6) | [出典で公開](https://sparkpix.ai/gpt-image-2-6) · [翻訳と原文](docs/translations/sparkpix-boat-gif.md#ja) | 公開者によると、すべての作例を2026-11-06にgpt-image-2.6- | 公開者はネイティブ GIF と主張。確認した HTML には WebP  | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 21 | Ofox | `ofox-orange-bird-native-gif` オレンジ色の鳥が翼を上げて元に戻るネイティブGIF | [出典](https://ofox.ai/blog/gpt-image-2-6-gif-guide/) | [出典](https://ofox.ai/blog/gpt-image-2-6-gif-guide/) | [出典で公開](https://ofox.ai/blog/_assets/downloads/image26-gif-complete/ofox-request.json) · [翻訳と原文](docs/translations/ofox-orange-bird-native-gif.md#ja) | 公開されたリクエストJSONにopenai/gpt-image-2.6-flar | 提供元 API のテスト：output_format=gif、frame | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 22 | Gregory Wieber / @dreamwieber | `gpt-image-2-6-claymation-kitten-ball-pit-gif` 粘土ストップモーション風の子猫がボールプールで遊ぶ | [出典](https://x.com/dreamwieber/status/2118191599872344467) | [出典](https://x.com/dreamwieber/status/2118191599872344467) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-claymation-kitten-ball-pit-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-claymation-kitten-ball-pit-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 23 | Lucy / @princess414141 | `gpt-image-2-6-dancing-frog-top-hat` シルクハットをかぶった漫画風のカエルが踊る | [出典](https://x.com/princess414141/status/2118144125354877152) | [出典](https://x.com/princess414141/status/2118144125354877152) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-dancing-frog-top-hat.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-dancing-frog-top-hat.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 24 | 鱼哥 / @MrGafish | `gpt-image-2-6-diligent-bee-daily-checkin-gif` 漫画風の小さなハチがスマホでチェックイン投稿 | [出典](https://x.com/MrGafish/status/2118217749680025722) | [出典](https://x.com/MrGafish/status/2118217749680025722) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-diligent-bee-daily-checkin-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-diligent-bee-daily-checkin-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 25 | Koei / こうえい / @koe_ai414 | `gpt-image-2-6-elderly-man-splitting-firewood-gif` 雪の庭で高齢者が薪を割る | [出典](https://x.com/koe_ai414/status/2118153765094351279) | [出典](https://x.com/koe_ai414/status/2118153765094351279) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-elderly-man-splitting-firewood-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-elderly-man-splitting-firewood-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 26 | リマレレ / @rem_rev | `gpt-image-2-6-heisei-flip-phone-decomail-gif` 東京の街角で折りたたみスマホに平成風アニメを表示 | [出典](https://x.com/rem_rev/status/2118252486360498485) | [出典](https://x.com/rem_rev/status/2118252486360498485) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-heisei-flip-phone-decomail-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-heisei-flip-phone-decomail-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 27 | 知识猫 / @GeekCatX | `gpt-image-2-6-idiom-riddle-ceramic-shelf-gif` 4つの陶器の置物が順に跳ねる成語当てクイズ | [出典](https://x.com/GeekCatX/status/2118160560290480519) | [出典](https://x.com/GeekCatX/status/2118160560290480519) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-idiom-riddle-ceramic-shelf-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-idiom-riddle-ceramic-shelf-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 28 | 鄭鈞霆 / @ZHENGJUNTING92 | `gpt-image-2-6-luminol-beaker-vortex-gif` 液体を滴下するとビーカーの渦が青・緑・紫の蛍光色に変わる | [出典](https://x.com/ZHENGJUNTING92/status/2118252052556255364) | [出典](https://x.com/ZHENGJUNTING92/status/2118252052556255364) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-luminol-beaker-vortex-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-luminol-beaker-vortex-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 29 | Gregory Wieber / @dreamwieber | `gpt-image-2-6-nyc-snow-globe-gif` 雪が舞い落ちるニューヨークのスノードーム | [出典](https://x.com/dreamwieber/status/2118190877567037732) | [出典](https://x.com/dreamwieber/status/2118190877567037732) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-nyc-snow-globe-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-nyc-snow-globe-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 30 | じゃむまる / @jammaru_lab | `gpt-image-2-6-osaka-castle-construction-gif` 大阪城が石垣から天守閣まで段階的に組み上がる | [出典](https://x.com/jammaru_lab/status/2118153279821787623) | [出典](https://x.com/jammaru_lab/status/2118153279821787623) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-osaka-castle-construction-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-osaka-castle-construction-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 31 | ヤレヤル / @YaReYaRu30Life | `gpt-image-2-6-pixel-hero-sword-swing-gif` ピクセルアートの勇者が光る剣を振る | [出典](https://x.com/YaReYaRu30Life/status/2118166505603153922) | [出典](https://x.com/YaReYaRu30Life/status/2118166505603153922) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-pixel-hero-sword-swing-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-pixel-hero-sword-swing-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | AgentCraft は X の MP4 から 12 fps でプレビュ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 32 | DEXTUNE / @dextune | `gpt-image-2-6-pixel-jungle-radar-outpost-gif` ピクセルアートのジャングル前哨基地と走査するパラボラアンテナ | [出典](https://x.com/dextune/status/2118523179702624694) | [出典](https://x.com/dextune/status/2118523179702624694) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-pixel-jungle-radar-outpost-gif.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-pixel-jungle-radar-outpost-gif.md#ja) | 二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者 | 公開プロンプトは 4×4、16 フレームのスプライトシートを明示。アニメ | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 33 | XinYuAI / @Superboy4949 | `gpt-image-2-6-steaming-ramen-bowl-chopsticks` 濃い色の木製カウンターで湯気を上げるラーメン丼 | [出典](https://x.com/Superboy4949/status/2118627045379105006) | [出典](https://x.com/Superboy4949/status/2118627045379105006) | [集約ページのみ](https://github.com/ai-boost/awesome-image-video-prompts/blob/main/prompts/image/gpt-image-2-6-steaming-ramen-bowl-chopsticks.yaml) · [翻訳と原文](docs/translations/gpt-image-2-6-steaming-ramen-bowl-chopsticks.md#ja) | 二次資料のカタログは2.6と表示。転記されたステップ1では静止画用にGPT Im | 転記されているのはステップ 1 の静止画プロンプトのみで、アニメーション | 二次資料のラベル。原投稿は未検証 | ライセンス不明 |
+| 34 | PTTL team | `pttl-pelican-loop` ケルキニ湖の船の屋根でペリカンが翼を広げる | [出典](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) | [出典](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) | [出典で公開](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) · [翻訳と原文](docs/translations/pttl-pelican-loop.md#ja) | 当事者の記事でChatGPT Images 2.6による自作例2件を紹介 | 作者は ChatGPT でのテキストから GIF の生成と説明。公開ダウ | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 35 | PTTL team | `pttl-owl-loop` 月夜の枝で興奮して跳ねるフクロウ | [出典](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) | [出典](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) | [出典で公開](https://www.pttl.gr/en/chatgpt-images-2-6-gif-animation/) · [翻訳と原文](docs/translations/pttl-owl-loop.md#ja) | 当事者の記事でChatGPT Images 2.6による自作例2件を紹介 | 作者は ChatGPT でのテキストから GIF の生成と説明。公開ダウ | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 36 | Graham Barlow / TechRadar | `techradar-chester-gif-iteration` ペットChesterの写真アニメ：ハロウィーンのまばたき、魔法、月の蝶 | [出典](https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-2-6-is-here-and-it-can-turn-your-photos-into-animated-gifs-so-i-tried-it-on-my-cat) | [出典](https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-2-6-is-here-and-it-can-turn-your-photos-into-animated-gifs-so-i-tried-it-on-my-cat) | [出典で公開](https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-2-6-is-here-and-it-can-turn-your-photos-into-animated-gifs-so-i-tried-it-on-my-cat) · [翻訳と原文](docs/translations/techradar-chester-gif-iteration.md#ja) | 2026-11-05、記者が自分の猫の写真でImages 2.6を直接検証 | 写真から GIF 化、動作の修正、名前付き参照の月面シーンへの再利用。同 | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 37 | 布留川英一 / Hidekazu Furukawa / @npaka123 | `npaka-dance-edit-workflow` 踊る猫と参照キャラクターのアニメを制作し、その後笑顔に変更 | [出典](https://note.com/npaka/n/n7e86091b23c3) | [出典](https://note.com/npaka/n/n7e86091b23c3) | [出典で公開](https://note.com/npaka/n/n7e86091b23c3) · [翻訳と原文](docs/translations/npaka-dance-edit-workflow.md#ja) | 作者自身のノートに、ChatGPT Images 2.6のテストと明記した本人の | テキストによる猫のダンス生成、参照キャラクターのアニメーション化、その後 | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 38 | Opusly | `opusly-tgif-cat-demo` 無料アカウントでTGIFのシルクハット姿の茶トラ猫ダンスを検証 | [出典](https://www.opusly.ai/blog/how-to-make-a-gif-in-chatgpt) | [出典](https://www.opusly.ai/blog/how-to-make-a-gif-in-chatgpt) | [出典で公開](https://www.opusly.ai/blog/how-to-make-a-gif-in-chatgpt) · [翻訳と原文](docs/translations/opusly-tgif-cat-demo.md#ja) | 公開者は2026-11-05に無料のChatGPTでImages 2.6を検証し | テキストによる猫のダンス生成。公開素材はプロンプト／結果画面のスクリーン | 2026-11-07 時点の出典記録。新たな検証は行っていない | ライセンス不明 |
+| 39 | vargHQ / vargai Inc. | `varg-pip-wave-hop` マスコットPipが2回手を振り、小さく跳ねる | [出典](https://github.com/vargHQ/skills/blob/main/gpt-image-gif/SKILL.md) | [出典](https://github.com/vargHQ/skills/blob/main/gpt-image-gif/SKILL.md) | [出典で公開](https://github.com/vargHQ/skills/blob/main/gpt-image-gif/SKILL.md) · [翻訳と原文](docs/translations/varg-pip-wave-hop.md#ja) | 出典ではgpt_image_2_6と報告。認証されていない | ドキュメントのリクエスト例。メディア未確認 | 2026-11-07 時点の出典記録。メディア未確認 | ライセンス不明 |
+| 40 | vargHQ / vargai Inc. | `varg-thanks-sticker` Pipが合掌してお辞儀する「THANKS!」の透明ステッカー | [出典](https://github.com/vargHQ/skills/blob/main/gpt-image-sticker-pack/SKILL.md) | [出典](https://github.com/vargHQ/skills/blob/main/gpt-image-sticker-pack/SKILL.md) | [出典で公開](https://github.com/vargHQ/skills/blob/main/gpt-image-sticker-pack/SKILL.md) · [翻訳と原文](docs/translations/varg-thanks-sticker.md#ja) | 出典ではgpt_image_2_6と報告。認証されていない | ドキュメントのリクエスト例。メディア未確認 | 2026-11-07 時点の出典記録。メディア未確認 | ライセンス不明 |
+| 41 | web | `openai-social-png` openai-social-png | [出典](https://images.ctfassets.net/kftzwdyauwt9/.../images-2-6-social.png) | [出典](https://images.ctfassets.net/kftzwdyauwt9/.../images-2-6-social.png) | 未公開 · [翻訳と原文](docs/translations/openai-social-png.md#ja) | 候補／除外 | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 42 | web | `nowrap-429` nowrap-429 | [出典](https://nowrap.ai/tools/chatgpt-images-2-6) | [出典](https://nowrap.ai/tools/chatgpt-images-2-6) | 未公開 · [翻訳と原文](docs/translations/nowrap-429.md#ja) | 候補／除外 | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 43 | web | `github-sdk-only` vercel/aiのPRやopenai-pythonの型定義などは技術支援資料で、GIF事例ではない | — | — | 未公開 · [翻訳と原文](docs/translations/github-sdk-only.md#ja) | 候補／除外 | 収集済み事例の主表には含めない | 候補／除外 | ライセンス不明 |
+| 44 | Morphic | `baker-mascot-sprite` パン職人マスコットの絵コンテシート | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 2.6 向けプロンプト · [翻訳と原文](docs/translations/baker-mascot-sprite.md#ja) | 作例は2.5／Ideogramで実行。2.6の完成出力ではない | プロンプトカード · SVG コンセプト表紙 | 2.6 の事例ではない | ライセンス不明 |
+| 45 | Morphic | `papercraft-koi` 切り絵のコイが一周する | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 2.6 向けプロンプト · [翻訳と原文](docs/translations/papercraft-koi.md#ja) | 作例は2.5／Ideogramで実行。2.6の完成出力ではない | プロンプトカード · SVG コンセプト表紙 | 2.6 の事例ではない | ライセンス不明 |
+| 46 | Morphic | `character-ref-sheet` マスコットの三面図設定シート | [出典](https://morphic.com/resources/how-to/chatgpt-images-2-6-guide) | [出典](https://morphic.com/resources/how-to/chatgpt-images-2-6-guide) | 2.6 向けプロンプト · [翻訳と原文](docs/translations/character-ref-sheet.md#ja) | 作例は2.5／Ideogramで実行。2.6の完成出力ではない | プロンプトカード · SVG コンセプト表紙 | 2.6 の事例ではない | ライセンス不明 |
+| 47 | Morphic | `packaging-dieline` 茶葉の箱の展開図・抜き型 | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 2.6 向けプロンプト · [翻訳と原文](docs/translations/packaging-dieline.md#ja) | 作例は2.5／Ideogramで実行。2.6の完成出力ではない | プロンプトカード · SVG コンセプト表紙 | 2.6 の事例ではない | ライセンス不明 |
+| 48 | Morphic | `labelled-bakery-cutaway` 6つの領域に注釈を付けた焼き菓子の断面 | [出典](https://morphic.com/resources/how-to/chatgpt-images-2-6-guide) | [出典](https://morphic.com/resources/how-to/chatgpt-images-2-6-guide) | 2.6 向けプロンプト · [翻訳と原文](docs/translations/labelled-bakery-cutaway.md#ja) | 作例は2.5／Ideogramで実行。2.6の完成出力ではない | プロンプトカード · SVG コンセプト表紙 | 2.6 の事例ではない | ライセンス不明 |
+| 49 | Morphic | `winter-edition-edit` 1か所だけ変更した冬バージョン | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 2.6 向けプロンプト · [翻訳と原文](docs/translations/winter-edition-edit.md#ja) | 作例は2.5／Ideogramで実行。2.6の完成出力ではない | プロンプトカード · SVG コンセプト表紙 | 2.6 の事例ではない | ライセンス不明 |
+| 50 | Morphic | `autumn-bake-poster` 指定どおりの文字を載せたショーウィンドーのポスター | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | [出典](https://morphic.com/resources/prompts/chatgpt-images-2-6-prompts) | 2.6 向けプロンプト · [翻訳と原文](docs/translations/autumn-bake-poster.md#ja) | 作例は2.5／Ideogramで実行。2.6の完成出力ではない | プロンプトカード · SVG コンセプト表紙 | 2.6 の事例ではない | ライセンス不明 |
 
 </details>
 
@@ -1964,12 +899,12 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | 仓库种子（本仓示例，不是社区征集主清单） | `pixel-head-pat` 像素人物摸头 / Pixel Head Pat | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/pixel-head-pat.gif) | [ケース](docs/gifs/pixel-head-pat.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | ライセンス不明 |
-| 2 | 仓库种子（本仓示例，不是社区征集主清单） | `cat-screen-crack` 怒猫撞裂屏幕 / Cat Cracks the Screen | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-screen-crack.gif) | [ケース](docs/gifs/cat-screen-crack.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | ライセンス不明 |
-| 3 | 仓库种子（本仓示例，不是社区征集主清单） | `cat-headbutt` 猫咪撞镜头 / Cat Headbutt | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-headbutt.gif) | [ケース](docs/gifs/cat-headbutt.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | ライセンス不明 |
-| 4 | 仓库种子（本仓示例，不是社区征集主清单） | `kangaroo-pat` 袋鼠摸头 / Kangaroo Head Pat | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/kangaroo-pat.gif) | [ケース](docs/gifs/kangaroo-pat.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | ライセンス不明 |
-| 5 | 仓库种子（本仓示例，不是社区征集主清单） | `martial-arts-combo` 太极五连鞭 / Martial Arts Combo | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/martial-arts-combo.gif) | [ケース](docs/gifs/martial-arts-combo.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | ライセンス不明 |
-| 6 | 仓库种子（本仓示例，不是社区征集主清单） | `head-pat-caption` 摸头表情包 / Captioned Head Pat | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/head-pat-caption.gif) | [ケース](docs/gifs/head-pat-caption.gif) | reconstructed | ChatGPT Images 2.6 (exact checkpoint not | 本仓种子 GIF | 本地 Pillow 多帧 · 非社区原作者案例 | ライセンス不明 |
+| 1 | 仓库种子（本仓示例，不是社区征集主清单） | `pixel-head-pat` ピクセルキャラクターの頭なで | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/pixel-head-pat.gif) | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/pixel-head-pat.gif) | 再構成プロンプト · [翻訳と原文](docs/translations/pixel-head-pat.md#ja) | ChatGPT Images 2.6（正確なチェックポイントは未記録） | リポジトリの初期 GIF | ローカルで Pillow により複数フレームを確認 · コミュニティ作者 | ライセンス不明 |
+| 2 | 仓库种子（本仓示例，不是社区征集主清单） | `cat-screen-crack` 怒った猫がぶつかって画面を割る | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-screen-crack.gif) | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-screen-crack.gif) | 再構成プロンプト · [翻訳と原文](docs/translations/cat-screen-crack.md#ja) | ChatGPT Images 2.6（正確なチェックポイントは未記録） | リポジトリの初期 GIF | ローカルで Pillow により複数フレームを確認 · コミュニティ作者 | ライセンス不明 |
+| 3 | 仓库种子（本仓示例，不是社区征集主清单） | `cat-headbutt` 猫がカメラに頭突き | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-headbutt.gif) | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/cat-headbutt.gif) | 再構成プロンプト · [翻訳と原文](docs/translations/cat-headbutt.md#ja) | ChatGPT Images 2.6（正確なチェックポイントは未記録） | リポジトリの初期 GIF | ローカルで Pillow により複数フレームを確認 · コミュニティ作者 | ライセンス不明 |
+| 4 | 仓库种子（本仓示例，不是社区征集主清单） | `kangaroo-pat` カンガルーの頭なで | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/kangaroo-pat.gif) | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/kangaroo-pat.gif) | 再構成プロンプト · [翻訳と原文](docs/translations/kangaroo-pat.md#ja) | ChatGPT Images 2.6（正確なチェックポイントは未記録） | リポジトリの初期 GIF | ローカルで Pillow により複数フレームを確認 · コミュニティ作者 | ライセンス不明 |
+| 5 | 仓库种子（本仓示例，不是社区征集主清单） | `martial-arts-combo` 太極拳の五連撃 | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/martial-arts-combo.gif) | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/martial-arts-combo.gif) | 再構成プロンプト · [翻訳と原文](docs/translations/martial-arts-combo.md#ja) | ChatGPT Images 2.6（正確なチェックポイントは未記録） | リポジトリの初期 GIF | ローカルで Pillow により複数フレームを確認 · コミュニティ作者 | ライセンス不明 |
+| 6 | 仓库种子（本仓示例，不是社区征集主清单） | `head-pat-caption` 字幕付き頭なでスタンプ | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/head-pat-caption.gif) | [出典](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/head-pat-caption.gif) | 再構成プロンプト · [翻訳と原文](docs/translations/head-pat-caption.md#ja) | ChatGPT Images 2.6（正確なチェックポイントは未記録） | リポジトリの初期 GIF | ローカルで Pillow により複数フレームを確認 · コミュニティ作者 | ライセンス不明 |
 
 </details>
 
@@ -1995,6 +930,6 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 ## どの言語版があるか
 
-**English、简体中文、繁體中文、日本語** は一つのインベントリを共有し、件数も同じです。引用とプロンプトは出典の言語のままです。ウェブ目録は `?lang=en` / `?lang=zh` だけです。アイデアと人気作の再演は中国語が先で、第二の同期目録ではありません。
+**English、简体中文、繁體中文、日本語** は同じ台帳と事例数を共有します。事例名、制作方法、検証状況、モデルの根拠、収集済みのプロンプト本文に、人による校閲が未実施の AI 翻訳を別途用意しています。原文と出典リンクは各翻訳と併せて確認できます。Web カタログは `?lang=en` / `?lang=zh` に対応し、事例翻訳ビューアーは 4 言語に対応します。アイデアと人気作品の再制作の付録は引き続き中国語中心です。[翻訳方針と対象範囲](docs/translation-policy.md)をご覧ください。
 
 [先頭へ ↑](#awesome-ai-model-showcases)

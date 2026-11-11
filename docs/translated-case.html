@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Case translation · Awesome AI Model Showcases</title>
+  <style>
+    body{font:16px/1.6 system-ui,sans-serif;max-width:960px;margin:32px auto;padding:0 20px;color:#edf3f6;background:#101820}a{color:#a9d7ff}h1{line-height:1.25}nav{display:flex;gap:16px;flex-wrap:wrap;margin:24px 0}nav a[aria-current=page]{color:#d6ff8f;font-weight:700}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#17232e;border-radius:12px;padding:18px;font:inherit}details{border-top:1px solid #49616d;margin-top:24px;padding-top:20px}.notice{border-left:4px solid #f5cd70;padding-left:16px;color:#f9e4b6}.status{color:#bed0dc}#case-content[hidden]{display:none}
+  </style>
+  <script defer src="data/cases.js"></script>
+  <script defer src="translated-case.js"></script>
+<link rel="icon" type="image/png" href="readme-assets/favicon.png">
+<link rel="apple-touch-icon" href="readme-assets/apple-touch-icon.png">
+</head>
+<body>
+  <p><a id="catalog-link" href="index.html">← Catalog</a></p>
+  <nav aria-label="Language">
+    <a data-locale="en" href="?lang=en">English</a>
+    <a data-locale="zh-CN" href="?lang=zh-CN">简体中文</a>
+    <a data-locale="zh-TW" href="?lang=zh-TW">繁體中文</a>
+    <a data-locale="ja" href="?lang=ja">日本語</a>
+  </nav>
+  <p id="case-error" role="status" hidden></p>
+  <main id="case-content" hidden>
+    <h1 id="case-title"></h1>
+    <p><span id="author-label"></span>: <span id="case-author"></span> · <a id="case-source" rel="noopener noreferrer"></a></p>
+    <p><a id="case-archive" hidden></a></p>
+    <p id="translation-notice" class="notice"></p>
+    <h2 id="method-label"></h2><p id="case-method"></p>
+    <h2 id="verification-label"></h2><p id="case-verification" class="status"></p>
+    <h2 id="model-label"></h2><pre id="case-model"></pre>
+    <h2 id="prompt-label"></h2><pre id="case-prompt"></pre>
+    <details id="original-content">
+      <summary id="original-label"></summary>
+      <h3 id="original-title-label"></h3><pre id="case-original-title"></pre>
+      <h3 id="original-model-label"></h3><pre id="case-original-model"></pre>
+      <h3 id="original-prompt-label"></h3><pre id="case-original-prompt"></pre>
+      <h3 id="rights-label"></h3><pre id="case-rights"></pre>
+    </details>
+  </main>
+</body>
+</html>

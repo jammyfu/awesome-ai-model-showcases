@@ -1,5 +1,11 @@
 (() => {
   'use strict';
+  // Fail closed: only exact docs-relative paths from the verified build registry.
+  const publicMedia = new Set(Array.isArray(window.PUBLIC_MEDIA_PATHS) ? window.PUBLIC_MEDIA_PATHS : []);
+  function approvedMedia(path) {
+    return typeof path === 'string' && !/[:?#\\]/.test(path) && !path.startsWith('/') &&
+      !path.split('/').some((part) => !part || part === '.' || part === '..') && publicMedia.has(path);
+  }
   const ideas = Array.isArray(window.GIF_IDEAS) ? window.GIF_IDEAS : [];
   const cards = document.getElementById('cards');
   const query = document.getElementById('search');
@@ -110,41 +116,29 @@
     list.forEach((x, i) => {
       const card = el('article', 'card');
       const poster = el('div', 'poster');
-      if (x.preview_kind === 'external_gif' && x.media_url) {
-        const img = el('img');
-        img.src = x.media_url;
-        img.alt = '源站 GIF（未入库）：' + x.title_zh;
-        img.loading = 'lazy';
-        img.referrerPolicy = 'no-referrer';
-        poster.append(img);
-      } else if (x.media_kind === 'png' && x.media_url) {
-        const img = el('img');
-        img.src = x.media_url;
-        img.alt = '源站 Sprite 表（静图，未入库）：' + x.title_zh;
-        img.loading = 'lazy';
-        img.referrerPolicy = 'no-referrer';
-        poster.append(img);
-      } else if (x.media_kind === 'mp4' && x.media_poster_url) {
-        const img = el('img');
-        img.src = x.media_poster_url;
-        img.alt = 'X 静帧预览，动图是未观看的 MP4：' + x.title_zh;
-        img.loading = 'lazy';
-        img.referrerPolicy = 'no-referrer';
-        poster.append(img);
-      } else if (x.media_kind === 'mp4') {
-        poster.append(el('div', 'poster-empty', 'X 标成 GIF · 实际 MP4 · 未视觉复核'));
-      } else if (x.preview) {
-        const img = el('img');
-        img.src = x.preview;
-        img.alt =
-          (x.preview_kind === 'existing_gif' ? '仓库 GIF 预览：' : '原创概念示意图，不是模型成品：') +
-          x.title_zh;
-        img.loading = 'lazy';
-        poster.append(img);
+      const candidate = [x.media_url, x.media_poster_url, x.preview].find(approvedMedia);
+      if (candidate) {
+        const isVideo = /\.(mp4|webm|mov)$/i.test(candidate);
+        const preview = el(isVideo ? 'video' : 'img');
+        preview.src = candidate;
+        if (isVideo) {
+          preview.controls = true;
+          preview.preload = 'metadata';
+        } else {
+          preview.alt = x.title_zh;
+          preview.loading = 'lazy';
+        }
+        poster.append(preview);
       } else {
-        poster.append(el('div', 'poster-empty', '无本地图 · 请打开来源链接'));
+        const source = el(x.source_url ? 'a' : 'div', 'poster-empty', x.source_url ? '查看原始来源 ↗ · 未转载媒体' : '无已获许可预览 · 来源未记录');
+        if (x.source_url) {
+          source.href = x.source_url;
+          source.target = '_blank';
+          source.rel = 'noopener noreferrer';
+        }
+        poster.append(source);
       }
-      poster.append(el('span', 'kind', posterKind(x)), el('span', 'index', String(i + 1).padStart(2, '0')));
+      poster.append(el('span', 'kind', candidate ? posterKind(x) : '仅来源链接 · 未转载媒体'), el('span', 'index', String(i + 1).padStart(2, '0')));
       const content = el('div', 'content');
       const line = el('div', 'eyeline');
       line.append(el('span', '', x.category + ' · ' + x.source_label), el('span', 'p', x.priority + ' 编辑优先级'));
@@ -239,14 +233,14 @@
         });
         actions.append(adaptBtn);
       }
-      if (x.media_url && x.preview_kind === 'external_gif') {
+      if (approvedMedia(x.media_url) && x.preview_kind === 'external_gif') {
         const a = el('a', '', '源站 GIF ↗');
         a.href = x.media_url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
         actions.append(a);
       }
-      if (x.media_kind === 'png' && x.media_url) {
+      if (x.media_kind === 'png' && approvedMedia(x.media_url)) {
         const a = el('a', '', '分镜表 PNG ↗');
         a.href = x.media_url;
         a.target = '_blank';
@@ -265,21 +259,21 @@
         a.href = 'game.html';
         actions.append(a);
       }
-      if (x.media_kind === 'mp4' && x.media_url) {
+      if (x.media_kind === 'mp4' && approvedMedia(x.media_url)) {
         const a = el('a', '', '外链 MP4 ↗');
         a.href = x.media_url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
         actions.append(a);
       }
-      (x.related_media_urls || []).forEach((url, n) => {
+      (x.related_media_urls || []).filter(approvedMedia).forEach((url, n) => {
         const a = el('a', '', '相关 MP4 ' + (n + 2) + ' ↗');
         a.href = url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
         actions.append(a);
       });
-      if (x.reference_image_url) {
+      if (approvedMedia(x.reference_image_url)) {
         const a = el('a', '', '参考静图 ↗');
         a.href = x.reference_image_url;
         a.target = '_blank';

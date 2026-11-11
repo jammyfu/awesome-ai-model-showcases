@@ -14,3 +14,11 @@
 ## Prompt status
 
 See `prompt.md`.
+
+## Media
+
+Media is shown here only with a documented publication grant. Otherwise, view the original source. / 仅展示有明确授权记录的素材，其余请查看原帖。
+
+
+
+[View original source / 查看原帖](https://x.com/petergyang/status/2119870223562191289)

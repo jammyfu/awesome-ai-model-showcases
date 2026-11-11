@@ -22,3 +22,11 @@ See `prompt.md`.
 ## Notes
 
 Dual naming: owner/community section is GPT-6.2 Sol; this artifact's own label is GPT-6.1 Sol.
+
+## Media
+
+Media is shown here only with a documented publication grant. Otherwise, view the original source. / 仅展示有明确授权记录的素材，其余请查看原帖。
+
+
+
+[View original source / 查看原帖](https://jamesgreene.com/models/)

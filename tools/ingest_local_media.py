@@ -15,6 +15,7 @@ import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
+from media_policy import is_public_asset
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -204,7 +205,7 @@ def case_docs(case_id: str, meta: dict, files: list[dict]) -> None:
     d = CASES / case_id
     d.mkdir(parents=True, exist_ok=True)
     prompt = (meta.get("original_prompt") or "").strip()
-    license_text = meta.get("license_notes") or "License unknown. Archived locally at the user's request. MIT covers repo source code only. This is not an author grant or CC0."
+    license_text = meta.get("license_notes") or "License unknown. Source link only in public displays. MIT covers repo source code only. This is not an author grant or CC0."
     provenance = meta.get("prompt_provenance") or ""
     write_text(
         d / "prompt.md",
@@ -235,10 +236,12 @@ def case_docs(case_id: str, meta: dict, files: list[dict]) -> None:
         meta.get("notes") or "",
     ]
     write_text(d / "post.md", "\n".join(line.rstrip() for line in "\n".join(post_bits).splitlines()).rstrip() + "\n")
-    media_md = []
+    media_md = [f"[View original source]({meta.get('source_url') or ''}). Local display requires documented asset permission."]
     for f in files:
         if not f.get("ok"):
             media_md.append(f"- MISSING `{f['role']}` {f['source_url']} — {f.get('error')}")
+            continue
+        if not is_public_asset(f.get("local_path") or "", root=ROOT):
             continue
         rel = Path(f["local_path"]).name
         if f["ext"] in {"gif", "jpg", "jpeg", "png", "webp"}:
@@ -282,6 +285,8 @@ def case_docs(case_id: str, meta: dict, files: list[dict]) -> None:
     embeds = []
     for f in files:
         if not f.get("ok"):
+            continue
+        if not is_public_asset(f.get("local_path") or "", root=ROOT):
             continue
         rel = Path(f["local_path"]).name
         if f["ext"] in {"gif", "jpg", "jpeg", "png", "webp"}:

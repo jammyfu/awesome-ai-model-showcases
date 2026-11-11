@@ -17,8 +17,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120010889222848512/img/rZFVhKqxKxTGLxHX.jpg?name=orig",
       "image_source": "https://x.com/anabology/status/2120010995309457643",
       "image_credit": "@anabology",
-      "thumb": "assets/thumbs/x-anabology-fable52-claudia-gallery.jpg",
-      "video": "docs/cases/x-anabology-fable52-claudia-gallery/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-anshu4321-fable52-indiranagar-1",
@@ -32,8 +34,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg?name=orig",
       "image_source": "https://x.com/anshu4321/status/2119938067758772403",
       "image_credit": "@anshu4321",
-      "thumb": "assets/thumbs/x-anshu4321-fable52-indiranagar-1.jpg",
-      "video": "docs/cases/x-anshu4321-fable52-indiranagar-1/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-chetaslua-fable52-clip",
@@ -47,8 +51,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg?name=orig",
       "image_source": "https://x.com/chetaslua/status/2119870650722763052",
       "image_credit": "@chetaslua",
-      "thumb": "assets/thumbs/x-chetaslua-fable52-clip.jpg",
-      "video": "docs/cases/x-chetaslua-fable52-clip/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-chrisgpt-fable52-clip",
@@ -62,8 +68,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119998768925884416/img/axPRQGaCutCJ07Le.jpg?name=orig",
       "image_source": "https://x.com/ChrisGPT/status/2119998815856218494",
       "image_credit": "@ChrisGPT",
-      "thumb": "assets/thumbs/x-chrisgpt-fable52-clip.jpg",
-      "video": "docs/cases/x-chrisgpt-fable52-clip/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-felixrieseberg-fable52-saltline",
@@ -77,8 +85,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg?name=orig",
       "image_source": "https://x.com/felixrieseberg/status/2119925633564463609",
       "image_credit": "@felixrieseberg",
-      "thumb": "assets/thumbs/x-felixrieseberg-fable52-saltline.jpg",
-      "video": "docs/cases/x-felixrieseberg-fable52-saltline/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-felixrieseberg-fable52-three-games-saltline-tidew",
@@ -93,7 +103,9 @@
       "image_source": "https://x.com/vineerpasam/status/2119955306096857145",
       "image_credit": "@felixrieseberg",
       "thumb": "",
-      "video": "docs/cases/x-felixrieseberg-fable52-three-games-saltline-tidew/media/video.mp4"
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-higgsfield-ai-fable52-vowlorn-rpg",
@@ -107,8 +119,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119975447723454464/img/JIOwJR3O0MU6GP9K.jpg?name=orig",
       "image_source": "https://x.com/higgsfield_ai/status/2119997122896601269",
       "image_credit": "@higgsfield_ai",
-      "thumb": "assets/thumbs/x-higgsfield-ai-fable52-vowlorn-rpg.jpg",
-      "video": "docs/cases/x-higgsfield-ai-fable52-vowlorn-rpg/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-itspsneha-fable52-clip",
@@ -123,7 +137,9 @@
       "image_source": "https://x.com/itspsneha/status/2120048494761451974",
       "image_credit": "@itspsneha",
       "thumb": "",
-      "video": ""
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-lexnlin-fable52-feed-the-backrooms",
@@ -137,8 +153,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119959903062183936/img/7Iw53TmYQa2xxvPH.jpg?name=orig",
       "image_source": "https://x.com/LexnLin/status/2119966127149429093",
       "image_credit": "@LexnLin",
-      "thumb": "assets/thumbs/x-lexnlin-fable52-feed-the-backrooms.jpg",
-      "video": "docs/cases/x-lexnlin-fable52-feed-the-backrooms/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-miaai-lab-fable52-76-html",
@@ -153,7 +171,9 @@
       "image_source": "https://x.com/MiaAI_lab/status/2119930229661503893",
       "image_credit": "@MiaAI_lab",
       "thumb": "",
-      "video": ""
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mrtacticalx-fable52-fable-opus",
@@ -167,8 +187,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119955491941949440/img/MgczBx8mkoU_O4Jy.jpg?name=orig",
       "image_source": "https://x.com/MrTacticalX/status/2119955647542542439",
       "image_credit": "@MrTacticalX",
-      "thumb": "assets/thumbs/x-mrtacticalx-fable52-fable-opus.jpg",
-      "video": "docs/cases/x-mrtacticalx-fable52-fable-opus/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-noclipepe-fable52-chrome",
@@ -182,8 +204,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg?name=orig",
       "image_source": "https://x.com/noclipepe/status/2119927838321328577",
       "image_credit": "@noclipepe",
-      "thumb": "assets/thumbs/x-noclipepe-fable52-chrome.jpg",
-      "video": "docs/cases/x-noclipepe-fable52-chrome/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-noclipepe-fable52-clip",
@@ -197,8 +221,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2117728147135254528/img/xSI0dlQ9mSMBJNna.jpg?name=orig",
       "image_source": "https://x.com/noclipepe/status/2119728047754547326",
       "image_credit": "@noclipepe",
-      "thumb": "assets/thumbs/x-noclipepe-fable52-clip.jpg",
-      "video": "docs/cases/x-noclipepe-fable52-clip/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-sholtodouglas-fable52-fps",
@@ -212,8 +238,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119935171541831680/img/_aYfEpx1CJOAQK1n.jpg?name=orig",
       "image_source": "https://x.com/_sholtodouglas/status/2119935331499925557",
       "image_credit": "@_sholtodouglas",
-      "thumb": "assets/thumbs/x-sholtodouglas-fable52-fps.jpg",
-      "video": "docs/cases/x-sholtodouglas-fable52-fps/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-tokifyi-fable52-clip",
@@ -228,7 +256,9 @@
       "image_source": "https://x.com/tokifyi/status/2120020272153764172",
       "image_credit": "@tokifyi",
       "thumb": "",
-      "video": ""
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-vib3coded-fable52-clip",
@@ -242,8 +272,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119950988110921729/img/Dv28rks932VbKZ4y.jpg?name=orig",
       "image_source": "https://x.com/vib3coded/status/2119951060752375827",
       "image_credit": "@vib3coded",
-      "thumb": "assets/thumbs/x-vib3coded-fable52-clip.jpg",
-      "video": "docs/cases/x-vib3coded-fable52-clip/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-vib3coded-fable52-clip-2",
@@ -257,8 +289,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120104433254068225/img/RmgDnWhZQNX8PS-L.jpg?name=orig",
       "image_source": "https://x.com/vib3coded/status/2120104517282775514",
       "image_credit": "@vib3coded",
-      "thumb": "assets/thumbs/x-vib3coded-fable52-clip-2.jpg",
-      "video": "docs/cases/x-vib3coded-fable52-clip-2/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-viktoroddy-fable52-ribbon-hero",
@@ -272,8 +306,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119984993820897280/img/uTAWiUTErxhNwwG7.jpg?name=orig",
       "image_source": "https://x.com/viktoroddy/status/2119985044542705916",
       "image_credit": "@viktoroddy",
-      "thumb": "assets/thumbs/x-viktoroddy-fable52-ribbon-hero.jpg",
-      "video": "docs/cases/x-viktoroddy-fable52-ribbon-hero/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-wesroth-fable52-clip",
@@ -287,8 +323,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119952951469121536/img/tCvGB-RDCS0e4xCt.jpg?name=orig",
       "image_source": "https://x.com/WesRoth/status/2119953913160093817",
       "image_credit": "@WesRoth",
-      "thumb": "assets/thumbs/x-wesroth-fable52-clip.jpg",
-      "video": "docs/cases/x-wesroth-fable52-clip/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-himanshutwtxs-fable52-motion-showreel",
@@ -302,8 +340,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120016926374260736/img/aPCGTN5hM19Qv5mx.jpg",
       "image_source": "https://x.com/himanshutwtxs/status/2120017106804900304",
       "image_credit": "@himanshutwtxs",
-      "thumb": "assets/thumbs/x-himanshutwtxs-fable52-motion-showreel.jpg",
-      "video": "docs/cases/x-himanshutwtxs-fable52-motion-showreel/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-lexnlin-fable52-a-flight-through-a-living",
@@ -317,8 +357,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119880037172146176/img/KfYiYvUz5T6HE_2d.jpg?name=orig",
       "image_source": "https://x.com/LexnLin/status/2119880654858977333",
       "image_credit": "@LexnLin",
-      "thumb": "assets/thumbs/x-lexnlin-fable52-a-flight-through-a-living.jpg",
-      "video": "docs/cases/x-lexnlin-fable52-a-flight-through-a-living/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b",
@@ -332,8 +374,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg?name=orig",
       "image_source": "https://x.com/maxt3chno/status/2119896698281467952",
       "image_credit": "@maxt3chno",
-      "thumb": "assets/thumbs/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b.jpg",
-      "video": "docs/cases/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-notjazii-fable52-a-pirate-ship-sailing-acro",
@@ -347,8 +391,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119904377221910528/img/aB9DK5GTWuN3NfZc.jpg?name=orig",
       "image_source": "https://x.com/notjazii/status/2119905661505122575",
       "image_credit": "@notjazii",
-      "thumb": "assets/thumbs/x-notjazii-fable52-a-pirate-ship-sailing-acro.jpg",
-      "video": "docs/cases/x-notjazii-fable52-a-pirate-ship-sailing-acro/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-wshuyi-fable52-sabertooth-hunt",
@@ -362,8 +408,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120014231450034176/img/dDRJCDH_K5Kdoafm.jpg",
       "image_source": "https://x.com/wshuyi/status/2120014892040417720",
       "image_credit": "@wshuyi",
-      "thumb": "assets/thumbs/x-wshuyi-fable52-sabertooth-hunt.jpg",
-      "video": "docs/cases/x-wshuyi-fable52-sabertooth-hunt/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-halil-fable52-animation-prompts",
@@ -377,8 +425,10 @@
       "image_url": "https://halilsekeroglu.com/medya/og/fable.jpg",
       "image_source": "https://halilsekeroglu.com/en/fable/",
       "image_credit": "Halil Sekeroglu",
-      "thumb": "assets/thumbs/web-halil-fable52-animation-prompts.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-0kncn-fable52-543073",
@@ -392,8 +442,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119900741783400450/img/l3alC9B_b6WCNWwz.jpg",
       "image_source": "https://x.com/0kncn/status/2119901782482543073",
       "image_credit": "@0kncn（Okan Can）",
-      "thumb": "assets/thumbs/x-0kncn-fable52-543073.jpg",
-      "video": "docs/cases/x-0kncn-fable52-543073/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-aakashverma-fable52-fable-anthropic",
@@ -407,8 +459,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119874516012929025/img/_zlQdA8J_JpHjE04.jpg",
       "image_source": "https://x.com/aakashverma/status/2119874895836524593",
       "image_credit": "@aakashverma（Aakash Verma）",
-      "thumb": "assets/thumbs/x-aakashverma-fable52-fable-anthropic.jpg",
-      "video": "docs/cases/x-aakashverma-fable52-fable-anthropic/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-akshatbahety-fable52-fal",
@@ -422,8 +476,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119882362704322560/img/mT32jYdimjEmIVYB.jpg",
       "image_source": "https://x.com/akshatbahety/status/2119882437740421456",
       "image_credit": "@akshatbahety（Akshat Bahety）",
-      "thumb": "assets/thumbs/x-akshatbahety-fable52-fal.jpg",
-      "video": "docs/cases/x-akshatbahety-fable52-fal/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-alexalbert-fable52-pdf",
@@ -437,8 +493,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119916917502926849/img/WSbKJDsqAxMrSwGo.jpg",
       "image_source": "https://x.com/alexalbert__/status/2119916954337349737",
       "image_credit": "@alexalbert__（Alex Albert）",
-      "thumb": "assets/thumbs/x-alexalbert-fable52-pdf.jpg",
-      "video": "docs/cases/x-alexalbert-fable52-pdf/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-alightinastorm-fable52-a-browser-first-person-sho",
@@ -452,8 +510,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120020347520966656/img/9AIT_SdyWJU_RkCg.jpg?name=orig",
       "image_source": "https://x.com/alightinastorm/status/2120020469487440210",
       "image_credit": "@alightinastorm",
-      "thumb": "assets/thumbs/x-alightinastorm-fable52-a-browser-first-person-sho.jpg",
-      "video": "docs/cases/x-alightinastorm-fable52-a-browser-first-person-sho/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-almaxgo-fable52-fbplot",
@@ -467,8 +527,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119890367994576896/img/XXBoYnoq-knIAobe.jpg",
       "image_source": "https://x.com/al_maxgo/status/2119891197317591040",
       "image_credit": "@al_maxgo（Al Maxgo）",
-      "thumb": "assets/thumbs/x-almaxgo-fable52-fbplot.jpg",
-      "video": "docs/cases/x-almaxgo-fable52-fbplot/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-amihai-fable52-205099",
@@ -482,8 +544,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119893041322287104/img/1WcBPMdXWecrYDxJ.jpg",
       "image_source": "https://x.com/amihai/status/2119894821255205099",
       "image_credit": "@amihai（Amichai Mantinband）",
-      "thumb": "assets/thumbs/x-amihai-fable52-205099.jpg",
-      "video": "docs/cases/x-amihai-fable52-205099/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-amirmushich-fable52-blender-reaper",
@@ -497,8 +561,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119902373770334209/img/dbvXER4f0lozPod_.jpg",
       "image_source": "https://x.com/AmirMushich/status/2119903338078564844",
       "image_credit": "@AmirMushich（AmirMušić）",
-      "thumb": "assets/thumbs/x-amirmushich-fable52-blender-reaper.jpg",
-      "video": "docs/cases/x-amirmushich-fable52-blender-reaper/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-amirmushich-fable52-worm-rider",
@@ -512,8 +578,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119936256498962432/img/Md1DWGijRFEEm1Z_.jpg",
       "image_source": "https://x.com/AmirMushich/status/2119937977426338283",
       "image_credit": "@AmirMushich（AmirMušić）",
-      "thumb": "assets/thumbs/x-amirmushich-fable52-worm-rider.jpg",
-      "video": "docs/cases/x-amirmushich-fable52-worm-rider/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-anstapnever-fable52-blackout-three",
@@ -527,8 +595,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119914875011096576/img/Sjcwvx1GK95jHc6X.jpg",
       "image_source": "https://x.com/anstapnever/status/2119915123070644263",
       "image_credit": "@anstapnever（anstap）",
-      "thumb": "assets/thumbs/x-anstapnever-fable52-blackout-three.jpg",
-      "video": "docs/cases/x-anstapnever-fable52-blackout-three/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-argofowl-fable52-spud-smash",
@@ -542,8 +612,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119912082066071552/img/TBItryIgEyj7ZJHg.jpg",
       "image_source": "https://x.com/argofowl/status/2119913148929187960",
       "image_credit": "@argofowl（🥔🥔🥔）",
-      "thumb": "assets/thumbs/x-argofowl-fable52-spud-smash.jpg",
-      "video": "docs/cases/x-argofowl-fable52-spud-smash/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-beammanp-fable52-wasd-three",
@@ -557,8 +629,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119879302833700864/img/17ix9mk7K9vCBeX7.jpg",
       "image_source": "https://x.com/BeamManP/status/2119879390322622583",
       "image_credit": "@BeamManP（ビームマンＰ ver40）",
-      "thumb": "assets/thumbs/x-beammanp-fable52-wasd-three.jpg",
-      "video": "docs/cases/x-beammanp-fable52-wasd-three/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-chetaslua-fable52-808368",
@@ -572,8 +646,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119981120725057536/img/hJtt7eJYJ5m5ummA.jpg",
       "image_source": "https://x.com/chetaslua/status/2119981510199808368",
       "image_credit": "@chetaslua",
-      "thumb": "assets/thumbs/x-chetaslua-fable52-808368.jpg",
-      "video": "docs/cases/x-chetaslua-fable52-808368/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-clairevo-fable52-chatprd",
@@ -588,7 +664,9 @@
       "image_source": "https://x.com/clairevo/status/2119891385784619405",
       "image_credit": "@clairevo（claire vo 🖤）",
       "thumb": "",
-      "video": ""
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-clairevo-fable52-typed-page",
@@ -602,8 +680,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119905440352055296/img/oflCOre5DIUGFNvK.jpg",
       "image_source": "https://x.com/clairevo/status/2119905651359142132",
       "image_credit": "@clairevo（claire vo 🖤）",
-      "thumb": "assets/thumbs/x-clairevo-fable52-typed-page.jpg",
-      "video": "docs/cases/x-clairevo-fable52-typed-page/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-claudeai-fable52-131439",
@@ -617,8 +697,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtddBuWIAA_A6e.jpg?name=orig",
       "image_source": "https://x.com/claudeai/status/2119899488995131439",
       "image_credit": "@claudeai（Claude）",
-      "thumb": "assets/thumbs/x-claudeai-fable52-131439.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-claudeai-fable52-221045",
@@ -632,8 +714,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119864431383322625/img/PnRKfjtscPIIN_mq.jpg",
       "image_source": "https://x.com/claudeai/status/2119867132452221045",
       "image_credit": "@claudeai（Claude）",
-      "thumb": "assets/thumbs/x-claudeai-fable52-221045.jpg",
-      "video": "docs/cases/x-claudeai-fable52-221045/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-claudeai-fable52-268322",
@@ -647,8 +731,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg",
       "image_source": "https://x.com/claudeai/status/2119867114450268322",
       "image_credit": "@claudeai（Claude）",
-      "thumb": "assets/thumbs/x-claudeai-fable52-268322.jpg",
-      "video": "docs/cases/x-claudeai-fable52-268322/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-claudeai-fable52-825293",
@@ -663,7 +749,9 @@
       "image_source": "https://x.com/claudeai/status/2119899487044825293",
       "image_credit": "@claudeai（Claude）",
       "thumb": "",
-      "video": ""
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-claudeai-fable52-lean",
@@ -677,8 +765,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtFZLnX0AApUdy.png?name=orig",
       "image_source": "https://x.com/claudeai/status/2119867129751056485",
       "image_credit": "@claudeai（Claude）",
-      "thumb": "assets/thumbs/x-claudeai-fable52-lean.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-claudeai-fable52-miplib",
@@ -692,8 +782,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtdKITXkAAt2_R.png?name=orig",
       "image_source": "https://x.com/claudeai/status/2119899477855379913",
       "image_credit": "@claudeai（Claude）",
-      "thumb": "assets/thumbs/x-claudeai-fable52-miplib.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-claudeai-fable52-pcb",
@@ -707,8 +799,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119889970664030208/img/zA7dOkx94Gdcx8Se.jpg",
       "image_source": "https://x.com/claudeai/status/2119899459761131615",
       "image_credit": "@claudeai（Claude）",
-      "thumb": "assets/thumbs/x-claudeai-fable52-pcb.jpg",
-      "video": "docs/cases/x-claudeai-fable52-pcb/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-danielzambrini-fable52-fable-opus",
@@ -722,8 +816,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119893599638675457/img/RuhUjfOooPvt-1aM.jpg",
       "image_source": "https://x.com/DanielZambrini/status/2119893834276507954",
       "image_credit": "@DanielZambrini（Daniel Zambrini）",
-      "thumb": "assets/thumbs/x-danielzambrini-fable52-fable-opus.jpg",
-      "video": "docs/cases/x-danielzambrini-fable52-fable-opus/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-danshipper-fable52-546638",
@@ -737,8 +833,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119867982092312576/img/xopTaEUvWHaeii5m.jpg",
       "image_source": "https://x.com/danshipper/status/2119869228207546638",
       "image_credit": "@danshipper（Dan Shipper）",
-      "thumb": "assets/thumbs/x-danshipper-fable52-546638.jpg",
-      "video": "docs/cases/x-danshipper-fable52-546638/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-danteeonsol-fable52-remotion-three-ufo",
@@ -752,8 +850,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119887223810076672/img/U6vhrrrWqJgYtSjf.jpg",
       "image_source": "https://x.com/danteeonsol/status/2119887623070077213",
       "image_credit": "@danteeonsol（Dante）",
-      "thumb": "assets/thumbs/x-danteeonsol-fable52-remotion-three-ufo.jpg",
-      "video": "docs/cases/x-danteeonsol-fable52-remotion-three-ufo/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-deryatr-fable52-ataturk-remembrance",
@@ -767,8 +867,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120083044631560192/img/FdgQw395xxh4ahTO.jpg",
       "image_source": "https://x.com/DeryaTR_/status/2120083276916224014",
       "image_credit": "@DeryaTR_（Derya Unutmaz）",
-      "thumb": "assets/thumbs/x-deryatr-fable52-ataturk-remembrance.jpg",
-      "video": "docs/cases/x-deryatr-fable52-ataturk-remembrance/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-doctoryev-fable52-uare",
@@ -782,8 +884,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119895051845439488/img/FUfy8K8nDfBYPJsF.jpg",
       "image_source": "https://x.com/DoctorYev/status/2119895951108423801",
       "image_credit": "@DoctorYev（Yev Marusenko）",
-      "thumb": "assets/thumbs/x-doctoryev-fable52-uare.jpg",
-      "video": "docs/cases/x-doctoryev-fable52-uare/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-domscholz-fable52-ultramarine",
@@ -797,8 +901,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119932946857500672/img/SuMXv_lXpaQUUKDU.jpg",
       "image_source": "https://x.com/dom_scholz/status/2119933150025363661",
       "image_credit": "@dom_scholz（Dominik Scholz）",
-      "thumb": "assets/thumbs/x-domscholz-fable52-ultramarine.jpg",
-      "video": "docs/cases/x-domscholz-fable52-ultramarine/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-emollick-fable52-portals",
@@ -812,8 +918,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119916822719840256/img/z6Umv8d4gNiB_Caz.jpg",
       "image_source": "https://x.com/emollick/status/2119918307457577163",
       "image_credit": "@emollick（Ethan Mollick）",
-      "thumb": "assets/thumbs/x-emollick-fable52-portals.jpg",
-      "video": "docs/cases/x-emollick-fable52-portals/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-emollick-fable52-prebid-brief",
@@ -828,7 +936,9 @@
       "image_source": "https://x.com/emollick/status/2119870150845599972",
       "image_credit": "@emollick（Ethan Mollick）",
       "thumb": "",
-      "video": ""
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-emollick-fable52-scooby-doo",
@@ -842,8 +952,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119876130807197696/img/0ltEr2WrQneox6dJ.jpg",
       "image_source": "https://x.com/emollick/status/2119876449494540554",
       "image_credit": "@emollick（Ethan Mollick）",
-      "thumb": "assets/thumbs/x-emollick-fable52-scooby-doo.jpg",
-      "video": "docs/cases/x-emollick-fable52-scooby-doo/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-ericmaskfr-fable52-481026",
@@ -857,8 +969,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119904283038560256/img/-KQvevJayAlROVzE.jpg",
       "image_source": "https://x.com/ericmaskfr/status/2119910195325481026",
       "image_credit": "@ericmaskfr（eric）",
-      "thumb": "assets/thumbs/x-ericmaskfr-fable52-481026.jpg",
-      "video": "docs/cases/x-ericmaskfr-fable52-481026/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-ericskavinski-fable52-three",
@@ -872,8 +986,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119895528955617280/img/UiByUyKBHG0p6cfp.jpg",
       "image_source": "https://x.com/ericskavinski/status/2119895601580016005",
       "image_credit": "@ericskavinski（Eric Skavinski）",
-      "thumb": "assets/thumbs/x-ericskavinski-fable52-three.jpg",
-      "video": "docs/cases/x-ericskavinski-fable52-three/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-every-fable52-checks",
@@ -887,8 +1003,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119928270909276161/img/HnQqL76ZGJk0fxUn.jpg",
       "image_source": "https://x.com/every/status/2119928286465892357",
       "image_credit": "@every（Every 📧）",
-      "thumb": "assets/thumbs/x-every-fable52-checks.jpg",
-      "video": "docs/cases/x-every-fable52-checks/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-every-fable52-high-max",
@@ -902,8 +1020,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119939846458527744/img/Lz9Edc25b9ufQrmN.jpg",
       "image_source": "https://x.com/every/status/2119939866314289555",
       "image_credit": "@every（Every 📧）",
-      "thumb": "assets/thumbs/x-every-fable52-high-max.jpg",
-      "video": "docs/cases/x-every-fable52-high-max/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-every-fable52-slack",
@@ -917,8 +1037,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119934562319134720/img/gDSCdf3nfcMH7b_c.jpg",
       "image_source": "https://x.com/every/status/2119934581445145066",
       "image_credit": "@every（Every 📧）",
-      "thumb": "assets/thumbs/x-every-fable52-slack.jpg",
-      "video": "docs/cases/x-every-fable52-slack/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-faridanever-fable52-505730",
@@ -932,8 +1054,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119909463318482944/img/sS79Ly8e6Rurkn0q.jpg",
       "image_source": "https://x.com/FaridaNever/status/2119910055990505730",
       "image_credit": "@FaridaNever（Farida）",
-      "thumb": "assets/thumbs/x-faridanever-fable52-505730.jpg",
-      "video": "docs/cases/x-faridanever-fable52-505730/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-felixrieseberg-fable52-352596",
@@ -947,8 +1071,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtAIP6bAAAQq8Z.jpg?name=orig",
       "image_source": "https://x.com/felixrieseberg/status/2119867839033352596",
       "image_credit": "@felixrieseberg（Felix Rieseberg）",
-      "thumb": "assets/thumbs/x-felixrieseberg-fable52-352596.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-felixrieseberg-fable52-interchange",
@@ -962,8 +1088,10 @@
       "image_url": "https://pbs.twimg.com/media/HWszdV2b0AAbF-u.jpg?name=orig",
       "image_source": "https://x.com/felixrieseberg/status/2119867840878825523",
       "image_credit": "@felixrieseberg（Felix Rieseberg）",
-      "thumb": "assets/thumbs/x-felixrieseberg-fable52-interchange.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-forwardeditor-fable52-163994",
@@ -977,8 +1105,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119862159303647232/img/cjuXfF6ucUgiyqnw.jpg",
       "image_source": "https://x.com/ForwardEditor/status/2119867743965163994",
       "image_credit": "@ForwardEditor（Future Brian）",
-      "thumb": "assets/thumbs/x-forwardeditor-fable52-163994.jpg",
-      "video": "docs/cases/x-forwardeditor-fable52-163994/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-forwardeditor-fable52-928106",
@@ -992,8 +1122,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtFanzXAAAmWkT.png?name=orig",
       "image_source": "https://x.com/ForwardEditor/status/2119867791150928106",
       "image_credit": "@ForwardEditor（Future Brian）",
-      "thumb": "assets/thumbs/x-forwardeditor-fable52-928106.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-forwardeditor-fable52-idle-elite",
@@ -1007,8 +1139,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtD2crWYAA4ahe.jpg?name=orig",
       "image_source": "https://x.com/ForwardEditor/status/2119867753376940396",
       "image_credit": "@ForwardEditor（Future Brian）",
-      "thumb": "assets/thumbs/x-forwardeditor-fable52-idle-elite.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-forwardeditor-fable52-sorted-ios",
@@ -1022,8 +1156,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtFKAaX0AAEUge.jpg?name=orig",
       "image_source": "https://x.com/ForwardEditor/status/2119867782238212524",
       "image_credit": "@ForwardEditor（Future Brian）",
-      "thumb": "assets/thumbs/x-forwardeditor-fable52-sorted-ios.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-forwardeditor-fable52-zero",
@@ -1037,8 +1173,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119862411918184448/img/4Cn04cgxMEIrER7m.jpg",
       "image_source": "https://x.com/ForwardEditor/status/2119867747425194377",
       "image_credit": "@ForwardEditor（Future Brian）",
-      "thumb": "assets/thumbs/x-forwardeditor-fable52-zero.jpg",
-      "video": "docs/cases/x-forwardeditor-fable52-zero/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-geneohms-fable52-685102",
@@ -1052,8 +1190,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119909692725923840/img/iUs-fAClNPd8eB12.jpg",
       "image_source": "https://x.com/geneohms/status/2119910054413685102",
       "image_credit": "@geneohms（Gene）",
-      "thumb": "assets/thumbs/x-geneohms-fable52-685102.jpg",
-      "video": "docs/cases/x-geneohms-fable52-685102/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-hammermt-fable52-103010",
@@ -1067,8 +1207,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtsNQXXMAAue1h.jpg?name=orig",
       "image_source": "https://x.com/hammer_mt/status/2119907037631103010",
       "image_credit": "@hammer_mt（Mike Taylor）",
-      "thumb": "assets/thumbs/x-hammermt-fable52-103010.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-hammermt-fable52-183568",
@@ -1082,8 +1224,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtqjK5WcAERckL.jpg?name=orig",
       "image_source": "https://x.com/hammer_mt/status/2119906412709183568",
       "image_credit": "@hammer_mt（Mike Taylor）",
-      "thumb": "assets/thumbs/x-hammermt-fable52-183568.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-hammermt-fable52-346319",
@@ -1097,8 +1241,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119871695930490880/img/iSeMLDA6X9Fu5iic.jpg",
       "image_source": "https://x.com/hammer_mt/status/2119871817561346319",
       "image_credit": "@hammer_mt（Mike Taylor）",
-      "thumb": "assets/thumbs/x-hammermt-fable52-346319.jpg",
-      "video": "docs/cases/x-hammermt-fable52-346319/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-hammermt-fable52-katepass",
@@ -1112,8 +1258,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtp65CWgAA2k1R.jpg?name=orig",
       "image_source": "https://x.com/hammer_mt/status/2119906389284057363",
       "image_credit": "@hammer_mt（Mike Taylor）",
-      "thumb": "assets/thumbs/x-hammermt-fable52-katepass.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-hammermt-fable52-vibe-check-delivery",
@@ -1127,8 +1275,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtrCcFXAAABumI.jpg?name=orig",
       "image_source": "https://x.com/hammer_mt/status/2119906441389826445",
       "image_credit": "@hammer_mt（Mike Taylor）",
-      "thumb": "assets/thumbs/x-hammermt-fable52-vibe-check-delivery.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-hammermt-fable52-write-like-mike",
@@ -1142,8 +1292,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtplFFWYAAvfDA.jpg?name=orig",
       "image_source": "https://x.com/hammer_mt/status/2119906374066835495",
       "image_credit": "@hammer_mt（Mike Taylor）",
-      "thumb": "assets/thumbs/x-hammermt-fable52-write-like-mike.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-helloamani-fable52-237842",
@@ -1157,8 +1309,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119873847369621504/img/dyv1cVQ6oXWoZv5v.jpg",
       "image_source": "https://x.com/hello_amani/status/2119873980786237842",
       "image_credit": "@hello_amani（Amani • Design Partner）",
-      "thumb": "assets/thumbs/x-helloamani-fable52-237842.jpg",
-      "video": "docs/cases/x-helloamani-fable52-237842/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-ilyasb1-fable52-orbital-data-node",
@@ -1172,8 +1326,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119878284401901568/img/3S1bdV01Qek_h4kq.jpg",
       "image_source": "https://x.com/ilya_sb1/status/2119878436529246669",
       "image_credit": "@ilya_sb1（Ilya Rzhevskiy）",
-      "thumb": "assets/thumbs/x-ilyasb1-fable52-orbital-data-node.jpg",
-      "video": "docs/cases/x-ilyasb1-fable52-orbital-data-node/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-itssotsot-fable52-big-little-adventure",
@@ -1187,8 +1343,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119906798345818112/img/DBNcXPtRi06Qecvk.jpg",
       "image_source": "https://x.com/itssotsot/status/2119909017216491720",
       "image_credit": "@itssotsot（Sotiris Kaniras）",
-      "thumb": "assets/thumbs/x-itssotsot-fable52-big-little-adventure.jpg",
-      "video": "docs/cases/x-itssotsot-fable52-big-little-adventure/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-jev-chat-fable52-an-acrobat-stack-on-a-bipl",
@@ -1202,8 +1360,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120015344601534464/img/U8eMOIiQXtP1Eogs.jpg?name=orig",
       "image_source": "https://x.com/jev_chat/status/2120015641151426838",
       "image_credit": "@jev_chat",
-      "thumb": "assets/thumbs/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl.jpg",
-      "video": "docs/cases/x-jev-chat-fable52-an-acrobat-stack-on-a-bipl/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-jkeatn-fable52-python",
@@ -1217,8 +1377,10 @@
       "image_url": "https://pbs.twimg.com/media/HWtL7-tbkAAfCwe.jpg?name=orig",
       "image_source": "https://x.com/jkeatn/status/2119874007382299087",
       "image_credit": "@jkeatn（Jake Eaton）",
-      "thumb": "assets/thumbs/x-jkeatn-fable52-python.jpg",
-      "video": "docs/cases/x-jkeatn-fable52-python/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kevintngo-fable52-gilt-gutter",
@@ -1232,8 +1394,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119899054520061952/img/5AHKPQpLbKV5Hi0o.jpg",
       "image_source": "https://x.com/kevin_t_ngo/status/2119900487688622171",
       "image_credit": "@kevin_t_ngo（Kevin Ngo）",
-      "thumb": "assets/thumbs/x-kevintngo-fable52-gilt-gutter.jpg",
-      "video": "docs/cases/x-kevintngo-fable52-gilt-gutter/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kevintngo-fable52-javascript",
@@ -1247,8 +1411,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119937132647313408/img/4tio6thXqKE_g6ki.jpg",
       "image_source": "https://x.com/kevin_t_ngo/status/2119938129079808282",
       "image_credit": "@kevin_t_ngo（Kevin Ngo）",
-      "thumb": "assets/thumbs/x-kevintngo-fable52-javascript.jpg",
-      "video": "docs/cases/x-kevintngo-fable52-javascript/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kevintngo-fable52-python-blender",
@@ -1262,8 +1428,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119970272552095744/img/ZH2HGWtn-N8PCIHK.jpg",
       "image_source": "https://x.com/kevin_t_ngo/status/2119972124211454139",
       "image_credit": "@kevin_t_ngo（Kevin Ngo）",
-      "thumb": "assets/thumbs/x-kevintngo-fable52-python-blender.jpg",
-      "video": "docs/cases/x-kevintngo-fable52-python-blender/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kevintngo-fable52-what-the-water-keeps",
@@ -1277,8 +1445,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868394363367424/img/OARGnHXgicPmtCwd.jpg",
       "image_source": "https://x.com/kevin_t_ngo/status/2119868968307695818",
       "image_credit": "@kevin_t_ngo（Kevin Ngo）",
-      "thumb": "assets/thumbs/x-kevintngo-fable52-what-the-water-keeps.jpg",
-      "video": "docs/cases/x-kevintngo-fable52-what-the-water-keeps/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kieranklaassen-fable52-ableton-push",
@@ -1292,8 +1462,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119867717532753920/img/52iBMR-TxWwYxVB0.jpg",
       "image_source": "https://x.com/kieranklaassen/status/2119868196773929160",
       "image_credit": "@kieranklaassen（Kieran Klaassen）",
-      "thumb": "assets/thumbs/x-kieranklaassen-fable52-ableton-push.jpg",
-      "video": "docs/cases/x-kieranklaassen-fable52-ableton-push/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kieranklaassen-fable52-everycut",
@@ -1307,8 +1479,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119904209294487552/img/P-3q1jLoCvkqX3gC.jpg",
       "image_source": "https://x.com/kieranklaassen/status/2119904489717272680",
       "image_credit": "@kieranklaassen（Kieran Klaassen）",
-      "thumb": "assets/thumbs/x-kieranklaassen-fable52-everycut.jpg",
-      "video": "docs/cases/x-kieranklaassen-fable52-everycut/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kieranklaassen-fable52-first-crush",
@@ -1322,8 +1496,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868302541586432/img/-eFP0RFaey5jxsSI.jpg",
       "image_source": "https://x.com/kieranklaassen/status/2119871673294037280",
       "image_credit": "@kieranklaassen（Kieran Klaassen）",
-      "thumb": "assets/thumbs/x-kieranklaassen-fable52-first-crush.jpg",
-      "video": "docs/cases/x-kieranklaassen-fable52-first-crush/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kplikethebird-fable52-blender",
@@ -1337,8 +1513,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119900521687314432/img/W5YriXBU4c7l51fi.jpg",
       "image_source": "https://x.com/kplikethebird/status/2119900775727902732",
       "image_credit": "@kplikethebird（Katie Parrott）",
-      "thumb": "assets/thumbs/x-kplikethebird-fable52-blender.jpg",
-      "video": "docs/cases/x-kplikethebird-fable52-blender/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-maaaaaaadiii-fable52-714946",
@@ -1352,8 +1530,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119884897305190402/img/9qitGrBiw-3wHnos.jpg",
       "image_source": "https://x.com/Maaaaaaadiii/status/2119885527243714946",
       "image_credit": "@Maaaaaaadiii（Hammad Hanif）",
-      "thumb": "assets/thumbs/x-maaaaaaadiii-fable52-714946.jpg",
-      "video": "docs/cases/x-maaaaaaadiii-fable52-714946/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-marcthecreatorr-fable52-054072",
@@ -1367,8 +1547,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119890640389451776/img/BuVhJINpXegcG9u4.jpg",
       "image_source": "https://x.com/marcthecreatorr/status/2119890973560054072",
       "image_credit": "@marcthecreatorr（Marcel）",
-      "thumb": "assets/thumbs/x-marcthecreatorr-fable52-054072.jpg",
-      "video": "docs/cases/x-marcthecreatorr-fable52-054072/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-matthewberman-fable52-060195",
@@ -1382,8 +1564,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868287026892800/img/OS-FM3MiD5NdTV6x.jpg",
       "image_source": "https://x.com/MatthewBerman/status/2119868638929060195",
       "image_credit": "@MatthewBerman（Matthew Berman）",
-      "thumb": "assets/thumbs/x-matthewberman-fable52-060195.jpg",
-      "video": "docs/cases/x-matthewberman-fable52-060195/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-matthewberman-fable52-254665",
@@ -1397,8 +1581,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868044831002624/img/XcSMWMXDW0B9wHFe.jpg",
       "image_source": "https://x.com/MatthewBerman/status/2119868630989254665",
       "image_credit": "@MatthewBerman（Matthew Berman）",
-      "thumb": "assets/thumbs/x-matthewberman-fable52-254665.jpg",
-      "video": "docs/cases/x-matthewberman-fable52-254665/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-matthewberman-fable52-378471",
@@ -1412,8 +1598,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868088091017217/img/fg50YpPsB-JT9o5R.jpg",
       "image_source": "https://x.com/MatthewBerman/status/2119868633086378471",
       "image_credit": "@MatthewBerman（Matthew Berman）",
-      "thumb": "assets/thumbs/x-matthewberman-fable52-378471.jpg",
-      "video": "docs/cases/x-matthewberman-fable52-378471/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-matthewberman-fable52-kestrel-windows",
@@ -1427,8 +1615,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868330211409920/img/8tKo6m9nB1bDZfZS.jpg",
       "image_source": "https://x.com/MatthewBerman/status/2119868640879349998",
       "image_credit": "@MatthewBerman（Matthew Berman）",
-      "thumb": "assets/thumbs/x-matthewberman-fable52-kestrel-windows.jpg",
-      "video": "docs/cases/x-matthewberman-fable52-kestrel-windows/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-matthewberman-fable52-photon-photoshop",
@@ -1442,8 +1632,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119872022461460481/img/g80dG7zLemBaZqGG.jpg",
       "image_source": "https://x.com/MatthewBerman/status/2119872042053128412",
       "image_credit": "@MatthewBerman（Matthew Berman）",
-      "thumb": "assets/thumbs/x-matthewberman-fable52-photon-photoshop.jpg",
-      "video": "docs/cases/x-matthewberman-fable52-photon-photoshop/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-matthewberman-fable52-quadrille-excel",
@@ -1457,8 +1649,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868441125597184/img/udfY0ZohXk1GSp5Q.jpg",
       "image_source": "https://x.com/MatthewBerman/status/2119868642796154944",
       "image_credit": "@MatthewBerman（Matthew Berman）",
-      "thumb": "assets/thumbs/x-matthewberman-fable52-quadrille-excel.jpg",
-      "video": "docs/cases/x-matthewberman-fable52-quadrille-excel/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-matthewberman-fable52-unreal-engine",
@@ -1472,8 +1666,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868000237170688/img/k7P01c-KTBBtaOfA.jpg",
       "image_source": "https://x.com/MatthewBerman/status/2119868629491789992",
       "image_credit": "@MatthewBerman（Matthew Berman）",
-      "thumb": "assets/thumbs/x-matthewberman-fable52-unreal-engine.jpg",
-      "video": "docs/cases/x-matthewberman-fable52-unreal-engine/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-matthewberman-fable52-webgl",
@@ -1487,8 +1683,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119868225114783744/img/XBl8e8zJl988MRrc.jpg",
       "image_source": "https://x.com/MatthewBerman/status/2119868636810953017",
       "image_credit": "@MatthewBerman（Matthew Berman）",
-      "thumb": "assets/thumbs/x-matthewberman-fable52-webgl.jpg",
-      "video": "docs/cases/x-matthewberman-fable52-webgl/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mattshumer-fable52-147409",
@@ -1502,8 +1700,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119889498527969281/img/suzdKaH0pYAXMM7h.jpg",
       "image_source": "https://x.com/mattshumer_/status/2119889518564147409",
       "image_credit": "@mattshumer_（Matt Shumer）",
-      "thumb": "assets/thumbs/x-mattshumer-fable52-147409.jpg",
-      "video": "docs/cases/x-mattshumer-fable52-147409/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mattshumer-fable52-483384",
@@ -1517,8 +1717,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119870538436767745/img/aJQs97iV-O2KLBnk.jpg",
       "image_source": "https://x.com/mattshumer_/status/2119870965106483384",
       "image_credit": "@mattshumer_（Matt Shumer）",
-      "thumb": "assets/thumbs/x-mattshumer-fable52-483384.jpg",
-      "video": "docs/cases/x-mattshumer-fable52-483384/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mattshumer-fable52-828670",
@@ -1532,8 +1734,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119898352494018560/img/vEJIOYg3mckRxuyh.jpg",
       "image_source": "https://x.com/mattshumer_/status/2119900920347828670",
       "image_credit": "@mattshumer_（Matt Shumer）",
-      "thumb": "assets/thumbs/x-mattshumer-fable52-828670.jpg",
-      "video": "docs/cases/x-mattshumer-fable52-828670/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mattshumer-fable52-892403",
@@ -1547,8 +1751,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119882296148811776/img/Z24P-h-QrFDgyaHt.jpg",
       "image_source": "https://x.com/mattshumer_/status/2119884041331892403",
       "image_credit": "@mattshumer_（Matt Shumer）",
-      "thumb": "assets/thumbs/x-mattshumer-fable52-892403.jpg",
-      "video": "docs/cases/x-mattshumer-fable52-892403/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mattshumer-fable52-hogwarts-royale",
@@ -1562,8 +1768,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119871902541881344/img/aLDd-EmBDHcPtY4L.jpg",
       "image_source": "https://x.com/mattshumer_/status/2119872098306810226",
       "image_credit": "@mattshumer_（Matt Shumer）",
-      "thumb": "assets/thumbs/x-mattshumer-fable52-hogwarts-royale.jpg",
-      "video": "docs/cases/x-mattshumer-fable52-hogwarts-royale/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mattshumer-fable52-mirror-earth",
@@ -1577,8 +1785,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119876453340782592/img/v8HrUjbN3IORPcFr.jpg",
       "image_source": "https://x.com/mattshumer_/status/2119877065701036047",
       "image_credit": "@mattshumer_（Matt Shumer）",
-      "thumb": "assets/thumbs/x-mattshumer-fable52-mirror-earth.jpg",
-      "video": "docs/cases/x-mattshumer-fable52-mirror-earth/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker",
@@ -1592,8 +1802,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119909172820979712/img/ladI5hKYtDaEDEPx.jpg",
       "image_source": "https://x.com/mihawkxxxxx/status/2119909865296699749",
       "image_credit": "@mihawkxxxxx（mihawkxxx）",
-      "thumb": "assets/thumbs/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker.jpg",
-      "video": "docs/cases/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-nftchen-fable52-609967",
@@ -1607,8 +1819,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119895838927548416/img/zvkn_ND5otI4L-An.jpg",
       "image_source": "https://x.com/NFT_Chen/status/2119897058597609967",
       "image_credit": "@NFT_Chen（SuSu_酥酥👅）",
-      "thumb": "assets/thumbs/x-nftchen-fable52-609967.jpg",
-      "video": "docs/cases/x-nftchen-fable52-609967/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-nikodemszymansk-fable52-tokyo-night",
@@ -1622,8 +1836,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119880356325154816/img/nvoRJSNWYP7Gye8B.jpg",
       "image_source": "https://x.com/nikodemszymansk/status/2119880518875435022",
       "image_credit": "@nikodemszymansk（Nikodem | AI Creator）",
-      "thumb": "assets/thumbs/x-nikodemszymansk-fable52-tokyo-night.jpg",
-      "video": "docs/cases/x-nikodemszymansk-fable52-tokyo-night/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-petergostev-fable52-max",
@@ -1637,8 +1853,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119876740310835201/img/uioIm9Mnuyr1ZKcL.jpg",
       "image_source": "https://x.com/petergostev/status/2119877733488394520",
       "image_credit": "@petergostev（Peter Gostev）",
-      "thumb": "assets/thumbs/x-petergostev-fable52-max.jpg",
-      "video": "docs/cases/x-petergostev-fable52-max/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-petergyang-fable52-854431",
@@ -1652,8 +1870,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119886495347867648/img/zqAXLlGy8nMpOCAp.jpg",
       "image_source": "https://x.com/petergyang/status/2119886560992854431",
       "image_credit": "@petergyang（Peter Yang）",
-      "thumb": "assets/thumbs/x-petergyang-fable52-854431.jpg",
-      "video": "docs/cases/x-petergyang-fable52-854431/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-petergyang-fable52-fable-opus",
@@ -1668,7 +1888,9 @@
       "image_source": "https://x.com/petergyang/status/2119870223562191289",
       "image_credit": "@petergyang（Peter Yang）",
       "thumb": "",
-      "video": ""
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-petergyang-fable52-turbo-tails",
@@ -1682,8 +1904,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119901596008263680/img/Qlj1Rarz7q_pngBm.jpg",
       "image_source": "https://x.com/petergyang/status/2119901658394358005",
       "image_credit": "@petergyang（Peter Yang）",
-      "thumb": "assets/thumbs/x-petergyang-fable52-turbo-tails.jpg",
-      "video": "docs/cases/x-petergyang-fable52-turbo-tails/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-pwnies-fable52-fable-opus",
@@ -1697,8 +1921,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119887372255141888/img/SQamU3Fw2FXuoGle.jpg",
       "image_source": "https://x.com/pwnies/status/2119887535421980695",
       "image_credit": "@pwnies（Jacob Miller）",
-      "thumb": "assets/thumbs/x-pwnies-fable52-fable-opus.jpg",
-      "video": "docs/cases/x-pwnies-fable52-fable-opus/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-qroonjha-fable52-501697",
@@ -1712,8 +1938,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119883895646896128/img/AA0SluGSEDyjaUB-.jpg",
       "image_source": "https://x.com/QRoonjha/status/2119883978962501697",
       "image_credit": "@QRoonjha（Qaisar Roonjha）",
-      "thumb": "assets/thumbs/x-qroonjha-fable52-501697.jpg",
-      "video": "docs/cases/x-qroonjha-fable52-501697/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-rileybrown-fable52-the-edge-blender",
@@ -1727,8 +1955,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119897796736131072/img/uYa4QI709MAYcBH3.jpg",
       "image_source": "https://x.com/rileybrown/status/2119902109709537708",
       "image_credit": "@rileybrown（Riley Brown）",
-      "thumb": "assets/thumbs/x-rileybrown-fable52-the-edge-blender.jpg",
-      "video": "docs/cases/x-rileybrown-fable52-the-edge-blender/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-rileybrown-fable52-the-history-writing",
@@ -1742,8 +1972,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119945592977653760/img/zOwGeLu9Keylo2vV.jpg",
       "image_source": "https://x.com/rileybrown/status/2119946022767980985",
       "image_credit": "@rileybrown（Riley Brown）",
-      "thumb": "assets/thumbs/x-rileybrown-fable52-the-history-writing.jpg",
-      "video": "docs/cases/x-rileybrown-fable52-the-history-writing/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-scratcherrrr-fable52-piranha",
@@ -1757,8 +1989,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119909700862943233/img/KBmFA23q89kcTfqy.jpg",
       "image_source": "https://x.com/Scratcherrrr/status/2119909780269785332",
       "image_credit": "@Scratcherrrr（Catcher of your mind）",
-      "thumb": "assets/thumbs/x-scratcherrrr-fable52-piranha.jpg",
-      "video": "docs/cases/x-scratcherrrr-fable52-piranha/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-simonasltu1-fable52-three",
@@ -1772,8 +2006,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119891121857871872/img/M5P2A_7tYuBeJmfk.jpg",
       "image_source": "https://x.com/SimonasLTU1/status/2119891671219622262",
       "image_credit": "@SimonasLTU1（Simonas）",
-      "thumb": "assets/thumbs/x-simonasltu1-fable52-three.jpg",
-      "video": "docs/cases/x-simonasltu1-fable52-three/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-smatysik-fable52-213380",
@@ -1787,8 +2023,10 @@
       "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2119909140998823936/pu/img/Jlvo1NLF--_kSInr.jpg",
       "image_source": "https://x.com/s_matysik/status/2119909371484213380",
       "image_credit": "@s_matysik（Sebastian Matysik）",
-      "thumb": "assets/thumbs/x-smatysik-fable52-213380.jpg",
-      "video": "docs/cases/x-smatysik-fable52-213380/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-thealex-fable52-177920",
@@ -1802,8 +2040,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119850963486048256/img/zqnlUQA660QgC-Vp.jpg",
       "image_source": "https://x.com/The_Alex/status/2119867568253177920",
       "image_credit": "@The_Alex（Alex）",
-      "thumb": "assets/thumbs/x-thealex-fable52-177920.jpg",
-      "video": "docs/cases/x-thealex-fable52-177920/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-thealex-fable52-203554",
@@ -1817,8 +2057,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119851927077068800/img/ZC6x0vdogsJNFBbX.jpg",
       "image_source": "https://x.com/The_Alex/status/2119867570669203554",
       "image_credit": "@The_Alex（Alex）",
-      "thumb": "assets/thumbs/x-thealex-fable52-203554.jpg",
-      "video": "docs/cases/x-thealex-fable52-203554/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-thealex-fable52-821398",
@@ -1832,8 +2074,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119852773307224064/img/iRi25Zky6_-ylWo9.jpg",
       "image_source": "https://x.com/The_Alex/status/2119867576985821398",
       "image_credit": "@The_Alex（Alex）",
-      "thumb": "assets/thumbs/x-thealex-fable52-821398.jpg",
-      "video": "docs/cases/x-thealex-fable52-821398/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-thealex-fable52-claude",
@@ -1847,8 +2091,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119916716474212353/img/i_ghfHMRtzOIbGB_.jpg",
       "image_source": "https://x.com/The_Alex/status/2119917226769985785",
       "image_credit": "@The_Alex（Alex）",
-      "thumb": "assets/thumbs/x-thealex-fable52-claude.jpg",
-      "video": "docs/cases/x-thealex-fable52-claude/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-thealex-fable52-melee",
@@ -1862,8 +2108,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119852928349712384/img/AIcK9cGRNixrbQri.jpg",
       "image_source": "https://x.com/The_Alex/status/2119867574972551309",
       "image_credit": "@The_Alex（Alex）",
-      "thumb": "assets/thumbs/x-thealex-fable52-melee.jpg",
-      "video": "docs/cases/x-thealex-fable52-melee/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-thealex-fable52-pane-youtube-twitch",
@@ -1877,8 +2125,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119855944305963008/img/X2RPtQ8PyShCoL1Z.jpg",
       "image_source": "https://x.com/The_Alex/status/2119867572875350134",
       "image_credit": "@The_Alex（Alex）",
-      "thumb": "assets/thumbs/x-thealex-fable52-pane-youtube-twitch.jpg",
-      "video": "docs/cases/x-thealex-fable52-pane-youtube-twitch/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-theo-fable52-fishslop-fable-opus",
@@ -1892,8 +2142,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119926035043237888/img/aTQDq8qWdKxg9zBR.jpg",
       "image_source": "https://x.com/theo/status/2119926277801144695",
       "image_credit": "@theo（Theo - t3.gg）",
-      "thumb": "assets/thumbs/x-theo-fable52-fishslop-fable-opus.jpg",
-      "video": "docs/cases/x-theo-fable52-fishslop-fable-opus/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-webilyco-fable52-kontur",
@@ -1907,8 +2159,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119909314685001728/img/_5QF67u-ZexvaAVy.jpg",
       "image_source": "https://x.com/Webilyco/status/2119909604431626667",
       "image_credit": "@Webilyco（Magda）",
-      "thumb": "assets/thumbs/x-webilyco-fable52-kontur.jpg",
-      "video": "docs/cases/x-webilyco-fable52-kontur/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-yinyangyoeshi-fable52-discovery",
@@ -1922,8 +2176,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119897357940621312/img/aOwOdtuj0CCxZBNv.jpg",
       "image_source": "https://x.com/YinYangYoeshi/status/2119897840965001317",
       "image_credit": "@YinYangYoeshi（Yoeshi）",
-      "thumb": "assets/thumbs/x-yinyangyoeshi-fable52-discovery.jpg",
-      "video": "docs/cases/x-yinyangyoeshi-fable52-discovery/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-ofox-fable52-svg-sailboat",
@@ -1937,8 +2193,10 @@
       "image_url": "https://ofox.ai/blog/_assets/en-claude-fable-5-2-svg-guide-hero.DdnerzMX.png",
       "image_source": "https://ofox.ai/blog/claude-fable-5-2-svg-guide/",
       "image_credit": "Ofox",
-      "thumb": "assets/thumbs/web-ofox-fable52-svg-sailboat.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-deryatr-fable52-tcell-film",
@@ -1952,8 +2210,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120382215389351937/img/E6ZZTSD4c1AF5co5.jpg",
       "image_source": "https://x.com/DeryaTR_/status/2120382619082727604",
       "image_credit": "@DeryaTR_（Derya Unutmaz）",
-      "thumb": "assets/thumbs/x-deryatr-fable52-tcell-film.jpg",
-      "video": "docs/cases/x-deryatr-fable52-tcell-film/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-evanmilenko-fable52-dragon-game",
@@ -1967,8 +2227,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120322603168452608/img/lmtIUo5krz235RAe.jpg",
       "image_source": "https://x.com/EvanMilenko/status/2120322640048959503",
       "image_credit": "@EvanMilenko（Evan）",
-      "thumb": "assets/thumbs/x-evanmilenko-fable52-dragon-game.jpg",
-      "video": "docs/cases/x-evanmilenko-fable52-dragon-game/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-financeyf5-fable52-bugatti-tourbillon",
@@ -1982,8 +2244,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120372062237892608/img/_f5UkWglY6Va83zp.jpg",
       "image_source": "https://x.com/FinanceYF5/status/2120372142147842296",
       "image_credit": "@xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will）",
-      "thumb": "assets/thumbs/x-financeyf5-fable52-bugatti-tourbillon.jpg",
-      "video": "docs/cases/x-financeyf5-fable52-bugatti-tourbillon/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-kloss-fable52-ocean-threejs",
@@ -1997,8 +2261,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120378028446691329/img/eFCYP6V1EUCeJkZD.jpg",
       "image_source": "https://x.com/kloss_xyz/status/2120378126740095273",
       "image_credit": "@kloss_xyz（klöss）",
-      "thumb": "assets/thumbs/x-kloss-fable52-ocean-threejs.jpg",
-      "video": "docs/cases/x-kloss-fable52-ocean-threejs/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mengto-fable52-blender-apartment",
@@ -2012,8 +2278,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120315007900819456/img/gYeyL1mEFS3yExVT.jpg",
       "image_source": "https://x.com/MengTo/status/2120316203738829180",
       "image_credit": "@MengTo（Meng To）",
-      "thumb": "assets/thumbs/x-mengto-fable52-blender-apartment.jpg",
-      "video": "docs/cases/x-mengto-fable52-blender-apartment/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-mrtactical-fable52-mechanical-keyboard",
@@ -2027,8 +2295,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120342368729567232/img/vwtFaVjBcCIo9GFL.jpg",
       "image_source": "https://x.com/MrTacticalX/status/2120342453807157720",
       "image_credit": "@MrTacticalX（Mr Tactical）",
-      "thumb": "assets/thumbs/x-mrtactical-fable52-mechanical-keyboard.jpg",
-      "video": "docs/cases/x-mrtactical-fable52-mechanical-keyboard/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-paleknight-fable52-vs-opus55-ship",
@@ -2042,8 +2312,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120360982077747200/img/lelzmEsgodtM2r97.jpg",
       "image_source": "https://x.com/paleknight/status/2120368418805174639",
       "image_credit": "@paleknight（Vraj）",
-      "thumb": "assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg",
-      "video": "docs/cases/x-paleknight-fable52-vs-opus55-ship/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-quxiaoyin-fable52-agentsky-film",
@@ -2057,8 +2329,10 @@
       "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2120341512093401089/pu/img/teFPIv7QuM-VPUqw.jpg",
       "image_source": "https://x.com/quxiaoyin/status/2120341962314150207",
       "image_credit": "@quxiaoyin（Xiaoyin Qu）",
-      "thumb": "assets/thumbs/x-quxiaoyin-fable52-agentsky-film.jpg",
-      "video": "docs/cases/x-quxiaoyin-fable52-agentsky-film/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-aichrislee-opus55-build-me-a-camera-lens-in",
@@ -2072,8 +2346,10 @@
       "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2108709599217942528/pu/img/szgBuUoFgdLN7NZl.jpg?name=orig",
       "image_source": "https://x.com/aichrislee/status/2108709764817408244",
       "image_credit": "@aichrislee",
-      "thumb": "assets/thumbs/x-aichrislee-opus55-build-me-a-camera-lens-in.jpg",
-      "video": "docs/cases/x-aichrislee-opus55-build-me-a-camera-lens-in/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-gdgtify-opus55-create-a-20-00-second-kine",
@@ -2087,8 +2363,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2104762198320898048/img/riY6RNsn85BgebPa.jpg?name=orig",
       "image_source": "https://x.com/Gdgtify/status/2105669567036989608",
       "image_credit": "@Gdgtify",
-      "thumb": "assets/thumbs/x-gdgtify-opus55-create-a-20-00-second-kine.jpg",
-      "video": "docs/cases/x-gdgtify-opus55-create-a-20-00-second-kine/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-godsboy7777-opus55-build-a-single-self-contai",
@@ -2102,8 +2380,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2103117396420534272/img/3zbySh7Dp-nr5ro6.jpg?name=orig",
       "image_source": "https://x.com/GodsBoy7777/status/2103117450854150194",
       "image_credit": "@GodsBoy7777",
-      "thumb": "assets/thumbs/x-godsboy7777-opus55-build-a-single-self-contai.jpg",
-      "video": "docs/cases/x-godsboy7777-opus55-build-a-single-self-contai/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-heyiamnick-opus55-direction-build-a-30-secon",
@@ -2117,8 +2397,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2109174003533553665/img/Wcxt5v7Fkcl5C6cP.jpg?name=orig",
       "image_source": "https://x.com/heyiamnick/status/2109174851412119558",
       "image_credit": "@heyiamnick",
-      "thumb": "assets/thumbs/x-heyiamnick-opus55-direction-build-a-30-secon.jpg",
-      "video": "docs/cases/x-heyiamnick-opus55-direction-build-a-30-secon/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-koushikde-opus55-make-a-15s-motion-video-in",
@@ -2132,8 +2414,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2105722944601341952/img/B7L18PHFRU97fIhR.jpg?name=orig",
       "image_source": "https://x.com/_koushikde_/status/2105730717455937635",
       "image_credit": "@_koushikde_",
-      "thumb": "assets/thumbs/x-koushikde-opus55-make-a-15s-motion-video-in.jpg",
-      "video": "docs/cases/x-koushikde-opus55-make-a-15s-motion-video-in/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-rossaxbt-opus55-inputs-ask-me-for-a-short",
@@ -2147,8 +2431,10 @@
       "image_url": "https://media.skillry.dev/opus-5-5/_prompts/rossaxbt-707651/poster.9a39dd420a.webp",
       "image_source": "https://x.com/rossaxbt/status/2107121188027707651",
       "image_credit": "@rossaxbt",
-      "thumb": "assets/thumbs/x-rossaxbt-opus55-inputs-ask-me-for-a-short.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-twoclipping-opus55-inputs-ask-me-for-my-produ",
@@ -2162,8 +2448,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2106100402835869696/img/LXDT_GPsLqMfR17L.jpg?name=orig",
       "image_source": "https://x.com/twoclipping/status/2106101258834551116",
       "image_credit": "@twoclipping",
-      "thumb": "assets/thumbs/x-twoclipping-opus55-inputs-ask-me-for-my-produ.jpg",
-      "video": "docs/cases/x-twoclipping-opus55-inputs-ask-me-for-my-produ/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-ultimaxbt-opus55-inputs-ask-me-for-my-produ",
@@ -2177,8 +2465,10 @@
       "image_url": "https://media.skillry.dev/opus-5-5/_prompts/ultimaxbt-549714/poster.d033c3dac3.webp",
       "image_source": "https://x.com/ultimaxbt/status/2108210884799549714",
       "image_credit": "@ultimaxbt",
-      "thumb": "assets/thumbs/x-ultimaxbt-opus55-inputs-ask-me-for-my-produ.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-jamesgreene-code1-opus55-isometric-city",
@@ -2192,8 +2482,10 @@
       "image_url": "https://jamesgreene.com/media/models/runs/code-1/claude-opus-5-5.webp",
       "image_source": "https://jamesgreene.com/models/",
       "image_credit": "James Greene (model comparison archive)",
-      "thumb": "assets/thumbs/web-jamesgreene-code1-opus55-isometric-city.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-aiforsuccess-gemini-carbon-v8",
@@ -2207,8 +2499,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120184011637325825/img/qTx_61ucZA3FmM-m.jpg",
       "image_source": "https://x.com/ai_for_success/status/2120317619588972867",
       "image_credit": "@ai_for_success（AshutoshShrivastava）",
-      "thumb": "assets/thumbs/x-aiforsuccess-gemini-carbon-v8.jpg",
-      "video": "docs/cases/x-aiforsuccess-gemini-carbon-v8/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-coodddaaaa-gemini-carbon-pelican-bike",
@@ -2222,8 +2516,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120363155087896576/img/DjdIYBAXnpMf8WYV.jpg",
       "image_source": "https://x.com/coodddaaaa/status/2120363353142911078",
       "image_credit": "@coodddaaaa（Joe William）",
-      "thumb": "assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg",
-      "video": "docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-deryatr-gemini-carbon-theme-park",
@@ -2237,8 +2533,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120393500571082752/img/yCUcDm50Y8suwtJ5.jpg",
       "image_source": "https://x.com/DeryaTR_/status/2120393810941456710",
       "image_credit": "@DeryaTR_（Derya Unutmaz）",
-      "thumb": "assets/thumbs/x-deryatr-gemini-carbon-theme-park.jpg",
-      "video": "docs/cases/x-deryatr-gemini-carbon-theme-park/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-maxblade-fable-vs-carbon",
@@ -2252,8 +2550,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120354622246195201/img/RnuMfCrZiMW34uGS.jpg",
       "image_source": "https://x.com/_MaxBlade/status/2120355412021231795",
       "image_credit": "@_MaxBlade（Max Blade）",
-      "thumb": "assets/thumbs/x-maxblade-fable-vs-carbon.jpg",
-      "video": "docs/cases/x-maxblade-fable-vs-carbon/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-statswire-gemini-carbon-nyc-cruiser",
@@ -2267,8 +2567,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120344530276773888/img/lpKZ9vqrAIE-tdgi.jpg",
       "image_source": "https://x.com/StatsWire/status/2120344850071540152",
       "image_credit": "@StatsWire",
-      "thumb": "assets/thumbs/x-statswire-gemini-carbon-nyc-cruiser.jpg",
-      "video": "docs/cases/x-statswire-gemini-carbon-nyc-cruiser/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-jamesgreene-code1-gemini4-argon-isometric-city",
@@ -2282,8 +2584,10 @@
       "image_url": "https://jamesgreene.com/media/models/runs/code-1/gemini-4-argon.webp",
       "image_source": "https://jamesgreene.com/models/",
       "image_credit": "James Greene (model comparison archive)",
-      "thumb": "assets/thumbs/web-jamesgreene-code1-gemini4-argon-isometric-city.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-cherriessire-gpt62sol-moon-aurora-threejs",
@@ -2297,8 +2601,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119488276788563968/img/nYcpnRYsvDHeD9Xn.jpg",
       "image_source": "https://x.com/cherriessire/status/2119488351057121420",
       "image_credit": "@cherriessire",
-      "thumb": "assets/thumbs/x-cherriessire-gpt62sol-moon-aurora-threejs.jpg",
-      "video": "docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-harshithlucky3-gpt62sol-pelican-svg-animation",
@@ -2312,8 +2618,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119418838148366336/img/ljpKgHmMjNklKEvi.jpg",
       "image_source": "https://x.com/HarshithLucky3/status/2119418918616150080",
       "image_credit": "@HarshithLucky3（Harshith）",
-      "thumb": "assets/thumbs/x-harshithlucky3-gpt62sol-pelican-svg-animation.jpg",
-      "video": "docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-marcthecreatorr-gpt62sol-sailing-ship",
@@ -2327,8 +2635,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119502925797953536/img/wiZ1ZbgBM5mZnQY9.jpg",
       "image_source": "https://x.com/marcthecreatorr/status/2119503438405136765",
       "image_credit": "@marcthecreatorr（Marcel）",
-      "thumb": "assets/thumbs/x-marcthecreatorr-gpt62sol-sailing-ship.jpg",
-      "video": "docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-qingzhoucloud-gpt62sol-floating-castle",
@@ -2342,8 +2652,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119440105798787072/img/LeWDAUVGcRueA1KN.jpg",
       "image_source": "https://x.com/qingzhoucloud/status/2119441137576579448",
       "image_credit": "@qingzhoucloud（产品晓东）",
-      "thumb": "assets/thumbs/x-qingzhoucloud-gpt62sol-floating-castle.jpg",
-      "video": "docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-teddyaisi-gpt62sol-interactive-city",
@@ -2357,8 +2669,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119501790601416704/img/i9BaBVQpTiUsxyhD.jpg",
       "image_source": "https://x.com/teddyaisi/status/2119503047646908664",
       "image_credit": "@teddyaisi（Teddy）",
-      "thumb": "assets/thumbs/x-teddyaisi-gpt62sol-interactive-city.jpg",
-      "video": "docs/cases/x-teddyaisi-gpt62sol-interactive-city/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-tokengremlin-gpt62sol-threejs-blackhole",
@@ -2372,8 +2686,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119394874591944704/img/F0D_beICGEBB-esh.jpg",
       "image_source": "https://x.com/TokenGremlin/status/2119395930805879165",
       "image_credit": "@TokenGremlin（Token Gremlin）",
-      "thumb": "assets/thumbs/x-tokengremlin-gpt62sol-threejs-blackhole.jpg",
-      "video": "docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-tokengremlin-gpt62sol-threejs-scenes-html",
@@ -2387,8 +2703,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119371292654653440/img/dmoCx4RO8lnEQtbn.jpg",
       "image_source": "https://x.com/TokenGremlin/status/2119371334878744648",
       "image_credit": "@TokenGremlin（Token Gremlin）",
-      "thumb": "assets/thumbs/x-tokengremlin-gpt62sol-threejs-scenes-html.jpg",
-      "video": "docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-tokengremlin-gpt62sol-glass-seasons",
@@ -2402,8 +2720,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119849730087833600/img/ieJLfQURTiMhfGWt.jpg",
       "image_source": "https://x.com/TokenGremlin/status/2119852532616790037",
       "image_credit": "@TokenGremlin（Token Gremlin）",
-      "thumb": "assets/thumbs/x-tokengremlin-gpt62sol-glass-seasons.jpg",
-      "video": "docs/cases/x-tokengremlin-gpt62sol-glass-seasons/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-cfenghub-gpt62sol-colosseum",
@@ -2417,8 +2737,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120062692052619264/img/I_Td9qpjSTKIZiU5.jpg",
       "image_source": "https://x.com/cfenghub/status/2120069654437921152",
       "image_credit": "@cfenghub（CF长风）",
-      "thumb": "assets/thumbs/x-cfenghub-gpt62sol-colosseum.jpg",
-      "video": "docs/cases/x-cfenghub-gpt62sol-colosseum/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-raitoox-sol-stranger-things-credits",
@@ -2432,8 +2754,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120113463863468032/img/NMubl1XQH1JR0Rco.jpg",
       "image_source": "https://x.com/Raitox_tech/status/2120125234129084492",
       "image_credit": "@Raitox_tech",
-      "thumb": "assets/thumbs/x-raitoox-sol-stranger-things-credits.jpg",
-      "video": "docs/cases/x-raitoox-sol-stranger-things-credits/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-yfeng-gpt61-sol-fable-take-flight",
@@ -2447,8 +2771,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120323959904182272/img/FnZEdTw8aUiDEdHY.jpg",
       "image_source": "https://x.com/YFeng2022/status/2120324811549225082",
       "image_credit": "@YFeng2022（LanFeng）",
-      "thumb": "assets/thumbs/x-yfeng-gpt61-sol-fable-take-flight.jpg",
-      "video": "docs/cases/x-yfeng-gpt61-sol-fable-take-flight/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-atelier-gpt61-sol-ten-frame-loops",
@@ -2462,8 +2788,10 @@
       "image_url": "https://raw.githubusercontent.com/marmikshah/atelier/master/showcase/gifs/gpt-6.1-sol-max/alien.gif",
       "image_source": "https://marmikshah.github.io/atelier/",
       "image_credit": "Marmik Shah (Atelier exhibition)",
-      "thumb": "assets/thumbs/web-atelier-gpt61-sol-ten-frame-loops.gif",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-jamesgreene-code1-gpt61-sol-isometric-city",
@@ -2477,8 +2805,10 @@
       "image_url": "https://jamesgreene.com/media/models/runs/code-1/gpt-6.1-sol.webp",
       "image_source": "https://jamesgreene.com/models/",
       "image_credit": "James Greene (model comparison archive)",
-      "thumb": "assets/thumbs/web-jamesgreene-code1-gpt61-sol-isometric-city.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-takamasa045-gpt61sol-momoyama",
@@ -2492,8 +2822,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119768567646441472/img/IcNF-lyEITicLA0D.jpg",
       "image_source": "https://x.com/takamasa045/status/2119769277846990949",
       "image_credit": "@takamasa045（伊藤貴將）",
-      "thumb": "assets/thumbs/x-takamasa045-gpt61sol-momoyama.jpg",
-      "video": "docs/cases/x-takamasa045-gpt61sol-momoyama/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-jamesgreene-code1-grok47-isometric-city",
@@ -2507,8 +2839,10 @@
       "image_url": "https://jamesgreene.com/media/models/runs/code-1/grok-4.7.webp",
       "image_source": "https://jamesgreene.com/models/",
       "image_credit": "James Greene (model comparison archive)",
-      "thumb": "assets/thumbs/web-jamesgreene-code1-grok47-isometric-city.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince",
@@ -2522,8 +2856,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2118227610325192704/img/4FUI-nhMxiGsE-0-.jpg?name=orig",
       "image_source": "https://x.com/AwesomeGodNewL/status/2118227641027416471",
       "image_credit": "@AwesomeGodNewL（Awesome God New Life Ministries）",
-      "thumb": "assets/thumbs/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince.jpg",
-      "video": "docs/cases/x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-haluaiart-grok-imagine-dark-electro-hip-hop-dance",
@@ -2537,8 +2873,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2118192017750773760/img/ymt5mxIgCigM78-G.jpg?name=orig",
       "image_source": "https://x.com/HaluAIArt/status/2118285947921989988",
       "image_credit": "@HaluAIArt（はる）",
-      "thumb": "assets/thumbs/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance.jpg",
-      "video": "docs/cases/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-rxufnx-grok-imagine-fallen-angel-cinematic-vid",
@@ -2552,8 +2890,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2118169027029663744/img/asNAYbWxjmoI9cAu.jpg?name=orig",
       "image_source": "https://x.com/rxufnx/status/2118327480918438306",
       "image_credit": "@rxufnx（rxufnx）",
-      "thumb": "assets/thumbs/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid.jpg",
-      "video": "docs/cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit",
@@ -2567,8 +2907,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2115096039568883712/img/3H5aVATrpuG9vAiw.jpg",
       "image_source": "https://x.com/whichaiwon/status/2118342571592446154",
       "image_credit": "@whichaiwon（Which AI Won）",
-      "thumb": "assets/thumbs/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-aiminithoughts-grok-imagine-optimus-rising-from-ocean",
@@ -2582,8 +2924,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2118759996338896897/img/_YQ6376yJ50NzptP.jpg?name=orig",
       "image_source": "https://x.com/Aiminithoughts/status/2118762128475635964",
       "image_credit": "@Aiminithoughts（Ai Mini Thoughts Creator）",
-      "thumb": "assets/thumbs/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean.jpg",
-      "video": "docs/cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag",
@@ -2597,8 +2941,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2118761821905584128/img/JMEVDEMR_5inYpJO.jpg?name=small",
       "image_source": "https://x.com/Aiminithoughts/status/2118871728680272112",
       "image_credit": "@Aiminithoughts（Ai Mini Thoughts Creator）",
-      "thumb": "assets/thumbs/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag.jpg",
-      "video": "docs/cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v",
@@ -2612,8 +2958,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2118934348334571520/img/QCbLeXA2bUs1ko4a.jpg?name=orig",
       "image_source": "https://x.com/HawkinsonLindy/status/2118934426633785350",
       "image_credit": "@HawkinsonLindy（Lindy Hawkinson）",
-      "thumb": "assets/thumbs/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v.jpg",
-      "video": "docs/cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo",
@@ -2627,8 +2975,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119231907724394497/img/wfoT3GsatWtlsjAW.jpg?name=small",
       "image_source": "https://x.com/Herbertkrspyleg/status/2119232026230305214",
       "image_credit": "@Herbertkrspyleg（Herbert Krspyleg75 Joseph）",
-      "thumb": "assets/thumbs/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo.jpg",
-      "video": "docs/cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-aiminithoughts-grok-imagine-golden-angel",
@@ -2642,8 +2992,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120329878176407552/img/TsbogFKZAbJNeDHw.jpg",
       "image_source": "https://x.com/Aiminithoughts/status/2120329925702070425",
       "image_credit": "@Aiminithoughts",
-      "thumb": "assets/thumbs/x-aiminithoughts-grok-imagine-golden-angel.jpg",
-      "video": "docs/cases/x-aiminithoughts-grok-imagine-golden-angel/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-radcybertruck-grok-imagine-cybertruck-cry",
@@ -2657,8 +3009,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120350439841349632/img/Jm8Ws3MayOiTAW57.jpg",
       "image_source": "https://x.com/RadCyberTruck/status/2120350558431445006",
       "image_credit": "@RadCyberTruck",
-      "thumb": "assets/thumbs/x-radcybertruck-grok-imagine-cybertruck-cry.jpg",
-      "video": "docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-jamesgreene-code1-qwen38-27b-isometric-city",
@@ -2672,8 +3026,10 @@
       "image_url": "https://jamesgreene.com/media/models/runs/code-1/qwen3.8-27b.webp",
       "image_source": "https://jamesgreene.com/models/",
       "image_credit": "James Greene (model comparison archive)",
-      "thumb": "assets/thumbs/web-jamesgreene-code1-qwen38-27b-isometric-city.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-leo114119-qwen4max-wukong-plane",
@@ -2687,8 +3043,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120371475978878977/img/Eeax2TiQzJZvJzH_.jpg",
       "image_source": "https://x.com/leo114119/status/2120371909624033439",
       "image_credit": "@leo114119（Leo）",
-      "thumb": "assets/thumbs/x-leo114119-qwen4max-wukong-plane.jpg",
-      "video": "docs/cases/x-leo114119-qwen4max-wukong-plane/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-coffeecup2020-qwen4-sagrada",
@@ -2702,8 +3060,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120112189595889664/img/rFNAZcU8AI2iaNFS.jpg",
       "image_source": "https://x.com/coffeecup2020/status/2120113388629995921",
       "image_credit": "@coffeecup2020（David Y. Tan）",
-      "thumb": "assets/thumbs/x-coffeecup2020-qwen4-sagrada.jpg",
-      "video": "docs/cases/x-coffeecup2020-qwen4-sagrada/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city",
@@ -2717,8 +3077,10 @@
       "image_url": "https://jamesgreene.com/media/models/runs/code-1/deepseek-v4.1-flash-1017.webp",
       "image_source": "https://jamesgreene.com/models/",
       "image_credit": "James Greene (model comparison archive)",
-      "thumb": "assets/thumbs/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.jpg",
-      "video": ""
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-latentoperator-a380-deepseek-fable-sol",
@@ -2732,8 +3094,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120205317749538816/img/Jy-yHSBF0DnG9d2a.jpg",
       "image_source": "https://x.com/LatentOperatorX/status/2120205377803518132",
       "image_credit": "@LatentOperatorX",
-      "thumb": "assets/thumbs/x-latentoperator-a380-deepseek-fable-sol.jpg",
-      "video": "docs/cases/x-latentoperator-a380-deepseek-fable-sol/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     },
     {
       "id": "x-latentoperator-deepseek-excavator",
@@ -2747,8 +3111,10 @@
       "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120077706465525760/img/xceuJd2uh8ImD-rA.jpg",
       "image_source": "https://x.com/LatentOperatorX/status/2120077800887746603",
       "image_credit": "@LatentOperatorX（Latent Operator）",
-      "thumb": "assets/thumbs/x-latentoperator-deepseek-excavator.jpg",
-      "video": "docs/cases/x-latentoperator-deepseek-excavator/media/video.mp4"
+      "thumb": "",
+      "thumb_public_allowed": false,
+      "video": "",
+      "video_public_allowed": false
     }
   ]
 }

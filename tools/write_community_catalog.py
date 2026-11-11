@@ -10,6 +10,9 @@ import json
 import os
 from pathlib import Path
 
+from media_policy import is_public_asset
+from case_localization import attach_translations, localized, translation_link, write_translated_cases
+
 from readme_presentation import (
     FAMILY_TITLE,
     TYPE_INDEX_LABEL,
@@ -139,6 +142,7 @@ FAMILY_LABELS = {
 
 
 def format_collection_sites(sites_raw: dict, *, lang: str) -> str:
+    site_translations = json.loads((ROOT / "data/collection-site-translations.json").read_text(encoding="utf-8"))["entries"]
     by_family = sites_raw.get("by_family") or {}
     labels = FAMILY_LABELS.get(lang, FAMILY_LABELS_EN)
     parts: list[str] = []
@@ -159,7 +163,8 @@ def format_collection_sites(sites_raw: dict, *, lang: str) -> str:
         for site in items:
             name = (site.get("name") or "").strip()
             url = (site.get("url") or "").strip()
-            desc = (site.get("description") or "").strip()
+            original_desc = (site.get("description") or "").strip()
+            desc = site_translations[original_desc][lang] if original_desc else ""
             if not name or not url:
                 continue
             parts.append(f"- [{name}]({url}) — {desc}" if desc else f"- [{name}]({url})")
@@ -395,12 +400,12 @@ def existing_public_page(r: dict) -> str:
     """Seeds and similar: point at a file that already exists, else the source URL."""
     cid = r.get("id") or ""
     gif = ROOT / "docs" / "gifs" / f"{cid}.gif"
-    if gif.is_file():
+    if is_public_asset(str(gif.relative_to(ROOT)), root=ROOT):
         return str(gif.relative_to(ROOT)).replace("\\", "/")
     media = r.get("media_url") or ""
     if media and not media.startswith(("http://", "https://")):
         for cand in (ROOT / media, ROOT / "docs" / media):
-            if cand.is_file():
+            if is_public_asset(str(cand.relative_to(ROOT)), root=ROOT):
                 return str(cand.relative_to(ROOT)).replace("\\", "/")
     return r.get("source_url") or ""
 
@@ -412,7 +417,7 @@ def attach_local(rows: list[dict]) -> None:
         man = json.loads(LOCAL_MANIFEST.read_text(encoding="utf-8"))
     by: dict[str, list] = {}
     for f in man.get("files") or []:
-        if f.get("ok"):
+        if f.get("ok") and is_public_asset(f.get("local_path") or "", root=ROOT):
             by.setdefault(f["case_id"], []).append(f)
     for r in rows:
         cid = r["id"]
@@ -427,6 +432,7 @@ def attach_local(rows: list[dict]) -> None:
             r["local_files"] = [
                 {
                     "path": f.get("local_path"),
+                    "public_allowed": True,
                     "ext": f.get("ext"),
                     "role": f.get("role"),
                     "bytes": f.get("bytes"),
@@ -478,17 +484,12 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
             external = str(r["local_detail"]).startswith(("http://", "https://"))
             label = ui["origin"] if external else ui["case"]
             media = f"[{label}]({repo_href(r['local_detail'], from_file)})"
-            if r.get("local_preview"):
+            if is_public_asset(r.get("local_preview") or "", root=ROOT):
                 media += f" · [{ui['file']}]({repo_href(r['local_preview'], from_file)})"
-            if r.get("video"):
+            if is_public_asset(r.get("video") or "", root=ROOT):
                 media += f" · [Video]({repo_href(r['video'], from_file)})"
-        elif r.get("source_url") and r.get("bucket") not in {BUCKET_MAIN, BUCKET_WEB, BUCKET_INREPO, BUCKET_GAME}:
-            if r.get("media_url"):
-                media = f"[{r['media_kind'] or ui['kind']}]({r['media_url']})"
-            else:
-                media = f"[{ui['source']}]({r['source_url']})"
-        elif r.get("media_url"):
-            media = f"[{r['media_kind']}]({r['media_url']})"
+        elif r.get("source_url"):
+            media = f"[{ui['source']}]({r['source_url']})"
         else:
             media = "—"
         status = r.get("prompt_status") or "空"
@@ -496,6 +497,10 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
             prompt_label = ui["published"]
         elif status == "aggregator_only":
             prompt_label = ui["agg"]
+        elif status == "reconstructed":
+            prompt_label = {"en": "Reconstructed", "zh-CN": "重建提示词", "zh-TW": "重建提示詞", "ja": "再構成プロンプト"}[lang]
+        elif status == "有面向 2.6 的提示词":
+            prompt_label = {"en": "Prompt targeting 2.6", "zh-CN": "面向 2.6 的提示词", "zh-TW": "面向 2.6 的提示詞", "ja": "2.6 向けプロンプト"}[lang]
         elif status == "空":
             prompt_label = ui["empty"]
         elif status == "短/部分":
@@ -508,21 +513,24 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
             f"[{prompt_label}]({repo_href(r['local_prompt'], from_file)})"
             if r.get("local_prompt") else (f"[{prompt_label}]({r['prompt_url']})" if r.get("prompt_url") else prompt_label)
         )
+        if translation_link(r, lang):
+            label = {"en": "Read translation + original", "zh-CN": "译文与原文", "zh-TW": "譯文與原文", "ja": "翻訳と原文"}[lang]
+            prompt += f" · [{label}]({repo_href(r['translation_page'], from_file)}#{lang.lower()})"
         lines.append(
             "| {i} | {author} | {title} | {src} | {media} | {prompt} | {model} | {pipe} | {verify} | {lic} |".format(
                 i=i,
                 author=cell(r.get("author")),
                 title="`{id}` {title}".format(
                     id=r["id"],
-                    title=cell(r.get("title") or r["id"], 60),
+                    title=cell(localized(r, "title", lang) or r["id"], 60),
                 ),
                 src=src,
                 media=media,
                 prompt=prompt,
-                model=cell(r.get("model_claim"), 40),
-                pipe=cell(r.get("pipeline"), 36),
-                verify=cell(r.get("verify"), 36),
-                lic=cell(r.get("license_label") or ui["unknown"]),
+                model=cell(localized(r, "model_claim", lang), 40),
+                pipe=cell(localized(r, "pipeline", lang), 36),
+                verify=cell(localized(r, "verify", lang), 36),
+                lic=cell(({"en": "Source link only", "zh-CN": "仅来源链接", "zh-TW": "僅來源連結", "ja": "出典リンクのみ"}[lang] if r.get("license_label") == "Source link only" else r.get("license_label")) or ui["unknown"]),
             )
         )
     return "\n".join(lines)
@@ -536,7 +544,8 @@ def apply_case_images(rows: list[dict]) -> None:
         rec["image_url"] = img.get("image_url") or ""
         rec["image_source"] = img.get("image_source") or rec.get("source_url") or ""
         rec["image_credit"] = img.get("image_credit") or rec.get("author") or ""
-        rec["thumb"] = (img.get("thumb") or "") if img.get("download") == "saved" else ""
+        rec["thumb"] = (img.get("thumb") or "") if is_public_asset(img.get("thumb") or "", root=ROOT) else ""
+        rec["thumb_public_allowed"] = bool(rec["thumb"])
         rec["image_download"] = img.get("download") or "missing"
         rec["image_note"] = img.get("note") or ""
         if img.get("date"):
@@ -551,10 +560,11 @@ def apply_case_videos(rows: list[dict]) -> None:
     for rec in rows:
         item = by_id.get(rec["id"]) or {}
         rel = str(item.get("video") or "")
-        if rel and (ROOT / rel).is_file():
+        if is_public_asset(rel, root=ROOT):
             rec["video"] = rel
         else:
             rec["video"] = ""
+        rec["video_public_allowed"] = bool(rec["video"])
 
 
 def write_missing_videos(catalog_rows: list[dict]) -> None:
@@ -570,7 +580,7 @@ def write_missing_videos(catalog_rows: list[dict]) -> None:
         "",
         "Scope: collected cases whose source was treated as a downloadable video (X post, direct MP4, or yt-dlp). Cases with no video on the source are not listed here.",
         "",
-        "Local copies stay credited to the original author and link back to the post. See [MEDIA_RIGHTS.md](../MEDIA_RIGHTS.md). A rights holder can ask for removal.",
+        "Public copies require an exact-asset permission record; attribution alone is not permission. See [MEDIA_RIGHTS.md](../MEDIA_RIGHTS.md). A rights holder can ask for removal.",
         "",
         f"Failed: **{len(failed)}**.",
         "",
@@ -606,7 +616,9 @@ def write_showcase(catalog: dict) -> None:
                 "image_source": rec.get("image_source") or "",
                 "image_credit": rec.get("image_credit") or "",
                 "thumb": rec.get("thumb") or "",
+                "thumb_public_allowed": rec.get("thumb_public_allowed") is True,
                 "video": rec.get("video") or "",
+                "video_public_allowed": rec.get("video_public_allowed") is True,
             }
         )
     OUT_INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
@@ -994,6 +1006,9 @@ def main() -> None:
         1 for rec in collected_x + web_confirmed + inrepo + game_main + frontier_all if rec.get("thumb")
     )
 
+    attach_translations(catalog)
+    write_translated_cases(catalog)
+
     OUT_JSON.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     OUT_JS.write_text(
         "/* AUTO-GENERATED by tools/write_community_catalog.py */\nwindow.COMMUNITY_CASES = "
@@ -1214,7 +1229,7 @@ def main() -> None:
 Independent community project. Organized by model family, then version. Current public inventory, not exhaustive. Author claim ≠ official verification.
 
 ## What is this repository?
-A sourced catalog of real production cases from the latest large models: animations, HTML and game demos, images, and credited local videos. Each record keeps the post, author, prompt-or-empty, model evidence, pipeline, verification, and license boundary. The GPT Image 2.6 GIF archive is a subproject at collections/gpt-image-gifs/ and is not part of the homepage total.
+A sourced catalog of real production cases from the latest large models: animations, HTML and game demos, images, and source-linked videos; only explicitly approved media is embedded. Each record keeps the post, author, prompt-or-empty, model evidence, pipeline, verification, and license boundary. The GPT Image 2.6 GIF archive is a subproject at collections/gpt-image-gifs/ and is not part of the homepage total.
 
 ## What is in the current inventory?
 Homepage total {c['main_collected']} frontier-family cases: Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT-6.2 Sol {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}. GPT Image subproject {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}), listed only under collections/gpt-image-gifs/. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Claude Mythos 5.2 is named in the inventory and has no separate sourced case. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English, Simplified Chinese, Traditional Chinese, and Japanese READMEs share the homepage inventory. Showcase collection sites: playbooks/research/showcase-collection-sites.json. Related GitHub projects: docs/related-projects.md. Case index: docs/showcase-index.md and data/showcase-index.json. Failed video downloads: docs/missing-videos.md.
@@ -1226,7 +1241,7 @@ Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?la
 No Images API at browse time. No paid generation. No blanket author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
 ## Which languages are maintained?
-English README.md, Simplified Chinese README.zh-CN.md (AI 模型制作案例集), Traditional Chinese README.zh-TW.md, and Japanese README.ja.md. Same inventory and the same case counts. The web gallery is still English and Simplified Chinese (`?lang=en` / `?lang=zh`).
+English README.md, Simplified Chinese README.zh-CN.md (AI 模型制作案例集), Traditional Chinese README.zh-TW.md, and Japanese README.ja.md. Same inventory and the same case counts. Case titles, methods, verification notes, model evidence and collected prompts have four-language AI translations marked not human-reviewed, with originals preserved. See docs/translation-policy.md and docs/data/translation-coverage.json. The web catalog is English/Simplified Chinese (`?lang=en` / `?lang=zh`); translated-case.html supports all four content languages.
 
 ## License boundaries
 MIT covers source code only. Third-party media remains license-unknown unless a specific source grant is recorded. Follow per-case attribution; no blanket grant or CC0 claim.

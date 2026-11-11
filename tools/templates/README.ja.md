@@ -4,7 +4,7 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
 <!-- readme-tech-visualizer:start -->
-<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome AI Model Showcases：積み重なったアニメーションのコマとループ" width="112" height="112"></p>
+<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome AI Model Showcases：重なる展示カードと再生マーク" width="112" height="112"></p>
 <!-- readme-tech-visualizer:end -->
 
 # Awesome AI Model Showcases
@@ -42,7 +42,7 @@ ${latest}
 <a id="showcase"></a>
 ## モデルファミリー別の事例
 
-各ファミリー・各版の事例をすべて新しい順に並べます。サムネイルのあるものはカード（画像をクリックすると原投稿へ）、▶ 動画 があればローカルの動画を見られます。サムネイルのないものは 1 行ずつ。事例のない版は空のままにします。
+全事例をファミリー・版ごとに新しい順で掲載します。公開許諾の根拠がある素材のみサムネイルや再生を表示し、それ以外は原投稿へのリンクを残します。
 
 [Feishu の AIGCreative 参照集](docs/reference-feishu.md)は、同じモデルの作品を用途（制作ワークフロー、解説、映像実験、ゲーム、研究再現）でも分けています。このカタログの導線はモデルファミリー、版、作品タイプのままです。
 
@@ -53,7 +53,7 @@ ${type_sections}
 <a id="collection-sites"></a>
 ## 事例収集サイト
 
-各モデルの GIF、アニメーション、HTML demo を集めたり比べたりしているサイトです（Showcase collection sites）。リンクを返すだけで、スクレイピングして再ホストしません。説明文は [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json) に書いてある原文のままです。
+各モデルの GIF、アニメーション、HTML demo を集めたり比べたりしているサイトです（Showcase collection sites）。リンクを返すだけで、スクレイピングして再ホストしません。説明文は [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json) の原文から翻訳しています。
 
 ${collection_sites}
 
@@ -124,11 +124,11 @@ PR にする場合は [CONTRIBUTING.md](CONTRIBUTING.md) に従います。ク�
 
 ${count_table}
 
-件数は [一つの生成目録](docs/data/community-cases.json) から来ます。出典インベントリの最終更新：**${inventory_date}**。ホームページの合計はフロンティア・ファミリーの収録数であり、生成成功の確認数ではありません。**${main_count} 件のうち ${media_count} 件にローカルのメディアがあります**（出典に動画がある場合のクレジット付きコピー）。`assets/thumbs/` のサムネイルはクレジット付きで原投稿へ戻る小さいコピーです。一覧は [docs/showcase-index.md](docs/showcase-index.md) です。取得できなかった動画は [docs/missing-videos.md](docs/missing-videos.md) です。
+件数は[生成目録](docs/data/community-cases.json)に基づきます。最終更新：**${inventory_date}**。ホームページは **${main_count} 件**の出典付き事例で、生成成功の検証数ではありません。公開を承認したローカルメディアは **${media_count} 件**です。許諾不明の画像・動画は埋め込まず Pages にも配信しません。既存アーカイブの権利確認は別途必要です。[MEDIA_RIGHTS.md](MEDIA_RIGHTS.md)と[一覧](docs/showcase-index.md)を参照してください。
 
 ### 出典と証拠の全表
 
-下のファミリーを開くか、[検索できるウェブ目録](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en) を使います。タイトルと根拠の引用は出典の言語のままです。同じ行は [独立インデックス](playbooks/community-cases.md) にもあります。
+下のファミリーを開くか、[検索できるウェブ目録](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en) を使います。タイトルと根拠には翻訳と明記した訳文を用意し、原文と対照できます。同じ行は [独立インデックス](playbooks/community-cases.md) にもあります。
 
 ${catalog_tables}
 
@@ -154,6 +154,6 @@ ${catalog_tables}
 
 ## どの言語版があるか
 
-**English、简体中文、繁體中文、日本語** は一つのインベントリを共有し、件数も同じです。引用とプロンプトは出典の言語のままです。ウェブ目録は `?lang=en` / `?lang=zh` だけです。アイデアと人気作の再演は中国語が先で、第二の同期目録ではありません。
+**English、简体中文、繁體中文、日本語** は同じ台帳と事例数を共有します。事例名、制作方法、検証状況、モデルの根拠、収集済みのプロンプト本文に、人による校閲が未実施の AI 翻訳を別途用意しています。原文と出典リンクは各翻訳と併せて確認できます。Web カタログは `?lang=en` / `?lang=zh` に対応し、事例翻訳ビューアーは 4 言語に対応します。アイデアと人気作品の再制作の付録は引き続き中国語中心です。[翻訳方針と対象範囲](docs/translation-policy.md)をご覧ください。
 
 [先頭へ ↑](#awesome-ai-model-showcases)

@@ -23,5 +23,10 @@ See `prompt.md`.
 
 Official OpenAI Sol model in current catalog is GPT-6.1 Sol. Author hashtags include GPT62sol; treat as unofficial/user-reported, not API catalog. Section: GPT-6.2 Sol (owner). Fact: OpenAI introducing-gpt-6-1-sol + docs/models still name GPT-6.1 Sol as of 2026-11-11.
 
-- Video: [video.mp4](media/video.mp4)
-- Local `video.mp4` is a credited copy of the original author's post and links back to that post. It is not a reuse license. Open a GitHub Issue to request removal.
+## Media
+
+Media is shown here only with a documented publication grant. Otherwise, view the original source. / 仅展示有明确授权记录的素材，其余请查看原帖。
+
+
+
+[View original source / 查看原帖](https://x.com/YFeng2022/status/2120324811549225082)

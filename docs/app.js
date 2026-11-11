@@ -1,5 +1,11 @@
 (() => {
   'use strict';
+  // Fail closed: only exact docs-relative paths from the verified build registry.
+  const publicMedia = new Set(Array.isArray(window.PUBLIC_MEDIA_PATHS) ? window.PUBLIC_MEDIA_PATHS : []);
+  function approvedMedia(path) {
+    return typeof path === 'string' && !/[:?#\\]/.test(path) && !path.startsWith('/') &&
+      !path.split('/').some((part) => !part || part === '.' || part === '..') && publicMedia.has(path);
+  }
   const data = Array.isArray(window.GALLERY_ITEMS) ? window.GALLERY_ITEMS : [];
   const cards = document.getElementById('cards');
   const filters = document.getElementById('filters');
@@ -64,19 +70,26 @@
     const isExternal = item.storage === 'external' && item.rights !== 'unknown_archived';
     const isArchived = item.rights === 'unknown_archived';
     const card = node('article', 'card');
-    const preview = node('a', 'preview');
-    preview.href = item.image;
-    preview.target = '_blank';
-    preview.rel = 'noopener noreferrer';
-    preview.setAttribute('aria-label', 'Open ' + item.title + (isExternal ? ' source GIF' : ' animated GIF'));
-    const image = node('img');
-    image.src = item.image;
-    image.alt = item.description;
-    image.loading = 'lazy';
-    image.decoding = 'async';
-    if (isExternal) image.referrerPolicy = 'no-referrer';
-    const pill = node('span', 'pill', (isArchived ? 'ARCHIVED' : isExternal ? 'SOURCE GIF' : 'LOCAL') + ' · ' + item.category.toUpperCase());
-    preview.append(image, pill);
+    const allowed = approvedMedia(item.image);
+    const preview = node(allowed || item.source_url ? 'a' : 'div', 'preview');
+    if (allowed || item.source_url) {
+      preview.href = allowed ? item.image : item.source_url;
+      preview.target = '_blank';
+      preview.rel = 'noopener noreferrer';
+    }
+    preview.setAttribute('aria-label', 'Open ' + item.title + ' source');
+    if (allowed) {
+      const image = node('img');
+      image.src = item.image;
+      image.alt = item.description;
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      preview.append(image);
+    } else {
+      preview.append(node('span', 'poster-empty', item.source_url ? 'View original source ↗' : 'Preview unavailable; source not recorded'));
+    }
+    const pill = node('span', 'pill', (allowed ? 'LICENSED PREVIEW' : 'SOURCE ONLY') + ' · ' + item.category.toUpperCase());
+    preview.append(pill);
     const content = node('div', 'card-content');
     const h3 = node('h3', '', item.title);
     const description = node('p', '', item.description);

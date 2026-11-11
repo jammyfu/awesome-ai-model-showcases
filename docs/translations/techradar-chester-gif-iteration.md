@@ -1,0 +1,139 @@
+# techradar-chester-gif-iteration
+
+Author / 作者 / 作者 / 作者: Graham Barlow / TechRadar
+
+[Original source / 原帖 / 原帖 / 原投稿](https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-2-6-is-here-and-it-can-turn-your-photos-into-animated-gifs-so-i-tried-it-on-my-cat)
+
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+
+## Original / 原文
+
+```text
+Chester 宠物照动画：万圣节眨眼、施法与月球蝴蝶
+```
+
+### Model evidence / 模型依据
+
+```text
+2026-11-05 journalist's first-party Images 2.6 test using his own cat photo
+```
+
+### Original prompt / 原始提示词
+
+```text
+
+```
+
+### Source rights / 来源许可
+
+```text
+unknown; no explicit redistribution permission established
+```
+
+<a id="en"></a>
+## English
+
+AI translation, not human-reviewed. Read the original alongside it; translation does not verify the source or grant reuse rights.
+
+```text
+Chester pet-photo animations: Halloween blinking, spellcasting, and a lunar butterfly
+```
+
+### Method
+
+Photo to GIF, motion revision, named reference reused in moon scene; one workflow group, three outputs
+
+### Verification
+
+2026-11-07 source record; not newly verified
+
+### Model evidence (translation)
+
+```text
+2026-11-05 journalist's first-party Images 2.6 test using his own cat photo
+```
+
+### Published prompt (translation)
+
+No prompt text was collected. See the source; no prompt has been invented.
+
+<a id="zh-cn"></a>
+## 简体中文
+
+AI 译文，未经人工审校。请对照原文阅读；翻译不等于核实来源，也不授予再利用许可。
+
+```text
+Chester 宠物照动画：万圣节眨眼、施法与月球蝴蝶
+```
+
+### 做法
+
+照片转 GIF、动作修订、在月球场景复用具名参考；同一工作流组，三个输出
+
+### 核验状态
+
+2026-11-07 来源记录；未重新核验
+
+### 模型依据（译文）
+
+```text
+2026-11-05 记者使用自家猫照片亲测 Images 2.6
+```
+
+### 公开提示词（译文）
+
+未收集到提示词正文。请查看来源，未编造提示词。
+
+<a id="zh-tw"></a>
+## 繁體中文
+
+AI 譯文，未經人工審校。請對照原文閱讀；翻譯不等於核實來源，也不授予再利用許可。
+
+```text
+Chester 寵物照動畫：萬聖節眨眼、施法與月球蝴蝶
+```
+
+### 做法
+
+照片轉 GIF、動作修訂、在月球場景重用具名參考；同一工作流程組，三個輸出
+
+### 核驗狀態
+
+2026-11-07 來源紀錄；未重新核驗
+
+### 模型依據（譯文）
+
+```text
+2026-11-05 記者使用自家貓照片親測 Images 2.6
+```
+
+### 公開提示詞（譯文）
+
+未收集到提示詞內文。請查看來源，未編造提示詞。
+
+<a id="ja"></a>
+## 日本語
+
+AI 翻訳であり、人による校閲は未実施です。原文と併せてお読みください。翻訳は出典の検証や再利用の許諾を意味しません。
+
+```text
+ペットChesterの写真アニメ：ハロウィーンのまばたき、魔法、月の蝶
+```
+
+### 制作方法
+
+写真から GIF 化、動作の修正、名前付き参照の月面シーンへの再利用。同一ワークフローの 3 出力
+
+### 検証状況
+
+2026-11-07 時点の出典記録。新たな検証は行っていない
+
+### モデルの根拠（翻訳）
+
+```text
+2026-11-05、記者が自分の猫の写真でImages 2.6を直接検証
+```
+
+### 公開プロンプト（翻訳）
+
+プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。

@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 
+from media_policy import is_public_asset
 from media_format import ffprobe_bin, probe_media  # noqa: E402
 UNPUBLISHED_MARK = "（原文未公开 / original prompt not published）"
 MAIN_KEYS = (
@@ -218,7 +219,8 @@ def main() -> int:
         media = [f for f in by_case.get(cid, []) if f.get("ext") in {"gif", "mp4", "png", "jpg", "jpeg", "webp"}]
         catalog_files = rec.get("local_files") or []
         catalog_ok = {f.get("path") for f in catalog_files if f.get("path")}
-        manifest_ok = {f["local_path"] for f in by_case.get(cid, [])}
+        manifest_ok = {f["local_path"] for f in by_case.get(cid, []) if is_public_asset(f["local_path"])}
+        assert all(f.get("public_allowed") is True for f in catalog_files)
         assert catalog_ok == manifest_ok, (cid, catalog_ok, manifest_ok)
         if rec.get("local_detail"):
             assert (ROOT / rec["local_detail"]).is_file(), (cid, rec["local_detail"])

@@ -10,7 +10,11 @@ License: **unknown**. Archived locally at the user's request. MIT covers repo so
 
 ## Media
 
-![01-gif.gif](media/01-gif.gif)
+Media is shown here only with a documented publication grant. Otherwise, view the original source. / 仅展示有明确授权记录的素材，其余请查看原帖。
+
+
+
+[View original source / 查看原帖](https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/)
 
 ## Prompt
 

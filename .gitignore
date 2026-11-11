@@ -11,3 +11,5 @@ __pycache__/
 https:/
 *.orig
 .pytest_cache/
+
+_site/

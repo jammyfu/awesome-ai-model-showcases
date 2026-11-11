@@ -4,7 +4,7 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
 <!-- readme-tech-visualizer:start -->
-<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome AI Model Showcases: stacked animation frames and a loop" width="112" height="112"></p>
+<p align="center"><img src="docs/readme-assets/project-icon.png" alt="Awesome AI Model Showcases: layered exhibit cards with a play aperture" width="112" height="112"></p>
 <!-- readme-tech-visualizer:end -->
 
 # Awesome AI Model Showcases
@@ -42,7 +42,7 @@ ${latest}
 <a id="showcase"></a>
 ## Cases by model family
 
-Every sourced case is listed under its family and version, newest first. Cases with a thumbnail get a card (click the image for the original post; ▶ Video opens the archived local video); cases without one get a single line. Versions with no sourced case stay empty. Nothing here is invented to fill a slot.
+Cases with a documented publication grant may show a thumbnail or playable media. All other cases link to the original source. Every case remains listed under its family and version, newest first.
 
 The [AIGCreative Feishu reference](docs/reference-feishu.md) also groups one model’s works by use case (product workflow, teaching, film and visual experiments, games, research). This catalog still navigates by model family, version, and work type.
 
@@ -53,7 +53,7 @@ ${type_sections}
 <a id="collection-sites"></a>
 ## Showcase collection sites
 
-Galleries and aggregators that collect or compare model GIF, animation, and HTML demos. Link back; do not scrape-rehost. Descriptions below are copied from [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json).
+Galleries and aggregators that collect or compare model GIF, animation, and HTML demos. Link back; do not scrape-rehost. Descriptions below are translated from [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json).
 
 ${collection_sites}
 
@@ -124,11 +124,11 @@ Prefer a pull request? Follow [CONTRIBUTING.md](CONTRIBUTING.md). Corrections to
 
 ${count_table}
 
-Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **${inventory_date}**. The homepage total is collected frontier-family cases, not confirmed successful generations. **${media_count} of the ${main_count} cases have local media** (a credited video file when the source had one). Navigation thumbnails in `assets/thumbs/` are small credited copies and link back to the original post. The row index is [docs/showcase-index.md](docs/showcase-index.md). Failed video downloads are listed in [docs/missing-videos.md](docs/missing-videos.md).
+Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **${inventory_date}**. Homepage total: **${main_count}** source-linked cases, not verified successful generations. **${media_count} cases have approved local media**. Unknown-rights thumbnails and videos are not embedded or deployed; existing archive copies are a separate rights-review concern. See [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md) and the [case index](docs/showcase-index.md).
 
 ### Full source and evidence tables
 
-Open a family below, or use the [searchable web catalog](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en). Original-language titles and evidence quotes stay as published. The same rows are in the [standalone index](playbooks/community-cases.md).
+Open a family below, or use the [searchable web catalog](https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en). Case titles and evidence have labeled translations; the original wording stays available alongside them. The same rows are in the [standalone index](playbooks/community-cases.md).
 
 ${catalog_tables}
 
@@ -154,6 +154,6 @@ Read [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md) before reuse. Rights holders can [open a
 
 ## Which languages are maintained?
 
-**English, 简体中文, 繁體中文, and 日本語** share one inventory and the same case counts. Original quotes and prompts stay in their source language. The web catalog supports `?lang=en` / `?lang=zh` only. Idea and popular-remake appendices are Chinese-first, not a second synchronized catalog.
+**English, 简体中文, 繁體中文, and 日本語** share one inventory and the same case counts. Case titles, methods, verification notes, model evidence and collected prompt text have separate AI translations, explicitly not human-reviewed. Original text and source links remain available beside every translation. The web catalog supports `?lang=en` / `?lang=zh`; the case translation reader offers all four languages. Idea and popular-remake appendices remain Chinese-first. See [translation policy and coverage](docs/translation-policy.md).
 
 [Back to top ↑](#awesome-ai-model-showcases)
