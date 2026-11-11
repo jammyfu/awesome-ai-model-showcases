@@ -1,6 +1,6 @@
 # Community case catalog / 社区真实案例总目录
 
-> Updated 2026-11-11 (Beijing time). Same inventory as README.md and README.zh-CN.md. Organized by model family. Not exhaustive; not official verification.
+> Updated 2026-11-11 (Beijing time). Same inventory as README.md, README.zh-CN.md, README.zh-TW.md, and README.ja.md. Organized by model family, then version. Not exhaustive; not official verification.
 
 - Main collected: **77** = GPT Image **51** + other families **26**
 - GPT Image: X 25 + web GIF 20 + in-repo 2 + game author-claim 4

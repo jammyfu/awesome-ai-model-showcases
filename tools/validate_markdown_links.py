@@ -13,6 +13,8 @@ SKIP_SCHEMES = ("http://", "https://", "mailto:", "tel:", "data:", "javascript:"
 GENERATED = (
     ROOT / "README.md",
     ROOT / "README.zh-CN.md",
+    ROOT / "README.zh-TW.md",
+    ROOT / "README.ja.md",
     ROOT / "playbooks/community-cases.md",
 )
 

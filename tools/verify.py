@@ -38,6 +38,8 @@ def main() -> int:
             "--",
             "README.md",
             "README.zh-CN.md",
+            "README.zh-TW.md",
+            "README.ja.md",
             "playbooks/community-cases.md",
             "docs/data/community-cases.json",
             "docs/data/cases.js",

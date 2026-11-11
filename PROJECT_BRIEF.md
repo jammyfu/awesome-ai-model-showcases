@@ -1,6 +1,6 @@
 # Project brief
 
-**Awesome AI Model Showcases**（中文名：**AI 模型制作案例集**）is a bilingual community catalog of public AI model GIF and animation showcases, organized by model family.
+**Awesome AI Model Showcases**（中文名：**AI 模型制作案例集**）is a community catalog of public AI model production cases, organized by model family and version. README editions: English, Simplified Chinese, Traditional Chinese, and Japanese. The web gallery remains English and Simplified Chinese.
 
 GPT Image 2.6 is one populated subsection. Parallel family sections (Claude, Gemini, GPT Sol/Astra, Grok, Qwen, DeepSeek, and others as sourced) hold cases when real public posts are verified.
 
