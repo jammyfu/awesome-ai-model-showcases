@@ -2,7 +2,7 @@
 
 ## Change and boundaries
 
-Based on merged PR #15 (`d908536`), preserve the hero and both original Claude film frames. Replace each model's one-line navigation example with a three-column table: preview, localized case introduction, and exact model/creator/source. Choose three distinct existing catalog subjects per family (18 total) via `data/readme-model-tables.json`. Their missing publication grants remain visible source-only entries, not claimed embedded thumbnails.
+Based on merged PR #15 (`d908536`), preserve the hero and both original Claude film frames. Replace each model's one-line navigation example with a two-column table: a 240px preview column, plus a combined localized introduction and exact model/creator/source column. Choose three distinct existing catalog subjects per family (18 total) via `data/readme-model-tables.json`. Their missing publication grants remain visible source-only entries, not claimed embedded thumbnails.
 
 Add three separate licensed still-image spotlights: Gemini/Imagen valley, Grok Aurora lunar rider, and Qwen-Image-2.1 snowy street. These are accurately labeled older/image models, not substitutions for the current coding-model cases. Main catalog stays 183, GPT Image archive stays 51. No new animation or generation is claimed. This change is a draft PR, not a merge or deployment authorization.
 
@@ -33,9 +33,13 @@ Supplemental files have exact-hash grants in `data/public-media-rights.json`, fu
 
 ## Validation
 
+Initial actual GitHub review found the three-column layout squeezed images to 108–119px on the desktop repository page and 75–100px on a Chinese blob page with the sidebar open. The layout was revised to two columns with a 240px preview column, and regression assertions now require that structure.
+
 - Tests first: original implementation failed assertions for six tables and 18 rows; supplemental test failed until licensed metadata existed.
 - Presentation suite: 9 tests passed after table generation and credit-page integration.
 - `python3 tools/verify.py`: passed on the staged final source and generated outputs (including rights checks, public build, catalog/localization tests, JavaScript smoke tests and 1,267 local Markdown document checks). An earlier unstaged run stopped at generator-diff protection, not a test defect.
-- Browser/mobile layout: not yet visually reviewed for the final GitHub tables. No local Chromium is installed. Repository CI browser suite checks the existing built Pages app, not the actual GitHub README layout.
+- Actual GitHub desktop layout at `fbcfc493`: English branch README and Chinese blob page reviewed at 1165px viewport. All three new images loaded and displayed at 213px wide (116/160/163px high), with 239px preview cells and 723px tables. No internal horizontal overflow; long English and Chinese titles wrapped. The former 75–119px preview-width defect is fixed.
+- Narrow/mobile layout: not run. The available browser session had no supported viewport resize control, and keyboard zoom did not change the viewport. No physical-device or narrow-window pass is claimed.
+- No local Chromium is installed. Repository CI browser suite checks the existing built Pages app, not the actual GitHub README layout.
 - Actual new media playback: not applicable; all three are still images.
 - No merge/deployment performed by this change.
