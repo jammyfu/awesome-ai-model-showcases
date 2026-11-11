@@ -139,10 +139,14 @@ def main() -> int:
     ideas = load_json("docs/data/ideas.json")
     missing = (ROOT / "playbooks/local-media-missing.md").read_text(encoding="utf-8")
 
+    # Local-media completeness applies to the GPT Image archive buckets only.
+    # Other model-family cases are source-link-only by default (MEDIA_RIGHTS).
     main_rows = []
     for key in MAIN_KEYS:
         main_rows.extend(catalog[key])
-    assert len(main_rows) == catalog["meta"]["counts"]["main_collected"], len(main_rows)
+    counts_meta = catalog["meta"]["counts"]
+    assert len(main_rows) == counts_meta["gpt_image"], (len(main_rows), counts_meta.get("gpt_image"))
+    assert counts_meta["main_collected"] == counts_meta["gpt_image"] + counts_meta.get("frontier_sourced", 0)
 
     files = manifest.get("files") or []
     ok = [f for f in files if f.get("ok")]

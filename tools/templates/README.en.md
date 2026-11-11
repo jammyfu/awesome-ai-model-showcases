@@ -53,7 +53,7 @@ No account, API key, or installation is required to browse. If this saves you a 
 <a id="catalog"></a>
 ## The catalog at a glance
 
-**${main_count} collected cases**, organized by **model family**. GPT Image 2.6 is the populated subsection (${web_count} non-X multi-frame GIFs · ${game_count} game author-claimed). Other families are reserved empty for later sourced cases. **${pending_count} pending**, kept separate.
+**${main_count} collected cases**, organized by **model family**. GPT Image 2.6 remains the local-archive subsection (${web_count} non-X multi-frame GIFs · ${game_count} game author-claimed). Claude, Gemini, GPT Sol/Astra, Grok, Qwen, and DeepSeek cases are source-linked. **${pending_count} pending**, kept separate.
 
 ${count_table}
 

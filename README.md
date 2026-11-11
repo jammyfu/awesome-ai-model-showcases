@@ -10,7 +10,7 @@
 Awesome AI Model Showcases collects real public AI model GIF and animation cases: original authors, original media, public prompts, sources, and production pipelines. It is organized by model family (GPT Image is one subsection), not this repository's original playbook showcase.
 
 <p>
-<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-51-10131a?style=flat-square&amp;labelColor=c2ff67" alt="51 catalog cases"></a>
+<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-70-10131a?style=flat-square&amp;labelColor=c2ff67" alt="70 catalog cases"></a>
 <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/languages-English_%2F_简体中文-10131a?style=flat-square&amp;labelColor=c2ff67" alt="English and Simplified Chinese"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="Source code license: MIT"></a>
 </p>
@@ -74,19 +74,24 @@ No account, API key, or installation is required to browse. If this saves you a 
 <a id="catalog"></a>
 ## The catalog at a glance
 
-**51 collected cases**, organized by **model family**. GPT Image 2.6 is the populated subsection (20 non-X multi-frame GIFs · 4 game author-claimed). Other families are reserved empty for later sourced cases. **12 pending**, kept separate.
+**70 collected cases**, organized by **model family**. GPT Image 2.6 remains the local-archive subsection (20 non-X multi-frame GIFs · 4 game author-claimed). Claude, Gemini, GPT Sol/Astra, Grok, Qwen, and DeepSeek cases are source-linked. **12 pending**, kept separate.
 
 | Model family / bucket | Count | Outside the main catalog | Count |
 |---|---:|---|---:|
-| **GPT Image 2.6** (populated subsection) | **51** | Pending | 12 |
+| **GPT Image 2.6** (local archive subsection) | **51** | Pending | 12 |
 | · X author-claimed 2.6 | **25** | Prompt-only | 1 |
 | · Non-X real GIFs | **20** | Duplicate/rejected | 9 |
 | · In-repo community longform/posts | **2** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | 50 |
 | · Game author-claimed | **4** | Repository seeds (local examples) | 6 |
-| Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek | **0** (structure reserved) | | |
-| **Main total** | **51** | | |
+| Claude (Fable 5.2 / Opus 5.5…) | **7** | | |
+| Gemini (4 Carbon / 4 Argon) | **3** | | |
+| GPT Sol / Astra (code) | **4** | | |
+| Grok (4.7 / Imagine) | **2** | | |
+| Qwen (3.8) | **1** | | |
+| DeepSeek (V4.1 Flash) | **2** | | |
+| **Main total** | **70** | | |
 
-Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **2026-11-09**. Main total means collected cases, not confirmed successful generations. **50 of the 51 cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment.
+Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **2026-11-11**. Main total means collected cases, not confirmed successful generations. **50 of the 70 cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment.
 
 ### Full source and evidence tables
 
@@ -176,44 +181,69 @@ Open a model-family category below, or use the [searchable web catalog](https://
 </details>
 
 <details>
-<summary><strong>Family · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2 (0)</strong></summary>
+<summary><strong>Family · Claude — Fable 5.2 / Opus 5.5 / Mythos 5.2 (7)</strong></summary>
 
-_No sourced cases in this inventory yet (structure reserved for Fable 5.2 / Opus 5.5 / Mythos 5.2). Phase 2 will add only real, public cases with working source URLs._
-
-</details>
-
-<details>
-<summary><strong>Family · Gemini — 4 Carbon / 4 Argon (0)</strong></summary>
-
-_No sourced cases in this inventory yet (structure reserved for 4 Carbon / 4 Argon). Phase 2 will add only real, public cases with working source URLs._
-
-</details>
-
-<details>
-<summary><strong>Family · GPT Sol / Astra (code models) — GPT-6.1 Sol / GPT-6 Sol / Astra (0)</strong></summary>
-
-_No sourced cases in this inventory yet (structure reserved for GPT-6.1 Sol / GPT-6 Sol / Astra). Phase 2 will add only real, public cases with working source URLs._
+| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | @himanshutwtxs | `x-himanshutwtxs-fable52-motion-showreel` One-prompt motion designer showreel (timing, easing, shape,  | [Source](https://x.com/himanshutwtxs/status/2120017106804900304) | [Case](docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md) | [Original](docs/cases/x-himanshutwtxs-fable52-motion-showreel/prompt.md) | Author/community catalog claim: Claude F | Code-driven motion graphics · captur | Primary X URL working · prompt publi | Source link only |
+| 2 | @wshuyi | `x-wshuyi-fable52-sabertooth-hunt` 纯编程动画：剑齿虎捕猎野牛（自编程音效） | [Source](https://x.com/wshuyi/status/2120014892040417720) | [Case](docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md) | [Original](docs/cases/x-wshuyi-fable52-sabertooth-hunt/prompt.md) | Author/community catalog claim: Claude F | Pure code animation + synthesized SF | Primary X URL working · verbatim pro | Source link only |
+| 3 | @MengTo（Meng To） | `x-mengto-fable52-blender-apartment` Recreate a Three.js apartment in Blender with Fable 5.2 | [Source](https://x.com/MengTo/status/2120316203738829180) | [Case](docs/cases/x-mengto-fable52-blender-apartment/README.md) | [Unpublished](docs/cases/x-mengto-fable52-blender-apartment/prompt.md) | Author claim: Fable 5.2 (also mentions p | Claude + Blender recreation of an ex | Primary X URL + media metadata · pro | Source link only |
+| 4 | @paleknight（Vraj） | `x-paleknight-fable52-vs-opus55-ship` Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-s | [Source](https://x.com/paleknight/status/2120368418805174639) | [Case](docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md) | [Unpublished](docs/cases/x-paleknight-fable52-vs-opus55-ship/prompt.md) | Author claim: Fable 5.2 and Opus 5.5, sa | Three.js ship animation · comparison | Primary X URL · same-prompt claim ·  | Source link only |
+| 5 | Halil Sekeroglu | `web-halil-fable52-animation-prompts` Four single-message Fable 5.2 animation prompts (logo / prom | [Source](https://halilsekeroglu.com/en/fable/) | [Case](docs/cases/web-halil-fable52-animation-prompts/README.md) | [Original](docs/cases/web-halil-fable52-animation-prompts/prompt.md) | Author page: Animation with Fable 5.2 ·  | Single-message HTML/SVG/Three.js/Can | Public page with verbatim prompts ·  | Source link only |
+| 6 | Ofox | `web-ofox-fable52-svg-sailboat` Editable SVG sailboat illustration with CSS motion (two API  | [Source](https://ofox.ai/blog/claude-fable-5-2-svg-guide/) | [Case](docs/cases/web-ofox-fable52-svg-sailboat/README.md) | [Short / partial](docs/cases/web-ofox-fable52-svg-sailboat/prompt.md) | Ofox test: anthropic/claude-fable-5.2 (l | SVG code generation → browser CSS ke | Guide publishes validation table + n | Source link only |
+| 7 | James Greene (model comparison archive) | `web-jamesgreene-code1-opus55-isometric-city` Isometric day/night city HTML loop — Claude Opus 5.5 | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-opus55-isometric-city/prompt.md) | jamesgreene.com labeled run: Claude Opus | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · Grok — Grok 4.7 (0)</strong></summary>
+<summary><strong>Family · Gemini — 4 Carbon / 4 Argon (3)</strong></summary>
 
-_No sourced cases in this inventory yet (structure reserved for Grok 4.7). Phase 2 will add only real, public cases with working source URLs._
-
-</details>
-
-<details>
-<summary><strong>Family · Qwen — Qwen3.8 (0)</strong></summary>
-
-_No sourced cases in this inventory yet (structure reserved for Qwen3.8). Phase 2 will add only real, public cases with working source URLs._
+| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gemini4-argon-isometric-city` Isometric day/night city HTML loop — Gemini 4 Argon | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/prompt.md) | jamesgreene.com labeled run: Gemini 4 Ar | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
+| 2 | @coodddaaaa（Joe William） | `x-coodddaaaa-gemini-carbon-pelican-bike` Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 | [Source](https://x.com/coodddaaaa/status/2120363353142911078) | [Case](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md) | [Unpublished](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/prompt.md) | Author claim: Gemini Carbon, High · Gemi | HTML animation + model-made demo vid | Primary X URL · prompt unpublished · | Source link only |
+| 3 | @StatsWire | `x-statswire-gemini-carbon-nyc-cruiser` Interactive 3D NYC cruiser tour in one HTML file (Three.js) | [Source](https://x.com/StatsWire/status/2120344850071540152) | [Case](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md) | [Unpublished](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/prompt.md) | Author claim: Gemini 4 Carbon · single . | Three.js single-file scene · screen- | Primary X URL · prompt unpublished · | Source link only |
 
 </details>
 
 <details>
-<summary><strong>Family · DeepSeek — V4.1 Flash (0)</strong></summary>
+<summary><strong>Family · GPT Sol / Astra (code models) — GPT-6.1 Sol / GPT-6 Sol / Astra (4)</strong></summary>
 
-_No sourced cases in this inventory yet (structure reserved for V4.1 Flash). Phase 2 will add only real, public cases with working source URLs._
+| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-gpt61-sol-isometric-city` Isometric day/night city HTML loop — GPT-6.1 Sol | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/prompt.md) | jamesgreene.com labeled run: GPT-6.1 Sol | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief  | Source link only |
+| 2 | Marmik Shah (Atelier exhibition) | `web-atelier-gpt61-sol-ten-frame-loops` Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max e | [Source](https://marmikshah.github.io/atelier/) | [Case](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/README.md) | [Short / partial](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/prompt.md) | Exhibition column: OpenAI GPT-6.1 Sol ma | Ten-frame looping animations (1 fps) | Public exhibition page · briefs on s | Source link only |
+| 3 | @YFeng2022（LanFeng） | `x-yfeng-gpt61-sol-fable-take-flight` Let Fable take Flight — HTML/Three.js procedural animation ( | [Source](https://x.com/YFeng2022/status/2120324811549225082) | [Case](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md) | [Unpublished](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/prompt.md) | Author claim: GPT-6.1 Sol Max via Codex  | HTML + Three.js procedural · Python- | Primary X URL · author says prompt i | Source link only |
+| 4 | @Raitox_tech | `x-raitoox-sol-stranger-things-credits` Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG | [Source](https://x.com/Raitox_tech/status/2120125234129084492) | [Case](docs/cases/x-raitoox-sol-stranger-things-credits/README.md) | [Unpublished](docs/cases/x-raitoox-sol-stranger-things-credits/prompt.md) | Author text says '6.2 sol ULTRA' but cit | Codex · SVG trace of studio art · Hy | Primary X URL · unofficial 6.2 Sol w | Source link only |
+
+</details>
+
+<details>
+<summary><strong>Family · Grok — Grok 4.7 / Imagine Video (2)</strong></summary>
+
+| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-grok47-isometric-city` Isometric day/night city HTML loop — Grok 4.7 | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-grok47-isometric-city/prompt.md) | jamesgreene.com labeled run: Grok 4.7 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
+| 2 | @RadCyberTruck | `x-radcybertruck-grok-imagine-cybertruck-cry` Grok Imagine — pixstar Cybertruck farewell clip (partial pro | [Source](https://x.com/RadCyberTruck/status/2120350558431445006) | [Case](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md) | [Short / partial](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/prompt.md) | Author labels post 'Grok Imagine prompt' | Grok Imagine native video generation | Primary X URL · prompt truncated in  | Source link only |
+
+</details>
+
+<details>
+<summary><strong>Family · Qwen — Qwen3.8 (1)</strong></summary>
+
+| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) | jamesgreene.com labeled run: Qwen3.8 27B | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
+
+</details>
+
+<details>
+<summary><strong>Family · DeepSeek — V4.1 Flash (2)</strong></summary>
+
+| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city` Isometric day/night city HTML loop — DeepSeek V4.1 Flash 101 | [Source](https://jamesgreene.com/models/) | [Case](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md) | [Original](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/prompt.md) | jamesgreene.com labeled run: DeepSeek V4 | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
+| 2 | @LatentOperatorX | `x-latentoperator-a380-deepseek-fable-sol` Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fab | [Source](https://x.com/LatentOperatorX/status/2120205377803518132) | [Case](docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md) | [Short / partial](docs/cases/x-latentoperator-a380-deepseek-fable-sol/prompt.md) | Author timed DeepSeek V4.1 Flash (+ Harn | Three.js single-scene challenge · co | Primary X URL · short shared prompt  | Source link only |
 
 </details>
 
