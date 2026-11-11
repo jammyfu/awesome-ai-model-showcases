@@ -51,3 +51,13 @@ Three separately labeled still-image works accompany the README model tables. Th
 - Grok Aurora, December 2024: VulcanSphere's astronaut riding a horse on the Moon, with an explicit file-specific CC0 dedication. This is not a Grok 4.7 coding or video example.
 
 All three files are unchanged original WebPs, with source marks preserved; the HTML only scales their display. The full [CC BY-SA 4.0](docs/licenses/CC-BY-SA-4.0.txt) and [CC0 1.0](docs/licenses/CC0-1.0.txt) texts are included. Source statements are not independent reproduction of generation. License grants do not establish model authenticity.
+
+### Additional GPT and DeepSeek works
+
+Three further supplemental stills fill the GPT and DeepSeek preview gaps without changing catalog counts:
+
+- zhangrlll's Godot character playground: the pinned README explicitly extends MIT to example media, not merely code. The original image moves through GPT image, Tripo and a Codex-assisted animation pipeline; exact model versions are unspecified. The [author's MIT notice](docs/licenses/zhangrlll-MIT.txt) is preserved.
+- Dan Lee-Odinson's rocket-launch game illustration: `LICENSE-CONTENT` explicitly covers original artwork under `assets/`. Source credits Codex (GPT-6 Astra) using built-in Imagegen under human direction; the separate image model is unspecified, and Claude handles game engineering. This is illustrated game art, not documentary photography or a GPT Sol-only result. The [content license notice](docs/licenses/Dan-Lee-Odinson-LICENSE-CONTENT.txt) is preserved.
+- FROGS benchmark, Jay Mollica, https://frogs.vaguespac.es: an actual published DeepSeek V4.1 Flash SVG output under explicit [CC BY data/output terms](docs/licenses/FROGS-LICENSE-DATA.txt). The original SVG was rasterized to PNG at 800px, without artistic edits. This is a source result, not newly invented concept art. The source composition cuts off the lower feet. Version is not Flash 1017.
+
+The two GPT stills retain original bytes. The full [CC BY 4.0 text](docs/licenses/CC-BY-4.0.txt) accompanies the two CC BY additions. Source claims have not been independently regenerated. These grants document the publishers' permission; they are not a legal determination of every underlying right.

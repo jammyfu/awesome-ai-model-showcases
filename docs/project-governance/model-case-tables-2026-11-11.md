@@ -10,7 +10,7 @@ Add three separate licensed still-image spotlights: Gemini/Imagen valley, Grok A
 
 Three new original WebPs were examined at full resolution by implementation and independent review. They are visibly different works: mountain valley, lunar astronaut/horse, and snow-covered urban street. Original signatures/watermarks remain. Qwen is intentionally a night scene, but buildings, pedestrians and snow are clearly visible. No exact duplicate hashes; distinctness also checked visually. Exact sources/hashes and four-language alt text are in `data/readme-supplemental-previews.json`.
 
-Coverage across the README: Claude 2 existing licensed stills in the opening; Gemini 1 new still; GPT Sol 0; Grok 1 new still; Qwen 1 new still; DeepSeek 0. The 18 existing catalog table rows are source-only. All approved animation media elsewhere remains unchanged (8 playable GIFs); still-image review does not claim playback.
+Coverage across the README: Claude 2 existing licensed stills in the opening; Gemini 1 new still; GPT family 2 additional stills (not GPT Sol claims); Grok 1 new still; Qwen 1 new still; DeepSeek 1 additional still. The 18 existing catalog table rows are source-only. All approved animation media elsewhere remains unchanged (8 playable GIFs); still-image review does not claim playback.
 
 ## Rejected candidates and remaining gaps
 
@@ -21,7 +21,7 @@ Coverage across the README: Claude 2 existing licensed stills in the opening; Ge
 - Grok Summer Engine candidate: cached CC0 text conflicts with the current live page, so not used.
 - Gemini floating lettering: rejected as logo-like rather than an attractive case result.
 - GPT-5.6 Sol Sadeyağ flowchart on Commons: affirmative CC BY-SA license, but transparent black artwork becomes invisible in dark mode, upstream labels are slightly clipped, and the full diagram is illegible at table size. No poor thumbnail is published merely to fill the model slot.
-- DeepSeek: no qualifying explicitly licensed creative preview found. Remains an open media gap.
+- DeepSeek follow-up found the explicitly licensed FROGS output described below; only one distinct example was selected instead of near-duplicate frogs.
 
 Gemini version evidence is inconsistent (current 4.0 versus initial upload summary 3.0); that uncertainty is visible in every language. Model attribution for all examples is source-reported, not independently rerun.
 
@@ -40,6 +40,16 @@ Initial actual GitHub review found the three-column layout squeezed images to 10
 - `python3 tools/verify.py`: passed on the staged final source and generated outputs (including rights checks, public build, catalog/localization tests, JavaScript smoke tests and 1,267 local Markdown document checks). An earlier unstaged run stopped at generator-diff protection, not a test defect.
 - Actual GitHub desktop layout at `fbcfc493`: English branch README and Chinese blob page reviewed at 1165px viewport. All three new images loaded and displayed at 213px wide (116/160/163px high), with 239px preview cells and 723px tables. No internal horizontal overflow; long English and Chinese titles wrapped. The former 75–119px preview-width defect is fixed.
 - Narrow/mobile layout: not run. The available browser session had no supported viewport resize control, and keyboard zoom did not change the viewport. No physical-device or narrow-window pass is claimed.
-- No local Chromium is installed. Repository CI browser suite checks the existing built Pages app, not the actual GitHub README layout.
+- Local Chromium is installed, but startup is blocked by a socket permission error in this environment. Repository CI browser suite checks the existing built Pages app, not the actual GitHub README layout.
 - Actual new media playback: not applicable; all three are still images.
 - No merge/deployment performed by this change.
+
+## Follow-up preview research
+
+Add two distinct GPT-family source works (Godot character playground and rocket-launch game illustration) and one published DeepSeek V4.1 Flash SVG frog. Exact pinned licenses explicitly cover example media, original artwork, or output SVGs respectively. No software-only MIT assumption is used. Four locales each receive 6 supplemental titles, summaries, alt descriptions and modification notices in total. All three new raster images were visually inspected: recognizable character and arena, bright launch silhouette, and crowned green frog. No duplicate work is used to inflate counts. The frog's original lower-foot clipping is disclosed; GPT multi-tool roles and unspecified image model/version are explicit.
+
+README coverage is now Claude 2, Gemini 1, GPT family 2, Grok 1, Qwen 1, DeepSeek 1: eight real previews, six supplemental outside the existing main catalog. Gemini, Grok, Qwen and DeepSeek still have only one each. The 18 original catalog rows remain source-only pending permission.
+
+Final follow-up `python3 tools/verify.py`: passed, including all nine presentation tests and 1,267 document link checks. Independent source/license/pixel review found no blocking rights issues; metadata family and untranslated model-label notes were corrected. GitHub render validation for the new images: pending. The earlier desktop result applies to the prior three-image revision only. Narrow/mobile remains untested. New additions are still images, so no new animation playback is claimed.
+
+The landing-page byte budget increases from 30 to 35 KiB to accommodate three additional fully attributed image rows, especially Japanese text. The 280-line bound is unchanged; all four pages are 276 lines. This retains a strict size bound instead of dropping source or license evidence.

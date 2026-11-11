@@ -137,3 +137,138 @@ Original modification record: Original file bytes unchanged. CSS display scaling
 SHA-256: 554910f2a3c08cce184121c54fadd67367e422587c7ed889b633ea7adc726d07
 
 [License text / 许可全文 / 許可全文 / ライセンス全文](licenses/CC0-1.0.txt)
+
+<a id="licensed-gpt-godot-character"></a>
+## GPT Image → Tripo → Codex / Godot
+
+zhangrlll; original GPT image developed through Tripo AI, a Codex-assisted Blender/Mixamo/GPT Image workflow and Godot. MIT © 2026 zhangrlll.
+
+[Source / 来源 / 來源 / 出典](https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.md) · [MIT](https://opensource.org/license/mit) · [Permission / 授权 / 授權 / 許諾](https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.en.md#3-license)
+
+### en
+
+**GPT-to-Godot character playground**
+
+A GPT character image becomes a playable Godot character through Tripo AI and a Codex-assisted animation workflow. Exact model versions are unspecified; this is a multi-tool project.
+
+Original source image unchanged; displayed smaller.
+
+### zh-CN
+
+**从 GPT 角色图到 Godot 动画场景**
+
+通过 Tripo AI 与 Codex 辅助动画流程，将 GPT 角色图转为可操控的 Godot 角色。具体模型版本未注明，这是多工具协作项目。
+
+保留来源原图，仅缩小显示。
+
+### zh-TW
+
+**從 GPT 角色圖到 Godot 動畫場景**
+
+透過 Tripo AI 與 Codex 輔助動畫流程，將 GPT 角色圖轉為可操控的 Godot 角色。具體模型版本未註明，這是多工具協作專案。
+
+保留來源原圖，僅縮小顯示。
+
+### ja
+
+**GPT のキャラクター画像から Godot へ**
+
+GPT のキャラクター画像を、Tripo AI と Codex 支援のアニメーション工程で操作可能な Godot キャラクターに。モデルの詳細バージョンは不明で、複数ツールによる制作です。
+
+出典の原画像は変更せず、表示のみ縮小。
+
+Original modification record: Unmodified upstream image; display scaling only.
+
+SHA-256: 96014e2a42286a6d82b9f351fcec030d981c5e66c4f005b89e296f99221515a0
+
+[License text / 许可全文 / 許可全文 / ライセンス全文](licenses/zhangrlll-MIT.txt)
+
+<a id="licensed-gpt-codex-launch-scene"></a>
+## Codex (GPT-6 Astra) + Imagegen
+
+Dan Lee-Odinson; original game illustration under his human art direction, prepared by Codex (GPT-6 Astra) using OpenAI built-in Imagegen. Separate image model unspecified. CC BY 4.0 © 2026 Dan Lee-Odinson.
+
+[Source / 来源 / 來源 / 出典](https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/README.md) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Permission / 授权 / 授權 / 許諾](https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/LICENSE-CONTENT)
+
+### en
+
+**Failure is Not an Option: launch scene**
+
+Illustrated game art prepared by Codex (GPT-6 Astra) using built-in Imagegen under Dan Lee-Odinson’s direction. The image model is unspecified; Claude engineers the game.
+
+Original source image unchanged; displayed smaller.
+
+### zh-CN
+
+**Failure is Not an Option：发射场景**
+
+Dan Lee-Odinson 指导下，Codex（GPT-6 Astra）使用内置 Imagegen 制作的游戏插画。图像模型未注明；游戏工程由 Claude 完成。
+
+保留来源原图，仅缩小显示。
+
+### zh-TW
+
+**Failure is Not an Option：發射場景**
+
+Dan Lee-Odinson 指導下，Codex（GPT-6 Astra）使用內建 Imagegen 製作的遊戲插畫。影像模型未註明；遊戲工程由 Claude 完成。
+
+保留來源原圖，僅縮小顯示。
+
+### ja
+
+**Failure is Not an Option：打ち上げシーン**
+
+Dan Lee-Odinson の監督のもと、Codex（GPT-6 Astra）が内蔵 Imagegen を使って制作したゲーム用イラスト。画像モデルは不明で、ゲームの実装は Claude が担当。
+
+出典の原画像は変更せず、表示のみ縮小。
+
+Original modification record: Unmodified upstream image; display scaling only.
+
+SHA-256: 65ef6fdc3947d11de49a65f481c17d28738f8de59b9b1f61584583677827fe36
+
+[License text / 许可全文 / 許可全文 / ライセンス全文](licenses/Dan-Lee-Odinson-LICENSE-CONTENT.txt)
+
+<a id="licensed-deepseek-crowned-frog"></a>
+## DeepSeek V4.1 Flash · 2026-09-27
+
+FROGS benchmark, Jay Mollica, https://frogs.vaguespac.es
+
+[Source / 来源 / 來源 / 出典](https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/results/2026-09-27/svg/deepseek--deepseek-v4.1-flash--20260927-193108-7af3b.svg) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Permission / 授权 / 授權 / 許諾](https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/LICENSE-DATA)
+
+### en
+
+**FROGS: a crowned SVG frog**
+
+Source-published DeepSeek V4.1 Flash SVG benchmark result, not Flash 1017. The source frame cuts off the lower feet; the crowned face and jaw remain visible.
+
+Source SVG rasterized to PNG at 800px using Inkscape; no artistic changes. Source sanitization retained.
+
+### zh-CN
+
+**FROGS：戴王冠的 SVG 青蛙**
+
+来源发布的 DeepSeek V4.1 Flash SVG 测试结果，并非 Flash 1017。原画面下方脚部被截断，戴王冠的面部与下颌清晰可见。
+
+使用 Inkscape 将来源 SVG 栅格化为 800px PNG，未改变画面内容，保留来源的清理处理。
+
+### zh-TW
+
+**FROGS：戴王冠的 SVG 青蛙**
+
+來源發布的 DeepSeek V4.1 Flash SVG 測試結果，並非 Flash 1017。原畫面下方腳部被截斷，戴王冠的面部與下顎清晰可見。
+
+使用 Inkscape 將來源 SVG 點陣化為 800px PNG，未改變畫面內容，保留來源的清理處理。
+
+### ja
+
+**FROGS：王冠をかぶった SVG のカエル**
+
+出典が公開した DeepSeek V4.1 Flash の SVG ベンチマーク結果。Flash 1017 ではありません。元の構図では足先が切れていますが、王冠、顔、顎は明瞭です。
+
+出典の SVG を Inkscape で幅800pxの PNG に変換。絵の変更はなく、公開元のサニタイズ処理を維持。
+
+Original modification record: Original SVG unchanged. PNG rasterized using Inkscape at 800px width; no artistic changes. Source publisher sanitizes model output before publishing.
+
+SHA-256: e03d25f68b6d533a2045465e50a1f9dd66448cdad50c30d5090575526bc64737
+
+[License text / 许可全文 / 許可全文 / ライセンス全文](licenses/FROGS-LICENSE-DATA.txt)
