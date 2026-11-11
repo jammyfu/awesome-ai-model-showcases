@@ -443,6 +443,76 @@ def readme_showcase_gifs(catalog: dict, lang: str) -> str:
     return "\n".join(lines + ["</p>", "", *links])
 
 
+def source_spotlights() -> dict:
+    """An explicit source project, not an incidental licensed appendix selection."""
+    root = TEMPLATES.parent.parent
+    data = json.loads((root / "data/readme-featured-cases.json").read_text(encoding="utf-8"))
+    seen = set()
+    for row in data["cases"]:
+        if row["id"] in seen or not is_public_asset(row["image_path"]):
+            raise ValueError(f"Duplicate or unapproved spotlight: {row['id']}")
+        seen.add(row["id"])
+        for lang in ("en", "zh-CN", "zh-TW", "ja"):
+            for field in ("title", "summary", "alt"):
+                if not row["locales"][lang].get(field):
+                    raise ValueError(f"Missing spotlight translation: {row['id']} {lang} {field}")
+    heat = data["popularity"]
+    if heat["scope"] != "repository" or len({r["source_project_id"] for r in data["cases"]}) != 1:
+        raise ValueError("Spotlight popularity describes one source repository, not individual films")
+    return data
+
+
+def readme_source_spotlights(lang: str) -> str:
+    data = source_spotlights()
+    rows = data["cases"]
+    heat = data["popularity"]
+    words = {
+        "en": ("Watch the film", "Published prompt", "Source code", "Original frame", "**Claude Opus 5.5** · Vincentwei1021 · **{stars:,} GitHub stars** for the source project ({date}).", "Two films from the same source project; repository stars are not per-film views or a cross-model ranking. Author-published frames, unmodified. [MIT media permission]({evidence}) · [Copyright and license]({license}). This source spotlight is separate from the {count}-case catalog. Model attribution is the author's claim; we did not rerun generation."),
+        "zh-CN": ("观看成片", "公开提示词", "源码", "作者原图", "**Claude Opus 5.5** · Vincentwei1021 · 源项目 **{stars:,} GitHub stars**（{date} 快照）。", "同一开源项目的两部短片；仓库 stars 不是单片播放量或跨模型排名。作者发布的成片画面，未修改。[媒体 MIT 授权]({evidence}) · [版权与完整许可]({license})。这组独立精选不计入 {count} 条目录；模型归属为作者声明，未重新生成验证。"),
+        "zh-TW": ("觀看成片", "公開提示詞", "原始碼", "作者原圖", "**Claude Opus 5.5** · Vincentwei1021 · 來源專案 **{stars:,} GitHub stars**（{date} 快照）。", "同一開源專案的兩部短片；倉庫 stars 不是單片播放量或跨模型排名。作者發布的成片畫面，未修改。[媒體 MIT 授權]({evidence}) · [版權與完整許可]({license})。這組獨立精選不計入 {count} 則目錄；模型歸屬為作者聲明，未重新生成驗證。"),
+        "ja": ("映像を見る", "公開プロンプト", "ソースコード", "作者の元画像", "**Claude Opus 5.5** · Vincentwei1021 · 元プロジェクトの **GitHub stars は {stars:,}**（{date} 確認）。", "同じプロジェクトの 2 作品です。stars は各作品の再生数やモデル横断の人気順位ではありません。作者が公開した映像フレームを無加工で掲載。[メディアの MIT 許諾]({evidence}) · [著作権・ライセンス全文]({license})。この特集は {count} 件の目録とは別です。モデルは作者の申告で、生成の再実行はしていません。"),
+    }
+    watch, prompt, code, original, intro, note = words[lang]
+    lines = [intro.format(stars=heat["stars"], date=heat["observed_at"][:10]), ""]
+    for row in rows:
+        local = row["locales"][lang]
+        lines += [f"**{local['title']}**", "",
+                  f'<a href="{escape(row["demo_url"])}"><img src="{escape(row["image_path"])}" alt="{escape(local["alt"])}" width="720"></a>', "",
+                  local["summary"], "",
+                  f"**[{watch} →]({row['demo_url']})** · [{prompt}]({row['prompt_url']}) · [{code}]({row['source_code_url']}) · [{original}]({row['image_source_url']})", ""]
+    # Count is substituted by render_readme without changing the source manifest.
+    lines.append(note.format(evidence=rows[0]["license_evidence_url"], license=rows[0]["local_license_path"], count="${main_count}"))
+    return "\n".join(lines)
+
+
+def write_site_spotlight() -> None:
+    """Keep the live gallery's first result tied to the same reviewed source."""
+    import re
+    data = source_spotlights()
+    row = data["cases"][0]
+    root = TEMPLATES.parent.parent
+    parts = ['<figure class="source-spotlight">']
+    for lang, watch, prompt, code, note in (
+        ("en", "Watch", "Prompt", "Source", "One project, two featured films in the README. Repository stars; author-reported model. Separate from the catalog count."),
+        ("zh-CN", "观看", "提示词", "源码", "同一项目的两部精选短片见 README。热度为仓库 stars，模型为作者声明，精选不计入目录总数。"),
+    ):
+        local = row["locales"][lang]
+        parts += [f'<div class="spotlight-locale" lang="{lang}">',
+                  f'<a href="{escape(row["demo_url"])}"><img src="{escape(row["image_path"].removeprefix("docs/"))}" alt="{escape(local["alt"])}" width="1920" height="1080"></a>',
+                  f'<figcaption><strong>{escape(local["title"])} · Claude Opus 5.5</strong><br>',
+                  f'Vincentwei1021 · {data["popularity"]["stars"]:,} GitHub stars · {data["popularity"]["observed_at"][:10]}<br>',
+                  f'<a href="{escape(row["demo_url"])}">{watch} →</a> · <a href="{escape(row["prompt_url"])}">{prompt}</a> · <a href="{escape(row["source_code_url"])}">{code}</a> · <a href="{escape(row["local_license_path"].removeprefix("docs/"))}">MIT</a><br>',
+                  f'<small>{note}</small></figcaption></div>']
+    parts.append('</figure>')
+    file = root / 'docs/index.html'
+    text = file.read_text(encoding='utf-8')
+    text, n = re.subn(r'<!-- source-spotlights:start -->.*?<!-- source-spotlights:end -->',
+                      '<!-- source-spotlights:start -->\n'+'\n'.join(parts)+'\n<!-- source-spotlights:end -->', text, flags=re.S)
+    if n != 1:
+        raise ValueError('Expected exactly one source spotlight block in docs/index.html')
+    file.write_text(text, encoding='utf-8')
+
+
 def render_readme(
     lang: str,
     *,
@@ -465,4 +535,5 @@ def render_readme(
         gpt_subproject_line=gpt_subproject_line,
         sol_status=sol_note(catalog, lang),
         showcase_gifs=readme_showcase_gifs(catalog, lang),
+        source_spotlights=readme_source_spotlights(lang).replace("${main_count}", str(c["main_collected"])),
     )

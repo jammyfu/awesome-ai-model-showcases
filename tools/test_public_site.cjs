@@ -38,6 +38,12 @@ const server = http.createServer((req, res) => {
       }
     });
     await page.goto(base);
+    for (const selector of ['.showcase-banner', '.source-spotlight .spotlight-locale:visible img']) {
+      await page.locator(selector).evaluate(image => image.decode());
+      assert.ok(await page.locator(selector).evaluate(image => image.naturalWidth >= 1600));
+    }
+    assert.match(await page.locator('.source-spotlight .spotlight-locale:visible').innerText(), /Claude Opus 5.5/);
+    assert.ok((await page.locator('.source-spotlight').boundingBox()).y < 960, 'Actual work should appear in the desktop first screen');
     assert.equal(await page.locator('#case-rows tr').count(), catalog.meta.counts.main_collected);
     assert.equal(await page.locator('video').count(), 0);
     assert.equal(await page.locator('#case-rows img').count(), 0);
@@ -106,6 +112,16 @@ const server = http.createServer((req, res) => {
     await page.unroute('**/cases/ailingqu-jelly-bear-wobble/media/01-gif.gif');
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto(base);
+    assert.ok((await page.locator('.source-spotlight').boundingBox()).y < 844, 'Actual work should start in the mobile first screen');
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'No horizontal page overflow');
+    await page.locator('[data-lang="zh"]').click();
+    assert.equal(await page.locator('.source-spotlight .spotlight-locale:visible').getAttribute('lang'), 'zh-CN');
+    assert.match(await page.locator('.source-spotlight .spotlight-locale:visible').innerText(), /让城市生长/);
+    await page.locator('[data-lang="en"]').click();
+    await page.route('**/readme-assets/cases/03-isometric.jpg', route => route.abort());
+    await page.goto(base);
+    assert.ok(await page.locator('.source-spotlight .spotlight-locale:visible').getByRole('link', { name: 'Watch →', exact: true }).isVisible());
+    await page.unroute('**/readme-assets/cases/03-isometric.jpg');
     assert.equal(await page.locator('#case-rows tr').count(), catalog.meta.counts.main_collected);
     await page.locator('#case-search').fill('motion');
     assert.ok(await page.locator('#case-rows tr').count() > 0);

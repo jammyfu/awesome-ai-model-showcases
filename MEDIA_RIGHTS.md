@@ -16,6 +16,12 @@ The eight original GIF files remain unmodified. Seven navigation thumbnails are 
 
 Project-created brand illustrations are tracked separately from third-party cases. They are not model-output evidence or official logos. See [brand artwork](docs/brand-artwork.md) and [project icon provenance](docs/readme-assets/README_SNIPPET.md).
 
+## Documented grant: Claude motion-design spotlight
+
+Two original 1920 × 1080 film-cover frames from [Vincentwei1021 / mg-styles-15 at revision 269f6ed](https://github.com/Vincentwei1021/mg-styles-15/tree/269f6ed788cf60aaf9c276b110c548d6e7d353e1) illustrate ISOPOLIS and KESTREL-9. The source [explicitly licenses its code, prompts, docs and films under MIT](https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md#license), not just software. The [original copyright notice and full license](docs/licenses/Vincentwei1021-mg-styles-15-MIT.txt) are included. The frames are unmodified; displayed size is smaller. Third-party components keep their original licenses, as the source explains.
+
+This is one source project's two films, displayed as a separate source spotlight. The existing 183-case catalog count is unchanged. The author reports Claude Opus 5.5; we did not reproduce the generation. A dated GitHub star snapshot describes the source repository, not views of either film or a global popularity ranking. See [the exact source, hash and review manifest](data/readme-featured-cases.json).
+
 ## Existing archive versus deployed site
 
 The pre-existing raw archive and research manifests remain in Git for review and recovery. This repair does **not** erase Git history, remove every public repository copy, or claim all underlying rights are cleared. Its scope is public embedding and the Pages artifact. A separate rights review is needed before continued distribution of archival files; removal from Git history is a separate, potentially destructive decision.

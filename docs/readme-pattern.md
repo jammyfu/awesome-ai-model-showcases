@@ -4,9 +4,9 @@ A reusable pattern for collection projects, based on Awesome AI Model Showcases.
 
 ## The reading path
 
-1. **Identity and outcome.** One H1 using the project name, one concrete sentence describing what readers can do, and language links.
+1. **Visible project identity.** Keep an approved wide project hero visibly at the top when requested. A working asset file without a README reference is not a displayed hero. **Identity and outcome.** One H1 using the project name, one concrete sentence describing what readers can do, and language links.
 2. **A real next action.** Link to the live gallery, working demo, documentation, or smallest executable command appropriate to the project. A collection's first action is browsing, not installation.
-3. **One purposeful visual.** Reuse approved project artwork or a representative, licensed screenshot. Give it useful alt text. Label concept art as concept art; do not present it as product or model-output evidence. Avoid stacking a hero, oversized icon, and repeated banners before useful content.
+3. **Actual results, distinct from branding.** A collection needs representative, licensed case screenshots after its brand header. Do not substitute an unrelated licensed appendix just because those files are available. Give it useful alt text. Label concept art as concept art; do not present it as product or model-output evidence. Avoid oversized icons or repeated banners that push actual work away.
 4. **A short reader journey.** Explain how to find, inspect, and use the material, including limitations that affect the reader's decision.
 5. **Balanced discovery.** Give every category a bounded entry with counts and a complete-catalog link. If one category grows tenfold, the landing page should not grow tenfold. Explicitly distinguish editorial selection, recency, and ranking.
 6. **Progressive detail.** Put evidence tables, exhaustive records, changelogs, and maintenance procedures on named pages. Use expandable sections for secondary setup, not to hide the entire dataset inside the README's HTML.
@@ -14,7 +14,7 @@ A reusable pattern for collection projects, based on Awesome AI Model Showcases.
 
 ## Concrete split in this repository
 
-- `README*.md`: four generated landing pages, each under 280 lines and 30 KiB. Actual licensed case GIFs and direct prompt/source links lead; family navigation and at most five recent source posts support discovery. The limits are project-specific budgets, not universal README rules.
+- `README*.md`: four generated landing pages, each under 280 lines and 30 KiB. The project hero is followed by actual Claude film frames with direct watch, prompt and source links; family navigation and at most five recent source posts support discovery. The limits are project-specific budgets, not universal README rules.
 - `catalog.<locale>.md`: complete localized evidence tables, version anchors, and separate appendices. No new cases or altered source claims are needed to shorten the landing page.
 - [showcase-index.md](showcase-index.md): work-type discovery and a complete index. Type tags describe the current inventory, not all model capabilities.
 - [data/community-cases.json](data/community-cases.json): shared generated case data, not hand-edited content.

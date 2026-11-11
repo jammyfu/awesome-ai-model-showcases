@@ -42,6 +42,7 @@ def main() -> int:
             "docs/cases",
             "docs/translations",
             "docs/data/public-media.js",
+            "docs/index.html",
             "README.md",
             "README.zh-CN.md",
             "README.zh-TW.md",
