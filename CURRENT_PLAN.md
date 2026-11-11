@@ -14,4 +14,4 @@ Separate archival provenance from permission to publish media, and prevent Git L
 
 ## Status
 
-Implementation and local non-browser verification passed. Browser verification runs in PR CI because local Chromium cannot create the required sockets in this environment. Draft PR only; no merge or deployment authorized by this repair request. Existing raw archive and Git history are preserved for a separate rights review.
+Implementation and local non-browser verification passed. Browser verification runs in PR CI because local Chromium cannot create the required sockets in this environment. PR #13 was opened after confirmation. The owner subsequently authorized merge after checks pass; browser CI and Pages verification remain pending. Existing raw archive and Git history are preserved for a separate rights review.

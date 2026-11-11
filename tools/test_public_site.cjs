@@ -57,25 +57,23 @@ const server = http.createServer((req, res) => {
     await page.locator('#case-search').fill('rice');
     assert.equal(await page.locator('#case-rows img').count(), 0);
 
-    await page.goto(base + '/cases/ailingqu-jelly-bear-wobble/');
-    const image = page.locator('img');
-    await image.evaluate(element => element.decode());
-    const first = await image.screenshot();
-    let moved = false;
-    for (let attempt = 0; attempt < 6 && !moved; attempt++) {
-      await page.waitForTimeout(170);
-      moved = !first.equals(await image.screenshot());
-    }
-    assert.ok(moved, 'Approved GIF must visibly animate, not just return HTTP 200');
-
     const rows = Object.values(catalog).flatMap(value => Array.isArray(value) ? value : []);
     const ids = [...new Set(rows.filter(row => row.local_page?.endsWith('index.html')).map(row => row.id))];
+    let animatedGifs = 0;
     for (const id of ids) {
       await page.goto(base + '/cases/' + id + '/');
       const media = page.locator('img,video');
       if (id.startsWith('ailingqu-')) {
         assert.equal(await media.count(), 1);
         await media.first().evaluate(element => element.decode());
+        const first = await media.first().screenshot();
+        let moved = false;
+        for (let attempt = 0; attempt < 8 && !moved; attempt++) {
+          await page.waitForTimeout(170);
+          moved = !first.equals(await media.first().screenshot());
+        }
+        assert.ok(moved, `${id}: approved GIF must visibly animate, not just return HTTP 200`);
+        animatedGifs++;
       } else {
         assert.equal(await media.count(), 0, id);
       }
@@ -100,11 +98,24 @@ const server = http.createServer((req, res) => {
     await page.goto(base + '/translated-case.html?id=unknown&lang=ja');
     assert.ok(await page.locator('#case-error').isVisible());
     assert.equal(await page.locator('#case-content').isVisible(), false);
+    assert.equal(animatedGifs, 8);
+    // Source links remain available even if the permitted preview fails to load.
+    await page.route('**/cases/ailingqu-jelly-bear-wobble/media/01-gif.gif', route => route.abort());
+    await page.goto(base + '/cases/ailingqu-jelly-bear-wobble/');
+    assert.ok(await page.getByText('View original source / 查看原帖', { exact: true }).isVisible());
+    await page.unroute('**/cases/ailingqu-jelly-bear-wobble/media/01-gif.gif');
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto(base);
+    assert.equal(await page.locator('#case-rows tr').count(), catalog.meta.counts.main_collected);
+    await page.locator('#case-search').fill('motion');
+    assert.ok(await page.locator('#case-rows tr').count() > 0);
+    await page.locator('#case-search').fill('');
     assert.deepEqual(errors, []);
     assert.deepEqual(externalMedia, []);
     console.log(JSON.stringify({ homepageCases: catalog.meta.counts.main_collected,
       gptImageCases: catalog.meta.counts.gpt_image, approvedBrowserGifs: 8,
-      casePagesChecked: ids.length, gifAnimation: 'different rendered frames observed',
+      casePagesChecked: ids.length, animatedGifs, gifAnimation: 'changing rendered frames observed for all approved GIFs',
+      mobileViewport: '390x844', failedPreviewSourceFallback: 'passed',
       unknownVideoElements: 0, externalMediaRequests: 0, consoleErrors: 0 }, null, 2));
   } finally {
     await browser.close();
