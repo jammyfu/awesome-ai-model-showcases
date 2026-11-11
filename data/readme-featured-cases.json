@@ -44,8 +44,8 @@
         "status": "visually_reviewed_original_pixels",
         "selection": "primary_meaningful_city_scene",
         "frame_time": "Not published by author; using exact supplied cover, not claiming a measured timestamp.",
-        "layout_review": "pending_parent_integration",
-        "playback": "not_run; only still bytes approved"
+        "layout_review": "Passed actual GitHub README desktop (720 × 405 displayed result) and 500px browser-window review at c20e1867; unchanged image bytes. This is not a physical mobile-device test.",
+        "playback": "Original external ISOPOLIS demo observed playing in browser: 10-second film, currentTime 4.65 seconds, readyState 4. Local publication remains still-image only."
       },
       "locales": {
         "en": {
@@ -103,8 +103,8 @@
         "status": "visually_reviewed_original_pixels",
         "selection": "secondary_meaningful_fictional_interface_scene",
         "frame_time": "Not published by author; using exact supplied cover, not claiming a measured timestamp.",
-        "layout_review": "pending_parent_integration",
-        "playback": "not_run; only still bytes approved",
+        "layout_review": "Passed actual GitHub README desktop (720 × 405 displayed result) and 500px browser-window review at c20e1867; unchanged image bytes. This is not a physical mobile-device test.",
+        "playback": "Original external KESTREL-9 demo observed playing in browser: 10-second film, currentTime 9.86 seconds, readyState 4. Local publication remains still-image only.",
         "selection_reason": "High-contrast cyan globe, targeting reticle and telemetry are visible; intentional dark HUD aesthetic, not an empty/black frame. Fictional motion design, not a functional targeting tool."
       },
       "locales": {
