@@ -212,8 +212,7 @@ def main() -> int:
     featured_bytes = 0
     for cid, *_ in FEATURED:
         media = ROOT / f"docs/cases/{cid}/media/01-gif.gif"
-        featured = next(r for r in catalog["collected_web_gif"] if r["id"] == cid)
-        featured_bytes += (ROOT / (featured.get("thumb") or str(media.relative_to(ROOT)))).stat().st_size
+        featured_bytes += media.stat().st_size
         with Image.open(media) as gif:
             assert gif.format == "GIF" and gif.n_frames > 1
     assert featured_bytes < 5 * 1024 * 1024, featured_bytes
