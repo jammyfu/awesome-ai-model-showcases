@@ -12,9 +12,38 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+<a id="examples"></a>
+## 先看作品
+
+這三張真實且獲准展示的 GIF 來自獨立的 **GPT Image 2.6 歸檔**，模型歸屬為創作者聲明。點擊作品查看案例，或直接開啟下方公開提示詞。
+
 <!-- readme-tech-visualizer:start -->
-![專案原創歸檔主題插畫，不是模型輸出案例](assets/brand/hero.png)
+<p>
+<a href="docs/translations/ailingqu-jelly-bear-wobble.md#zh-tw"><img src="docs/cases/ailingqu-jelly-bear-wobble/media/01-gif.gif" alt="果凍熊搖晃 · ailingqu · GPT Image 2.6" width="232"></a>
+<a href="docs/translations/ailingqu-flower-macro-flash.md#zh-tw"><img src="docs/cases/ailingqu-flower-macro-flash/media/01-gif.gif" alt="花卉微距快閃 · ailingqu · GPT Image 2.6" width="232"></a>
+<a href="docs/translations/ailingqu-cat-brand-reel.md#zh-tw"><img src="docs/cases/ailingqu-cat-brand-reel/media/01-gif.gif" alt="貓頭品牌快閃 · ailingqu · GPT Image 2.6" width="232"></a>
+</p>
+
+- **[果凍熊搖晃](docs/translations/ailingqu-jelly-bear-wobble.md#zh-tw)** · ailingqu · [公開提示詞](docs/cases/ailingqu-jelly-bear-wobble/prompt.md) · [原帖](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/jelly-bear-wobble.gif)
+- **[花卉微距快閃](docs/translations/ailingqu-flower-macro-flash.md#zh-tw)** · ailingqu · [公開提示詞](docs/cases/ailingqu-flower-macro-flash/prompt.md) · [原帖](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/flower-macro-flash.gif)
+- **[貓頭品牌快閃](docs/translations/ailingqu-cat-brand-reel.md#zh-tw)** · ailingqu · [公開提示詞](docs/cases/ailingqu-cat-brand-reel/prompt.md) · [原帖](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif)
 <!-- readme-tech-visualizer:end -->
+
+作者 **ailingqu**，依 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權展示。保留原始 GIF 位元組，僅縮小顯示。公開提示詞為來源改寫，非已核實的歷史提交請求。這是依已核實媒體授權選擇的編輯推薦，不是熱度榜；**不計入首頁183則**。[全部51則GIF歸檔](collections/gpt-image-gifs/README.zh-CN.md)。
+
+<a id="latest"></a>
+## 近期原帖
+
+依來源日期倒序列出五則，不代表收錄時間或品質排名。同日依案例 ID 排序；無日期案例仍保留在完整目錄。
+
+截至 2026-11-11 尚無可比熱度快照；此處依來源日期排列，不是熱度榜。
+
+- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight：HTML／Three.js 程序化動畫（GPT-6.1 Sol Max）** · 署名: @YFeng2022（LanFeng） · [案例](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#zh-tw) · [原帖](https://x.com/YFeng2022/status/2120324811549225082)
+- **2026-11-11 · Gemini** · **單個 HTML 文件中的交互式三維紐約巡遊（Three.js）** · 署名: @StatsWire · [案例](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#zh-tw) · [原帖](https://x.com/StatsWire/status/2120344850071540152)
+- **2026-11-11 · Grok** · **Grok Imagine：pixstar 的 Cybertruck 告別短片（部分提示詞）** · 署名: @RadCyberTruck · [案例](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#zh-tw) · [原帖](https://x.com/RadCyberTruck/status/2120350558431445006)
+- **2026-11-11 · Claude** · **關於 AgentSky 的點光源三維影片（Blender 與代碼）** · 署名: @quxiaoyin（Xiaoyin Qu） · [案例](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#zh-tw) · [原帖](https://x.com/quxiaoyin/status/2120341962314150207)
+- **2026-11-11 · Claude** · **Fable 5.2 與 Opus 5.5：同一提示詞製作 Three.js 船隻（並排對照）** · 署名: @paleknight（Vraj） · [案例](docs/translations/x-paleknight-fable52-vs-opus55-ship.md#zh-tw) · [原帖](https://x.com/paleknight/status/2120368418805174639)
+
 
 <a id="how-to-use"></a>
 ## 從這裡開始
@@ -31,7 +60,9 @@
 <a id="catalog"></a>
 ## 依模型查找
 
-六個家族共 **183 則有來源案例**。每個家族在此展示一則近期範例，全部版本和紀錄都保留在[完整目錄](docs/catalog.zh-TW.md)。這是導覽，不是模型能力排名。
+六個家族共 **183 則有來源案例**。每個家族優先展示其首個有案例的重點版本中的一則入門範例，全部版本和紀錄都保留在[完整目錄](docs/catalog.zh-TW.md)。這是導覽，不是模型能力排名。
+
+版本依編輯優先級排列：先展示來源標示的當前重點版本，同版本再看來源日期。尚無可比熱度資料。[排序規則](docs/discovery-order.md)。
 
 <a id="claude"></a>
 ### Claude · 146 則
@@ -45,7 +76,7 @@
 <a id="ver-claude-opus-5-5"></a>
 - [Claude Opus 5.5](docs/catalog.zh-TW.md#ver-claude-opus-5-5) · 9
 
-近期範例: **關於 AgentSky 的點光源三維影片（Blender 與代碼）** · 署名: @quxiaoyin（Xiaoyin Qu） · [案例](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#zh-tw) · [原帖](https://x.com/quxiaoyin/status/2120341962314150207)
+入門範例: **關於 AgentSky 的點光源三維影片（Blender 與代碼）** · 署名: @quxiaoyin（Xiaoyin Qu） · [案例](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#zh-tw) · [原帖](https://x.com/quxiaoyin/status/2120341962314150207)
 
 <a id="gemini"></a>
 ### Gemini · 6 則
@@ -57,7 +88,7 @@
 <a id="ver-gemini-4-argon"></a>
 - [Gemini 4 Argon](docs/catalog.zh-TW.md#ver-gemini-4-argon) · 1
 
-近期範例: **單個 HTML 文件中的交互式三維紐約巡遊（Three.js）** · 署名: @StatsWire · [案例](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#zh-tw) · [原帖](https://x.com/StatsWire/status/2120344850071540152)
+入門範例: **單個 HTML 文件中的交互式三維紐約巡遊（Three.js）** · 署名: @StatsWire · [案例](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#zh-tw) · [原帖](https://x.com/StatsWire/status/2120344850071540152)
 
 <a id="gpt-code"></a>
 ### GPT-6.2 Sol · 14 則
@@ -69,7 +100,7 @@
 <a id="ver-gpt-6-1-sol"></a>
 - [GPT-6.1 Sol](docs/catalog.zh-TW.md#ver-gpt-6-1-sol) · 3
 
-近期範例: **Let Fable take Flight：HTML／Three.js 程序化動畫（GPT-6.1 Sol Max）** · 署名: @YFeng2022（LanFeng） · [案例](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#zh-tw) · [原帖](https://x.com/YFeng2022/status/2120324811549225082)
+入門範例: **Let Fable take Flight：HTML／Three.js 程序化動畫（GPT-6.1 Sol Max）** · 署名: @YFeng2022（LanFeng） · [案例](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#zh-tw) · [原帖](https://x.com/YFeng2022/status/2120324811549225082)
 
 <a id="grok"></a>
 ### Grok · 11 則
@@ -81,21 +112,21 @@
 <a id="ver-grok-imagine-video"></a>
 - [Grok Imagine Video](docs/catalog.zh-TW.md#ver-grok-imagine-video) · 10
 
-近期範例: **Grok Imagine：pixstar 的 Cybertruck 告別短片（部分提示詞）** · 署名: @RadCyberTruck · [案例](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#zh-tw) · [原帖](https://x.com/RadCyberTruck/status/2120350558431445006)
+入門範例: **等距視角城市晝夜 HTML 循環動畫：Grok 4.7** · 署名: James Greene (model comparison archive) · [案例](docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#zh-tw) · [原帖](https://jamesgreene.com/models/)
 
 <a id="qwen"></a>
 ### Qwen · 3 則
 
 [查看全部](docs/catalog.zh-TW.md#qwen)
 
-<a id="ver-qwen3-8-27b"></a>
-- [Qwen3.8 27B](docs/catalog.zh-TW.md#ver-qwen3-8-27b) · 1
 <a id="ver-qwen4-max-preview"></a>
 - [Qwen 4 Max Preview](docs/catalog.zh-TW.md#ver-qwen4-max-preview) · 1
 <a id="ver-qwen4-preview"></a>
 - [Qwen 4.0 Preview](docs/catalog.zh-TW.md#ver-qwen4-preview) · 1
+<a id="ver-qwen3-8-27b"></a>
+- [Qwen3.8 27B](docs/catalog.zh-TW.md#ver-qwen3-8-27b) · 1
 
-近期範例: **孫悟空開飛機：HTML 三維演示** · 署名: @leo114119（Leo） · [案例](docs/translations/x-leo114119-qwen4max-wukong-plane.md#zh-tw) · [原帖](https://x.com/leo114119/status/2120371909624033439)
+入門範例: **孫悟空開飛機：HTML 三維演示** · 署名: @leo114119（Leo） · [案例](docs/translations/x-leo114119-qwen4max-wukong-plane.md#zh-tw) · [原帖](https://x.com/leo114119/status/2120371909624033439)
 
 <a id="deepseek"></a>
 ### DeepSeek · 3 則
@@ -107,7 +138,7 @@
 <a id="ver-deepseek-v4-1-flash"></a>
 - [DeepSeek V4.1 Flash](docs/catalog.zh-TW.md#ver-deepseek-v4-1-flash) · 2
 
-近期範例: **Three.js 挖掘機裝載自卸卡車：DeepSeek Harness 對比 Command Code** · 署名: @LatentOperatorX（Latent Operator） · [案例](docs/translations/x-latentoperator-deepseek-excavator.md#zh-tw) · [原帖](https://x.com/LatentOperatorX/status/2120077800887746603)
+入門範例: **等距視角城市晝夜 HTML 循環動畫：DeepSeek V4.1 Flash 1017** · 署名: James Greene (model comparison archive) · [案例](docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#zh-tw) · [原帖](https://jamesgreene.com/models/)
 
 
 <details>
@@ -119,16 +150,6 @@
 
 </details>
 
-<a id="latest"></a>
-## 近期原帖
-
-依來源日期倒序列出五則，不代表收錄時間或品質排名。同日依案例 ID 排序；無日期案例仍保留在完整目錄。
-
-- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight：HTML／Three.js 程序化動畫（GPT-6.1 Sol Max）** · 署名: @YFeng2022（LanFeng） · [案例](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#zh-tw) · [原帖](https://x.com/YFeng2022/status/2120324811549225082)
-- **2026-11-11 · Gemini** · **單個 HTML 文件中的交互式三維紐約巡遊（Three.js）** · 署名: @StatsWire · [案例](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#zh-tw) · [原帖](https://x.com/StatsWire/status/2120344850071540152)
-- **2026-11-11 · Grok** · **Grok Imagine：pixstar 的 Cybertruck 告別短片（部分提示詞）** · 署名: @RadCyberTruck · [案例](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#zh-tw) · [原帖](https://x.com/RadCyberTruck/status/2120350558431445006)
-- **2026-11-11 · Claude** · **關於 AgentSky 的點光源三維影片（Blender 與代碼）** · 署名: @quxiaoyin（Xiaoyin Qu） · [案例](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#zh-tw) · [原帖](https://x.com/quxiaoyin/status/2120341962314150207)
-- **2026-11-11 · Claude** · **Fable 5.2 與 Opus 5.5：同一提示詞製作 Three.js 船隻（並排對照）** · 署名: @paleknight（Vraj） · [案例](docs/translations/x-paleknight-fable52-vs-opus55-ship.md#zh-tw) · [原帖](https://x.com/paleknight/status/2120368418805174639)
 
 
 <a id="by-type"></a>
@@ -147,8 +168,6 @@
 
 
 類型計數沿用現有清單標籤，不代表模型能力範圍。零表示目前沒有案例使用該標籤；遊戲也可能歸在 HTML / 3D 下。[分類方法](tools/readme_presentation.py)。
-
-GPT Image 2.6 GIF 歸檔（**51** 則，不計入首頁合計）：[collections/gpt-image-gifs](collections/gpt-image-gifs/README.zh-CN.md)。
 
 <a id="collection-sites"></a>
 <a id="related-projects"></a>

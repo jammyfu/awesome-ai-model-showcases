@@ -12,9 +12,38 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+<a id="examples"></a>
+## See the work
+
+Three real, licensed GIFs from the separate **GPT Image 2.6 archive**, attributed by their creator to that model. Click a result for its case, or open the published prompt below.
+
 <!-- readme-tech-visualizer:start -->
-![Project-created archive artwork; not a model-output example](assets/brand/hero.png)
+<p>
+<a href="docs/translations/ailingqu-jelly-bear-wobble.md#en"><img src="docs/cases/ailingqu-jelly-bear-wobble/media/01-gif.gif" alt="Jelly bear wobble · ailingqu · GPT Image 2.6" width="232"></a>
+<a href="docs/translations/ailingqu-flower-macro-flash.md#en"><img src="docs/cases/ailingqu-flower-macro-flash/media/01-gif.gif" alt="Flower macro flash · ailingqu · GPT Image 2.6" width="232"></a>
+<a href="docs/translations/ailingqu-cat-brand-reel.md#en"><img src="docs/cases/ailingqu-cat-brand-reel/media/01-gif.gif" alt="Cat logo reel · ailingqu · GPT Image 2.6" width="232"></a>
+</p>
+
+- **[Jelly bear wobble](docs/translations/ailingqu-jelly-bear-wobble.md#en)** · ailingqu · [Published prompt](docs/cases/ailingqu-jelly-bear-wobble/prompt.md) · [Post](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/jelly-bear-wobble.gif)
+- **[Flower macro flash](docs/translations/ailingqu-flower-macro-flash.md#en)** · ailingqu · [Published prompt](docs/cases/ailingqu-flower-macro-flash/prompt.md) · [Post](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/flower-macro-flash.gif)
+- **[Cat logo reel](docs/translations/ailingqu-cat-brand-reel.md#en)** · ailingqu · [Published prompt](docs/cases/ailingqu-cat-brand-reel/prompt.md) · [Post](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif)
 <!-- readme-tech-visualizer:end -->
+
+By **ailingqu**, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original GIF bytes; displayed smaller. The published prompts are source rewrites, not verified historical requests. This is an editorial selection with documented media rights, not a popularity ranking. These examples are **outside the 183-case homepage total**. [All 51 GIF archive cases](collections/gpt-image-gifs/README.md).
+
+<a id="latest"></a>
+## Recent source posts
+
+Five recent source-dated cases, not an ingestion log or ranking. Same-day ties use case ID; undated cases remain in the full catalog.
+
+No comparable popularity snapshot is recorded as of 2026-11-11; this is source-date order, not a popularity ranking.
+
+- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)** · Credit: @YFeng2022（LanFeng） · [Case](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#en) · [Post](https://x.com/YFeng2022/status/2120324811549225082)
+- **2026-11-11 · Gemini** · **Interactive 3D NYC cruiser tour in one HTML file (Three.js)** · Credit: @StatsWire · [Case](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#en) · [Post](https://x.com/StatsWire/status/2120344850071540152)
+- **2026-11-11 · Grok** · **Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)** · Credit: @RadCyberTruck · [Case](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#en) · [Post](https://x.com/RadCyberTruck/status/2120350558431445006)
+- **2026-11-11 · Claude** · **Point-light 3D film about AgentSky (Blender and code)** · Credit: @quxiaoyin（Xiaoyin Qu） · [Case](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#en) · [Post](https://x.com/quxiaoyin/status/2120341962314150207)
+- **2026-11-11 · Claude** · **Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)** · Credit: @paleknight（Vraj） · [Case](docs/translations/x-paleknight-fable52-vs-opus55-ship.md#en) · [Post](https://x.com/paleknight/status/2120368418805174639)
+
 
 <a id="how-to-use"></a>
 ## Start here
@@ -31,7 +60,9 @@ No account, API key, or install is needed to browse. Model names are source clai
 <a id="catalog"></a>
 ## Browse by model
 
-**183 source-linked cases** in six families. Each family gets one recent example here; all versions and records remain in the [full catalog](docs/catalog.en.md). This is navigation, not a model ranking.
+**183 source-linked cases** in six families. Each family gets one starting example from its first populated priority version here; all versions and records remain in the [full catalog](docs/catalog.en.md). This is navigation, not a model ranking.
+
+Version order is editorial: important current source-labeled versions first, then source dates within a version. Comparable popularity data is not yet available. [Ordering policy](docs/discovery-order.md).
 
 <a id="claude"></a>
 ### Claude · 146 cases
@@ -45,7 +76,7 @@ No account, API key, or install is needed to browse. Model names are source clai
 <a id="ver-claude-opus-5-5"></a>
 - [Claude Opus 5.5](docs/catalog.en.md#ver-claude-opus-5-5) · 9
 
-Recent example: **Point-light 3D film about AgentSky (Blender and code)** · Credit: @quxiaoyin（Xiaoyin Qu） · [Case](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#en) · [Post](https://x.com/quxiaoyin/status/2120341962314150207)
+Example to start with: **Point-light 3D film about AgentSky (Blender and code)** · Credit: @quxiaoyin（Xiaoyin Qu） · [Case](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#en) · [Post](https://x.com/quxiaoyin/status/2120341962314150207)
 
 <a id="gemini"></a>
 ### Gemini · 6 cases
@@ -57,7 +88,7 @@ Recent example: **Point-light 3D film about AgentSky (Blender and code)** · Cre
 <a id="ver-gemini-4-argon"></a>
 - [Gemini 4 Argon](docs/catalog.en.md#ver-gemini-4-argon) · 1
 
-Recent example: **Interactive 3D NYC cruiser tour in one HTML file (Three.js)** · Credit: @StatsWire · [Case](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#en) · [Post](https://x.com/StatsWire/status/2120344850071540152)
+Example to start with: **Interactive 3D NYC cruiser tour in one HTML file (Three.js)** · Credit: @StatsWire · [Case](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#en) · [Post](https://x.com/StatsWire/status/2120344850071540152)
 
 <a id="gpt-code"></a>
 ### GPT-6.2 Sol · 14 cases
@@ -69,7 +100,7 @@ Recent example: **Interactive 3D NYC cruiser tour in one HTML file (Three.js)** 
 <a id="ver-gpt-6-1-sol"></a>
 - [GPT-6.1 Sol](docs/catalog.en.md#ver-gpt-6-1-sol) · 3
 
-Recent example: **Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)** · Credit: @YFeng2022（LanFeng） · [Case](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#en) · [Post](https://x.com/YFeng2022/status/2120324811549225082)
+Example to start with: **Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)** · Credit: @YFeng2022（LanFeng） · [Case](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#en) · [Post](https://x.com/YFeng2022/status/2120324811549225082)
 
 <a id="grok"></a>
 ### Grok · 11 cases
@@ -81,21 +112,21 @@ Recent example: **Let Fable take Flight — HTML/Three.js procedural animation (
 <a id="ver-grok-imagine-video"></a>
 - [Grok Imagine Video](docs/catalog.en.md#ver-grok-imagine-video) · 10
 
-Recent example: **Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)** · Credit: @RadCyberTruck · [Case](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#en) · [Post](https://x.com/RadCyberTruck/status/2120350558431445006)
+Example to start with: **Isometric day/night city HTML loop — Grok 4.7** · Credit: James Greene (model comparison archive) · [Case](docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#en) · [Post](https://jamesgreene.com/models/)
 
 <a id="qwen"></a>
 ### Qwen · 3 cases
 
 [Browse all](docs/catalog.en.md#qwen)
 
-<a id="ver-qwen3-8-27b"></a>
-- [Qwen3.8 27B](docs/catalog.en.md#ver-qwen3-8-27b) · 1
 <a id="ver-qwen4-max-preview"></a>
 - [Qwen 4 Max Preview](docs/catalog.en.md#ver-qwen4-max-preview) · 1
 <a id="ver-qwen4-preview"></a>
 - [Qwen 4.0 Preview](docs/catalog.en.md#ver-qwen4-preview) · 1
+<a id="ver-qwen3-8-27b"></a>
+- [Qwen3.8 27B](docs/catalog.en.md#ver-qwen3-8-27b) · 1
 
-Recent example: **Sun Wukong flying a plane — HTML 3D demo** · Credit: @leo114119（Leo） · [Case](docs/translations/x-leo114119-qwen4max-wukong-plane.md#en) · [Post](https://x.com/leo114119/status/2120371909624033439)
+Example to start with: **Sun Wukong flying a plane — HTML 3D demo** · Credit: @leo114119（Leo） · [Case](docs/translations/x-leo114119-qwen4max-wukong-plane.md#en) · [Post](https://x.com/leo114119/status/2120371909624033439)
 
 <a id="deepseek"></a>
 ### DeepSeek · 3 cases
@@ -107,7 +138,7 @@ Recent example: **Sun Wukong flying a plane — HTML 3D demo** · Credit: @leo11
 <a id="ver-deepseek-v4-1-flash"></a>
 - [DeepSeek V4.1 Flash](docs/catalog.en.md#ver-deepseek-v4-1-flash) · 2
 
-Recent example: **Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code** · Credit: @LatentOperatorX（Latent Operator） · [Case](docs/translations/x-latentoperator-deepseek-excavator.md#en) · [Post](https://x.com/LatentOperatorX/status/2120077800887746603)
+Example to start with: **Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017** · Credit: James Greene (model comparison archive) · [Case](docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#en) · [Post](https://jamesgreene.com/models/)
 
 
 <details>
@@ -119,16 +150,6 @@ Claude Mythos 5.2 and Qwen 3.8 Flash Next are mentioned in the inventory without
 
 </details>
 
-<a id="latest"></a>
-## Recent source posts
-
-Five recent source-dated cases, not an ingestion log or ranking. Same-day ties use case ID; undated cases remain in the full catalog.
-
-- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)** · Credit: @YFeng2022（LanFeng） · [Case](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#en) · [Post](https://x.com/YFeng2022/status/2120324811549225082)
-- **2026-11-11 · Gemini** · **Interactive 3D NYC cruiser tour in one HTML file (Three.js)** · Credit: @StatsWire · [Case](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#en) · [Post](https://x.com/StatsWire/status/2120344850071540152)
-- **2026-11-11 · Grok** · **Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)** · Credit: @RadCyberTruck · [Case](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#en) · [Post](https://x.com/RadCyberTruck/status/2120350558431445006)
-- **2026-11-11 · Claude** · **Point-light 3D film about AgentSky (Blender and code)** · Credit: @quxiaoyin（Xiaoyin Qu） · [Case](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#en) · [Post](https://x.com/quxiaoyin/status/2120341962314150207)
-- **2026-11-11 · Claude** · **Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)** · Credit: @paleknight（Vraj） · [Case](docs/translations/x-paleknight-fable52-vs-opus55-ship.md#en) · [Post](https://x.com/paleknight/status/2120368418805174639)
 
 
 <a id="by-type"></a>
@@ -147,8 +168,6 @@ Five recent source-dated cases, not an ingestion log or ranking. Same-day ties u
 
 
 Type counts reflect the current inventory tags, not exhaustive model capabilities. A zero means no case carries that tag here; games can also appear under HTML / 3D. [Classification method](tools/readme_presentation.py).
-
-GPT Image 2.6 GIF archive (**51** cases, not in the homepage total): [collections/gpt-image-gifs](collections/gpt-image-gifs/README.md).
 
 <a id="collection-sites"></a>
 <a id="related-projects"></a>

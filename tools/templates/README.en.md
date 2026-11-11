@@ -12,9 +12,18 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+<a id="examples"></a>
+## See the work
+
+Three real, licensed GIFs from the separate **GPT Image 2.6 archive**, attributed by their creator to that model. Click a result for its case, or open the published prompt below.
+
 <!-- readme-tech-visualizer:start -->
-![Project-created archive artwork; not a model-output example](assets/brand/hero.png)
+${showcase_gifs}
 <!-- readme-tech-visualizer:end -->
+
+By **ailingqu**, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Original GIF bytes; displayed smaller. The published prompts are source rewrites, not verified historical requests. This is an editorial selection with documented media rights, not a popularity ranking. These examples are **outside the ${main_count}-case homepage total**. [All ${gpt_count} GIF archive cases](collections/gpt-image-gifs/README.md).
+
+${latest}
 
 <a id="how-to-use"></a>
 ## Start here
@@ -31,7 +40,9 @@ No account, API key, or install is needed to browse. Model names are source clai
 <a id="catalog"></a>
 ## Browse by model
 
-**${main_count} source-linked cases** in six families. Each family gets one recent example here; all versions and records remain in the [full catalog](docs/catalog.en.md). This is navigation, not a model ranking.
+**${main_count} source-linked cases** in six families. Each family gets one starting example from its first populated priority version here; all versions and records remain in the [full catalog](docs/catalog.en.md). This is navigation, not a model ranking.
+
+Version order is editorial: important current source-labeled versions first, then source dates within a version. Comparable popularity data is not yet available. [Ordering policy](docs/discovery-order.md).
 
 ${featured}
 
@@ -44,13 +55,11 @@ Claude Mythos 5.2 and Qwen 3.8 Flash Next are mentioned in the inventory without
 
 </details>
 
-${latest}
+
 
 ${type_sections}
 
 Type counts reflect the current inventory tags, not exhaustive model capabilities. A zero means no case carries that tag here; games can also appear under HTML / 3D. [Classification method](tools/readme_presentation.py).
-
-${gpt_subproject_line}
 
 <a id="collection-sites"></a>
 <a id="related-projects"></a>

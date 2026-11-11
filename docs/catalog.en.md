@@ -269,14 +269,6 @@ _No sourced cases yet for Claude Mythos 5.2._
 
 ## Family · Qwen — Qwen3.8 / Qwen 4 Preview (3)
 
-<a id="ver-qwen3-8-27b"></a>
-
-### Qwen3.8 27B (1)
-
-| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
-|---:|---|---|---|---|---|---|---|---|---|
-| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | [Source](https://jamesgreene.com/models/) | [Case](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [Original](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) · [Read translation + original](translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#en) | jamesgreene.com labeled run: Qwen3.8 27B | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
-
 <a id="ver-qwen4-max-preview"></a>
 
 ### Qwen 4 Max Preview (1)
@@ -292,6 +284,14 @@ _No sourced cases yet for Claude Mythos 5.2._
 | # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | @coffeecup2020（David Y. Tan） | `x-coffeecup2020-qwen4-sagrada` Sagrada Família demo from Qwen 4.0 Preview | [Source](https://x.com/coffeecup2020/status/2120113388629995921) | [Case](cases/x-coffeecup2020-qwen4-sagrada/README.md) | [Unpublished](cases/x-coffeecup2020-qwen4-sagrada/prompt.md) · [Read translation + original](translations/x-coffeecup2020-qwen4-sagrada.md#en) | Author claim: Qwen 4.0 (Preview), iterat | Iterative self-critique demo · recor | Primary X URL + video · prompt unpub | Source link only |
+
+<a id="ver-qwen3-8-27b"></a>
+
+### Qwen3.8 27B (1)
+
+| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | [Source](https://jamesgreene.com/models/) | [Case](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [Original](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) · [Read translation + original](translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#en) | jamesgreene.com labeled run: Qwen3.8 27B | Self-contained HTML/CSS/JS animation | Public HTML artifact + shared brief | Source link only |
 
 <a id="deepseek"></a>
 

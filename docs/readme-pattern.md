@@ -14,7 +14,7 @@ A reusable pattern for collection projects, based on Awesome AI Model Showcases.
 
 ## Concrete split in this repository
 
-- `README*.md`: four generated landing pages, each under 220 lines and 25 KiB. One recent example per family and at most five recent source posts. The limits are project-specific budgets, not universal README rules.
+- `README*.md`: four generated landing pages, each under 280 lines and 30 KiB. Actual licensed case GIFs and direct prompt/source links lead; family navigation and at most five recent source posts support discovery. The limits are project-specific budgets, not universal README rules.
 - `catalog.<locale>.md`: complete localized evidence tables, version anchors, and separate appendices. No new cases or altered source claims are needed to shorten the landing page.
 - [showcase-index.md](showcase-index.md): work-type discovery and a complete index. Type tags describe the current inventory, not all model capabilities.
 - [data/community-cases.json](data/community-cases.json): shared generated case data, not hand-edited content.
@@ -43,3 +43,13 @@ Keep source text, claims, IDs, creator credits, and URLs intact. The landing pag
 ## Verification here
 
 Run `python3 tools/verify.py` after reviewing and staging intentional generated updates. `tools/test_readme_presentation.py` enforces the landing-page budgets, bounded samples, live local fragments, source dates, version coverage, and locale structure. Use `RUN_BROWSER_TESTS=1 python3 tools/verify.py` for the existing gallery browser suite when Playwright and Chromium are available. That suite is separate from GitHub README visual review.
+
+### Popularity and important-version ordering
+
+Within each relevant category, honor explicit user focus and important current platforms/versions. When comparable popularity measurements exist, record metric, source, observation time, window, and reason before ranking. Missing measurements are unknown, not zero; do not confuse recency, repository stars, or archive coverage with popularity. Disclose editorial fallback. Keep shared priorities and tie-breakers consistent across all locales. See the [current ordering policy](discovery-order.md).
+
+### Case collections are not software landing pages
+
+For a showcase collection, lead the first substantive section with actual case results, accessible prompts, creator credits, and sources. Navigation and category balance support those examples rather than displace them. Use only licensed or otherwise authorized media, clearly identify the true model/subcollection, and do not count those examples twice. When a frontier case is source-only, keep its source route rather than borrowing another model’s result image. Compression is a guardrail, not the goal: measure whether visitors find an interesting result and its evidence, not just the README byte count.
+
+A modest star invitation may follow demonstrated value. Measure baseline and subsequent repository views, unique visitors, referral sources, and stars over a comparable window where authorized analytics are available. Distinguish association from causation; do not promise ranking or star growth.

@@ -269,14 +269,6 @@ _此栏暂无已核实案例（Claude Mythos 5.2）。_
 
 ## 家族 · Qwen — Qwen3.8 / Qwen 4 Preview（3）
 
-<a id="ver-qwen3-8-27b"></a>
-
-### Qwen3.8 27B (1)
-
-| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
-|---:|---|---|---|---|---|---|---|---|---|
-| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` 等距视角城市昼夜 HTML 循环动画：Qwen3.8 27B | [出处](https://jamesgreene.com/models/) | [案例](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [原文](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) · [译文与原文](translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#zh-cn) | jamesgreene.com 标注的运行模型：Qwen3.8 27B（第二次尝 | 独立 HTML／CSS／JS 动画 | 公开 HTML 成品 + 共享创作说明 | 仅来源链接 |
-
 <a id="ver-qwen4-max-preview"></a>
 
 ### Qwen 4 Max Preview (1)
@@ -292,6 +284,14 @@ _此栏暂无已核实案例（Claude Mythos 5.2）。_
 | # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | @coffeecup2020（David Y. Tan） | `x-coffeecup2020-qwen4-sagrada` Qwen 4.0 Preview 制作的圣家堂演示 | [出处](https://x.com/coffeecup2020/status/2120113388629995921) | [案例](cases/x-coffeecup2020-qwen4-sagrada/README.md) | [未公开](cases/x-coffeecup2020-qwen4-sagrada/prompt.md) · [译文与原文](translations/x-coffeecup2020-qwen4-sagrada.md#zh-cn) | 作者声明：Qwen 4.0（Preview），迭代自评直至 token 上限。作 | 迭代式自我评审演示 · 视频录制 | 原始 X URL + 视频 · 提示词未公开 · 未复测 | 仅来源链接 |
+
+<a id="ver-qwen3-8-27b"></a>
+
+### Qwen3.8 27B (1)
+
+| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` 等距视角城市昼夜 HTML 循环动画：Qwen3.8 27B | [出处](https://jamesgreene.com/models/) | [案例](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [原文](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) · [译文与原文](translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#zh-cn) | jamesgreene.com 标注的运行模型：Qwen3.8 27B（第二次尝 | 独立 HTML／CSS／JS 动画 | 公开 HTML 成品 + 共享创作说明 | 仅来源链接 |
 
 <a id="deepseek"></a>
 

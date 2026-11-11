@@ -5,7 +5,7 @@ import re
 import unittest
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
-from readme_presentation import HOMEPAGE_FAMILIES, VERSION_ORDER, _date_desc, _full_day, family_sections, latest_section, main_case_rows, version_anchor
+from readme_presentation import DISCOVERY_ORDER, HOMEPAGE_FAMILIES, VERSION_ORDER, _date_desc, _full_day, family_sections, latest_section, main_case_rows, version_anchor
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ('en', 'zh-CN', 'zh-TW', 'ja')
@@ -35,14 +35,18 @@ class ReadmePresentationTests(unittest.TestCase):
         expected = None
         for lang in LOCALES:
             text = readme_path(lang).read_text()
-            self.assertLessEqual(len(text.splitlines()), 220, lang)
-            self.assertLessEqual(len(text.encode()), 25 * 1024, lang)
+            self.assertLessEqual(len(text.splitlines()), 280, lang)
+            self.assertLessEqual(len(text.encode()), 30 * 1024, lang)
             self.assertEqual(len(re.findall(r'^# ', text, re.M)), 1)
             self.assertNotIn('<table', text, lang)
             self.assertNotIn('|---', text, lang)
             self.assertEqual(text.count('<!-- readme-tech-visualizer:start -->'), 1)
             self.assertEqual(text.count('<!-- readme-tech-visualizer:end -->'), 1)
-            self.assertLess(text.index('github.io/'), text.index('assets/brand/hero.png'))
+            self.assertLess(text.index('github.io/'), text.index('id="examples"'))
+            self.assertLess(text.index('id="examples"'), text.index('id="showcase"'))
+            self.assertEqual(text.count('/media/01-gif.gif'), 3)
+            self.assertEqual(text.count('/prompt.md'), 3)
+            self.assertIn('CC BY 4.0', text)
             self.assertLess(text.index('id="how-to-use"'), text.index('id="showcase"'))
             actual = set(re.findall(r'<a id="([^"]+)"', text))
             if expected is None:
@@ -65,6 +69,21 @@ class ReadmePresentationTests(unittest.TestCase):
             self.assertEqual(len(dates), 5)
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual(latest.count('docs/translations/'), 5)
+
+    def test_editorial_priorities_and_unknown_popularity_are_explicit(self):
+        self.assertEqual(len(HOMEPAGE_FAMILIES), len(set(HOMEPAGE_FAMILIES)))
+        self.assertEqual(VERSION_ORDER['qwen'], ('qwen4-max-preview', 'qwen4-preview', 'qwen3.8-27b'))
+        self.assertTrue(_full_day(DISCOVERY_ORDER['meta']['reviewed_at']))
+        self.assertTrue(DISCOVERY_ORDER['meta']['reason'])
+        heat = DISCOVERY_ORDER['popularity']
+        self.assertEqual(heat['status'], 'not_collected', 'Implement and test comparable popularity sorting before enabling it')
+        for field in ('metric', 'source', 'observed_at', 'window'):
+            self.assertIsNone(heat[field], field)
+        for lang in LOCALES:
+            output = family_sections(self.catalog, lang)
+            qwen = output.split('<a id="qwen"></a>', 1)[1].split('<a id="deepseek"></a>', 1)[0]
+            self.assertIn('x-leo114119-qwen4max-wukong-plane', qwen)
+            self.assertIn(DISCOVERY_ORDER['meta']['reviewed_at'], latest_section(self.rows, lang))
 
     def test_date_order_is_valid_and_deterministic(self):
         for bad in ('', '2026-11', '2026-02-30', '2026-13-01', 'tomorrow'):

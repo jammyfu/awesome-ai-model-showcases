@@ -22,6 +22,8 @@ GENERATED = (
     ROOT / "docs/catalog.zh-TW.md",
     ROOT / "docs/catalog.ja.md",
     ROOT / "docs/readme-pattern.md",
+    ROOT / "docs/discovery-order.md",
+    ROOT / "GEO.md",
     ROOT / "docs/translated-case.html",
     ROOT / "docs/translation-policy.md",
     ROOT / "docs/missing-thumbnails.md",

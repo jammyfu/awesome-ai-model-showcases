@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import json
 from datetime import date
 from html import escape
 from pathlib import Path
@@ -24,18 +25,11 @@ FEATURED = tuple(
 
 # Homepage families. GPT Image stays in the catalog JSON and in
 # collections/gpt-image-gifs/, and is not a homepage section.
-HOMEPAGE_FAMILIES = ("claude", "gemini", "gpt-code", "grok", "qwen", "deepseek")
+# Editorial priorities are reviewable and shared by all language editions.
+DISCOVERY_ORDER = json.loads((TEMPLATES.parent.parent / "data/discovery-order.json").read_text(encoding="utf-8"))
+HOMEPAGE_FAMILIES = tuple(DISCOVERY_ORDER["family_order"])
 FAMILY_ORDER = HOMEPAGE_FAMILIES + ("gpt-image",)
-
-VERSION_ORDER = {
-    "claude": ("claude-fable-5.2", "claude-mythos-5.2", "claude-opus-5.5"),
-    "gemini": ("gemini-4-carbon", "gemini-4-argon"),
-    "gpt-code": ("gpt-6.2-sol", "gpt-6.1-sol"),
-    "grok": ("grok-4.7", "grok-imagine-video"),
-    "qwen": ("qwen3.8-27b", "qwen4-max-preview", "qwen4-preview"),
-    "deepseek": ("deepseek-v4.1-flash-1017", "deepseek-v4.1-flash"),
-    "gpt-image": ("gpt-image-2.6",),
-}
+VERSION_ORDER = {family: tuple(versions) for family, versions in DISCOVERY_ORDER["version_order"].items()}
 
 VERSION_LABEL = {
     "claude-fable-5.2": "Claude Fable 5.2",
@@ -303,6 +297,13 @@ def latest_section(rows: list[dict], lang: str) -> str:
         "ja": "出典の日付が新しい 5 件です。収録順や品質ランキングではありません。同日は事例 ID 順とし、日付のない事例も全目録に残します。",
     }
     lines = ['<a id="latest"></a>', f"## {headings[lang]}", "", notes[lang], ""]
+    missing_heat = {
+        "en": "No comparable popularity snapshot is recorded as of {date}; this is source-date order, not a popularity ranking.",
+        "zh-CN": "截至 {date} 尚无可比热度快照；这里按来源日期排列，不是热度榜。",
+        "zh-TW": "截至 {date} 尚無可比熱度快照；此處依來源日期排列，不是熱度榜。",
+        "ja": "{date} 時点で比較可能な人気指標は未収集です。ここは出典の日付順で、人気ランキングではありません。",
+    }
+    lines += [missing_heat[lang].format(date=DISCOVERY_ORDER["meta"]["reviewed_at"]), ""]
     for row in dated[:5]:
         lines.append(f"- **{row['date']} · {FAMILY_TITLE[row['model_family']]}** · " + _compact_line(row, lang)[2:])
     return "\n".join(lines).rstrip() + "\n"
@@ -390,10 +391,10 @@ def _compact_line(row: dict, lang: str) -> str:
 def family_sections(catalog: dict, lang: str) -> str:
     """A bounded entry per family; complete evidence belongs in the catalog, not the README."""
     words = {
-        "en": ("cases", "Browse all", "No sourced case yet", "Recent example"),
-        "zh-CN": ("条", "查看全部", "暂无独立来源案例", "近期示例"),
-        "zh-TW": ("則", "查看全部", "暫無獨立來源案例", "近期範例"),
-        "ja": ("件", "全件を見る", "出典付きの単独事例は未収録", "最近の例"),
+        "en": ("cases", "Browse all", "No sourced case yet", "Example to start with"),
+        "zh-CN": ("条", "查看全部", "暂无独立来源案例", "入门示例"),
+        "zh-TW": ("則", "查看全部", "暫無獨立來源案例", "入門範例"),
+        "ja": ("件", "全件を見る", "出典付きの単独事例は未収録", "最初に見る例"),
     }
     unit, browse, empty, sample = words[lang]
     blocks = []
@@ -411,10 +412,29 @@ def family_sections(catalog: dict, lang: str) -> str:
             anchor = version_anchor(version)
             blocks += [f'<a id="{anchor}"></a>', f"- [{VERSION_LABEL[version]}](docs/catalog.{lang}.md#{anchor}) · {count}" + (f" · {empty}" if not count else "")]
         if rows:
-            row = _date_desc(rows)[0]
+            version = next(v for v in VERSION_ORDER[fam] if any(r.get("model_version") == v for r in rows))
+            row = _date_desc([r for r in rows if r.get("model_version") == version])[0]
             blocks += ["", f"{sample}: " + _compact_line(row, lang)[2:]]
         blocks.append("")
     return "\n".join(blocks).rstrip() + "\n"
+
+
+def readme_showcase_gifs(catalog: dict, lang: str) -> str:
+    """Actual licensed case media, not project branding or unlicensed frontier previews."""
+    rows = cases_by_id(catalog)
+    prompt_label = {"en": "Published prompt", "zh-CN": "公开提示词", "zh-TW": "公開提示詞", "ja": "公開プロンプト"}[lang]
+    lines = ["<p>"]
+    links = []
+    for cid, titles, _notes in FEATURED:
+        row = rows[cid]
+        media = next((f["path"] for f in row.get("local_files") or [] if f["ext"] == "gif" and is_public_asset(f["path"])), "")
+        if not media:
+            raise ValueError(f"Showcase GIF needs exact publication permission: {cid}")
+        title = titles[lang]
+        detail = translation_link(row, lang)
+        lines.append(f'<a href="{escape(detail)}"><img src="{escape(media)}" alt="{escape(title)} · ailingqu · GPT Image 2.6" width="232"></a>')
+        links.append(f"- **[{title}]({detail})** · ailingqu · [{prompt_label}]({row['local_prompt']}) · [{UI[lang]['post']}]({row['source_url']})")
+    return "\n".join(lines + ["</p>", "", *links])
 
 
 def render_readme(
@@ -429,6 +449,7 @@ def render_readme(
     template = (TEMPLATES / f"README.{lang}.md").read_text(encoding="utf-8")
     return Template(template).substitute(
         main_count=c["main_collected"],
+        gpt_count=c["gpt_image"],
         media_count=media_count,
         pending_count=c["pending"],
         inventory_date=catalog["meta"]["updated"],
@@ -437,4 +458,5 @@ def render_readme(
         type_sections=type_sections(main_rows, lang),
         gpt_subproject_line=gpt_subproject_line,
         sol_status=sol_note(catalog, lang),
+        showcase_gifs=readme_showcase_gifs(catalog, lang),
     )

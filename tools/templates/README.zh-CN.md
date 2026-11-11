@@ -12,9 +12,18 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+<a id="examples"></a>
+## 先看作品
+
+这三张真实且获准展示的 GIF 来自独立的 **GPT Image 2.6 归档**，模型归属为创作者声明。点击作品查看案例，或直接打开下方公开提示词。
+
 <!-- readme-tech-visualizer:start -->
-![项目原创归档主题插画，不是模型输出案例](assets/brand/hero.png)
+${showcase_gifs}
 <!-- readme-tech-visualizer:end -->
+
+作者 **ailingqu**，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授权展示。保留原始 GIF 字节，仅缩小显示。公开提示词为来源改写，非已核实的历史提交请求。这是按已核实媒体授权选择的编辑推荐，不是热度榜；**不计入首页${main_count}条**。[全部${gpt_count}条GIF归档](collections/gpt-image-gifs/README.zh-CN.md)。
+
+${latest}
 
 <a id="how-to-use"></a>
 ## 从这里开始
@@ -31,7 +40,9 @@
 <a id="catalog"></a>
 ## 按模型查找
 
-六个家族共 **${main_count} 条有来源案例**。每个家族在这里展示一条近期示例，全部版本和记录都保留在[完整目录](docs/catalog.zh-CN.md)。这是一组导航，不是模型能力排名。
+六个家族共 **${main_count} 条有来源案例**。每个家族优先展示其首个有案例的重点版本中的一条入门示例，全部版本和记录都保留在[完整目录](docs/catalog.zh-CN.md)。这是一组导航，不是模型能力排名。
+
+版本按编辑优先级排列：先展示来源标注的当前重点版本，同版本再看来源日期。尚无可比热度数据。[排序规则](docs/discovery-order.md)。
 
 ${featured}
 
@@ -44,13 +55,11 @@ ${sol_status}
 
 </details>
 
-${latest}
+
 
 ${type_sections}
 
 类型计数沿用现有清单标签，不代表模型能力范围。零表示当前没有案例使用该标签；游戏也可能归在 HTML / 3D 下。[分类方法](tools/readme_presentation.py)。
-
-${gpt_subproject_line}
 
 <a id="collection-sites"></a>
 <a id="related-projects"></a>

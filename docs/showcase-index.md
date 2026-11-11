@@ -193,8 +193,8 @@
 - [Azuchi-Momoyama castle town diorama in HTML and Three.js](translations/x-takamasa045-gpt61sol-momoyama.md#zh-cn) · GPT-6.2 Sol
 - [Isometric day/night city HTML loop — GPT-6.1 Sol](translations/web-jamesgreene-code1-gpt61-sol-isometric-city.md#zh-cn) · GPT-6.2 Sol
 - [Isometric day/night city HTML loop — Grok 4.7](translations/web-jamesgreene-code1-grok47-isometric-city.md#zh-cn) · Grok
-- [Isometric day/night city HTML loop — Qwen3.8 27B](translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#zh-cn) · Qwen
 - [Sun Wukong flying a plane — HTML 3D demo](translations/x-leo114119-qwen4max-wukong-plane.md#zh-cn) · Qwen
+- [Isometric day/night city HTML loop — Qwen3.8 27B](translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#zh-cn) · Qwen
 - [Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017](translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#zh-cn) · DeepSeek
 - [Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code](translations/x-latentoperator-deepseek-excavator.md#zh-cn) · DeepSeek
 - [Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol](translations/x-latentoperator-a380-deepseek-fable-sol.md#zh-cn) · DeepSeek
@@ -389,9 +389,9 @@
 | — | `x-rxufnx-grok-imagine-fallen-angel-cinematic-vid` Fallen Angel Cinematic Video | Grok | Grok Imagine Video | 动画 / Animation | 2026-11-05 | @rxufnx（rxufnx） | [来源](https://x.com/rxufnx/status/2118327480918438306) | — |
 | — | `x-haluaiart-grok-imagine-dark-electro-hip-hop-dance` Dark Electro Hip Hop Dance Video | Grok | Grok Imagine Video | 动画 / Animation | 2026-11-05 | @HaluAIArt（はる） | [来源](https://x.com/HaluAIArt/status/2118285947921989988) | — |
 | — | `x-awesomegodnewl-grok-imagine-grok-imagine-prompt-prince` Grok Imagine Prompt: Prince transforms maid into princess | Grok | Grok Imagine Video | 动画 / Animation | 2026-11-05 | @AwesomeGodNewL（Awesome God New Life Ministries） | [来源](https://x.com/AwesomeGodNewL/status/2118227641027416471) | — |
-| — | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | Qwen | Qwen3.8 27B | HTML / 3D | 2026-11-05 | James Greene (model comparison archive) | [来源](https://jamesgreene.com/models/) | — |
 | — | `x-leo114119-qwen4max-wukong-plane` Sun Wukong flying a plane — HTML 3D demo | Qwen | Qwen 4 Max Preview | HTML / 3D | 2026-11-11 | @leo114119（Leo） | [来源](https://x.com/leo114119/status/2120371909624033439) | — |
 | — | `x-coffeecup2020-qwen4-sagrada` Sagrada Família demo from Qwen 4.0 Preview | Qwen | Qwen 4.0 Preview | 动画 / Animation | 2026-11-10 | @coffeecup2020（David Y. Tan） | [来源](https://x.com/coffeecup2020/status/2120113388629995921) | — |
+| — | `web-jamesgreene-code1-qwen38-27b-isometric-city` Isometric day/night city HTML loop — Qwen3.8 27B | Qwen | Qwen3.8 27B | HTML / 3D | 2026-11-05 | James Greene (model comparison archive) | [来源](https://jamesgreene.com/models/) | — |
 | — | `web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city` Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017 | DeepSeek | DeepSeek V4.1 Flash 1017 | HTML / 3D | 2026-11-05 | James Greene (model comparison archive) | [来源](https://jamesgreene.com/models/) | — |
 | — | `x-latentoperator-deepseek-excavator` Three.js excavator loading a dump truck — DeepSeek Harness vs Command Co | DeepSeek | DeepSeek V4.1 Flash | HTML / 3D | 2026-11-10 | @LatentOperatorX（Latent Operator） | [来源](https://x.com/LatentOperatorX/status/2120077800887746603) | — |
 | — | `x-latentoperator-a380-deepseek-fable-sol` Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GP | DeepSeek | DeepSeek V4.1 Flash | HTML / 3D | 2026-11-10 | @LatentOperatorX | [来源](https://x.com/LatentOperatorX/status/2120205377803518132) | — |

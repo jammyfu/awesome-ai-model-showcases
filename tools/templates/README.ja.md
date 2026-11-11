@@ -12,9 +12,18 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+<a id="examples"></a>
+## 作品から見る
+
+こちらは別枠の **GPT Image 2.6 アーカイブ**にある、公開許可を確認した実際の GIF 3 点です。モデル名は作者の申告です。作品をクリックすると事例へ進み、下のリンクから公開プロンプトを読めます。
+
 <!-- readme-tech-visualizer:start -->
-![プロジェクト独自のアーカイブ画像。モデル出力の事例ではありません](assets/brand/hero.png)
+${showcase_gifs}
 <!-- readme-tech-visualizer:end -->
+
+作者は **ailingqu**、[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) で公開されています。元の GIF を変更せず、小さく表示しています。公開プロンプトは出典による書き換えで、実際の過去の入力は未検証です。掲載許可に基づく編集上の選択であり、人気ランキングではありません。**ホームページの${main_count}件とは別枠**です。[GIF アーカイブ全${gpt_count}件](collections/gpt-image-gifs/README.md)。
+
+${latest}
 
 <a id="how-to-use"></a>
 ## ここから始める
@@ -31,7 +40,9 @@
 <a id="catalog"></a>
 ## モデル別に探す
 
-6 ファミリーに **${main_count} 件の出典付き事例**を収録しています。ここでは各ファミリーの最近の例を 1 件ずつ紹介し、全バージョンと記録は[全目録](docs/catalog.ja.md)に残します。モデル性能のランキングではありません。
+6 ファミリーに **${main_count} 件の出典付き事例**を収録しています。ここでは各ファミリーで優先する最初の収録済みバージョンから 1 件ずつ紹介し、全バージョンと記録は[全目録](docs/catalog.ja.md)に残します。モデル性能のランキングではありません。
+
+バージョンは編集上の優先順位で並べ、出典が示す現在の重点バージョンを先に、同じバージョン内では出典の日付順にします。比較可能な人気指標はまだありません。[並び順の方針](docs/discovery-order.md)。
 
 ${featured}
 
@@ -44,13 +55,11 @@ Claude Mythos 5.2 と Qwen 3.8 Flash Next は一覧に名前がありますが�
 
 </details>
 
-${latest}
+
 
 ${type_sections}
 
 種類別の件数は既存のタグに基づき、モデルの能力全体を表すものではありません。0 件はそのタグの事例がないことを意味し、ゲームが HTML / 3D に分類されている場合もあります。[分類方法](tools/readme_presentation.py)。
-
-${gpt_subproject_line}
 
 <a id="collection-sites"></a>
 <a id="related-projects"></a>

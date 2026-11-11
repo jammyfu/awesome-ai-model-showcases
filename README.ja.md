@@ -12,9 +12,38 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+<a id="examples"></a>
+## 作品から見る
+
+こちらは別枠の **GPT Image 2.6 アーカイブ**にある、公開許可を確認した実際の GIF 3 点です。モデル名は作者の申告です。作品をクリックすると事例へ進み、下のリンクから公開プロンプトを読めます。
+
 <!-- readme-tech-visualizer:start -->
-![プロジェクト独自のアーカイブ画像。モデル出力の事例ではありません](assets/brand/hero.png)
+<p>
+<a href="docs/translations/ailingqu-jelly-bear-wobble.md#ja"><img src="docs/cases/ailingqu-jelly-bear-wobble/media/01-gif.gif" alt="ゼリーベア · ailingqu · GPT Image 2.6" width="232"></a>
+<a href="docs/translations/ailingqu-flower-macro-flash.md#ja"><img src="docs/cases/ailingqu-flower-macro-flash/media/01-gif.gif" alt="花のマクロ · ailingqu · GPT Image 2.6" width="232"></a>
+<a href="docs/translations/ailingqu-cat-brand-reel.md#ja"><img src="docs/cases/ailingqu-cat-brand-reel/media/01-gif.gif" alt="猫ロゴ · ailingqu · GPT Image 2.6" width="232"></a>
+</p>
+
+- **[ゼリーベア](docs/translations/ailingqu-jelly-bear-wobble.md#ja)** · ailingqu · [公開プロンプト](docs/cases/ailingqu-jelly-bear-wobble/prompt.md) · [原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/jelly-bear-wobble.gif)
+- **[花のマクロ](docs/translations/ailingqu-flower-macro-flash.md#ja)** · ailingqu · [公開プロンプト](docs/cases/ailingqu-flower-macro-flash/prompt.md) · [原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/flower-macro-flash.gif)
+- **[猫ロゴ](docs/translations/ailingqu-cat-brand-reel.md#ja)** · ailingqu · [公開プロンプト](docs/cases/ailingqu-cat-brand-reel/prompt.md) · [原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif)
 <!-- readme-tech-visualizer:end -->
+
+作者は **ailingqu**、[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) で公開されています。元の GIF を変更せず、小さく表示しています。公開プロンプトは出典による書き換えで、実際の過去の入力は未検証です。掲載許可に基づく編集上の選択であり、人気ランキングではありません。**ホームページの183件とは別枠**です。[GIF アーカイブ全51件](collections/gpt-image-gifs/README.md)。
+
+<a id="latest"></a>
+## 最近の原投稿
+
+出典の日付が新しい 5 件です。収録順や品質ランキングではありません。同日は事例 ID 順とし、日付のない事例も全目録に残します。
+
+2026-11-11 時点で比較可能な人気指標は未収集です。ここは出典の日付順で、人気ランキングではありません。
+
+- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
+- **2026-11-11 · Gemini** · **単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）** · クレジット: @StatsWire · [ケース](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) · [原投稿](https://x.com/StatsWire/status/2120344850071540152)
+- **2026-11-11 · Grok** · **Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ）** · クレジット: @RadCyberTruck · [ケース](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#ja) · [原投稿](https://x.com/RadCyberTruck/status/2120350558431445006)
+- **2026-11-11 · Claude** · **AgentSkyを描く点光源の3D映像（Blenderとコード）** · クレジット: @quxiaoyin（Xiaoyin Qu） · [ケース](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja) · [原投稿](https://x.com/quxiaoyin/status/2120341962314150207)
+- **2026-11-11 · Claude** · **Fable 5.2とOpus 5.5：同じプロンプトによるThree.jsの船（横並び比較）** · クレジット: @paleknight（Vraj） · [ケース](docs/translations/x-paleknight-fable52-vs-opus55-ship.md#ja) · [原投稿](https://x.com/paleknight/status/2120368418805174639)
+
 
 <a id="how-to-use"></a>
 ## ここから始める
@@ -31,7 +60,9 @@
 <a id="catalog"></a>
 ## モデル別に探す
 
-6 ファミリーに **183 件の出典付き事例**を収録しています。ここでは各ファミリーの最近の例を 1 件ずつ紹介し、全バージョンと記録は[全目録](docs/catalog.ja.md)に残します。モデル性能のランキングではありません。
+6 ファミリーに **183 件の出典付き事例**を収録しています。ここでは各ファミリーで優先する最初の収録済みバージョンから 1 件ずつ紹介し、全バージョンと記録は[全目録](docs/catalog.ja.md)に残します。モデル性能のランキングではありません。
+
+バージョンは編集上の優先順位で並べ、出典が示す現在の重点バージョンを先に、同じバージョン内では出典の日付順にします。比較可能な人気指標はまだありません。[並び順の方針](docs/discovery-order.md)。
 
 <a id="claude"></a>
 ### Claude · 146 件
@@ -45,7 +76,7 @@
 <a id="ver-claude-opus-5-5"></a>
 - [Claude Opus 5.5](docs/catalog.ja.md#ver-claude-opus-5-5) · 9
 
-最近の例: **AgentSkyを描く点光源の3D映像（Blenderとコード）** · クレジット: @quxiaoyin（Xiaoyin Qu） · [ケース](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja) · [原投稿](https://x.com/quxiaoyin/status/2120341962314150207)
+最初に見る例: **AgentSkyを描く点光源の3D映像（Blenderとコード）** · クレジット: @quxiaoyin（Xiaoyin Qu） · [ケース](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja) · [原投稿](https://x.com/quxiaoyin/status/2120341962314150207)
 
 <a id="gemini"></a>
 ### Gemini · 6 件
@@ -57,7 +88,7 @@
 <a id="ver-gemini-4-argon"></a>
 - [Gemini 4 Argon](docs/catalog.ja.md#ver-gemini-4-argon) · 1
 
-最近の例: **単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）** · クレジット: @StatsWire · [ケース](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) · [原投稿](https://x.com/StatsWire/status/2120344850071540152)
+最初に見る例: **単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）** · クレジット: @StatsWire · [ケース](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) · [原投稿](https://x.com/StatsWire/status/2120344850071540152)
 
 <a id="gpt-code"></a>
 ### GPT-6.2 Sol · 14 件
@@ -69,7 +100,7 @@
 <a id="ver-gpt-6-1-sol"></a>
 - [GPT-6.1 Sol](docs/catalog.ja.md#ver-gpt-6-1-sol) · 3
 
-最近の例: **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
+最初に見る例: **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
 
 <a id="grok"></a>
 ### Grok · 11 件
@@ -81,21 +112,21 @@
 <a id="ver-grok-imagine-video"></a>
 - [Grok Imagine Video](docs/catalog.ja.md#ver-grok-imagine-video) · 10
 
-最近の例: **Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ）** · クレジット: @RadCyberTruck · [ケース](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#ja) · [原投稿](https://x.com/RadCyberTruck/status/2120350558431445006)
+最初に見る例: **アイソメトリック都市の昼夜HTMLループ：Grok 4.7** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
 
 <a id="qwen"></a>
 ### Qwen · 3 件
 
 [全件を見る](docs/catalog.ja.md#qwen)
 
-<a id="ver-qwen3-8-27b"></a>
-- [Qwen3.8 27B](docs/catalog.ja.md#ver-qwen3-8-27b) · 1
 <a id="ver-qwen4-max-preview"></a>
 - [Qwen 4 Max Preview](docs/catalog.ja.md#ver-qwen4-max-preview) · 1
 <a id="ver-qwen4-preview"></a>
 - [Qwen 4.0 Preview](docs/catalog.ja.md#ver-qwen4-preview) · 1
+<a id="ver-qwen3-8-27b"></a>
+- [Qwen3.8 27B](docs/catalog.ja.md#ver-qwen3-8-27b) · 1
 
-最近の例: **飛行機を操縦する孫悟空：HTMLの3Dデモ** · クレジット: @leo114119（Leo） · [ケース](docs/translations/x-leo114119-qwen4max-wukong-plane.md#ja) · [原投稿](https://x.com/leo114119/status/2120371909624033439)
+最初に見る例: **飛行機を操縦する孫悟空：HTMLの3Dデモ** · クレジット: @leo114119（Leo） · [ケース](docs/translations/x-leo114119-qwen4max-wukong-plane.md#ja) · [原投稿](https://x.com/leo114119/status/2120371909624033439)
 
 <a id="deepseek"></a>
 ### DeepSeek · 3 件
@@ -107,7 +138,7 @@
 <a id="ver-deepseek-v4-1-flash"></a>
 - [DeepSeek V4.1 Flash](docs/catalog.ja.md#ver-deepseek-v4-1-flash) · 2
 
-最近の例: **Three.jsのショベルカーがダンプに積み込み：DeepSeek HarnessとCommand Codeを比較** · クレジット: @LatentOperatorX（Latent Operator） · [ケース](docs/translations/x-latentoperator-deepseek-excavator.md#ja) · [原投稿](https://x.com/LatentOperatorX/status/2120077800887746603)
+最初に見る例: **アイソメトリック都市の昼夜HTMLループ：DeepSeek V4.1 Flash 1017** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
 
 
 <details>
@@ -119,16 +150,6 @@ Claude Mythos 5.2 と Qwen 3.8 Flash Next は一覧に名前がありますが�
 
 </details>
 
-<a id="latest"></a>
-## 最近の原投稿
-
-出典の日付が新しい 5 件です。収録順や品質ランキングではありません。同日は事例 ID 順とし、日付のない事例も全目録に残します。
-
-- **2026-11-11 · GPT-6.2 Sol** · **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
-- **2026-11-11 · Gemini** · **単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）** · クレジット: @StatsWire · [ケース](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) · [原投稿](https://x.com/StatsWire/status/2120344850071540152)
-- **2026-11-11 · Grok** · **Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ）** · クレジット: @RadCyberTruck · [ケース](docs/translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#ja) · [原投稿](https://x.com/RadCyberTruck/status/2120350558431445006)
-- **2026-11-11 · Claude** · **AgentSkyを描く点光源の3D映像（Blenderとコード）** · クレジット: @quxiaoyin（Xiaoyin Qu） · [ケース](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja) · [原投稿](https://x.com/quxiaoyin/status/2120341962314150207)
-- **2026-11-11 · Claude** · **Fable 5.2とOpus 5.5：同じプロンプトによるThree.jsの船（横並び比較）** · クレジット: @paleknight（Vraj） · [ケース](docs/translations/x-paleknight-fable52-vs-opus55-ship.md#ja) · [原投稿](https://x.com/paleknight/status/2120368418805174639)
 
 
 <a id="by-type"></a>
@@ -147,8 +168,6 @@ Claude Mythos 5.2 と Qwen 3.8 Flash Next は一覧に名前がありますが�
 
 
 種類別の件数は既存のタグに基づき、モデルの能力全体を表すものではありません。0 件はそのタグの事例がないことを意味し、ゲームが HTML / 3D に分類されている場合もあります。[分類方法](tools/readme_presentation.py)。
-
-GPT Image 2.6 の GIF アーカイブ（**51** 件。ホームページの合計には入れない）: [collections/gpt-image-gifs](collections/gpt-image-gifs/README.md).
 
 <a id="collection-sites"></a>
 <a id="related-projects"></a>

@@ -69,3 +69,7 @@ This P2 round is closed on the evidence above. Did not merge main. Did not chang
 - Fixed missing work-type anchor destinations and made type entries clickable. Kept zero-count tags explicit rather than claiming missing previews.
 - Added `docs/readme-pattern.md`, review-only `GEO.md`, and five presentation regressions. Corrected `llms.txt` prompt-availability wording. No GitHub About/topics setting changes.
 - Local unified verification passed. Browser launch is blocked locally by `socket() failed: Operation not permitted`; real GitHub visual review and PR browser CI are separate remaining checks. No merge or deployment performed.
+
+- Follow-up ordering request: centralize shared editorial priorities in `data/discovery-order.json`, put Qwen 4 variants before 3.8, and label absent popularity snapshots explicitly. The current renderer does not claim a popularity ranking. Six presentation tests now cover these gates.
+
+- Case-first follow-up: moved three existing CC BY 4.0 GIFs into the first substantive section, ahead of navigation. Kept GPT Image source claims, separate-archive counts, credit, prompt/source links, and unmodified approved bytes explicit. The purpose is useful case discovery and attraction, not minimizing README length.

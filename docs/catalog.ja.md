@@ -269,14 +269,6 @@ _この版には、まだ出典付きの事例がない（Claude Mythos 5.2）�
 
 ## Family · Qwen — Qwen3.8 / Qwen 4 Preview (3)
 
-<a id="ver-qwen3-8-27b"></a>
-
-### Qwen3.8 27B (1)
-
-| # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
-|---:|---|---|---|---|---|---|---|---|---|
-| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` アイソメトリック都市の昼夜HTMLループ：Qwen3.8 27B | [出典](https://jamesgreene.com/models/) | [ケース](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [原文](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) · [翻訳と原文](translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#ja) | jamesgreene.comによる実行モデルの表示：Qwen3.8 27B（2 | 単体で動作する HTML／CSS／JS アニメーション | 公開 HTML 作品と共通の制作指示 | 出典リンクのみ |
-
 <a id="ver-qwen4-max-preview"></a>
 
 ### Qwen 4 Max Preview (1)
@@ -292,6 +284,14 @@ _この版には、まだ出典付きの事例がない（Claude Mythos 5.2）�
 | # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | @coffeecup2020（David Y. Tan） | `x-coffeecup2020-qwen4-sagrada` Qwen 4.0 Previewによるサグラダ・ファミリアのデモ | [出典](https://x.com/coffeecup2020/status/2120113388629995921) | [ケース](cases/x-coffeecup2020-qwen4-sagrada/README.md) | [未公開](cases/x-coffeecup2020-qwen4-sagrada/prompt.md) · [翻訳と原文](translations/x-coffeecup2020-qwen4-sagrada.md#ja) | 作者の申告：Qwen 4.0（Preview）、トークン上限まで自己批評を反復。 | 反復的な自己批評のデモ · 動画収録 | 原投稿の X URL と動画 · プロンプト未公開 · 再実行なし | 出典リンクのみ |
+
+<a id="ver-qwen3-8-27b"></a>
+
+### Qwen3.8 27B (1)
+
+| # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | James Greene (model comparison archive) | `web-jamesgreene-code1-qwen38-27b-isometric-city` アイソメトリック都市の昼夜HTMLループ：Qwen3.8 27B | [出典](https://jamesgreene.com/models/) | [ケース](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) | [原文](cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) · [翻訳と原文](translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#ja) | jamesgreene.comによる実行モデルの表示：Qwen3.8 27B（2 | 単体で動作する HTML／CSS／JS アニメーション | 公開 HTML 作品と共通の制作指示 | 出典リンクのみ |
 
 <a id="deepseek"></a>
 

@@ -105,9 +105,12 @@ def main() -> int:
         assert rec.get("local_detail"), rec["id"]
         assert rec.get("local_prompt"), rec["id"]
 
+    from readme_presentation import FEATURED
+    showcase_ids = {cid for cid, *_ in FEATURED}
     for rec in catalog["collected_web_gif"]:
         assert rec["id"] in gpt_en_early and rec["id"] in gpt_zh_early
-        assert rec["id"] not in readme and rec["id"] not in readme_zh
+        if rec["id"] not in showcase_ids:
+            assert rec["id"] not in readme and rec["id"] not in readme_zh
 
     words = first_words(readme, 80)
     joined = " ".join(words).lower()
@@ -164,8 +167,9 @@ def main() -> int:
         assert "developers.openai.com/showcase" in evidence
         assert "GPT-6.1 Sol" in blob  # honest dual-status vs OpenAI public docs
         for cid, *_ in FEATURED:
-            assert f"docs/cases/{cid}/media/01-gif.gif" not in blob
-            assert cid not in blob
+            assert f"docs/cases/{cid}/media/01-gif.gif" in blob
+            assert f"docs/cases/{cid}/prompt.md" in blob
+            assert "CC BY 4.0" in blob
         for key in frontier_keys:
             for rec in catalog[key]:
                 rows = [line for line in evidence.splitlines() if line.startswith("|") and f"`{rec['id']}`" in line]
