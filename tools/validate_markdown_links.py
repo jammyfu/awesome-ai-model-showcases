@@ -16,6 +16,8 @@ GENERATED = (
     ROOT / "README.zh-TW.md",
     ROOT / "README.ja.md",
     ROOT / "playbooks/community-cases.md",
+    ROOT / "docs/showcase-index.md",
+    ROOT / "docs/missing-thumbnails.md",
 )
 
 

@@ -242,6 +242,45 @@ def main() -> int:
             for line in table_hits:
                 assert line.count("|") >= 10, (name, line)
 
+    index = json.loads((ROOT / "data/showcase-index.json").read_text(encoding="utf-8"))
+    missing_doc = (ROOT / "docs/missing-thumbnails.md").read_text(encoding="utf-8")
+    index_md = (ROOT / "docs/showcase-index.md").read_text(encoding="utf-8")
+    assert index["meta"]["count"] == counts["main_collected"] == len(index["cases"])
+    main_ids = [rec["id"] for key in (*gpt_keys, *frontier_keys) for rec in catalog[key]]
+    assert [rec["id"] for rec in index["cases"]] == [rec["id"] for rec in index["cases"] if rec["id"] in set(main_ids)]
+    assert set(main_ids) == {rec["id"] for rec in index["cases"]}
+    from readme_presentation import TYPE_ORDER, VERSION_ORDER
+
+    allowed = set(TYPE_ORDER)
+    seen_types = set()
+    for rec in index["cases"]:
+        assert rec["work_type"] in allowed, rec["id"]
+        seen_types.add(rec["work_type"])
+        assert rec.get("author"), rec["id"]
+        assert rec.get("source_url", "").startswith("http"), rec["id"]
+        assert f"`{rec['id']}`" in index_md
+        if rec.get("image_url"):
+            assert rec["image_url"].startswith("http"), rec["id"]
+            assert rec.get("image_source", "").startswith("http"), rec["id"]
+            assert rec.get("image_credit"), rec["id"]
+            assert rec.get("thumb"), rec["id"]
+            thumb = ROOT / rec["thumb"]
+            assert thumb.is_file(), rec["id"]
+            assert thumb.stat().st_size <= 300 * 1024, rec["id"]
+            assert f"../{rec['thumb']}" in index_md
+        else:
+            assert f"## `{rec['id']}`" in missing_doc, rec["id"]
+    assert "luffy-x-article" in missing_doc
+    for name, blob in readmes.items():
+        assert 'id="latest"' in blob, name
+        assert 'id="by-type"' in blob, name
+        assert 'id="type-gif"' in blob and 'id="type-html-3d"' in blob, name
+        assert "docs/showcase-index.md" in blob, name
+        assert blob.find("ver-gemini-4-carbon") < blob.find("ver-gemini-4-argon"), name
+        assert blob.find("ver-gpt-6-2-sol") < blob.find("ver-gpt-6-1-sol"), name
+    assert VERSION_ORDER["gemini"][0] == "gemini-4-carbon"
+    assert seen_types >= {"gif", "animation", "html-3d", "minigame"}
+
     print(
         "community catalog ok: "
         f"main {counts['main_collected']}, pending {counts['pending']}, "

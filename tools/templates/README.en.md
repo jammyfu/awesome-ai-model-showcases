@@ -23,13 +23,8 @@ Independent community archive. Model labels are source claims, not independent v
 
 ## Contents
 
-- [Claude](#claude) — Fable 5.2 · Mythos 5.2 · Opus 5.5
-- [Gemini](#gemini) — 4 Argon · 4 Carbon
-- [GPT-6.2 Sol](#gpt-code) — GPT-6.2 Sol · GPT-6.1 Sol
-- [Grok](#grok) — Grok 4.7 · Imagine Video
-- [Qwen](#qwen) — Qwen3.8
-- [DeepSeek](#deepseek) — V4.1 Flash
-- [GPT Image](#gpt-image) — 2.6
+${quick_nav}
+
 - [Showcase collection sites](#collection-sites)
 - [How to use this catalog](#how-to-use)
 - [Submit a case](#contribute)
@@ -37,12 +32,16 @@ Independent community archive. Model labels are source claims, not independent v
 - [FAQ](#faq)
 - [Full evidence tables](#catalog)
 
+${latest}
+
 <a id="showcase"></a>
 ## Cases by model family
 
 Two or three sourced cases per family, or fewer when the inventory itself has fewer. Versions with no sourced case stay empty. Nothing here is invented to fill a slot.
 
 ${featured}
+
+${type_sections}
 
 <a id="collection-sites"></a>
 ## Showcase collection sites
@@ -113,7 +112,7 @@ Prefer a pull request? Follow [CONTRIBUTING.md](CONTRIBUTING.md). Corrections to
 
 ${count_table}
 
-Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **${inventory_date}**. The main total is collected cases, not confirmed successful generations. **${media_count} of the ${main_count} cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment. Other families are source-linked unless a grant says otherwise.
+Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **${inventory_date}**. The main total is collected cases, not confirmed successful generations. **${media_count} of the ${main_count} cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment. Full media for other families stays source-linked unless a grant says otherwise. Navigation thumbnails in `assets/thumbs/` are small credited copies and link back to the original post. The row index is [docs/showcase-index.md](docs/showcase-index.md).
 
 ### Full source and evidence tables
 

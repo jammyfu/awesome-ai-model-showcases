@@ -23,13 +23,8 @@ AI 模型制作案例集收录最新一代大模型（Claude Fable 5.2 / Mythos 
 
 ## 目录
 
-- [Claude](#claude) — Fable 5.2 · Mythos 5.2 · Opus 5.5
-- [Gemini](#gemini) — 4 Argon · 4 Carbon
-- [GPT-6.2 Sol](#gpt-code) — GPT-6.2 Sol · GPT-6.1 Sol
-- [Grok](#grok) — Grok 4.7 · Imagine Video
-- [Qwen](#qwen) — Qwen3.8
-- [DeepSeek](#deepseek) — V4.1 Flash
-- [GPT Image](#gpt-image) — 2.6
+${quick_nav}
+
 - [案例收集网站](#collection-sites)
 - [怎么用](#how-to-use)
 - [怎么投稿](#contribute)
@@ -37,12 +32,16 @@ AI 模型制作案例集收录最新一代大模型（Claude Fable 5.2 / Mythos 
 - [常见问题](#faq)
 - [完整证据表](#catalog)
 
+${latest}
+
 <a id="showcase"></a>
 ## 按模型家族看案例
 
 每个家族放两三条仓库里已有、带来源的案例。库存不到这个数，就只放现有的。没有案例的版本留空，不拿别的帖子来凑。
 
 ${featured}
+
+${type_sections}
 
 <a id="collection-sites"></a>
 ## 展示站资源列表
@@ -113,7 +112,7 @@ python3 tools/verify.py
 
 ${count_table}
 
-数字来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**${inventory_date}**。主表是收录数，不是已经复现成功的数。**${main_count} 条里有 ${media_count} 条拿到了本地素材**；[路飞长文](docs/cases/luffy-x-article/README.md)存了提示词，附件没取到。其他家族默认只留出处，除非那一条单独写了授权。
+数字来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**${inventory_date}**。主表是收录数，不是已经复现成功的数。**${main_count} 条里有 ${media_count} 条拿到了本地素材**；[路飞长文](docs/cases/luffy-x-article/README.md)存了提示词，附件没取到。其他家族的完整文件默认只留出处，除非那一条单独写了授权。`assets/thumbs/` 里的导航缩略图是带署名、链回原帖的小图。逐条总表在 [docs/showcase-index.md](docs/showcase-index.md)。
 
 ### 完整出处与证据表
 

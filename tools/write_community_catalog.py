@@ -10,7 +10,16 @@ import json
 import os
 from pathlib import Path
 
-from readme_presentation import render_readme, sol_note
+from readme_presentation import (
+    FAMILY_TITLE,
+    TYPE_INDEX_LABEL,
+    TYPE_ORDER,
+    VERSION_LABEL,
+    main_case_rows,
+    render_readme,
+    sol_note,
+    work_type_of,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 X_SRC = ROOT / "playbooks/research/x-inventory.json"
@@ -36,6 +45,10 @@ OUT_LLMS = ROOT / "llms.txt"
 OUT_LLMS_DOCS = ROOT / "docs/llms.txt"
 OUT_ABOUT = ROOT / "docs/github-about.json"
 LOCAL_MANIFEST = ROOT / "docs/data/local-media-manifest.json"
+CASE_IMAGES = ROOT / "data/case-images.json"
+OUT_INDEX_JSON = ROOT / "data/showcase-index.json"
+OUT_INDEX_MD = ROOT / "docs/showcase-index.md"
+OUT_MISSING = ROOT / "docs/missing-thumbnails.md"
 
 GITHUB_ABOUT = {
     "description": (
@@ -506,6 +519,130 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
     return "\n".join(lines)
 
 
+def apply_case_images(rows: list[dict]) -> None:
+    payload = json.loads(CASE_IMAGES.read_text(encoding="utf-8")) if CASE_IMAGES.is_file() else {"cases": []}
+    by_id = {item["id"]: item for item in payload.get("cases") or []}
+    for rec in rows:
+        img = by_id.get(rec["id"]) or {}
+        rec["image_url"] = img.get("image_url") or ""
+        rec["image_source"] = img.get("image_source") or rec.get("source_url") or ""
+        rec["image_credit"] = img.get("image_credit") or rec.get("author") or ""
+        rec["thumb"] = (img.get("thumb") or "") if img.get("download") == "saved" else ""
+        rec["image_download"] = img.get("download") or "missing"
+        rec["image_note"] = img.get("note") or ""
+        if img.get("date"):
+            rec["date"] = img["date"]
+        rec["work_type"] = work_type_of(rec)
+
+
+def write_showcase(catalog: dict) -> None:
+    rows = main_case_rows(catalog)
+    records = []
+    for rec in rows:
+        records.append(
+            {
+                "id": rec["id"],
+                "title": rec.get("title") or "",
+                "model_family": rec.get("model_family") or "",
+                "model_version": rec.get("model_version") or "",
+                "work_type": rec.get("work_type") or "",
+                "date": rec.get("date") or "",
+                "author": rec.get("author") or "",
+                "source_url": rec.get("source_url") or "",
+                "image_url": rec.get("image_url") or "",
+                "image_source": rec.get("image_source") or "",
+                "image_credit": rec.get("image_credit") or "",
+                "thumb": rec.get("thumb") or "",
+            }
+        )
+    OUT_INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
+    OUT_INDEX_JSON.write_text(
+        json.dumps(
+            {
+                "meta": {
+                    "updated": catalog["meta"]["updated"],
+                    "count": len(records),
+                    "scope": "main collected cases",
+                },
+                "cases": records,
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    def one_table(items: list[dict]) -> str:
+        lines = [
+            "| 缩略图 | 标题 | 模型家族 | 版本 | 作品类型 | 日期 | 作者 | 来源 |",
+            "|---|---|---|---|---|---|---|---|",
+        ]
+        for rec in items:
+            thumb = f'<img src="../{rec["thumb"]}" alt="" width="120">' if rec.get("thumb") else "—"
+            title = cell(rec.get("title") or rec["id"], 72)
+            fam = FAMILY_TITLE.get(rec.get("model_family") or "", rec.get("model_family") or "")
+            ver = VERSION_LABEL.get(rec.get("model_version") or "", rec.get("model_version") or "")
+            kind = TYPE_INDEX_LABEL.get(rec.get("work_type") or "", rec.get("work_type") or "")
+            date = rec.get("date") or "—"
+            author = cell(rec.get("image_credit") or rec.get("author") or "")
+            src = f"[来源]({rec['source_url']})" if rec.get("source_url") else "—"
+            lines.append(
+                f"| {thumb} | `{rec['id']}` {title} | {fam} | {ver} | {kind} | {date} | {author} | {src} |"
+            )
+        return "\n".join(lines)
+
+    type_lines = []
+    for key in TYPE_ORDER:
+        ids = [rec["id"] for rec in records if rec.get("work_type") == key]
+        type_lines.append(f"- **{TYPE_INDEX_LABEL[key]}** ({len(ids)}): " + ", ".join(f"`{cid}`" for cid in ids))
+    OUT_INDEX_MD.write_text(
+        "\n".join(
+            [
+                "# Showcase index / 案例总表",
+                "",
+                "一行一条主表案例。缩略图链回原帖，作者列是署名。代码许可证不覆盖这些图，见 [MEDIA_RIGHTS.md](../MEDIA_RIGHTS.md)。",
+                "",
+                f"共 **{len(records)}** 条。排序是模型家族，家族里最新一代在前。",
+                "",
+                "## 按作品类型检索",
+                "",
+                *type_lines,
+                "",
+                "## 全部案例",
+                "",
+                one_table(records),
+                "",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    missing = [rec for rec in rows if not rec.get("image_url")]
+    missing_lines = [
+        "# 没有抓到代表图的案例",
+        "",
+        "范围是主表案例。下面只列没有原图直链的条目。没有编造图片或链接。",
+        "",
+        f"主表 {len(rows)} 条，没有代表图 {len(missing)} 条。",
+        "",
+    ]
+    if not missing:
+        missing_lines.append("这次没有。")
+    for rec in missing:
+        missing_lines.extend(
+            [
+                f"## `{rec['id']}`",
+                "",
+                f"- 标题：{rec.get('title') or ''}",
+                f"- 作者：{rec.get('author') or ''}",
+                f"- 来源：{rec.get('source_url') or '—'}",
+                f"- 尝试：{rec.get('image_note') or '来源页没有 og:image、帖子图片或可对应的 demo 图。'}",
+                "",
+            ]
+        )
+    OUT_MISSING.write_text("\n".join(missing_lines).rstrip() + "\n", encoding="utf-8")
+
+
 def main() -> None:
     x = json.loads(X_SRC.read_text(encoding="utf-8"))
     web = json.loads(WEB_SRC.read_text(encoding="utf-8"))
@@ -787,6 +924,14 @@ def main() -> None:
     ):
         attach_local(group)
 
+    apply_case_images(collected_x + web_confirmed + inrepo + game_main + frontier_all)
+    catalog["meta"]["counts"]["with_image"] = sum(
+        1 for rec in collected_x + web_confirmed + inrepo + game_main + frontier_all if rec.get("image_url")
+    )
+    catalog["meta"]["counts"]["with_thumb"] = sum(
+        1 for rec in collected_x + web_confirmed + inrepo + game_main + frontier_all if rec.get("thumb")
+    )
+
     OUT_JSON.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     OUT_JS.write_text(
         "/* AUTO-GENERATED by tools/write_community_catalog.py */\nwindow.COMMUNITY_CASES = "
@@ -794,6 +939,7 @@ def main() -> None:
         + ";\n",
         encoding="utf-8",
     )
+    write_showcase(catalog)
 
     c = catalog["meta"]["counts"]
 
@@ -912,7 +1058,7 @@ def main() -> None:
         "en": f"""| Model family / bucket | Count | Outside the main catalog | Count |
 |---|---:|---|---:|
 | Claude (Fable 5.2 / Mythos 5.2 / Opus 5.5) | **{c['family_claude']}** | Pending | {c['pending']} |
-| Gemini (4 Argon / 4 Carbon) | **{c['family_gemini']}** | Prompt-only | {c['prompt_only']} |
+| Gemini (4 Carbon / 4 Argon) | **{c['family_gemini']}** | Prompt-only | {c['prompt_only']} |
 | GPT-6.2 Sol / Astra (code; public docs still say GPT-6.1 Sol) | **{c['family_gpt-code']}** | Duplicate/rejected | {c['excluded']} |
 | Grok (4.7 / Imagine) | **{c['family_grok']}** | 2.5 / promo / multimodel / failure / Morphic / non-X candidates | {c['appendix']} |
 | Qwen (3.8) | **{c['family_qwen']}** | Repository seeds (local examples) | {c['repo_seeds']} |
@@ -926,7 +1072,7 @@ def main() -> None:
         "zh-CN": f"""| 模型家族 / 分栏 | 数 | 附表（不计入主表） | 数 |
 |---|---:|---|---:|
 | Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 待核 | {c['pending']} |
-| Gemini（4 Argon / 4 Carbon） | **{c['family_gemini']}** | 纯 prompt | {c['prompt_only']} |
+| Gemini（4 Carbon / 4 Argon） | **{c['family_gemini']}** | 纯 prompt | {c['prompt_only']} |
 | GPT-6.2 Sol / Astra（代码；公开文档仍写 GPT-6.1 Sol） | **{c['family_gpt-code']}** | 重复/不合格 | {c['excluded']} |
 | Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣传 / 多模型 / 失败 / Morphic / 非X候选 | {c['appendix']} |
 | Qwen（3.8） | **{c['family_qwen']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |
@@ -940,7 +1086,7 @@ def main() -> None:
         "zh-TW": f"""| 模型家族 / 分欄 | 數 | 附表（不計入主表） | 數 |
 |---|---:|---|---:|
 | Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 待核 | {c['pending']} |
-| Gemini（4 Argon / 4 Carbon） | **{c['family_gemini']}** | 純 prompt | {c['prompt_only']} |
+| Gemini（4 Carbon / 4 Argon） | **{c['family_gemini']}** | 純 prompt | {c['prompt_only']} |
 | GPT-6.2 Sol / Astra（程式；公開文件仍寫 GPT-6.1 Sol） | **{c['family_gpt-code']}** | 重複/不合格 | {c['excluded']} |
 | Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣傳 / 多模型 / 失敗 / Morphic / 非X候選 | {c['appendix']} |
 | Qwen（3.8） | **{c['family_qwen']}** | 倉庫種子（本倉示例） | {c['repo_seeds']} |
@@ -954,7 +1100,7 @@ def main() -> None:
         "ja": f"""| モデルファミリー | 件数 | 主表の外 | 件数 |
 |---|---:|---|---:|
 | Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **{c['family_claude']}** | 未確認 | {c['pending']} |
-| Gemini（4 Argon / 4 Carbon） | **{c['family_gemini']}** | プロンプトのみ | {c['prompt_only']} |
+| Gemini（4 Carbon / 4 Argon） | **{c['family_gemini']}** | プロンプトのみ | {c['prompt_only']} |
 | GPT-6.2 Sol / Astra（コード。公開文書は GPT-6.1 Sol） | **{c['family_gpt-code']}** | 重複 / 不採用 | {c['excluded']} |
 | Grok（4.7 / Imagine） | **{c['family_grok']}** | 2.5 / 宣伝 / 複数モデル / 失敗 / Morphic / X 以外の候補 | {c['appendix']} |
 | Qwen（3.8） | **{c['family_qwen']}** | リポジトリの種（ローカル例） | {c['repo_seeds']} |
@@ -991,7 +1137,7 @@ Independent community project. Organized by model family, then version. Current 
 A sourced catalog of real production cases from the latest large models and from the previous generation that is still mainstream: GIFs, animations, HTML and game demos, and images. Each record keeps the post, author, prompt-or-empty, model evidence, pipeline, verification, and license boundary. GPT Image 2.6 is the still-mainstream local-archive family, not the center of the catalog.
 
 ## What is in the current inventory?
-Main collected {c['main_collected']} = other families {c['frontier_sourced']} (Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT-6.2 Sol {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}) + GPT Image {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}). Non-GPT families are source-linked by default. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Claude Mythos 5.2 is named in the inventory and has no separate sourced case. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English, Simplified Chinese, Traditional Chinese, and Japanese READMEs share this inventory. Showcase collection sites: playbooks/research/showcase-collection-sites.json.
+Main collected {c['main_collected']} = other families {c['frontier_sourced']} (Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT-6.2 Sol {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}) + GPT Image {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}). Non-GPT families are source-linked by default. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Claude Mythos 5.2 is named in the inventory and has no separate sourced case. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English, Simplified Chinese, Traditional Chinese, and Japanese READMEs share this inventory. Showcase collection sites: playbooks/research/showcase-collection-sites.json. Case index: docs/showcase-index.md and data/showcase-index.json.
 
 ## What can I do with it?
 Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.

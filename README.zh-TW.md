@@ -23,19 +23,86 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 ## 目錄
 
-- [Claude](#claude) — Fable 5.2 · Mythos 5.2 · Opus 5.5
-- [Gemini](#gemini) — 4 Argon · 4 Carbon
-- [GPT-6.2 Sol](#gpt-code) — GPT-6.2 Sol · GPT-6.1 Sol
-- [Grok](#grok) — Grok 4.7 · Imagine Video
-- [Qwen](#qwen) — Qwen3.8
-- [DeepSeek](#deepseek) — V4.1 Flash
-- [GPT Image](#gpt-image) — 2.6
+### 按模型
+- [Claude](#claude) — [Claude Fable 5.2](#ver-claude-fable-5-2) · [Claude Mythos 5.2](#ver-claude-mythos-5-2) · [Claude Opus 5.5](#ver-claude-opus-5-5)
+- [Gemini](#gemini) — [Gemini 4 Carbon](#ver-gemini-4-carbon) · [Gemini 4 Argon](#ver-gemini-4-argon)
+- [GPT-6.2 Sol](#gpt-code) — [GPT-6.2 Sol](#ver-gpt-6-2-sol) · [GPT-6.1 Sol](#ver-gpt-6-1-sol)
+- [Grok](#grok) — [Grok 4.7](#ver-grok-4-7) · [Grok Imagine Video](#ver-grok-imagine-video)
+- [Qwen](#qwen) — [Qwen3.8 27B](#ver-qwen3-8-27b)
+- [DeepSeek](#deepseek) — [DeepSeek V4.1 Flash 1017](#ver-deepseek-v4-1-flash-1017) · [DeepSeek V4.1 Flash](#ver-deepseek-v4-1-flash)
+- [GPT Image](#gpt-image) — [GPT Image 2.6](#ver-gpt-image-2-6)
+
+### 按類型
+- [動圖 / GIF](#type-gif)
+- [動畫 / 動效](#type-animation)
+- [HTML / 3D 場景](#type-html-3d)
+- [小遊戲](#type-minigame)
+- [圖像](#type-image)
+
+### 最新收錄
+- [有日期的最新案例](#latest)
+- [案例總表](docs/showcase-index.md)
+
 - [案例收集網站](#collection-sites)
 - [怎麼用](#how-to-use)
 - [怎麼投稿](#contribute)
 - [媒體權利](#rights)
 - [常見問題](#faq)
 - [完整證據表](#catalog)
+
+<a id="latest"></a>
+## 最新收錄
+只排有完整日期的案例，新的在前。沒有日期的不放進這一條。
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/YFeng2022/status/2120324811549225082"><img src="assets/thumbs/x-yfeng-gpt61-sol-fable-take-flight.jpg" alt="Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max) — @YFeng2022（LanFeng）" width="220"></a><br>
+<strong><a href="docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md">Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)</a></strong><br>
+署名: @YFeng2022（LanFeng）<br><a href="https://x.com/YFeng2022/status/2120324811549225082">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/StatsWire/status/2120344850071540152"><img src="assets/thumbs/x-statswire-gemini-carbon-nyc-cruiser.jpg" alt="Interactive 3D NYC cruiser tour in one HTML file (Three.js) — @StatsWire" width="220"></a><br>
+<strong><a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md">Interactive 3D NYC cruiser tour in one HTML file (Three.js)</a></strong><br>
+署名: @StatsWire<br><a href="https://x.com/StatsWire/status/2120344850071540152">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/RadCyberTruck/status/2120350558431445006"><img src="assets/thumbs/x-radcybertruck-grok-imagine-cybertruck-cry.jpg" alt="Grok Imagine — pixstar Cybertruck farewell clip (partial prompt) — @RadCyberTruck" width="220"></a><br>
+<strong><a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md">Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)</a></strong><br>
+署名: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558431445006">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
+<strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
+署名: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
+<strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
+署名: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
+<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
+署名: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/"><img src="assets/thumbs/web-ofox-fable52-svg-sailboat.jpg" alt="Editable SVG sailboat illustration with CSS motion (two API calls) — Ofox" width="220"></a><br>
+<strong><a href="docs/cases/web-ofox-fable52-svg-sailboat/README.md">Editable SVG sailboat illustration with CSS motion (two API calls)</a></strong><br>
+署名: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Raitox_tech/status/2120125234129084492"><img src="assets/thumbs/x-raitoox-sol-stranger-things-credits.jpg" alt="Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames) — @Raitox_tech" width="220"></a><br>
+<strong><a href="docs/cases/x-raitoox-sol-stranger-things-credits/README.md">Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)</a></strong><br>
+署名: @Raitox_tech<br><a href="https://x.com/Raitox_tech/status/2120125234129084492">原帖</a>
+</td>
+</tr>
+</table>
+
 
 <a id="showcase"></a>
 ## 按模型家族看案例
@@ -48,11 +115,26 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 這個家族收了 7 則有出處的案例，這裡放 3 則。其餘都在後面的完整證據表。
 
+<a id="ver-claude-fable-5-2"></a>
+
 ### Claude Fable 5.2
 
-- **One-prompt motion designer showreel (timing, easing, shape, type)** · @himanshutwtxs · [案例](docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md) · [原帖](https://x.com/himanshutwtxs/status/2120017106804900304) · [原文提示詞](docs/cases/x-himanshutwtxs-fable52-motion-showreel/prompt.md) · 做法: Code-driven motion graphics · captured as video on X
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/himanshutwtxs/status/2120017106804900304"><img src="assets/thumbs/x-himanshutwtxs-fable52-motion-showreel.jpg" alt="One-prompt motion designer showreel (timing, easing, shape, type) — @himanshutwtxs" width="220"></a><br>
+<strong><a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md">One-prompt motion designer showreel (timing, easing, shape, type)</a></strong><br>
+署名: @himanshutwtxs<br><a href="https://x.com/himanshutwtxs/status/2120017106804900304">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/wshuyi/status/2120014892040417720"><img src="assets/thumbs/x-wshuyi-fable52-sabertooth-hunt.jpg" alt="纯编程动画：剑齿虎捕猎野牛（自编程音效） — @wshuyi" width="220"></a><br>
+<strong><a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md">纯编程动画：剑齿虎捕猎野牛（自编程音效）</a></strong><br>
+署名: @wshuyi<br><a href="https://x.com/wshuyi/status/2120014892040417720">原帖</a>
+</td>
+</tr>
+</table>
 
-- **纯编程动画：剑齿虎捕猎野牛（自编程音效）** · @wshuyi · [案例](docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md) · [原帖](https://x.com/wshuyi/status/2120014892040417720) · [原文提示詞](docs/cases/x-wshuyi-fable52-sabertooth-hunt/prompt.md) · 做法: Pure code animation + synthesized SFX · recorded to video
+<a id="ver-claude-mythos-5-2"></a>
 
 ### Claude Mythos 5.2
 
@@ -60,9 +142,19 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 > Claude Mythos 5.2: announced, but no dedicated GIF/animation case with a verified primary URL included
 
+<a id="ver-claude-opus-5-5"></a>
+
 ### Claude Opus 5.5
 
-- **Isometric day/night city HTML loop — Claude Opus 5.5** · James Greene (model comparison archive) · [案例](docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md) · [原帖](https://jamesgreene.com/models/) · [原文提示詞](docs/cases/web-jamesgreene-code1-opus55-isometric-city/prompt.md) · 做法: Self-contained HTML/CSS/JS animation · recorded also as MP4 on same page
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-opus55-isometric-city.jpg" alt="Isometric day/night city HTML loop — Claude Opus 5.5 — James Greene (model comparison archive)" width="220"></a><br>
+<strong><a href="docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md">Isometric day/night city HTML loop — Claude Opus 5.5</a></strong><br>
+署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
+</td>
+</tr>
+</table>
 
 
 
@@ -72,15 +164,38 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 這個家族 3 則有出處的案例都列在這裡。後面的完整證據表是同一批紀錄。
 
-### Gemini 4 Argon
-
-- **Isometric day/night city HTML loop — Gemini 4 Argon** · James Greene (model comparison archive) · [案例](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md) · [原帖](https://jamesgreene.com/models/) · [原文提示詞](docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/prompt.md) · 做法: Self-contained HTML/CSS/JS animation
+<a id="ver-gemini-4-carbon"></a>
 
 ### Gemini 4 Carbon
 
-- **Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试** · @coodddaaaa（Joe William） · [案例](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md) · [原帖](https://x.com/coodddaaaa/status/2120363353142911078) · [未公開](docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/prompt.md) · 做法: HTML animation + model-made demo video capture
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
+<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
+署名: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/StatsWire/status/2120344850071540152"><img src="assets/thumbs/x-statswire-gemini-carbon-nyc-cruiser.jpg" alt="Interactive 3D NYC cruiser tour in one HTML file (Three.js) — @StatsWire" width="220"></a><br>
+<strong><a href="docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md">Interactive 3D NYC cruiser tour in one HTML file (Three.js)</a></strong><br>
+署名: @StatsWire<br><a href="https://x.com/StatsWire/status/2120344850071540152">原帖</a>
+</td>
+</tr>
+</table>
 
-- **Interactive 3D NYC cruiser tour in one HTML file (Three.js)** · @StatsWire · [案例](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/README.md) · [原帖](https://x.com/StatsWire/status/2120344850071540152) · [未公開](docs/cases/x-statswire-gemini-carbon-nyc-cruiser/prompt.md) · 做法: Three.js single-file scene · screen-recorded video
+<a id="ver-gemini-4-argon"></a>
+
+### Gemini 4 Argon
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-gemini4-argon-isometric-city.jpg" alt="Isometric day/night city HTML loop — Gemini 4 Argon — James Greene (model comparison archive)" width="220"></a><br>
+<strong><a href="docs/cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md">Isometric day/night city HTML loop — Gemini 4 Argon</a></strong><br>
+署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
+</td>
+</tr>
+</table>
 
 
 
@@ -92,15 +207,38 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 目錄分欄名 **GPT-6.2 Sol** 按倉庫主人確認。截至 2026-11-11，OpenAI 公開文件仍寫 **GPT-6.1 Sol**（[介紹頁](https://openai.com/index/introducing-gpt-6-1-sol/)、[Models](https://platform.openai.com/docs/models)）；本倉不編造官方 6.2 發布聲明。
 
+<a id="ver-gpt-6-2-sol"></a>
+
 ### GPT-6.2 Sol
 
-- **GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)** · @marcthecreatorr（Marcel） · [案例](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md) · [原帖](https://x.com/marcthecreatorr/status/2119503438405136765) · [短 / 部分](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/prompt.md) · 做法: Three.js interactive ship · comparison video
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/marcthecreatorr/status/2119503438405136765"><img src="assets/thumbs/x-marcthecreatorr-gpt62sol-sailing-ship.jpg" alt="GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt) — @marcthecreatorr（Marcel）" width="220"></a><br>
+<strong><a href="docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md">GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)</a></strong><br>
+署名: @marcthecreatorr（Marcel）<br><a href="https://x.com/marcthecreatorr/status/2119503438405136765">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/HarshithLucky3/status/2119418918616150080"><img src="assets/thumbs/x-harshithlucky3-gpt62sol-pelican-svg-animation.jpg" alt="SVG animation: pelican and 2 crabs riding bicycles (Codex routing) — @HarshithLucky3（Harshith）" width="220"></a><br>
+<strong><a href="docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md">SVG animation: pelican and 2 crabs riding bicycles (Codex routing)</a></strong><br>
+署名: @HarshithLucky3（Harshith）<br><a href="https://x.com/HarshithLucky3/status/2119418918616150080">原帖</a>
+</td>
+</tr>
+</table>
 
-- **SVG animation: pelican and 2 crabs riding bicycles (Codex routing)** · @HarshithLucky3（Harshith） · [案例](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md) · [原帖](https://x.com/HarshithLucky3/status/2119418918616150080) · [短 / 部分](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/prompt.md) · 做法: SVG animation via Codex · recorded video
+<a id="ver-gpt-6-1-sol"></a>
 
 ### GPT-6.1 Sol
 
-- **Isometric day/night city HTML loop — GPT-6.1 Sol** · James Greene (model comparison archive) · [案例](docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/README.md) · [原帖](https://jamesgreene.com/models/) · [原文提示詞](docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/prompt.md) · 做法: Self-contained HTML/CSS/JS animation
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-gpt61-sol-isometric-city.jpg" alt="Isometric day/night city HTML loop — GPT-6.1 Sol — James Greene (model comparison archive)" width="220"></a><br>
+<strong><a href="docs/cases/web-jamesgreene-code1-gpt61-sol-isometric-city/README.md">Isometric day/night city HTML loop — GPT-6.1 Sol</a></strong><br>
+署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
+</td>
+</tr>
+</table>
 
 
 
@@ -110,13 +248,33 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 這個家族 2 則有出處的案例都列在這裡。後面的完整證據表是同一批紀錄。
 
+<a id="ver-grok-4-7"></a>
+
 ### Grok 4.7
 
-- **Isometric day/night city HTML loop — Grok 4.7** · James Greene (model comparison archive) · [案例](docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md) · [原帖](https://jamesgreene.com/models/) · [原文提示詞](docs/cases/web-jamesgreene-code1-grok47-isometric-city/prompt.md) · 做法: Self-contained HTML/CSS/JS animation (code model, not Grok Imagine Video)
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-grok47-isometric-city.jpg" alt="Isometric day/night city HTML loop — Grok 4.7 — James Greene (model comparison archive)" width="220"></a><br>
+<strong><a href="docs/cases/web-jamesgreene-code1-grok47-isometric-city/README.md">Isometric day/night city HTML loop — Grok 4.7</a></strong><br>
+署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
+</td>
+</tr>
+</table>
+
+<a id="ver-grok-imagine-video"></a>
 
 ### Grok Imagine Video
 
-- **Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)** · @RadCyberTruck · [案例](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md) · [原帖](https://x.com/RadCyberTruck/status/2120350558431445006) · [短 / 部分](docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/prompt.md) · 做法: Grok Imagine native video generation (not code-to-GIF)
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/RadCyberTruck/status/2120350558431445006"><img src="assets/thumbs/x-radcybertruck-grok-imagine-cybertruck-cry.jpg" alt="Grok Imagine — pixstar Cybertruck farewell clip (partial prompt) — @RadCyberTruck" width="220"></a><br>
+<strong><a href="docs/cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md">Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)</a></strong><br>
+署名: @RadCyberTruck<br><a href="https://x.com/RadCyberTruck/status/2120350558431445006">原帖</a>
+</td>
+</tr>
+</table>
 
 
 
@@ -126,9 +284,19 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 這個家族 1 則有出處的案例都列在這裡。後面的完整證據表是同一批紀錄。
 
+<a id="ver-qwen3-8-27b"></a>
+
 ### Qwen3.8 27B
 
-- **Isometric day/night city HTML loop — Qwen3.8 27B** · James Greene (model comparison archive) · [案例](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md) · [原帖](https://jamesgreene.com/models/) · [原文提示詞](docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/prompt.md) · 做法: Self-contained HTML/CSS/JS animation
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-qwen38-27b-isometric-city.jpg" alt="Isometric day/night city HTML loop — Qwen3.8 27B — James Greene (model comparison archive)" width="220"></a><br>
+<strong><a href="docs/cases/web-jamesgreene-code1-qwen38-27b-isometric-city/README.md">Isometric day/night city HTML loop — Qwen3.8 27B</a></strong><br>
+署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
+</td>
+</tr>
+</table>
 
 清單裡還記了一版，沒有單獨案例。原文如下：
 
@@ -142,13 +310,33 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 這個家族 2 則有出處的案例都列在這裡。後面的完整證據表是同一批紀錄。
 
+<a id="ver-deepseek-v4-1-flash-1017"></a>
+
 ### DeepSeek V4.1 Flash 1017
 
-- **Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017** · James Greene (model comparison archive) · [案例](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md) · [原帖](https://jamesgreene.com/models/) · [原文提示詞](docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/prompt.md) · 做法: Self-contained HTML/CSS/JS animation
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.jpg" alt="Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017 — James Greene (model comparison archive)" width="220"></a><br>
+<strong><a href="docs/cases/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city/README.md">Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017</a></strong><br>
+署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
+</td>
+</tr>
+</table>
+
+<a id="ver-deepseek-v4-1-flash"></a>
 
 ### DeepSeek V4.1 Flash
 
-- **Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol** · @LatentOperatorX · [案例](docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md) · [原帖](https://x.com/LatentOperatorX/status/2120205377803518132) · [短 / 部分](docs/cases/x-latentoperator-a380-deepseek-fable-sol/prompt.md) · 做法: Three.js single-scene challenge · comparison video
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/LatentOperatorX/status/2120205377803518132"><img src="assets/thumbs/x-latentoperator-a380-deepseek-fable-sol.jpg" alt="Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol — @LatentOperatorX" width="220"></a><br>
+<strong><a href="docs/cases/x-latentoperator-a380-deepseek-fable-sol/README.md">Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 So</a></strong><br>
+署名: @LatentOperatorX<br><a href="https://x.com/LatentOperatorX/status/2120205377803518132">原帖</a>
+</td>
+</tr>
+</table>
 
 
 
@@ -158,6 +346,8 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 
 這個家族收了 51 則有出處的案例，這裡放 3 則。其餘都在後面的完整證據表。
 
+<a id="ver-gpt-image-2-6"></a>
+
 ### GPT Image 2.6
 
 上一代仍在主流使用的圖像模型。下面三張是這些案例已經歸檔的本地素材，不是新生成的圖。
@@ -165,27 +355,160 @@ AI 模型製作案例集收錄最新一代大型模型（Claude Fable 5.2 / Myth
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md"><img src="docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif" alt="角色貼紙 by Linger（Lightlyn Images）" width="200"></a><br>
+<a href="https://image.lightlyn.com/gpt-image-2-6?lang=en"><img src="assets/thumbs/lightlyn-orange-cat-mascot-gif.jpg" alt="角色貼紙 by Linger（Lightlyn Images）" width="220"></a><br>
 <strong><a href="docs/cases/lightlyn-orange-cat-mascot-gif/README.md">角色貼紙</a></strong><br>
-Linger（Lightlyn Images）<br><sub>公開的吉祥物動畫提示詞</sub><br>
-<a href="docs/cases/lightlyn-orange-cat-mascot-gif/prompt.md">原文提示詞</a> · <a href="https://image.lightlyn.com/gpt-image-2-6?lang=en">原帖</a>
+署名: Linger（Lightlyn Images）<br><sub>公開的吉祥物動畫提示詞</sub><br>
+<a href="docs/cases/lightlyn-orange-cat-mascot-gif/prompt.md">原文提示詞</a> · <a href="https://image.lightlyn.com/gpt-image-2-6?lang=en">原帖</a> · <a href="docs/cases/lightlyn-orange-cat-mascot-gif/media/01-gif.gif">GIF</a>
 </td>
 <td align="center" width="33%">
-<a href="docs/cases/veevid-perfume-light-sweep-gif/README.md"><img src="docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif" alt="產品循環 by Veevid Team" width="200"></a><br>
+<a href="https://veevid.ai/blog/gpt-image-2-6-gif"><img src="assets/thumbs/veevid-perfume-light-sweep-gif.jpg" alt="產品循環 by Veevid Team" width="220"></a><br>
 <strong><a href="docs/cases/veevid-perfume-light-sweep-gif/README.md">產品循環</a></strong><br>
-Veevid Team<br><sub>固定機位光線掃過</sub><br>
-<a href="docs/cases/veevid-perfume-light-sweep-gif/prompt.md">原文提示詞</a> · <a href="https://veevid.ai/blog/gpt-image-2-6-gif">原帖</a>
+署名: Veevid Team<br><sub>固定機位光線掃過</sub><br>
+<a href="docs/cases/veevid-perfume-light-sweep-gif/prompt.md">原文提示詞</a> · <a href="https://veevid.ai/blog/gpt-image-2-6-gif">原帖</a> · <a href="docs/cases/veevid-perfume-light-sweep-gif/media/01-gif.gif">GIF</a>
 </td>
 <td align="center" width="33%">
-<a href="docs/cases/ravivit-paper-boat-gif/README.md"><img src="docs/cases/ravivit-paper-boat-gif/media/01-gif.gif" alt="紙船循環 by ラビビット | AI活用メディア（Ravivit）" width="200"></a><br>
+<a href="https://note.com/ravivit_ai/n/nb8f40b5a21b9"><img src="assets/thumbs/ravivit-paper-boat-gif.jpg" alt="紙船循環 by ラビビット | AI活用メディア（Ravivit）" width="220"></a><br>
 <strong><a href="docs/cases/ravivit-paper-boat-gif/README.md">紙船循環</a></strong><br>
-ラビビット | AI活用メディア（Ravivit）<br><sub>來源動作描述，逐字原文未確認</sub><br>
-<a href="docs/cases/ravivit-paper-boat-gif/prompt.md">來源動作描述</a> · <a href="https://note.com/ravivit_ai/n/nb8f40b5a21b9">原帖</a>
+署名: ラビビット | AI活用メディア（Ravivit）<br><sub>來源動作描述，逐字原文未確認</sub><br>
+<a href="docs/cases/ravivit-paper-boat-gif/prompt.md">來源動作描述</a> · <a href="https://note.com/ravivit_ai/n/nb8f40b5a21b9">原帖</a> · <a href="docs/cases/ravivit-paper-boat-gif/media/01-gif.gif">GIF</a>
 </td>
 </tr>
 </table>
 
 只核過是多幀檔案，沒有重跑生成。紙船那則保留「逐字原文未確認」。預覽不等於可以拿去用。
+
+
+<a id="by-type"></a>
+## 按類型
+
+<a id="type-gif"></a>
+### 動圖 / GIF
+這一類 47 則。下面最多四張有縮圖的預覽。
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://developers.openai.com/api/docs/guides/image-prompting"><img src="assets/thumbs/official-lantern-monkey-gif.jpg" alt="原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位 — OpenAI" width="220"></a><br>
+<strong><a href="docs/cases/official-lantern-monkey-gif/README.md">原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位</a></strong><br>
+署名: OpenAI<br><a href="https://developers.openai.com/api/docs/guides/image-prompting">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/"><img src="assets/thumbs/reddit-anime-nod-gif.jpg" alt="参考角色图→动漫点头闭眼循环 — 未知（r/OpenAI 帖作者；本轮JSON接口被拦未能取handle）" width="220"></a><br>
+<strong><a href="docs/cases/reddit-anime-nod-gif/README.md">参考角色图→动漫点头闭眼循环</a></strong><br>
+署名: 未知（r/OpenAI 帖作者；本轮JSON接口被拦未能取handle）<br><a href="https://www.reddit.com/r/OpenAI/comments/1xoh2u0/i_tried_the_new_image_26_gif_feature/">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/Krouxzz/status/2118283796181053637"><img src="assets/thumbs/krouxzz-wave-ref.jpg" alt="角色挥手循环 — @Krouxzz" width="220"></a><br>
+<strong><a href="docs/cases/krouxzz-wave-ref/README.md">角色挥手循环</a></strong><br>
+署名: @Krouxzz<br><a href="https://x.com/Krouxzz/status/2118283796181053637">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://image.lightlyn.com/gpt-image-2-6?lang=en"><img src="assets/thumbs/lightlyn-earbuds-case-gif.jpg" alt="商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环 — Linger（Lightlyn Images）" width="220"></a><br>
+<strong><a href="docs/cases/lightlyn-earbuds-case-gif/README.md">商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环</a></strong><br>
+署名: Linger（Lightlyn Images）<br><a href="https://image.lightlyn.com/gpt-image-2-6?lang=en">原帖</a>
+</td>
+</tr>
+</table>
+[案例總表](docs/showcase-index.md#gif)
+
+<a id="type-animation"></a>
+### 動畫 / 動效
+這一類 7 則。下面最多四張有縮圖的預覽。
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/himanshutwtxs/status/2120017106804900304"><img src="assets/thumbs/x-himanshutwtxs-fable52-motion-showreel.jpg" alt="One-prompt motion designer showreel (timing, easing, shape, type) — @himanshutwtxs" width="220"></a><br>
+<strong><a href="docs/cases/x-himanshutwtxs-fable52-motion-showreel/README.md">One-prompt motion designer showreel (timing, easing, shape, type)</a></strong><br>
+署名: @himanshutwtxs<br><a href="https://x.com/himanshutwtxs/status/2120017106804900304">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/wshuyi/status/2120014892040417720"><img src="assets/thumbs/x-wshuyi-fable52-sabertooth-hunt.jpg" alt="纯编程动画：剑齿虎捕猎野牛（自编程音效） — @wshuyi" width="220"></a><br>
+<strong><a href="docs/cases/x-wshuyi-fable52-sabertooth-hunt/README.md">纯编程动画：剑齿虎捕猎野牛（自编程音效）</a></strong><br>
+署名: @wshuyi<br><a href="https://x.com/wshuyi/status/2120014892040417720">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://halilsekeroglu.com/en/fable/"><img src="assets/thumbs/web-halil-fable52-animation-prompts.jpg" alt="Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D) — Halil Sekeroglu" width="220"></a><br>
+<strong><a href="docs/cases/web-halil-fable52-animation-prompts/README.md">Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D)</a></strong><br>
+署名: Halil Sekeroglu<br><a href="https://halilsekeroglu.com/en/fable/">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/"><img src="assets/thumbs/web-ofox-fable52-svg-sailboat.jpg" alt="Editable SVG sailboat illustration with CSS motion (two API calls) — Ofox" width="220"></a><br>
+<strong><a href="docs/cases/web-ofox-fable52-svg-sailboat/README.md">Editable SVG sailboat illustration with CSS motion (two API calls)</a></strong><br>
+署名: Ofox<br><a href="https://ofox.ai/blog/claude-fable-5-2-svg-guide/">原帖</a>
+</td>
+</tr>
+</table>
+[案例總表](docs/showcase-index.md#animation)
+
+<a id="type-html-3d"></a>
+### HTML / 3D 場景
+這一類 19 則。下面最多四張有縮圖的預覽。
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/MengTo/status/2120316203738829180"><img src="assets/thumbs/x-mengto-fable52-blender-apartment.jpg" alt="Recreate a Three.js apartment in Blender with Fable 5.2 — @MengTo（Meng To）" width="220"></a><br>
+<strong><a href="docs/cases/x-mengto-fable52-blender-apartment/README.md">Recreate a Three.js apartment in Blender with Fable 5.2</a></strong><br>
+署名: @MengTo（Meng To）<br><a href="https://x.com/MengTo/status/2120316203738829180">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/paleknight/status/2120368418805174639"><img src="assets/thumbs/x-paleknight-fable52-vs-opus55-ship.jpg" alt="Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side) — @paleknight（Vraj）" width="220"></a><br>
+<strong><a href="docs/cases/x-paleknight-fable52-vs-opus55-ship/README.md">Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)</a></strong><br>
+署名: @paleknight（Vraj）<br><a href="https://x.com/paleknight/status/2120368418805174639">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://jamesgreene.com/models/"><img src="assets/thumbs/web-jamesgreene-code1-opus55-isometric-city.jpg" alt="Isometric day/night city HTML loop — Claude Opus 5.5 — James Greene (model comparison archive)" width="220"></a><br>
+<strong><a href="docs/cases/web-jamesgreene-code1-opus55-isometric-city/README.md">Isometric day/night city HTML loop — Claude Opus 5.5</a></strong><br>
+署名: James Greene (model comparison archive)<br><a href="https://jamesgreene.com/models/">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/coodddaaaa/status/2120363353142911078"><img src="assets/thumbs/x-coodddaaaa-gemini-carbon-pelican-bike.jpg" alt="Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 — @coodddaaaa（Joe William）" width="220"></a><br>
+<strong><a href="docs/cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md">Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试</a></strong><br>
+署名: @coodddaaaa（Joe William）<br><a href="https://x.com/coodddaaaa/status/2120363353142911078">原帖</a>
+</td>
+</tr>
+</table>
+[案例總表](docs/showcase-index.md#html-3d)
+
+<a id="type-minigame"></a>
+### 小遊戲
+這一類 4 則。下面最多四張有縮圖的預覽。
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/Daft_Trade/status/2118283025498906800"><img src="assets/thumbs/game-daft-pixel-combo.jpg" alt="像素三连击 / 翻滚 / 法术（跳跃事后压背景） — Daft_Trade @Daft_Trade · 作者声明 2.6；跳跃承认 flatten 去闪烁 · 4 条 MP4=1 案例 · 未观看" width="220"></a><br>
+<strong><a href="docs/cases/game-daft-pixel-combo/README.md">像素三连击 / 翻滚 / 法术（跳跃事后压背景）</a></strong><br>
+署名: Daft_Trade @Daft_Trade · 作者声明 2.6；跳跃承认 flatten 去闪烁 · 4 条 MP4=1 案例 · 未观看<br><a href="https://x.com/Daft_Trade/status/2118283025498906800">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://x.com/maker_evan/status/2118222694345040253"><img src="assets/thumbs/game-maker-evan-fox-ronin.jpg" alt="狐浪人网页游戏：2.6 出表、另一 agent 切帧 — maker_evan @maker_evan · 游戏 agent one-shot 已公开；图像 prompt 未公开 · 未观看 MP4" width="220"></a><br>
+<strong><a href="docs/cases/game-maker-evan-fox-ronin/README.md">狐浪人网页游戏：2.6 出表、另一 agent 切帧</a></strong><br>
+署名: maker_evan @maker_evan · 游戏 agent one-shot 已公开；图像 prompt 未公开 · 未观看 MP4<br><a href="https://x.com/maker_evan/status/2118222694345040253">原帖</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md"><img src="assets/thumbs/game-varg-knight-run.jpg" alt="骑士跑循环：作者声明 2.6 出表再切帧 — vargHQ gpt-image-sprite-sheet · 作者声明 gpt_image_2_6 · 非 OpenAI 官方验证 · 未复测" width="220"></a><br>
+<strong><a href="docs/cases/game-varg-knight-run/README.md">骑士跑循环：作者声明 2.6 出表再切帧</a></strong><br>
+署名: vargHQ gpt-image-sprite-sheet · 作者声明 gpt_image_2_6 · 非 OpenAI 官方验证 · 未复测<br><a href="https://github.com/vargHQ/skills/blob/main/gpt-image-sprite-sheet/SKILL.md">原帖</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://x.com/xiaomovps/status/2118274032227471705"><img src="assets/thumbs/game-xiaomovps-fighter.jpg" alt="复古格斗出拳 / 蓄力循环 — 小墨同学 @xiaomovps · 作者声明 Images 2.6 · X animated_gif→MP4 · 未见引擎内运行" width="220"></a><br>
+<strong><a href="docs/cases/game-xiaomovps-fighter/README.md">复古格斗出拳 / 蓄力循环</a></strong><br>
+署名: 小墨同学 @xiaomovps · 作者声明 Images 2.6 · X animated_gif→MP4 · 未见引擎内运行<br><a href="https://x.com/xiaomovps/status/2118274032227471705">原帖</a>
+</td>
+</tr>
+</table>
+[案例總表](docs/showcase-index.md#minigame)
+
+<a id="type-image"></a>
+### 圖像
+這一類 0 則。下面最多四張有縮圖的預覽。
+[案例總表](docs/showcase-index.md#image)
 
 
 <a id="collection-sites"></a>
@@ -277,7 +600,7 @@ python3 tools/verify.py
 | 模型家族 / 分欄 | 數 | 附表（不計入主表） | 數 |
 |---|---:|---|---:|
 | Claude（Fable 5.2 / Mythos 5.2 / Opus 5.5） | **7** | 待核 | 12 |
-| Gemini（4 Argon / 4 Carbon） | **3** | 純 prompt | 1 |
+| Gemini（4 Carbon / 4 Argon） | **3** | 純 prompt | 1 |
 | GPT-6.2 Sol / Astra（程式；公開文件仍寫 GPT-6.1 Sol） | **11** | 重複/不合格 | 9 |
 | Grok（4.7 / Imagine） | **2** | 2.5 / 宣傳 / 多模型 / 失敗 / Morphic / 非X候選 | 50 |
 | Qwen（3.8） | **1** | 倉庫種子（本倉示例） | 6 |
@@ -289,7 +612,7 @@ python3 tools/verify.py
 | · 遊戲 · 作者聲明 | **4** | | |
 | **主表合計** | **77** | | |
 
-數字來自[同一份產生目錄](docs/data/community-cases.json)。來源清單最近更新：**2026-11-11**。主表是收錄數，不是已經重現成功的數。**77 則裡有 50 則拿到了本地素材**；[路飛長文](docs/cases/luffy-x-article/README.md)存了提示詞，附件沒取到。其他家族預設只留出處，除非那一則單獨寫了授權。
+數字來自[同一份產生目錄](docs/data/community-cases.json)。來源清單最近更新：**2026-11-11**。主表是收錄數，不是已經重現成功的數。**77 則裡有 50 則拿到了本地素材**；[路飛長文](docs/cases/luffy-x-article/README.md)存了提示詞，附件沒取到。其他家族的完整檔案預設只留出處，除非那一則單獨寫了授權。`assets/thumbs/` 裡的導覽縮圖是帶署名、鏈回原帖的小圖。逐則總表在 [docs/showcase-index.md](docs/showcase-index.md)。
 
 ### 完整出處與證據表
 

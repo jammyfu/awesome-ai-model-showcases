@@ -46,6 +46,9 @@ def main() -> int:
             "llms.txt",
             "docs/llms.txt",
             "docs/github-about.json",
+            "docs/showcase-index.md",
+            "data/showcase-index.json",
+            "docs/missing-thumbnails.md",
         ]
     )
     run([py, str(ROOT / "tools/validate_community.py")])
