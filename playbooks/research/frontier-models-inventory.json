@@ -6,11 +6,11 @@
       "Only real public cases with working source URLs",
       "Never invent prompts, authors, or URLs",
       "Default media_storage=source_link_only (no unauthorized rehost)",
-      "Mark unofficial/greyscale model names honestly"
+      "GPT Sol section labeled GPT-6.2 Sol per owner; note OpenAI public pages still say 6.1 when relevant"
     ],
     "unverified_or_missing": [
-      "Claude Mythos 5.2: announced, but no dedicated GIF/animation case with a verified primary URL included in this pass",
-      "GPT-6.2 Sol: only author-reported/greyscale sightings; official Sol name used is GPT-6.1 Sol",
+      "Claude Mythos 5.2: announced, but no dedicated GIF/animation case with a verified primary URL included",
+      "GPT-6.2 Sol: OpenAI public docs/API still list GPT-6.1 Sol only (checked 2026-11-11); community/owner greyscale routing demos are labeled GPT-6.2 Sol with that dual-status note",
       "Qwen 3.8 Flash Next: no separate Flash Next HTML/GIF case verified beyond Qwen3.8 27B jamesgreene run"
     ]
   },
@@ -48,14 +48,14 @@
     },
     "gpt-code": {
       "versions": {
-        "gpt-6.1-sol": {
-          "status": "official",
-          "launched": "2026-09-29",
-          "notes": "Official OpenAI Sol model; owner alias 'GPT Sol 5.2' maps here"
-        },
         "gpt-6.2-sol": {
-          "status": "unofficial/greyscale sighting",
-          "notes": "User-reported Nov 2026 routing; not treated as official API catalog id"
+          "status": "community/owner-confirmed greyscale routing; not on OpenAI public catalog as of 2026-11-11",
+          "notes": "Owner confirms catalog section uses GPT-6.2 Sol. OpenAI public pages still list GPT-6.1 Sol (https://openai.com/index/introducing-gpt-6-1-sol/ and platform.openai.com/docs/models). Do not invent an official 6.2 announcement."
+        },
+        "gpt-6.1-sol": {
+          "status": "official OpenAI Sol in public docs/API",
+          "launched": "2026-09-29",
+          "notes": "Still the only Sol id on OpenAI public model pages as of 2026-11-11; some comparison archives label runs GPT-6.1 Sol."
         }
       }
     },
@@ -292,11 +292,12 @@
       "date": "2026-11-05",
       "prompt": "Build one self-contained HTML file: inline CSS and JavaScript only, no libraries, no external files, no network requests. Show an animated isometric city block that goes from day to night and back in a 12-second loop: the sky changes colour, windows light up at dusk, cars with headlights drive along the streets, and a small clock in one corner shows the time of day. It starts on its own when the page loads, needs no input, and fills the browser window at any size.",
       "prompt_status": "有",
-      "model_claim": "jamesgreene.com labeled run: GPT-6.1 Sol (official Sol family name; owner alias 'GPT Sol 5.2' maps here)",
+      "model_claim": "jamesgreene.com labeled run: GPT-6.1 Sol (official Sol family name; owner alias 'GPT Sol 5.2' maps here) · Catalog family section: GPT-6.2 Sol (owner). Source page still labels this run GPT-6.1 Sol; OpenAI public docs also still list 6.1 Sol.",
       "pipeline": "Self-contained HTML/CSS/JS animation",
       "verify": "Public HTML artifact + shared brief · official catalog name GPT-6.1 Sol",
       "license_notes": "比较站归档；本仓仅出处链接",
-      "media_storage": "source_link_only"
+      "media_storage": "source_link_only",
+      "notes": "Dual naming: owner/community section is GPT-6.2 Sol; this artifact's own label is GPT-6.1 Sol."
     },
     {
       "id": "web-atelier-gpt61-sol-ten-frame-loops",
@@ -310,16 +311,17 @@
       "date": "2026-11",
       "prompt": "",
       "prompt_status": "短/部分",
-      "model_claim": "Exhibition column: OpenAI GPT-6.1 Sol max effort · shared briefs per row",
+      "model_claim": "Exhibition column: OpenAI GPT-6.1 Sol max effort · shared briefs per row · Catalog family section: GPT-6.2 Sol (owner). Source page still labels this run GPT-6.1 Sol; OpenAI public docs also still list 6.1 Sol.",
       "pipeline": "Ten-frame looping animations (1 fps) · briefs readable on site",
       "verify": "Public exhibition page · briefs on site · exact per-piece prompt text partial unless opened per tile",
       "license_notes": "展览站原作；本仓仅出处链接",
-      "media_storage": "source_link_only"
+      "media_storage": "source_link_only",
+      "notes": "Dual naming: owner/community section is GPT-6.2 Sol; this artifact's own label is GPT-6.1 Sol."
     },
     {
       "id": "x-yfeng-gpt61-sol-fable-take-flight",
       "model_family": "gpt-code",
-      "model_version": "gpt-6.1-sol",
+      "model_version": "gpt-6.2-sol",
       "title": "Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)",
       "author": "@YFeng2022（LanFeng）",
       "source_url": "https://x.com/YFeng2022/status/2120324811549225082",
@@ -328,17 +330,17 @@
       "date": "2026-11-11",
       "prompt": "",
       "prompt_status": "空",
-      "model_claim": "Author claim: GPT-6.1 Sol Max via Codex · pure code · zero 3D assets · ~25 min",
+      "model_claim": "Author claim: GPT-6.1 Sol Max via Codex · pure code · zero 3D assets · ~25 min · Relabeled under GPT-6.2 Sol per owner confirmation; OpenAI public pages still document GPT-6.1 Sol.",
       "pipeline": "HTML + Three.js procedural · Python-synth music · recorded video",
       "verify": "Primary X URL · author says prompt in comments (not captured here) · tags also mention GPT62sol (unofficial/greyscale routing sighting — not treated as official model id)",
       "license_notes": "许可未知 · 仅出处链接",
       "media_storage": "source_link_only",
-      "notes": "Official OpenAI Sol model in current catalog is GPT-6.1 Sol. Author hashtags include GPT62sol; treat as unofficial/user-reported, not API catalog."
+      "notes": "Official OpenAI Sol model in current catalog is GPT-6.1 Sol. Author hashtags include GPT62sol; treat as unofficial/user-reported, not API catalog. Section: GPT-6.2 Sol (owner). Fact: OpenAI introducing-gpt-6-1-sol + docs/models still name GPT-6.1 Sol as of 2026-11-11."
     },
     {
       "id": "x-raitoox-sol-stranger-things-credits",
       "model_family": "gpt-code",
-      "model_version": "gpt-6.1-sol",
+      "model_version": "gpt-6.2-sol",
       "title": "Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)",
       "author": "@Raitox_tech",
       "source_url": "https://x.com/Raitox_tech/status/2120125234129084492",
@@ -347,11 +349,12 @@
       "date": "2026-11-10",
       "prompt": "",
       "prompt_status": "空",
-      "model_claim": "Author text says '6.2 sol ULTRA' but cites token spend 'at GPT-6.1 Sol rates' — greyscale/unofficial routing; catalog under GPT-6.1 Sol with honesty note",
+      "model_claim": "Author text says '6.2 sol ULTRA' but cites token spend 'at GPT-6.1 Sol rates' — greyscale/unofficial routing; catalog under GPT-6.1 Sol with honesty note · Owner confirms section name GPT-6.2 Sol; OpenAI public catalog still lists GPT-6.1 Sol (no fabricated official 6.2 launch).",
       "pipeline": "Codex · SVG trace of studio art · HyperFrames animation · music sync",
       "verify": "Primary X URL · unofficial 6.2 Sol wording kept as author claim · official name remains GPT-6.1 Sol",
       "license_notes": "许可未知 · 含第三方影视美术衍生风险 · 仅出处链接",
-      "media_storage": "source_link_only"
+      "media_storage": "source_link_only",
+      "notes": "Section: GPT-6.2 Sol (owner). Fact: OpenAI introducing-gpt-6-1-sol + docs/models still name GPT-6.1 Sol as of 2026-11-11."
     },
     {
       "id": "web-jamesgreene-code1-grok47-isometric-city",
@@ -446,6 +449,136 @@
         "claude-fable-5.2",
         "gpt-6.1-sol"
       ]
+    },
+    {
+      "id": "x-tokengremlin-gpt62sol-threejs-blackhole",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "title": "One-shot Three.js black hole in a single HTML file (author routed to GPT-6.2 Sol)",
+      "author": "@TokenGremlin（Token Gremlin）",
+      "source_url": "https://x.com/TokenGremlin/status/2119395930805879165",
+      "media_url": "https://video.twimg.com/amplify_video/2119394874591944704/vid/avc1/1280x720/ytT6vdW41WAIFnAD.mp4",
+      "media_kind": "mp4",
+      "date": "2026-11-08",
+      "prompt": "",
+      "prompt_status": "空",
+      "model_claim": "Author: \"I'm being routed to GPT-6.2 Sol\" · one-shot Three.js black hole · Owner section: GPT-6.2 Sol · OpenAI public docs still list GPT-6.1 Sol",
+      "pipeline": "Three.js single HTML file · screen/video capture on X",
+      "verify": "Primary X URL working · author routing claim · not OpenAI-verified model id · not re-run",
+      "license_notes": "许可未知 · 仅出处链接（不本地再托管）",
+      "media_storage": "source_link_only",
+      "notes": "Companion post: https://x.com/TokenGremlin/status/2119371334878744648 (floating castle / Three.js HTML demos)"
+    },
+    {
+      "id": "x-tokengremlin-gpt62sol-threejs-scenes-html",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "title": "Three.js scenes from one prompt packed into one HTML file (castle / demos)",
+      "author": "@TokenGremlin（Token Gremlin）",
+      "source_url": "https://x.com/TokenGremlin/status/2119371334878744648",
+      "media_url": "https://video.twimg.com/amplify_video/2119371292654653440/vid/avc1/1280x720/oW8Xv-DCbPDeoijQ.mp4",
+      "media_kind": "mp4",
+      "date": "2026-11-08",
+      "prompt": "",
+      "prompt_status": "空",
+      "model_claim": "Author attributes demos to GPT-6.2 Sol showing up for some ChatGPT users · OpenAI public docs still list GPT-6.1 Sol",
+      "pipeline": "Single-prompt Three.js → one HTML file · captured video",
+      "verify": "Primary X URL · widely quoted sighting hub · not official announcement",
+      "license_notes": "许可未知 · 仅出处链接",
+      "media_storage": "source_link_only"
+    },
+    {
+      "id": "x-marcthecreatorr-gpt62sol-sailing-ship",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "title": "GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)",
+      "author": "@marcthecreatorr（Marcel）",
+      "source_url": "https://x.com/marcthecreatorr/status/2119503438405136765",
+      "media_url": "https://video.twimg.com/amplify_video/2119502925797953536/vid/avc1/1080x1080/HevLyvLAQDgK79XL.mp4",
+      "media_kind": "mp4",
+      "date": "2026-11-08",
+      "prompt": "create an interactive sailing ship in three.js, make it detailed as possible:",
+      "prompt_status": "短/部分",
+      "model_claim": "Author timed GPT 6.2 Sol (~27m, $3) vs Opus 5.5 max (~1h35m, $16) · OpenAI public docs still list GPT-6.1 Sol",
+      "pipeline": "Three.js interactive ship · comparison video",
+      "verify": "Primary X URL · shared short prompt published · timings author-reported",
+      "license_notes": "许可未知 · 仅出处链接",
+      "media_storage": "source_link_only",
+      "also_models": [
+        "claude-opus-5.5"
+      ]
+    },
+    {
+      "id": "x-teddyaisi-gpt62sol-interactive-city",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "title": "One-prompt interactive Three.js city in a single offline HTML file",
+      "author": "@teddyaisi（Teddy）",
+      "source_url": "https://x.com/teddyaisi/status/2119503047646908664",
+      "media_url": "https://video.twimg.com/amplify_video/2119501790601416704/vid/avc1/1680x720/s6fNsseejU6tGzhi.mp4",
+      "media_kind": "mp4",
+      "date": "2026-11-08",
+      "prompt": "",
+      "prompt_status": "空",
+      "model_claim": "Author: first GPT-6.2 Sol one-prompt test · OpenAI public docs still list GPT-6.1 Sol",
+      "pipeline": "Fully interactive Three.js · single HTML · offline",
+      "verify": "Primary X URL · prompt unpublished · not re-run",
+      "license_notes": "许可未知 · 仅出处链接",
+      "media_storage": "source_link_only"
+    },
+    {
+      "id": "x-qingzhoucloud-gpt62sol-floating-castle",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "title": "GPT-6.2 Sol 3D floating castle built with HTML + Three.js",
+      "author": "@qingzhoucloud（产品晓东）",
+      "source_url": "https://x.com/qingzhoucloud/status/2119441137576579448",
+      "media_url": "https://video.twimg.com/amplify_video/2119440105798787072/vid/avc1/1052x720/-oS-eyr9uZt1qp5_.mp4",
+      "media_kind": "mp4",
+      "date": "2026-11-08",
+      "prompt": "",
+      "prompt_status": "空",
+      "model_claim": "Author claim: GPT-6.2 Sol · html + three.js · OpenAI public docs still list GPT-6.1 Sol",
+      "pipeline": "HTML + Three.js scene capture",
+      "verify": "Primary X URL · prompt unpublished",
+      "license_notes": "许可未知 · 仅出处链接",
+      "media_storage": "source_link_only"
+    },
+    {
+      "id": "x-harshithlucky3-gpt62sol-pelican-svg-animation",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "title": "SVG animation: pelican and 2 crabs riding bicycles (Codex routing)",
+      "author": "@HarshithLucky3（Harshith）",
+      "source_url": "https://x.com/HarshithLucky3/status/2119418918616150080",
+      "media_url": "https://video.twimg.com/amplify_video/2119418838148366336/vid/avc1/1280x720/xBDZnt3Ud0rHagfE.mp4",
+      "media_kind": "mp4",
+      "date": "2026-11-08",
+      "prompt": "SVG animation of pelican and 2 crabs riding bicycles side view",
+      "prompt_status": "短/部分",
+      "model_claim": "Author: \"GPT 6.2 Sol max (or another model) in Codex\" / \"my 6.1 sol is routing to another model\" · honest uncertainty kept · OpenAI public docs still list GPT-6.1 Sol",
+      "pipeline": "SVG animation via Codex · recorded video",
+      "verify": "Primary X URL · short prompt published · author notes possible non-6.2 routing",
+      "license_notes": "许可未知 · 仅出处链接",
+      "media_storage": "source_link_only"
+    },
+    {
+      "id": "x-cherriessire-gpt62sol-moon-aurora-threejs",
+      "model_family": "gpt-code",
+      "model_version": "gpt-6.2-sol",
+      "title": "Self-contained Three.js moon scene with red aurora in one HTML file",
+      "author": "@cherriessire",
+      "source_url": "https://x.com/cherriessire/status/2119488351057121420",
+      "media_url": "https://video.twimg.com/amplify_video/2119488276788563968/vid/avc1/1280x720/osvWPOXrO-3GWJ04.mp4",
+      "media_kind": "mp4",
+      "date": "2026-11-08",
+      "prompt": "",
+      "prompt_status": "空",
+      "model_claim": "Author: GPT 6.2 Sol after seeing routing reports · OpenAI public docs still list GPT-6.1 Sol",
+      "pipeline": "Self-contained Three.js HTML render · video capture",
+      "verify": "Primary X URL · prompt unpublished",
+      "license_notes": "许可未知 · 仅出处链接",
+      "media_storage": "source_link_only"
     }
   ]
 }

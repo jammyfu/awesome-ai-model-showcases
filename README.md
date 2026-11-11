@@ -10,7 +10,7 @@
 Awesome AI Model Showcases collects real public AI model GIF and animation cases: original authors, original media, public prompts, sources, and production pipelines. It is organized by model family (GPT Image is one subsection), not this repository's original playbook showcase.
 
 <p>
-<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-70-10131a?style=flat-square&amp;labelColor=c2ff67" alt="70 catalog cases"></a>
+<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-77-10131a?style=flat-square&amp;labelColor=c2ff67" alt="77 catalog cases"></a>
 <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/languages-English_%2F_简体中文-10131a?style=flat-square&amp;labelColor=c2ff67" alt="English and Simplified Chinese"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="Source code license: MIT"></a>
 </p>
@@ -74,7 +74,7 @@ No account, API key, or installation is required to browse. If this saves you a 
 <a id="catalog"></a>
 ## The catalog at a glance
 
-**70 collected cases**, organized by **model family**. GPT Image 2.6 remains the local-archive subsection (20 non-X multi-frame GIFs · 4 game author-claimed). Claude, Gemini, GPT Sol/Astra, Grok, Qwen, and DeepSeek cases are source-linked. **12 pending**, kept separate.
+**77 collected cases**, organized by **model family**. GPT Image 2.6 remains the local-archive subsection (20 non-X multi-frame GIFs · 4 game author-claimed). Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, and DeepSeek cases are source-linked. **12 pending**, kept separate.
 
 | Model family / bucket | Count | Outside the main catalog | Count |
 |---|---:|---|---:|
@@ -85,13 +85,38 @@ No account, API key, or installation is required to browse. If this saves you a 
 | · Game author-claimed | **4** | Repository seeds (local examples) | 6 |
 | Claude (Fable 5.2 / Opus 5.5…) | **7** | | |
 | Gemini (4 Carbon / 4 Argon) | **3** | | |
-| GPT Sol / Astra (code) | **4** | | |
+| GPT-6.2 Sol / Astra (code) | **11** | | |
 | Grok (4.7 / Imagine) | **2** | | |
 | Qwen (3.8) | **1** | | |
 | DeepSeek (V4.1 Flash) | **2** | | |
-| **Main total** | **70** | | |
+| **Main total** | **77** | | |
 
-Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **2026-11-11**. Main total means collected cases, not confirmed successful generations. **50 of the 70 cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment.
+Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **2026-11-11**. Main total means collected cases, not confirmed successful generations. **50 of the 77 cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment.
+
+### Showcase collection sites
+
+Galleries and aggregators that collect or compare model GIF/animation/HTML demos. Link back; do not scrape-rehost. Source: [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json).
+
+**GPT-6.2 Sol**
+- [OpenAI Developers Showcase](https://developers.openai.com/showcase) — Official OpenAI community demo gallery (games, 3D scenes, tools); not GPT-6.2-specific, useful Sol/Codex-era context.
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Same-brief multi-model HTML/animation archive including Sol-family isometric city runs with openable pages.
+- [Atelier — the model exhibition](https://marmikshah.github.io/atelier/) — Shared brief × model grid of ten-frame looping sprite animations, including a GPT-6.1 Sol column.
+- [AGI Hunt · GPT-6.2 Sol Three.js reports](https://agihunt.info/en/p/1a1bb426b5d29845aa6a62b76dd) — Aggregator card for TokenGremlin’s GPT-6.2 Sol one-shot Three.js black-hole / HTML demos from X.
+- [AGI Hunt · GPT-6.2 Sol village HTML report](https://agihunt.info/en/p/1a1bb89900a97844bb6b978dbb4) — Aggregator for user-reported GPT-6.2 Sol single-file Three.js village demos.
+- [OmniaKey · GPT-6.2 Sol status notes](https://omniakey.com/blog/gpt-6-2-sol) — Roundup stating OpenAI public catalog still lists GPT-6.1 Sol and summarizing unconfirmed 6.2 routing reports.
+- [João Queirós · GPT-6.2 Sol preview evidence review](https://www.ai.joaoqueiros.com/blog/gpt-6-2-sol-preview-worldofai-demos-evidence) — Evidence-focused write-up of World of AI / community demos without treating them as an official 6.2 release.
+- [TokenGremlin X — primary greyscale sighting thread](https://x.com/TokenGremlin/status/2119395930805879165) — Widely cited primary X post claiming routing to GPT-6.2 Sol with Three.js HTML proof clips.
+
+**Claude**
+- [liang8989/awesome-fable5-2-videos](https://github.com/liang8989/awesome-fable5-2-videos) — Curated Claude Fable 5.2 motion/3D/game videos from X with credits and published prompts when available.
+- [DramaSo · Fable 5.2 prompts & videos](https://drama.so/prompts/fable-5-2) — Community gallery of Fable 5.2 code/animation works with creator credits and some verbatim prompts.
+
+**Gemini**
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Includes Gemini 4 Argon (and other Gemini) HTML animation runs under shared briefs.
+
+**Cross-family**
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Cross-family same-prompt HTML/SVG/animation leaderboard with downloadable pages and MP4 recordings.
+
 
 ### Full source and evidence tables
 
@@ -207,7 +232,9 @@ Open a model-family category below, or use the [searchable web catalog](https://
 </details>
 
 <details>
-<summary><strong>Family · GPT Sol / Astra (code models) — GPT-6.1 Sol / GPT-6 Sol / Astra (4)</strong></summary>
+<summary><strong>Family · GPT-6.2 Sol / Astra (code models) — GPT-6.2 Sol (owner) · OpenAI pages still list GPT-6.1 Sol (11)</strong></summary>
+
+> Catalog section name **GPT-6.2 Sol** follows the repo owner. As of 2026-11-11, OpenAI’s public pages still document **GPT-6.1 Sol** ([introducing GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/), [Models](https://platform.openai.com/docs/models)); this repo does not invent an official 6.2 announcement.
 
 | # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -215,6 +242,13 @@ Open a model-family category below, or use the [searchable web catalog](https://
 | 2 | Marmik Shah (Atelier exhibition) | `web-atelier-gpt61-sol-ten-frame-loops` Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max e | [Source](https://marmikshah.github.io/atelier/) | [Case](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/README.md) | [Short / partial](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/prompt.md) | Exhibition column: OpenAI GPT-6.1 Sol ma | Ten-frame looping animations (1 fps) | Public exhibition page · briefs on s | Source link only |
 | 3 | @YFeng2022（LanFeng） | `x-yfeng-gpt61-sol-fable-take-flight` Let Fable take Flight — HTML/Three.js procedural animation ( | [Source](https://x.com/YFeng2022/status/2120324811549225082) | [Case](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md) | [Unpublished](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/prompt.md) | Author claim: GPT-6.1 Sol Max via Codex  | HTML + Three.js procedural · Python- | Primary X URL · author says prompt i | Source link only |
 | 4 | @Raitox_tech | `x-raitoox-sol-stranger-things-credits` Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG | [Source](https://x.com/Raitox_tech/status/2120125234129084492) | [Case](docs/cases/x-raitoox-sol-stranger-things-credits/README.md) | [Unpublished](docs/cases/x-raitoox-sol-stranger-things-credits/prompt.md) | Author text says '6.2 sol ULTRA' but cit | Codex · SVG trace of studio art · Hy | Primary X URL · unofficial 6.2 Sol w | Source link only |
+| 5 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-threejs-blackhole` One-shot Three.js black hole in a single HTML file (author r | [Source](https://x.com/TokenGremlin/status/2119395930805879165) | [Case](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/README.md) | [Unpublished](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/prompt.md) | Author: "I'm being routed to GPT-6.2 Sol | Three.js single HTML file · screen/v | Primary X URL working · author routi | Source link only |
+| 6 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-threejs-scenes-html` Three.js scenes from one prompt packed into one HTML file (c | [Source](https://x.com/TokenGremlin/status/2119371334878744648) | [Case](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/README.md) | [Unpublished](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/prompt.md) | Author attributes demos to GPT-6.2 Sol s | Single-prompt Three.js → one HTML fi | Primary X URL · widely quoted sighti | Source link only |
+| 7 | @marcthecreatorr（Marcel） | `x-marcthecreatorr-gpt62sol-sailing-ship` GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship  | [Source](https://x.com/marcthecreatorr/status/2119503438405136765) | [Case](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md) | [Short / partial](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/prompt.md) | Author timed GPT 6.2 Sol (~27m, $3) vs O | Three.js interactive ship · comparis | Primary X URL · shared short prompt  | Source link only |
+| 8 | @teddyaisi（Teddy） | `x-teddyaisi-gpt62sol-interactive-city` One-prompt interactive Three.js city in a single offline HTM | [Source](https://x.com/teddyaisi/status/2119503047646908664) | [Case](docs/cases/x-teddyaisi-gpt62sol-interactive-city/README.md) | [Unpublished](docs/cases/x-teddyaisi-gpt62sol-interactive-city/prompt.md) | Author: first GPT-6.2 Sol one-prompt tes | Fully interactive Three.js · single  | Primary X URL · prompt unpublished · | Source link only |
+| 9 | @qingzhoucloud（产品晓东） | `x-qingzhoucloud-gpt62sol-floating-castle` GPT-6.2 Sol 3D floating castle built with HTML + Three.js | [Source](https://x.com/qingzhoucloud/status/2119441137576579448) | [Case](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/README.md) | [Unpublished](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/prompt.md) | Author claim: GPT-6.2 Sol · html + three | HTML + Three.js scene capture | Primary X URL · prompt unpublished | Source link only |
+| 10 | @HarshithLucky3（Harshith） | `x-harshithlucky3-gpt62sol-pelican-svg-animation` SVG animation: pelican and 2 crabs riding bicycles (Codex ro | [Source](https://x.com/HarshithLucky3/status/2119418918616150080) | [Case](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md) | [Short / partial](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/prompt.md) | Author: "GPT 6.2 Sol max (or another mod | SVG animation via Codex · recorded v | Primary X URL · short prompt publish | Source link only |
+| 11 | @cherriessire | `x-cherriessire-gpt62sol-moon-aurora-threejs` Self-contained Three.js moon scene with red aurora in one HT | [Source](https://x.com/cherriessire/status/2119488351057121420) | [Case](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md) | [Unpublished](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/prompt.md) | Author: GPT 6.2 Sol after seeing routing | Self-contained Three.js HTML render  | Primary X URL · prompt unpublished | Source link only |
 
 </details>
 
@@ -406,7 +440,7 @@ Prefer a PR? Follow [CONTRIBUTING.md](CONTRIBUTING.md). Small corrections to att
 <a id="faq"></a>
 ## What is this repository?
 
-A source-first library of AI model GIF/animation showcases, organized by model family. **GPT Image 2.6** is one populated subsection; Claude, Gemini, GPT Sol/Astra, Grok, Qwen, and DeepSeek sections are reserved for sourced cases. Each record keeps authorship, source links, local media where retrieved, prompt availability, model evidence, pipeline, and verification status together. Model names from sources (for example `gpt-image-2.6-sunburst`) are preserved as claims, not independent verification.
+A source-first library of AI model GIF/animation showcases, organized by model family. **GPT Image 2.6** is one populated subsection; Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, and DeepSeek sections hold sourced cases. The GPT-6.2 Sol section name follows the repo owner; OpenAI’s public pages still document GPT-6.1 Sol as of the last check—both facts are kept. Each record keeps authorship, source links, local media where retrieved, prompt availability, model evidence, pipeline, and verification status together. Model names from sources (for example `gpt-image-2.6-sunburst`) are preserved as claims, not independent verification.
 
 ## What can this repository not do?
 

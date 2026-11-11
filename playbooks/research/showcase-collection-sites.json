@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Showcase collection sites",
+    "updated": "2026-11-11",
+    "note": "Galleries/aggregators that collect or compare model GIF/animation/HTML demos. Link back; do not scrape-rehost."
+  },
+  "by_family": {
+    "gpt-code": [
+      {
+        "name": "OpenAI Developers Showcase",
+        "url": "https://developers.openai.com/showcase",
+        "description": "Official OpenAI community demo gallery (games, 3D scenes, tools); not GPT-6.2-specific, useful Sol/Codex-era context."
+      },
+      {
+        "name": "James Greene · AI model comparison",
+        "url": "https://jamesgreene.com/models/",
+        "description": "Same-brief multi-model HTML/animation archive including Sol-family isometric city runs with openable pages."
+      },
+      {
+        "name": "Atelier — the model exhibition",
+        "url": "https://marmikshah.github.io/atelier/",
+        "description": "Shared brief × model grid of ten-frame looping sprite animations, including a GPT-6.1 Sol column."
+      },
+      {
+        "name": "AGI Hunt · GPT-6.2 Sol Three.js reports",
+        "url": "https://agihunt.info/en/p/1a1bb426b5d29845aa6a62b76dd",
+        "description": "Aggregator card for TokenGremlin’s GPT-6.2 Sol one-shot Three.js black-hole / HTML demos from X."
+      },
+      {
+        "name": "AGI Hunt · GPT-6.2 Sol village HTML report",
+        "url": "https://agihunt.info/en/p/1a1bb89900a97844bb6b978dbb4",
+        "description": "Aggregator for user-reported GPT-6.2 Sol single-file Three.js village demos."
+      },
+      {
+        "name": "OmniaKey · GPT-6.2 Sol status notes",
+        "url": "https://omniakey.com/blog/gpt-6-2-sol",
+        "description": "Roundup stating OpenAI public catalog still lists GPT-6.1 Sol and summarizing unconfirmed 6.2 routing reports."
+      },
+      {
+        "name": "João Queirós · GPT-6.2 Sol preview evidence review",
+        "url": "https://www.ai.joaoqueiros.com/blog/gpt-6-2-sol-preview-worldofai-demos-evidence",
+        "description": "Evidence-focused write-up of World of AI / community demos without treating them as an official 6.2 release."
+      },
+      {
+        "name": "TokenGremlin X — primary greyscale sighting thread",
+        "url": "https://x.com/TokenGremlin/status/2119395930805879165",
+        "description": "Widely cited primary X post claiming routing to GPT-6.2 Sol with Three.js HTML proof clips."
+      }
+    ],
+    "claude": [
+      {
+        "name": "liang8989/awesome-fable5-2-videos",
+        "url": "https://github.com/liang8989/awesome-fable5-2-videos",
+        "description": "Curated Claude Fable 5.2 motion/3D/game videos from X with credits and published prompts when available."
+      },
+      {
+        "name": "DramaSo · Fable 5.2 prompts & videos",
+        "url": "https://drama.so/prompts/fable-5-2",
+        "description": "Community gallery of Fable 5.2 code/animation works with creator credits and some verbatim prompts."
+      }
+    ],
+    "gemini": [
+      {
+        "name": "James Greene · AI model comparison",
+        "url": "https://jamesgreene.com/models/",
+        "description": "Includes Gemini 4 Argon (and other Gemini) HTML animation runs under shared briefs."
+      }
+    ],
+    "multi": [
+      {
+        "name": "James Greene · AI model comparison",
+        "url": "https://jamesgreene.com/models/",
+        "description": "Cross-family same-prompt HTML/SVG/animation leaderboard with downloadable pages and MP4 recordings."
+      }
+    ]
+  }
+}

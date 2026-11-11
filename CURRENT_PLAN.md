@@ -1,20 +1,19 @@
 # Current plan
 
-**Goal:** Rename and restructure the catalog as a model-family showcase archive, then collect sourced cases for newest and mainstream models.
+**Goal:** Keep the model-family showcase archive honest on GPT Sol naming, then harvest sourced GPT-6.2 Sol cases from collection sites.
 
-## Phase 1 (merged)
+## Done on main
 
-- Rename to **awesome-ai-model-showcases** / **AI 模型制作案例集**
-- Catalog by model family; GPT Image as one subsection
-- Squash-merged to `main`
+- Phase 1: rename to **awesome-ai-model-showcases** / **AI 模型制作案例集**
+- Phase 2: sourced multi-model frontier cases by family
 
-## Phase 2 (this PR)
+## This PR
 
-- Add real, public, sourced GIF/animation cases for newest frontier models and still-mainstream previous-generation models
-- Default to source-link citation (no unauthorized rehost)
-- Never invent prompts, authors, or URLs
+- Relabel the GPT Sol family section to **GPT-6.2 Sol** (owner-confirmed) with dual-status notes vs OpenAI public **GPT-6.1 Sol** docs
+- Add **Showcase collection sites** resource list (`playbooks/research/showcase-collection-sites.json`)
+- Harvest 7 additional sourced GPT-6.2 Sol X demos (source-link only)
 - Verify green, open PR, squash-merge
 
 ## Status
 
-Phase 2 implementation in progress.
+Implementation complete; awaiting CI / merge.

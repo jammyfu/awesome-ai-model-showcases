@@ -53,11 +53,17 @@ No account, API key, or installation is required to browse. If this saves you a 
 <a id="catalog"></a>
 ## The catalog at a glance
 
-**${main_count} collected cases**, organized by **model family**. GPT Image 2.6 remains the local-archive subsection (${web_count} non-X multi-frame GIFs · ${game_count} game author-claimed). Claude, Gemini, GPT Sol/Astra, Grok, Qwen, and DeepSeek cases are source-linked. **${pending_count} pending**, kept separate.
+**${main_count} collected cases**, organized by **model family**. GPT Image 2.6 remains the local-archive subsection (${web_count} non-X multi-frame GIFs · ${game_count} game author-claimed). Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, and DeepSeek cases are source-linked. **${pending_count} pending**, kept separate.
 
 ${count_table}
 
 Counts come from [one generated catalog](docs/data/community-cases.json). Last source-inventory update: **${inventory_date}**. Main total means collected cases, not confirmed successful generations. **${media_count} of the ${main_count} cases have local media**; the [Luffy article](docs/cases/luffy-x-article/README.md) has archived prompts but no retrieved attachment.
+
+### Showcase collection sites
+
+Galleries and aggregators that collect or compare model GIF/animation/HTML demos. Link back; do not scrape-rehost. Source: [`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json).
+
+${collection_sites}
 
 ### Full source and evidence tables
 
@@ -114,7 +120,7 @@ Prefer a PR? Follow [CONTRIBUTING.md](CONTRIBUTING.md). Small corrections to att
 <a id="faq"></a>
 ## What is this repository?
 
-A source-first library of AI model GIF/animation showcases, organized by model family. **GPT Image 2.6** is one populated subsection; Claude, Gemini, GPT Sol/Astra, Grok, Qwen, and DeepSeek sections are reserved for sourced cases. Each record keeps authorship, source links, local media where retrieved, prompt availability, model evidence, pipeline, and verification status together. Model names from sources (for example `gpt-image-2.6-sunburst`) are preserved as claims, not independent verification.
+A source-first library of AI model GIF/animation showcases, organized by model family. **GPT Image 2.6** is one populated subsection; Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, and DeepSeek sections hold sourced cases. The GPT-6.2 Sol section name follows the repo owner; OpenAI’s public pages still document GPT-6.1 Sol as of the last check—both facts are kept. Each record keeps authorship, source links, local media where retrieved, prompt availability, model evidence, pipeline, and verification status together. Model names from sources (for example `gpt-image-2.6-sunburst`) are preserved as claims, not independent verification.
 
 ## What can this repository not do?
 

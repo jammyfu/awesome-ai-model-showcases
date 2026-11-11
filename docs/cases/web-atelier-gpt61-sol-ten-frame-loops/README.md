@@ -2,6 +2,8 @@
 
 - Case id: `web-atelier-gpt61-sol-ten-frame-loops`
 - Model family: `gpt-code` / `gpt-6.1-sol`
+- Catalog section: **GPT-6.2 Sol** (owner-confirmed label)
+- OpenAI public docs (as of 2026-11-11): still list **GPT-6.1 Sol** — see https://openai.com/index/introducing-gpt-6-1-sol/ and https://platform.openai.com/docs/models
 - Author: Marmik Shah (Atelier exhibition)
 - Source: https://marmikshah.github.io/atelier/
 - Media (source link only): https://marmikshah.github.io/atelier/
@@ -16,3 +18,7 @@ This case is **source-linked only**. Media is not rehosted locally unless a docu
 
 See `prompt.md`.
 
+
+## Notes
+
+Dual naming: owner/community section is GPT-6.2 Sol; this artifact's own label is GPT-6.1 Sol.

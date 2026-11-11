@@ -53,11 +53,17 @@ ${featured}
 <a id="catalog"></a>
 ## 案例目录一览
 
-**${main_count} 个收录案例**，按**模型家族**分栏。其中 GPT Image 2.6 为本地归档子栏目（${web_count} 个非 X 多帧 GIF · ${game_count} 个游戏作者声明）；Claude、Gemini、GPT Sol/Astra、Grok、Qwen、DeepSeek 等以出处链接收录。**${pending_count} 个待核**，单独列出。
+**${main_count} 个收录案例**，按**模型家族**分栏。其中 GPT Image 2.6 为本地归档子栏目（${web_count} 个非 X 多帧 GIF · ${game_count} 个游戏作者声明）；Claude、Gemini、GPT-6.2 Sol、Grok、Qwen、DeepSeek 等以出处链接收录。**${pending_count} 个待核**，单独列出。
 
 ${count_table}
 
 计数来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**${inventory_date}**。主表合计表示收录数量，不是已确认的生成成功数。**${main_count} 个案例中有 ${media_count} 个取得本地素材**；[路飞长文](docs/cases/luffy-x-article/README.md)已归档提示词，但未取得附件。
+
+### 展示站资源列表
+
+收集或对比各模型 GIF/动画/HTML 演示的画廊与聚合站。只回链，不擅自再托管。来源：[`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json)。
+
+${collection_sites}
 
 ### 完整出处与证据表
 
@@ -114,7 +120,7 @@ python3 tools/verify.py
 <a id="faq"></a>
 ## 这是什么仓库？
 
-这是按模型家族分栏的 AI 模型 GIF/动图制作案例集（**AI 模型制作案例集**）。**GPT Image 2.6** 是其中一个已填充子栏目；Claude、Gemini、GPT Sol/Astra、Grok、Qwen、DeepSeek 等栏目为结构预留。每条记录集中保存作者、原帖、已取得的本地素材、提示词公开状态、模型依据、管线和验证状态。来源中的模型名称（如 `gpt-image-2.6-sunburst`）按声明保留，不等于独立验证。
+这是按模型家族分栏的 AI 模型 GIF/动图制作案例集（**AI 模型制作案例集**）。**GPT Image 2.6** 是其中一个已填充子栏目；Claude、Gemini、GPT-6.2 Sol、Grok、Qwen、DeepSeek 等栏目收录有出处案例。GPT-6.2 Sol 分栏名按主人确认；OpenAI 公开页截至核验日仍写 GPT-6.1 Sol——两边事实并存。每条记录集中保存作者、原帖、已取得的本地素材、提示词公开状态、模型依据、管线和验证状态。来源中的模型名称（如 `gpt-image-2.6-sunburst`）按声明保留，不等于独立验证。
 
 ## 这个仓库做不到什么？
 

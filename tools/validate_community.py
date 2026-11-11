@@ -18,7 +18,7 @@ EN_LEAD = (
 ZH_LEAD = "AI 模型制作案例集收集全网公开的 AI 模型 GIF/动图制作案例、原作者、原媒体、提示词、出处与制作流程；按模型家族分栏（现有 GPT Image 为其中一个子栏目）；不是本站原创方案集"
 ABOUT_DESC = (
     "AI 模型制作案例集 / Awesome AI Model Showcases: public GIF & animation "
-    "cases by model family (GPT Image, Claude, Gemini, GPT Sol, Grok, Qwen, "
+    "cases by model family (GPT Image, Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, "
     "DeepSeek…). Authors, media, prompts, sources. English & 中文."
 )
 # 4 GPT Image subsections + 6 reserved families + 4 appendices + 1 contributor <details>
@@ -132,8 +132,12 @@ def main() -> int:
         assert "Technical Snapshot" not in blob
         family_marker = "Family · GPT Image 2.6" if english else "家族 · GPT Image 2.6"
         assert family_marker in blob
-        for reserved in ("Claude", "Gemini", "Grok", "Qwen", "DeepSeek"):
+        for reserved in ("Claude", "Gemini", "GPT-6.2 Sol", "Grok", "Qwen", "DeepSeek"):
             assert reserved in blob, reserved
+        assert "Showcase collection sites" in blob or "展示站资源列表" in blob
+        assert "jamesgreene.com/models/" in blob
+        assert "developers.openai.com/showcase" in blob
+        assert "GPT-6.1 Sol" in blob  # honest dual-status vs OpenAI public docs
         for cid, *_ in FEATURED:
             assert f'docs/cases/{cid}/media/01-gif.gif' in blob
             assert f'docs/cases/{cid}/prompt.md' in blob
