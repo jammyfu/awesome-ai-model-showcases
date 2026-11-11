@@ -1,7 +1,9 @@
 # Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)
 
 - Case id: `x-raitoox-sol-stranger-things-credits`
-- Model family: `gpt-code` / `gpt-6.1-sol`
+- Model family: `gpt-code` / `gpt-6.2-sol`
+- Catalog section: **GPT-6.2 Sol** (owner-confirmed label)
+- OpenAI public docs (as of 2026-11-11): still list **GPT-6.1 Sol** — see https://openai.com/index/introducing-gpt-6-1-sol/ and https://platform.openai.com/docs/models
 - Author: @Raitox_tech
 - Source: https://x.com/Raitox_tech/status/2120125234129084492
 - Media (source link only): https://video.twimg.com/amplify_video/2120113463863468032/vid/avc1/1280x720/AOAqX2IA8XS1oJhe.mp4
@@ -16,3 +18,7 @@ This case is **source-linked only**. Media is not rehosted locally unless a docu
 
 See `prompt.md`.
 
+
+## Notes
+
+Section: GPT-6.2 Sol (owner). Fact: OpenAI introducing-gpt-6-1-sol + docs/models still name GPT-6.1 Sol as of 2026-11-11.

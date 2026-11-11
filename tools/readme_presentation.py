@@ -54,7 +54,14 @@ def collapsed_tables(markdown: str) -> str:
     return "\n\n".join(blocks)
 
 
-def render_readme(lang: str, *, catalog: dict, count_table: str, tables: str) -> str:
+def render_readme(
+    lang: str,
+    *,
+    catalog: dict,
+    count_table: str,
+    tables: str,
+    collection_sites: str = "",
+) -> str:
     c = catalog["meta"]["counts"]
     main_rows = [r for key in ("collected_x_author_claim", "collected_web_gif",
                               "collected_already_in_repo", "collected_game_author_claim")
@@ -67,4 +74,5 @@ def render_readme(lang: str, *, catalog: dict, count_table: str, tables: str) ->
         inventory_date=catalog["meta"]["updated"], count_table=count_table,
         catalog_tables=collapsed_tables(tables),
         featured=featured_cards(catalog["collected_web_gif"], lang),
+        collection_sites=collection_sites,
     )

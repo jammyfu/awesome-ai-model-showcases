@@ -10,7 +10,7 @@
 AI 模型制作案例集收集全网公开的 AI 模型 GIF/动图制作案例、原作者、原媒体、提示词、出处与制作流程；按模型家族分栏（现有 GPT Image 为其中一个子栏目）；不是本站原创方案集。
 
 <p>
-<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-70-10131a?style=flat-square&amp;labelColor=c2ff67" alt="70 个已收录案例"></a>
+<a href="#catalog"><img src="https://img.shields.io/badge/archived_cases-77-10131a?style=flat-square&amp;labelColor=c2ff67" alt="77 个已收录案例"></a>
 <a href="README.md"><img src="https://img.shields.io/badge/languages-English_%2F_简体中文-10131a?style=flat-square&amp;labelColor=c2ff67" alt="英文与简体中文"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="源码采用 MIT 许可"></a>
 </p>
@@ -74,7 +74,7 @@ Veevid Team<br><sub>固定机位光线扫过</sub><br>
 <a id="catalog"></a>
 ## 案例目录一览
 
-**70 个收录案例**，按**模型家族**分栏。其中 GPT Image 2.6 为本地归档子栏目（20 个非 X 多帧 GIF · 4 个游戏作者声明）；Claude、Gemini、GPT Sol/Astra、Grok、Qwen、DeepSeek 等以出处链接收录。**12 个待核**，单独列出。
+**77 个收录案例**，按**模型家族**分栏。其中 GPT Image 2.6 为本地归档子栏目（20 个非 X 多帧 GIF · 4 个游戏作者声明）；Claude、Gemini、GPT-6.2 Sol、Grok、Qwen、DeepSeek 等以出处链接收录。**12 个待核**，单独列出。
 
 | 模型家族 / 分栏 | 数 | 附表（不计入主表） | 数 |
 |---|---:|---|---:|
@@ -85,13 +85,38 @@ Veevid Team<br><sub>固定机位光线扫过</sub><br>
 | · 游戏 · 作者声明 | **4** | 仓库种子（本仓示例） | 6 |
 | Claude（Fable 5.2 / Opus 5.5…） | **7** | | |
 | Gemini（4 Carbon / 4 Argon） | **3** | | |
-| GPT Sol / Astra（代码） | **4** | | |
+| GPT-6.2 Sol / Astra（代码） | **11** | | |
 | Grok（4.7 / Imagine） | **2** | | |
 | Qwen（3.8） | **1** | | |
 | DeepSeek（V4.1 Flash） | **2** | | |
-| **主表合计** | **70** | | |
+| **主表合计** | **77** | | |
 
-计数来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**2026-11-11**。主表合计表示收录数量，不是已确认的生成成功数。**70 个案例中有 50 个取得本地素材**；[路飞长文](docs/cases/luffy-x-article/README.md)已归档提示词，但未取得附件。
+计数来自[同一份生成目录](docs/data/community-cases.json)。来源清单最近更新：**2026-11-11**。主表合计表示收录数量，不是已确认的生成成功数。**77 个案例中有 50 个取得本地素材**；[路飞长文](docs/cases/luffy-x-article/README.md)已归档提示词，但未取得附件。
+
+### 展示站资源列表
+
+收集或对比各模型 GIF/动画/HTML 演示的画廊与聚合站。只回链，不擅自再托管。来源：[`playbooks/research/showcase-collection-sites.json`](playbooks/research/showcase-collection-sites.json)。
+
+**GPT-6.2 Sol**
+- [OpenAI Developers Showcase](https://developers.openai.com/showcase) — Official OpenAI community demo gallery (games, 3D scenes, tools); not GPT-6.2-specific, useful Sol/Codex-era context.
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Same-brief multi-model HTML/animation archive including Sol-family isometric city runs with openable pages.
+- [Atelier — the model exhibition](https://marmikshah.github.io/atelier/) — Shared brief × model grid of ten-frame looping sprite animations, including a GPT-6.1 Sol column.
+- [AGI Hunt · GPT-6.2 Sol Three.js reports](https://agihunt.info/en/p/1a1bb426b5d29845aa6a62b76dd) — Aggregator card for TokenGremlin’s GPT-6.2 Sol one-shot Three.js black-hole / HTML demos from X.
+- [AGI Hunt · GPT-6.2 Sol village HTML report](https://agihunt.info/en/p/1a1bb89900a97844bb6b978dbb4) — Aggregator for user-reported GPT-6.2 Sol single-file Three.js village demos.
+- [OmniaKey · GPT-6.2 Sol status notes](https://omniakey.com/blog/gpt-6-2-sol) — Roundup stating OpenAI public catalog still lists GPT-6.1 Sol and summarizing unconfirmed 6.2 routing reports.
+- [João Queirós · GPT-6.2 Sol preview evidence review](https://www.ai.joaoqueiros.com/blog/gpt-6-2-sol-preview-worldofai-demos-evidence) — Evidence-focused write-up of World of AI / community demos without treating them as an official 6.2 release.
+- [TokenGremlin X — primary greyscale sighting thread](https://x.com/TokenGremlin/status/2119395930805879165) — Widely cited primary X post claiming routing to GPT-6.2 Sol with Three.js HTML proof clips.
+
+**Claude**
+- [liang8989/awesome-fable5-2-videos](https://github.com/liang8989/awesome-fable5-2-videos) — Curated Claude Fable 5.2 motion/3D/game videos from X with credits and published prompts when available.
+- [DramaSo · Fable 5.2 prompts & videos](https://drama.so/prompts/fable-5-2) — Community gallery of Fable 5.2 code/animation works with creator credits and some verbatim prompts.
+
+**Gemini**
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Includes Gemini 4 Argon (and other Gemini) HTML animation runs under shared briefs.
+
+**跨家族**
+- [James Greene · AI model comparison](https://jamesgreene.com/models/) — Cross-family same-prompt HTML/SVG/animation leaderboard with downloadable pages and MP4 recordings.
+
 
 ### 完整出处与证据表
 
@@ -207,7 +232,9 @@ Veevid Team<br><sub>固定机位光线扫过</sub><br>
 </details>
 
 <details>
-<summary><strong>家族 · GPT Sol / Astra（代码模型） — GPT-6.1 Sol / GPT-6 Sol / Astra（4）</strong></summary>
+<summary><strong>家族 · GPT-6.2 Sol / Astra（代码模型） — GPT-6.2 Sol (owner) · OpenAI pages still list GPT-6.1 Sol（11）</strong></summary>
+
+> 目录分栏名 **GPT-6.2 Sol** 按仓库主人确认。截至 2026-11-11，OpenAI 公开文档仍写 **GPT-6.1 Sol**（[介绍页](https://openai.com/index/introducing-gpt-6-1-sol/)、[Models](https://platform.openai.com/docs/models)）；本仓不编造官方 6.2 发布声明。
 
 | # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 管线 | 验证 | 许可 |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -215,6 +242,13 @@ Veevid Team<br><sub>固定机位光线扫过</sub><br>
 | 2 | Marmik Shah (Atelier exhibition) | `web-atelier-gpt61-sol-ten-frame-loops` Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max e | [出处](https://marmikshah.github.io/atelier/) | [案例](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/README.md) | [短 / 部分](docs/cases/web-atelier-gpt61-sol-ten-frame-loops/prompt.md) | Exhibition column: OpenAI GPT-6.1 Sol ma | Ten-frame looping animations (1 fps) | Public exhibition page · briefs on s | Source link only |
 | 3 | @YFeng2022（LanFeng） | `x-yfeng-gpt61-sol-fable-take-flight` Let Fable take Flight — HTML/Three.js procedural animation ( | [出处](https://x.com/YFeng2022/status/2120324811549225082) | [案例](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/README.md) | [未公开](docs/cases/x-yfeng-gpt61-sol-fable-take-flight/prompt.md) | Author claim: GPT-6.1 Sol Max via Codex  | HTML + Three.js procedural · Python- | Primary X URL · author says prompt i | Source link only |
 | 4 | @Raitox_tech | `x-raitoox-sol-stranger-things-credits` Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG | [出处](https://x.com/Raitox_tech/status/2120125234129084492) | [案例](docs/cases/x-raitoox-sol-stranger-things-credits/README.md) | [未公开](docs/cases/x-raitoox-sol-stranger-things-credits/prompt.md) | Author text says '6.2 sol ULTRA' but cit | Codex · SVG trace of studio art · Hy | Primary X URL · unofficial 6.2 Sol w | Source link only |
+| 5 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-threejs-blackhole` One-shot Three.js black hole in a single HTML file (author r | [出处](https://x.com/TokenGremlin/status/2119395930805879165) | [案例](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/README.md) | [未公开](docs/cases/x-tokengremlin-gpt62sol-threejs-blackhole/prompt.md) | Author: "I'm being routed to GPT-6.2 Sol | Three.js single HTML file · screen/v | Primary X URL working · author routi | Source link only |
+| 6 | @TokenGremlin（Token Gremlin） | `x-tokengremlin-gpt62sol-threejs-scenes-html` Three.js scenes from one prompt packed into one HTML file (c | [出处](https://x.com/TokenGremlin/status/2119371334878744648) | [案例](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/README.md) | [未公开](docs/cases/x-tokengremlin-gpt62sol-threejs-scenes-html/prompt.md) | Author attributes demos to GPT-6.2 Sol s | Single-prompt Three.js → one HTML fi | Primary X URL · widely quoted sighti | Source link only |
+| 7 | @marcthecreatorr（Marcel） | `x-marcthecreatorr-gpt62sol-sailing-ship` GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship  | [出处](https://x.com/marcthecreatorr/status/2119503438405136765) | [案例](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md) | [短 / 部分](docs/cases/x-marcthecreatorr-gpt62sol-sailing-ship/prompt.md) | Author timed GPT 6.2 Sol (~27m, $3) vs O | Three.js interactive ship · comparis | Primary X URL · shared short prompt  | Source link only |
+| 8 | @teddyaisi（Teddy） | `x-teddyaisi-gpt62sol-interactive-city` One-prompt interactive Three.js city in a single offline HTM | [出处](https://x.com/teddyaisi/status/2119503047646908664) | [案例](docs/cases/x-teddyaisi-gpt62sol-interactive-city/README.md) | [未公开](docs/cases/x-teddyaisi-gpt62sol-interactive-city/prompt.md) | Author: first GPT-6.2 Sol one-prompt tes | Fully interactive Three.js · single  | Primary X URL · prompt unpublished · | Source link only |
+| 9 | @qingzhoucloud（产品晓东） | `x-qingzhoucloud-gpt62sol-floating-castle` GPT-6.2 Sol 3D floating castle built with HTML + Three.js | [出处](https://x.com/qingzhoucloud/status/2119441137576579448) | [案例](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/README.md) | [未公开](docs/cases/x-qingzhoucloud-gpt62sol-floating-castle/prompt.md) | Author claim: GPT-6.2 Sol · html + three | HTML + Three.js scene capture | Primary X URL · prompt unpublished | Source link only |
+| 10 | @HarshithLucky3（Harshith） | `x-harshithlucky3-gpt62sol-pelican-svg-animation` SVG animation: pelican and 2 crabs riding bicycles (Codex ro | [出处](https://x.com/HarshithLucky3/status/2119418918616150080) | [案例](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md) | [短 / 部分](docs/cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/prompt.md) | Author: "GPT 6.2 Sol max (or another mod | SVG animation via Codex · recorded v | Primary X URL · short prompt publish | Source link only |
+| 11 | @cherriessire | `x-cherriessire-gpt62sol-moon-aurora-threejs` Self-contained Three.js moon scene with red aurora in one HT | [出处](https://x.com/cherriessire/status/2119488351057121420) | [案例](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md) | [未公开](docs/cases/x-cherriessire-gpt62sol-moon-aurora-threejs/prompt.md) | Author: GPT 6.2 Sol after seeing routing | Self-contained Three.js HTML render  | Primary X URL · prompt unpublished | Source link only |
 
 </details>
 
@@ -406,7 +440,7 @@ python3 tools/verify.py
 <a id="faq"></a>
 ## 这是什么仓库？
 
-这是按模型家族分栏的 AI 模型 GIF/动图制作案例集（**AI 模型制作案例集**）。**GPT Image 2.6** 是其中一个已填充子栏目；Claude、Gemini、GPT Sol/Astra、Grok、Qwen、DeepSeek 等栏目为结构预留。每条记录集中保存作者、原帖、已取得的本地素材、提示词公开状态、模型依据、管线和验证状态。来源中的模型名称（如 `gpt-image-2.6-sunburst`）按声明保留，不等于独立验证。
+这是按模型家族分栏的 AI 模型 GIF/动图制作案例集（**AI 模型制作案例集**）。**GPT Image 2.6** 是其中一个已填充子栏目；Claude、Gemini、GPT-6.2 Sol、Grok、Qwen、DeepSeek 等栏目收录有出处案例。GPT-6.2 Sol 分栏名按主人确认；OpenAI 公开页截至核验日仍写 GPT-6.1 Sol——两边事实并存。每条记录集中保存作者、原帖、已取得的本地素材、提示词公开状态、模型依据、管线和验证状态。来源中的模型名称（如 `gpt-image-2.6-sunburst`）按声明保留，不等于独立验证。
 
 ## 这个仓库做不到什么？
 

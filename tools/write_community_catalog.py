@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 X_SRC = ROOT / "playbooks/research/x-inventory.json"
 WEB_SRC = ROOT / "playbooks/research/web-inventory.json"
 FRONTIER_SRC = ROOT / "playbooks/research/frontier-models-inventory.json"
+COLLECTION_SITES = ROOT / "playbooks/research/showcase-collection-sites.json"
 IDEAS = ROOT / "docs/data/ideas.json"
 GALLERY = ROOT / "docs/data/gallery.json"
 OUT_JSON = ROOT / "docs/data/community-cases.json"
@@ -31,7 +32,7 @@ LOCAL_MANIFEST = ROOT / "docs/data/local-media-manifest.json"
 GITHUB_ABOUT = {
     "description": (
         "AI 模型制作案例集 / Awesome AI Model Showcases: public GIF & animation "
-        "cases by model family (GPT Image, Claude, Gemini, GPT Sol, Grok, Qwen, "
+        "cases by model family (GPT Image, Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, "
         "DeepSeek…). Authors, media, prompts, sources. English & 中文."
     ),
     "homepage": "https://jammyfu.github.io/awesome-ai-model-showcases/",
@@ -52,12 +53,78 @@ GITHUB_ABOUT = {
 MODEL_FAMILY_PLACEHOLDERS = (
     ("claude", "Claude", "Claude", "Fable 5.2 / Opus 5.5 / Mythos 5.2"),
     ("gemini", "Gemini", "Gemini", "4 Carbon / 4 Argon"),
-    ("gpt-code", "GPT Sol / Astra (code models)", "GPT Sol / Astra（代码模型）", "GPT-6.1 Sol / GPT-6 Sol / Astra"),
+    (
+        "gpt-code",
+        "GPT-6.2 Sol / Astra (code models)",
+        "GPT-6.2 Sol / Astra（代码模型）",
+        "GPT-6.2 Sol (owner) · OpenAI pages still list GPT-6.1 Sol",
+    ),
     ("grok", "Grok", "Grok", "Grok 4.7 / Imagine Video"),
     ("qwen", "Qwen", "Qwen", "Qwen3.8"),
     ("deepseek", "DeepSeek", "DeepSeek", "V4.1 Flash"),
 )
+
+GPT_SOL_STATUS_EN = (
+    "Catalog section name **GPT-6.2 Sol** follows the repo owner. "
+    "As of 2026-11-11, OpenAI’s public pages still document **GPT-6.1 Sol** "
+    "([introducing GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/), "
+    "[Models](https://platform.openai.com/docs/models)); this repo does not invent an official 6.2 announcement."
+)
+GPT_SOL_STATUS_ZH = (
+    "目录分栏名 **GPT-6.2 Sol** 按仓库主人确认。截至 2026-11-11，OpenAI 公开文档仍写 **GPT-6.1 Sol**"
+    "（[介绍页](https://openai.com/index/introducing-gpt-6-1-sol/)、"
+    "[Models](https://platform.openai.com/docs/models)）；本仓不编造官方 6.2 发布声明。"
+)
 BUCKET_FRONTIER = "collected_frontier_sourced"
+
+FAMILY_LABELS_EN = {
+    "claude": "Claude",
+    "gemini": "Gemini",
+    "gpt-code": "GPT-6.2 Sol",
+    "grok": "Grok",
+    "qwen": "Qwen",
+    "deepseek": "DeepSeek",
+    "multi": "Cross-family",
+}
+FAMILY_LABELS_ZH = {
+    "claude": "Claude",
+    "gemini": "Gemini",
+    "gpt-code": "GPT-6.2 Sol",
+    "grok": "Grok",
+    "qwen": "Qwen",
+    "deepseek": "DeepSeek",
+    "multi": "跨家族",
+}
+
+
+def format_collection_sites(sites_raw: dict, *, lang: str) -> str:
+    by_family = sites_raw.get("by_family") or {}
+    labels = FAMILY_LABELS_ZH if lang == "zh-CN" else FAMILY_LABELS_EN
+    parts: list[str] = []
+    # Prefer GPT-6.2 Sol first, then other families, then multi.
+    order = ["gpt-code"] + [k for k in by_family if k not in ("gpt-code", "multi")] + (
+        ["multi"] if "multi" in by_family else []
+    )
+    seen: set[str] = set()
+    for fam in order:
+        if fam in seen or fam not in by_family:
+            continue
+        seen.add(fam)
+        items = by_family[fam] or []
+        if not items:
+            continue
+        label = labels.get(fam, fam)
+        parts.append(f"**{label}**")
+        for site in items:
+            name = (site.get("name") or "").strip()
+            url = (site.get("url") or "").strip()
+            desc = (site.get("description") or "").strip()
+            if not name or not url:
+                continue
+            parts.append(f"- [{name}]({url}) — {desc}" if desc else f"- [{name}]({url})")
+        parts.append("")
+    return "\n".join(parts).rstrip() + ("\n" if parts else "")
+
 
 EN_LEAD = (
     "Awesome AI Model Showcases collects real public AI model GIF and animation cases: "
@@ -585,6 +652,14 @@ def main() -> None:
         frontier_by_family[fam].append(from_frontier(item))
     frontier_all = [rec for fam in frontier_by_family.values() for rec in fam]
 
+    sites_raw = (
+        json.loads(COLLECTION_SITES.read_text(encoding="utf-8"))
+        if COLLECTION_SITES.exists()
+        else {"meta": {}, "by_family": {}}
+    )
+    collection_sites_en = format_collection_sites(sites_raw, lang="en")
+    collection_sites_zh = format_collection_sites(sites_raw, lang="zh-CN")
+
     gpt_image_rows = collected_x + web_confirmed + inrepo + game_main
     catalog = {
         "meta": {
@@ -593,13 +668,22 @@ def main() -> None:
             "updated": max(
                 web.get("meta", {}).get("updated", "2026-11-06"),
                 frontier_raw.get("meta", {}).get("updated", "2026-11-06"),
+                sites_raw.get("meta", {}).get("updated", "2026-11-06"),
             ),
-            "coverage": "按模型家族分栏的公开案例收集库。GPT Image 2.6 为本地归档子栏目；Claude / Gemini / GPT Sol / Grok / Qwen / DeepSeek 等家族以出处链接收录真实公开案例（默认不本地再托管）。不是穷尽全网。许可与视觉检查按条目标注；帧序列检查不等于完整播放或生成复现。",
+            "coverage": "按模型家族分栏的公开案例收集库。GPT Image 2.6 为本地归档子栏目；Claude / Gemini / GPT-6.2 Sol / Grok / Qwen / DeepSeek 等家族以出处链接收录真实公开案例（默认不本地再托管）。GPT-6.2 Sol 分栏名按主人确认；OpenAI 公开页截至核验日仍列 GPT-6.1 Sol。不是穷尽全网。许可与视觉检查按条目标注；帧序列检查不等于完整播放或生成复现。",
             "not_exhaustive": True,
             "official_verified_26_game": 0,
             "structure": "model_family",
             "counts": {},
             "unverified_or_missing": frontier_raw.get("meta", {}).get("unverified_or_missing") or [],
+            "gpt_sol_status": {
+                "catalog_label": "GPT-6.2 Sol",
+                "openai_public_docs_label": "GPT-6.1 Sol",
+                "checked": "2026-11-11",
+                "openai_intro_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+                "openai_models_url": "https://platform.openai.com/docs/models",
+            },
+            "showcase_collection_sites": sites_raw.get("by_family") or {},
         },
         "collected_x_author_claim": collected_x,
         "collected_web_gif": web_confirmed,
@@ -677,6 +761,8 @@ def main() -> None:
         for fid, _en, zh, versions in MODEL_FAMILY_PLACEHOLDERS:
             rows = frontier_by_family[fid]
             parts.append(f"## 家族 · {zh} — {versions}（{len(rows)}）")
+            if fid == "gpt-code":
+                parts.append(f"> {GPT_SOL_STATUS_ZH}")
             parts.append(md_table(rows, from_file=from_file) if rows else f"_此栏暂无已核实案例（{versions}）。_\n")
         parts.extend(
             [
@@ -706,6 +792,8 @@ def main() -> None:
         for fid, en, _zh, versions in MODEL_FAMILY_PLACEHOLDERS:
             rows = frontier_by_family[fid]
             parts.append(f"## Family · {en} — {versions} ({len(rows)})")
+            if fid == "gpt-code":
+                parts.append(f"> {GPT_SOL_STATUS_EN}")
             parts.append(md_table(rows, HEADERS_EN, from_file=from_file) if rows else f"_No sourced cases yet for {versions}._\n")
         parts.extend(
             [
@@ -730,9 +818,13 @@ def main() -> None:
                 "",
                 f"- Main collected: **{c['main_collected']}** = GPT Image **{c['gpt_image']}** + other families **{c['frontier_sourced']}**",
                 f"- GPT Image: X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}",
-                f"- Other families: Claude {c['family_claude']} · Gemini {c['family_gemini']} · GPT Sol/Astra {c['family_gpt-code']} · Grok {c['family_grok']} · Qwen {c['family_qwen']} · DeepSeek {c['family_deepseek']}",
+                f"- Other families: Claude {c['family_claude']} · Gemini {c['family_gemini']} · GPT-6.2 Sol {c['family_gpt-code']} · Grok {c['family_grok']} · Qwen {c['family_qwen']} · DeepSeek {c['family_deepseek']}",
                 f"- Pending {c['pending']} · prompt-only {c['prompt_only']} · excluded {c['excluded']} · appendix {c['appendix']} · seeds {c['repo_seeds']}",
                 "- Officially verified 2.6 game outputs: **0**",
+                "",
+                "## Showcase collection sites / 展示站资源列表",
+                "",
+                collection_sites_zh,
                 "",
                 tables_zh(OUT_MD),
                 "",
@@ -750,7 +842,7 @@ def main() -> None:
 | · Game author-claimed | **{c['game_author_claim']}** | Repository seeds (local examples) | {c['repo_seeds']} |
 | Claude (Fable 5.2 / Opus 5.5…) | **{c['family_claude']}** | | |
 | Gemini (4 Carbon / 4 Argon) | **{c['family_gemini']}** | | |
-| GPT Sol / Astra (code) | **{c['family_gpt-code']}** | | |
+| GPT-6.2 Sol / Astra (code) | **{c['family_gpt-code']}** | | |
 | Grok (4.7 / Imagine) | **{c['family_grok']}** | | |
 | Qwen (3.8) | **{c['family_qwen']}** | | |
 | DeepSeek (V4.1 Flash) | **{c['family_deepseek']}** | | |
@@ -765,18 +857,30 @@ def main() -> None:
 | · 游戏 · 作者声明 | **{c['game_author_claim']}** | 仓库种子（本仓示例） | {c['repo_seeds']} |
 | Claude（Fable 5.2 / Opus 5.5…） | **{c['family_claude']}** | | |
 | Gemini（4 Carbon / 4 Argon） | **{c['family_gemini']}** | | |
-| GPT Sol / Astra（代码） | **{c['family_gpt-code']}** | | |
+| GPT-6.2 Sol / Astra（代码） | **{c['family_gpt-code']}** | | |
 | Grok（4.7 / Imagine） | **{c['family_grok']}** | | |
 | Qwen（3.8） | **{c['family_qwen']}** | | |
 | DeepSeek（V4.1 Flash） | **{c['family_deepseek']}** | | |
 | **主表合计** | **{c['main_collected']}** | | |"""
 
     OUT_README.write_text(
-        render_readme("en", catalog=catalog, count_table=count_table, tables=tables_en(OUT_README)),
+        render_readme(
+            "en",
+            catalog=catalog,
+            count_table=count_table,
+            tables=tables_en(OUT_README),
+            collection_sites=collection_sites_en,
+        ),
         encoding="utf-8",
     )
     OUT_README_ZH.write_text(
-        render_readme("zh-CN", catalog=catalog, count_table=count_table_zh, tables=tables_zh(OUT_README_ZH)),
+        render_readme(
+            "zh-CN",
+            catalog=catalog,
+            count_table=count_table_zh,
+            tables=tables_zh(OUT_README_ZH),
+            collection_sites=collection_sites_zh,
+        ),
         encoding="utf-8",
     )
 
@@ -792,7 +896,7 @@ Independent community project. Organized by model family. Current public invento
 A sourced catalog of AI model GIF/animation showcases (post, real GIF/MP4/SVG-HTML capture, prompt-or-empty, model evidence, pipeline, verification, license boundary), grouped by model family. GPT Image 2.6 is one populated subsection.
 
 ## What is in the current inventory?
-Main collected {c['main_collected']} = GPT Image {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}) + other families {c['frontier_sourced']} (Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT Sol/Astra {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}). Non-GPT families are source-linked by default. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree.
+Main collected {c['main_collected']} = GPT Image {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}) + other families {c['frontier_sourced']} (Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT-6.2 Sol {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}). Non-GPT families are source-linked by default. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English and Chinese must not disagree. Showcase collection sites: playbooks/research/showcase-collection-sites.json.
 
 ## What can I do with it?
 Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.
