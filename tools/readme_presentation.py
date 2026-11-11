@@ -57,27 +57,6 @@ FEATURED = (
     ),
 )
 
-# (family, version, case id). Ids must already exist in the catalog.
-FAMILY_FEATURED = (
-    ("claude", "claude-fable-5.2", "x-financeyf5-fable52-bugatti-tourbillon"),
-    ("claude", "claude-fable-5.2", "x-deryatr-fable52-tcell-film"),
-    ("claude", "claude-fable-5.2", "x-himanshutwtxs-fable52-motion-showreel"),
-    ("claude", "claude-opus-5.5", "web-jamesgreene-code1-opus55-isometric-city"),
-    ("gemini", "gemini-4-argon", "web-jamesgreene-code1-gemini4-argon-isometric-city"),
-    ("gemini", "gemini-4-carbon", "x-deryatr-gemini-carbon-theme-park"),
-    ("gemini", "gemini-4-carbon", "x-aiforsuccess-gemini-carbon-v8"),
-    ("gpt-code", "gpt-6.2-sol", "x-tokengremlin-gpt62sol-glass-seasons"),
-    ("gpt-code", "gpt-6.2-sol", "x-cfenghub-gpt62sol-colosseum"),
-    ("gpt-code", "gpt-6.1-sol", "web-jamesgreene-code1-gpt61-sol-isometric-city"),
-    ("grok", "grok-4.7", "web-jamesgreene-code1-grok47-isometric-city"),
-    ("grok", "grok-imagine-video", "x-aiminithoughts-grok-imagine-golden-angel"),
-    ("qwen", "qwen3.8-27b", "web-jamesgreene-code1-qwen38-27b-isometric-city"),
-    ("qwen", "qwen4-preview", "x-coffeecup2020-qwen4-sagrada"),
-    ("qwen", "qwen4-max-preview", "x-leo114119-qwen4max-wukong-plane"),
-    ("deepseek", "deepseek-v4.1-flash-1017", "web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city"),
-    ("deepseek", "deepseek-v4.1-flash", "x-latentoperator-a380-deepseek-fable-sol"),
-)
-
 # Homepage families. GPT Image stays in the catalog JSON and in
 # collections/gpt-image-gifs/, and is not a homepage section.
 HOMEPAGE_FAMILIES = ("claude", "gemini", "gpt-code", "grok", "qwen", "deepseek")
@@ -171,7 +150,8 @@ UI = {
         "partial": "Short / partial",
         "empty": "Unpublished",
         "brief": "Source motion brief",
-        "shown": "{shown} featured of {total} sourced cases in this family. The rest are in the full evidence tables.",
+        "shown": "All {total} sourced cases in this family, grouped by version, newest first. {thumbs} have a thumbnail card (click the image for the original post); the rest are listed one per line. The same rows are in the full evidence tables.",
+        "video": "▶ Video",
         "all": "All {total} sourced cases in this family are listed here. The same rows are in the full evidence tables.",
         "mythos": "This version is named in the inventory and has no separate sourced case here. The inventory sentence is quoted as stored:",
         "qwen": "The inventory also records a version with no separate sourced case. Quoted as stored:",
@@ -194,7 +174,8 @@ UI = {
         "partial": "短 / 部分",
         "empty": "未公开",
         "brief": "来源动作描述",
-        "shown": "这个家族收了 {total} 条有出处的案例，这里放 {shown} 条。其余都在后面的完整证据表里。",
+        "shown": "这个家族收了 {total} 条有出处的案例，下面按版本全部列出，新的在前。{thumbs} 条带缩略图卡片，点图看原帖；没有缩略图的各占一行。后面的完整证据表是同一批记录。",
+        "video": "▶ 视频",
         "all": "这个家族 {total} 条有出处的案例都列在这里。后面的完整证据表是同一批记录。",
         "mythos": "清单里写了这一版，但没有单独的、带来源的案例。下面照录清单原话，不另编一条：",
         "qwen": "清单里还记了一版，没有单独案例。原话如下：",
@@ -217,7 +198,8 @@ UI = {
         "partial": "短 / 部分",
         "empty": "未公開",
         "brief": "來源動作描述",
-        "shown": "這個家族收了 {total} 則有出處的案例，這裡放 {shown} 則。其餘都在後面的完整證據表。",
+        "shown": "這個家族收了 {total} 則有出處的案例，下面按版本全部列出，新的在前。{thumbs} 則帶縮圖卡片，點圖看原帖；沒有縮圖的各占一行。後面的完整證據表是同一批紀錄。",
+        "video": "▶ 影片",
         "all": "這個家族 {total} 則有出處的案例都列在這裡。後面的完整證據表是同一批紀錄。",
         "mythos": "清單裡寫了這一版，但沒有單獨、帶出處的案例。下面照錄清單原文，不另編一則：",
         "qwen": "清單裡還記了一版，沒有單獨案例。原文如下：",
@@ -240,7 +222,8 @@ UI = {
         "partial": "短い / 部分",
         "empty": "未公開",
         "brief": "出典の動作説明",
-        "shown": "このファミリーの出典付き事例は {total} 件。ここでは {shown} 件。残りは下の証拠表に入っています。",
+        "shown": "このファミリーの出典付き事例 {total} 件を、版ごとに新しい順ですべて並べる。{thumbs} 件はサムネイル付きのカード（画像をクリックすると原投稿へ）、サムネイルのないものは 1 行ずつ。同じ行が下の証拠表にもある。",
+        "video": "▶ 動画",
         "all": "このファミリーの出典付き事例 {total} 件は、ここにすべてあります。同じ行が下の証拠表にもあります。",
         "mythos": "インベントリにはこの版の名があるが、出典付きの単独事例はない。原文のまま引用する：",
         "qwen": "インベントリには、単独事例のない版も書いてある。原文のまま：",
@@ -372,7 +355,7 @@ def _full_day(value: str) -> bool:
     return len(value) == 10 and value[4] == "-" and value[7] == "-" and value[5:7].isdigit() and value[8:10].isdigit()
 
 
-def thumb_grid(rows: list[dict], lang: str) -> str:
+def thumb_grid(rows: list[dict], lang: str, show_video: bool = False) -> str:
     ui = UI[lang]
     if not rows:
         return ""
@@ -402,6 +385,9 @@ def thumb_grid(rows: list[dict], lang: str) -> str:
             lines.append(f'{ui["credit"]}: {credit}<br><a href="{source}">{escape(ui["post"])}</a>')
         elif credit:
             lines.append(f'{ui["credit"]}: {credit}')
+        video = row.get("video") or ""
+        if show_video and video:
+            lines.append(f' · <a href="{escape(video)}">{escape(ui["video"])}</a>')
         lines.append("</td>")
     lines.extend(["</tr>", "</table>"])
     return "\n".join(lines)
@@ -505,44 +491,63 @@ def featured_cards(rows: list[dict], lang: str, from_file: Path | None = None) -
     return "\n".join(lines)
 
 
+def _date_desc(rows: list[dict]) -> list[dict]:
+    """Newest first; undated rows go last, then by id for a stable order."""
+    dated = sorted((r for r in rows if r.get("date")), key=lambda r: (str(r["date"]), r["id"]), reverse=True)
+    undated = sorted((r for r in rows if not r.get("date")), key=lambda r: r["id"])
+    return dated + undated
+
+
+def _compact_line(row: dict, lang: str) -> str:
+    ui = UI[lang]
+    title = " ".join(str(row.get("title") or row["id"]).split())
+    bits = [f"**{title}**"]
+    credit = row.get("image_credit") or row.get("author") or ""
+    if credit:
+        bits.append(f"{ui['credit']}: {credit}")
+    if row.get("local_detail"):
+        bits.append(f"[{ui['case']}]({row['local_detail']})")
+    if row.get("source_url"):
+        bits.append(f"[{ui['post']}]({row['source_url']})")
+    if row.get("video"):
+        bits.append(f"[{ui['video']}]({row['video']})")
+    return "- " + " · ".join(bits)
+
+
 def family_sections(catalog: dict, lang: str) -> str:
-    by_id = cases_by_id(catalog)
     by_family = catalog.get("collected_by_family") or {}
     ui = UI[lang]
-    picked: dict[str, dict[str, list[str]]] = {fam: {} for fam in HOMEPAGE_FAMILIES}
-    for fam, version, cid in FAMILY_FEATURED:
-        row = by_id.get(cid)
-        if row is None:
-            raise SystemExit(f"featured case is not in the catalog: {cid}")
-        if row.get("model_family") != fam or row.get("model_version") != version:
-            raise SystemExit(
-                f"featured case {cid} is {row.get('model_family')}/{row.get('model_version')}, "
-                f"not {fam}/{version}"
-            )
-        picked[fam].setdefault(version, []).append(cid)
     blocks: list[str] = []
     for fam in HOMEPAGE_FAMILIES:
-        total = len(by_family.get(fam) or [])
-        shown = sum(len(ids) for ids in picked[fam].values())
+        bucket = list(by_family.get(fam) or [])
+        unknown = {r.get("model_version") for r in bucket} - set(VERSION_ORDER[fam])
+        if unknown:
+            raise SystemExit(f"{fam} has versions missing from VERSION_ORDER: {sorted(map(str, unknown))}")
+        total = len(bucket)
+        thumbs = sum(1 for r in bucket if r.get("thumb"))
         blocks.append(f'<a id="{fam}"></a>')
         blocks.append(f"## {FAMILY_TITLE[fam]}")
         cover = "gpt-sol" if fam == "gpt-code" else fam
         blocks.append(f"![{FAMILY_TITLE[fam]} cover](assets/brand/families/{cover}.png)")
-        key = "all" if shown == total else "shown"
-        blocks.append(ui[key].format(shown=shown, total=total))
+        blocks.append(ui["shown"].format(total=total, thumbs=thumbs))
         if fam == "gpt-code":
             blocks.append(sol_note(catalog, lang))
         for version in VERSION_ORDER[fam]:
-            ids = picked[fam].get(version) or []
-            if not ids and version != "claude-mythos-5.2":
+            rows = _date_desc([r for r in bucket if r.get("model_version") == version])
+            if not rows and version != "claude-mythos-5.2":
                 continue
             blocks.append(f'<a id="{version_anchor(version)}"></a>')
             blocks.append(f"### {VERSION_LABEL[version]}")
-            if not ids:
+            if not rows:
                 blocks.append(ui["mythos"])
                 blocks.append("> " + _inventory_quote(catalog, "Mythos 5.2"))
                 continue
-            blocks.append(thumb_grid([by_id[cid] for cid in ids], lang))
+            with_thumb = [r for r in rows if r.get("thumb")]
+            without = [r for r in rows if not r.get("thumb")]
+            if with_thumb:
+                blocks.append(thumb_grid(with_thumb, lang, show_video=True))
+            if without:
+                blocks.append("\n".join(_compact_line(r, lang) for r in without))
         if fam == "qwen":
             blocks.append(ui["qwen"])
             blocks.append("> " + _inventory_quote(catalog, "Qwen 3.8 Flash Next"))

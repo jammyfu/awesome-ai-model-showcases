@@ -42,7 +42,7 @@ ${latest}
 <a id="showcase"></a>
 ## Cases by model family
 
-Two or three sourced cases per family, or fewer when the inventory itself has fewer. Versions with no sourced case stay empty. Nothing here is invented to fill a slot.
+Every sourced case is listed under its family and version, newest first. Cases with a thumbnail get a card (click the image for the original post; ▶ Video opens the archived local video); cases without one get a single line. Versions with no sourced case stay empty. Nothing here is invented to fill a slot.
 
 The [AIGCreative Feishu reference](docs/reference-feishu.md) also groups one model’s works by use case (product workflow, teaching, film and visual experiments, games, research). This catalog still navigates by model family, version, and work type.
 
