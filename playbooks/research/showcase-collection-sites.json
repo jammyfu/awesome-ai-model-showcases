@@ -57,6 +57,11 @@
         "name": "DramaSo · Fable 5.2 prompts & videos",
         "url": "https://drama.so/prompts/fable-5-2",
         "description": "Community gallery of Fable 5.2 code/animation works with creator credits and some verbatim prompts."
+      },
+      {
+        "name": "AIGC创意猎人 · Claude Fable 5.2 案例合集",
+        "url": "https://aigcreative.feishu.cn/wiki/ZB58w4kilimVTPkIosFcN2N4nnd",
+        "description": "Feishu wiki page that groups Claude Fable 5.2 works by use case (product workflow, teaching, film, games, research). Each entry has a short brief, evidence limits, and a link to the original X post."
       }
     ],
     "gemini": [
