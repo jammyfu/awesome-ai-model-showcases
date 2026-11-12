@@ -1,12 +1,12 @@
 # x-okan-aitool-wave-laugh
 
-Author / 作者 / 作者 / 作者: @okan_aitool（あゆ｜キャラパレ運営）
+Author / 作者 / 作者 / 作者 / 제작자: @okan_aitool（あゆ｜キャラパレ運営）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/okan_aitool/status/2118201578406772887)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-okan-aitool-wave-laugh/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/okan_aitool/status/2118201578406772887)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-okan-aitool-wave-laugh/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 
 ```text
 このキャラをGIFで動かして。手を振って笑う
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+일본어 게시물: 이미지 1장 + 짧은 프롬프트 “このキャラをGIFで動かして。手を振って笑う”(이 캐릭터를 GIF로 움직여 줘. 손을 흔들며 웃어). Krouxzz와 비슷한 동작이지만 게시물은 합치거나 삭제하지 않음
+```
+
+### 제작 방법
+
+작성자는 직접 GIF 출력이라고 주장하지만 X 첨부파일은 실제로 MP4
+
+### 검증 상태
+
+작성자 주장 + 미디어 메타데이터 확인, 영상 미시청, 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 2.6 주장: ChatGPT Image 2.6 업데이트!! …프롬프트는 이렇게 짧음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+이 캐릭터를 GIF로 움직이게 해 주세요. 손을 흔들며 웃게 해 주세요.
 ```

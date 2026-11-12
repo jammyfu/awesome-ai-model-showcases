@@ -1,12 +1,12 @@
 # web-halil-fable52-animation-prompts
 
-Author / 作者 / 作者 / 作者: Halil Sekeroglu
+Author / 作者 / 作者 / 作者 / 제작자: Halil Sekeroglu
 
-[Original source / 原帖 / 原帖 / 原投稿](https://halilsekeroglu.com/en/fable/)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/web-halil-fable52-animation-prompts/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://halilsekeroglu.com/en/fable/)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/web-halil-fable52-animation-prompts/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 
 ```text
 1つのHTMLファイルに、自動再生する映画のようなシーンを作ってください。[シーン、例：嵐の夜、岩の上に立つ灯台]。[動くもの、例：回転する光、降る雨、岩を打つ波、遠くで光る稲妻。]カメラは非常にゆっくり前進します。色：[例：冷たい青の夜、暖かな黄色の光]。CanvasまたはWebGLを使用し、外部ファイルは使わないでください。全画面、縦画面対応、12秒のシームレスループ。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+한 메시지로 만드는 Fable 5.2 애니메이션 프롬프트 4개(로고 / 홍보 / 영화풍 / 3D)
+```
+
+### 제작 방법
+
+리믹스를 위한 단일 메시지 HTML/SVG/Three.js/Canvas 프롬프트 공개
+
+### 검증 상태
+
+원문 프롬프트를 제공하는 공개 페이지, 서드파티 GIF 재호스팅이 아님
+
+### 모델 근거 (번역)
+
+```text
+작성자 페이지: Animation with Fable 5.2, 2026-11-10 claude.ai에서 확인
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+HTML 파일 하나로 자동 재생되는 영화 같은 장면을 만들어 주세요: [장면, 예: 폭풍우 치는 밤 바위 위의 등대]. [움직이는 요소, 예: 회전하는 등대 빛, 내리는 비, 바위에 부딪히는 파도, 멀리 번쩍이는 번개.] 카메라는 아주 천천히 앞으로 이동합니다. 색상: [예: 차가운 파란 밤과 따뜻한 노란빛]. Canvas 또는 WebGL을 사용하고 외부 파일은 쓰지 마세요. 전체 화면, 세로 화면에 맞춤, 이음새 없는 12초 반복.
 ```

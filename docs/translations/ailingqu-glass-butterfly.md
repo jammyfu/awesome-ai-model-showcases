@@ -1,12 +1,12 @@
 # ailingqu-glass-butterfly
 
-Author / 作者 / 作者 / 作者: ailingqu / awesome-ai-gif-prompts
+Author / 作者 / 作者 / 作者 / 제작자: ailingqu / awesome-ai-gif-prompts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/glass-butterfly.gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ailingqu-glass-butterfly/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/glass-butterfly.gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ailingqu-glass-butterfly/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 
 
 ```text
 透明なガラスでできた蝶が白いテーブルにとまり、ゆっくり羽を開閉する。それに合わせて、テーブル上の色鮮やかな屈折光の影が変化する。マクロ写真、柔らかな光。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+그림자가 변하는 유리 나비
+```
+
+### 제작 방법
+
+출처에는 via=chatgpt-image-2.com으로 기록, 정확한 요청은 알 수 없음
+
+### 검증 상태
+
+GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+투명 유리로 된 나비가 흰 테이블에 앉아 천천히 날개를 펴고 접습니다. 테이블 위의 다채로운 굴절 그림자도 동시에 바뀝니다. 매크로 사진, 부드러운 빛.
 ```

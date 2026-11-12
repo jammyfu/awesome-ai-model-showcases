@@ -1,12 +1,12 @@
 # x-cfenghub-gpt62sol-colosseum
 
-Author / 作者 / 作者 / 作者: @cfenghub（CF长风）
+Author / 作者 / 作者 / 作者 / 제작자: @cfenghub（CF长风）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/cfenghub/status/2120069654437921152)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-cfenghub-gpt62sol-colosseum/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/cfenghub/status/2120069654437921152)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-cfenghub-gpt62sol-colosseum/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ Three.js + GLSL + Blender · 単一 HTML · 動画収録
 
 ```text
 three.js+GLSL+Blenderを使い、あなたが最も上質で華麗だと思うローマのコロッセオを、超精密に再現するものを作ってください。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Three.js, GLSL, Blender로 만든 비에 젖은 로마 콜로세움
+```
+
+### 제작 방법
+
+Three.js + GLSL + Blender, 단일 HTML, 녹화 영상
+
+### 검증 상태
+
+1차 X URL, 게시물에 한 문장 프롬프트 공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: GPT 6.2 Sol, 한 문장 프롬프트, 모델 작업 시간 약 40분. 작성자는 이 실행을 GPT-6.2 Sol로 표기. 2026-11-11 기준 OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재돼 있으며 공식 6.2 발표가 아님
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+three.js+GLSL+Blender로 당신이 생각하는 가장 수준 높고 화려한 로마 콜로세움을 초정밀하게 재현해 주세요.
 ```

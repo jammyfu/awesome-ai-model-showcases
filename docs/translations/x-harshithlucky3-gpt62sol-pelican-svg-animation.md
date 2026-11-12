@@ -1,12 +1,12 @@
 # x-harshithlucky3-gpt62sol-pelican-svg-animation
 
-Author / 作者 / 作者 / 作者: @HarshithLucky3（Harshith）
+Author / 作者 / 作者 / 作者 / 제작자: @HarshithLucky3（Harshith）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/HarshithLucky3/status/2119418918616150080)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/HarshithLucky3/status/2119418918616150080)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-harshithlucky3-gpt62sol-pelican-svg-animation/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ Codex で制作した SVG アニメーション · 動画収録
 
 ```text
 ペリカンと2匹のカニが自転車に乗る側面視点のSVGアニメーション
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+SVG 애니메이션: 자전거 타는 펠리컨과 게 2마리(Codex 라우팅)
+```
+
+### 제작 방법
+
+Codex로 만든 SVG 애니메이션, 녹화 영상
+
+### 검증 상태
+
+1차 X URL, 짧은 프롬프트 공개, 작성자는 6.2가 아닌 모델로 라우팅됐을 가능성 언급
+
+### 모델 근거 (번역)
+
+```text
+작성자: “Codex의 GPT 6.2 Sol max(또는 다른 모델)” / “내 6.1 sol이 다른 모델로 라우팅되고 있다”. 불확실성을 그대로 유지. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+자전거를 타는 펠리컨과 게 2마리를 옆에서 본 SVG 애니메이션.
 ```

@@ -1,12 +1,12 @@
 # ailingqu-window-day-to-night
 
-Author / 作者 / 作者 / 作者: ailingqu / awesome-ai-gif-prompts
+Author / 作者 / 作者 / 作者 / 제작자: ailingqu / awesome-ai-gif-prompts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/window-day-to-night.gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ailingqu-window-day-to-night/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/window-day-to-night.gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ailingqu-window-day-to-night/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 
 
 ```text
 大きな窓のそばのクッションに座って本を読むショートボブの女の子を横から見る。窓外の空は明るい朝の青からオレンジの夕焼け、星空の夜、そして朝へと循環し、室内の光は暖かくなり、夜にはデスクランプが点灯する。柔らかなフラットイラストで、穏やかで居心地のよい雰囲気。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+창가에서 책 읽기, 낮에서 밤으로
+```
+
+### 제작 방법
+
+공개된 GIF, 이 사례의 생성 제공업체는 기록되지 않음
+
+### 검증 상태
+
+GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+큰 창가의 쿠션에 앉아 책을 읽는 짧은 단발 소녀를 옆에서 봅니다. 창밖 하늘은 밝은 아침의 파랑에서 주황빛 일몰, 별이 빛나는 밤, 다시 아침으로 순환합니다. 실내 조명은 따뜻해지고 밤에는 탁상등이 켜집니다. 부드러운 평면 일러스트, 차분하고 아늑한 분위기.
 ```

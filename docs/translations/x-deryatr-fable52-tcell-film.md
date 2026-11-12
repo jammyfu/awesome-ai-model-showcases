@@ -1,12 +1,12 @@
 # x-deryatr-fable52-tcell-film
 
-Author / 作者 / 作者 / 作者: @DeryaTR_（Derya Unutmaz）
+Author / 作者 / 作者 / 作者 / 제작자: @DeryaTR_（Derya Unutmaz）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/DeryaTR_/status/2120382619082727604)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-deryatr-fable52-tcell-film/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/DeryaTR_/status/2120382619082727604)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-deryatr-fable52-tcell-film/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ Blender による細胞の映像、ナレーションと音楽付き · 画面�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Blender로 만든 T세포의 생애 영상(12,480프레임, Fable 5.2)
+```
+
+### 제작 방법
+
+Blender 세포 영상 + 내레이션과 음악, 화면 캡처
+
+### 검증 상태
+
+1차 X URL + 영상, 프롬프트 미공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Fable 5.2가 대본 작성, 면역학 검토, Blender 세포 제작, 12,480프레임 렌더링, 내레이션과 음악 추가를 수행. 약 8분 40초
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

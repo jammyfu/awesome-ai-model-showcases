@@ -1,6 +1,6 @@
 # Case translation policy
 
-The four README editions use one inventory: English (`en`), Simplified Chinese (`zh-CN`), Traditional Chinese (`zh-TW`), and Japanese (`ja`). The catalog interface remains English and Simplified Chinese. Its linked case reader supports all four content languages.
+The five README editions use one inventory: English (`en`), Simplified Chinese (`zh-CN`), Traditional Chinese (`zh-TW`), Japanese (`ja`), and Korean (`ko`). The catalog interface remains English and Simplified Chinese. Its linked case reader supports all five content languages.
 
 ## What is translated
 
@@ -9,7 +9,7 @@ The four README editions use one inventory: English (`en`), Simplified Chinese (
 - Every nonempty published prompt collected in the catalog. Translations are full text, not summaries. Missing or partial source text remains missing or partial; it is not completed by the translator.
 - Literal requested output captions, API names, code identifiers, URLs, model names, numbers and technical constraints retain their original meaning. Quoted text may therefore intentionally remain in another language inside a translation.
 
-The JSON source fields are not overwritten. Separate `translations` records supply the localized views; the original source and prompt can be read alongside them. Authors, source URLs, dates, rights labels, and verification flags are not translated into different identities or stronger claims. Research notes and source documents are retained as provenance; this does not claim that every document in the repository has four translations.
+The JSON source fields are not overwritten. Separate `translations` records supply the localized views; the original source and prompt can be read alongside them. Authors, source URLs, dates, rights labels, and verification flags are not translated into different identities or stronger claims. Research notes and source documents are retained as provenance; this does not claim that every document in the repository has five translations.
 
 ## Review and rights boundaries
 
@@ -17,7 +17,7 @@ All new translations are marked `ai-translated-not-human-reviewed`. Structural v
 
 ## Updating content
 
-Checked-in translation dictionaries use the exact original text as their key. If a title, method, verification note, evidence quotation or prompt changes, the generator stops until translations for the new source text are supplied in all four languages. It never silently marks original-language fallback as translated.
+Checked-in translation dictionaries use the exact original text as their key. If a title, method, verification note, evidence quotation or prompt changes, the generator stops until translations for the new source text are supplied in all five languages. It never silently marks original-language fallback as translated.
 
 Edit the relevant `data/case-*-translations.json` file, preserving original quoted text and source qualifiers. Then run:
 
@@ -28,3 +28,7 @@ python3 tools/verify.py
 ```
 
 The generator writes per-case original/translation Markdown pages and embeds language records in the catalog JSON/JavaScript. Generated files are not the translation source of truth. `meta.localization` and `docs/data/translation-coverage.json` record exact coverage; the validation step rejects missing, empty or inconsistent locale entries. Future human review must be recorded explicitly, never inferred from passing tests.
+
+## Korean edition
+
+`README.ko.md`, `docs/catalog.ko.md`, `docs/licensed-gallery.ko.html`, and the case reader (`translated-case.html?id=…&lang=ko`) use Korean titles, methods, evidence and complete collected prompts. All eight licensed works have Korean descriptions and alt text; source marks, model caveats and rights remain unchanged. The main searchable gallery UI is still English/Simplified Chinese, just as for the Japanese and Traditional Chinese editions; Korean navigation labels disclose that boundary. The separate GPT Image archive landing page remains English/Simplified Chinese, but its collected case fields and prompts are available in the five-language reader.

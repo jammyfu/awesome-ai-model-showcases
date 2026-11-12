@@ -10,7 +10,7 @@ from readme_presentation import DISCOVERY_ORDER, HOMEPAGE_FAMILIES, VERSION_ORDE
 from readme_presentation import work_type_of, type_sections, TYPE_ORDER
 
 ROOT = Path(__file__).resolve().parents[1]
-LOCALES = ('en', 'zh-CN', 'zh-TW', 'ja')
+LOCALES = ('en', 'zh-CN', 'zh-TW', 'ja', 'ko')
 
 
 def readme_path(lang):
@@ -38,7 +38,7 @@ class ReadmePresentationTests(unittest.TestCase):
         for lang in LOCALES:
             text = readme_path(lang).read_text()
             self.assertLessEqual(len(text.splitlines()), 280, lang)
-            # Six licensed supplemental rows include full credit/evidence links in four languages.
+            # Six licensed supplemental rows include full credit/evidence links in five languages.
             self.assertLessEqual(len(text.encode()), 35 * 1024, lang)
             self.assertEqual(len(re.findall(r'^# ', text, re.M)), 1)
             self.assertEqual(text.count('<table'), 6, lang)

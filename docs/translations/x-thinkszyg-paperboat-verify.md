@@ -1,12 +1,12 @@
 # x-thinkszyg-paperboat-verify
 
-Author / 作者 / 作者 / 作者: @thinkszyg（爆裂队长NEXT）
+Author / 作者 / 作者 / 作者 / 제작자: @thinkszyg（爆裂队长NEXT）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/thinkszyg/status/2118166234495947044)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-thinkszyg-paperboat-verify/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/thinkszyg/status/2118166234495947044)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-thinkszyg-paperboat-verify/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 
 ```text
 紙の船が水上で上下に揺れるループGIFを作ってください。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+계정의 Images 2.6 사용 가능 여부를 확인하는 종이배 GIF 루프와 6칸 스프라이트 시트 프롬프트(Ravivit의 배와 같은 소재, 별개의 성공 GIF로 집계하지 않음)
+```
+
+### 제작 방법
+
+작성자는 직접 GIF 출력이라고 주장하지만 X 첨부파일은 실제로 MP4
+
+### 검증 상태
+
+작성자 주장 + 미디어 메타데이터 확인, 영상 미시청, 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 2.6 주장: ChatGPT에 Images 2.6 등장…GIF는 2.6만의 기능이며 이전 버전은 정적 이미지만 출력
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+물 위에서 둥실거리는 종이배의 반복 GIF를 만들어 주세요.
 ```

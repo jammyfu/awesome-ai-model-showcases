@@ -1,12 +1,12 @@
 # ailingqu-ai-typing-indicator
 
-Author / 作者 / 作者 / 作者: ailingqu / awesome-ai-gif-prompts
+Author / 作者 / 作者 / 作者 / 제작자: ailingqu / awesome-ai-gif-prompts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ai-typing-indicator.gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ailingqu-ai-typing-indicator/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ai-typing-indicator.gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ailingqu-ai-typing-indicator/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 
 
 ```text
 チャット画面。小さく丸みのあるロボットのアバターが灰色の吹き出しの横にあり、吹き出し内の3つの点が順番に脈動し、アバターの目がまばたきする。白地のすっきりしたモダンなUIスタイル。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+AI 어시스턴트 입력 중 표시
+```
+
+### 제작 방법
+
+출처에는 via=chatgpt-image-2.com으로 기록, 정확한 요청은 알 수 없음
+
+### 검증 상태
+
+GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+작고 둥근 로봇 아바타 옆에 점 세 개가 차례대로 맥동하는 회색 말풍선이 있는 채팅 인터페이스. 아바타의 눈이 깜빡입니다. 흰색 바탕의 깔끔하고 현대적인 UI 스타일.
 ```

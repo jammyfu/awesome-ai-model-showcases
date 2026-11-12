@@ -1,12 +1,12 @@
 # x-gorden-sun-rice-gif
 
-Author / 作者 / 作者 / 作者: @Gorden_Sun（Gorden Sun）
+Author / 作者 / 作者 / 作者 / 제작자: @Gorden_Sun（Gorden Sun）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/Gorden_Sun/status/2118166046175908016)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-gorden-sun-rice-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/Gorden_Sun/status/2118166046175908016)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-gorden-sun-rice-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 
 ```text
 このキャラクターを使い、白いご飯を食べているGIFを生成してください。画像内の文字：真香！
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+참조 캐릭터 이미지 + 한 문장: 중국어 자막 “吃白米饭+真香”(흰쌀밥 먹기 + 역시 맛있다)이 들어간 반복 GIF 밈
+```
+
+### 제작 방법
+
+작성자는 직접 GIF 출력이라고 주장하지만 X 첨부파일은 실제로 MP4
+
+### 검증 상태
+
+작성자 주장 + 미디어 메타데이터 확인, 영상 미시청, 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 2.6 주장: GPT가 새로 출시한 GPT Image 2.6은 이제 한 문장만으로 움직이는 밈을 생성할 수 있음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+이 캐릭터를 사용해 흰 쌀밥을 먹는 GIF 이미지를 만들어 주세요. 이미지 안의 문구는 “真香！”로 해 주세요.
 ```

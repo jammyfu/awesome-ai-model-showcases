@@ -1,12 +1,12 @@
 # x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v
 
-Author / 作者 / 作者 / 作者: @HawkinsonLindy（Lindy Hawkinson）
+Author / 作者 / 作者 / 作者 / 제작자: @HawkinsonLindy（Lindy Hawkinson）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/HawkinsonLindy/status/2118934426633785350)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/HawkinsonLindy/status/2118934426633785350)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-hawkinsonlindy-grok-imagine-wind-blown-yellow-ribbon-v/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ YouMind-OpenLab/awesome-grok-imagine-prompts に掲載された原投稿の X UR
 
 ```text
 明るい青空、花の咲く草地、草に引っかかった黄色いリボンが風になびく
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+바람에 날리는 노란 리본 영상
+```
+
+### 제작 방법
+
+원 게시물에 명시된 Grok Imagine 네이티브 영상
+
+### 검증 상태
+
+YouMind-OpenLab/awesome-grok-imagine-prompts에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+인용 저장소는 이 영상을 Grok Imagine으로 분류하고 원 게시물로 연결. 독립적으로 다시 실행하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+밝은 파란 하늘, 꽃이 핀 풀밭, 풀에 걸려 바람에 날리는 노란 리본.
 ```

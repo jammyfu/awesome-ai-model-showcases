@@ -1,12 +1,12 @@
 # x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag
 
-Author / 作者 / 作者 / 作者: @Aiminithoughts（Ai Mini Thoughts Creator）
+Author / 作者 / 作者 / 作者 / 제작자: @Aiminithoughts（Ai Mini Thoughts Creator）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/Aiminithoughts/status/2118871728680272112)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/Aiminithoughts/status/2118871728680272112)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-aiminithoughts-grok-imagine-spacex-beyond-earth-montag/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -166,4 +166,37 @@ SpaceX ― 地球の彼方へ
 映像は映画的でハイテクなドキュメンタリースタイル。滑らかな金属機器、地球の出と星空、SpaceXのすっきりした白黒のデザイン言語、柔らかなボリューメトリックライト、静かな決意と畏敬を表現する。
 カメラは大きく回り込む軌道トラッキング、居住施設や乗り物を横切るゆっくりしたドリーの前進、規模と進歩を強調する穏やかな空撮視点で動く。
 音は落ち着いた感動的なナレーションで「Humanity isn't just reaching for the stars anymore. We're building the technology to live among them,」と語り、その下に深いエンジンの環境音、柔らかなスラスター噴射音、控えめで高揚感のあるオーケストラ音楽を重ねる。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+SpaceX 지구 너머 몽타주
+```
+
+### 제작 방법
+
+원 게시물에 명시된 Grok Imagine 네이티브 영상
+
+### 검증 상태
+
+YouMind-OpenLab/awesome-grok-imagine-prompts에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+인용 저장소는 이 영상을 Grok Imagine으로 분류하고 원 게시물로 연결. 독립적으로 다시 실행하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+SpaceX – 지구 너머
+궤도 전초기지와 심우주 우주선에서 별들 사이 최초의 영구 거점까지, 지구 밖에서 일하는 SpaceX 기술과 인간 탐험가의 미래지향적인 몽타주.
+비주얼은 영화 같은 첨단 다큐멘터리 스타일입니다. 매끈한 금속 하드웨어, 지구돋이와 별밭, 깔끔한 흰색·검은색 SpaceX 디자인 언어, 부드러운 볼류메트릭 조명, 조용한 결의와 경외감.
+카메라는 규모와 진보를 강조하는 넓은 궤도 추적 숏, 거주지와 차량을 가로지르는 느린 돌리 전진, 부드러운 공중 시점으로 움직입니다.
+사운드에는 “Humanity isn't just reaching for the stars anymore. We're building the technology to live among them,”이라는 문장을 말하는 차분하고 영감을 주는 내레이션이 들어갑니다. 깊은 주변 엔진 웅웅거림, 부드러운 추진기 분사, 은은하고 고양감 있는 오케스트라 음악 위에 겹쳐 주세요.
 ```

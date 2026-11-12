@@ -67,6 +67,11 @@
           "title": "ISOPOLIS · 街が育つ",
           "summary": "光るタワーを中心に広がる、パステルカラーのアイソメトリック都市。風車、屋上の太陽光パネル、高架交通が街を彩ります。",
           "alt": "作者が公開したアイソメトリック都市のフレーム。中央の光るタワー、屋上の太陽光パネル、風車、高架交通が見える。"
+        },
+        "ko": {
+          "title": "ISOPOLIS · 자라나는 도시",
+          "summary": "빛나는 탑 주위로 파스텔톤 등각 투영 도시가 성장합니다. 풍력 발전기, 태양광 지붕과 고가 교통망이 어우러집니다.",
+          "alt": "빛나는 중앙 탑, 지붕 태양광 패널, 풍력 발전기와 고가 교통망이 있는 파스텔톤 등각 투영 도시. 제작자가 공개한 영상 프레임입니다."
         }
       },
       "translation_status": "AI-translated; not author-approved or independently human-reviewed"
@@ -127,6 +132,11 @@
           "title": "KESTREL-9 · サイバーパンク HUD",
           "summary": "黒地にシアンで描かれた架空の動的インターフェース。地球儀、照準リング、信号グラフ、テレメトリーが並びます。",
           "alt": "作者が公開した架空の HUD のフレーム。黒地にシアンの地球儀、照準、信号グラフが見える。"
+        },
+        "ko": {
+          "title": "KESTREL-9 · 사이버펑크 HUD",
+          "summary": "검은 바탕에 청록색을 사용한 가상의 인터페이스에서 지구본, 조준 고리, 신호 차트와 원격 측정 정보가 움직입니다.",
+          "alt": "지구본, 조준점과 신호 차트가 있는 검정·청록색 가상 HUD. 제작자가 공개한 영상 프레임입니다."
         }
       },
       "translation_status": "AI-translated; not author-approved or independently human-reviewed"

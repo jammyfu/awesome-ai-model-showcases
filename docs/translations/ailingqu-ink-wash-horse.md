@@ -1,12 +1,12 @@
 # ailingqu-ink-wash-horse
 
-Author / 作者 / 作者 / 作者: ailingqu / awesome-ai-gif-prompts
+Author / 作者 / 作者 / 作者 / 제작자: ailingqu / awesome-ai-gif-prompts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ink-wash-horse.gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ailingqu-ink-wash-horse/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/ink-wash-horse.gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ailingqu-ink-wash-horse/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 
 
 ```text
 騎手を乗せた競走馬が、自由な筆致の中国水墨画風に右へ疾走する。脚は完全なギャロップの周期を繰り返し、騎手は上下に揺れ、蹄の後ろに墨の飛沫が上がる。宣紙の背景、黒い墨に少量の赤。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+수묵화 속 질주하는 말
+```
+
+### 제작 방법
+
+출처에는 via=chatgpt-image-2.com으로 기록, 정확한 요청은 알 수 없음
+
+### 검증 상태
+
+GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+기수를 태운 경주마가 자유로운 중국 수묵화 스타일로 오른쪽을 향해 질주합니다. 다리는 한 주기의 전력 질주 보폭을 반복하고, 기수는 위아래로 흔들리며 발굽 뒤로 먹물이 튑니다. 화선지 배경, 검은 먹에 약간의 빨강.
 ```

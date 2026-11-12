@@ -1,12 +1,12 @@
 # x-quxiaoyin-fable52-agentsky-film
 
-Author / 作者 / 作者 / 作者: @quxiaoyin（Xiaoyin Qu）
+Author / 作者 / 作者 / 作者 / 제작자: @quxiaoyin（Xiaoyin Qu）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/quxiaoyin/status/2120341962314150207)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-quxiaoyin-fable52-agentsky-film/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/quxiaoyin/status/2120341962314150207)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-quxiaoyin-fable52-agentsky-film/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ Blender とコードで制作した点光の映像 · 動画収録
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+AgentSky를 다룬 점광원 3D 영상(Blender와 코드)
+```
+
+### 제작 방법
+
+Blender와 코드로 만든 점광원 영상, 녹화 영상
+
+### 검증 상태
+
+1차 X URL + 영상, 프롬프트 미공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Claude Fable 5.2, 세 번 반려한 뒤의 네 번째 버전, Blender와 코드 사용, 영상 모델 사용 안 함
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

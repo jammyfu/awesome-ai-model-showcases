@@ -1,12 +1,12 @@
 # x-raitoox-sol-stranger-things-credits
 
-Author / 作者 / 作者 / 作者: @Raitox_tech
+Author / 作者 / 作者 / 作者 / 제작자: @Raitox_tech
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/Raitox_tech/status/2120125234129084492)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-raitoox-sol-stranger-things-credits/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/Raitox_tech/status/2120125234129084492)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-raitoox-sol-stranger-things-credits/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ Codex · スタジオ作品を SVG でトレース · HyperFrames アニメー�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+HTML/CSS/JS + SVG로 재현한 기묘한 이야기 5 엔딩 크레딧(HyperFrames)
+```
+
+### 제작 방법
+
+Codex, 스튜디오 아트의 SVG 트레이싱, HyperFrames 애니메이션, 음악 동기화
+
+### 검증 상태
+
+1차 X URL, 비공식 6.2 Sol 표현은 작성자 주장으로 보존, 공식 이름은 여전히 GPT-6.1 Sol
+
+### 모델 근거 (번역)
+
+```text
+작성자 본문은 '6.2 sol ULTRA'라고 하면서 토큰 비용은 'GPT-6.1 Sol 요율'을 인용. 일부 사용자 대상/비공식 라우팅이며 불확실성 설명과 함께 GPT-6.1 Sol로 수록. 소유자는 항목 이름 GPT-6.2 Sol을 확인했으나 OpenAI 공개 카탈로그에는 여전히 GPT-6.1 Sol이 기재됨(공식 6.2 출시를 꾸며내지 않음)
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

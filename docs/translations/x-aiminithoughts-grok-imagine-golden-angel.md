@@ -1,12 +1,12 @@
 # x-aiminithoughts-grok-imagine-golden-angel
 
-Author / 作者 / 作者 / 作者: @Aiminithoughts
+Author / 作者 / 作者 / 作者 / 제작자: @Aiminithoughts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/Aiminithoughts/status/2120329925702070425)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-aiminithoughts-grok-imagine-golden-angel/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/Aiminithoughts/status/2120329925702070425)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-aiminithoughts-grok-imagine-golden-angel/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -151,4 +151,34 @@ Grok Imagine のネイティブ動画
 ```text
 黄金の天使戦士
 金髪で、汚れたクリーム色のフードとうさぎ耳を付け、アンティークのランタンを持った小さなちびキャラの女の子が古代神殿を探索する。金色のホログラム記号が地面を照らす。古い服がきらめく粒子に分解され、金色のロボットアーマーが一片ずつ組み上がる。巨大な機械の天使の翼が背中から広がり、金色のエネルギーの槍が手に現れる。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+황금 천사 전사: Grok Imagine 영상
+```
+
+### 제작 방법
+
+Grok Imagine 네이티브 영상
+
+### 검증 상태
+
+1차 X URL, 게시물에 프롬프트 공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 게시물에 'Grok Imagine Prompt'라고 표기
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+황금 천사 전사
+금발 머리, 더러운 크림색 후드, 토끼 귀, 오래된 랜턴을 가진 작은 치비 소녀가 고대 신전을 탐험합니다. 황금 홀로그램 기호가 땅을 비춥니다. 낡은 옷이 반짝이는 입자로 흩어지는 동시에 황금 로봇 갑옷이 조각별로 조립됩니다. 등에서 거대한 기계 천사 날개가 펼쳐집니다. 손에는 황금 에너지 창이 나타납니다.
 ```

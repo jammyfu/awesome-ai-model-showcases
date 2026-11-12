@@ -1,12 +1,12 @@
 # x-marcthecreatorr-gpt62sol-sailing-ship
 
-Author / 作者 / 作者 / 作者: @marcthecreatorr（Marcel）
+Author / 作者 / 作者 / 作者 / 제작자: @marcthecreatorr（Marcel）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/marcthecreatorr/status/2119503438405136765)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/marcthecreatorr/status/2119503438405136765)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-marcthecreatorr-gpt62sol-sailing-ship/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ Three.js のインタラクティブな帆船 · 比較動画
 
 ```text
 three.jsでインタラクティブな帆船を作り、可能な限り細部まで作り込んでください：
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+GPT-6.2 Sol vs Opus 5.5: 인터랙티브 Three.js 범선(같은 프롬프트)
+```
+
+### 제작 방법
+
+Three.js 인터랙티브 선박, 비교 영상
+
+### 검증 상태
+
+1차 X URL, 공통의 짧은 프롬프트 공개, 시간은 작성자 보고값
+
+### 모델 근거 (번역)
+
+```text
+작성자가 측정한 GPT 6.2 Sol(약 27분, $3) vs Opus 5.5 max(약 1시간 35분, $16). OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+three.js로 인터랙티브 범선을 만들어 주세요. 최대한 세밀하게 만들어 주세요.
 ```

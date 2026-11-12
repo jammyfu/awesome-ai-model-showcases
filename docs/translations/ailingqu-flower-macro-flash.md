@@ -1,12 +1,12 @@
 # ailingqu-flower-macro-flash
 
-Author / 作者 / 作者 / 作者: ailingqu / awesome-ai-gif-prompts
+Author / 作者 / 作者 / 作者 / 제작자: ailingqu / awesome-ai-gif-prompts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/flower-macro-flash.gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ailingqu-flower-macro-flash/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/flower-macro-flash.gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ailingqu-flower-macro-flash/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 
 
 ```text
 8種類の花の写真を高速でフラッシュカットするシーケンス。各フレームに1枚ずつ、画面いっぱいに表示する。花びらを透過する光を捉えた真上からの赤いポピー、柔らかなサイド光のクリーム色のクチナシ、深い青の背景に青いデルフィニウム、金色のマリーゴールドのマクロ、ハイアングルのピンクの牡丹、濃紫のアイリスの接写、花びらが反ったオレンジのユリ、露のついた淡緑色のアジサイ。写実的な植物ファッション写真で、各フレームの色、距離、構図を変える。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+꽃 매크로 플래시 컷
+```
+
+### 제작 방법
+
+공개된 GIF, 이 사례의 생성 제공업체는 기록되지 않음
+
+### 검증 상태
+
+GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+서로 다른 꽃 사진 8장을 프레임당 한 장씩 화면 가득 빠르게 플래시 컷으로 보여 주세요. 꽃잎으로 빛이 비치는 빨간 양귀비의 탑뷰, 부드러운 측면광을 받는 크림색 치자꽃, 짙은 파란 배경의 파란 델피니움, 금빛 메리골드 매크로, 높은 각도에서 본 분홍 모란, 짙은 보라색 붓꽃 클로즈업, 꽃잎이 말린 주황색 백합, 이슬 맺힌 연두색 수국입니다. 사실적인 식물 패션 사진으로, 각 프레임의 색상, 거리, 구도가 서로 달라야 합니다.
 ```

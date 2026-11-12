@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 from write_community_catalog import EN_LEAD, GITHUB_ABOUT, ZH_LEAD
 
 ABOUT_DESC = GITHUB_ABOUT["description"]
-README_FILES = ("README.md", "README.zh-CN.md", "README.zh-TW.md", "README.ja.md")
+README_FILES = ("README.md", "README.zh-CN.md", "README.zh-TW.md", "README.ja.md", "README.ko.md")
 # Secondary model notes and local browsing; evidence lives in catalog.<locale>.md.
 EXPECTED_DETAILS = 2
 
@@ -141,6 +141,7 @@ def main() -> int:
         "README.zh-CN.md": ("[未公开]", "[短 / 部分]"),
         "README.zh-TW.md": ("[未公開]", "[短 / 部分]"),
         "README.ja.md": ("[未公開]", "[短い / 部分]"),
+        "README.ko.md": ("[미공개]", "[짧은 내용 / 일부]"),
     }
     evidence_pages = {}
     for name, blob in readmes.items():
@@ -236,7 +237,7 @@ def main() -> int:
     assert "gifs/cat-screen-crack.gif" not in index
     assert "not this repository's original playbook showcase" in index.lower() or "not this repository" in index
     assert ZH_LEAD in llms and EN_LEAD in llms
-    assert "README.zh-TW.md" in llms and "README.ja.md" in llms
+    assert "README.zh-TW.md" in llms and "README.ja.md" in llms and "README.ko.md" in llms
     assert "No other README" not in llms
 
     topics = about["topics"]

@@ -1,10 +1,10 @@
 # martial-arts-combo
 
-Author / 作者 / 作者 / 作者: 仓库种子（本仓示例，不是社区征集主清单）
+Author / 作者 / 作者 / 作者 / 제작자: 仓库种子（本仓示例，不是社区征集主清单）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/martial-arts-combo.gif)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/gifs/martial-arts-combo.gif)
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -137,3 +137,30 @@ ChatGPT Images 2.6（正確なチェックポイントは未記録）
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+태극권 5연타 콤보
+```
+
+### 제작 방법
+
+저장소 초기 예제 GIF
+
+### 검증 상태
+
+Pillow로 로컬에서 여러 프레임 확인, 커뮤니티 작성자의 원본 사례가 아님
+
+### 모델 근거 (번역)
+
+```text
+ChatGPT Images 2.6 (정확한 체크포인트 기록 없음)
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

@@ -1,12 +1,12 @@
 # veevid-dog-photo-wag-gif
 
-Author / 作者 / 作者 / 作者: Veevid Team
+Author / 作者 / 作者 / 作者 / 제작자: Veevid Team
 
-[Original source / 原帖 / 原帖 / 原投稿](https://veevid.ai/blog/gpt-image-2-6-gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/veevid-dog-photo-wag-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://veevid.ai/blog/gpt-image-2-6-gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/veevid-dog-photo-wag-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GPT Image 2.6の画像からGIF生成
 
 ```text
 これを動かしてください。犬が尾を振り、まばたきする、穏やかなループ
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+실제 강아지 사진 업로드 → 부드러운 꼬리 흔들기와 눈 깜박임 루프
+```
+
+### 제작 방법
+
+직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)
+
+### 검증 상태
+
+페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+GPT Image 2.6 이미지→GIF
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+이 이미지를 애니메이션으로 만들어 주세요. 개가 꼬리를 흔들고 눈을 깜빡이는 부드러운 반복 동작입니다.
 ```

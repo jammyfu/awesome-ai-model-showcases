@@ -1,10 +1,10 @@
 # game-wrongnebula-pixel-failure
 
-Author / 作者 / 作者 / 作者: WrongNebula · Sunburst/Flare 像素动画失败 · 未观看 MP4
+Author / 作者 / 作者 / 作者 / 제작자: WrongNebula · Sunburst/Flare 像素动画失败 · 未观看 MP4
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/WrongNebula/status/2118164394400182755)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/WrongNebula/status/2118164394400182755)
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -137,3 +137,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+실패 사례: 픽셀 애니메이션은 아직 미흡
+```
+
+### 제작 방법
+
+네이티브 GIF 또는 스프라이트 시트 테스트
+
+### 검증 상태
+
+실패 사례, 성공으로 집계하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 Sunburst/Flare라고 주장(실패 결론: 픽셀 아트에 부적합)
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

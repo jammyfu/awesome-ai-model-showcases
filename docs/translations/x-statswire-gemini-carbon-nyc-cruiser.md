@@ -1,12 +1,12 @@
 # x-statswire-gemini-carbon-nyc-cruiser
 
-Author / 作者 / 作者 / 作者: @StatsWire
+Author / 作者 / 作者 / 作者 / 제작자: @StatsWire
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/StatsWire/status/2120344850071540152)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-statswire-gemini-carbon-nyc-cruiser/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/StatsWire/status/2120344850071540152)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-statswire-gemini-carbon-nyc-cruiser/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ Three.js の単一ファイルシーン · 画面収録動画
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+HTML 파일 하나로 만든 인터랙티브 3D 뉴욕 순항 투어(Three.js)
+```
+
+### 제작 방법
+
+Three.js 단일 파일 장면, 화면 녹화 영상
+
+### 검증 상태
+
+1차 X URL, 프롬프트 미공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Gemini 4 Carbon, 단일 .html, Three.js, 외부 3D/오디오 에셋 0개
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

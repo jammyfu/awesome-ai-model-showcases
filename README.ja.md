@@ -3,7 +3,7 @@
 <p align="center"><a href="https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en"><img src="assets/brand/hero.png" alt="Awesome AI Model Showcases · プロジェクトのブランドイラスト。モデルの制作事例ではありません" width="720"></a></p>
 <!-- readme-tech-visualizer:end -->
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 # Awesome AI Model Showcases
 
@@ -246,7 +246,7 @@ Claude Mythos 5.2 と Qwen 3.8 Flash Next は一覧に名前がありますが�
 
 [事例を投稿する](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml)際は、原作者、原投稿の URL、公開プロンプトまたは「未公開」の記載、モデルや制作方法の根拠を添えてください。コーディングは不要です。署名、リンク切れ、翻訳の訂正も歓迎します。
 
-PR を送る場合は [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。出典一覧か 4 言語のテンプレートを編集し、再生成と差分レビューの後、[共通の検証コマンド](tools/verify.py)を実行します。
+PR を送る場合は [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。出典一覧か 5 言語のテンプレートを編集し、再生成と差分レビューの後、[共通の検証コマンド](tools/verify.py)を実行します。
 
 <a id="local-setup"></a>
 <details>
@@ -271,7 +271,7 @@ python3 -m http.server 8000 --directory docs
 - **範囲：**一覧の更新日は **2026-11-11**。**12 件の未確認事例**はホームページの **183 件**に含めません。GIF サブプロジェクト、作り直し、失敗例、リポジトリの種となる例も別枠です。
 - **メディア：**既存目録の **0 件に公開許可のあるローカルメディア**があります。上の Claude 特集の 2 画像は別途許諾を確認済みです。その他の目録項目は出典にリンクします。公開されていること、署名、ダウンロードは再利用の許可を意味しません。
 - **ライセンス：**[MIT](LICENSE) はソースコードとプロジェクト独自の文書に適用され、第三者のメディア、プロンプト、商標、肖像には適用されません。[MEDIA_RIGHTS.md](MEDIA_RIGHTS.md) を確認してください。権利者は[訂正・削除を依頼](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new)できます。
-- **言語：**README と事例の根拠は English、简体中文、繁體中文、日本語に対応しています。AI 翻訳は**人による校閲前**で、原文も保存しています。ギャラリーの UI は **English / 简体中文のみ**です。[翻訳方針と対応状況](docs/translation-policy.md)。
+- **言語：**README と事例の根拠は English、简体中文、繁體中文、日本語、한국어に対応しています。AI 翻訳は**人による校閲前**で、原文も保存しています。ギャラリーの UI は **English / 简体中文のみ**です。[翻訳方針と対応状況](docs/translation-policy.md)。
 
 この構成を再利用する場合は [README パターンとチェックリスト](docs/readme-pattern.md)を参照し、プロジェクト固有の記述を自分のリポジトリの根拠に置き換えてください。
 

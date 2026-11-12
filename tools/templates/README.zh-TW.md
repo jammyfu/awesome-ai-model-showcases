@@ -3,7 +3,7 @@
 <p align="center"><a href="https://jammyfu.github.io/awesome-ai-model-showcases/?lang=zh"><img src="assets/brand/hero.png" alt="Awesome AI Model Showcases · 專案品牌插畫，並非模型案例輸出" width="720"></a></p>
 <!-- readme-tech-visualizer:end -->
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 # Awesome AI Model Showcases
 
@@ -80,7 +80,7 @@ ${type_sections}
 
 [提交案例](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml)，提供原作者、原帖連結、已公開提示詞或「未公開」，以及模型或製作方法的證據。無需寫程式，也歡迎修正署名、失效連結和翻譯。
 
-提交 PR 請閱讀 [CONTRIBUTING.md](CONTRIBUTING.md)。修改來源清單或四語模板，重新產生、審查差異，並執行[統一驗證入口](tools/verify.py)。
+提交 PR 請閱讀 [CONTRIBUTING.md](CONTRIBUTING.md)。修改來源清單或五語模板，重新產生、審查差異，並執行[統一驗證入口](tools/verify.py)。
 
 <a id="local-setup"></a>
 <details>
@@ -105,7 +105,7 @@ python3 -m http.server 8000 --directory docs
 - **範圍：**清單更新於 **${inventory_date}**；**${pending_count} 則待核案例**不計入首頁的 **${main_count}** 則。GIF 子專案、重製、失敗和倉庫種子另列。
 - **媒體：**現有目錄 **${media_count} 則案例有獲准發布的本機媒體**。上方兩張 Claude 精選畫面另有明確授權；其餘目錄項目連結原帖。公開可見、署名或下載成功不等於獲准再利用。
 - **授權：**[MIT](LICENSE) 僅涵蓋原始碼和專案原創文件，不涵蓋第三方媒體、提示詞、商標或肖像。參閱 [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md)。權利人可[申請更正或移除](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new)。
-- **語言：**README 與案例證據提供 English、简体中文、繁體中文和日本語。AI 翻譯**尚未經人工審校**，原文保留。案例站介面目前只支援 **English / 简体中文**。[翻譯政策與涵蓋情況](docs/translation-policy.md)。
+- **語言：**README 與案例證據提供 English、简体中文、繁體中文、日本語和한국어。AI 翻譯**尚未經人工審校**，原文保留。案例站介面目前只支援 **English / 简体中文**。[翻譯政策與涵蓋情況](docs/translation-policy.md)。
 
 想重用這套文件結構？參閱 [README 範本與檢查清單](docs/readme-pattern.md)，以自己倉庫的證據替換所有專案專屬陳述。
 

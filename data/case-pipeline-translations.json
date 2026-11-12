@@ -6,523 +6,610 @@
       "en": "Author claims direct GIF output · X attachment is actually MP4",
       "zh-CN": "作者称直出 GIF · X 附件实际 MP4",
       "zh-TW": "作者稱直接輸出 GIF · X 附件實際為 MP4",
-      "ja": "作者は GIF の直接出力と説明 · X の添付は実際には MP4"
+      "ja": "作者は GIF の直接出力と説明 · X の添付は実際には MP4",
+      "ko": "작성자는 직접 GIF 출력이라고 주장하지만 X 첨부파일은 실제로 MP4"
     },
     "原生 GIF 直链（Pillow 多帧已核）": {
       "en": "Direct native GIF link (multiple frames verified with Pillow)",
       "zh-CN": "原生 GIF 直链（Pillow 多帧已核）",
       "zh-TW": "原生 GIF 直接連結（已用 Pillow 確認多影格）",
-      "ja": "ネイティブ GIF への直リンク（Pillow で複数フレームを確認済み）"
+      "ja": "ネイティブ GIF への直リンク（Pillow で複数フレームを確認済み）",
+      "ko": "직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)"
     },
     "Published GIF; provider not recorded per case / 此例未记录生成供应商": {
       "en": "Published GIF; generation provider not recorded for this case",
       "zh-CN": "已公开 GIF；此例未记录生成供应商",
       "zh-TW": "已公開 GIF；此例未記錄生成供應商",
-      "ja": "公開済み GIF。この事例の生成サービスは記録なし"
+      "ja": "公開済み GIF。この事例の生成サービスは記録なし",
+      "ko": "공개된 GIF, 이 사례의 생성 제공업체는 기록되지 않음"
     },
     "Source records via=chatgpt-image-2.com; exact request unknown / 来源记录网站生成": {
       "en": "Source records via=chatgpt-image-2.com; exact request unknown",
       "zh-CN": "来源记录 via=chatgpt-image-2.com；实际请求未知",
       "zh-TW": "來源記錄 via=chatgpt-image-2.com；實際請求未知",
-      "ja": "出典には via=chatgpt-image-2.com と記録。実際のリクエストは不明"
+      "ja": "出典には via=chatgpt-image-2.com と記録。実際のリクエストは不明",
+      "ko": "출처에는 via=chatgpt-image-2.com으로 기록, 정확한 요청은 알 수 없음"
     },
     "作者称 looping GIF · X 附件实际 MP4（已本地归档）": {
       "en": "Author claims looping GIF · X attachment is actually MP4 (archived locally)",
       "zh-CN": "作者称循环 GIF · X 附件实际为 MP4（已本地归档）",
       "zh-TW": "作者稱循環 GIF · X 附件實際為 MP4（已本機歸檔）",
-      "ja": "作者はループ GIF と説明 · X の添付は実際には MP4（ローカル保存済み）"
+      "ja": "作者はループ GIF と説明 · X の添付は実際には MP4（ローカル保存済み）",
+      "ko": "작성자는 반복 GIF라고 주장하지만 X 첨부파일은 실제로 MP4(로컬 보관)"
     },
     "社区长文；原文提示词已本地全文归档；库存无附件 URL，文章接口尝试未取得，不能断言原长文绝无媒体": {
       "en": "Community article; full original prompt archived locally; inventory has no attachment URL and article API retrieval failed, so absence of media in the original article is not established",
       "zh-CN": "社区长文；原文提示词已本地全文归档；库存无附件 URL，文章接口尝试未取得，不能断言原长文绝无媒体",
       "zh-TW": "社群長文；原文提示詞已在本機全文歸檔；清單無附件 URL，文章介面未能取得，不能斷言原文沒有媒體",
-      "ja": "コミュニティの長文記事。元のプロンプト全文を保存済み。台帳に添付 URL がなく記事 API でも取得できなかったため、原記事にメディアがないとは断定できない"
+      "ja": "コミュニティの長文記事。元のプロンプト全文を保存済み。台帳に添付 URL がなく記事 API でも取得できなかったため、原記事にメディアがないとは断定できない",
+      "ko": "커뮤니티 기사. 전체 원문 프롬프트를 로컬에 보관했으나 목록에 첨부파일 URL이 없고 기사 API 가져오기도 실패했으므로 원문에 미디어가 없다고 단정할 수 없음"
     },
     "native_gif_direct_claimed": {
       "en": "Native GIF output claimed",
       "zh-CN": "声称原生 GIF 直出",
       "zh-TW": "聲稱原生 GIF 直接輸出",
-      "ja": "ネイティブ GIF の直接出力という主張"
+      "ja": "ネイティブ GIF の直接出力という主張",
+      "ko": "네이티브 GIF 출력이라는 주장"
     },
     "sheet_then_agent_cut": {
       "en": "Sprite sheet, then agent-assisted slicing",
       "zh-CN": "精灵图后由智能体切分",
       "zh-TW": "精靈圖後由代理程式切分",
-      "ja": "スプライトシートを作成後、エージェントが分割"
+      "ja": "スプライトシートを作成後、エージェントが分割",
+      "ko": "스프라이트 시트 생성 후 에이전트 도움으로 분할"
     },
     "native_gif_and_or_sprite_claimed": {
       "en": "Native GIF and/or sprite output claimed",
       "zh-CN": "声称输出原生 GIF 和／或精灵图",
       "zh-TW": "聲稱輸出原生 GIF 和／或精靈圖",
-      "ja": "ネイティブ GIF またはスプライトの出力という主張"
+      "ja": "ネイティブ GIF またはスプライトの出力という主張",
+      "ko": "네이티브 GIF 또는 스프라이트 출력이라는 주장"
     },
     "sheet_then_slice": {
       "en": "Sprite sheet, then slicing",
       "zh-CN": "精灵图后切分",
       "zh-TW": "精靈圖後切分",
-      "ja": "スプライトシートを作成後に分割"
+      "ja": "スプライトシートを作成後に分割",
+      "ko": "스프라이트 시트 생성 후 분할"
     },
     "Code-driven motion graphics · captured as video on X": {
       "en": "Code-driven motion graphics · captured as video on X",
       "zh-CN": "代码驱动的动态图形 · X 视频录制",
       "zh-TW": "程式碼驅動的動態圖形 · X 影片錄製",
-      "ja": "コードによるモーショングラフィックス · X の動画として収録"
+      "ja": "コードによるモーショングラフィックス · X の動画として収録",
+      "ko": "코드 기반 모션 그래픽, X에 영상으로 캡처해 게시"
     },
     "Pure code animation + synthesized SFX · recorded to video": {
       "en": "Pure code animation + synthesized SFX · recorded to video",
       "zh-CN": "纯代码动画 + 合成音效 · 录制为视频",
       "zh-TW": "純程式碼動畫 + 合成音效 · 錄製為影片",
-      "ja": "コードのみのアニメーションと合成効果音 · 動画として収録"
+      "ja": "コードのみのアニメーションと合成効果音 · 動画として収録",
+      "ko": "순수 코드 애니메이션 + 합성 효과음, 영상으로 녹화"
     },
     "Claude + Blender recreation of an existing Three.js apartment scene · screen capture": {
       "en": "Claude + Blender recreation of an existing Three.js apartment scene · screen capture",
       "zh-CN": "Claude + Blender 复刻既有 Three.js 公寓场景 · 屏幕录制",
       "zh-TW": "Claude + Blender 重製既有 Three.js 公寓場景 · 螢幕錄製",
-      "ja": "Claude と Blender で既存の Three.js の室内シーンを再現 · 画面収録"
+      "ja": "Claude と Blender で既存の Three.js の室内シーンを再現 · 画面収録",
+      "ko": "Claude + Blender로 기존 Three.js 아파트 장면 재현, 화면 캡처"
     },
     "Three.js ship animation · comparison capture": {
       "en": "Three.js ship animation · comparison capture",
       "zh-CN": "Three.js 帆船动画 · 对比录屏",
       "zh-TW": "Three.js 帆船動畫 · 比較錄影",
-      "ja": "Three.js の帆船アニメーション · 比較映像"
+      "ja": "Three.js の帆船アニメーション · 比較映像",
+      "ko": "Three.js 선박 애니메이션, 비교 캡처"
     },
     "Single-message HTML/SVG/Three.js/Canvas prompts published for remix": {
       "en": "Single-message HTML/SVG/Three.js/Canvas prompts published for remix",
       "zh-CN": "公开可改编的单条 HTML／SVG／Three.js／Canvas 提示词",
       "zh-TW": "公開可改編的單則 HTML／SVG／Three.js／Canvas 提示詞",
-      "ja": "改変用に公開された、1 メッセージで完結する HTML／SVG／Three.js／Canvas プロンプト"
+      "ja": "改変用に公開された、1 メッセージで完結する HTML／SVG／Three.js／Canvas プロンプト",
+      "ko": "리믹스를 위한 단일 메시지 HTML/SVG/Three.js/Canvas 프롬프트 공개"
     },
     "SVG code generation → browser CSS keyframe motion on #boat · GIF would need separate frame capture": {
       "en": "SVG code generation → browser CSS keyframe motion on #boat · GIF would need separate frame capture",
       "zh-CN": "生成 SVG 代码 → 浏览器中对 #boat 应用 CSS 关键帧动画 · 制作 GIF 需另行逐帧捕获",
       "zh-TW": "產生 SVG 程式碼 → 瀏覽器中對 #boat 套用 CSS 關鍵影格動畫 · 製作 GIF 需另行擷取影格",
-      "ja": "SVG コードを生成し、ブラウザで #boat に CSS キーフレームアニメーションを適用 · GIF には別途フレーム収録が必要"
+      "ja": "SVG コードを生成し、ブラウザで #boat に CSS キーフレームアニメーションを適用 · GIF には別途フレーム収録が必要",
+      "ko": "SVG 코드 생성 → 브라우저에서 #boat에 CSS 키프레임 움직임 적용. GIF를 만들려면 별도 프레임 캡처 필요"
     },
     "Self-contained HTML/CSS/JS animation · recorded also as MP4 on same page": {
       "en": "Self-contained HTML/CSS/JS animation · recorded also as MP4 on same page",
       "zh-CN": "独立 HTML／CSS／JS 动画 · 同页另有 MP4 录制版",
       "zh-TW": "獨立 HTML／CSS／JS 動畫 · 同頁另有 MP4 錄製版",
-      "ja": "単体で動作する HTML／CSS／JS アニメーション · 同じページに MP4 収録版も掲載"
+      "ja": "単体で動作する HTML／CSS／JS アニメーション · 同じページに MP4 収録版も掲載",
+      "ko": "독립 실행형 HTML/CSS/JS 애니메이션, 같은 페이지에 MP4 녹화본도 공개"
     },
     "Blender modular car model, materials, and a short 3D showcase animation": {
       "en": "Blender modular car model, materials, and a short 3D showcase animation",
       "zh-CN": "Blender 模块化汽车模型、材质和短篇 3D 展示动画",
       "zh-TW": "Blender 模組化汽車模型、材質和短篇 3D 展示動畫",
-      "ja": "Blender によるモジュール式自動車モデル、マテリアル、短い 3D 紹介アニメーション"
+      "ja": "Blender によるモジュール式自動車モデル、マテリアル、短い 3D 紹介アニメーション",
+      "ko": "Blender 모듈식 자동차 모델, 재질, 짧은 3D 소개 애니메이션"
     },
     "Blender cell film plus narration and score · screen capture": {
       "en": "Blender cell film plus narration and score · screen capture",
       "zh-CN": "Blender 细胞影片，含旁白和配乐 · 屏幕录制",
       "zh-TW": "Blender 細胞影片，含旁白和配樂 · 螢幕錄製",
-      "ja": "Blender による細胞の映像、ナレーションと音楽付き · 画面収録"
+      "ja": "Blender による細胞の映像、ナレーションと音楽付き · 画面収録",
+      "ko": "Blender 세포 영상 + 내레이션과 음악, 화면 캡처"
     },
     "Three.js photo-real ocean scene · recorded phone-vertical video": {
       "en": "Three.js photo-real ocean scene · recorded phone-vertical video",
       "zh-CN": "Three.js 写实海洋场景 · 手机竖屏视频录制",
       "zh-TW": "Three.js 寫實海洋場景 · 手機直式影片錄製",
-      "ja": "Three.js による写実的な海のシーン · スマートフォン縦向き動画として収録"
+      "ja": "Three.js による写実的な海のシーン · スマートフォン縦向き動画として収録",
+      "ko": "Three.js 사실적 바다 장면, 휴대폰 세로 영상으로 녹화"
     },
     "Blender mechanical keyboard model and typing shot": {
       "en": "Blender mechanical keyboard model and typing shot",
       "zh-CN": "Blender 机械键盘模型和打字镜头",
       "zh-TW": "Blender 機械鍵盤模型和打字鏡頭",
-      "ja": "Blender によるメカニカルキーボードのモデルとタイピング映像"
+      "ja": "Blender によるメカニカルキーボードのモデルとタイピング映像",
+      "ko": "Blender 기계식 키보드 모델과 타이핑 장면"
     },
     "Blender and code point-light film · recorded video": {
       "en": "Blender and code point-light film · recorded video",
       "zh-CN": "Blender 和代码制作的点光影片 · 视频录制",
       "zh-TW": "Blender 和程式碼製作的點光影片 · 影片錄製",
-      "ja": "Blender とコードで制作した点光の映像 · 動画収録"
+      "ja": "Blender とコードで制作した点光の映像 · 動画収録",
+      "ko": "Blender와 코드로 만든 점광원 영상, 녹화 영상"
     },
     "Three.js dragon game · gameplay capture": {
       "en": "Three.js dragon game · gameplay capture",
       "zh-CN": "Three.js 龙主题游戏 · 游戏实录",
       "zh-TW": "Three.js 龍主題遊戲 · 遊戲實錄",
-      "ja": "Three.js のドラゴンゲーム · プレイ映像"
+      "ja": "Three.js のドラゴンゲーム · プレイ映像",
+      "ko": "Three.js 드래곤 게임, 플레이 화면 캡처"
     },
     "Fable 5.2 video · recorded post": {
       "en": "Fable 5.2 video · recorded post",
       "zh-CN": "Fable 5.2 视频 · 帖子录制版",
       "zh-TW": "Fable 5.2 影片 · 貼文錄製版",
-      "ja": "Fable 5.2 の映像 · 投稿の収録版"
+      "ja": "Fable 5.2 の映像 · 投稿の収録版",
+      "ko": "Fable 5.2 영상, 녹화본 게시"
     },
     "X post captured as video or screen recording": {
       "en": "X post captured as video or screen recording",
       "zh-CN": "X 帖子的视频或录屏",
       "zh-TW": "X 貼文的影片或螢幕錄製",
-      "ja": "X 投稿の動画または画面収録"
+      "ja": "X 投稿の動画または画面収録",
+      "ko": "X 게시물의 영상 또는 화면 녹화"
     },
     "X post captured as video or screen recording · HTML": {
       "en": "X post captured as video or screen recording · HTML",
       "zh-CN": "X 帖子的视频或录屏 · HTML",
       "zh-TW": "X 貼文的影片或螢幕錄製 · HTML",
-      "ja": "X 投稿の動画または画面収録 · HTML"
+      "ja": "X 投稿の動画または画面収録 · HTML",
+      "ko": "X 게시물의 영상 또는 화면 녹화, HTML"
     },
     "X post (photos or page; no video on the original)": {
       "en": "X post (photos or page; no video on the original)",
       "zh-CN": "X 帖子（照片或页面；原帖无视频）",
       "zh-TW": "X 貼文（照片或頁面；原文無影片）",
-      "ja": "X 投稿（写真またはページ。原投稿に動画なし）"
+      "ja": "X 投稿（写真またはページ。原投稿に動画なし）",
+      "ko": "X 게시물(사진 또는 페이지, 원문에 영상 없음)"
     },
     "X post captured as video or screen recording · Three.js, HTML": {
       "en": "X post captured as video or screen recording · Three.js, HTML",
       "zh-CN": "X 帖子的视频或录屏 · Three.js, HTML",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Three.js, HTML",
-      "ja": "X 投稿の動画または画面収録 · Three.js, HTML"
+      "ja": "X 投稿の動画または画面収録 · Three.js, HTML",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Three.js, HTML"
     },
     "X post captured as video or screen recording · Python": {
       "en": "X post captured as video or screen recording · Python",
       "zh-CN": "X 帖子的视频或录屏 · Python",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Python",
-      "ja": "X 投稿の動画または画面収録 · Python"
+      "ja": "X 投稿の動画または画面収録 · Python",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Python"
     },
     "X post captured as video or screen recording · Blender, HTML": {
       "en": "X post captured as video or screen recording · Blender, HTML",
       "zh-CN": "X 帖子的视频或录屏 · Blender, HTML",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Blender, HTML",
-      "ja": "X 投稿の動画または画面収録 · Blender, HTML"
+      "ja": "X 投稿の動画または画面収録 · Blender, HTML",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Blender, HTML"
     },
     "X post captured as video or screen recording · Blender, Python": {
       "en": "X post captured as video or screen recording · Blender, Python",
       "zh-CN": "X 帖子的视频或录屏 · Blender, Python",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Blender, Python",
-      "ja": "X 投稿の動画または画面収録 · Blender, Python"
+      "ja": "X 投稿の動画または画面収録 · Blender, Python",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Blender, Python"
     },
     "X post captured as video or screen recording · Blender": {
       "en": "X post captured as video or screen recording · Blender",
       "zh-CN": "X 帖子的视频或录屏 · Blender",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Blender",
-      "ja": "X 投稿の動画または画面収録 · Blender"
+      "ja": "X 投稿の動画または画面収録 · Blender",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Blender"
     },
     "X post captured as video or screen recording · Three.js": {
       "en": "X post captured as video or screen recording · Three.js",
       "zh-CN": "X 帖子的视频或录屏 · Three.js",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Three.js",
-      "ja": "X 投稿の動画または画面収録 · Three.js"
+      "ja": "X 投稿の動画または画面収録 · Three.js",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Three.js"
     },
     "X post captured as video or screen recording · Three.js, Remotion": {
       "en": "X post captured as video or screen recording · Three.js, Remotion",
       "zh-CN": "X 帖子的视频或录屏 · Three.js, Remotion",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Three.js, Remotion",
-      "ja": "X 投稿の動画または画面収録 · Three.js, Remotion"
+      "ja": "X 投稿の動画または画面収録 · Three.js, Remotion",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Three.js, Remotion"
     },
     "X post captured as video or screen recording · JavaScript": {
       "en": "X post captured as video or screen recording · JavaScript",
       "zh-CN": "X 帖子的视频或录屏 · JavaScript",
       "zh-TW": "X 貼文的影片或螢幕錄製 · JavaScript",
-      "ja": "X 投稿の動画または画面収録 · JavaScript"
+      "ja": "X 投稿の動画または画面収録 · JavaScript",
+      "ko": "X 게시물의 영상 또는 화면 녹화, JavaScript"
     },
     "X post captured as video or screen recording · Three.js, Blender": {
       "en": "X post captured as video or screen recording · Three.js, Blender",
       "zh-CN": "X 帖子的视频或录屏 · Three.js, Blender",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Three.js, Blender",
-      "ja": "X 投稿の動画または画面収録 · Three.js, Blender"
+      "ja": "X 投稿の動画または画面収録 · Three.js, Blender",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Three.js, Blender"
     },
     "X post (photos or page; no video on the original) · HTML": {
       "en": "X post (photos or page; no video on the original) · HTML",
       "zh-CN": "X 帖子（照片或页面；原帖无视频） · HTML",
       "zh-TW": "X 貼文（照片或頁面；原文無影片） · HTML",
-      "ja": "X 投稿（写真またはページ。原投稿に動画なし） · HTML"
+      "ja": "X 投稿（写真またはページ。原投稿に動画なし） · HTML",
+      "ko": "X 게시물(사진 또는 페이지, 원문에 영상 없음), HTML"
     },
     "X post captured as video or screen recording · Three.js, Blender, HTML": {
       "en": "X post captured as video or screen recording · Three.js, Blender, HTML",
       "zh-CN": "X 帖子的视频或录屏 · Three.js, Blender, HTML",
       "zh-TW": "X 貼文的影片或螢幕錄製 · Three.js, Blender, HTML",
-      "ja": "X 投稿の動画または画面収録 · Three.js, Blender, HTML"
+      "ja": "X 投稿の動画または画面収録 · Three.js, Blender, HTML",
+      "ko": "X 게시물의 영상 또는 화면 녹화, Three.js, Blender, HTML"
     },
     "Code-made animation captured as video on X": {
       "en": "Code-made animation captured as video on X",
       "zh-CN": "代码制作的动画，录制为 X 视频",
       "zh-TW": "程式碼製作的動畫，錄製為 X 影片",
-      "ja": "コードで制作したアニメーションを X の動画として収録"
+      "ja": "コードで制作したアニメーションを X の動画として収録",
+      "ko": "코드로 만든 애니메이션을 X 영상으로 캡처"
     },
     "Three.js / HTML or Blender scene captured as video on X": {
       "en": "Three.js / HTML or Blender scene captured as video on X",
       "zh-CN": "Three.js／HTML 或 Blender 场景，录制为 X 视频",
       "zh-TW": "Three.js／HTML 或 Blender 場景，錄製為 X 影片",
-      "ja": "Three.js／HTML または Blender のシーンを X の動画として収録"
+      "ja": "Three.js／HTML または Blender のシーンを X の動画として収録",
+      "ko": "Three.js / HTML 또는 Blender 장면을 X 영상으로 캡처"
     },
     "Three.js / HTML scene captured as video on X": {
       "en": "Three.js / HTML scene captured as video on X",
       "zh-CN": "Three.js／HTML 场景，录制为 X 视频",
       "zh-TW": "Three.js／HTML 場景，錄製為 X 影片",
-      "ja": "Three.js／HTML のシーンを X の動画として収録"
+      "ja": "Three.js／HTML のシーンを X の動画として収録",
+      "ko": "Three.js / HTML 장면을 X 영상으로 캡처"
     },
     "Self-contained HTML/CSS/JS animation": {
       "en": "Self-contained HTML/CSS/JS animation",
       "zh-CN": "独立 HTML／CSS／JS 动画",
       "zh-TW": "獨立 HTML／CSS／JS 動畫",
-      "ja": "単体で動作する HTML／CSS／JS アニメーション"
+      "ja": "単体で動作する HTML／CSS／JS アニメーション",
+      "ko": "독립 실행형 HTML/CSS/JS 애니메이션"
     },
     "HTML animation + model-made demo video capture": {
       "en": "HTML animation + model-made demo video capture",
       "zh-CN": "HTML 动画 + 模型制作的演示视频录制",
       "zh-TW": "HTML 動畫 + 模型製作的示範影片錄製",
-      "ja": "HTML アニメーションとモデル制作デモの動画収録"
+      "ja": "HTML アニメーションとモデル制作デモの動画収録",
+      "ko": "HTML 애니메이션 + 모델이 만든 데모 영상 캡처"
     },
     "Three.js single-file scene · screen-recorded video": {
       "en": "Three.js single-file scene · screen-recorded video",
       "zh-CN": "Three.js 单文件场景 · 屏幕录制视频",
       "zh-TW": "Three.js 單檔案場景 · 螢幕錄製影片",
-      "ja": "Three.js の単一ファイルシーン · 画面収録動画"
+      "ja": "Three.js の単一ファイルシーン · 画面収録動画",
+      "ko": "Three.js 단일 파일 장면, 화면 녹화 영상"
     },
     "HTML pixel-art remake · playable at https://theme-park-hd.vercel.app · recorded video": {
       "en": "HTML pixel-art remake · playable at https://theme-park-hd.vercel.app · recorded video",
       "zh-CN": "HTML 像素画复刻 · 可玩地址 https://theme-park-hd.vercel.app · 视频录制",
       "zh-TW": "HTML 像素畫重製 · 可玩網址 https://theme-park-hd.vercel.app · 影片錄製",
-      "ja": "HTML ピクセルアートの再現 · https://theme-park-hd.vercel.app でプレイ可能 · 動画収録"
+      "ja": "HTML ピクセルアートの再現 · https://theme-park-hd.vercel.app でプレイ可能 · 動画収録",
+      "ko": "HTML 픽셀 아트 리메이크, https://theme-park-hd.vercel.app 에서 플레이 가능, 녹화 영상"
     },
     "FreeCAD + Blender V8 engine · recorded demo": {
       "en": "FreeCAD + Blender V8 engine · recorded demo",
       "zh-CN": "FreeCAD + Blender V8 引擎 · 演示录屏",
       "zh-TW": "FreeCAD + Blender V8 引擎 · 示範錄影",
-      "ja": "FreeCAD と Blender による V8 エンジン · デモ収録"
+      "ja": "FreeCAD と Blender による V8 エンジン · デモ収録",
+      "ko": "FreeCAD + Blender V8 엔진, 녹화 데모"
     },
     "Side-by-side model comparison · recorded video": {
       "en": "Side-by-side model comparison · recorded video",
       "zh-CN": "模型并排对比 · 视频录制",
       "zh-TW": "模型並排比較 · 影片錄製",
-      "ja": "モデルの横並び比較 · 動画収録"
+      "ja": "モデルの横並び比較 · 動画収録",
+      "ko": "모델 결과 나란히 비교, 녹화 영상"
     },
     "Ten-frame looping animations (1 fps) · briefs readable on site": {
       "en": "Ten-frame looping animations (1 fps) · briefs readable on site",
       "zh-CN": "十帧循环动画（1 fps）· 网站可读创作说明",
       "zh-TW": "十影格循環動畫（1 fps）· 網站可讀創作說明",
-      "ja": "10 フレームのループアニメーション（1 fps）· 制作指示をサイトで閲覧可能"
+      "ja": "10 フレームのループアニメーション（1 fps）· 制作指示をサイトで閲覧可能",
+      "ko": "10프레임 반복 애니메이션(1fps), 사이트에서 과제 설명 열람 가능"
     },
     "HTML + Three.js procedural · Python-synth music · recorded video": {
       "en": "HTML + Three.js procedural · Python-synth music · recorded video",
       "zh-CN": "HTML + Three.js 程序化制作 · Python 合成音乐 · 视频录制",
       "zh-TW": "HTML + Three.js 程序化製作 · Python 合成音樂 · 影片錄製",
-      "ja": "HTML と Three.js の手続き型制作 · Python 合成音楽 · 動画収録"
+      "ja": "HTML と Three.js の手続き型制作 · Python 合成音楽 · 動画収録",
+      "ko": "HTML + Three.js 절차적 생성, Python 합성 음악, 녹화 영상"
     },
     "Codex · SVG trace of studio art · HyperFrames animation · music sync": {
       "en": "Codex · SVG trace of studio art · HyperFrames animation · music sync",
       "zh-CN": "Codex · 工作室美术的 SVG 描摹 · HyperFrames 动画 · 音乐同步",
       "zh-TW": "Codex · 工作室美術的 SVG 描摹 · HyperFrames 動畫 · 音樂同步",
-      "ja": "Codex · スタジオ作品を SVG でトレース · HyperFrames アニメーション · 音楽同期"
+      "ja": "Codex · スタジオ作品を SVG でトレース · HyperFrames アニメーション · 音楽同期",
+      "ko": "Codex, 스튜디오 아트의 SVG 트레이싱, HyperFrames 애니메이션, 음악 동기화"
     },
     "Three.js single HTML file · screen/video capture on X": {
       "en": "Three.js single HTML file · screen/video capture on X",
       "zh-CN": "Three.js 单个 HTML 文件 · X 录屏／视频",
       "zh-TW": "Three.js 單一 HTML 檔案 · X 螢幕錄製／影片",
-      "ja": "Three.js の単一 HTML ファイル · X の画面／動画収録"
+      "ja": "Three.js の単一 HTML ファイル · X の画面／動画収録",
+      "ko": "Three.js 단일 HTML 파일, X 화면/영상 캡처"
     },
     "Single-prompt Three.js → one HTML file · captured video": {
       "en": "Single-prompt Three.js → one HTML file · captured video",
       "zh-CN": "单条提示词生成 Three.js → 单个 HTML 文件 · 视频录制",
       "zh-TW": "單則提示詞產生 Three.js → 單一 HTML 檔案 · 影片錄製",
-      "ja": "1 つのプロンプトで Three.js を生成 → 単一 HTML ファイル · 動画収録"
+      "ja": "1 つのプロンプトで Three.js を生成 → 単一 HTML ファイル · 動画収録",
+      "ko": "단일 프롬프트 Three.js → HTML 파일 하나, 녹화 영상"
     },
     "Three.js interactive ship · comparison video": {
       "en": "Three.js interactive ship · comparison video",
       "zh-CN": "Three.js 交互式帆船 · 对比视频",
       "zh-TW": "Three.js 互動式帆船 · 比較影片",
-      "ja": "Three.js のインタラクティブな帆船 · 比較動画"
+      "ja": "Three.js のインタラクティブな帆船 · 比較動画",
+      "ko": "Three.js 인터랙티브 선박, 비교 영상"
     },
     "Fully interactive Three.js · single HTML · offline": {
       "en": "Fully interactive Three.js · single HTML · offline",
       "zh-CN": "完全可交互的 Three.js · 单个 HTML · 离线运行",
       "zh-TW": "完全可互動的 Three.js · 單一 HTML · 離線執行",
-      "ja": "完全に操作可能な Three.js · 単一 HTML · オフライン動作"
+      "ja": "完全に操作可能な Three.js · 単一 HTML · オフライン動作",
+      "ko": "완전 인터랙티브 Three.js, 단일 HTML, 오프라인"
     },
     "HTML + Three.js scene capture": {
       "en": "HTML + Three.js scene capture",
       "zh-CN": "HTML + Three.js 场景录制",
       "zh-TW": "HTML + Three.js 場景錄製",
-      "ja": "HTML と Three.js のシーン収録"
+      "ja": "HTML と Three.js のシーン収録",
+      "ko": "HTML + Three.js 장면 캡처"
     },
     "SVG animation via Codex · recorded video": {
       "en": "SVG animation via Codex · recorded video",
       "zh-CN": "通过 Codex 制作 SVG 动画 · 视频录制",
       "zh-TW": "透過 Codex 製作 SVG 動畫 · 影片錄製",
-      "ja": "Codex で制作した SVG アニメーション · 動画収録"
+      "ja": "Codex で制作した SVG アニメーション · 動画収録",
+      "ko": "Codex로 만든 SVG 애니메이션, 녹화 영상"
     },
     "Self-contained Three.js HTML render · video capture": {
       "en": "Self-contained Three.js HTML render · video capture",
       "zh-CN": "独立 Three.js HTML 渲染 · 视频录制",
       "zh-TW": "獨立 Three.js HTML 算繪 · 影片錄製",
-      "ja": "単体で動作する Three.js HTML レンダリング · 動画収録"
+      "ja": "単体で動作する Three.js HTML レンダリング · 動画収録",
+      "ko": "독립 실행형 Three.js HTML 렌더링, 영상 캡처"
     },
     "Three.js + GLSL + Blender · single HTML · recorded video": {
       "en": "Three.js + GLSL + Blender · single HTML · recorded video",
       "zh-CN": "Three.js + GLSL + Blender · 单个 HTML · 视频录制",
       "zh-TW": "Three.js + GLSL + Blender · 單一 HTML · 影片錄製",
-      "ja": "Three.js + GLSL + Blender · 単一 HTML · 動画収録"
+      "ja": "Three.js + GLSL + Blender · 単一 HTML · 動画収録",
+      "ko": "Three.js + GLSL + Blender, 단일 HTML, 녹화 영상"
     },
     "Three.js scene with textures and lighting · recorded video": {
       "en": "Three.js scene with textures and lighting · recorded video",
       "zh-CN": "含纹理和灯光的 Three.js 场景 · 视频录制",
       "zh-TW": "含紋理和燈光的 Three.js 場景 · 影片錄製",
-      "ja": "テクスチャと照明を備えた Three.js シーン · 動画収録"
+      "ja": "テクスチャと照明を備えた Three.js シーン · 動画収録",
+      "ko": "텍스처와 조명을 갖춘 Three.js 장면, 녹화 영상"
     },
     "HTML + Three.js interactive castle-town diorama · recorded video": {
       "en": "HTML + Three.js interactive castle-town diorama · recorded video",
       "zh-CN": "HTML + Three.js 交互式城下町微缩场景 · 视频录制",
       "zh-TW": "HTML + Three.js 互動式城下町微縮場景 · 影片錄製",
-      "ja": "HTML と Three.js の操作可能な城下町ジオラマ · 動画収録"
+      "ja": "HTML と Three.js の操作可能な城下町ジオラマ · 動画収録",
+      "ko": "HTML + Three.js 인터랙티브 성하마을 디오라마, 녹화 영상"
     },
     "Self-contained HTML/CSS/JS animation (code model, not Grok Imagine Video)": {
       "en": "Self-contained HTML/CSS/JS animation (code model, not Grok Imagine Video)",
       "zh-CN": "独立 HTML／CSS／JS 动画（代码模型，非 Grok Imagine Video）",
       "zh-TW": "獨立 HTML／CSS／JS 動畫（程式碼模型，非 Grok Imagine Video）",
-      "ja": "単体で動作する HTML／CSS／JS アニメーション（コードモデル。Grok Imagine Video ではない）"
+      "ja": "単体で動作する HTML／CSS／JS アニメーション（コードモデル。Grok Imagine Video ではない）",
+      "ko": "독립 실행형 HTML/CSS/JS 애니메이션(코드 모델이며 Grok Imagine Video가 아님)"
     },
     "Grok Imagine native video generation (not code-to-GIF)": {
       "en": "Grok Imagine native video generation (not code-to-GIF)",
       "zh-CN": "Grok Imagine 原生视频生成（非代码转 GIF）",
       "zh-TW": "Grok Imagine 原生影片生成（非程式碼轉 GIF）",
-      "ja": "Grok Imagine のネイティブ動画生成（コードから GIF への変換ではない）"
+      "ja": "Grok Imagine のネイティブ動画生成（コードから GIF への変換ではない）",
+      "ko": "Grok Imagine 네이티브 영상 생성(코드를 GIF로 변환한 것이 아님)"
     },
     "Grok Imagine native video": {
       "en": "Grok Imagine native video",
       "zh-CN": "Grok Imagine 原生视频",
       "zh-TW": "Grok Imagine 原生影片",
-      "ja": "Grok Imagine のネイティブ動画"
+      "ja": "Grok Imagine のネイティブ動画",
+      "ko": "Grok Imagine 네이티브 영상"
     },
     "Grok Imagine native video, as credited on the original post": {
       "en": "Grok Imagine native video, as credited on the original post",
       "zh-CN": "原帖标注为 Grok Imagine 原生视频",
       "zh-TW": "原帖標註為 Grok Imagine 原生影片",
-      "ja": "原投稿の表記による Grok Imagine ネイティブ動画"
+      "ja": "原投稿の表記による Grok Imagine ネイティブ動画",
+      "ko": "원 게시물에 명시된 Grok Imagine 네이티브 영상"
     },
     "Iterative self-critique demo · recorded video": {
       "en": "Iterative self-critique demo · recorded video",
       "zh-CN": "迭代式自我评审演示 · 视频录制",
       "zh-TW": "反覆自我檢討示範 · 影片錄製",
-      "ja": "反復的な自己批評のデモ · 動画収録"
+      "ja": "反復的な自己批評のデモ · 動画収録",
+      "ko": "반복적인 자기 비평 데모, 녹화 영상"
     },
     "HTML + 3D animation demo · recorded video": {
       "en": "HTML + 3D animation demo · recorded video",
       "zh-CN": "HTML + 3D 动画演示 · 视频录制",
       "zh-TW": "HTML + 3D 動畫示範 · 影片錄製",
-      "ja": "HTML と 3D アニメーションのデモ · 動画収録"
+      "ja": "HTML と 3D アニメーションのデモ · 動画収録",
+      "ko": "HTML + 3D 애니메이션 데모, 녹화 영상"
     },
     "Three.js single-scene challenge · comparison video": {
       "en": "Three.js single-scene challenge · comparison video",
       "zh-CN": "Three.js 单场景挑战 · 对比视频",
       "zh-TW": "Three.js 單場景挑戰 · 比較影片",
-      "ja": "Three.js の単一シーン課題 · 比較動画"
+      "ja": "Three.js の単一シーン課題 · 比較動画",
+      "ko": "Three.js 단일 장면 과제, 비교 영상"
     },
     "Three.js excavator challenge · comparison video": {
       "en": "Three.js excavator challenge · comparison video",
       "zh-CN": "Three.js 挖掘机挑战 · 对比视频",
       "zh-TW": "Three.js 挖土機挑戰 · 比較影片",
-      "ja": "Three.js の掘削機制作課題 · 比較動画"
+      "ja": "Three.js の掘削機制作課題 · 比較動画",
+      "ko": "Three.js 굴착기 과제, 비교 영상"
     },
     "未知": {
       "en": "Unknown",
       "zh-CN": "未知",
       "zh-TW": "未知",
-      "ja": "不明"
+      "ja": "不明",
+      "ko": "알 수 없음"
     },
     "先上传图 → 粘贴无缝循环提示词": {
       "en": "Upload image first → paste seamless-loop prompt",
       "zh-CN": "先上传图 → 粘贴无缝循环提示词",
       "zh-TW": "先上傳圖片 → 貼上無縫循環提示詞",
-      "ja": "画像をアップロード → シームレスループのプロンプトを貼り付け"
+      "ja": "画像をアップロード → シームレスループのプロンプトを貼り付け",
+      "ko": "먼저 이미지 업로드 → 매끄러운 루프 프롬프트 붙여넣기"
     },
     "重复/不合格": {
       "en": "Duplicate / ineligible",
       "zh-CN": "重复／不合格",
       "zh-TW": "重複／不合格",
-      "ja": "重複／不適格"
+      "ja": "重複／不適格",
+      "ko": "중복 / 수록 요건 미충족"
     },
     "sheet_then_agent_postprocess": {
       "en": "Sprite sheet, then agent post-processing",
       "zh-CN": "精灵图后由智能体后处理",
       "zh-TW": "精靈圖後由代理程式後製",
-      "ja": "スプライトシート作成後、エージェントが後処理"
+      "ja": "スプライトシート作成後、エージェントが後処理",
+      "ko": "스프라이트 시트 생성 후 에이전트 후처리"
     },
     "native_gif_claimed": {
       "en": "Native GIF output claimed",
       "zh-CN": "声称原生 GIF 输出",
       "zh-TW": "聲稱原生 GIF 輸出",
-      "ja": "ネイティブ GIF 出力という主張"
+      "ja": "ネイティブ GIF 出力という主張",
+      "ko": "네이티브 GIF 출력이라는 주장"
     },
     "native_gif_or_sheet_tests": {
       "en": "Native GIF or sprite-sheet tests",
       "zh-CN": "原生 GIF 或精灵图测试",
       "zh-TW": "原生 GIF 或精靈圖測試",
-      "ja": "ネイティブ GIF またはスプライトシートのテスト"
+      "ja": "ネイティブ GIF またはスプライトシートのテスト",
+      "ko": "네이티브 GIF 또는 스프라이트 시트 테스트"
     },
     "不混入已收集主表": {
       "en": "Excluded from the main collected table",
       "zh-CN": "不混入已收集主表",
       "zh-TW": "不混入已收錄主表",
-      "ja": "収集済み事例の主表には含めない"
+      "ja": "収集済み事例の主表には含めない",
+      "ko": "주요 수록 목록에서 제외"
     },
     "Publisher claims native GIF; only WebP preview exposed in inspected HTML, no original GIF link": {
       "en": "Publisher claims native GIF; only WebP preview exposed in inspected HTML, no original GIF link",
       "zh-CN": "发布者声称原生 GIF；检查的 HTML 仅提供 WebP 预览，无原始 GIF 链接",
       "zh-TW": "發布者聲稱原生 GIF；檢查的 HTML 僅提供 WebP 預覽，無原始 GIF 連結",
-      "ja": "公開者はネイティブ GIF と主張。確認した HTML には WebP プレビューのみで、元の GIF へのリンクなし"
+      "ja": "公開者はネイティブ GIF と主張。確認した HTML には WebP プレビューのみで、元の GIF へのリンクなし",
+      "ko": "게시자는 네이티브 GIF라고 주장하지만 확인한 HTML에는 WebP 미리보기만 있고 원본 GIF 링크는 없음"
     },
     "Supplier API test: output_format=gif, frame_count=9, frame_duration_ms=200, quality=low, complexity=low": {
       "en": "Supplier API test: output_format=gif, frame_count=9, frame_duration_ms=200, quality=low, complexity=low",
       "zh-CN": "供应商 API 测试：output_format=gif，frame_count=9，frame_duration_ms=200，quality=low，complexity=low",
       "zh-TW": "供應商 API 測試：output_format=gif，frame_count=9，frame_duration_ms=200，quality=low，complexity=low",
-      "ja": "提供元 API のテスト：output_format=gif、frame_count=9、frame_duration_ms=200、quality=low、complexity=low"
+      "ja": "提供元 API のテスト：output_format=gif、frame_count=9、frame_duration_ms=200、quality=low、complexity=low",
+      "ko": "공급업체 API 테스트: output_format=gif, frame_count=9, frame_duration_ms=200, quality=low, complexity=low"
     },
     "AgentCraft says previews were reconstructed from X MP4 at 12 fps; not original native GIF export": {
       "en": "AgentCraft says previews were reconstructed from X MP4 at 12 fps; not original native GIF export",
       "zh-CN": "AgentCraft 称预览以 12 fps 从 X MP4 重建，并非原始原生 GIF 导出",
       "zh-TW": "AgentCraft 稱預覽以 12 fps 從 X MP4 重建，並非原始原生 GIF 匯出",
-      "ja": "AgentCraft は X の MP4 から 12 fps でプレビューを再構築したと説明。元のネイティブ GIF 出力ではない"
+      "ja": "AgentCraft は X の MP4 から 12 fps でプレビューを再構築したと説明。元のネイティブ GIF 出力ではない",
+      "ko": "AgentCraft는 미리보기를 X MP4에서 12fps로 재구성했다고 설명. 원래의 네이티브 GIF 출력이 아님"
     },
     "Published prompt explicitly requests a 4x4 sprite sheet with 16 frames; animation assembly path unconfirmed. Aggregator GIF rebuilt from X MP4 at 12 fps.": {
       "en": "Published prompt explicitly requests a 4x4 sprite sheet with 16 frames; animation assembly path unconfirmed. Aggregator GIF rebuilt from X MP4 at 12 fps.",
       "zh-CN": "公开提示词明确要求 4×4、16 帧精灵图；动画组装流程未确认。聚合站 GIF 以 12 fps 从 X MP4 重建。",
       "zh-TW": "公開提示詞明確要求 4×4、16 影格精靈圖；動畫組裝流程未確認。彙整站 GIF 以 12 fps 從 X MP4 重建。",
-      "ja": "公開プロンプトは 4×4、16 フレームのスプライトシートを明示。アニメーションの組み立て手順は未確認。集約サイトの GIF は X の MP4 から 12 fps で再構築。"
+      "ja": "公開プロンプトは 4×4、16 フレームのスプライトシートを明示。アニメーションの組み立て手順は未確認。集約サイトの GIF は X の MP4 から 12 fps で再構築。",
+      "ko": "공개 프롬프트는 16프레임의 4x4 스프라이트 시트를 명시적으로 요청. 애니메이션 조립 경로는 미확인. 수집 사이트 GIF는 X MP4에서 12fps로 재구성"
     },
     "Only Step 1 still-image prompt is transcribed; animation step unavailable. Aggregator GIF preview rebuilt from X MP4.": {
       "en": "Only Step 1 still-image prompt is transcribed; animation step unavailable. Aggregator GIF preview rebuilt from X MP4.",
       "zh-CN": "仅转录步骤 1 的静态图提示词，动画步骤不可得。聚合站 GIF 预览从 X MP4 重建。",
       "zh-TW": "僅轉錄步驟 1 的靜態圖提示詞，動畫步驟無法取得。彙整站 GIF 預覽從 X MP4 重建。",
-      "ja": "転記されているのはステップ 1 の静止画プロンプトのみで、アニメーション工程は取得できない。集約サイトの GIF プレビューは X の MP4 から再構築。"
+      "ja": "転記されているのはステップ 1 の静止画プロンプトのみで、アニメーション工程は取得できない。集約サイトの GIF プレビューは X の MP4 から再構築。",
+      "ko": "1단계 정지 이미지 프롬프트만 전사됐고 애니메이션 단계는 확인 불가. 수집 사이트 GIF 미리보기는 X MP4로 재구성"
     },
     "Author claims text-to-GIF in ChatGPT; published download is animated WebP, not original GIF": {
       "en": "Author claims text-to-GIF in ChatGPT; published download is animated WebP, not original GIF",
       "zh-CN": "作者称在 ChatGPT 中由文字生成 GIF；公开下载实际为动态 WebP，非原始 GIF",
       "zh-TW": "作者稱在 ChatGPT 中由文字生成 GIF；公開下載實際為動態 WebP，非原始 GIF",
-      "ja": "作者は ChatGPT でのテキストから GIF の生成と説明。公開ダウンロードはアニメーション WebP で、元の GIF ではない"
+      "ja": "作者は ChatGPT でのテキストから GIF の生成と説明。公開ダウンロードはアニメーション WebP で、元の GIF ではない",
+      "ko": "작성자는 ChatGPT 텍스트→GIF라고 주장하지만 공개 다운로드는 원본 GIF가 아니라 애니메이션 WebP"
     },
     "Photo to GIF, motion revision, named reference reused in moon scene; one workflow group, three outputs": {
       "en": "Photo to GIF, motion revision, named reference reused in moon scene; one workflow group, three outputs",
       "zh-CN": "照片转 GIF、动作修订、在月球场景复用具名参考；同一工作流组，三个输出",
       "zh-TW": "照片轉 GIF、動作修訂、在月球場景重用具名參考；同一工作流程組，三個輸出",
-      "ja": "写真から GIF 化、動作の修正、名前付き参照の月面シーンへの再利用。同一ワークフローの 3 出力"
+      "ja": "写真から GIF 化、動作の修正、名前付き参照の月面シーンへの再利用。同一ワークフローの 3 出力",
+      "ko": "사진→GIF, 움직임 수정, 이름을 지정한 참조를 달 장면에 재사용. 하나의 작업 흐름 그룹, 결과물 3개"
     },
     "Text-to-cat dance, reference-character animation, then expression revision": {
       "en": "Text-to-cat dance, reference-character animation, then expression revision",
       "zh-CN": "文字生成猫咪舞蹈、参考角色动画，然后修订表情",
       "zh-TW": "文字產生貓咪舞蹈、參考角色動畫，然後修訂表情",
-      "ja": "テキストによる猫のダンス生成、参照キャラクターのアニメーション化、その後の表情修正"
+      "ja": "テキストによる猫のダンス生成、参照キャラクターのアニメーション化、その後の表情修正",
+      "ko": "텍스트로 고양이 춤 생성, 참조 캐릭터 애니메이션, 이후 표정 수정"
     },
     "Text-to-cat dance; public asset is prompt/result UI screenshot, not verified animated file": {
       "en": "Text-to-cat dance; public asset is prompt/result UI screenshot, not verified animated file",
       "zh-CN": "文字生成猫咪舞蹈；公开素材是提示词／结果界面截图，非已验证的动画文件",
       "zh-TW": "文字產生貓咪舞蹈；公開素材是提示詞／結果介面截圖，非已驗證的動畫檔案",
-      "ja": "テキストによる猫のダンス生成。公開素材はプロンプト／結果画面のスクリーンショットで、検証済みアニメーションファイルではない"
+      "ja": "テキストによる猫のダンス生成。公開素材はプロンプト／結果画面のスクリーンショットで、検証済みアニメーションファイルではない",
+      "ko": "텍스트로 고양이 춤 생성. 공개 자료는 프롬프트/결과 UI 스크린샷이며 확인된 애니메이션 파일이 아님"
     },
     "Documentation request example, media unchecked / 文档请求示例": {
       "en": "Documentation request example; media unchecked",
       "zh-CN": "文档请求示例；媒体未检查",
       "zh-TW": "文件請求範例；媒體未檢查",
-      "ja": "ドキュメントのリクエスト例。メディア未確認"
+      "ja": "ドキュメントのリクエスト例。メディア未確認",
+      "ko": "문서의 요청 예제, 미디어 미확인"
     },
     "提示词卡 · SVG 概念封面": {
       "en": "Prompt card · SVG concept cover",
       "zh-CN": "提示词卡 · SVG 概念封面",
       "zh-TW": "提示詞卡 · SVG 概念封面",
-      "ja": "プロンプトカード · SVG コンセプト表紙"
+      "ja": "プロンプトカード · SVG コンセプト表紙",
+      "ko": "프롬프트 카드, SVG 콘셉트 표지"
     },
     "本仓种子 GIF": {
       "en": "Repository seed GIF",
       "zh-CN": "本仓种子 GIF",
       "zh-TW": "本倉庫種子 GIF",
-      "ja": "リポジトリの初期 GIF"
+      "ja": "リポジトリの初期 GIF",
+      "ko": "저장소 초기 예제 GIF"
     }
   }
 }

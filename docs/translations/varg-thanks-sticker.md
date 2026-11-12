@@ -1,10 +1,10 @@
 # varg-thanks-sticker
 
-Author / 作者 / 作者 / 作者: vargHQ / vargai Inc.
+Author / 作者 / 作者 / 作者 / 제작자: vargHQ / vargai Inc.
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/vargHQ/skills/blob/main/gpt-image-sticker-pack/SKILL.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/vargHQ/skills/blob/main/gpt-image-sticker-pack/SKILL.md)
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -137,3 +137,30 @@ Pipが合掌してお辞儀する「THANKS!」の透明ステッカー
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Pip이 손을 모으고 인사하는 THANKS! 투명 스티커
+```
+
+### 제작 방법
+
+문서의 요청 예제, 미디어 미확인
+
+### 검증 상태
+
+2026-11-07 출처 기록, 미디어 미확인
+
+### 모델 근거 (번역)
+
+```text
+출처는 gpt_image_2_6이라고 보고, 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

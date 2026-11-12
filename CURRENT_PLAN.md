@@ -2,17 +2,17 @@
 
 ## Goal
 
-After merging PR #16, improve the real browse path with the latest Git Project Harness: large licensed results, reliable type discovery, shared four-language evidence and honest ordering.
+Complete Korean reader content alongside the existing four languages, based on main `adbad466`. Retain the real browse path: large licensed results, meaningful type discovery, source-faithful evidence and honest ordering.
 
 ## This PR
 
-- Keep the eight reviewed images, original bytes, rights records and existing model tables.
-- Generate four large-image licensed-work galleries with work types, descriptions, model jumps and source/permission/original-image links.
-- Put the new gallery within reach of the README opening and Pages main action area.
-- Repair source-evidenced game classifications and record unknown heat without inventing scores.
-- Preserve 183 main cases and the separate 51-case GPT Image archive; supplementary images do not inflate counts.
-- Run unified verification plus desktop/narrow gallery browser checks and retain screenshots for review.
+- Generate the Korean README, full catalog and licensed-work gallery from checked-in translation sources.
+- Add Korean titles, methods, verification notes, model evidence and complete collected prompt translations; retain original fields verbatim.
+- Add Korean content to the case reader and reciprocal five-language navigation.
+- Keep the eight reviewed images, original bytes, rights records, six model tables and shared ordering.
+- Preserve 183 main cases and the separate 51-case GPT Image archive; translations and supplementary works do not inflate counts.
+- Extend the existing verification entry and real-browser matrix to Korean.
 
 ## Boundary
 
-PR #16 is merged at 01bf3e3. This new optimization is a separate draft PR, not an authorized merge. No external promotion, tracking, repository settings or new media rights. Report GitHub README mobile and actual-site gaps separately from CI gallery checks.
+Separate draft PR only; no merge, deployment, settings changes or new media rights. AI translations are not human-reviewed. The main searchable catalog interface remains English/Simplified Chinese; Korean has its own licensed gallery, Markdown catalog and translated-case reader, matching the existing Japanese content scope. The separate GPT Image archive landing page remains bilingual. Browser and GitHub rendering outcomes are recorded separately in `docs/project-governance/korean-localization-review.md`.

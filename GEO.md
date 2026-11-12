@@ -28,7 +28,7 @@ Apply repository settings only with the owner's authorization. Avoid unverified 
 ## Fact boundaries
 
 - Source model labels are claims, not independently verified provenance. Missing and partial prompts remain explicitly labeled.
-- Four README/evidence locales are preserved. The main catalog interface supports English and Simplified Chinese; the separately licensed large-preview gallery has English, Simplified Chinese, Traditional Chinese and Japanese pages.
+- Five README/evidence locales are available, including Korean. The main catalog interface supports English and Simplified Chinese; the separately licensed large-preview gallery has English, Simplified Chinese, Traditional Chinese, Japanese and Korean pages.
 - MIT applies to code and original project documentation, not third-party media or prompts. [Media rights](MEDIA_RIGHTS.md) defines exact publication permission.
 - The homepage families, separate GPT Image archive, appendices, and pending items must remain distinct across README, metadata, and [llms.txt](llms.txt).
 

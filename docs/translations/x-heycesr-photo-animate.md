@@ -1,12 +1,12 @@
 # x-heycesr-photo-animate
 
-Author / 作者 / 作者 / 作者: @heycesr（cesar.wtf）
+Author / 作者 / 作者 / 作者 / 제작자: @heycesr（cesar.wtf）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/heycesr/status/2118391412639371290)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-heycesr-photo-animate/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/heycesr/status/2118391412639371290)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-heycesr-photo-animate/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+실제 사진(왼쪽) → GPT Image 2.6 애니메이션(오른쪽), @tryidem 제공
+```
+
+### 제작 방법
+
+작성자는 직접 GIF 출력이라고 주장하지만 X 첨부파일은 실제로 MP4
+
+### 검증 상태
+
+작성자 주장 + 미디어 메타데이터 확인, 영상 미시청, 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 2.6 주장: 새 gpt image 2.6으로 GIF 생성을 테스트 중…왼쪽은 원본…오른쪽은 g…(원문 잘림)
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

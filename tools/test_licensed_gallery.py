@@ -12,7 +12,7 @@ class Tags(HTMLParser):
 class GalleryTests(unittest.TestCase):
     def test_eight_distinct_authorized_results_in_all_locales(self):
         rows=sum([json.loads((ROOT/'data'/f).read_text())['cases'] for f in ['readme-featured-cases.json','readme-supplemental-previews.json']],[])
-        for lang in ('en','zh-CN','zh-TW','ja'):
+        for lang in ('en','zh-CN','zh-TW','ja','ko'):
             p=ROOT/f'docs/licensed-gallery.{lang}.html'
             self.assertTrue(p.exists())
             text=p.read_text(); tags=Tags();tags.feed(text)
@@ -24,7 +24,7 @@ class GalleryTests(unittest.TestCase):
                 self.assertIn(row['license_evidence_url'],tags.links)
                 if row.get('model_family'):
                     self.assertIn('https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/readme-preview-credits.md#'+row['id'],tags.links)
-            for other in ('en','zh-CN','zh-TW','ja'):self.assertIn(f'licensed-gallery.{other}.html',tags.links)
+            for other in ('en','zh-CN','zh-TW','ja','ko'):self.assertIn(f'licensed-gallery.{other}.html',tags.links)
             self.assertTrue(all(x.get('alt') and x.get('width') and x.get('height') for x in tags.images))
             self.assertNotIn('<video',text)
 if __name__=='__main__':unittest.main()

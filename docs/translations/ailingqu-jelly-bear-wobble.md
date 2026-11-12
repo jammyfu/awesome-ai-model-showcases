@@ -1,12 +1,12 @@
 # ailingqu-jelly-bear-wobble
 
-Author / 作者 / 作者 / 作者: ailingqu / awesome-ai-gif-prompts
+Author / 作者 / 作者 / 作者 / 제작자: ailingqu / awesome-ai-gif-prompts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/jelly-bear-wobble.gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ailingqu-jelly-bear-wobble/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/jelly-bear-wobble.gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ailingqu-jelly-bear-wobble/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 
 
 ```text
 柔らかなゼリー状の体と短い腕を持つ、丸くぽっちゃりした漫画の熊。左右に揺れながら下に潰れて跳ね戻り、跳ねるたびに頬がぷるぷる揺れる。太くすっきりした輪郭線、フラットなパステルカラー。熊と強く対比する無地のミントグリーン背景の中央に配置する。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+흔들리는 젤리 곰
+```
+
+### 제작 방법
+
+공개된 GIF, 이 사례의 생성 제공업체는 기록되지 않음
+
+### 검증 상태
+
+GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+부드러운 젤리 같은 몸과 짧고 굵은 팔을 가진 통통하고 둥근 만화 곰이 아래로 눌렸다가 다시 튀어 오르며 좌우로 출렁이고, 튈 때마다 볼이 흔들립니다. 굵고 깔끔한 외곽선, 평면 파스텔 색상. 곰과 강하게 대비되는 단색 민트 그린 배경 중앙에 배치하세요.
 ```

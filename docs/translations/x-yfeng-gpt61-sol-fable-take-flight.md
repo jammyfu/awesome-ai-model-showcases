@@ -1,12 +1,12 @@
 # x-yfeng-gpt61-sol-fable-take-flight
 
-Author / 作者 / 作者 / 作者: @YFeng2022（LanFeng）
+Author / 作者 / 作者 / 作者 / 제작자: @YFeng2022（LanFeng）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/YFeng2022/status/2120324811549225082)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-yfeng-gpt61-sol-fable-take-flight/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/YFeng2022/status/2120324811549225082)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-yfeng-gpt61-sol-fable-take-flight/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ HTML と Three.js の手続き型制作 · Python 合成音楽 · 動画収録
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Let Fable take Flight: HTML/Three.js 절차적 애니메이션(GPT-6.1 Sol Max)
+```
+
+### 제작 방법
+
+HTML + Three.js 절차적 생성, Python 합성 음악, 녹화 영상
+
+### 검증 상태
+
+1차 X URL, 작성자는 댓글에 프롬프트가 있다고 설명(여기서는 수집하지 않음), 태그에도 GPT62sol 언급(비공식/일부 사용자 대상 라우팅 관측으로 공식 모델 ID로 취급하지 않음)
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Codex의 GPT-6.1 Sol Max, 순수 코드, 3D 에셋 0개, 약 25분. 소유자 확인에 따라 GPT-6.2 Sol 항목으로 재분류했으며 OpenAI 공개 페이지에는 여전히 GPT-6.1 Sol이 기재됨
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

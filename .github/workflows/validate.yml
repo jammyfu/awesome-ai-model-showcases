@@ -46,6 +46,7 @@ jobs:
           fi
           fc-match sans-serif:lang=zh
           fc-match sans-serif:lang=ja
+          fc-match sans-serif:lang=ko
       - name: Verify catalog, local media, generated files, and browser playback
         env:
           RUN_BROWSER_TESTS: '1'

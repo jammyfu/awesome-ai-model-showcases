@@ -1,12 +1,12 @@
 # x-danshipper-fable52-546638
 
-Author / 作者 / 作者 / 作者: @danshipper（Dan Shipper）
+Author / 作者 / 作者 / 作者 / 제작자: @danshipper（Dan Shipper）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/danshipper/status/2119869228207546638)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-danshipper-fable52-546638/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/danshipper/status/2119869228207546638)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-danshipper-fable52-546638/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ AIGCreative の Feishu wiki が引用する原投稿の X URL · 独立した再
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+에이전트가 연구자를 인터뷰하고 녹화본을 다큐멘터리로 편집
+```
+
+### 제작 방법
+
+X 게시물의 영상 또는 화면 녹화
+
+### 검증 상태
+
+AIGCreative Feishu 위키가 인용한 1차 X URL, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+Feishu AIGCreative 위키는 Claude Fable 5.2 항목에 수록. 연결된 X 게시물이 원문. 독립적으로 다시 실행하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

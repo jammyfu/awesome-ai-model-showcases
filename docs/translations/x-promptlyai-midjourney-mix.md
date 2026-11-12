@@ -1,10 +1,10 @@
 # x-promptlyai-midjourney-mix
 
-Author / 作者 / 作者 / 作者: x-promptlyai-midjourney-mix
+Author / 作者 / 作者 / 作者 / 제작자: x-promptlyai-midjourney-mix
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/PromptlyAI_YT/status/2118389133446173155)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/PromptlyAI_YT/status/2118389133446173155)
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -137,3 +137,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+작성자가 “Midjourney + GPT Images 2.6”이라고 기재, 애니메이션이 2.6만의 결과인지 확인 불가
+```
+
+### 제작 방법
+
+중복 / 수록 요건 미충족
+
+### 검증 상태
+
+조사 과정에서 제외
+
+### 모델 근거 (번역)
+
+```text
+카탈로그에 수록하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

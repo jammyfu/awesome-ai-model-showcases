@@ -1,12 +1,12 @@
 # lightlyn-earbuds-case-gif
 
-Author / 作者 / 作者 / 作者: Linger（Lightlyn Images）
+Author / 作者 / 作者 / 作者 / 제작자: Linger（Lightlyn Images）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://image.lightlyn.com/gpt-image-2-6?lang=en)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/lightlyn-earbuds-case-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://image.lightlyn.com/gpt-image-2-6?lang=en)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/lightlyn-earbuds-case-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GPT Image 2.6 Sunburst（2.6 Sunburst・38.6秒）
 
 ```text
 セージグリーンのスタジオ背景に「LIGHTLYN」と書かれた白いワイヤレスイヤホンの充電ケース。蓋が開き、2つのイヤホンが浮き上がって少し漂ったあと元に戻り、蓋が閉まる。すっきりした製品アニメーション、シームレスループ。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+제품 케이스 열기와 닫기: 이어폰 케이스가 열리고 이어폰이 떠올랐다 돌아오는 매끄러운 루프
+```
+
+### 제작 방법
+
+직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)
+
+### 검증 상태
+
+페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+GPT Image 2.6 Sunburst (2.6 Sunburst · 38.6초)
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+세이지 그린 스튜디오 배경에 “LIGHTLYN”이라고 적힌 흰색 무선 이어폰 충전 케이스가 있습니다. 뚜껑이 열리고 이어폰 두 개가 올라와 잠깐 떠 있다가 다시 제자리에 내려앉고 뚜껑이 닫힙니다. 깔끔한 제품 애니메이션, 이음새 없는 반복.
 ```

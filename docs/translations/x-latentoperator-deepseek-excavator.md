@@ -1,12 +1,12 @@
 # x-latentoperator-deepseek-excavator
 
-Author / 作者 / 作者 / 作者: @LatentOperatorX（Latent Operator）
+Author / 作者 / 作者 / 作者 / 제작자: @LatentOperatorX（Latent Operator）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/LatentOperatorX/status/2120077800887746603)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-latentoperator-deepseek-excavator/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/LatentOperatorX/status/2120077800887746603)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-latentoperator-deepseek-excavator/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ Three.js の掘削機制作課題 · 比較動画
 
 ```text
 Three.jsで、ダンプトラックに積み込む3Dショベルカーを作成してください。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+덤프트럭에 짐을 싣는 Three.js 굴착기: DeepSeek Harness vs Command Code
+```
+
+### 제작 방법
+
+Three.js 굴착기 과제, 비교 영상
+
+### 검증 상태
+
+1차 X URL, 과제 문구 공개, 하네스 시간은 작성자 보고값, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: 같은 DeepSeek V4.1 Flash 모델로 DeepSeek Harness와 Command Code 비교, MAX 추론. 점수와 시간은 작성자 보고값
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+Three.js로 덤프트럭에 짐을 싣는 3D 굴착기를 만들어 주세요.
 ```

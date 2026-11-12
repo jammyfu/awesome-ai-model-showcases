@@ -1,12 +1,12 @@
 # x-noclipepe-fable52-clip
 
-Author / 作者 / 作者 / 作者: @noclipepe
+Author / 作者 / 作者 / 作者 / 제작자: @noclipepe
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/noclipepe/status/2119728047754547326)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-noclipepe-fable52-clip/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/noclipepe/status/2119728047754547326)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-noclipepe-fable52-clip/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ fengyiqicoder/awesome-fable-5.2 に掲載された原投稿の X URL · 独立�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+어린 시절의 카펫 레이싱
+```
+
+### 제작 방법
+
+Three.js / HTML 또는 Blender 장면을 X 영상으로 캡처
+
+### 검증 상태
+
+fengyiqicoder/awesome-fable-5.2에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+인용 저장소는 Claude Fable 5.2 항목에 수록하고 원 게시물로 연결. 독립적으로 다시 실행하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

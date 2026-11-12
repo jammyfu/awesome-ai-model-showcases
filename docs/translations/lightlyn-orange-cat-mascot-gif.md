@@ -1,12 +1,12 @@
 # lightlyn-orange-cat-mascot-gif
 
-Author / 作者 / 作者 / 作者: Linger（Lightlyn Images）
+Author / 作者 / 作者 / 作者 / 제작자: Linger（Lightlyn Images）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://image.lightlyn.com/gpt-image-2-6?lang=en)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/lightlyn-orange-cat-mascot-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://image.lightlyn.com/gpt-image-2-6?lang=en)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/lightlyn-orange-cat-mascot-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GPT Image 2.6 Flare（ページに2.6 Flare・20.9秒と記載）
 
 ```text
 小さなランタンを持つ、明るく丸いオレンジ色の猫のマスコットが、手を振って挨拶し、まばたきする。柔らかなフラットイラスト調、すっきりしたパステル背景、穏やかなシームレスループ。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+브랜드 마스코트가 손을 흔들고 눈을 깜박이는 매끄러운 GIF 루프
+```
+
+### 제작 방법
+
+직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)
+
+### 검증 상태
+
+페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+GPT Image 2.6 Flare (페이지 표기: 2.6 Flare · 20.9초)
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+작은 등을 든 밝고 둥근 주황색 고양이 마스코트가 손을 흔들어 인사하고 눈을 깜빡입니다. 부드러운 평면 일러스트 스타일, 깔끔한 파스텔 배경, 부드럽고 이음새 없는 반복 동작.
 ```

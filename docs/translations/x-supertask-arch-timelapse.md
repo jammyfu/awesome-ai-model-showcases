@@ -1,12 +1,12 @@
 # x-supertask-arch-timelapse
 
-Author / 作者 / 作者 / 作者: @supertask_jp（Tasuku Takahashi）
+Author / 作者 / 作者 / 作者 / 제작자: @supertask_jp（Tasuku Takahashi）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/supertask_jp/status/2118241124133532077)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-supertask-arch-timelapse/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/supertask_jp/status/2118241124133532077)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-supertask-arch-timelapse/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 
 ```text
 タイムラプスでゆっくり日が変わるような感じのGIFにして
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+일본어 게시물: 건축 렌더링 → 일몰 타임랩스 GIF
+```
+
+### 제작 방법
+
+작성자는 직접 GIF 출력이라고 주장하지만 X 첨부파일은 실제로 MP4
+
+### 검증 상태
+
+작성자 주장 + 미디어 메타데이터 확인, 영상 미시청, 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 2.6 주장: GPT Image 2.6으로 건축 렌더링의 일몰 타임랩스 제작
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+타임랩스처럼 하루의 빛이 천천히 바뀌는 느낌의 GIF로 만들어 주세요.
 ```

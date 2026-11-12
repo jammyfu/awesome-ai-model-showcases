@@ -1,12 +1,12 @@
 # x-maxblade-fable-vs-carbon
 
-Author / 作者 / 作者 / 作者: @_MaxBlade（Max Blade）
+Author / 作者 / 作者 / 作者 / 제작자: @_MaxBlade（Max Blade）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/_MaxBlade/status/2120355412021231795)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-maxblade-fable-vs-carbon/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/_MaxBlade/status/2120355412021231795)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-maxblade-fable-vs-carbon/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+같은 프롬프트: Fable 5.2 vs Gemini 4 Carbon
+```
+
+### 제작 방법
+
+모델 결과 나란히 비교, 녹화 영상
+
+### 검증 상태
+
+1차 X URL, 프롬프트 미공개, 시간은 작성자 보고값, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Fable 5.2와 Gemini 4 Carbon에 같은 미공개 프롬프트 사용. Carbon이 더 저렴하고 빨랐으며 Fable의 그래픽 충실도가 더 높았다고 설명
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

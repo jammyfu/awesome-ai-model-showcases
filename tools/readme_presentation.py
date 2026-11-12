@@ -15,12 +15,12 @@ TEMPLATES = Path(__file__).resolve().parent / "templates"
 
 # Exact licensed examples; source model/prompt claims remain unverified.
 FEATURED = tuple(
-    (cid, dict(zip(("en", "zh-CN", "zh-TW", "ja"), titles)),
-     {lang: "CC BY 4.0 · ailingqu" for lang in ("en", "zh-CN", "zh-TW", "ja")})
+    (cid, dict(zip(("en", "zh-CN", "zh-TW", "ja", "ko"), titles)),
+     {lang: "CC BY 4.0 · ailingqu" for lang in ("en", "zh-CN", "zh-TW", "ja", "ko")})
     for cid, titles in (
-        ("ailingqu-jelly-bear-wobble", ("Jelly bear wobble", "果冻熊摇晃", "果凍熊搖晃", "ゼリーベア")),
-        ("ailingqu-flower-macro-flash", ("Flower macro flash", "花卉微距快闪", "花卉微距快閃", "花のマクロ")),
-        ("ailingqu-cat-brand-reel", ("Cat logo reel", "猫头品牌快闪", "貓頭品牌快閃", "猫ロゴ")),
+        ("ailingqu-jelly-bear-wobble", ("Jelly bear wobble", "果冻熊摇晃", "果凍熊搖晃", "ゼリーベア", "흔들리는 젤리 곰")),
+        ("ailingqu-flower-macro-flash", ("Flower macro flash", "花卉微距快闪", "花卉微距快閃", "花のマクロ", "꽃 매크로 플래시")),
+        ("ailingqu-cat-brand-reel", ("Cat logo reel", "猫头品牌快闪", "貓頭品牌快閃", "猫ロゴ", "고양이 로고 릴")),
     )
 )
 
@@ -81,7 +81,7 @@ TYPE_LABEL = {
         "minigame": "ミニゲーム",
         "image": "画像",
     },
-}
+ "ko": {'gif': 'GIF', 'animation': '애니메이션', 'html-3d': 'HTML / 3D 장면', 'minigame': '미니 게임', 'image': '이미지'}}
 
 TYPE_INDEX_LABEL = {
     "gif": "动图 / GIF",
@@ -198,7 +198,7 @@ UI = {
         "type_count": "この種類は {n} 件。サムネイルがあるものから最大 4 件。",
         "credit": "クレジット",
     },
-}
+ "ko": {'case': '사례', 'post': '원문 게시물', 'method': '제작 방법', 'original': '원문 프롬프트', 'partial': '짧은 내용 / 일부', 'empty': '미공개', 'brief': '출처의 동작 설명', 'shown': '이 모델 계열의 출처가 있는 사례 {total}개를 버전별로 최신순으로 모두 나열합니다. {thumbs}개는 썸네일이 있으며 이미지를 누르면 원문으로 이동합니다. 나머지는 한 줄씩 표시하며 전체 근거 표에도 같은 기록이 있습니다.', 'video': '▶ 동영상', 'all': '이 모델 계열의 출처가 있는 사례 {total}개입니다. 전체 근거 표에도 같은 기록이 있습니다.', 'mythos': '목록에 이름만 있고 별도의 출처가 있는 사례는 없습니다. 저장된 원문을 그대로 인용합니다.', 'qwen': '목록에는 별도 사례가 없는 버전도 기록되어 있습니다. 원문은 다음과 같습니다.', 'gif_intro': '아직 널리 사용되는 이전 세대 모델입니다. 아래 세 이미지는 이미 보관된 사례 자료이며 새로 생성한 것이 아닙니다.', 'cards_note': 'ailingqu의 CC BY 4.0 예시입니다. 공개 프롬프트는 출처에서 재작성한 것으로 과거에 실제 입력한 요청인지 확인되지 않았습니다. 모델 정보는 출처의 주장이고 생성을 재현하지 않았습니다. 썸네일은 축소한 파생본입니다.', 'by_model': '모델별', 'by_type': '유형별', 'latest_h': '최근 추가', 'latest_link': '날짜가 있는 최신 사례', 'latest_note': '완전한 날짜가 있는 사례만 최신순으로 표시합니다. 날짜가 없는 사례는 여기에 넣지 않습니다.', 'index_link': '전체 사례 목록', 'type_count': '이 유형의 사례 {n}개. 썸네일이 있는 경우 최대 4개를 미리 보여 줍니다.', 'credit': '제작자'}}
 
 
 def cases_by_id(catalog: dict) -> dict[str, dict]:
@@ -228,6 +228,8 @@ def sol_note(catalog: dict, lang: str) -> str:
             f"目錄分欄名 **{label}** 按倉庫主人確認。截至 {checked}，OpenAI 公開文件仍寫 **{public}**"
             f"（[介紹頁]({intro})、[Models]({models})）；本倉不編造官方 6.2 發布聲明。"
         )
+    if lang == "ko":
+        return (f"목록의 **{label}** 표기는 저장소 소유자의 확인에 따른 것입니다. {checked} 기준 OpenAI 공개 문서의 표기는 여전히 **{public}**입니다 ([소개]({intro}), [Models]({models})). 공식 6.2 출시 발표가 있었다고 주장하지 않습니다.")
     if lang == "ja":
         return (
             f"欄の名前 **{label}** はリポジトリ所有者の確認に従う。{checked} 時点で OpenAI の公開ページは **{public}** のまま"
@@ -310,20 +312,20 @@ def _href(path: str, from_file: Path | None) -> str:
 def latest_section(rows: list[dict], lang: str) -> str:
     ui = UI[lang]
     dated = _date_desc([row for row in rows if _full_day(str(row.get("date") or ""))])
-    headings = {"en": "Recent source posts", "zh-CN": "近期原帖", "zh-TW": "近期原帖", "ja": "最近の原投稿"}
+    headings = {"en": "Recent source posts", "zh-CN": "近期原帖", "zh-TW": "近期原帖", "ja": "最近の原投稿", "ko": '최근 원문 게시물'}
     notes = {
         "en": "Five recent source-dated cases, not an ingestion log or ranking. Same-day ties use case ID; undated cases remain in the full catalog.",
         "zh-CN": "按来源日期倒序列出五条，不代表入库时间或质量排名。同日按案例 ID 排序；无日期案例仍保留在完整目录。",
         "zh-TW": "依來源日期倒序列出五則，不代表收錄時間或品質排名。同日依案例 ID 排序；無日期案例仍保留在完整目錄。",
         "ja": "出典の日付が新しい 5 件です。収録順や品質ランキングではありません。同日は事例 ID 順とし、日付のない事例も全目録に残します。",
-    }
+     "ko": '출처 날짜가 있는 최신 사례 5개입니다. 수집 일지나 순위가 아닙니다. 같은 날짜는 사례 ID로 정렬하며 날짜가 없는 사례는 전체 목록에서 볼 수 있습니다.'}
     lines = ['<a id="latest"></a>', f"## {headings[lang]}", "", notes[lang], ""]
     missing_heat = {
         "en": "No comparable popularity snapshot is recorded as of {date}; this is source-date order, not a popularity ranking.",
         "zh-CN": "截至 {date} 尚无可比热度快照；这里按来源日期排列，不是热度榜。",
         "zh-TW": "截至 {date} 尚無可比熱度快照；此處依來源日期排列，不是熱度榜。",
         "ja": "{date} 時点で比較可能な人気指標は未収集です。ここは出典の日付順で、人気ランキングではありません。",
-    }
+     "ko": '{date} 기준으로 비교 가능한 인기도 자료가 없습니다. 출처 날짜순이며 인기순이 아닙니다.'}
     lines += [missing_heat[lang].format(date=DISCOVERY_ORDER["meta"]["reviewed_at"]), ""]
     for row in dated[:5]:
         family_label = "GPT Sol" if row["model_family"] == "gpt-code" else FAMILY_TITLE[row["model_family"]]
@@ -373,7 +375,7 @@ def featured_cards(rows: list[dict], lang: str, from_file: Path | None = None) -
         thumb = (row.get("thumb") or "") if is_public_asset(row.get("thumb") or "") else ""
         preview = escape(_href(thumb if is_public_asset(thumb) else media, from_file))
         media_href = escape(_href(media, from_file))
-        prompt_label = {"en": "Published prompt", "zh-CN": "公开提示词", "zh-TW": "公開提示詞", "ja": "公開プロンプト"}[lang]
+        prompt_label = {"en": "Published prompt", "zh-CN": "公开提示词", "zh-TW": "公開提示詞", "ja": "公開プロンプト", "ko": '공개 프롬프트'}[lang]
         lines.extend([
             '<td align="center" width="33%">',
             f'<a href="{source}"><img src="{preview}" alt="{alt}" width="220"></a><br>',
@@ -417,7 +419,7 @@ def family_sections(catalog: dict, lang: str) -> str:
         "zh-CN": ("条", "查看全部", "暂无独立来源案例", "入门示例"),
         "zh-TW": ("則", "查看全部", "暫無獨立來源案例", "入門範例"),
         "ja": ("件", "全件を見る", "出典付きの単独事例は未収録", "最初に見る例"),
-    }
+     "ko": ('개', '전체 보기', '출처가 있는 독립 사례 없음', '먼저 볼 예시')}
     unit, browse, empty, sample = words[lang]
     blocks = []
     for fam in HOMEPAGE_FAMILIES:
@@ -441,7 +443,7 @@ def family_sections(catalog: dict, lang: str) -> str:
                 "zh-CN": ("预览", "案例与介绍", "模型与来源", "到原帖看效果 ↗", "预览转载授权待核实", "来源声明"),
                 "zh-TW": ("預覽", "案例與介紹", "模型與來源", "到原帖看效果 ↗", "預覽轉載授權待核實", "來源聲明"),
                 "ja": ("プレビュー", "事例と紹介", "モデルと出典", "出典で見る ↗", "画像の掲載許諾は未確認", "出典による表記"),
-            }[lang]
+             "ko": ('미리보기', '사례와 소개', '모델과 출처', '원문에서 결과 보기 ↗', '미리보기 재게시 허가 확인 대기', '출처의 모델 표기')}[lang]
             blocks += ["", '<table width="100%">', "<thead><tr>" + f"<th>{labels[0]} · {labels[1]} · {labels[2]}</th>" + "</tr></thead>", "<tbody>"]
             supplemental_path = TEMPLATES.parent.parent / "data/readme-supplemental-previews.json"
             supplemental = json.loads(supplemental_path.read_text())["cases"]
@@ -450,7 +452,7 @@ def family_sections(catalog: dict, lang: str) -> str:
                 "zh-CN": "补充授权作品 · 不计入目录总数",
                 "zh-TW": "補充授權作品 · 不計入目錄總數",
                 "ja": "追加の許諾済み作品 · 目録件数には含めません",
-            }[lang]
+             "ko": '추가 수록 작품 (게시 허가 확인) · 목록 집계에서 제외'}[lang]
             for extra in supplemental:
                 if extra["model_family"] != fam:
                     continue
@@ -465,8 +467,8 @@ def family_sections(catalog: dict, lang: str) -> str:
                 intro = escape(loc["summary"])
                 credit = escape(extra["display_credit"])
                 model = escape(extra["model"])
-                evidence_label = {"en": "Permission", "zh-CN": "授权依据", "zh-TW": "授權依據", "ja": "許諾の根拠"}[lang]
-                credit_label = {"en": "Attribution & changes", "zh-CN": "署名与修改说明", "zh-TW": "署名與修改說明", "ja": "クレジットと変更"}[lang]
+                evidence_label = {"en": "Permission", "zh-CN": "授权依据", "zh-TW": "授權依據", "ja": "許諾の根拠", "ko": '게시 허가 근거'}[lang]
+                credit_label = {"en": "Attribution & changes", "zh-CN": "署名与修改说明", "zh-TW": "署名與修改說明", "ja": "クレジットと変更", "ko": '저작자 표시 및 변경 사항'}[lang]
                 license_url = escape(extra["license_url"], quote=True)
                 license_label = escape(extra["license"])
                 evidence = escape(extra["license_evidence_url"], quote=True)
@@ -495,7 +497,7 @@ def family_sections(catalog: dict, lang: str) -> str:
 def readme_showcase_gifs(catalog: dict, lang: str) -> str:
     """Actual licensed case media, not project branding or unlicensed frontier previews."""
     rows = cases_by_id(catalog)
-    prompt_label = {"en": "Published prompt", "zh-CN": "公开提示词", "zh-TW": "公開提示詞", "ja": "公開プロンプト"}[lang]
+    prompt_label = {"en": "Published prompt", "zh-CN": "公开提示词", "zh-TW": "公開提示詞", "ja": "公開プロンプト", "ko": '공개 프롬프트'}[lang]
     lines = ["<p>"]
     links = []
     for cid, titles, _notes in FEATURED:
@@ -515,19 +517,19 @@ def write_preview_credits() -> None:
     root = TEMPLATES.parent.parent
     rows = json.loads((root / "data/readme-supplemental-previews.json").read_text())["cases"]
     lines = ["<!-- Generated by tools/write_community_catalog.py; edit data/readme-supplemental-previews.json. -->",
-             "# Preview credits / 预览署名 / 預覽署名 / プレビューのクレジット", ""]
+             "# Preview credits / 预览署名 / 預覽署名 / プレビューのクレジット / 미리보기 저작자 표시", ""]
     for row in rows:
         lines += [f'<a id="{row["id"]}"></a>', f'## {row["model"]}', "", row['credit'], "",
-                  f'[Source / 来源 / 來源 / 出典]({row["source_url"]}) · [{row["license"]}]({row["license_url"]}) · [Permission / 授权 / 授權 / 許諾]({row["license_evidence_url"]})', ""]
+                  f'[Source / 来源 / 來源 / 出典 / 출처]({row["source_url"]}) · [{row["license"]}]({row["license_url"]}) · [Permission / 授权 / 授權 / 許諾 / 게시 허가]({row["license_evidence_url"]})', ""]
         original = row['source_evidence'].get('original_source_url')
         if original:
-            lines += [f'[Original photograph / 原照片 / 原照片 / 原写真]({original})', ""]
-        for lang in ("en", "zh-CN", "zh-TW", "ja"):
+            lines += [f'[Original photograph / 原照片 / 原照片 / 原写真 / 원본 사진]({original})', ""]
+        for lang in ("en", "zh-CN", "zh-TW", "ja", "ko"):
             loc = row['locales'][lang]
             lines += [f'### {lang}', "", f'**{loc["title"]}**', "", loc['summary'], "", loc['changes'], ""]
         lines += [f'Original modification record: {row["changes"]}', "",
                   f'SHA-256: {row["image_sha256"]}', "",
-                  f'[License text / 许可全文 / 許可全文 / ライセンス全文]({row["local_license_path"].removeprefix("docs/")})', ""]
+                  f'[License text / 许可全文 / 許可全文 / ライセンス全文 / 라이선스 전문]({row["local_license_path"].removeprefix("docs/")})', ""]
     (root / "docs/readme-preview-credits.md").write_text("\n".join(lines).rstrip()+"\n", encoding="utf-8")
 
 
@@ -540,7 +542,7 @@ def source_spotlights() -> dict:
         if row["id"] in seen or not is_public_asset(row["image_path"]):
             raise ValueError(f"Duplicate or unapproved spotlight: {row['id']}")
         seen.add(row["id"])
-        for lang in ("en", "zh-CN", "zh-TW", "ja"):
+        for lang in ("en", "zh-CN", "zh-TW", "ja", "ko"):
             for field in ("title", "summary", "alt"):
                 if not row["locales"][lang].get(field):
                     raise ValueError(f"Missing spotlight translation: {row['id']} {lang} {field}")
@@ -559,7 +561,7 @@ def readme_source_spotlights(lang: str) -> str:
         "zh-CN": ("观看成片", "公开提示词", "源码", "作者原图", "**Claude Opus 5.5** · Vincentwei1021 · 源项目 **{stars:,} GitHub stars**（{date} 快照）。", "同一开源项目的两部短片；仓库 stars 不是单片播放量或跨模型排名。作者发布的成片画面，未修改。[媒体 MIT 授权]({evidence}) · [版权与完整许可]({license})。这组独立精选不计入 {count} 条目录；模型归属为作者声明，未重新生成验证。"),
         "zh-TW": ("觀看成片", "公開提示詞", "原始碼", "作者原圖", "**Claude Opus 5.5** · Vincentwei1021 · 來源專案 **{stars:,} GitHub stars**（{date} 快照）。", "同一開源專案的兩部短片；倉庫 stars 不是單片播放量或跨模型排名。作者發布的成片畫面，未修改。[媒體 MIT 授權]({evidence}) · [版權與完整許可]({license})。這組獨立精選不計入 {count} 則目錄；模型歸屬為作者聲明，未重新生成驗證。"),
         "ja": ("映像を見る", "公開プロンプト", "ソースコード", "作者の元画像", "**Claude Opus 5.5** · Vincentwei1021 · 元プロジェクトの **GitHub stars は {stars:,}**（{date} 確認）。", "同じプロジェクトの 2 作品です。stars は各作品の再生数やモデル横断の人気順位ではありません。作者が公開した映像フレームを無加工で掲載。[メディアの MIT 許諾]({evidence}) · [著作権・ライセンス全文]({license})。この特集は {count} 件の目録とは別です。モデルは作者の申告で、生成の再実行はしていません。"),
-    }
+     "ko": ('영상 보기', '공개 프롬프트', '소스 코드', '제작자 원본 이미지', '**Claude Opus 5.5** · Vincentwei1021 · 원본 프로젝트 **GitHub stars {stars:,}개** ({date} 기준).', '같은 프로젝트의 영상 두 편입니다. 저장소 stars는 개별 영상 조회 수나 모델 간 인기 순위가 아닙니다. 제작자가 공개한 영상 프레임을 수정 없이 사용했습니다. [미디어 MIT 허가]({evidence}) · [저작권과 라이선스 전문]({license}). 별도 추천 작품이므로 {count}개 사례 집계에는 포함하지 않습니다. 모델 정보는 제작자의 주장이고 생성을 다시 실행하지 않았습니다.')}
     watch, prompt, code, original, intro, note = words[lang]
     lines = [intro.format(stars=heat["stars"], date=heat["observed_at"][:10]), ""]
     for row in rows:

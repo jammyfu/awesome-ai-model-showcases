@@ -50,6 +50,7 @@ README_LANGS = (
     ("zh-CN", OUT_README_ZH),
     ("zh-TW", OUT_README_ZH_TW),
     ("ja", OUT_README_JA),
+    ("ko", ROOT / "README.ko.md"),
 )
 OUT_LLMS = ROOT / "llms.txt"
 OUT_LLMS_DOCS = ROOT / "docs/llms.txt"
@@ -69,7 +70,7 @@ GITHUB_ABOUT = {
         "AI 模型制作案例集 / Awesome AI Model Showcases: latest and still-mainstream "
         "model cases (animation, HTML/game, image, video) by frontier family. "
         "Claude, Gemini, GPT-6.2 Sol, Grok, Qwen, DeepSeek. "
-        "GPT Image GIFs: collections/gpt-image-gifs. EN / 简体中文 / 繁體中文 / 日本語."
+        "GPT Image GIFs: collections/gpt-image-gifs. EN / 简体中文 / 繁體中文 / 日本語 / 한국어."
     ),
     "homepage": "https://jammyfu.github.io/awesome-ai-model-showcases/",
     "topics": [
@@ -143,7 +144,7 @@ FAMILY_LABELS = {
     "zh-CN": FAMILY_LABELS_ZH,
     "zh-TW": FAMILY_LABELS_ZH_TW,
     "ja": FAMILY_LABELS_JA,
-}
+ "ko": {**FAMILY_LABELS_EN, "multi": "여러 계열"}}
 
 
 def format_collection_sites(sites_raw: dict, *, lang: str) -> str:
@@ -368,7 +369,7 @@ HEADERS_ZH = "| # | 作者 | 玩法 | 原帖 | 媒体 | prompt | 模型依据 | 
 HEADERS_ZH_TW = "| # | 作者 | 做法 | 原帖 | 媒體 | prompt | 模型依據 | 管線 | 驗證 | 許可 |"
 HEADERS_JA = "| # | 作者 | 内容 | 原投稿 | メディア | prompt | モデル根拠 | 作り方 | 検証 | ライセンス |"
 HEADERS_EN = "| # | Author | Play | Post | Media | prompt | Model | Pipeline | Verification | License |"
-HEADERS_FOR = {"en": HEADERS_EN, "zh-CN": HEADERS_ZH, "zh-TW": HEADERS_ZH_TW, "ja": HEADERS_JA}
+HEADERS_FOR = {"en": HEADERS_EN, "zh-CN": HEADERS_ZH, "zh-TW": HEADERS_ZH_TW, "ja": HEADERS_JA, "ko": '| # | 제작자 | 내용 | 원문 | 미디어 | 프롬프트 | 모델 근거 | 제작 과정 | 검증 | 라이선스 |'}
 TABLE_UI = {
     "en": {
         "source": "Source", "file": "File", "case": "Case", "origin": "Source",
@@ -390,7 +391,7 @@ TABLE_UI = {
         "published": "出典で公開", "agg": "集約ページのみ", "empty": "未公開",
         "partial": "短い / 部分", "original": "原文", "unknown": "ライセンス不明", "kind": "出典",
     },
-}
+ "ko": {'source': '출처', 'file': '파일', 'case': '사례', 'origin': '출처', 'published': '출처에서 공개', 'agg': '모음 페이지에만 있음', 'empty': '미공개', 'partial': '짧은 내용 / 일부', 'original': '원문', 'unknown': '라이선스 불명', 'kind': '출처'}}
 
 
 def cell(text, limit: int | None = None) -> str:
@@ -503,9 +504,9 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
         elif status == "aggregator_only":
             prompt_label = ui["agg"]
         elif status == "reconstructed":
-            prompt_label = {"en": "Reconstructed", "zh-CN": "重建提示词", "zh-TW": "重建提示詞", "ja": "再構成プロンプト"}[lang]
+            prompt_label = {"en": "Reconstructed", "zh-CN": "重建提示词", "zh-TW": "重建提示詞", "ja": "再構成プロンプト", "ko": '재구성한 프롬프트'}[lang]
         elif status == "有面向 2.6 的提示词":
-            prompt_label = {"en": "Prompt targeting 2.6", "zh-CN": "面向 2.6 的提示词", "zh-TW": "面向 2.6 的提示詞", "ja": "2.6 向けプロンプト"}[lang]
+            prompt_label = {"en": "Prompt targeting 2.6", "zh-CN": "面向 2.6 的提示词", "zh-TW": "面向 2.6 的提示詞", "ja": "2.6 向けプロンプト", "ko": '2.6용 프롬프트'}[lang]
         elif status == "空":
             prompt_label = ui["empty"]
         elif status == "短/部分":
@@ -519,7 +520,7 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
             if r.get("local_prompt") else (f"[{prompt_label}]({r['prompt_url']})" if r.get("prompt_url") else prompt_label)
         )
         if translation_link(r, lang):
-            label = {"en": "Read translation + original", "zh-CN": "译文与原文", "zh-TW": "譯文與原文", "ja": "翻訳と原文"}[lang]
+            label = {"en": "Read translation + original", "zh-CN": "译文与原文", "zh-TW": "譯文與原文", "ja": "翻訳と原文", "ko": '번역과 원문 읽기'}[lang]
             prompt += f" · [{label}]({repo_href(r['translation_page'], from_file)}#{lang.lower()})"
         lines.append(
             "| {i} | {author} | {title} | {src} | {media} | {prompt} | {model} | {pipe} | {verify} | {lic} |".format(
@@ -535,7 +536,7 @@ def md_table(rows: list[dict], headers: str = HEADERS_ZH, from_file: Path | None
                 model=cell(localized(r, "model_claim", lang), 40),
                 pipe=cell(localized(r, "pipeline", lang), 36),
                 verify=cell(localized(r, "verify", lang), 36),
-                lic=cell(({"en": "Source link only", "zh-CN": "仅来源链接", "zh-TW": "僅來源連結", "ja": "出典リンクのみ"}[lang] if r.get("license_label") == "Source link only" else r.get("license_label")) or ui["unknown"]),
+                lic=cell(({"en": "Source link only", "zh-CN": "仅来源链接", "zh-TW": "僅來源連結", "ja": "出典リンクのみ", "ko": '출처 링크만 제공'}[lang] if r.get("license_label") == "Source link only" else r.get("license_label")) or ui["unknown"]),
             )
         )
     return "\n".join(lines)
@@ -1040,7 +1041,7 @@ def main() -> None:
             "zh-CN": "_此栏暂无已核实案例（{versions}）。_\n",
             "zh-TW": "_此欄暫無已核實案例（{versions}）。_\n",
             "ja": "_この版には、まだ出典付きの事例がない（{versions}）。_\n",
-        }[lang]
+         "ko": '_{versions}의 출처가 있는 사례는 아직 없습니다._\n'}[lang]
         appendix = {
             "en": [
                 f"## Appendix A — pending ({len(pending)})",
@@ -1066,13 +1067,15 @@ def main() -> None:
                 "## 付録 C — 主表の成功に混ぜない：2.5 / 宣伝 / 複数モデル / 失敗 / X 以外の候補 / Morphic",
                 "## 付録 D — リポジトリの種 GIF（ローカル例。コミュニティ収集の本体ではない）",
             ],
-        }[lang]
-        name_of = {"en": 1, "zh-CN": 2, "zh-TW": 2, "ja": 1}[lang]
+         "ko": [f'## 부록 A · 확인 대기 ({len(pending)})', '## 부록 B · 프롬프트만 있음 / 제외', '## 부록 C · 주요 성공 사례와 구분: 2.5 / 홍보 / 여러 모델 / 실패 / X 이외의 후보 / Morphic', '## 부록 D · 저장소 초기 GIF 예시 (로컬 예시이며 커뮤니티 수집 목록이 아님)']}[lang]
+        name_of = {"en": 1, "zh-CN": 2, "zh-TW": 2, "ja": 1, "ko": 1}[lang]
         parts: list[str] = []
         for fid, en, zh, versions in MODEL_FAMILY_PLACEHOLDERS:
             rows = frontier_by_family[fid]
             name = (en, zh)[name_of - 1] if name_of == 2 else en
-            if lang == "ja":
+            if lang == "ko":
+                parts.append(f"## 계열 · {en} — {versions} ({len(rows)})")
+            elif lang == "ja":
                 parts.append(f"## Family · {en} — {versions} ({len(rows)})")
             elif lang == "zh-TW":
                 parts.append(f"## 家族 · {zh} — {versions}（{len(rows)}）")
@@ -1140,7 +1143,7 @@ def main() -> None:
             f"GPT Image 2.6 の GIF アーカイブ（**{c['gpt_image']}** 件。ホームページの合計には入れない）: "
             "[collections/gpt-image-gifs](collections/gpt-image-gifs/README.md)."
         ),
-    }
+     "ko": f"GPT Image 2.6 GIF 보관 자료 (**{c['gpt_image']}**개, 홈페이지 집계에서 제외): [collections/gpt-image-gifs](collections/gpt-image-gifs/README.md)."}
 
     def gpt_archive_body(lang: str, path: Path) -> str:
         headers = HEADERS_FOR[lang]
@@ -1195,14 +1198,14 @@ def main() -> None:
         "zh-CN": ("完整案例目录", "返回导览", "有来源案例不等于已验证的模型生成。按家族、既定版本顺序、完整来源日期倒序排列；无完整日期的放在最后。AI 翻译尚未经人工审校，第三方版权与 MIT 分开。", "案例收集站"),
         "zh-TW": ("完整案例目錄", "返回導覽", "有來源案例不等於已驗證的模型生成。依家族、既定版本順序、完整來源日期倒序排列；無完整日期的放在最後。AI 翻譯尚未經人工審校，第三方版權與 MIT 分開。", "案例收集站"),
         "ja": ("全事例目録", "案内に戻る", "出典付き事例は、検証済みのモデル生成を意味しません。ファミリー、既定のバージョン順、完全な出典日付の新しい順に並び、日付のない事例は最後です。AI 翻訳は人による校閲前です。第三者の権利は MIT と別です。", "事例収集サイト"),
-    }
+     "ko": ('전체 사례 목록', '안내로 돌아가기', '출처가 있는 사례이지 모델의 생성 결과를 검증한 것이 아닙니다. 계열, 정해진 버전 순서, 완전한 출처 날짜의 최신순으로 정렬하며 날짜가 없는 사례는 마지막에 둡니다. AI 번역은 사람의 검수를 거치지 않았습니다. 제3자 권리는 MIT와 별개입니다.', '사례 모음 사이트')}
     for lang, path in README_LANGS:
         title, back, note, sites_title = catalog_labels[lang]
         catalog_path = ROOT / f"docs/catalog.{lang}.md"
         links = " · ".join(f"[{FAMILY_TITLE[fid]}](#{fid})" for fid in VERSION_ORDER if fid != "gpt-image")
         catalog_path.write_text(
             f"<!-- Generated by tools/write_community_catalog.py; do not edit. -->\n# {title}\n\n"
-            f"[{back}](../{path.name}) · [English](catalog.en.md) · [简体中文](catalog.zh-CN.md) · [繁體中文](catalog.zh-TW.md) · [日本語](catalog.ja.md)\n\n"
+            f"[{back}](../{path.name}) · [English](catalog.en.md) · [简体中文](catalog.zh-CN.md) · [繁體中文](catalog.zh-TW.md) · [日本語](catalog.ja.md) · [한국어](catalog.ko.md)\n\n"
             f"{note} [MEDIA_RIGHTS.md](../MEDIA_RIGHTS.md)\n\n{links}\n\n"
             + tables_for(lang, catalog_path, version_sections=True)
             + f"\n\n<a id=\"collection-sites\"></a>\n## {sites_title}\n\n" + collection_sites[lang],
@@ -1237,14 +1240,14 @@ A sourced catalog of real production cases from the latest large models: animati
 Homepage total {c['main_collected']} frontier-family cases: Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT-6.2 Sol {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}. GPT Image subproject {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}), listed only under collections/gpt-image-gifs/. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Claude Mythos 5.2 is named in the inventory and has no separate sourced case. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English, Simplified Chinese, Traditional Chinese, and Japanese READMEs share the homepage inventory. Showcase collection sites: playbooks/research/showcase-collection-sites.json. Related GitHub projects: docs/related-projects.md. Case index: docs/showcase-index.md and data/showcase-index.json. Failed video downloads: docs/missing-videos.md.
 
 ## What can I do with it?
-Inspect eight separately licensed source works at licensed-gallery.en.html (also zh-CN, zh-TW and ja), with large still images, work-type labels, source and permission links. These supplemental works do not increase the main catalog count.
+Inspect eight separately licensed source works at licensed-gallery.en.html (also zh-CN, zh-TW, ja and ko), with large still images, work-type labels, source and permission links. These supplemental works do not increase the main catalog count.
 Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.
 
 ## What can it not do?
 No Images API at browse time. No paid generation. No blanket author-grant or CC0 claim. No exhaustive-web or official-verification claim. Appendix idea/popular pages are Chinese-first and not a second inventory.
 
 ## Which languages are maintained?
-English README.md, Simplified Chinese README.zh-CN.md (AI 模型制作案例集), Traditional Chinese README.zh-TW.md, and Japanese README.ja.md. Same inventory and the same case counts. Case titles, methods, verification notes, model evidence and collected prompts have four-language AI translations marked not human-reviewed, with originals preserved. See docs/translation-policy.md and docs/data/translation-coverage.json. The web catalog is English/Simplified Chinese (`?lang=en` / `?lang=zh`); translated-case.html supports all four content languages.
+English README.md, Simplified Chinese README.zh-CN.md (AI 模型制作案例集), Traditional Chinese README.zh-TW.md, Japanese README.ja.md, and Korean README.ko.md. Same inventory and the same case counts. Case titles, methods, verification notes, model evidence and collected prompts have five-language AI translations marked not human-reviewed, with originals preserved. See docs/translation-policy.md and docs/data/translation-coverage.json. The web catalog is English/Simplified Chinese (`?lang=en` / `?lang=zh`); translated-case.html supports all five content languages.
 
 ## License boundaries
 MIT covers source code only. Third-party media remains license-unknown unless a specific source grant is recorded. Follow per-case attribution; no blanket grant or CC0 claim.

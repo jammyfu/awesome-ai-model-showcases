@@ -1,10 +1,10 @@
 # ofox-orange-bird-native-gif
 
-Author / 作者 / 作者 / 作者: Ofox
+Author / 作者 / 作者 / 作者 / 제작자: Ofox
 
-[Original source / 原帖 / 原帖 / 原投稿](https://ofox.ai/blog/gpt-image-2-6-gif-guide/)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://ofox.ai/blog/gpt-image-2-6-gif-guide/)
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -137,3 +137,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+주황색 새가 날개를 들었다 처음 자세로 돌아오는 네이티브 GIF
+```
+
+### 제작 방법
+
+공급업체 API 테스트: output_format=gif, frame_count=9, frame_duration_ms=200, quality=low, complexity=low
+
+### 검증 상태
+
+2026-11-07 출처 기록, 새로 검증한 것이 아님
+
+### 모델 근거 (번역)
+
+```text
+공개 요청 JSON에 openai/gpt-image-2.6-flare를 명시적으로 설정
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

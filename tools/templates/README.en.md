@@ -3,7 +3,7 @@
 <p align="center"><a href="https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en"><img src="assets/brand/hero.png" alt="Awesome AI Model Showcases · Project artwork, not a model-output example" width="720"></a></p>
 <!-- readme-tech-visualizer:end -->
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 # Awesome AI Model Showcases
 
@@ -80,7 +80,7 @@ Type counts reflect the current inventory tags, not exhaustive model capabilitie
 
 [Submit a case](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml) with its original author, source URL, published prompt or “unpublished,” and model or method evidence. No coding required. Attribution, broken-link, and translation corrections are welcome.
 
-For a pull request, follow [CONTRIBUTING.md](CONTRIBUTING.md). Edit source inventories or the four templates, regenerate, review, and run the single [verification entry point](tools/verify.py).
+For a pull request, follow [CONTRIBUTING.md](CONTRIBUTING.md). Edit source inventories or the five templates, regenerate, review, and run the single [verification entry point](tools/verify.py).
 
 <a id="local-setup"></a>
 <details>
@@ -105,7 +105,7 @@ Open [localhost:8000](http://localhost:8000/?lang=en). For public hosting, use t
 - **Scope:** inventory updated **${inventory_date}**; **${pending_count} pending cases** are outside the **${main_count}** homepage total. GIF subproject, remakes, failures, and repository seeds stay separate.
 - **Media:** **${media_count} existing catalog cases have approved local media**. The two Claude spotlight frames above have their own documented grant; other catalog records link to the source. Public access, attribution, or download does not establish reuse rights.
 - **License:** [MIT](LICENSE) covers source code and original project documentation, not third-party media, prompts, trademarks, or likenesses. Read [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md). Rights holders may [request correction or removal](https://github.com/jammyfu/awesome-ai-model-showcases/issues/new).
-- **Languages:** the README and case evidence support English, 简体中文, 繁體中文, and 日本語. AI translations are **not human-reviewed**; originals remain available. The gallery interface supports **English / 简体中文 only**. [Translation policy and coverage](docs/translation-policy.md).
+- **Languages:** the README and case evidence support English, 简体中文, 繁體中文, 日本語, and 한국어. AI translations are **not human-reviewed**; originals remain available. The gallery interface supports **English / 简体中文 only**. [Translation policy and coverage](docs/translation-policy.md).
 
 Want to reuse this documentation structure? Start with the [README pattern and checks](docs/readme-pattern.md), and replace every project-specific claim with evidence from your own repository.
 

@@ -1,12 +1,12 @@
 # ailingqu-pixel-slime-boss
 
-Author / 作者 / 作者 / 作者: ailingqu / awesome-ai-gif-prompts
+Author / 作者 / 作者 / 作者 / 제작자: ailingqu / awesome-ai-gif-prompts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-slime-boss.gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ailingqu-pixel-slime-boss/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-slime-boss.gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ailingqu-pixel-slime-boss/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 
 
 ```text
 8ビットのボス戦。小さな王冠をかぶった巨大な緑のスライムボスがダンジョンの闘技場中央で跳ねたり潰れたりし、上部の体力バーが点滅する。左側の小さなピクセルヒーローは盾を掲げる。レトロなNESピクセルアート、暗い石の背景。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+8비트 슬라임 보스전
+```
+
+### 제작 방법
+
+출처에는 via=chatgpt-image-2.com으로 기록, 정확한 요청은 알 수 없음
+
+### 검증 상태
+
+GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+8비트 보스전: 작은 왕관을 쓴 거대한 초록 슬라임 보스가 던전 경기장 중앙에서 튀고 눌리며, 상단의 체력 바가 깜빡입니다. 왼쪽의 작은 픽셀 영웅은 방패를 듭니다. 레트로 NES 픽셀 아트, 어두운 돌 배경.
 ```

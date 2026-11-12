@@ -1,12 +1,12 @@
 # veevid-fox-mascot-gif
 
-Author / 作者 / 作者 / 作者: Veevid Team
+Author / 作者 / 作者 / 作者 / 제작자: Veevid Team
 
-[Original source / 原帖 / 原帖 / 原投稿](https://veevid.ai/blog/gpt-image-2-6-gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/veevid-fox-mascot-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://veevid.ai/blog/gpt-image-2-6-gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/veevid-fox-mascot-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GPT Image 2.6（ページの作例。Veevidで2.6のGIF出力を実行）
 
 ```text
 かわいいオレンジ色のキツネのブランドマスコットが手を振って挨拶し、まばたきする。フラットなベクターステッカー風、太い輪郭線、パステル背景、シームレスループ
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+스티커 스타일 여우 마스코트가 손을 흔들고 눈을 깜박임
+```
+
+### 제작 방법
+
+직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)
+
+### 검증 상태
+
+페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+GPT Image 2.6 (페이지 예제, Veevid에서 2.6 GIF 출력 실행)
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+귀여운 주황색 여우 브랜드 마스코트가 손을 흔들어 인사하고 눈을 깜빡입니다. 평면 벡터 스티커 스타일, 굵은 외곽선, 파스텔 배경, 이음새 없는 반복.
 ```
