@@ -16,6 +16,8 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+**[用大图浏览六个模型家族的授权作品 →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.zh-CN.html)**
+
 <a id="examples"></a>
 ## 先看 Claude 的真实作品
 

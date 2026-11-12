@@ -1,9 +1,10 @@
 {
   "meta": {
-    "reviewed_at": "2026-11-11",
+    "reviewed_at": "2026-11-12",
     "scope": "README and linked catalog discovery, not model performance ranking",
     "reason": "Owner requested important current platforms/versions and verifiable popularity first. Existing family order is retained because no comparable popularity evidence is recorded. Version order is explicit editorial priority based on the source-labeled generations, not proof of official release.",
-    "source": "playbooks/research/frontier-models-inventory.json"
+    "source": "playbooks/research/frontier-models-inventory.json",
+    "review_scope": "Repository ordering inputs reviewed; no new engagement metrics were collected."
   },
   "popularity": {
     "status": "not_collected",
@@ -11,7 +12,9 @@
     "source": null,
     "observed_at": null,
     "window": null,
-    "reason": "All 183 main records have no comparable engagement measurements. Missing is unknown, not zero. Source date is used only for the explicitly labeled recent-post list and same-version ordering."
+    "reason": "All 183 main records have no comparable engagement measurements. Missing is unknown, not zero. Source date is used only for the explicitly labeled recent-post list and same-version ordering.",
+    "value": null,
+    "heat_status": "unknown"
   },
   "family_order": [
     "claude",
@@ -57,6 +60,89 @@
       "case_id": "x-cfenghub-gpt62sol-colosseum",
       "reason": "The source explicitly labels this result GPT-6.2 Sol. Do not use a GPT-6.1 source claim relabeled only by the owner as the starting example for the 6.2 priority version.",
       "source": "https://x.com/cfenghub/status/2120069654437921152"
+    }
+  },
+  "ordering_evidence": {
+    "family_navigation": {
+      "topic_id": "frontier-model-families",
+      "priority_basis": "editorial_priority",
+      "observed_at": "2026-11-12T00:26:05Z",
+      "window": null,
+      "metric": null,
+      "value": null,
+      "heat_status": "unknown",
+      "source": [
+        "playbooks/research/frontier-models-inventory.json"
+      ],
+      "group_order": "All families currently have unknown comparable heat. Retain family_order as the declared editorial group sequence; unknown is neither zero nor an automatic bottom rank.",
+      "confidence": "The ordering inputs and case records were inspected. This supports the editorial explanation only; current comparative popularity remains unmeasured.",
+      "reason": "Preserve recognizable model-family navigation without presenting an unsupported popularity or performance ranking.",
+      "tie_break": "The explicit family_order array is authoritative; no measured-heat ties are currently evaluated."
+    },
+    "version_navigation": {
+      "topic_id": "versions-within-family",
+      "priority_basis": "editorial_priority",
+      "observed_at": "2026-11-12T00:26:05Z",
+      "window": null,
+      "metric": null,
+      "value": null,
+      "heat_status": "unknown",
+      "source": [
+        "playbooks/research/frontier-models-inventory.json"
+      ],
+      "group_order": "Within each family, use version_order for source-labeled editorial priority. Empty known versions remain visibly empty; do not mix them into case counts.",
+      "confidence": "The ordering inputs and case records were inspected. This supports the editorial explanation only; current comparative popularity remains unmeasured.",
+      "reason": "Help readers reach important source-labeled generations while retaining exact uncertainty and not claiming official availability.",
+      "tie_break": "Use the version_order array within each family. A new unlisted version requires an explicit ordering review."
+    },
+    "case_lists": {
+      "topic_id": "dated-cases-within-version",
+      "priority_basis": "editorial_priority",
+      "observed_at": "2026-11-12T00:26:05Z",
+      "window": null,
+      "metric": null,
+      "value": null,
+      "heat_status": "unknown",
+      "source": [
+        "playbooks/research/frontier-models-inventory.json"
+      ],
+      "group_order": "Keep family and version groups first. Within a version, complete valid source dates precede missing or partial dates; this is chronology, not relative popularity.",
+      "confidence": "The ordering inputs and case records were inspected. This supports the editorial explanation only; current comparative popularity remains unmeasured.",
+      "reason": "Offer deterministic browsing and a separately labeled recent-source-post strip without converting recency into heat.",
+      "tie_break": "Complete source date descending, then case ID descending; missing/partial dates last, ordered by case ID ascending."
+    },
+    "readme_examples": {
+      "topic_id": "model-family-table-examples",
+      "priority_basis": "editorial_priority",
+      "observed_at": "2026-11-12T00:26:05Z",
+      "window": null,
+      "metric": null,
+      "value": null,
+      "heat_status": "unknown",
+      "source": [
+        "data/readme-model-tables.json"
+      ],
+      "group_order": "Use family_order across tables. Within a family retain the three distinct selected subjects in the selection manifest; permission-pending rows stay source-only.",
+      "confidence": "The ordering inputs and case records were inspected. This supports the editorial explanation only; current comparative popularity remains unmeasured.",
+      "reason": "Choose useful, different subjects from the existing catalog instead of repeated banners or unsupported popularity winners.",
+      "tie_break": "The selected case sequence in each families array is authoritative."
+    },
+    "licensed_spotlights": {
+      "topic_id": "separate-licensed-source-works",
+      "priority_basis": "editorial_priority",
+      "observed_at": "2026-11-12T00:26:05Z",
+      "window": null,
+      "metric": null,
+      "value": null,
+      "heat_status": "unknown",
+      "source": [
+        "data/readme-featured-cases.json",
+        "data/readme-supplemental-previews.json"
+      ],
+      "group_order": "Keep these source spotlights separate from the 183 main cases. Preserve the two existing Claude results, then supplemental works grouped by family_order. Missing heat does not remove a licensed useful example.",
+      "confidence": "The ordering inputs and case records were inspected. This supports the editorial explanation only; current comparative popularity remains unmeasured.",
+      "reason": "Prioritize source-matched visible results and traceable rights. The dated 3434-star repository snapshot is one cumulative source-project observation, not per-film popularity, recent growth, or cross-model evidence.",
+      "tie_break": "Featured cases retain their manifest sequence. Supplemental cases retain their manifest sequence within each model family."
     }
   }
 }

@@ -11,10 +11,9 @@
 暂无此标签案例 / No cases with this tag.
 
 <a id="animation"></a>
-### 动画 / Animation (114)
+### 动画 / Animation (107)
 - [Editable SVG sailboat illustration with CSS motion (two API calls)](translations/web-ofox-fable52-svg-sailboat.md#zh-cn) · Claude
 - [KONTUR，把建筑服务页做成带动效的项目旅程](translations/x-webilyco-fable52-kontur.md#zh-cn) · Claude
-- [Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照](translations/x-theo-fable52-fishslop-fable-opus.md#zh-cn) · Claude
 - [Pane，开源的 YouTube 与 Twitch 播放器](translations/x-thealex-fable52-pane-youtube-twitch.md#zh-cn) · Claude
 - [在手机上试做 Melee 风格的对战](translations/x-thealex-fable52-melee.md#zh-cn) · Claude
 - [能被 Claude 调用的编曲工作站](translations/x-thealex-fable52-claude.md#zh-cn) · Claude
@@ -31,7 +30,6 @@
 - [用 Max 档做一段伊斯坦布尔水岸漫游](translations/x-petergostev-fable52-max.md#zh-cn) · Claude
 - [给骑单车的鹈鹕加调速、灯和车铃](translations/x-nftchen-fable52-609967.md#zh-cn) · Claude
 - [用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告](translations/x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker.md#zh-cn) · Claude
-- [Mirror Earth，把真实地球当作可破坏的游戏地图](translations/x-mattshumer-fable52-mirror-earth.md#zh-cn) · Claude
 - [Hogwarts Royale，把霍格沃茨和大逃杀放在一起](translations/x-mattshumer-fable52-hogwarts-royale.md#zh-cn) · Claude
 - [把文章放进虚拟展厅，做成约 4 分 44 秒视频](translations/x-mattshumer-fable52-892403.md#zh-cn) · Claude
 - [一部约 49 分钟的代码电影](translations/x-mattshumer-fable52-828670.md#zh-cn) · Claude
@@ -45,7 +43,6 @@
 - [用 约 50 秒动效讲大语言模型](translations/x-matthewberman-fable52-378471.md#zh-cn) · Claude
 - [《糖豆人》风格闯关原型](translations/x-matthewberman-fable52-254665.md#zh-cn) · Claude
 - [搭一座能和居民对话的三维欧洲村庄](translations/x-matthewberman-fable52-060195.md#zh-cn) · Claude
-- [First Crush，把葡萄酒酿造步骤变成游戏](translations/x-kieranklaassen-fable52-first-crush.md#zh-cn) · Claude
 - [Everycut，把录屏、文字剪辑和混音放进同一款编辑器](translations/x-kieranklaassen-fable52-everycut.md#zh-cn) · Claude
 - [支持 Ableton Push 的环境音乐工作站](translations/x-kieranklaassen-fable52-ableton-push.md#zh-cn) · Claude
 - [What the Water Keeps，坐船穿过八个梦境场景](translations/x-kevintngo-fable52-what-the-water-keeps.md#zh-cn) · Claude
@@ -54,7 +51,6 @@
 - [用 Python 模拟画笔，按虚构画家风格作画](translations/x-jkeatn-fable52-python.md#zh-cn) · Claude
 - [把金属质感的标志做成一段三维动效](translations/x-helloamani-fable52-237842.md#zh-cn) · Claude
 - [Write Like Mike，用留出的旧文章盲评写作技能](translations/x-hammermt-fable52-write-like-mike.md#zh-cn) · Claude
-- [Vibe Check Delivery，三个模型做同题送报游戏](translations/x-hammermt-fable52-vibe-check-delivery.md#zh-cn) · Claude
 - [KatePass，用 320 份旧草稿衡量编辑还剩多少工作](translations/x-hammermt-fable52-katepass.md#zh-cn) · Claude
 - [用三维地图复盘《复仇者联盟》的纽约大战](translations/x-hammermt-fable52-346319.md#zh-cn) · Claude
 - [从 14 套咨询演示稿提取能自动检查的规则](translations/x-hammermt-fable52-183568.md#zh-cn) · Claude
@@ -66,7 +62,6 @@
 - [12 篇漫画试验，作者公开了没做满意的版本](translations/x-forwardeditor-fable52-928106.md#zh-cn) · Claude
 - [骑龙从空岛跃下，测试视角和飞行感](translations/x-forwardeditor-fable52-163994.md#zh-cn) · Claude
 - [为虚构团体 Interchange 探索 20 款标志](translations/x-felixrieseberg-fable52-interchange.md#zh-cn) · Claude
-- [保留首版的第一人称射击等游戏样例](translations/x-felixrieseberg-fable52-352596.md#zh-cn) · Claude
 - [水墨山景里的第三人称剑士](translations/x-faridanever-fable52-505730.md#zh-cn) · Claude
 - [从 Slack 与会议记录中找出 38 处说法冲突](translations/x-every-fable52-slack.md#zh-cn) · Claude
 - [High 和 Max 档，盲评同一组网页设计](translations/x-every-fable52-high-max.md#zh-cn) · Claude
@@ -106,13 +101,11 @@
 - [印度维生素该买哪些](translations/x-itspsneha-fable52-clip.md#zh-cn) · Claude
 - [76 个单文件 HTML 视觉作品集](translations/x-miaai-lab-fable52-76-html.md#zh-cn) · Claude
 - [玻璃泳池，Fable 对 Opus](translations/x-mrtacticalx-fable52-fable-opus.md#zh-cn) · Claude
-- [带传送门的竞技场 FPS，办公室里对战](translations/x-sholtodouglas-fable52-fps.md#zh-cn) · Claude
 - [Ribbon Hero 首屏](translations/x-viktoroddy-fable52-ribbon-hero.md#zh-cn) · Claude
 - [一次生成合集](translations/x-wesroth-fable52-clip.md#zh-cn) · Claude
 - [<inputs> Ask me for: my product's name (one lowercase word), a 4-word tagline, the 3-step](translations/x-twoclipping-opus55-inputs-ask-me-for-my-produ.md#zh-cn) · Claude
 - [<direction> Build a 30-second looping motion design showreel that introduces CLAUDE, a mot](translations/x-heyiamnick-opus55-direction-build-a-30-secon.md#zh-cn) · Claude
 - [Same prompt: Fable 5.2 vs Gemini 4 Carbon](translations/x-maxblade-fable-vs-carbon.md#zh-cn) · Gemini
-- [Theme Park HD pixel-art remake (playable)](translations/x-deryatr-gemini-carbon-theme-park.md#zh-cn) · Gemini
 - [SVG animation: pelican and 2 crabs riding bicycles (Codex routing)](translations/x-harshithlucky3-gpt62sol-pelican-svg-animation.md#zh-cn) · GPT-6.2 Sol
 - [Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max effort column)](translations/web-atelier-gpt61-sol-ten-frame-loops.md#zh-cn) · GPT-6.2 Sol
 - [Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)](translations/x-radcybertruck-grok-imagine-cybertruck-cry.md#zh-cn) · Grok
@@ -128,14 +121,13 @@
 - [Sagrada Família demo from Qwen 4.0 Preview](translations/x-coffeecup2020-qwen4-sagrada.md#zh-cn) · Qwen
 
 <a id="html-3d"></a>
-### HTML / 3D (69)
+### HTML / 3D (66)
 - [Point-light 3D film about AgentSky (Blender and code)](translations/x-quxiaoyin-fable52-agentsky-film.md#zh-cn) · Claude
 - [Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)](translations/x-paleknight-fable52-vs-opus55-ship.md#zh-cn) · Claude
 - [Mechanical keyboard built and typed on in Blender](translations/x-mrtactical-fable52-mechanical-keyboard.md#zh-cn) · Claude
 - [Recreate a Three.js apartment in Blender with Fable 5.2](translations/x-mengto-fable52-blender-apartment.md#zh-cn) · Claude
 - [Photo-real Three.js ocean that runs from sunset to sunrise](translations/x-kloss-fable52-ocean-threejs.md#zh-cn) · Claude
 - [Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)](translations/x-financeyf5-fable52-bugatti-tourbillon.md#zh-cn) · Claude
-- [Dragon game built from scratch in Three.js](translations/x-evanmilenko-fable52-dragon-game.md#zh-cn) · Claude
 - [T-cell life film in Blender (12,480 frames, Fable 5.2)](translations/x-deryatr-fable52-tcell-film.md#zh-cn) · Claude
 - [《Discovery》，在三维房间里展开的代码短片](translations/x-yinyangyoeshi-fable52-discovery.md#zh-cn) · Claude
 - [用 Three.js 做可操作的人体解剖浏览器](translations/x-simonasltu1-fable52-three.md#zh-cn) · Claude
@@ -161,8 +153,6 @@
 - [GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in Blender](translations/x-maxt3chno-fable52-gpt-6-astra-vs-fable-5-2-b.md#zh-cn) · Claude
 - [印度班加罗尔 Indiranagar 1 平方公里](translations/x-anshu4321-fable52-indiranagar-1.md#zh-cn) · Claude
 - [Saltline 第一人称射击](translations/x-felixrieseberg-fable52-saltline.md#zh-cn) · Claude
-- [Three Games 合集页（Saltline / 钟表匠之心 / Tidewright）](translations/x-felixrieseberg-fable52-three-games-saltline-tidew.md#zh-cn) · Claude
-- [VOWLORN 纯代码暗黑 RPG](translations/x-higgsfield-ai-fable52-vowlorn-rpg.md#zh-cn) · Claude
 - [Feed the Backrooms：你当怪物](translations/x-lexnlin-fable52-feed-the-backrooms.md#zh-cn) · Claude
 - [Chrome 恐龙变兰博](translations/x-noclipepe-fable52-chrome.md#zh-cn) · Claude
 - [童年地毯赛车](translations/x-noclipepe-fable52-clip.md#zh-cn) · Claude
@@ -200,8 +190,17 @@
 - [Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol](translations/x-latentoperator-a380-deepseek-fable-sol.md#zh-cn) · DeepSeek
 
 <a id="minigame"></a>
-### 小游戏 / Game (0)
-暂无此标签案例 / No cases with this tag.
+### 小游戏 / Game (10)
+- [Dragon game built from scratch in Three.js](translations/x-evanmilenko-fable52-dragon-game.md#zh-cn) · Claude
+- [Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照](translations/x-theo-fable52-fishslop-fable-opus.md#zh-cn) · Claude
+- [Mirror Earth，把真实地球当作可破坏的游戏地图](translations/x-mattshumer-fable52-mirror-earth.md#zh-cn) · Claude
+- [First Crush，把葡萄酒酿造步骤变成游戏](translations/x-kieranklaassen-fable52-first-crush.md#zh-cn) · Claude
+- [Vibe Check Delivery，三个模型做同题送报游戏](translations/x-hammermt-fable52-vibe-check-delivery.md#zh-cn) · Claude
+- [保留首版的第一人称射击等游戏样例](translations/x-felixrieseberg-fable52-352596.md#zh-cn) · Claude
+- [Three Games 合集页（Saltline / 钟表匠之心 / Tidewright）](translations/x-felixrieseberg-fable52-three-games-saltline-tidew.md#zh-cn) · Claude
+- [VOWLORN 纯代码暗黑 RPG](translations/x-higgsfield-ai-fable52-vowlorn-rpg.md#zh-cn) · Claude
+- [带传送门的竞技场 FPS，办公室里对战](translations/x-sholtodouglas-fable52-fps.md#zh-cn) · Claude
+- [Theme Park HD pixel-art remake (playable)](translations/x-deryatr-gemini-carbon-theme-park.md#zh-cn) · Gemini
 
 <a id="image"></a>
 ### 图像 / Image (0)
@@ -218,12 +217,12 @@
 | — | `x-mengto-fable52-blender-apartment` Recreate a Three.js apartment in Blender with Fable 5.2 | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-11 | @MengTo（Meng To） | [来源](https://x.com/MengTo/status/2120316203738829180) | — |
 | — | `x-kloss-fable52-ocean-threejs` Photo-real Three.js ocean that runs from sunset to sunrise | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-11 | @kloss_xyz（klöss） | [来源](https://x.com/kloss_xyz/status/2120378126740095273) | — |
 | — | `x-financeyf5-fable52-bugatti-tourbillon` Bugatti Tourbillon in Blender, then a short car film (Fable 5.2) | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-11 | @xikhar（Shikhar）; 中文转述 @FinanceYF5（AI Will） | [来源](https://x.com/FinanceYF5/status/2120372142147842296) | — |
-| — | `x-evanmilenko-fable52-dragon-game` Dragon game built from scratch in Three.js | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-11 | @EvanMilenko（Evan） | [来源](https://x.com/EvanMilenko/status/2120322640048959503) | — |
+| — | `x-evanmilenko-fable52-dragon-game` Dragon game built from scratch in Three.js | Claude | Claude Fable 5.2 | 小游戏 / Game | 2026-11-11 | @EvanMilenko（Evan） | [来源](https://x.com/EvanMilenko/status/2120322640048959503) | — |
 | — | `x-deryatr-fable52-tcell-film` T-cell life film in Blender (12,480 frames, Fable 5.2) | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-11 | @DeryaTR_（Derya Unutmaz） | [来源](https://x.com/DeryaTR_/status/2120382619082727604) | — |
 | — | `web-ofox-fable52-svg-sailboat` Editable SVG sailboat illustration with CSS motion (two API calls) | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-11 | Ofox | [来源](https://ofox.ai/blog/claude-fable-5-2-svg-guide/) | — |
 | — | `x-yinyangyoeshi-fable52-discovery` 《Discovery》，在三维房间里展开的代码短片 | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-10 | @YinYangYoeshi（Yoeshi） | [来源](https://x.com/YinYangYoeshi/status/2119897840965001317) | — |
 | — | `x-webilyco-fable52-kontur` KONTUR，把建筑服务页做成带动效的项目旅程 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @Webilyco（Magda） | [来源](https://x.com/Webilyco/status/2119909604431626667) | — |
-| — | `x-theo-fable52-fishslop-fable-opus` Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @theo（Theo - t3.gg） | [来源](https://x.com/theo/status/2119926277801144695) | — |
+| — | `x-theo-fable52-fishslop-fable-opus` Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照 | Claude | Claude Fable 5.2 | 小游戏 / Game | 2026-11-10 | @theo（Theo - t3.gg） | [来源](https://x.com/theo/status/2119926277801144695) | — |
 | — | `x-thealex-fable52-pane-youtube-twitch` Pane，开源的 YouTube 与 Twitch 播放器 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @The_Alex（Alex） | [来源](https://x.com/The_Alex/status/2119867572875350134) | — |
 | — | `x-thealex-fable52-melee` 在手机上试做 Melee 风格的对战 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @The_Alex（Alex） | [来源](https://x.com/The_Alex/status/2119867574972551309) | — |
 | — | `x-thealex-fable52-claude` 能被 Claude 调用的编曲工作站 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @The_Alex（Alex） | [来源](https://x.com/The_Alex/status/2119917226769985785) | — |
@@ -244,7 +243,7 @@
 | — | `x-nikodemszymansk-fable52-tokyo-night` Tokyo Night GP，带湿地反光的三圈夜赛 | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-10 | @nikodemszymansk（Nikodem / AI Creator） | [来源](https://x.com/nikodemszymansk/status/2119880518875435022) | — |
 | — | `x-nftchen-fable52-609967` 给骑单车的鹈鹕加调速、灯和车铃 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @NFT_Chen（SuSu_酥酥👅） | [来源](https://x.com/NFT_Chen/status/2119897058597609967) | — |
 | — | `x-mihawkxxxxx-fable52-roblox-mcp-the-clockmaker` 用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @mihawkxxxxx（mihawkxxx） | [来源](https://x.com/mihawkxxxxx/status/2119909865296699749) | — |
-| — | `x-mattshumer-fable52-mirror-earth` Mirror Earth，把真实地球当作可破坏的游戏地图 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @mattshumer_（Matt Shumer） | [来源](https://x.com/mattshumer_/status/2119877065701036047) | — |
+| — | `x-mattshumer-fable52-mirror-earth` Mirror Earth，把真实地球当作可破坏的游戏地图 | Claude | Claude Fable 5.2 | 小游戏 / Game | 2026-11-10 | @mattshumer_（Matt Shumer） | [来源](https://x.com/mattshumer_/status/2119877065701036047) | — |
 | — | `x-mattshumer-fable52-hogwarts-royale` Hogwarts Royale，把霍格沃茨和大逃杀放在一起 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @mattshumer_（Matt Shumer） | [来源](https://x.com/mattshumer_/status/2119872098306810226) | — |
 | — | `x-mattshumer-fable52-892403` 把文章放进虚拟展厅，做成约 4 分 44 秒视频 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @mattshumer_（Matt Shumer） | [来源](https://x.com/mattshumer_/status/2119884041331892403) | — |
 | — | `x-mattshumer-fable52-828670` 一部约 49 分钟的代码电影 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @mattshumer_（Matt Shumer） | [来源](https://x.com/mattshumer_/status/2119900920347828670) | — |
@@ -261,7 +260,7 @@
 | — | `x-marcthecreatorr-fable52-054072` 打开网页看一艘代码生成的三维帆船 | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-10 | @marcthecreatorr（Marcel） | [来源](https://x.com/marcthecreatorr/status/2119890973560054072) | — |
 | — | `x-maaaaaaadiii-fable52-714946` 从贴纸到吊链和铃声，程序化做一张会动的招牌 | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-10 | @Maaaaaaadiii（Hammad Hanif） | [来源](https://x.com/Maaaaaaadiii/status/2119885527243714946) | — |
 | — | `x-kplikethebird-fable52-blender` 用 Blender 重建公元一世纪的耶路撒冷街区 | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-10 | @kplikethebird（Katie Parrott） | [来源](https://x.com/kplikethebird/status/2119900775727902732) | — |
-| — | `x-kieranklaassen-fable52-first-crush` First Crush，把葡萄酒酿造步骤变成游戏 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @kieranklaassen（Kieran Klaassen） | [来源](https://x.com/kieranklaassen/status/2119871673294037280) | — |
+| — | `x-kieranklaassen-fable52-first-crush` First Crush，把葡萄酒酿造步骤变成游戏 | Claude | Claude Fable 5.2 | 小游戏 / Game | 2026-11-10 | @kieranklaassen（Kieran Klaassen） | [来源](https://x.com/kieranklaassen/status/2119871673294037280) | — |
 | — | `x-kieranklaassen-fable52-everycut` Everycut，把录屏、文字剪辑和混音放进同一款编辑器 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @kieranklaassen（Kieran Klaassen） | [来源](https://x.com/kieranklaassen/status/2119904489717272680) | — |
 | — | `x-kieranklaassen-fable52-ableton-push` 支持 Ableton Push 的环境音乐工作站 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @kieranklaassen（Kieran Klaassen） | [来源](https://x.com/kieranklaassen/status/2119868196773929160) | — |
 | — | `x-kevintngo-fable52-what-the-water-keeps` What the Water Keeps，坐船穿过八个梦境场景 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @kevin_t_ngo（Kevin Ngo） | [来源](https://x.com/kevin_t_ngo/status/2119868968307695818) | — |
@@ -274,7 +273,7 @@
 | — | `x-ilyasb1-fable52-orbital-data-node` Orbital Data Node 07，把数据中心搬到太空 | Claude | Claude Fable 5.2 | HTML / 3D | 2026-11-10 | @ilya_sb1（Ilya Rzhevskiy） | [来源](https://x.com/ilya_sb1/status/2119878436529246669) | — |
 | — | `x-helloamani-fable52-237842` 把金属质感的标志做成一段三维动效 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @hello_amani（Amani • Design Partner） | [来源](https://x.com/hello_amani/status/2119873980786237842) | — |
 | — | `x-hammermt-fable52-write-like-mike` Write Like Mike，用留出的旧文章盲评写作技能 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @hammer_mt（Mike Taylor） | [来源](https://x.com/hammer_mt/status/2119906374066835495) | — |
-| — | `x-hammermt-fable52-vibe-check-delivery` Vibe Check Delivery，三个模型做同题送报游戏 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @hammer_mt（Mike Taylor） | [来源](https://x.com/hammer_mt/status/2119906441389826445) | — |
+| — | `x-hammermt-fable52-vibe-check-delivery` Vibe Check Delivery，三个模型做同题送报游戏 | Claude | Claude Fable 5.2 | 小游戏 / Game | 2026-11-10 | @hammer_mt（Mike Taylor） | [来源](https://x.com/hammer_mt/status/2119906441389826445) | — |
 | — | `x-hammermt-fable52-katepass` KatePass，用 320 份旧草稿衡量编辑还剩多少工作 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @hammer_mt（Mike Taylor） | [来源](https://x.com/hammer_mt/status/2119906389284057363) | — |
 | — | `x-hammermt-fable52-346319` 用三维地图复盘《复仇者联盟》的纽约大战 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @hammer_mt（Mike Taylor） | [来源](https://x.com/hammer_mt/status/2119871817561346319) | — |
 | — | `x-hammermt-fable52-183568` 从 14 套咨询演示稿提取能自动检查的规则 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @hammer_mt（Mike Taylor） | [来源](https://x.com/hammer_mt/status/2119906412709183568) | — |
@@ -286,7 +285,7 @@
 | — | `x-forwardeditor-fable52-928106` 12 篇漫画试验，作者公开了没做满意的版本 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @ForwardEditor（Future Brian） | [来源](https://x.com/ForwardEditor/status/2119867791150928106) | — |
 | — | `x-forwardeditor-fable52-163994` 骑龙从空岛跃下，测试视角和飞行感 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @ForwardEditor（Future Brian） | [来源](https://x.com/ForwardEditor/status/2119867743965163994) | — |
 | — | `x-felixrieseberg-fable52-interchange` 为虚构团体 Interchange 探索 20 款标志 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @felixrieseberg（Felix Rieseberg） | [来源](https://x.com/felixrieseberg/status/2119867840878825523) | — |
-| — | `x-felixrieseberg-fable52-352596` 保留首版的第一人称射击等游戏样例 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @felixrieseberg（Felix Rieseberg） | [来源](https://x.com/felixrieseberg/status/2119867839033352596) | — |
+| — | `x-felixrieseberg-fable52-352596` 保留首版的第一人称射击等游戏样例 | Claude | Claude Fable 5.2 | 小游戏 / Game | 2026-11-10 | @felixrieseberg（Felix Rieseberg） | [来源](https://x.com/felixrieseberg/status/2119867839033352596) | — |
 | — | `x-faridanever-fable52-505730` 水墨山景里的第三人称剑士 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @FaridaNever（Farida） | [来源](https://x.com/FaridaNever/status/2119910055990505730) | — |
 | — | `x-every-fable52-slack` 从 Slack 与会议记录中找出 38 处说法冲突 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @every（Every 📧） | [来源](https://x.com/every/status/2119934581445145066) | — |
 | — | `x-every-fable52-high-max` High 和 Max 档，盲评同一组网页设计 | Claude | Claude Fable 5.2 | 动画 / Animation | 2026-11-10 | @every（Every 📧） | [来源](https://x.com/every/status/2119939866314289555) | — |
@@ -335,15 +334,15 @@
 | — | `x-chetaslua-fable52-clip` 官方演示：从空文件夹造操作系统（转述） | Claude | Claude Fable 5.2 | 动画 / Animation | — | @chetaslua | [来源](https://x.com/chetaslua/status/2119870650722763052) | — |
 | — | `x-chrisgpt-fable52-clip` 给剪辑师的「抢饭碗」宣言视频 | Claude | Claude Fable 5.2 | 动画 / Animation | — | @ChrisGPT | [来源](https://x.com/ChrisGPT/status/2119998815856218494) | — |
 | — | `x-felixrieseberg-fable52-saltline` Saltline 第一人称射击 | Claude | Claude Fable 5.2 | HTML / 3D | — | @felixrieseberg | [来源](https://x.com/felixrieseberg/status/2119925633564463609) | — |
-| — | `x-felixrieseberg-fable52-three-games-saltline-tidew` Three Games 合集页（Saltline / 钟表匠之心 / Tidewright） | Claude | Claude Fable 5.2 | HTML / 3D | — | @felixrieseberg | [来源](https://x.com/vineerpasam/status/2119955306096857145) | — |
-| — | `x-higgsfield-ai-fable52-vowlorn-rpg` VOWLORN 纯代码暗黑 RPG | Claude | Claude Fable 5.2 | HTML / 3D | — | @higgsfield_ai | [来源](https://x.com/higgsfield_ai/status/2119997122896601269) | — |
+| — | `x-felixrieseberg-fable52-three-games-saltline-tidew` Three Games 合集页（Saltline / 钟表匠之心 / Tidewright） | Claude | Claude Fable 5.2 | 小游戏 / Game | — | @felixrieseberg | [来源](https://x.com/vineerpasam/status/2119955306096857145) | — |
+| — | `x-higgsfield-ai-fable52-vowlorn-rpg` VOWLORN 纯代码暗黑 RPG | Claude | Claude Fable 5.2 | 小游戏 / Game | — | @higgsfield_ai | [来源](https://x.com/higgsfield_ai/status/2119997122896601269) | — |
 | — | `x-itspsneha-fable52-clip` 印度维生素该买哪些 | Claude | Claude Fable 5.2 | 动画 / Animation | — | @itspsneha | [来源](https://x.com/itspsneha/status/2120048494761451974) | — |
 | — | `x-lexnlin-fable52-feed-the-backrooms` Feed the Backrooms：你当怪物 | Claude | Claude Fable 5.2 | HTML / 3D | — | @LexnLin | [来源](https://x.com/LexnLin/status/2119966127149429093) | — |
 | — | `x-miaai-lab-fable52-76-html` 76 个单文件 HTML 视觉作品集 | Claude | Claude Fable 5.2 | 动画 / Animation | — | @MiaAI_lab | [来源](https://x.com/MiaAI_lab/status/2119930229661503893) | — |
 | — | `x-mrtacticalx-fable52-fable-opus` 玻璃泳池，Fable 对 Opus | Claude | Claude Fable 5.2 | 动画 / Animation | — | @MrTacticalX | [来源](https://x.com/MrTacticalX/status/2119955647542542439) | — |
 | — | `x-noclipepe-fable52-chrome` Chrome 恐龙变兰博 | Claude | Claude Fable 5.2 | HTML / 3D | — | @noclipepe | [来源](https://x.com/noclipepe/status/2119927838321328577) | — |
 | — | `x-noclipepe-fable52-clip` 童年地毯赛车 | Claude | Claude Fable 5.2 | HTML / 3D | — | @noclipepe | [来源](https://x.com/noclipepe/status/2119728047754547326) | — |
-| — | `x-sholtodouglas-fable52-fps` 带传送门的竞技场 FPS，办公室里对战 | Claude | Claude Fable 5.2 | 动画 / Animation | — | @_sholtodouglas | [来源](https://x.com/_sholtodouglas/status/2119935331499925557) | — |
+| — | `x-sholtodouglas-fable52-fps` 带传送门的竞技场 FPS，办公室里对战 | Claude | Claude Fable 5.2 | 小游戏 / Game | — | @_sholtodouglas | [来源](https://x.com/_sholtodouglas/status/2119935331499925557) | — |
 | — | `x-tokifyi-fable52-clip` 温哥华鸟瞰 | Claude | Claude Fable 5.2 | HTML / 3D | — | @tokifyi | [来源](https://x.com/tokifyi/status/2120020272153764172) | — |
 | — | `x-vib3coded-fable52-clip` 果冻虎鲸材质研究 | Claude | Claude Fable 5.2 | HTML / 3D | — | @vib3coded | [来源](https://x.com/vib3coded/status/2119951060752375827) | — |
 | — | `x-vib3coded-fable52-clip-2` 瓶中体素世界 | Claude | Claude Fable 5.2 | HTML / 3D | — | @vib3coded | [来源](https://x.com/vib3coded/status/2120104517282775514) | — |
@@ -360,7 +359,7 @@
 | — | `x-aichrislee-opus55-build-me-a-camera-lens-in` Build me a camera lens in interactive 3D, in one HTML file with Three.js | Claude | Claude Opus 5.5 | HTML / 3D | 2026-10-12 | @aichrislee | [来源](https://x.com/aichrislee/status/2108709764817408244) | — |
 | — | `x-statswire-gemini-carbon-nyc-cruiser` Interactive 3D NYC cruiser tour in one HTML file (Three.js) | Gemini | Gemini 4 Carbon | HTML / 3D | 2026-11-11 | @StatsWire | [来源](https://x.com/StatsWire/status/2120344850071540152) | — |
 | — | `x-maxblade-fable-vs-carbon` Same prompt: Fable 5.2 vs Gemini 4 Carbon | Gemini | Gemini 4 Carbon | 动画 / Animation | 2026-11-11 | @_MaxBlade（Max Blade） | [来源](https://x.com/_MaxBlade/status/2120355412021231795) | — |
-| — | `x-deryatr-gemini-carbon-theme-park` Theme Park HD pixel-art remake (playable) | Gemini | Gemini 4 Carbon | 动画 / Animation | 2026-11-11 | @DeryaTR_（Derya Unutmaz） | [来源](https://x.com/DeryaTR_/status/2120393810941456710) | — |
+| — | `x-deryatr-gemini-carbon-theme-park` Theme Park HD pixel-art remake (playable) | Gemini | Gemini 4 Carbon | 小游戏 / Game | 2026-11-11 | @DeryaTR_（Derya Unutmaz） | [来源](https://x.com/DeryaTR_/status/2120393810941456710) | — |
 | — | `x-coodddaaaa-gemini-carbon-pelican-bike` Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试 | Gemini | Gemini 4 Carbon | HTML / 3D | 2026-11-11 | @coodddaaaa（Joe William） | [来源](https://x.com/coodddaaaa/status/2120363353142911078) | — |
 | — | `x-aiforsuccess-gemini-carbon-v8` V8 engine in FreeCAD and Blender | Gemini | Gemini 4 Carbon | HTML / 3D | 2026-11-11 | @ai_for_success（AshutoshShrivastava） | [来源](https://x.com/ai_for_success/status/2120317619588972867) | — |
 | — | `web-jamesgreene-code1-gemini4-argon-isometric-city` Isometric day/night city HTML loop — Gemini 4 Argon | Gemini | Gemini 4 Argon | HTML / 3D | 2026-11-05 | James Greene (model comparison archive) | [来源](https://jamesgreene.com/models/) | — |

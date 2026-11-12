@@ -140,16 +140,16 @@
     if (empty) empty.hidden = rows.length > 0;
     if (!tbody) return;
     tbody.innerHTML = rows.map((r, i) => `<tr>
-      <td>${i + 1}</td>
-      <td>${esc(r.author)}</td>
-      <td><div class="case-title">${r.translations ? link(translationPage(r), localized(r, 'title'), true) : esc(r.title)}</div><div class="case-id">${esc(r.id)}</div></td>
-      <td>${link(r.source_url, d.post || 'source')}</td>
-      <td>${mediaCell(r, d)}</td>
-      <td>${promptCell(r, d)}</td>
-      <td>${esc(localized(r, 'model_claim').slice(0, 48))}</td>
-      <td>${esc(localized(r, 'pipeline'))}</td>
-      <td>${esc(localized(r, 'verify'))}</td>
-      <td>${r.license_label && r.license_url ? link(r.license_url, r.license_label) : esc(d.licenseUnknown || 'license unknown')}</td>
+      <td data-label="#">${i + 1}</td>
+      <td data-label="${esc(d.thAuthor || 'Author')}">${esc(r.author)}</td>
+      <td data-label="${esc(d.thPlay || 'Case')}"><div class="case-title">${r.translations ? link(translationPage(r), localized(r, 'title'), true) : esc(r.title)}</div><div class="case-id">${esc(r.id)}</div></td>
+      <td data-label="${esc(d.thPost || 'Source')}">${link(r.source_url, d.post || 'source')}</td>
+      <td data-label="${esc(d.thMedia || 'Media')}">${mediaCell(r, d)}</td>
+      <td data-label="${esc(d.thPrompt || 'Prompt')}">${promptCell(r, d)}</td>
+      <td data-label="${esc(d.thModel || 'Model')}">${esc(localized(r, 'model_claim'))}</td>
+      <td data-label="${esc(d.thPipe || 'Pipeline')}">${esc(localized(r, 'pipeline'))}</td>
+      <td data-label="${esc(d.thVerify || 'Verification')}">${esc(localized(r, 'verify'))}</td>
+      <td data-label="${esc(d.thLicense || 'License')}">${r.license_label && r.license_url ? link(r.license_url, r.license_label) : esc(d.licenseUnknown || 'license unknown')}</td>
     </tr>`).join('');
   }
   if (search) search.addEventListener('input', render);
