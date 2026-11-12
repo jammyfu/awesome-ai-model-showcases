@@ -79,6 +79,8 @@ const server = http.createServer((req, res) => {
         }
         await page.locator('#case-search').fill('dragon');
         assert.ok(await page.locator('#case-rows tr').count() > 0);
+        const dragon = catalog.collected_by_family.claude.find(r => r.id === 'x-evanmilenko-fable52-dragon-game');
+        assert.equal(await page.locator('#case-rows tr').first().locator('td').nth(6).textContent(), dragon.translations[lang === 'zh' ? 'zh-CN' : 'en'].model_claim);
         if (process.env.GALLERY_SCREENSHOTS) {
           await page.locator('#case-rows tr').first().screenshot({ path: path.join(process.env.GALLERY_SCREENSHOTS, `record-${lang}-${width}.jpg`), type: 'jpeg', quality: 85 });
         }

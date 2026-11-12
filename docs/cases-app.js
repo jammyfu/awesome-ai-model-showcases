@@ -146,7 +146,7 @@
       <td data-label="${esc(d.thPost || 'Source')}">${link(r.source_url, d.post || 'source')}</td>
       <td data-label="${esc(d.thMedia || 'Media')}">${mediaCell(r, d)}</td>
       <td data-label="${esc(d.thPrompt || 'Prompt')}">${promptCell(r, d)}</td>
-      <td data-label="${esc(d.thModel || 'Model')}">${esc(localized(r, 'model_claim').slice(0, 48))}</td>
+      <td data-label="${esc(d.thModel || 'Model')}">${esc(localized(r, 'model_claim'))}</td>
       <td data-label="${esc(d.thPipe || 'Pipeline')}">${esc(localized(r, 'pipeline'))}</td>
       <td data-label="${esc(d.thVerify || 'Verification')}">${esc(localized(r, 'verify'))}</td>
       <td data-label="${esc(d.thLicense || 'License')}">${r.license_label && r.license_url ? link(r.license_url, r.license_label) : esc(d.licenseUnknown || 'license unknown')}</td>
