@@ -9,7 +9,7 @@ const repo = path.resolve(__dirname, '..');
 const root = path.resolve(process.env.PUBLIC_SITE_DIR || path.join(repo, '_site'));
 const catalog = JSON.parse(fs.readFileSync(path.join(repo, 'docs/data/community-cases.json'), 'utf8'));
 const types = { '.html': 'text/html', '.js': 'application/javascript', '.json': 'application/json',
-  '.css': 'text/css', '.gif': 'image/gif', '.png': 'image/png', '.md': 'text/plain' };
+  '.css': 'text/css', '.gif': 'image/gif', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.md': 'text/plain' };
 const server = http.createServer((req, res) => {
   let file = path.resolve(root, '.' + decodeURIComponent(req.url.split('?')[0]));
   if (file === root) file = path.join(root, 'index.html');
@@ -57,6 +57,13 @@ const server = http.createServer((req, res) => {
         }
         await page.getByRole('link', { name: 'DeepSeek', exact: true }).click();
         assert.match(page.url(), /#licensed-deepseek-crowned-frog$/);
+        await page.locator('#licensed-deepseek-crowned-frog figure a').click();
+        await page.waitForURL('**/licensed-deepseek-crowned-frog.png');
+        await page.goBack();
+        assert.equal(await page.locator('article').count(), 8);
+        const other = lang === 'en' ? 'zh-CN' : 'en';
+        await page.locator('nav[aria-label=Languages] a[lang="' + other + '"]').click();
+        assert.equal(await page.locator('html').getAttribute('lang'), other);
       }
     }
     // All supported main-catalog UI locales at phone, tablet and desktop widths.
@@ -72,6 +79,9 @@ const server = http.createServer((req, res) => {
         }
         await page.locator('#case-search').fill('dragon');
         assert.ok(await page.locator('#case-rows tr').count() > 0);
+        if (process.env.GALLERY_SCREENSHOTS) {
+          await page.locator('#case-rows tr').first().screenshot({ path: path.join(process.env.GALLERY_SCREENSHOTS, `record-${lang}-${width}.jpg`), type: 'jpeg', quality: 85 });
+        }
         if (width <= 768) {
           const table = page.locator('.case-table');
           assert.ok(await table.evaluate(el => el.scrollWidth <= el.clientWidth + 1), 'Phone/tablet cases must not require a wide table');
