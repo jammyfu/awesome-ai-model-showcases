@@ -19,3 +19,26 @@ html[lang="zh-CN"] .spotlight-locale[lang="en"]{display:none}
 html[lang="zh-CN"] .spotlight-locale[lang="zh-CN"]{display:block}
 @media(max-width:920px){.catalog-hero{grid-template-columns:1fr}.source-spotlight{max-width:720px}.showcase-banner{max-height:220px}}
 @media(max-width:600px){.showcase-banner{margin-top:14px}.catalog-hero{padding-top:20px;gap:22px}.catalog-hero h1{font-size:30px;letter-spacing:-1px}.catalog-hero .metrics{display:none}.source-spotlight figcaption{font-size:12px}.nav-links{gap:8px}.brand{font-size:16px}.nav-links>a:nth-child(3){display:none}}
+
+/* Responsive navigation and source-faithful stacked catalog, 320px and up. */
+.nav{height:auto;min-height:90px;gap:16px;flex-wrap:wrap;padding:16px 0}
+.nav-links{flex-wrap:wrap;gap:10px 18px;align-items:center}
+.nav .nav-links a{display:inline-flex;align-items:center;min-height:36px}
+.site-shell,.hero-copy,.toolbar,.section-top>*{min-width:0}
+.searchbox{min-width:0;max-width:100%}
+.catalog .filters{max-width:100%}
+.hero h1,.case-id,.case-table td,.source-spotlight figcaption,footer{overflow-wrap:anywhere}
+.hero-actions a{max-width:100%;overflow-wrap:anywhere}
+@media(max-width:768px){
+ .nav{min-height:72px}.nav-links{width:100%;gap:8px 14px}
+ .catalog .toolbar{display:flex;flex-direction:column;align-items:stretch}
+ .case-table{display:block;min-width:0;width:100%;font-size:14px}
+ .case-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .case-table tbody{display:block}.case-table tr{display:block;border-bottom:2px solid var(--line);padding:14px}
+ .case-table td{display:grid;grid-template-columns:minmax(70px,25%) minmax(0,1fr);gap:8px;width:100%;padding:7px 0;border:0;overflow-wrap:anywhere}
+ .case-table td::before{content:attr(data-label);color:var(--muted);font-size:12px;font-weight:700}
+ .case-table td>*{min-width:0;max-width:100%}.case-table td .case-id{grid-column:2}
+ .case-table img,.case-table video{max-width:100%;height:auto}
+ .table-wrap{overflow:visible}.section-top h2{overflow-wrap:anywhere}
+}
+@media(max-width:360px){.site-shell{padding:0 14px}.hero-actions a{width:100%}.catalog-hero h1{font-size:28px}.chip{padding:10px}.section-top h2{font-size:30px}}

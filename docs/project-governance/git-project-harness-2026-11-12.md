@@ -27,3 +27,11 @@ New changes require review in a separate PR; the earlier merge authorization is 
 ## First exact-head CI and visual follow-up
 
 Commit f86c13d passed CI run 43127865263, including all 1280/390px gallery checks. Downloaded screenshots showed readable English, eight real images and no clipping/overflow, but CJK glyphs were missing from the runner fonts. This is not counted as multilingual visual acceptance. CI now installs the official Noto CJK font package before screenshots. Independent GitHub review confirmed all four README languages and eight images, and requested moving the all-family gallery entrance above the Claude heading; that placement is corrected with a regression assertion.
+
+## Responsive follow-up
+
+The owner's follow-up asks for fully adaptive pages. The test matrix now covers 320, 390, 768 and 1280 CSS pixels, every licensed-gallery language, both main-catalog UI languages, plus appendix and translated-case routes. Added checks exercise navigation visibility/bounds, searches, filters, empty results, images, anchors and source fallback. On phone/tablet the wide catalog becomes labeled stacked records; every label follows the selected language. Navigation wraps instead of hiding destinations, search fields can shrink, and checkbox controls no longer inherit search-field sizing. The original image bytes, rights, model labels and catalog totals are untouched.
+
+GitHub README layout belongs to GitHub's renderer. Repository CSS cannot force its HTML tables into stacked cards or guarantee behavior in every GitHub client. The prominent four-language large-gallery entry is the controlled responsive alternative. A finite viewport/browser test matrix is not a claim of universal 100% compatibility.
+
+Final responsive CI and screenshots: pending.

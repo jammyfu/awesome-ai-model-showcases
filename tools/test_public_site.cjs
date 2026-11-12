@@ -38,7 +38,7 @@ const server = http.createServer((req, res) => {
       }
     });
     // Full-width licensed galleries: every locale and mobile/desktop, not README DOM.
-    for (const width of [1280, 390]) {
+    for (const width of [320, 390, 768, 1280]) {
       await page.setViewportSize({ width, height: 900 });
       for (const lang of ['en', 'zh-CN', 'zh-TW', 'ja']) {
         await page.goto(base + '/licensed-gallery.' + lang + '.html');
@@ -48,15 +48,48 @@ const server = http.createServer((req, res) => {
           await img.scrollIntoViewIfNeeded();
           await img.evaluate(el => el.decode());
           const box = await img.boundingBox();
-          assert.ok(box.width >= (width === 390 ? 350 : 700), 'Useful large preview width');
+          assert.ok(box.width >= Math.min(width - (width <= 480 ? 36 : 48), 952) - 1, 'Useful large preview width');
         }
         assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Gallery must fit viewport');
         if (process.env.GALLERY_SCREENSHOTS) {
           fs.mkdirSync(process.env.GALLERY_SCREENSHOTS, { recursive: true });
-          await page.screenshot({ path: path.join(process.env.GALLERY_SCREENSHOTS, `gallery-${lang}-${width}.png`), fullPage: true });
+          await page.screenshot({ path: path.join(process.env.GALLERY_SCREENSHOTS, `gallery-${lang}-${width}.jpg`), fullPage: true, type: 'jpeg', quality: 75 });
         }
         await page.getByRole('link', { name: 'DeepSeek', exact: true }).click();
         assert.match(page.url(), /#licensed-deepseek-crowned-frog$/);
+      }
+    }
+    // All supported main-catalog UI locales at phone, tablet and desktop widths.
+    for (const width of [320, 390, 768, 1280]) {
+      await page.setViewportSize({ width, height: 900 });
+      for (const lang of ['en', 'zh']) {
+        await page.goto(base + '/?lang=' + lang);
+        assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Catalog overflow ${width}/${lang}`);
+        for (const control of await page.locator('.nav a, .hero-actions a, #case-search').all()) {
+          assert.ok(await control.isVisible(), 'Navigation must not vanish on phones');
+          const box = await control.boundingBox();
+          assert.ok(box.x >= 0 && box.x + box.width <= width + 1, 'Controls stay reachable within viewport');
+        }
+        await page.locator('#case-search').fill('dragon');
+        assert.ok(await page.locator('#case-rows tr').count() > 0);
+        if (width <= 768) {
+          const table = page.locator('.case-table');
+          assert.ok(await table.evaluate(el => el.scrollWidth <= el.clientWidth + 1), 'Phone/tablet cases must not require a wide table');
+          assert.ok(await page.locator('#case-rows td[data-label]').count() > 0);
+        }
+        await page.locator('#case-filters button').filter({ hasText: 'GPT Image' }).click();
+        await page.locator('#case-search').fill('ailingqu');
+        assert.equal(await page.locator('#case-rows tr').count(), 8);
+        await page.locator('#case-search').fill('no-such-case-zzz');
+        assert.equal(await page.locator('#case-rows tr').count(), 0);
+        await page.locator('#case-search').fill('');
+        if (process.env.GALLERY_SCREENSHOTS) {
+          await page.screenshot({ path: path.join(process.env.GALLERY_SCREENSHOTS, `catalog-${lang}-${width}.jpg`), type: 'jpeg', quality: 75 });
+        }
+      }
+      for (const route of ['/ideas.html', '/game.html', '/popular.html', '/translated-case.html?id=x-op7418-fatfish-pack&lang=ja']) {
+        await page.goto(base + route);
+        assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Page overflow ${width}/${route}`);
       }
     }
     // Blocking one image must leave source and permission links reachable.
