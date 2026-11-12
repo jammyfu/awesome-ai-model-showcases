@@ -113,8 +113,12 @@ const server = http.createServer((req, res) => {
     await page.locator('#original-content').evaluate(el => el.open = true);
     assert.equal(await page.locator('#case-original-prompt').textContent(), koreanRecord.original_prompt);
     await page.locator('[data-locale=en]').click();
+    await page.waitForURL(url => url.searchParams.get('lang') === 'en', { waitUntil: 'load' });
+    await page.locator('#case-content').waitFor({ state: 'visible' });
     assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     await page.locator('[data-locale=ko]').click();
+    await page.waitForURL(url => url.searchParams.get('lang') === 'ko', { waitUntil: 'load' });
+    await page.locator('#case-content').waitFor({ state: 'visible' });
     assert.equal(await page.locator('#case-title').textContent(), koreanRecord.translations.ko.title);
     // Blocking one image must leave source and permission links reachable.
     await page.route('**/readme-assets/cases/licensed-deepseek-crowned-frog.png', route => route.abort());
