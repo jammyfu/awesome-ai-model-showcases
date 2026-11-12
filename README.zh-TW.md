@@ -16,10 +16,10 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+**[用大圖瀏覽六個模型家族的授權作品 →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.zh-TW.html)**
+
 <a id="examples"></a>
 ## 先看 Claude 的真實作品
-
-**[用大圖瀏覽六個模型家族的授權作品 →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.zh-TW.html)**
 
 **Claude Opus 5.5** · Vincentwei1021 · 來源專案 **3,434 GitHub stars**（2026-11-11 快照）。
 

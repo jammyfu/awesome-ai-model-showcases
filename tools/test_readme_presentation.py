@@ -46,6 +46,7 @@ class ReadmePresentationTests(unittest.TestCase):
             self.assertEqual(text.count('<!-- readme-tech-visualizer:start -->'), 1)
             self.assertEqual(text.count('<!-- readme-tech-visualizer:end -->'), 1)
             self.assertLess(text.index('github.io/'), text.index('id="examples"'))
+            self.assertLess(text.index('licensed-gallery.'), text.index('id="examples"'))
             self.assertLess(text.index('id="examples"'), text.index('id="showcase"'))
             self.assertIn('src="assets/brand/hero.png"', text)
             self.assertLess(text.index('assets/brand/hero.png'), text.index('# Awesome'))

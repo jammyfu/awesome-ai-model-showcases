@@ -23,3 +23,7 @@ The main catalog's two interface languages are unchanged. The new gallery has fo
 - Original media totals about 10.5 MB across README references. Images use lazy loading below the first result in the new gallery; no compression or payload reduction is claimed.
 
 New changes require review in a separate PR; the earlier merge authorization is not assumed to approve this optimization PR.
+
+## First exact-head CI and visual follow-up
+
+Commit f86c13d passed CI run 43127865263, including all 1280/390px gallery checks. Downloaded screenshots showed readable English, eight real images and no clipping/overflow, but CJK glyphs were missing from the runner fonts. This is not counted as multilingual visual acceptance. CI now installs the official Noto CJK font package before screenshots. Independent GitHub review confirmed all four README languages and eight images, and requested moving the all-family gallery entrance above the Claude heading; that placement is corrected with a regression assertion.

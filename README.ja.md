@@ -16,10 +16,10 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+**[6つのモデル系列の許諾済み作品を大きく見る →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.ja.html)**
+
 <a id="examples"></a>
 ## Claude が作った実際の作品
-
-**[6つのモデル系列の許諾済み作品を大きく見る →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.ja.html)**
 
 **Claude Opus 5.5** · Vincentwei1021 · 元プロジェクトの **GitHub stars は 3,434**（2026-11-11 確認）。
 

@@ -16,10 +16,10 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/code_license-MIT-10131a?style=flat-square&amp;labelColor=c2ff67" alt="MIT: code" height="24"></a>
 </p>
 
+**[Explore all six families in large images →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.en.html)**
+
 <a id="examples"></a>
 ## See what Claude made
-
-**[Explore all six families in large images →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.en.html)**
 
 **Claude Opus 5.5** · Vincentwei1021 · **3,434 GitHub stars** for the source project (2026-11-11).
 
