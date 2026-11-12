@@ -442,7 +442,7 @@ def family_sections(catalog: dict, lang: str) -> str:
                 "zh-TW": ("預覽", "案例與介紹", "模型與來源", "到原帖看效果 ↗", "預覽轉載授權待核實", "來源聲明"),
                 "ja": ("プレビュー", "事例と紹介", "モデルと出典", "出典で見る ↗", "画像の掲載許諾は未確認", "出典による表記"),
             }[lang]
-            blocks += ["", "<table>", "<thead><tr>" + "".join(f"<th>{label}</th>" for label in (labels[0], labels[1] + " · " + labels[2])) + "</tr></thead>", "<tbody>"]
+            blocks += ["", '<table width="100%">', "<thead><tr>" + f"<th>{labels[0]} · {labels[1]} · {labels[2]}</th>" + "</tr></thead>", "<tbody>"]
             supplemental_path = TEMPLATES.parent.parent / "data/readme-supplemental-previews.json"
             supplemental = json.loads(supplemental_path.read_text())["cases"]
             extra_label = {
@@ -460,7 +460,7 @@ def family_sections(catalog: dict, lang: str) -> str:
                 link = escape(extra["source_url"], quote=True)
                 image = escape(extra["image_path"], quote=True)
                 alt = escape(loc["alt"], quote=True)
-                preview = f'<a href="{link}"><img src="{image}" alt="{alt}" width="240"></a>'
+                preview = f'<a href="{link}"><img src="{image}" alt="{alt}" width="100%"></a>'
                 title = escape(loc["title"])
                 intro = escape(loc["summary"])
                 credit = escape(extra["display_credit"])
@@ -470,7 +470,7 @@ def family_sections(catalog: dict, lang: str) -> str:
                 license_url = escape(extra["license_url"], quote=True)
                 license_label = escape(extra["license"])
                 evidence = escape(extra["license_evidence_url"], quote=True)
-                blocks.append(f'<tr><td width="240">{preview}</td><td><strong>{title}</strong><br>{intro}<br><small>{extra_label}</small><br><small>{escape(loc["changes"])}</small><br><br>{model}<br><small>{labels[5]}</small><br>{credit}<br><a href="{link}">{UI[lang]["post"]}</a> · <a href="{license_url}">{license_label}</a> · <a href="{evidence}">{evidence_label}</a><br><a href="docs/readme-preview-credits.md#{extra['id']}">{credit_label}</a></td></tr>')
+                blocks.append(f'<tr><td>{preview}<br><br><strong>{title}</strong><br>{intro}<br><small>{extra_label}</small><br><small>{escape(loc["changes"])}</small><br><br>{model}<br><small>{labels[5]}</small><br>{credit}<br><a href="{link}">{UI[lang]["post"]}</a> · <a href="{license_url}">{license_label}</a> · <a href="{evidence}">{evidence_label}</a><br><a href="docs/readme-preview-credits.md#{extra['id']}">{credit_label}</a></td></tr>')
             seen = set()
             for item in selected:
                 row = by_id[item["case_id"]]
@@ -486,7 +486,7 @@ def family_sections(catalog: dict, lang: str) -> str:
                 model = escape(VERSION_LABEL[row["model_version"]])
                 credit = escape(row.get("image_credit") or row.get("author") or "")
                 detail = escape(translation_link(row, lang), quote=True)
-                blocks.append(f'<tr><td width="240">{preview}</td><td><strong>{title}</strong><br>{intro}<br><br>{model}<br><small>{labels[5]}</small><br>{credit}<br><a href="{detail}">{UI[lang]["case"]}</a> · <a href="{source}">{UI[lang]["post"]}</a></td></tr>')
+                blocks.append(f'<tr><td>{preview}<br><br><strong>{title}</strong><br>{intro}<br><br>{model}<br><small>{labels[5]}</small><br>{credit}<br><a href="{detail}">{UI[lang]["case"]}</a> · <a href="{source}">{UI[lang]["post"]}</a></td></tr>')
             blocks += ["</tbody>", "</table>"]
         blocks.append("")
     return "\n".join(blocks).rstrip() + "\n"

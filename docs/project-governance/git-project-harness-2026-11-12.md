@@ -35,3 +35,5 @@ The owner's follow-up asks for fully adaptive pages. The test matrix now covers 
 GitHub README layout belongs to GitHub's renderer. Repository CSS cannot force its HTML tables into stacked cards or guarantee behavior in every GitHub client. The prominent four-language large-gallery entry is the controlled responsive alternative. A finite viewport/browser test matrix is not a claim of universal 100% compatibility.
 
 Final responsive CI and screenshots: pending.
+
+The six GitHub README tables are now single-column case blocks: preview above introduction, with percentage-width tables/images instead of a fixed 240px preview column. This preserves the table structure and all evidence while removing the competing side-by-side columns. Automated structure tests cover all four languages; actual GitHub mobile rendering remains a separate required check.

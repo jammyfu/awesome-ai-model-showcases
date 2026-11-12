@@ -41,7 +41,7 @@ class ReadmePresentationTests(unittest.TestCase):
             # Six licensed supplemental rows include full credit/evidence links in four languages.
             self.assertLessEqual(len(text.encode()), 35 * 1024, lang)
             self.assertEqual(len(re.findall(r'^# ', text, re.M)), 1)
-            self.assertEqual(text.count('<table>'), 6, lang)
+            self.assertEqual(text.count('<table'), 6, lang)
             self.assertNotIn('|---', text, lang)
             self.assertEqual(text.count('<!-- readme-tech-visualizer:start -->'), 1)
             self.assertEqual(text.count('<!-- readme-tech-visualizer:end -->'), 1)
@@ -100,11 +100,11 @@ class ReadmePresentationTests(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)))
         for lang in LOCALES:
             output = family_sections(self.catalog, lang)
-            self.assertEqual(output.count('<table>'), 6)
-            self.assertEqual(output.count('<th>'), 12)
-            self.assertEqual(output.count('<td width="240">'), 18 + len(json.loads((ROOT / 'data/readme-supplemental-previews.json').read_text())['cases']))
+            self.assertEqual(output.count('<table'), 6)
+            self.assertEqual(output.count('<th>'), 6)
+            self.assertEqual(output.count('<td>'), 18 + len(json.loads((ROOT / 'data/readme-supplemental-previews.json').read_text())['cases']))
             extras = json.loads((ROOT / 'data/readme-supplemental-previews.json').read_text())['cases']
-            self.assertEqual(output.count('<tr><td '), 18 + len(extras))
+            self.assertEqual(output.count('<tr><td>'), 18 + len(extras))
             self.assertEqual(output.count('</table>'), 6)
             # Current main-catalog media has no publication grant. No banner,
             # unlicensed hotlink, or unrelated licensed thumbnail may fill the gap.
