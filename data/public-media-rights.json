@@ -298,6 +298,66 @@
       "license": "project-created",
       "evidence_url": "docs/brand-artwork.md",
       "changes": "Byte-identical copy of the approved project-created hero for the Pages document root; illustrative brand art, not case evidence."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-qwen-image21-snowy-street.webp",
+      "sha256": "9ea4e96d2b360dbbad27419dd8d162cee172ac9def211670157313bed4fa740f",
+      "credit": "Original photograph: Mbaro01, Calle Charcas, ciudad de Buenos Aires 4.JPG (CC BY-SA 4.0); AI snow/night adaptation: Mats2208 / qwen-image-local using Qwen-Image-2.1 (CC BY-SA 4.0).",
+      "source_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "evidence_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/README.md#license",
+      "changes": "Unmodified upstream WebP; CSS display scaling only. Upstream changed original photograph into a snowy night scene. Preserve CC BY-SA 4.0 on this output and any derived thumbnail."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-gemini-imagen4-valley.webp",
+      "sha256": "058741fd6d0d80b9918f29394b4c7cf3e482f05189ae331c53fb83d5ff7a3a50",
+      "credit": "VulcanSphere / Wikimedia Commons; Imagen via Gemini app (2025); CC0 1.0.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp&oldid=1147349755",
+      "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-grok-aurora-astronaut.webp",
+      "sha256": "554910f2a3c08cce184121c54fadd67367e422587c7ed889b633ea7adc726d07",
+      "credit": "VulcanSphere / Wikimedia Commons; Grok Aurora (2024); CC0 1.0.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp&oldid=1265346265",
+      "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-gpt-godot-character.jpg",
+      "sha256": "96014e2a42286a6d82b9f351fcec030d981c5e66c4f005b89e296f99221515a0",
+      "credit": "zhangrlll; original GPT image developed through Tripo AI, a Codex-assisted Blender/Mixamo/GPT Image workflow and Godot. MIT © 2026 zhangrlll.",
+      "source_url": "https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.md",
+      "license": "MIT",
+      "license_url": "https://opensource.org/license/mit",
+      "evidence_url": "https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.en.md#3-license",
+      "changes": "Unmodified upstream image; display scaling only."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-gpt-codex-launch-scene.png",
+      "sha256": "65ef6fdc3947d11de49a65f481c17d28738f8de59b9b1f61584583677827fe36",
+      "credit": "Dan Lee-Odinson; original game illustration under his human art direction, prepared by Codex (GPT-6 Astra) using OpenAI built-in Imagegen. Separate image model unspecified. CC BY 4.0 © 2026 Dan Lee-Odinson.",
+      "source_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/README.md",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/LICENSE-CONTENT",
+      "changes": "Unmodified upstream image; display scaling only."
+    },
+    {
+      "path": "docs/readme-assets/cases/licensed-deepseek-crowned-frog.png",
+      "sha256": "e03d25f68b6d533a2045465e50a1f9dd66448cdad50c30d5090575526bc64737",
+      "credit": "FROGS benchmark, Jay Mollica, https://frogs.vaguespac.es",
+      "source_url": "https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/results/2026-09-27/svg/deepseek--deepseek-v4.1-flash--20260927-193108-7af3b.svg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/LICENSE-DATA",
+      "changes": "Original SVG unchanged. PNG rasterized using Inkscape at 800px width; no artistic changes. Source publisher sanitizes model output before publishing."
     }
   ]
 }

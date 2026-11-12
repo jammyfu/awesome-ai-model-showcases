@@ -36,9 +36,10 @@ class ReadmePresentationTests(unittest.TestCase):
         for lang in LOCALES:
             text = readme_path(lang).read_text()
             self.assertLessEqual(len(text.splitlines()), 280, lang)
-            self.assertLessEqual(len(text.encode()), 30 * 1024, lang)
+            # Six licensed supplemental rows include full credit/evidence links in four languages.
+            self.assertLessEqual(len(text.encode()), 35 * 1024, lang)
             self.assertEqual(len(re.findall(r'^# ', text, re.M)), 1)
-            self.assertNotIn('<table', text, lang)
+            self.assertEqual(text.count('<table>'), 6, lang)
             self.assertNotIn('|---', text, lang)
             self.assertEqual(text.count('<!-- readme-tech-visualizer:start -->'), 1)
             self.assertEqual(text.count('<!-- readme-tech-visualizer:end -->'), 1)
@@ -66,10 +67,10 @@ class ReadmePresentationTests(unittest.TestCase):
             for locale in LOCALES:
                 self.assertIn(readme_path(locale).name, text)
 
-    def test_one_example_per_family_and_five_dated_posts(self):
+    def test_three_examples_per_family_and_five_dated_posts(self):
         for lang in LOCALES:
             family = family_sections(self.catalog, lang)
-            self.assertEqual(family.count('docs/translations/'), len(HOMEPAGE_FAMILIES))
+            self.assertEqual(family.count('docs/translations/'), 3 * len(HOMEPAGE_FAMILIES))
             for family_id in HOMEPAGE_FAMILIES:
                 self.assertIn(f'id="{family_id}"', family)
                 self.assertIn(f'catalog.{lang}.md#{family_id}', family)
@@ -78,6 +79,55 @@ class ReadmePresentationTests(unittest.TestCase):
             self.assertEqual(len(dates), 5)
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual(latest.count('docs/translations/'), 5)
+
+    def test_table_selections_are_distinct_source_matched_and_localized(self):
+        selection = json.loads((ROOT / 'data/readme-model-tables.json').read_text())
+        self.assertEqual(set(selection['families']), set(HOMEPAGE_FAMILIES))
+        ids = []
+        for fam, entries in selection['families'].items():
+            self.assertEqual(len(entries), 3)
+            by_id = {r['id']: r for r in self.catalog['collected_by_family'][fam]}
+            for item in entries:
+                row = by_id[item['case_id']]
+                ids.append(row['id'])
+                self.assertEqual(item['source_url'], row['source_url'])
+                for lang in LOCALES:
+                    for field in ('title', 'pipeline'):
+                        self.assertTrue(row['translations'][lang][field].strip())
+        self.assertEqual(len(ids), len(set(ids)))
+        for lang in LOCALES:
+            output = family_sections(self.catalog, lang)
+            self.assertEqual(output.count('<table>'), 6)
+            self.assertEqual(output.count('<th>'), 12)
+            self.assertEqual(output.count('<td width="240">'), 18 + len(json.loads((ROOT / 'data/readme-supplemental-previews.json').read_text())['cases']))
+            extras = json.loads((ROOT / 'data/readme-supplemental-previews.json').read_text())['cases']
+            self.assertEqual(output.count('<tr><td '), 18 + len(extras))
+            self.assertEqual(output.count('</table>'), 6)
+            # Current main-catalog media has no publication grant. No banner,
+            # unlicensed hotlink, or unrelated licensed thumbnail may fill the gap.
+            self.assertEqual(output.count('<img'), len(extras))
+            self.assertNotIn('<video', output)
+            self.assertNotIn('assets/brand', output)
+
+    def test_supplemental_previews_have_exact_grants_and_localized_fields(self):
+        import hashlib
+        from media_policy import is_public_asset
+        path = ROOT / 'data/readme-supplemental-previews.json'
+        self.assertTrue(path.exists(), 'New licensed examples need source-bound metadata')
+        rows = json.loads(path.read_text())['cases']
+        self.assertTrue(rows)
+        self.assertEqual(len({r['image_sha256'] for r in rows}), len(rows))
+        for row in rows:
+            self.assertEqual(row['catalog_membership'], 'separate_source_spotlight')
+            self.assertTrue(is_public_asset(row['image_path']))
+            self.assertEqual(hashlib.sha256((ROOT / row['image_path']).read_bytes()).hexdigest(), row['image_sha256'])
+            self.assertNotIn(row['id'], {r['id'] for r in self.rows})
+            for lang in LOCALES:
+                for field in ('title', 'summary', 'alt'):
+                    self.assertTrue(row['locales'][lang][field].strip())
+                output = family_sections(self.catalog, lang)
+                self.assertIn(f'src="{row["image_path"]}"', output)
+                self.assertIn(row['license_url'], output)
 
     def test_editorial_priorities_and_unknown_popularity_are_explicit(self):
         self.assertEqual(len(HOMEPAGE_FAMILIES), len(set(HOMEPAGE_FAMILIES)))
@@ -95,7 +145,7 @@ class ReadmePresentationTests(unittest.TestCase):
             self.assertIn(DISCOVERY_ORDER['meta']['reviewed_at'], latest_section(self.rows, lang))
             sol = output.split('<a id="gpt-code"></a>', 1)[1].split('<a id="grok"></a>', 1)[0]
             self.assertIn("x-cfenghub-gpt62sol-colosseum", sol)
-            self.assertNotIn("x-yfeng-gpt61-sol-fable-take-flight", sol)
+            self.assertIn('GPT-6.2 Sol', sol)
             self.assertIn(" · GPT Sol**", latest_section(self.rows, lang))
 
     def test_date_order_is_valid_and_deterministic(self):

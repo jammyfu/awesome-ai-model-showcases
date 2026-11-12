@@ -45,7 +45,7 @@
 <a id="catalog"></a>
 ## モデル別に探す
 
-6 ファミリーに **183 件の出典付き事例**を収録しています。ここでは各ファミリーで優先する最初の収録済みバージョンから 1 件ずつ紹介し、全バージョンと記録は[全目録](docs/catalog.ja.md)に残します。モデル性能のランキングではありません。
+6 ファミリーに **183 件の出典付き事例**を収録しています。各表では異なる題材を 3 件選び、プレビューへの入口、紹介、モデル、作者、出典を示します。掲載許諾が未確認のメディアは出典へのリンクのみで、埋め込み画像ではありません。全バージョンと記録は[全目録](docs/catalog.ja.md)をご覧ください。編集上の選定であり、モデル性能のランキングではありません。
 
 バージョンは編集上の優先順位で並べ、出典が示す現在の重点バージョンを先に、同じバージョン内では出典の日付順にします。比較可能な人気指標はまだありません。[並び順の方針](docs/discovery-order.md)。
 
@@ -61,7 +61,14 @@
 <a id="ver-claude-opus-5-5"></a>
 - [Claude Opus 5.5](docs/catalog.ja.md#ver-claude-opus-5-5) · 9
 
-最初に見る例: **AgentSkyを描く点光源の3D映像（Blenderとコード）** · クレジット: @quxiaoyin（Xiaoyin Qu） · [ケース](docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja) · [原投稿](https://x.com/quxiaoyin/status/2120341962314150207)
+<table>
+<thead><tr><th>プレビュー</th><th>事例と紹介 · モデルと出典</th></tr></thead>
+<tbody>
+<tr><td width="240"><a href="https://x.com/quxiaoyin/status/2120341962314150207">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>AgentSkyを描く点光源の3D映像（Blenderとコード）</strong><br>Blender とコードで制作した点光の映像 · 動画収録<br><br>Claude Fable 5.2<br><small>出典による表記</small><br>@quxiaoyin（Xiaoyin Qu）<br><a href="docs/translations/x-quxiaoyin-fable52-agentsky-film.md#ja">ケース</a> · <a href="https://x.com/quxiaoyin/status/2120341962314150207">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/MengTo/status/2120316203738829180">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>Fable 5.2でThree.jsのアパートをBlenderに再現</strong><br>Claude と Blender で既存の Three.js の室内シーンを再現 · 画面収録<br><br>Claude Fable 5.2<br><small>出典による表記</small><br>@MengTo（Meng To）<br><a href="docs/translations/x-mengto-fable52-blender-apartment.md#ja">ケース</a> · <a href="https://x.com/MengTo/status/2120316203738829180">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/EvanMilenko/status/2120322640048959503">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>Three.jsでゼロから制作したドラゴンゲーム</strong><br>Three.js のドラゴンゲーム · プレイ映像<br><br>Claude Fable 5.2<br><small>出典による表記</small><br>@EvanMilenko（Evan）<br><a href="docs/translations/x-evanmilenko-fable52-dragon-game.md#ja">ケース</a> · <a href="https://x.com/EvanMilenko/status/2120322640048959503">原投稿</a></td></tr>
+</tbody>
+</table>
 
 <a id="gemini"></a>
 ### Gemini · 6 件
@@ -73,7 +80,15 @@
 <a id="ver-gemini-4-argon"></a>
 - [Gemini 4 Argon](docs/catalog.ja.md#ver-gemini-4-argon) · 1
 
-最初に見る例: **単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）** · クレジット: @StatsWire · [ケース](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) · [原投稿](https://x.com/StatsWire/status/2120344850071540152)
+<table>
+<thead><tr><th>プレビュー</th><th>事例と紹介 · モデルと出典</th></tr></thead>
+<tbody>
+<tr><td width="240"><a href="https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp"><img src="docs/readme-assets/cases/licensed-gemini-imagen4-valley.webp" alt="陽光に照らされた花崗岩の渓谷、松林、川、木造の小屋。元の AI マークと署名を保持。" width="240"></a></td><td><strong>午後の光に照らされた渓谷</strong><br>2025 年に Gemini アプリで制作した風景画。出典ページは Imagen 4.0、アップロード要約は 3.0 と記載し、正確な版は不明です。Gemini 4 Carbon ではありません。<br><small>追加の許諾済み作品 · 目録件数には含めません</small><br><small>原画像は変更せず、表示のみ縮小。</small><br><br>Imagen / Gemini · 2025<br><small>出典による表記</small><br>VulcanSphere<br><a href="https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp">原投稿</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> · <a href="https://commons.wikimedia.org/w/index.php?title=File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp&amp;oldid=1147349755">許諾の根拠</a><br><a href="docs/readme-preview-credits.md#licensed-gemini-imagen4-valley">クレジットと変更</a></td></tr>
+<tr><td width="240"><a href="https://x.com/StatsWire/status/2120344850071540152">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）</strong><br>Three.js の単一ファイルシーン · 画面収録動画<br><br>Gemini 4 Carbon<br><small>出典による表記</small><br>@StatsWire<br><a href="docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja">ケース</a> · <a href="https://x.com/StatsWire/status/2120344850071540152">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/DeryaTR_/status/2120393810941456710">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>Theme ParkのHDピクセルアート版リメイク（プレイ可能）</strong><br>HTML ピクセルアートの再現 · https://theme-park-hd.vercel.app でプレイ可能 · 動画収録<br><br>Gemini 4 Carbon<br><small>出典による表記</small><br>@DeryaTR_（Derya Unutmaz）<br><a href="docs/translations/x-deryatr-gemini-carbon-theme-park.md#ja">ケース</a> · <a href="https://x.com/DeryaTR_/status/2120393810941456710">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/ai_for_success/status/2120317619588972867">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>FreeCADとBlenderによるV8エンジン</strong><br>FreeCAD と Blender による V8 エンジン · デモ収録<br><br>Gemini 4 Carbon<br><small>出典による表記</small><br>@ai_for_success（AshutoshShrivastava）<br><a href="docs/translations/x-aiforsuccess-gemini-carbon-v8.md#ja">ケース</a> · <a href="https://x.com/ai_for_success/status/2120317619588972867">原投稿</a></td></tr>
+</tbody>
+</table>
 
 <a id="gpt-code"></a>
 ### GPT-6.2 Sol · 14 件
@@ -85,7 +100,16 @@
 <a id="ver-gpt-6-1-sol"></a>
 - [GPT-6.1 Sol](docs/catalog.ja.md#ver-gpt-6-1-sol) · 3
 
-最初に見る例: **Three.js、GLSL、Blenderで制作した雨に濡れるローマのコロッセオ** · クレジット: @cfenghub（CF长风） · [ケース](docs/translations/x-cfenghub-gpt62sol-colosseum.md#ja) · [原投稿](https://x.com/cfenghub/status/2120069654437921152)
+<table>
+<thead><tr><th>プレビュー</th><th>事例と紹介 · モデルと出典</th></tr></thead>
+<tbody>
+<tr><td width="240"><a href="https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.md"><img src="docs/readme-assets/cases/licensed-gpt-godot-character.jpg" alt="ミント色の市松模様の Godot ステージに、眼鏡をかけたデフォルメキャラクターが立ち、移動とアニメーションの操作項目が並ぶ。" width="240"></a></td><td><strong>GPT のキャラクター画像から Godot へ</strong><br>GPT のキャラクター画像を、Tripo AI と Codex 支援のアニメーション工程で操作可能な Godot キャラクターに。モデルの詳細バージョンは不明で、複数ツールによる制作です。<br><small>追加の許諾済み作品 · 目録件数には含めません</small><br><small>出典の原画像は変更せず、表示のみ縮小。</small><br><br>GPT Image → Tripo → Codex / Godot<br><small>出典による表記</small><br>zhangrlll<br><a href="https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.md">原投稿</a> · <a href="https://opensource.org/license/mit">MIT</a> · <a href="https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.en.md#3-license">許諾の根拠</a><br><a href="docs/readme-preview-credits.md#licensed-gpt-godot-character">クレジットと変更</a></td></tr>
+<tr><td width="240"><a href="https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/README.md"><img src="docs/readme-assets/cases/licensed-gpt-codex-launch-scene.png" alt="青空の下、ジェミニ計画時代のロケットが発射塔の横から上昇し、明るい噴炎と煙が広がる。" width="240"></a></td><td><strong>Failure is Not an Option：打ち上げシーン</strong><br>Dan Lee-Odinson の監督のもと、Codex（GPT-6 Astra）が内蔵 Imagegen を使って制作したゲーム用イラスト。画像モデルは不明で、ゲームの実装は Claude が担当。<br><small>追加の許諾済み作品 · 目録件数には含めません</small><br><small>出典の原画像は変更せず、表示のみ縮小。</small><br><br>Codex (GPT-6 Astra) + Imagegen<br><small>出典による表記</small><br>Dan Lee-Odinson<br><a href="https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/README.md">原投稿</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/LICENSE-CONTENT">許諾の根拠</a><br><a href="docs/readme-preview-credits.md#licensed-gpt-codex-launch-scene">クレジットと変更</a></td></tr>
+<tr><td width="240"><a href="https://x.com/cfenghub/status/2120069654437921152">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>Three.js、GLSL、Blenderで制作した雨に濡れるローマのコロッセオ</strong><br>Three.js + GLSL + Blender · 単一 HTML · 動画収録<br><br>GPT-6.2 Sol<br><small>出典による表記</small><br>@cfenghub（CF长风）<br><a href="docs/translations/x-cfenghub-gpt62sol-colosseum.md#ja">ケース</a> · <a href="https://x.com/cfenghub/status/2120069654437921152">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/TokenGremlin/status/2119395930805879165">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>単一HTMLファイルのThree.jsブラックホールを一度で生成（作者はGPT-6.2 Solへルーティング）</strong><br>Three.js の単一 HTML ファイル · X の画面／動画収録<br><br>GPT-6.2 Sol<br><small>出典による表記</small><br>@TokenGremlin（Token Gremlin）<br><a href="docs/translations/x-tokengremlin-gpt62sol-threejs-blackhole.md#ja">ケース</a> · <a href="https://x.com/TokenGremlin/status/2119395930805879165">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/HarshithLucky3/status/2119418918616150080">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>SVGアニメ：自転車に乗るペリカンとカニ2匹（Codexルーティング）</strong><br>Codex で制作した SVG アニメーション · 動画収録<br><br>GPT-6.2 Sol<br><small>出典による表記</small><br>@HarshithLucky3（Harshith）<br><a href="docs/translations/x-harshithlucky3-gpt62sol-pelican-svg-animation.md#ja">ケース</a> · <a href="https://x.com/HarshithLucky3/status/2119418918616150080">原投稿</a></td></tr>
+</tbody>
+</table>
 
 <a id="grok"></a>
 ### Grok · 11 件
@@ -97,7 +121,15 @@
 <a id="ver-grok-imagine-video"></a>
 - [Grok Imagine Video](docs/catalog.ja.md#ver-grok-imagine-video) · 10
 
-最初に見る例: **アイソメトリック都市の昼夜HTMLループ：Grok 4.7** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
+<table>
+<thead><tr><th>プレビュー</th><th>事例と紹介 · モデルと出典</th></tr></thead>
+<tbody>
+<tr><td width="240"><a href="https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp"><img src="docs/readme-assets/cases/licensed-grok-aurora-astronaut.webp" alt="宇宙服を着た飛行士が月面で茶色の馬に乗り、地平線には地球が見える。" width="240"></a></td><td><strong>月面で馬に乗る宇宙飛行士</strong><br>VulcanSphere は、2024 年 12 月に Grok Aurora のテキスト画像生成で制作したと報告しています。Grok 4.7 のコーディングや動画の事例ではありません。<br><small>追加の許諾済み作品 · 目録件数には含めません</small><br><small>原画像は変更せず、表示のみ縮小。</small><br><br>Grok Aurora (2024)<br><small>出典による表記</small><br>VulcanSphere<br><a href="https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp">原投稿</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> · <a href="https://commons.wikimedia.org/w/index.php?title=File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp&amp;oldid=1265346265">許諾の根拠</a><br><a href="docs/readme-preview-credits.md#licensed-grok-aurora-astronaut">クレジットと変更</a></td></tr>
+<tr><td width="240"><a href="https://jamesgreene.com/models/">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>アイソメトリック都市の昼夜HTMLループ：Grok 4.7</strong><br>単体で動作する HTML／CSS／JS アニメーション（コードモデル。Grok Imagine Video ではない）<br><br>Grok 4.7<br><small>出典による表記</small><br>James Greene (model comparison archive)<br><a href="docs/translations/web-jamesgreene-code1-grok47-isometric-city.md#ja">ケース</a> · <a href="https://jamesgreene.com/models/">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/HaluAIArt/status/2118285947921989988">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>ダークなエレクトロ・ヒップホップのダンス映像</strong><br>原投稿の表記による Grok Imagine ネイティブ動画<br><br>Grok Imagine Video<br><small>出典による表記</small><br>@HaluAIArt（はる）<br><a href="docs/translations/x-haluaiart-grok-imagine-dark-electro-hip-hop-dance.md#ja">ケース</a> · <a href="https://x.com/HaluAIArt/status/2118285947921989988">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/whichaiwon/status/2118342571592446154">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>Grok Imagine Video 1.5 Liteのリップシンク検証</strong><br>原投稿の表記による Grok Imagine ネイティブ動画<br><br>Grok Imagine Video<br><small>出典による表記</small><br>@whichaiwon（Which AI Won）<br><a href="docs/translations/x-whichaiwon-grok-imagine-grok-imagine-video-1-5-lit.md#ja">ケース</a> · <a href="https://x.com/whichaiwon/status/2118342571592446154">原投稿</a></td></tr>
+</tbody>
+</table>
 
 <a id="qwen"></a>
 ### Qwen · 3 件
@@ -111,7 +143,15 @@
 <a id="ver-qwen3-8-27b"></a>
 - [Qwen3.8 27B](docs/catalog.ja.md#ver-qwen3-8-27b) · 1
 
-最初に見る例: **飛行機を操縦する孫悟空：HTMLの3Dデモ** · クレジット: @leo114119（Leo） · [ケース](docs/translations/x-leo114119-qwen4max-wukong-plane.md#ja) · [原投稿](https://x.com/leo114119/status/2120371909624033439)
+<table>
+<thead><tr><th>プレビュー</th><th>事例と紹介 · モデルと出典</th></tr></thead>
+<tbody>
+<tr><td width="240"><a href="https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html"><img src="docs/readme-assets/cases/licensed-qwen-image21-snowy-street.webp" alt="雪に覆われたブエノスアイレスの通り。歩行者、バルコニー、暖かな店の明かりが見える。" width="240"></a></td><td><strong>チャルカス通りの雪の夜</strong><br>Qwen-Image-2.1 で街路写真を雪の夜景に編集。出典が報告する画像編集テストであり、Qwen4 のコーディング事例ではありません。<br><small>追加の許諾済み作品 · 目録件数には含めません</small><br><small>原画像は変更せず、表示のみ縮小。</small><br><br>Qwen-Image-2.1<br><small>出典による表記</small><br>Mbaro01 · Mats2208<br><a href="https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html">原投稿</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · <a href="https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/README.md#license">許諾の根拠</a><br><a href="docs/readme-preview-credits.md#licensed-qwen-image21-snowy-street">クレジットと変更</a></td></tr>
+<tr><td width="240"><a href="https://x.com/leo114119/status/2120371909624033439">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>飛行機を操縦する孫悟空：HTMLの3Dデモ</strong><br>HTML と 3D アニメーションのデモ · 動画収録<br><br>Qwen 4 Max Preview<br><small>出典による表記</small><br>@leo114119（Leo）<br><a href="docs/translations/x-leo114119-qwen4max-wukong-plane.md#ja">ケース</a> · <a href="https://x.com/leo114119/status/2120371909624033439">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/coffeecup2020/status/2120113388629995921">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>Qwen 4.0 Previewによるサグラダ・ファミリアのデモ</strong><br>反復的な自己批評のデモ · 動画収録<br><br>Qwen 4.0 Preview<br><small>出典による表記</small><br>@coffeecup2020（David Y. Tan）<br><a href="docs/translations/x-coffeecup2020-qwen4-sagrada.md#ja">ケース</a> · <a href="https://x.com/coffeecup2020/status/2120113388629995921">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://jamesgreene.com/models/">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>アイソメトリック都市の昼夜HTMLループ：Qwen3.8 27B</strong><br>単体で動作する HTML／CSS／JS アニメーション<br><br>Qwen3.8 27B<br><small>出典による表記</small><br>James Greene (model comparison archive)<br><a href="docs/translations/web-jamesgreene-code1-qwen38-27b-isometric-city.md#ja">ケース</a> · <a href="https://jamesgreene.com/models/">原投稿</a></td></tr>
+</tbody>
+</table>
 
 <a id="deepseek"></a>
 ### DeepSeek · 3 件
@@ -123,7 +163,15 @@
 <a id="ver-deepseek-v4-1-flash"></a>
 - [DeepSeek V4.1 Flash](docs/catalog.ja.md#ver-deepseek-v4-1-flash) · 2
 
-最初に見る例: **アイソメトリック都市の昼夜HTMLループ：DeepSeek V4.1 Flash 1017** · クレジット: James Greene (model comparison archive) · [ケース](docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#ja) · [原投稿](https://jamesgreene.com/models/)
+<table>
+<thead><tr><th>プレビュー</th><th>事例と紹介 · モデルと出典</th></tr></thead>
+<tbody>
+<tr><td width="240"><a href="https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/results/2026-09-27/svg/deepseek--deepseek-v4.1-flash--20260927-193108-7af3b.svg"><img src="docs/readme-assets/cases/licensed-deepseek-crowned-frog.png" alt="淡い水色の背景に、金色の王冠、大きな目、突き出た白い下顎を持つ鮮やかな緑のカエル。" width="240"></a></td><td><strong>FROGS：王冠をかぶった SVG のカエル</strong><br>出典が公開した DeepSeek V4.1 Flash の SVG ベンチマーク結果。Flash 1017 ではありません。元の構図では足先が切れていますが、王冠、顔、顎は明瞭です。<br><small>追加の許諾済み作品 · 目録件数には含めません</small><br><small>出典の SVG を Inkscape で幅800pxの PNG に変換。絵の変更はなく、公開元のサニタイズ処理を維持。</small><br><br>DeepSeek V4.1 Flash · 2026-09-27<br><small>出典による表記</small><br>Jay Mollica · FROGS<br><a href="https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/results/2026-09-27/svg/deepseek--deepseek-v4.1-flash--20260927-193108-7af3b.svg">原投稿</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/LICENSE-DATA">許諾の根拠</a><br><a href="docs/readme-preview-credits.md#licensed-deepseek-crowned-frog">クレジットと変更</a></td></tr>
+<tr><td width="240"><a href="https://jamesgreene.com/models/">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>アイソメトリック都市の昼夜HTMLループ：DeepSeek V4.1 Flash 1017</strong><br>単体で動作する HTML／CSS／JS アニメーション<br><br>DeepSeek V4.1 Flash 1017<br><small>出典による表記</small><br>James Greene (model comparison archive)<br><a href="docs/translations/web-jamesgreene-code1-deepseek-v41-flash-1017-isometric-city.md#ja">ケース</a> · <a href="https://jamesgreene.com/models/">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/LatentOperatorX/status/2120205377803518132">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>Three.jsによるエアバスA380の離陸：DeepSeek V4.1 Flash、Fable 5.2、GPT-6.1 Solを比較</strong><br>Three.js の単一シーン課題 · 比較動画<br><br>DeepSeek V4.1 Flash<br><small>出典による表記</small><br>@LatentOperatorX<br><a href="docs/translations/x-latentoperator-a380-deepseek-fable-sol.md#ja">ケース</a> · <a href="https://x.com/LatentOperatorX/status/2120205377803518132">原投稿</a></td></tr>
+<tr><td width="240"><a href="https://x.com/LatentOperatorX/status/2120077800887746603">出典で見る ↗</a><br><small>画像の掲載許諾は未確認</small></td><td><strong>Three.jsのショベルカーがダンプに積み込み：DeepSeek HarnessとCommand Codeを比較</strong><br>Three.js の掘削機制作課題 · 比較動画<br><br>DeepSeek V4.1 Flash<br><small>出典による表記</small><br>@LatentOperatorX（Latent Operator）<br><a href="docs/translations/x-latentoperator-deepseek-excavator.md#ja">ケース</a> · <a href="https://x.com/LatentOperatorX/status/2120077800887746603">原投稿</a></td></tr>
+</tbody>
+</table>
 
 
 <a id="latest"></a>

@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "scope": "Additional explicitly licensed source works, separate from the 183-case coding/animation catalog. Exact model versions and work types are preserved; images are not proof of reproduced generation.",
+  "cases": [
+    {
+      "id": "licensed-qwen-image21-snowy-street",
+      "model_family": "qwen",
+      "model": "Qwen-Image-2.1",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "Original photograph: Mbaro01, Calle Charcas, ciudad de Buenos Aires 4.JPG (CC BY-SA 4.0); AI snow/night adaptation: Mats2208 / qwen-image-local using Qwen-Image-2.1 (CC BY-SA 4.0).",
+      "source_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html",
+      "image_source_url": "https://raw.githubusercontent.com/Mats2208/qwen-image-local/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/img/bench/E1_calle_nieve_qwen.webp",
+      "image_path": "docs/readme-assets/cases/licensed-qwen-image21-snowy-street.webp",
+      "image_sha256": "9ea4e96d2b360dbbad27419dd8d162cee172ac9def211670157313bed4fa740f",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_evidence_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/README.md#license",
+      "local_license_path": "docs/licenses/CC-BY-SA-4.0.txt",
+      "locales": {
+        "en": {
+          "title": "Snowy night on Charcas Street",
+          "summary": "Qwen-Image-2.1 edits a street photograph into a snowy night. Source-reported image-edit benchmark; not a Qwen4 coding demo.",
+          "alt": "Snow-covered Buenos Aires street with pedestrians, balconies and warm shop lights.",
+          "changes": "Original image unchanged; displayed smaller."
+        },
+        "zh-CN": {
+          "title": "查尔卡斯街的雪夜",
+          "summary": "Qwen-Image-2.1 将街景照片改为雪夜。这是来源声明的图像编辑测试，并非 Qwen4 编程案例。",
+          "alt": "积雪覆盖的布宜诺斯艾利斯街道，行人、阳台和温暖的店铺灯光清晰可见。",
+          "changes": "保留原图，仅缩小显示。"
+        },
+        "zh-TW": {
+          "title": "查爾卡斯街的雪夜",
+          "summary": "Qwen-Image-2.1 將街景照片改為雪夜。這是來源聲明的影像編輯測試，並非 Qwen4 程式設計案例。",
+          "alt": "積雪覆蓋的布宜諾斯艾利斯街道，行人、陽台和溫暖的店鋪燈光清晰可見。",
+          "changes": "保留原圖，僅縮小顯示。"
+        },
+        "ja": {
+          "title": "チャルカス通りの雪の夜",
+          "summary": "Qwen-Image-2.1 で街路写真を雪の夜景に編集。出典が報告する画像編集テストであり、Qwen4 のコーディング事例ではありません。",
+          "alt": "雪に覆われたブエノスアイレスの通り。歩行者、バルコニー、暖かな店の明かりが見える。",
+          "changes": "原画像は変更せず、表示のみ縮小。"
+        }
+      },
+      "changes": "Unmodified upstream WebP; CSS display scaling only. Upstream changed original photograph into a snowy night scene. Preserve CC BY-SA 4.0 on this output and any derived thumbnail.",
+      "source_evidence": {
+        "id": "licensed-qwen-image21-snowy-street",
+        "family": "qwen",
+        "model_label": "Qwen-Image-2.1 (September 2026 image model)",
+        "source_revision": "f26beee377d1861f5b5b35a7ea6efb3222d35c98",
+        "asset_path": "docs/img/bench/E1_calle_nieve_qwen.webp",
+        "asset_url": "https://raw.githubusercontent.com/Mats2208/qwen-image-local/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/img/bench/E1_calle_nieve_qwen.webp",
+        "source_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/docs/index.html",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_evidence_url": "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/README.md#license",
+        "license_scope_quote": "Edits of CC BY-SA benchmark photos are CC BY-SA 4.0.",
+        "attribution": "Original photograph: Mbaro01, Calle Charcas, ciudad de Buenos Aires 4.JPG (CC BY-SA 4.0); AI snow/night adaptation: Mats2208 / qwen-image-local using Qwen-Image-2.1 (CC BY-SA 4.0).",
+        "original_source_url": "https://commons.wikimedia.org/w/index.php?title=File:Calle_Charcas,_ciudad_de_Buenos_Aires_4.JPG&oldid=1110843796",
+        "model_evidence_urls": [
+          "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/bench/make_site.py",
+          "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/bench/suite.json",
+          "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/bench/results/qwen/results.json",
+          "https://github.com/Mats2208/qwen-image-local/blob/f26beee377d1861f5b5b35a7ea6efb3222d35c98/bench/inputs/credits.json"
+        ],
+        "modifications": "Unmodified upstream WebP; CSS display scaling only. Upstream changed original photograph into a snowy night scene. Preserve CC BY-SA 4.0 on this output and any derived thumbnail.",
+        "review": "Pixels inspected 2026-11-11: detailed snowy street, buildings, pedestrians, warm windows. Meaningful actual output, not logo, blank or loading frame. No generation rerun. README/mobile layout not tested.",
+        "sha256": "9ea4e96d2b360dbbad27419dd8d162cee172ac9def211670157313bed4fa740f",
+        "dimensions": [
+          1400,
+          1069
+        ],
+        "bytes": 329094,
+        "translation_status": "AI-translated, not human reviewed"
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed",
+      "display_credit": "Mbaro01 · Mats2208"
+    },
+    {
+      "id": "licensed-gemini-imagen4-valley",
+      "model_family": "gemini",
+      "model": "Imagen / Gemini · 2025",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "VulcanSphere / Wikimedia Commons; Imagen via Gemini app (2025); CC0 1.0.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+      "image_source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+      "image_path": "docs/readme-assets/cases/licensed-gemini-imagen4-valley.webp",
+      "image_sha256": "058741fd6d0d80b9918f29394b4c7cf3e482f05189ae331c53fb83d5ff7a3a50",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp&oldid=1147349755",
+      "local_license_path": "docs/licenses/CC0-1.0.txt",
+      "locales": {
+        "en": {
+          "title": "Illuminated afternoon valley",
+          "summary": "A landscape made in the Gemini app in 2025. The source page says Imagen 4.0, but its upload summary says 3.0; the exact version is uncertain. Not Gemini 4 Carbon.",
+          "alt": "Sunlit granite valley with pine trees, a river and a wooden cabin; original AI mark and signature retained.",
+          "changes": "Original image unchanged; displayed smaller."
+        },
+        "zh-CN": {
+          "title": "午后光照山谷",
+          "summary": "2025 年通过 Gemini 应用创作的风景图。来源页面写 Imagen 4.0，上传摘要却写 3.0，具体版本存疑，并非 Gemini 4 Carbon。",
+          "alt": "阳光照亮花岗岩山谷、松林、河流和木屋；保留原始 AI 标记与签名。",
+          "changes": "保留原图，仅缩小显示。"
+        },
+        "zh-TW": {
+          "title": "午後光照山谷",
+          "summary": "2025 年透過 Gemini 應用程式創作的風景圖。來源頁面寫 Imagen 4.0，上傳摘要卻寫 3.0，具體版本存疑，並非 Gemini 4 Carbon。",
+          "alt": "陽光照亮花崗岩山谷、松林、河流和木屋；保留原始 AI 標記與簽名。",
+          "changes": "保留原圖，僅縮小顯示。"
+        },
+        "ja": {
+          "title": "午後の光に照らされた渓谷",
+          "summary": "2025 年に Gemini アプリで制作した風景画。出典ページは Imagen 4.0、アップロード要約は 3.0 と記載し、正確な版は不明です。Gemini 4 Carbon ではありません。",
+          "alt": "陽光に照らされた花崗岩の渓谷、松林、川、木造の小屋。元の AI マークと署名を保持。",
+          "changes": "原画像は変更せず、表示のみ縮小。"
+        }
+      },
+      "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
+      "source_evidence": {
+        "id": "licensed-gemini-imagen4-valley",
+        "family": "gemini",
+        "model_label": "Imagen via Gemini (2025; version uncertain)",
+        "source_date": "2025-05-24",
+        "source_revision": "1147349755",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+        "license_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp&oldid=1147349755",
+        "asset_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Illuminated_Valley_in_the_Afternoon_(Imagen_4.0).webp",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "creator": "VulcanSphere",
+        "attribution": "VulcanSphere / Wikimedia Commons; Imagen via Gemini app (2025); CC0 1.0.",
+        "model_evidence": "File description, author and source fields on the pinned Commons page. Source-reported generation, not independently rerun.",
+        "modifications": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
+        "review": "Pixels inspected 2026-11-11 at full resolution: actual complete scene, no blank/loading state, no unrelated logo. Distinct from other candidates. README/mobile layout not yet tested.",
+        "translation_status": "AI-translated, not human reviewed",
+        "sha256": "058741fd6d0d80b9918f29394b4c7cf3e482f05189ae331c53fb83d5ff7a3a50",
+        "sha1": "9030b24d515f452c5a1987e8caaf843bd81f9be9",
+        "bytes": 4896530,
+        "dimensions": [
+          2816,
+          1536
+        ],
+        "source_caveat": "Current pinned title, caption, description and source identify Imagen 4.0. Initial upload edit-summary excerpt says Imagen 3.0, apparently an older description; preserve source-reported status rather than claiming independent model authentication."
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed",
+      "display_credit": "VulcanSphere"
+    },
+    {
+      "id": "licensed-grok-aurora-astronaut",
+      "model_family": "grok",
+      "model": "Grok Aurora (2024)",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "VulcanSphere / Wikimedia Commons; Grok Aurora (2024); CC0 1.0.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+      "image_source_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+      "image_path": "docs/readme-assets/cases/licensed-grok-aurora-astronaut.webp",
+      "image_sha256": "554910f2a3c08cce184121c54fadd67367e422587c7ed889b633ea7adc726d07",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp&oldid=1265346265",
+      "local_license_path": "docs/licenses/CC0-1.0.txt",
+      "locales": {
+        "en": {
+          "title": "Astronaut riding a horse on the Moon",
+          "summary": "VulcanSphere reports this text-to-image work was generated with Grok Aurora in December 2024. Not a Grok 4.7 coding or video example.",
+          "alt": "Astronaut in a spacesuit riding a brown horse across a lunar landscape, with Earth on the horizon.",
+          "changes": "Original image unchanged; displayed smaller."
+        },
+        "zh-CN": {
+          "title": "宇航员在月球骑马",
+          "summary": "VulcanSphere 称于 2024 年 12 月使用 Grok Aurora 文生图创作。并非 Grok 4.7 编程或视频案例。",
+          "alt": "身着宇航服的宇航员骑着棕马穿过月球地表，地球出现在地平线上。",
+          "changes": "保留原图，仅缩小显示。"
+        },
+        "zh-TW": {
+          "title": "太空人在月球騎馬",
+          "summary": "VulcanSphere 稱於 2024 年 12 月使用 Grok Aurora 文字生圖創作。並非 Grok 4.7 程式設計或影片案例。",
+          "alt": "身著太空衣的太空人騎著棕馬穿過月球地表，地球出現在地平線上。",
+          "changes": "保留原圖，僅縮小顯示。"
+        },
+        "ja": {
+          "title": "月面で馬に乗る宇宙飛行士",
+          "summary": "VulcanSphere は、2024 年 12 月に Grok Aurora のテキスト画像生成で制作したと報告しています。Grok 4.7 のコーディングや動画の事例ではありません。",
+          "alt": "宇宙服を着た飛行士が月面で茶色の馬に乗り、地平線には地球が見える。",
+          "changes": "原画像は変更せず、表示のみ縮小。"
+        }
+      },
+      "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
+      "source_evidence": {
+        "id": "licensed-grok-aurora-astronaut",
+        "family": "grok",
+        "model_label": "Grok Aurora (2024)",
+        "source_date": "2024-12-10",
+        "source_revision": "1265346265",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+        "license_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Astronaut_Riding_a_Horse_(Grok_Aurora).webp&oldid=1265346265",
+        "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Astronaut_Riding_a_Horse_(Grok_Aurora).webp",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "creator": "VulcanSphere",
+        "attribution": "VulcanSphere / Wikimedia Commons; Grok Aurora (2024); CC0 1.0.",
+        "model_evidence": "File description, author and source fields on the pinned Commons page. Source-reported generation, not independently rerun.",
+        "modifications": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
+        "review": "Pixels inspected 2026-11-11 at full resolution: actual complete scene, no blank/loading state, no unrelated logo. Distinct from other candidates. README/mobile layout not yet tested.",
+        "translation_status": "AI-translated, not human reviewed",
+        "sha256": "554910f2a3c08cce184121c54fadd67367e422587c7ed889b633ea7adc726d07",
+        "sha1": "29c0851344d540e350aa34f083c8e40716fbb8bb",
+        "bytes": 130788,
+        "dimensions": [
+          1024,
+          768
+        ]
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed",
+      "display_credit": "VulcanSphere"
+    },
+    {
+      "id": "licensed-gpt-godot-character",
+      "model_family": "gpt-code",
+      "model": "GPT Image → Tripo → Codex / Godot",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "zhangrlll; original GPT image developed through Tripo AI, a Codex-assisted Blender/Mixamo/GPT Image workflow and Godot. MIT © 2026 zhangrlll.",
+      "display_credit": "zhangrlll",
+      "source_url": "https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.md",
+      "image_source_url": "https://raw.githubusercontent.com/zhangrlll/codex-to-2d-sprites/e7252c23b002bbd131385d5432d9422d87134167/docs/media/godot-poster.jpg",
+      "image_path": "docs/readme-assets/cases/licensed-gpt-godot-character.jpg",
+      "image_sha256": "96014e2a42286a6d82b9f351fcec030d981c5e66c4f005b89e296f99221515a0",
+      "license": "MIT",
+      "license_url": "https://opensource.org/license/mit",
+      "license_evidence_url": "https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.en.md#3-license",
+      "local_license_path": "docs/licenses/zhangrlll-MIT.txt",
+      "locales": {
+        "en": {
+          "title": "GPT-to-Godot character playground",
+          "summary": "A GPT character image becomes a playable Godot character through Tripo AI and a Codex-assisted animation workflow. Exact model versions are unspecified; this is a multi-tool project.",
+          "alt": "A glasses-wearing chibi character stands in a mint checkerboard Godot arena with movement and animation controls.",
+          "changes": "Original source image unchanged; displayed smaller."
+        },
+        "zh-CN": {
+          "title": "从 GPT 角色图到 Godot 动画场景",
+          "summary": "通过 Tripo AI 与 Codex 辅助动画流程，将 GPT 角色图转为可操控的 Godot 角色。具体模型版本未注明，这是多工具协作项目。",
+          "alt": "戴眼镜的 Q 版角色站在薄荷绿棋盘格 Godot 场景中，周围显示移动与动画控制。",
+          "changes": "保留来源原图，仅缩小显示。"
+        },
+        "zh-TW": {
+          "title": "從 GPT 角色圖到 Godot 動畫場景",
+          "summary": "透過 Tripo AI 與 Codex 輔助動畫流程，將 GPT 角色圖轉為可操控的 Godot 角色。具體模型版本未註明，這是多工具協作專案。",
+          "alt": "戴眼鏡的 Q 版角色站在薄荷綠棋盤格 Godot 場景中，周圍顯示移動與動畫控制。",
+          "changes": "保留來源原圖，僅縮小顯示。"
+        },
+        "ja": {
+          "title": "GPT のキャラクター画像から Godot へ",
+          "summary": "GPT のキャラクター画像を、Tripo AI と Codex 支援のアニメーション工程で操作可能な Godot キャラクターに。モデルの詳細バージョンは不明で、複数ツールによる制作です。",
+          "alt": "ミント色の市松模様の Godot ステージに、眼鏡をかけたデフォルメキャラクターが立ち、移動とアニメーションの操作項目が並ぶ。",
+          "changes": "出典の原画像は変更せず、表示のみ縮小。"
+        }
+      },
+      "changes": "Unmodified upstream image; display scaling only.",
+      "source_evidence": {
+        "id": "licensed-gpt-godot-character",
+        "family": "gpt-code",
+        "model_label": "GPT image → Tripo → Codex / Godot; versions unspecified",
+        "source_revision": "e7252c23b002bbd131385d5432d9422d87134167",
+        "asset_path": "docs/media/godot-poster.jpg",
+        "asset_url": "https://raw.githubusercontent.com/zhangrlll/codex-to-2d-sprites/e7252c23b002bbd131385d5432d9422d87134167/docs/media/godot-poster.jpg",
+        "source_url": "https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.md",
+        "license": "MIT",
+        "license_url": "https://opensource.org/license/mit",
+        "license_evidence_url": "https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.en.md#3-license",
+        "license_scope_quote": "The license covers this repository's skill, scripts, documentation, website, and example media to the extent the project author has the right to license them.",
+        "attribution": "zhangrlll; original GPT image developed through Tripo AI, a Codex-assisted Blender/Mixamo/GPT Image workflow and Godot. MIT © 2026 zhangrlll.",
+        "model_evidence_urls": [
+          "https://github.com/zhangrlll/codex-to-2d-sprites/blob/e7252c23b002bbd131385d5432d9422d87134167/README.en.md#case-study-from-a-gpt-image-to-a-controllable-godot-character"
+        ],
+        "modifications": "Unmodified upstream image; display scaling only.",
+        "review": "Pixels inspected 2026-11-11: original 1152×720 Godot scene poster, bright mint arena and visible character, not a logo or empty frame. Game UI text is small at thumbnail sizes, but character and scene remain recognizable. No generation rerun; final README layout not tested.",
+        "sha256": "96014e2a42286a6d82b9f351fcec030d981c5e66c4f005b89e296f99221515a0",
+        "dimensions": [
+          1152,
+          720
+        ],
+        "bytes": 53638,
+        "translation_status": "AI-translated, not human reviewed"
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed"
+    },
+    {
+      "id": "licensed-gpt-codex-launch-scene",
+      "model_family": "gpt-code",
+      "model": "Codex (GPT-6 Astra) + Imagegen",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "Dan Lee-Odinson; original game illustration under his human art direction, prepared by Codex (GPT-6 Astra) using OpenAI built-in Imagegen. Separate image model unspecified. CC BY 4.0 © 2026 Dan Lee-Odinson.",
+      "display_credit": "Dan Lee-Odinson",
+      "source_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/README.md",
+      "image_source_url": "https://raw.githubusercontent.com/dan-lee-odinson/failure-is-not-an-option/46a3922923b77a019b9c2729121501446b0595eb/assets/fno_gemini_prologue_launch_plate_v001.png",
+      "image_path": "docs/readme-assets/cases/licensed-gpt-codex-launch-scene.png",
+      "image_sha256": "65ef6fdc3947d11de49a65f481c17d28738f8de59b9b1f61584583677827fe36",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/LICENSE-CONTENT",
+      "local_license_path": "docs/licenses/Dan-Lee-Odinson-LICENSE-CONTENT.txt",
+      "locales": {
+        "en": {
+          "title": "Failure is Not an Option: launch scene",
+          "summary": "Illustrated game art prepared by Codex (GPT-6 Astra) using built-in Imagegen under Dan Lee-Odinson’s direction. The image model is unspecified; Claude engineers the game.",
+          "alt": "A Gemini-era rocket launches beside a gantry, with bright exhaust and billowing clouds against a blue sky.",
+          "changes": "Original source image unchanged; displayed smaller."
+        },
+        "zh-CN": {
+          "title": "Failure is Not an Option：发射场景",
+          "summary": "Dan Lee-Odinson 指导下，Codex（GPT-6 Astra）使用内置 Imagegen 制作的游戏插画。图像模型未注明；游戏工程由 Claude 完成。",
+          "alt": "双子座计划时代的火箭从发射塔旁升空，蓝天下可见明亮尾焰与翻涌烟云。",
+          "changes": "保留来源原图，仅缩小显示。"
+        },
+        "zh-TW": {
+          "title": "Failure is Not an Option：發射場景",
+          "summary": "Dan Lee-Odinson 指導下，Codex（GPT-6 Astra）使用內建 Imagegen 製作的遊戲插畫。影像模型未註明；遊戲工程由 Claude 完成。",
+          "alt": "雙子座計畫時代的火箭從發射塔旁升空，藍天下可見明亮尾焰與翻湧煙雲。",
+          "changes": "保留來源原圖，僅縮小顯示。"
+        },
+        "ja": {
+          "title": "Failure is Not an Option：打ち上げシーン",
+          "summary": "Dan Lee-Odinson の監督のもと、Codex（GPT-6 Astra）が内蔵 Imagegen を使って制作したゲーム用イラスト。画像モデルは不明で、ゲームの実装は Claude が担当。",
+          "alt": "青空の下、ジェミニ計画時代のロケットが発射塔の横から上昇し、明るい噴炎と煙が広がる。",
+          "changes": "出典の原画像は変更せず、表示のみ縮小。"
+        }
+      },
+      "changes": "Unmodified upstream image; display scaling only.",
+      "source_evidence": {
+        "id": "licensed-gpt-codex-launch-scene",
+        "family": "gpt-code",
+        "model_label": "Codex (GPT-6 Astra) + built-in Imagegen; image model unspecified",
+        "source_revision": "46a3922923b77a019b9c2729121501446b0595eb",
+        "asset_path": "assets/fno_gemini_prologue_launch_plate_v001.png",
+        "asset_url": "https://raw.githubusercontent.com/dan-lee-odinson/failure-is-not-an-option/46a3922923b77a019b9c2729121501446b0595eb/assets/fno_gemini_prologue_launch_plate_v001.png",
+        "source_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/README.md",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_evidence_url": "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/LICENSE-CONTENT",
+        "license_scope_quote": "This file covers the game content under content/ and the assets under assets/ (mission text, dialogue, evidence, procedures, the fiction register, the asset manifest, the original artwork, the music and the generated placeholder images).",
+        "attribution": "Dan Lee-Odinson; original game illustration under his human art direction, prepared by Codex (GPT-6 Astra) using OpenAI built-in Imagegen. Separate image model unspecified. CC BY 4.0 © 2026 Dan Lee-Odinson.",
+        "model_evidence_urls": [
+          "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/README.md#attribution",
+          "https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/46a3922923b77a019b9c2729121501446b0595eb/assets/manifest.json"
+        ],
+        "modifications": "Unmodified upstream image; display scaling only.",
+        "review": "Pixels inspected 2026-11-11: 1920×1080 illustrated rocket launch, blue sky, bright exhaust, clean visible silhouette. Intentional empty sky at left reserves space for narrative text. Actual published game asset; not documentary photography or a new reconstruction. No generation rerun; final README layout not tested.",
+        "sha256": "65ef6fdc3947d11de49a65f481c17d28738f8de59b9b1f61584583677827fe36",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 3969831,
+        "translation_status": "AI-translated, not human reviewed"
+      },
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed"
+    },
+    {
+      "id": "licensed-deepseek-crowned-frog",
+      "model_family": "deepseek",
+      "model": "DeepSeek V4.1 Flash · 2026-09-27",
+      "catalog_membership": "separate_source_spotlight",
+      "credit": "FROGS benchmark, Jay Mollica, https://frogs.vaguespac.es",
+      "display_credit": "Jay Mollica · FROGS",
+      "source_url": "https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/results/2026-09-27/svg/deepseek--deepseek-v4.1-flash--20260927-193108-7af3b.svg",
+      "image_source_url": "https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/results/2026-09-27/svg/deepseek--deepseek-v4.1-flash--20260927-193108-7af3b.svg",
+      "image_path": "docs/readme-assets/cases/licensed-deepseek-crowned-frog.png",
+      "image_sha256": "e03d25f68b6d533a2045465e50a1f9dd66448cdad50c30d5090575526bc64737",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/LICENSE-DATA",
+      "local_license_path": "docs/licenses/FROGS-LICENSE-DATA.txt",
+      "changes": "Original SVG unchanged. PNG rasterized using Inkscape at 800px width; no artistic changes. Source publisher sanitizes model output before publishing.",
+      "translation_status": "AI-translated; not author-approved or independently human-reviewed",
+      "source_evidence": {
+        "repository": "jaymollica/frogs",
+        "revision": "79369f4dd2a543009fe93d6d3b54327ab0e8817e",
+        "path": "results/2026-09-27/svg/deepseek--deepseek-v4.1-flash--20260927-193108-7af3b.svg",
+        "svg_sha256": "f7d138682a6959463db2e1c6108a9f1d945383a0b1bd6e074f43682e089fa13b",
+        "png_sha256": "e03d25f68b6d533a2045465e50a1f9dd66448cdad50c30d5090575526bc64737",
+        "credit": "FROGS benchmark, Jay Mollica, https://frogs.vaguespac.es",
+        "license": "CC BY 4.0",
+        "license_evidence": "https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/LICENSE-DATA",
+        "row": {
+          "run_id": "deepseek--deepseek-v4.1-flash--20260927-193108-7af3b",
+          "model": "deepseek/deepseek-v4.1-flash",
+          "provider": "DeepSeek",
+          "release": "2026-09-27",
+          "month": "2026-09",
+          "variant": "habsburg",
+          "run_index": 1,
+          "timestamp": "2026-09-27T19:31:08Z",
+          "prompt": "Generate an SVG of a frog with a Habsburg jaw. Reply with only the SVG markup — no explanation, no markdown fences.",
+          "system_prompt": null,
+          "temperature": null,
+          "top_p": null,
+          "max_tokens": null,
+          "seed": null,
+          "produced_svg": true,
+          "svg_bytes": 5145,
+          "duration_s": 33.605,
+          "prompt_tokens": null,
+          "completion_tokens": 14029,
+          "comment_count": 20
+        },
+        "modification": "Original SVG unchanged. PNG rasterized using Inkscape at 800px width; no artistic changes. Source publisher sanitizes model output before publishing.",
+        "visual_review": "Bright green frog with gold crown, large eyes and pronounced white lower jaw, pale aqua background. Full subject recognizable at thumbnail size. One representative work only, not multiple near-duplicate frogs.",
+        "provenance_caveat": "Publisher-reported model label, not independently regenerated. Version is DeepSeek V4.1 Flash, not Flash 1017. Provider default sampling; raw API response unavailable. Provider terms may independently apply.",
+        "model_evidence_url": "https://github.com/jaymollica/frogs/blob/79369f4dd2a543009fe93d6d3b54327ab0e8817e/results/2026-09-27/runs.jsonl"
+      },
+      "locales": {
+        "en": {
+          "title": "FROGS: a crowned SVG frog",
+          "summary": "Source-published DeepSeek V4.1 Flash SVG benchmark result, not Flash 1017. The source frame cuts off the lower feet; the crowned face and jaw remain visible.",
+          "alt": "Bright green crowned frog with large eyes and a pronounced white lower jaw against pale aqua.",
+          "changes": "Source SVG rasterized to PNG at 800px using Inkscape; no artistic changes. Source sanitization retained."
+        },
+        "zh-CN": {
+          "title": "FROGS：戴王冠的 SVG 青蛙",
+          "summary": "来源发布的 DeepSeek V4.1 Flash SVG 测试结果，并非 Flash 1017。原画面下方脚部被截断，戴王冠的面部与下颌清晰可见。",
+          "alt": "浅青色背景上，鲜绿色青蛙戴着金色王冠，眼睛硕大，白色下颌突出。",
+          "changes": "使用 Inkscape 将来源 SVG 栅格化为 800px PNG，未改变画面内容，保留来源的清理处理。"
+        },
+        "zh-TW": {
+          "title": "FROGS：戴王冠的 SVG 青蛙",
+          "summary": "來源發布的 DeepSeek V4.1 Flash SVG 測試結果，並非 Flash 1017。原畫面下方腳部被截斷，戴王冠的面部與下顎清晰可見。",
+          "alt": "淺青色背景上，鮮綠色青蛙戴著金色王冠，眼睛碩大，白色下顎突出。",
+          "changes": "使用 Inkscape 將來源 SVG 點陣化為 800px PNG，未改變畫面內容，保留來源的清理處理。"
+        },
+        "ja": {
+          "title": "FROGS：王冠をかぶった SVG のカエル",
+          "summary": "出典が公開した DeepSeek V4.1 Flash の SVG ベンチマーク結果。Flash 1017 ではありません。元の構図では足先が切れていますが、王冠、顔、顎は明瞭です。",
+          "alt": "淡い水色の背景に、金色の王冠、大きな目、突き出た白い下顎を持つ鮮やかな緑のカエル。",
+          "changes": "出典の SVG を Inkscape で幅800pxの PNG に変換。絵の変更はなく、公開元のサニタイズ処理を維持。"
+        }
+      }
+    }
+  ]
+}
