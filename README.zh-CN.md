@@ -19,6 +19,8 @@
 <a id="examples"></a>
 ## 先看 Claude 的真实作品
 
+**[用大图浏览六个模型家族的授权作品 →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.zh-CN.html)**
+
 **Claude Opus 5.5** · Vincentwei1021 · 源项目 **3,434 GitHub stars**（2026-11-11 快照）。
 
 **ISOPOLIS · 让城市生长**
@@ -179,7 +181,7 @@
 
 按来源日期倒序列出五条，不代表入库时间或质量排名。同日按案例 ID 排序；无日期案例仍保留在完整目录。
 
-截至 2026-11-11 尚无可比热度快照；这里按来源日期排列，不是热度榜。
+截至 2026-11-12 尚无可比热度快照；这里按来源日期排列，不是热度榜。
 
 - **2026-11-11 · GPT Sol** · **Let Fable take Flight：HTML／Three.js 程序化动画（GPT-6.1 Sol Max）** · 署名: @YFeng2022（LanFeng） · [案例](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#zh-cn) · [原帖](https://x.com/YFeng2022/status/2120324811549225082)
 - **2026-11-11 · Gemini** · **单个 HTML 文件中的交互式三维纽约巡游（Three.js）** · 署名: @StatsWire · [案例](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#zh-cn) · [原帖](https://x.com/StatsWire/status/2120344850071540152)
@@ -216,11 +218,11 @@
 <a id="type-gif"></a>
 - [动图 / GIF](docs/showcase-index.md#gif) · **0**
 <a id="type-animation"></a>
-- [动画 / 动效](docs/showcase-index.md#animation) · **114**
+- [动画 / 动效](docs/showcase-index.md#animation) · **107**
 <a id="type-html-3d"></a>
-- [HTML / 3D 场景](docs/showcase-index.md#html-3d) · **69**
+- [HTML / 3D 场景](docs/showcase-index.md#html-3d) · **66**
 <a id="type-minigame"></a>
-- [小游戏](docs/showcase-index.md#minigame) · **0**
+- [小游戏](docs/showcase-index.md#minigame) · **10**
 <a id="type-image"></a>
 - [图像](docs/showcase-index.md#image) · **0**
 

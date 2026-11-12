@@ -41,5 +41,14 @@ jobs:
       - name: Verify catalog, local media, generated files, and browser playback
         env:
           RUN_BROWSER_TESTS: '1'
+          GALLERY_SCREENSHOTS: ${{ runner.temp }}/gallery-screenshots
           NODE_PATH: ${{ runner.temp }}/showcase-browser/node_modules
         run: python tools/verify.py
+      - name: Keep rendered gallery review evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: licensed-gallery-render-review
+          path: ${{ runner.temp }}/gallery-screenshots
+          if-no-files-found: warn
+          retention-days: 7

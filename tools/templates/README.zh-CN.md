@@ -19,6 +19,8 @@
 <a id="examples"></a>
 ## 先看 Claude 的真实作品
 
+**[用大图浏览六个模型家族的授权作品 →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.zh-CN.html)**
+
 ${source_spotlights}
 
 [Claude](#claude) · [Gemini](#gemini) · [GPT Sol](#gpt-code) · [Grok](#grok) · [Qwen](#qwen) · [DeepSeek](#deepseek)

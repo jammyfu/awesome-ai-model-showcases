@@ -4769,7 +4769,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "",
-      "work_type": "html-3d",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -6424,7 +6424,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "via 飞书 AIGCreative wiki",
-      "work_type": "animation",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -8800,7 +8800,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "via 飞书 AIGCreative wiki",
-      "work_type": "animation",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -9160,7 +9160,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "via 飞书 AIGCreative wiki",
-      "work_type": "animation",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -9592,7 +9592,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "via 飞书 AIGCreative wiki",
-      "work_type": "animation",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -9664,7 +9664,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "via 飞书 AIGCreative wiki",
-      "work_type": "animation",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -12616,7 +12616,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "missing",
       "image_note": "",
-      "work_type": "html-3d",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -12904,7 +12904,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "via fengyiqicoder/awesome-fable-5.2",
-      "work_type": "html-3d",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -13840,7 +13840,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "via fengyiqicoder/awesome-fable-5.2",
-      "work_type": "animation",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -14630,7 +14630,7 @@ window.COMMUNITY_CASES = {
       "thumb_public_allowed": false,
       "image_download": "saved",
       "image_note": "",
-      "work_type": "animation",
+      "work_type": "minigame",
       "video": "",
       "video_public_allowed": false,
       "translations": {
@@ -21670,7 +21670,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "",
-        "work_type": "html-3d",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -23325,7 +23325,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "via 飞书 AIGCreative wiki",
-        "work_type": "animation",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -25701,7 +25701,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "via 飞书 AIGCreative wiki",
-        "work_type": "animation",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -26061,7 +26061,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "via 飞书 AIGCreative wiki",
-        "work_type": "animation",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -26493,7 +26493,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "via 飞书 AIGCreative wiki",
-        "work_type": "animation",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -26565,7 +26565,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "via 飞书 AIGCreative wiki",
-        "work_type": "animation",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -29517,7 +29517,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "missing",
         "image_note": "",
-        "work_type": "html-3d",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -29805,7 +29805,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "via fengyiqicoder/awesome-fable-5.2",
-        "work_type": "html-3d",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -30741,7 +30741,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "via fengyiqicoder/awesome-fable-5.2",
-        "work_type": "animation",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {
@@ -31531,7 +31531,7 @@ window.COMMUNITY_CASES = {
         "thumb_public_allowed": false,
         "image_download": "saved",
         "image_note": "",
-        "work_type": "animation",
+        "work_type": "minigame",
         "video": "",
         "video_public_allowed": false,
         "translations": {

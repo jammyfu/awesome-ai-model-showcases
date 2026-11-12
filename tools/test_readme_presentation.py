@@ -4,8 +4,10 @@ import json
 import re
 import unittest
 from pathlib import Path
+from datetime import datetime
 from urllib.parse import unquote, urlsplit
 from readme_presentation import DISCOVERY_ORDER, HOMEPAGE_FAMILIES, VERSION_ORDER, _date_desc, _full_day, family_sections, latest_section, main_case_rows, version_anchor, source_spotlights
+from readme_presentation import work_type_of, type_sections, TYPE_ORDER
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ('en', 'zh-CN', 'zh-TW', 'ja')
@@ -203,6 +205,83 @@ class ReadmePresentationTests(unittest.TestCase):
                 self.assertTrue(target.exists(), (lang, url))
                 if parts.fragment and target.suffix == '.md':
                     self.assertIn(unquote(parts.fragment), anchors(target.read_text()), (lang, url))
+
+
+class WorkTypeEvidenceTests(unittest.TestCase):
+    """Reviewed gameplay stays discoverable without matching every 'game' word."""
+
+    GAME_IDS = (
+        'x-evanmilenko-fable52-dragon-game',
+        'x-deryatr-gemini-carbon-theme-park',
+        'x-kieranklaassen-fable52-first-crush',
+        'x-felixrieseberg-fable52-352596',
+        'x-theo-fable52-fishslop-fable-opus',
+        'x-hammermt-fable52-vibe-check-delivery',
+        'x-mattshumer-fable52-mirror-earth',
+        'x-felixrieseberg-fable52-three-games-saltline-tidew',
+        'x-higgsfield-ai-fable52-vowlorn-rpg',
+        'x-sholtodouglas-fable52-fps',
+    )
+
+    @classmethod
+    def setUpClass(cls):
+        cls.source_rows = json.loads((ROOT / 'playbooks/research/frontier-models-inventory.json').read_text())['cases']
+        cls.by_id = {row['id']: row for row in cls.source_rows}
+
+    def test_reviewed_games_reach_the_type_navigation_in_every_locale(self):
+        for cid in self.GAME_IDS:
+            with self.subTest(case=cid):
+                self.assertEqual(work_type_of(self.by_id[cid]), 'minigame')
+        rows = [dict(row, work_type=work_type_of(row)) for row in self.source_rows]
+        for lang in LOCALES:
+            self.assertIn('](docs/showcase-index.md#minigame) · **10**', type_sections(rows, lang))
+
+    def test_type_overrides_are_unique_and_bound_to_reviewed_source_fields(self):
+        path = ROOT / 'data/work-type-overrides.json'
+        self.assertTrue(path.exists(), 'Game type overrides need a reviewable evidence manifest')
+        data = json.loads(path.read_text())
+        entries = data['cases']
+        self.assertEqual(len(entries), len({row['case_id'] for row in entries}))
+        self.assertEqual({row['case_id'] for row in entries}, set(self.GAME_IDS))
+        for entry in entries:
+            source = self.by_id[entry['case_id']]
+            for field in ('source_url', 'title', 'pipeline'):
+                self.assertEqual(entry[field], source[field], (entry['case_id'], field))
+            self.assertIn(entry['work_type'], TYPE_ORDER)
+            self.assertEqual(entry['evidence_status'], 'source_reported_not_playtested')
+            self.assertTrue(entry['reason'].strip())
+            self.assertIsNotNone(datetime.fromisoformat(entry['reviewed_at'].replace('Z', '+00:00')).tzinfo)
+
+    def test_changed_source_identity_or_description_requires_type_rereview(self):
+        source = self.by_id['x-evanmilenko-fable52-dragon-game']
+        for field in ('source_url', 'title', 'pipeline'):
+            with self.subTest(field=field), self.assertRaisesRegex(ValueError, 'Stale work-type evidence'):
+                work_type_of(dict(source, **{field: 'changed source material'}))
+
+    def test_unreviewed_keyword_matches_do_not_become_games(self):
+        examples = (
+            ({'id': 'unreviewed', 'title': 'Game logo', 'media_kind': 'png'}, 'image'),
+            ({'id': 'unreviewed', 'title': '60fps motion video', 'media_kind': 'video'}, 'animation'),
+            ({'id': 'unreviewed', 'title': 'Three.js game-like scene', 'media_kind': 'mp4'}, 'html-3d'),
+        )
+        for row, expected in examples:
+            self.assertEqual(work_type_of(row), expected)
+
+    def test_sorting_evidence_does_not_turn_unknown_heat_into_zero(self):
+        self.assertIn('ordering_evidence', DISCOVERY_ORDER)
+        required = {'topic_id', 'priority_basis', 'source', 'observed_at', 'window', 'metric', 'value',
+                    'heat_status', 'group_order', 'confidence', 'reason', 'tie_break'}
+        for scope, entry in DISCOVERY_ORDER['ordering_evidence'].items():
+            self.assertTrue(required <= entry.keys(), scope)
+            self.assertEqual(entry['priority_basis'], 'editorial_priority', scope)
+            self.assertEqual(entry['heat_status'], 'unknown', scope)
+            for field in ('window', 'metric', 'value'):
+                self.assertIsNone(entry[field], (scope, field))
+            self.assertIsNotNone(datetime.fromisoformat(entry['observed_at'].replace('Z', '+00:00')).tzinfo)
+            for source in entry['source']:
+                self.assertTrue((ROOT / source).is_file(), (scope, source))
+            for field in ('group_order', 'confidence', 'reason', 'tie_break'):
+                self.assertTrue(entry[field].strip(), (scope, field))
 
 
 if __name__ == '__main__':

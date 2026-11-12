@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "source_inventory": "playbooks/research/frontier-models-inventory.json",
+  "source_revision": "01bf3e351e6c9728f857e19609647c203dd06b1a",
+  "review_scope": "Reviewed the exact existing inventory title, pipeline, source URL and cited provenance. These labels describe the source-reported work, not a fresh source-site verification or an independent playtest. Unknown media permission and original model claims remain unchanged.",
+  "cases": [
+    {
+      "case_id": "x-evanmilenko-fable52-dragon-game",
+      "work_type": "minigame",
+      "source_url": "https://x.com/EvanMilenko/status/2120322640048959503",
+      "title": "Dragon game built from scratch in Three.js",
+      "pipeline": "Three.js dragon game · gameplay capture",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The recorded title and pipeline explicitly describe a dragon game and gameplay capture; Three.js describes its implementation, not the work type."
+    },
+    {
+      "case_id": "x-deryatr-gemini-carbon-theme-park",
+      "work_type": "minigame",
+      "source_url": "https://x.com/DeryaTR_/status/2120393810941456710",
+      "title": "Theme Park HD pixel-art remake (playable)",
+      "pipeline": "HTML pixel-art remake · playable at https://theme-park-hd.vercel.app · recorded video",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The recorded title labels the Theme Park remake playable, and the pipeline preserves a playable URL; the MP4 is a recording of a game."
+    },
+    {
+      "case_id": "x-kieranklaassen-fable52-first-crush",
+      "work_type": "minigame",
+      "source_url": "https://x.com/kieranklaassen/status/2119871673294037280",
+      "title": "First Crush，把葡萄酒酿造步骤变成游戏",
+      "pipeline": "X post captured as video or screen recording",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The source inventory describes First Crush as turning winemaking steps into a game; the educational topic does not change its game format."
+    },
+    {
+      "case_id": "x-felixrieseberg-fable52-352596",
+      "work_type": "minigame",
+      "source_url": "https://x.com/felixrieseberg/status/2119867839033352596",
+      "title": "保留首版的第一人称射击等游戏样例",
+      "pipeline": "X post (photos or page; no video on the original) · HTML",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The source inventory explicitly identifies first-person shooter/game examples and cites a web-game/prototype category. This remains one catalog entry, not a count of its component games."
+    },
+    {
+      "case_id": "x-theo-fable52-fishslop-fable-opus",
+      "work_type": "minigame",
+      "source_url": "https://x.com/theo/status/2119926277801144695",
+      "title": "Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照",
+      "pipeline": "X post captured as video or screen recording",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The recorded title identifies two versions of the same aquarium game. The comparison remains one record and retains its existing model evidence."
+    },
+    {
+      "case_id": "x-hammermt-fable52-vibe-check-delivery",
+      "work_type": "minigame",
+      "source_url": "https://x.com/hammer_mt/status/2119906441389826445",
+      "title": "Vibe Check Delivery，三个模型做同题送报游戏",
+      "pipeline": "X post (photos or page; no video on the original) · HTML",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The inventory title identifies a newspaper-delivery game and its cited category is browser games. A source-page media format does not make the work an animation."
+    },
+    {
+      "case_id": "x-mattshumer-fable52-mirror-earth",
+      "work_type": "minigame",
+      "source_url": "https://x.com/mattshumer_/status/2119877065701036047",
+      "title": "Mirror Earth，把真实地球当作可破坏的游戏地图",
+      "pipeline": "X post captured as video or screen recording · HTML",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The recorded title describes a destructible Earth game map and the cited category is browser games; this is a source-reported game, not an independently tested build."
+    },
+    {
+      "case_id": "x-felixrieseberg-fable52-three-games-saltline-tidew",
+      "work_type": "minigame",
+      "source_url": "https://x.com/vineerpasam/status/2119955306096857145",
+      "title": "Three Games 合集页（Saltline / 钟表匠之心 / Tidewright）",
+      "pipeline": "Three.js / HTML or Blender scene captured as video on X",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The recorded title explicitly identifies a three-game collection. It remains one catalog record; no individual game or author attribution is invented."
+    },
+    {
+      "case_id": "x-higgsfield-ai-fable52-vowlorn-rpg",
+      "work_type": "minigame",
+      "source_url": "https://x.com/higgsfield_ai/status/2119997122896601269",
+      "title": "VOWLORN 纯代码暗黑 RPG",
+      "pipeline": "Three.js / HTML or Blender scene captured as video on X",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The recorded title explicitly identifies VOWLORN as an RPG. The generic Three.js/HTML/Blender pipeline does not override that source-reported format."
+    },
+    {
+      "case_id": "x-sholtodouglas-fable52-fps",
+      "work_type": "minigame",
+      "source_url": "https://x.com/_sholtodouglas/status/2119935331499925557",
+      "title": "带传送门的竞技场 FPS，办公室里对战",
+      "pipeline": "Code-made animation captured as video on X",
+      "evidence_status": "source_reported_not_playtested",
+      "reviewed_at": "2026-11-12T00:26:05Z",
+      "reason": "The recorded title identifies an arena FPS with portals and office combat. The video describes a game demonstration, not a generic motion clip."
+    }
+  ]
+}

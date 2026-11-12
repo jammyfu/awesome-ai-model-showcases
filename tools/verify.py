@@ -44,6 +44,7 @@ def main() -> int:
             "docs/data/public-media.js",
             "docs/index.html",
             "docs/readme-preview-credits.md",
+            "docs/licensed-gallery.*.html",
             "README.md",
             "README.zh-CN.md",
             "README.zh-TW.md",
@@ -73,6 +74,7 @@ def main() -> int:
     run([py, str(ROOT / "tools/test_archive_guards.py")])
     run([py, str(ROOT / "tools/test_catalog_expansion.py")])
     run([py, str(ROOT / "tools/test_readme_presentation.py")])
+    run([py, str(ROOT / "tools/test_licensed_gallery.py")])
     run([py, str(ROOT / "tools/test_public_media.py")])
     run([py, str(ROOT / "tools/test_public_catalog.py")])
     run([py, str(ROOT / "tools/test_case_media_pages.py")])

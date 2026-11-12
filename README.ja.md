@@ -19,6 +19,8 @@
 <a id="examples"></a>
 ## Claude が作った実際の作品
 
+**[6つのモデル系列の許諾済み作品を大きく見る →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.ja.html)**
+
 **Claude Opus 5.5** · Vincentwei1021 · 元プロジェクトの **GitHub stars は 3,434**（2026-11-11 確認）。
 
 **ISOPOLIS · 街が育つ**
@@ -179,7 +181,7 @@
 
 出典の日付が新しい 5 件です。収録順や品質ランキングではありません。同日は事例 ID 順とし、日付のない事例も全目録に残します。
 
-2026-11-11 時点で比較可能な人気指標は未収集です。ここは出典の日付順で、人気ランキングではありません。
+2026-11-12 時点で比較可能な人気指標は未収集です。ここは出典の日付順で、人気ランキングではありません。
 
 - **2026-11-11 · GPT Sol** · **Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）** · クレジット: @YFeng2022（LanFeng） · [ケース](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#ja) · [原投稿](https://x.com/YFeng2022/status/2120324811549225082)
 - **2026-11-11 · Gemini** · **単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）** · クレジット: @StatsWire · [ケース](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#ja) · [原投稿](https://x.com/StatsWire/status/2120344850071540152)
@@ -216,11 +218,11 @@ Claude Mythos 5.2 と Qwen 3.8 Flash Next は一覧に名前がありますが�
 <a id="type-gif"></a>
 - [GIF](docs/showcase-index.md#gif) · **0**
 <a id="type-animation"></a>
-- [アニメーション](docs/showcase-index.md#animation) · **114**
+- [アニメーション](docs/showcase-index.md#animation) · **107**
 <a id="type-html-3d"></a>
-- [HTML / 3D](docs/showcase-index.md#html-3d) · **69**
+- [HTML / 3D](docs/showcase-index.md#html-3d) · **66**
 <a id="type-minigame"></a>
-- [ミニゲーム](docs/showcase-index.md#minigame) · **0**
+- [ミニゲーム](docs/showcase-index.md#minigame) · **10**
 <a id="type-image"></a>
 - [画像](docs/showcase-index.md#image) · **0**
 

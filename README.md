@@ -19,6 +19,8 @@
 <a id="examples"></a>
 ## See what Claude made
 
+**[Explore all six families in large images →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.en.html)**
+
 **Claude Opus 5.5** · Vincentwei1021 · **3,434 GitHub stars** for the source project (2026-11-11).
 
 **ISOPOLIS · Let the City Grow**
@@ -179,7 +181,7 @@ Version order is editorial: important current source-labeled versions first, the
 
 Five recent source-dated cases, not an ingestion log or ranking. Same-day ties use case ID; undated cases remain in the full catalog.
 
-No comparable popularity snapshot is recorded as of 2026-11-11; this is source-date order, not a popularity ranking.
+No comparable popularity snapshot is recorded as of 2026-11-12; this is source-date order, not a popularity ranking.
 
 - **2026-11-11 · GPT Sol** · **Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)** · Credit: @YFeng2022（LanFeng） · [Case](docs/translations/x-yfeng-gpt61-sol-fable-take-flight.md#en) · [Post](https://x.com/YFeng2022/status/2120324811549225082)
 - **2026-11-11 · Gemini** · **Interactive 3D NYC cruiser tour in one HTML file (Three.js)** · Credit: @StatsWire · [Case](docs/translations/x-statswire-gemini-carbon-nyc-cruiser.md#en) · [Post](https://x.com/StatsWire/status/2120344850071540152)
@@ -216,11 +218,11 @@ Claude Mythos 5.2 and Qwen 3.8 Flash Next are mentioned in the inventory without
 <a id="type-gif"></a>
 - [GIF](docs/showcase-index.md#gif) · **0**
 <a id="type-animation"></a>
-- [Animation](docs/showcase-index.md#animation) · **114**
+- [Animation](docs/showcase-index.md#animation) · **107**
 <a id="type-html-3d"></a>
-- [HTML / 3D scene](docs/showcase-index.md#html-3d) · **69**
+- [HTML / 3D scene](docs/showcase-index.md#html-3d) · **66**
 <a id="type-minigame"></a>
-- [Mini-game](docs/showcase-index.md#minigame) · **0**
+- [Mini-game](docs/showcase-index.md#minigame) · **10**
 <a id="type-image"></a>
 - [Image](docs/showcase-index.md#image) · **0**
 

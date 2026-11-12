@@ -1219,6 +1219,8 @@ def main() -> None:
 
     write_site_spotlight()
     write_preview_credits()
+    from render_licensed_gallery import write_licensed_gallery
+    write_licensed_gallery()
 
     llms = f"""# Awesome AI Model Showcases
 
@@ -1235,6 +1237,7 @@ A sourced catalog of real production cases from the latest large models: animati
 Homepage total {c['main_collected']} frontier-family cases: Claude {c['family_claude']}, Gemini {c['family_gemini']}, GPT-6.2 Sol {c['family_gpt-code']}, Grok {c['family_grok']}, Qwen {c['family_qwen']}, DeepSeek {c['family_deepseek']}. GPT Image subproject {c['gpt_image']} (X {c['x_author_claim_25']} + web GIF {c['web_gif_12']} + in-repo {c['already_in_repo']} + game author-claim {c['game_author_claim']}), listed only under collections/gpt-image-gifs/. GPT-6.2 Sol is the owner catalog label; OpenAI public pages still list GPT-6.1 Sol. Claude Mythos 5.2 is named in the inventory and has no separate sourced case. Pending {c['pending']}. Prompt-only {c['prompt_only']}. Excluded {c['excluded']}. Appendix {c['appendix']}. Seeds {c['repo_seeds']}. Officially verified 2.6 game outputs: 0. One JSON source: docs/data/community-cases.json. English, Simplified Chinese, Traditional Chinese, and Japanese READMEs share the homepage inventory. Showcase collection sites: playbooks/research/showcase-collection-sites.json. Related GitHub projects: docs/related-projects.md. Case index: docs/showcase-index.md and data/showcase-index.json. Failed video downloads: docs/missing-videos.md.
 
 ## What can I do with it?
+Inspect eight separately licensed source works at licensed-gallery.en.html (also zh-CN, zh-TW and ja), with large still images, work-type labels, source and permission links. These supplemental works do not increase the main catalog count.
 Browse https://jammyfu.github.io/awesome-ai-model-showcases/?lang=en (EN) or ?lang=zh (中文). Open local media and published prompts or labeled excerpts under docs/cases/<id>/. Follow source licenses and provenance notes. Original URLs are citations. Submit cases. Do not treat SVG concept covers or prompt_adaptation as originals.
 
 ## What can it not do?

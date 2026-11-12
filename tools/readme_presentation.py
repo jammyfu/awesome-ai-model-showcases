@@ -4,6 +4,7 @@ from __future__ import annotations
 import os
 import json
 from datetime import date
+from functools import lru_cache
 from html import escape
 from pathlib import Path
 from string import Template
@@ -244,9 +245,29 @@ def version_anchor(version: str) -> str:
     return "ver-" + version.replace(".", "-")
 
 
+@lru_cache(maxsize=1)
+def _work_type_overrides() -> dict[str, dict]:
+    """Load reviewed exceptions to the legacy media-format classifier."""
+    path = TEMPLATES.parent.parent / "data/work-type-overrides.json"
+    entries = json.loads(path.read_text(encoding="utf-8"))["cases"]
+    found = {}
+    for entry in entries:
+        cid = entry["case_id"]
+        if cid in found or entry["work_type"] not in TYPE_ORDER:
+            raise ValueError(f"Invalid or duplicate work-type evidence: {cid}")
+        found[cid] = entry
+    return found
+
+
 def work_type_of(row: dict) -> str:
-    """Classify a collected case from its recorded kind and pipeline. Not a new claim."""
+    """Classify the source-reported work, without claiming a successful playtest."""
     cid = row.get("id") or ""
+    override = _work_type_overrides().get(cid)
+    if override:
+        for field in ("source_url", "title", "pipeline"):
+            if row.get(field) != override[field]:
+                raise ValueError(f"Stale work-type evidence for {cid}: {field}; review the source before reclassifying")
+        return override["work_type"]
     if cid.startswith("game-"):
         return "minigame"
     kind = str(row.get("media_kind") or "").lower()

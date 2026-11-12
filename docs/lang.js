@@ -27,6 +27,7 @@
       navIdeas: 'Appendix · playbooks',
       navPopular: 'Appendix · popular',
       eyebrow: 'Animations · interactive demos · games',
+      licensedGallery: 'Large licensed previews →',
       heroTitle: 'Real cases from the public web.',
       heroLead: 'Find AI-made animations, interactive demos and games. See the work, then explore its creator, prompt and source.',
       openCatalog: 'Open the catalog',
@@ -121,6 +122,7 @@
       navIdeas: '附加·玩法',
       navPopular: '附加·热门',
       eyebrow: '动画 · 交互演示 · 游戏',
+      licensedGallery: '授权作品大图 →',
       heroTitle: '真实案例。',
       heroLead: '发现 AI 制作的动画、交互演示与游戏。先看真实作品，再找作者、提示词和源码。',
       openCatalog: '打开总目录',
@@ -227,6 +229,9 @@
     document.title = title;
     document.querySelectorAll('.lang-switch a').forEach((a) => {
       a.classList.toggle('active', a.getAttribute('data-lang') === lang);
+    });
+    document.querySelectorAll('[data-gallery-link]').forEach((a) => {
+      a.setAttribute('href', 'licensed-gallery.' + (lang === 'zh' ? 'zh-CN' : 'en') + '.html');
     });
     window.UI_LANG = lang;
     window.UI_I18N = dict;

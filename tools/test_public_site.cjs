@@ -37,6 +37,36 @@ const server = http.createServer((req, res) => {
         externalMedia.push(request.url());
       }
     });
+    // Full-width licensed galleries: every locale and mobile/desktop, not README DOM.
+    for (const width of [1280, 390]) {
+      await page.setViewportSize({ width, height: 900 });
+      for (const lang of ['en', 'zh-CN', 'zh-TW', 'ja']) {
+        await page.goto(base + '/licensed-gallery.' + lang + '.html');
+        assert.equal(await page.locator('html').getAttribute('lang'), lang);
+        assert.equal(await page.locator('article').count(), 8);
+        for (const img of await page.locator('article img').all()) {
+          await img.scrollIntoViewIfNeeded();
+          await img.evaluate(el => el.decode());
+          const box = await img.boundingBox();
+          assert.ok(box.width >= (width === 390 ? 350 : 700), 'Useful large preview width');
+        }
+        assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Gallery must fit viewport');
+        if (process.env.GALLERY_SCREENSHOTS) {
+          fs.mkdirSync(process.env.GALLERY_SCREENSHOTS, { recursive: true });
+          await page.screenshot({ path: path.join(process.env.GALLERY_SCREENSHOTS, `gallery-${lang}-${width}.png`), fullPage: true });
+        }
+        await page.getByRole('link', { name: 'DeepSeek', exact: true }).click();
+        assert.match(page.url(), /#licensed-deepseek-crowned-frog$/);
+      }
+    }
+    // Blocking one image must leave source and permission links reachable.
+    await page.route('**/readme-assets/cases/licensed-deepseek-crowned-frog.png', route => route.abort());
+    await page.goto(base + '/licensed-gallery.en.html#licensed-deepseek-crowned-frog');
+    const frog = page.locator('#licensed-deepseek-crowned-frog');
+    assert.ok(await frog.getByRole('link', { name: 'Source', exact: true }).isVisible());
+    assert.ok(await frog.getByRole('link', { name: 'Permission', exact: true }).isVisible());
+    await page.unroute('**/readme-assets/cases/licensed-deepseek-crowned-frog.png');
+    await page.setViewportSize({ width: 1280, height: 960 });
     await page.goto(base);
     for (const selector of ['.showcase-banner', '.source-spotlight .spotlight-locale:visible img']) {
       await page.locator(selector).evaluate(image => image.decode());
@@ -115,6 +145,7 @@ const server = http.createServer((req, res) => {
     assert.ok((await page.locator('.source-spotlight').boundingBox()).y < 844, 'Actual work should start in the mobile first screen');
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'No horizontal page overflow');
     await page.locator('[data-lang="zh"]').click();
+    assert.equal(await page.locator('[data-gallery-link]').getAttribute('href'), 'licensed-gallery.zh-CN.html');
     assert.equal(await page.locator('.source-spotlight .spotlight-locale:visible').getAttribute('lang'), 'zh-CN');
     assert.match(await page.locator('.source-spotlight .spotlight-locale:visible').innerText(), /让城市生长/);
     await page.locator('[data-lang="en"]').click();

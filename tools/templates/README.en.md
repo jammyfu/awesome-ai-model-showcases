@@ -19,6 +19,8 @@
 <a id="examples"></a>
 ## See what Claude made
 
+**[Explore all six families in large images →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.en.html)**
+
 ${source_spotlights}
 
 [Claude](#claude) · [Gemini](#gemini) · [GPT Sol](#gpt-code) · [Grok](#grok) · [Qwen](#qwen) · [DeepSeek](#deepseek)

@@ -2,17 +2,17 @@
 
 ## Goal
 
-Continue the merged hero repair with four-language, model-by-model tables: real licensed previews where available, concise introductions, exact source-reported model versions, creator credit and direct evidence links.
+After merging PR #16, improve the real browse path with the latest Git Project Harness: large licensed results, reliable type discovery, shared four-language evidence and honest ordering.
 
 ## This PR
 
-- Preserve the approved hero and two Claude film spotlights from PR #15.
-- Replace the six single-line examples with six tables, selecting three different subjects per family from the existing catalog.
-- Research additional explicitly licensed visual works when existing catalog media lacks a publication grant. Keep older/image model labels exact; never relabel these as the frontier coding versions.
-- Keep new source spotlights separate from the unchanged 183 main cases and 51-case GPT Image archive.
-- Show a clear source-only entry where preview permission remains unverified, with no repeated banners or fabricated replacement images.
-- Regenerate all four READMEs from templates and source metadata. Run the repository verification entry point and record preview, localization and browser coverage accurately.
+- Keep the eight reviewed images, original bytes, rights records and existing model tables.
+- Generate four large-image licensed-work galleries with work types, descriptions, model jumps and source/permission/original-image links.
+- Put the new gallery within reach of the README opening and Pages main action area.
+- Repair source-evidenced game classifications and record unknown heat without inventing scores.
+- Preserve 183 main cases and the separate 51-case GPT Image archive; supplementary images do not inflate counts.
+- Run unified verification plus desktop/narrow gallery browser checks and retain screenshots for review.
 
 ## Boundary
 
-New changes are for a draft PR only. No merge or deployment is authorized by the table request. Remaining media-permission and rendered-review gaps are reported rather than marked complete.
+PR #16 is merged at 01bf3e3. This new optimization is a separate draft PR, not an authorized merge. No external promotion, tracking, repository settings or new media rights. Report GitHub README mobile and actual-site gaps separately from CI gallery checks.

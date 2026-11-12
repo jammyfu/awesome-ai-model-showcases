@@ -19,6 +19,8 @@
 <a id="examples"></a>
 ## Claude が作った実際の作品
 
+**[6つのモデル系列の許諾済み作品を大きく見る →](https://jammyfu.github.io/awesome-ai-model-showcases/licensed-gallery.ja.html)**
+
 ${source_spotlights}
 
 [Claude](#claude) · [Gemini](#gemini) · [GPT Sol](#gpt-code) · [Grok](#grok) · [Qwen](#qwen) · [DeepSeek](#deepseek)
