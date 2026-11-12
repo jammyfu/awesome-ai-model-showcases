@@ -1,12 +1,12 @@
 # web-ofox-fable52-svg-sailboat
 
-Author / 作者 / 作者 / 作者: Ofox
+Author / 作者 / 作者 / 作者 / 제작자: Ofox
 
-[Original source / 原帖 / 原帖 / 原投稿](https://ofox.ai/blog/claude-fable-5-2-svg-guide/)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/web-ofox-fable52-svg-sailboat/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://ofox.ai/blog/claude-fable-5-2-svg-guide/)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/web-ofox-fable52-svg-sailboat/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ Ofoxのテスト：2026-11-11、anthropic/claude-fable-5.2（低推論設定）
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+CSS 움직임을 적용한 편집 가능한 SVG 돛단배 일러스트(API 호출 2회)
+```
+
+### 제작 방법
+
+SVG 코드 생성 → 브라우저에서 #boat에 CSS 키프레임 움직임 적용. GIF를 만들려면 별도 프레임 캡처 필요
+
+### 검증 상태
+
+가이드에 검증 표와 SVG≠GIF 설명이 공개됨, 기사에 프롬프트 일부 표시
+
+### 모델 근거 (번역)
+
+```text
+Ofox 테스트: 2026-11-11 anthropic/claude-fable-5.2 (low effort)
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

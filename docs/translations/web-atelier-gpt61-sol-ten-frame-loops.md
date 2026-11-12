@@ -1,12 +1,12 @@
 # web-atelier-gpt61-sol-ten-frame-loops
 
-Author / 作者 / 作者 / 作者: Marmik Shah (Atelier exhibition)
+Author / 作者 / 作者 / 作者 / 제작자: Marmik Shah (Atelier exhibition)
 
-[Original source / 原帖 / 原帖 / 原投稿](https://marmikshah.github.io/atelier/)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/web-atelier-gpt61-sol-ten-frame-loops/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://marmikshah.github.io/atelier/)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/web-atelier-gpt61-sol-ten-frame-loops/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ Atelier：10フレームのループスプライト制作課題（GPT-6.1 Sol最
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Atelier: 10프레임 반복 스프라이트 과제(GPT-6.1 Sol max effort 열)
+```
+
+### 제작 방법
+
+10프레임 반복 애니메이션(1fps), 사이트에서 과제 설명 열람 가능
+
+### 검증 상태
+
+공개 전시 페이지, 사이트에 과제 설명 제공, 타일별로 열어보지 않은 작품의 정확한 프롬프트는 일부만 확인 가능
+
+### 모델 근거 (번역)
+
+```text
+전시 열: OpenAI GPT-6.1 Sol max effort, 각 행의 공통 과제. 카탈로그 계열 항목: GPT-6.2 Sol (소유자 지정). 출처 페이지는 이 실행을 여전히 GPT-6.1 Sol로 표기하며 OpenAI 공개 문서에도 6.1 Sol이 기재됨
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

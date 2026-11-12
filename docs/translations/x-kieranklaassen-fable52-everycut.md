@@ -1,12 +1,12 @@
 # x-kieranklaassen-fable52-everycut
 
-Author / 作者 / 作者 / 作者: @kieranklaassen（Kieran Klaassen）
+Author / 作者 / 作者 / 作者 / 제작자: @kieranklaassen（Kieran Klaassen）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/kieranklaassen/status/2119904489717272680)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-kieranklaassen-fable52-everycut/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/kieranklaassen/status/2119904489717272680)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-kieranklaassen-fable52-everycut/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ AIGCreative の Feishu wiki が引用する原投稿の X URL · 独立した再
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Everycut: 화면 녹화, 텍스트 기반 편집, 오디오 믹싱을 한 편집기에 통합
+```
+
+### 제작 방법
+
+X 게시물의 영상 또는 화면 녹화
+
+### 검증 상태
+
+AIGCreative Feishu 위키가 인용한 1차 X URL, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+Feishu AIGCreative 위키는 Claude Fable 5.2 항목에 수록. 연결된 X 게시물이 원문. 독립적으로 다시 실행하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

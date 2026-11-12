@@ -1,12 +1,12 @@
 # x-rxufnx-grok-imagine-fallen-angel-cinematic-vid
 
-Author / 作者 / 作者 / 作者: @rxufnx（rxufnx）
+Author / 作者 / 作者 / 作者 / 제작자: @rxufnx（rxufnx）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/rxufnx/status/2118327480918438306)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/rxufnx/status/2118327480918438306)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-rxufnx-grok-imagine-fallen-angel-cinematic-vid/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -156,4 +156,35 @@ YouMind-OpenLab/awesome-grok-imagine-prompts に掲載された原投稿の X UR
 先端が焼けて黒ずんだ白い翼の女性の天使が、古代都市の中央にある煙の立つクレーターにひざまずき、空で閉じていく光の柱を見上げている。細かな雨、ハイアングル、映画的なファンタジー、縦4:5
 
 天使がゆっくり顔を上げ、雨が降り、クレーターから煙が立ち、光の柱が閉じ、焦げた羽根が風に舞う。カメラは彼女に届くまでゆっくり下降する
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+타락 천사 영화풍 영상
+```
+
+### 제작 방법
+
+원 게시물에 명시된 Grok Imagine 네이티브 영상
+
+### 검증 상태
+
+YouMind-OpenLab/awesome-grok-imagine-prompts에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+인용 저장소는 이 영상을 Grok Imagine으로 분류하고 원 게시물로 연결. 독립적으로 다시 실행하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+끝이 타서 검게 변한 흰 날개를 가진 여성 천사가 고대 도시 한가운데 연기가 나는 구덩이에 무릎을 꿇고, 하늘에서 빛줄기가 닫히는 곳을 올려다봅니다. 가는 비, 하이 앵글 카메라, 영화 같은 판타지, 세로 4:5.
+
+천사가 천천히 얼굴을 들고, 비가 내리며, 구덩이에서 연기가 피어오르고, 빛줄기가 닫힙니다. 탄 깃털이 바람에 날리고 카메라는 그녀에게 닿을 때까지 천천히 내려옵니다.
 ```

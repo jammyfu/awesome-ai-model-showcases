@@ -1,12 +1,12 @@
 # web-jamesgreene-code1-gemini4-argon-isometric-city
 
-Author / 作者 / 作者 / 作者: James Greene (model comparison archive)
+Author / 作者 / 作者 / 作者 / 제작자: James Greene (model comparison archive)
 
-[Original source / 原帖 / 原帖 / 原投稿](https://jamesgreene.com/models/)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://jamesgreene.com/models/)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/web-jamesgreene-code1-gemini4-argon-isometric-city/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ jamesgreene.comによる実行モデルの表示：Gemini 4 Argon
 
 ```text
 自己完結したHTMLファイルを1つ作ってください。インラインCSSとJavaScriptのみで、ライブラリ、外部ファイル、ネットワークリクエストは使わないでください。昼から夜、そして昼へ12秒で循環するアイソメトリックな街区アニメーションを表示します。空の色が変わり、夕暮れに窓の明かりが灯り、ヘッドライトを点けた車が通りを走り、隅の小さな時計が時刻を示します。ページ読み込み時に自動で始まり、操作不要で、どのサイズでもブラウザーウィンドウ全体を満たしてください。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+아이소메트릭 도시의 낮과 밤 HTML 루프 — Gemini 4 Argon
+```
+
+### 제작 방법
+
+독립 실행형 HTML/CSS/JS 애니메이션
+
+### 검증 상태
+
+공개 HTML 결과물 + 공통 과제, Argon은 Carbon 이전 Gemini 4 Arena/테스트 명칭
+
+### 모델 근거 (번역)
+
+```text
+jamesgreene.com 실행 결과 표기: Gemini 4 Argon
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+외부 라이브러리, 파일, 네트워크 요청 없이 인라인 CSS와 JavaScript만으로 독립 실행형 HTML 파일 하나를 만들어 주세요. 낮에서 밤으로, 다시 낮으로 돌아오는 12초 반복의 애니메이션 아이소메트릭 도시 블록을 보여 주세요. 하늘 색이 바뀌고 해 질 무렵 창문에 불이 켜지며, 전조등을 켠 자동차가 거리를 달리고, 한쪽 구석의 작은 시계가 시간을 보여 줍니다. 페이지 로드 시 자동 시작하고 입력이 필요 없어야 하며 어떤 크기에서도 브라우저 창을 가득 채워야 합니다.
 ```

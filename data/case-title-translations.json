@@ -6,1867 +6,2178 @@
       "en": "Reference character image + one sentence: a looping GIF meme with the Chinese caption “吃白米饭+真香”",
       "zh-CN": "参考角色图一句话生成「吃白米饭+真香」中文配字循环 GIF 表情包",
       "zh-TW": "參考角色圖一句話生成「吃白米饭+真香」中文配字循環 GIF 表情包",
-      "ja": "キャラクター参照画像と一文で「吃白米饭+真香」の中国語字幕付きループGIFスタンプを生成"
+      "ja": "キャラクター参照画像と一文で「吃白米饭+真香」の中国語字幕付きループGIFスタンプを生成",
+      "ko": "참조 캐릭터 이미지 + 한 문장: 중국어 자막 “吃白米饭+真香”(흰쌀밥 먹기 + 역시 맛있다)이 들어간 반복 GIF 밈"
     },
     "大肥鱼角色参考图 + 结构化模板批量出循环 GIF 表情包（主题可填空）": {
       "en": "Dafeiyu character reference + structured template for batches of looping GIF memes (fill-in themes)",
       "zh-CN": "大肥鱼角色参考图 + 结构化模板批量出循环 GIF 表情包（主题可填空）",
       "zh-TW": "大肥魚角色參考圖 + 結構化模板批量出循環 GIF 表情包（主題可填空）",
-      "ja": "大肥魚のキャラクター参照画像と構造化テンプレートでループGIFスタンプを一括生成（テーマは穴埋め式）"
+      "ja": "大肥魚のキャラクター参照画像と構造化テンプレートでループGIFスタンプを一括生成（テーマは穴埋め式）",
+      "ko": "Dafeiyu 캐릭터 참조 + 주제를 채워 넣는 구조화 템플릿으로 반복 GIF 밈 일괄 제작"
     },
     "上传静态表情包原图，一句话做成无限循环 GIF，强调角色一致性（与大肥鱼同模板族，仍单列原帖）": {
       "en": "Upload a static meme and turn it into an endless GIF loop with one sentence, emphasizing character consistency (same template family as Dafeiyu; original post kept separately)",
       "zh-CN": "上传静态表情包原图，一句话做成无限循环 GIF，强调角色一致性（与大肥鱼同模板族，仍单列原帖）",
       "zh-TW": "上傳靜態表情包原圖，一句話做成無限循環 GIF，強調角色一致性（與大肥魚同模板族，仍單列原帖）",
-      "ja": "静止画スタンプをアップロードし、一文で無限ループGIFに。キャラクターの一貫性を重視（大肥魚と同系統のテンプレートだが、元の投稿は別途掲載）"
+      "ja": "静止画スタンプをアップロードし、一文で無限ループGIFに。キャラクターの一貫性を重視（大肥魚と同系統のテンプレートだが、元の投稿は別途掲載）",
+      "ko": "정지 밈을 업로드하고 한 문장으로 무한 반복 GIF로 변환하며 캐릭터 일관성 강조(Dafeiyu와 같은 템플릿 계열, 원 게시물은 별도 보존)"
     },
     "用纸船循环 GIF 验证账号是否已推送 Images 2.6；并附六宫格 sprite sheet 提示词模板（与 Ravivit 纸船同题材，不另计独立 GIF 成功）": {
       "en": "Paper-boat GIF loop to check whether Images 2.6 has reached the account, plus a six-panel sprite-sheet prompt template (same subject as Ravivit’s boat; not counted as a separate successful GIF)",
       "zh-CN": "用纸船循环 GIF 验证账号是否已推送 Images 2.6；并附六宫格 sprite sheet 提示词模板（与 Ravivit 纸船同题材，不另计独立 GIF 成功）",
       "zh-TW": "用紙船循環 GIF 驗證賬號是否已推送 Images 2.6；並附六宮格 sprite sheet 提示詞模板（與 Ravivit 紙船同題材，不另計獨立 GIF 成功）",
-      "ja": "紙の船のループGIFでアカウントへのImages 2.6提供を確認。6コマのスプライトシート用プロンプトも掲載（Ravivitの紙の船と同題材で、独立したGIF成功例には数えない）"
+      "ja": "紙の船のループGIFでアカウントへのImages 2.6提供を確認。6コマのスプライトシート用プロンプトも掲載（Ravivitの紙の船と同題材で、独立したGIF成功例には数えない）",
+      "ko": "계정의 Images 2.6 사용 가능 여부를 확인하는 종이배 GIF 루프와 6칸 스프라이트 시트 프롬프트(Ravivit의 배와 같은 소재, 별개의 성공 GIF로 집계하지 않음)"
     },
     "OpenAI 联合创始人展示 Images 2.6 GIF 演示": {
       "en": "OpenAI cofounder shows an Images 2.6 GIF demo",
       "zh-CN": "OpenAI 联合创始人展示 Images 2.6 GIF 演示",
       "zh-TW": "OpenAI 聯合創始人展示 Images 2.6 GIF 演示",
-      "ja": "OpenAI共同創業者によるImages 2.6のGIFデモ"
+      "ja": "OpenAI共同創業者によるImages 2.6のGIFデモ",
+      "ko": "OpenAI 공동 창업자의 Images 2.6 GIF 데모"
     },
     "日文：用 Images 2.6 把自家角色做成 GIF，反馈眉毛一致性问题": {
       "en": "Japanese post: turning an original character into a GIF with Images 2.6; reports eyebrow consistency issues",
       "zh-CN": "日文：用 Images 2.6 把自家角色做成 GIF，反馈眉毛一致性问题",
       "zh-TW": "日文：用 Images 2.6 把自家角色做成 GIF，反饋眉毛一致性問題",
-      "ja": "日本語投稿：Images 2.6で自作キャラクターをGIF化し、眉の一貫性の問題を報告"
+      "ja": "日本語投稿：Images 2.6で自作キャラクターをGIF化し、眉の一貫性の問題を報告",
+      "ko": "일본어 게시물: Images 2.6으로 자작 캐릭터를 GIF로 변환, 눈썹 일관성 문제 보고"
     },
     "真实照片（左）→ GPT Image 2.6 动画化（右），经 @tryidem 调用": {
       "en": "Real photo (left) → GPT Image 2.6 animation (right), via @tryidem",
       "zh-CN": "真实照片（左）→ GPT Image 2.6 动画化（右），经 @tryidem 调用",
       "zh-TW": "真實照片（左）→ GPT Image 2.6 動畫化（右），經 @tryidem 調用",
-      "ja": "実写写真（左）→ GPT Image 2.6によるアニメーション（右）、@tryidem経由で生成"
+      "ja": "実写写真（左）→ GPT Image 2.6によるアニメーション（右）、@tryidem経由で生成",
+      "ko": "실제 사진(왼쪽) → GPT Image 2.6 애니메이션(오른쪽), @tryidem 제공"
     },
     "用芙莉莲角色试原生 GIF，作者称表情动作自然": {
       "en": "Native GIF test with Frieren; author describes expressions and movements as natural",
       "zh-CN": "用芙莉莲角色试原生 GIF，作者称表情动作自然",
       "zh-TW": "用芙莉蓮角色試原生 GIF，作者稱表情動作自然",
-      "ja": "フリーレンでネイティブGIFを試作。作者は表情と動作が自然と評価"
+      "ja": "フリーレンでネイティブGIFを試作。作者は表情と動作が自然と評価",
+      "ko": "프리렌으로 네이티브 GIF 테스트, 작성자는 표정과 움직임이 자연스럽다고 설명"
     },
     "七玩法串：真人动态表情、物理科普、产品展示、操作教程、天文动画、商业图表、打工人情绪包；每条附结果 GIF": {
       "en": "Seven-use thread: animated human reactions, physics explainers, product showcases, how-tos, astronomy animations, business charts, and office-worker mood memes; each includes a result GIF",
       "zh-CN": "七玩法串：真人动态表情、物理科普、产品展示、操作教程、天文动画、商业图表、打工人情绪包；每条附结果 GIF",
       "zh-TW": "七玩法串：真人動態表情、物理科普、產品展示、操作教程、天文動畫、商業圖表、打工人情緒包；每條附結果 GIF",
-      "ja": "7つの活用例スレッド：人物のリアクション、物理解説、商品紹介、操作説明、天文アニメ、ビジネス図表、働く人の感情スタンプ。各投稿に生成GIFを掲載"
+      "ja": "7つの活用例スレッド：人物のリアクション、物理解説、商品紹介、操作説明、天文アニメ、ビジネス図表、働く人の感情スタンプ。各投稿に生成GIFを掲載",
+      "ko": "인물 반응, 물리 설명, 제품 소개, 사용법, 천문 애니메이션, 비즈니스 차트, 직장인 기분 밈의 7가지 활용 스레드. 각각 결과 GIF 포함"
     },
     "非表情包向：舞蹈拆解、历史科普、像素动作、角色变身": {
       "en": "Beyond memes: dance breakdowns, history explainers, pixel actions, and character transformations",
       "zh-CN": "非表情包向：舞蹈拆解、历史科普、像素动作、角色变身",
       "zh-TW": "非表情包向：舞蹈拆解、歷史科普、像素動作、角色變身",
-      "ja": "スタンプ以外の用途：ダンスの動作分解、歴史解説、ピクセルアクション、キャラクター変身"
+      "ja": "スタンプ以外の用途：ダンスの動作分解、歴史解説、ピクセルアクション、キャラクター変身",
+      "ko": "밈을 넘어: 춤 동작 분석, 역사 해설, 픽셀 동작, 캐릭터 변신"
     },
     "AI 娘四连循环表情包 GIF": {
       "en": "Four looping reaction GIFs of an AI girl character",
       "zh-CN": "AI 娘四连循环表情包 GIF",
       "zh-TW": "AI 娘四連循環表情包 GIF",
-      "ja": "AI少女キャラクターの4連ループGIFスタンプ"
+      "ja": "AI少女キャラクターの4連ループGIFスタンプ",
+      "ko": "AI 소녀 캐릭터의 반복 반응 GIF 4개"
     },
     "雪纳瑞狗 GIF + Images 2.6 四步用法说明": {
       "en": "Schnauzer GIF + four-step Images 2.6 guide",
       "zh-CN": "雪纳瑞狗 GIF + Images 2.6 四步用法说明",
       "zh-TW": "雪納瑞狗 GIF + Images 2.6 四步用法說明",
-      "ja": "シュナウザーのGIFとImages 2.6の4ステップ利用ガイド"
+      "ja": "シュナウザーのGIFとImages 2.6の4ステップ利用ガイド",
+      "ko": "슈나우저 GIF + Images 2.6 4단계 가이드"
     },
     "涂鸦草图 → 循环 GIF；宣称可用提示词控制时长": {
       "en": "Doodle sketch → looping GIF; claims prompt-based duration control",
       "zh-CN": "涂鸦草图 → 循环 GIF；宣称可用提示词控制时长",
       "zh-TW": "塗鴉草圖 → 循環 GIF；宣稱可用提示詞控制時長",
-      "ja": "落書きスケッチ→ループGIF。プロンプトで長さを制御できると主張"
+      "ja": "落書きスケッチ→ループGIF。プロンプトで長さを制御できると主張",
+      "ko": "낙서 스케치 → 반복 GIF, 프롬프트로 재생 시간 조절이 가능하다는 주장"
     },
     "X 头像 → Q 版动态表情包两则": {
       "en": "X profile picture → two chibi animated memes",
       "zh-CN": "X 头像 → Q 版动态表情包两则",
       "zh-TW": "X 頭像 → Q 版動態表情包兩則",
-      "ja": "Xのプロフィール画像→ちびキャラの動くスタンプ2点"
+      "ja": "Xのプロフィール画像→ちびキャラの動くスタンプ2点",
+      "ko": "X 프로필 사진 → 치비 스타일 애니메이션 밈 2개"
     },
     "简短标注「GPT Image 2.6 animated GIF」+ 引用官方帖": {
       "en": "Brief “GPT Image 2.6 animated GIF” label + quote of the official post",
       "zh-CN": "简短标注「GPT Image 2.6 animated GIF」+ 引用官方帖",
       "zh-TW": "簡短標注「GPT Image 2.6 animated GIF」+ 引用官方帖",
-      "ja": "「GPT Image 2.6 animated GIF」の短い説明と公式投稿の引用"
+      "ja": "「GPT Image 2.6 animated GIF」の短い説明と公式投稿の引用",
+      "ko": "짧은 “GPT Image 2.6 animated GIF” 표기 + 공식 게시물 인용"
     },
     "新闻卡风格帖，作者声称附件 GIF 由 Image 2.6 制作": {
       "en": "News-card-style post; author claims the attached GIF was made with Image 2.6",
       "zh-CN": "新闻卡风格帖，作者声称附件 GIF 由 Image 2.6 制作",
       "zh-TW": "新聞卡風格帖，作者聲稱附件 GIF 由 Image 2.6 製作",
-      "ja": "ニュースカード風の投稿。作者は添付GIFをImage 2.6製と主張"
+      "ja": "ニュースカード風の投稿。作者は添付GIFをImage 2.6製と主張",
+      "ko": "뉴스 카드 형식의 게시물, 작성자는 첨부 GIF를 Image 2.6으로 만들었다고 주장"
     },
     "日文：从零提示词生成「拉伸」循环 GIF，附风格约束": {
       "en": "Japanese post: a “stretching” GIF loop generated from scratch with a prompt and style constraints",
       "zh-CN": "日文：从零提示词生成「拉伸」循环 GIF，附风格约束",
       "zh-TW": "日文：從零提示詞生成「拉伸」循環 GIF，附風格約束",
-      "ja": "日本語投稿：スタイル制約を付けたプロンプトでゼロから「ストレッチ」のループGIFを生成"
+      "ja": "日本語投稿：スタイル制約を付けたプロンプトでゼロから「ストレッチ」のループGIFを生成",
+      "ko": "일본어 게시물: 프롬프트와 스타일 제약으로 처음부터 생성한 “스트레칭” GIF 루프"
     },
     "日文：一图+超短提示词「このキャラをGIFで動かして。手を振って笑う」（与 Krouxzz 挥手同类动作，不合并删帖）": {
       "en": "Japanese post: one image + the tiny prompt “このキャラをGIFで動かして。手を振って笑う” (similar waving action to Krouxzz; posts not merged or removed)",
       "zh-CN": "日文：一图+超短提示词「このキャラをGIFで動かして。手を振って笑う」（与 Krouxzz 挥手同类动作，不合并删帖）",
       "zh-TW": "日文：一圖+超短提示詞「このキャラをGIFで動かして。手を振って笑う」（與 Krouxzz 揮手同類動作，不合併刪帖）",
-      "ja": "日本語投稿：画像1枚と短いプロンプト「このキャラをGIFで動かして。手を振って笑う」（Krouxzzの手振りと同種の動作だが、投稿は統合・削除しない）"
+      "ja": "日本語投稿：画像1枚と短いプロンプト「このキャラをGIFで動かして。手を振って笑う」（Krouxzzの手振りと同種の動作だが、投稿は統合・削除しない）",
+      "ko": "일본어 게시물: 이미지 1장 + 짧은 프롬프트 “このキャラをGIFで動かして。手を振って笑う”(이 캐릭터를 GIF로 움직여 줘. 손을 흔들며 웃어). Krouxzz와 비슷한 동작이지만 게시물은 합치거나 삭제하지 않음"
     },
     "日文：同角色测 16/32 帧与尺寸；完整规格化 prompt 在评论": {
       "en": "Japanese post: testing 16/32 frames and dimensions with the same character; full specification prompt in comments",
       "zh-CN": "日文：同角色测 16/32 帧与尺寸；完整规格化 prompt 在评论",
       "zh-TW": "日文：同角色測 16/32 幀與尺寸；完整規格化 prompt 在評論",
-      "ja": "日本語投稿：同じキャラクターで16／32フレームとサイズを検証。詳細な仕様付きプロンプトはコメントに掲載"
+      "ja": "日本語投稿：同じキャラクターで16／32フレームとサイズを検証。詳細な仕様付きプロンプトはコメントに掲載",
+      "ko": "일본어 게시물: 같은 캐릭터로 16/32프레임과 크기 테스트, 전체 사양 프롬프트는 댓글에 공개"
     },
     "英文：角色照+风格参考 → 一套 10 个 reaction GIF；prompt 在回复（正文截断）": {
       "en": "English post: character photo + style reference → ten reaction GIFs; prompt in replies (main text truncated)",
       "zh-CN": "英文：角色照+风格参考 → 一套 10 个 reaction GIF；prompt 在回复（正文截断）",
       "zh-TW": "英文：角色照+風格參考 → 一套 10 個 reaction GIF；prompt 在回復（正文截斷）",
-      "ja": "英語投稿：キャラクター写真とスタイル参照→リアクションGIF10点。プロンプトは返信に掲載（本文は途中で切れている）"
+      "ja": "英語投稿：キャラクター写真とスタイル参照→リアクションGIF10点。プロンプトは返信に掲載（本文は途中で切れている）",
+      "ko": "영어 게시물: 캐릭터 사진 + 스타일 참조 → 반응 GIF 10개, 프롬프트는 답글에 있음(본문 일부 잘림)"
     },
     "日文高互动：标记编辑演示 + 角色「まばたきして、ふわっと揺れて」GIF（markup + GIF；与 mirai 规格测不同帖）": {
       "en": "High-engagement Japanese post: markup editing demo + character GIF using “まばたきして、ふわっと揺れて” (markup + GIF; separate from mirai’s specification test)",
       "zh-CN": "日文高互动：标记编辑演示 + 角色「まばたきして、ふわっと揺れて」GIF（markup + GIF；与 mirai 规格测不同帖）",
       "zh-TW": "日文高互動：標記編輯演示 + 角色「まばたきして、ふわっと揺れて」GIF（markup + GIF；與 mirai 規格測不同帖）",
-      "ja": "反響の大きい日本語投稿：マークアップ編集デモと「まばたきして、ふわっと揺れて」のキャラクターGIF（マークアップ＋GIF。miraiの仕様検証とは別の投稿）"
+      "ja": "反響の大きい日本語投稿：マークアップ編集デモと「まばたきして、ふわっと揺れて」のキャラクターGIF（マークアップ＋GIF。miraiの仕様検証とは別の投稿）",
+      "ko": "반응이 많은 일본어 게시물: 마크업 편집 데모 + “まばたきして、ふわっと揺れて”(눈을 깜박이고 살랑살랑 흔들려 줘)를 사용한 캐릭터 GIF. 마크업 + GIF 사례로 mirai의 사양 테스트와 별도"
     },
     "日文：附图+超短「アコギを弾く男性」出吉他手 GIF": {
       "en": "Japanese post: attached image + tiny “アコギを弾く男性” prompt produces a guitarist GIF",
       "zh-CN": "日文：附图+超短「アコギを弾く男性」出吉他手 GIF",
       "zh-TW": "日文：附圖+超短「アコギを弾く男性」出吉他手 GIF",
-      "ja": "日本語投稿：添付画像と短い「アコギを弾く男性」の指定でギタリストのGIFを生成"
+      "ja": "日本語投稿：添付画像と短い「アコギを弾く男性」の指定でギタリストのGIFを生成",
+      "ko": "일본어 게시물: 첨부 이미지 + 짧은 “アコギを弾く男性”(어쿠스틱 기타를 치는 남성) 프롬프트로 기타 연주자 GIF 생성"
     },
     "日文：建筑效果图 → 日没时光流逝 GIF": {
       "en": "Japanese post: architectural rendering → sunset time-lapse GIF",
       "zh-CN": "日文：建筑效果图 → 日没时光流逝 GIF",
       "zh-TW": "日文：建築效果圖 → 日沒時光流逝 GIF",
-      "ja": "日本語投稿：建築パース→日没のタイムラプスGIF"
+      "ja": "日本語投稿：建築パース→日没のタイムラプスGIF",
+      "ko": "일본어 게시물: 건축 렌더링 → 일몰 타임랩스 GIF"
     },
     "日文 OC：称约 12 帧，借用他人角色图": {
       "en": "Japanese original-character post: claims about 12 frames, using someone else’s character image",
       "zh-CN": "日文 OC：称约 12 帧，借用他人角色图",
       "zh-TW": "日文 OC：稱約 12 幀，借用他人角色圖",
-      "ja": "日本語のオリジナルキャラクター投稿：約12フレームと記載。他者のキャラクター画像を使用"
+      "ja": "日本語のオリジナルキャラクター投稿：約12フレームと記載。他者のキャラクター画像を使用",
+      "ko": "일본어 자작 캐릭터 게시물: 다른 사람의 캐릭터 이미지로 약 12프레임을 만들었다는 주장"
     },
     "「GPT Images 2.6 is here + GIFs」附 animated_gif": {
       "en": "“GPT Images 2.6 is here + GIFs” with animated_gif attached",
       "zh-CN": "「GPT Images 2.6 is here + GIFs」附 animated_gif",
       "zh-TW": "「GPT Images 2.6 is here + GIFs」附 animated_gif",
-      "ja": "「GPT Images 2.6 is here + GIFs」にanimated_gifを添付"
+      "ja": "「GPT Images 2.6 is here + GIFs」にanimated_gifを添付",
+      "ko": "“GPT Images 2.6 출시 + GIF” 문구와 animated_gif 첨부"
     },
     "原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位": {
       "en": "Native GIF loop: little monkey raises a lantern, blinks, and returns to its starting pose; fixed camera",
       "zh-CN": "原生循环GIF：提灯小猴抬灯/眨眼/回位，固定机位",
       "zh-TW": "原生循環GIF：提燈小猴抬燈/眨眼/回位，固定機位",
-      "ja": "ネイティブループGIF：小猿が提灯を上げ、まばたきして元の姿勢へ。カメラ固定"
+      "ja": "ネイティブループGIF：小猿が提灯を上げ、まばたきして元の姿勢へ。カメラ固定",
+      "ko": "네이티브 GIF 루프: 작은 원숭이가 등불을 들고 눈을 깜박인 뒤 처음 자세로 복귀, 카메라 고정"
     },
     "品牌吉祥物挥手+眨眼无缝循环GIF": {
       "en": "Brand mascot waving and blinking in a seamless GIF loop",
       "zh-CN": "品牌吉祥物挥手+眨眼无缝循环GIF",
       "zh-TW": "品牌吉祥物揮手+眨眼無縫循環GIF",
-      "ja": "ブランドマスコットが手を振り、まばたきするシームレスなループGIF"
+      "ja": "ブランドマスコットが手を振り、まばたきするシームレスなループGIF",
+      "ko": "브랜드 마스코트가 손을 흔들고 눈을 깜박이는 매끄러운 GIF 루프"
     },
     "商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环": {
       "en": "Product case opens and closes: earbud case opens → earbuds float up → return, in a seamless loop",
       "zh-CN": "商品盒开合：耳机盒开盖→耳机浮起→回位无缝循环",
       "zh-TW": "商品盒開合：耳機盒開蓋→耳機浮起→回位無縫循環",
-      "ja": "商品ケースの開閉：イヤホンケースが開く→イヤホンが浮く→元に戻るシームレスループ"
+      "ja": "商品ケースの開閉：イヤホンケースが開く→イヤホンが浮く→元に戻るシームレスループ",
+      "ko": "제품 케이스 열기와 닫기: 이어폰 케이스가 열리고 이어폰이 떠올랐다 돌아오는 매끄러운 루프"
     },
     "实拍图只动蒸汽与光，杯/桌/窗锁死": {
       "en": "Only steam and light move in a real photo; cup, table, and window stay fixed",
       "zh-CN": "实拍图只动蒸汽与光，杯/桌/窗锁死",
       "zh-TW": "實拍圖只動蒸汽與光，杯/桌/窗鎖死",
-      "ja": "実写写真の湯気と光だけを動かし、カップ・テーブル・窓は固定"
+      "ja": "実写写真の湯気と光だけを動かし、カップ・テーブル・窓は固定",
+      "ko": "실제 사진에서 김과 빛만 움직이고 컵, 탁자, 창문은 고정"
     },
     "产品流光：香水瓶固定，光带扫过+尘粒上浮": {
       "en": "Product light sweep: stationary perfume bottle, passing light band, and rising dust particles",
       "zh-CN": "产品流光：香水瓶固定，光带扫过+尘粒上浮",
       "zh-TW": "產品流光：香水瓶固定，光帶掃過+塵粒上浮",
-      "ja": "商品の光演出：香水瓶を固定し、光の帯が横切り、ほこりの粒子が浮上"
+      "ja": "商品の光演出：香水瓶を固定し、光の帯が横切り、ほこりの粒子が浮上",
+      "ko": "제품 위로 스치는 빛: 고정된 향수병, 지나가는 빛 띠, 떠오르는 먼지 입자"
     },
     "精灵表结构提示词→仙人掌吉祥物挥手循环（9帧）": {
       "en": "Structured sprite-sheet prompt → waving cactus mascot loop (9 frames)",
       "zh-CN": "精灵表结构提示词→仙人掌吉祥物挥手循环（9帧）",
       "zh-TW": "精靈表結構提示詞→仙人掌吉祥物揮手循環（9幀）",
-      "ja": "スプライトシート形式のプロンプト→サボテンのマスコットが手を振るループ（9フレーム）"
+      "ja": "スプライトシート形式のプロンプト→サボテンのマスコットが手を振るループ（9フレーム）",
+      "ko": "구조화된 스프라이트 시트 프롬프트 → 손 흔드는 선인장 마스코트 루프(9프레임)"
     },
     "贴纸风狐狸吉祥物挥手眨眼": {
       "en": "Sticker-style fox mascot waves and blinks",
       "zh-CN": "贴纸风狐狸吉祥物挥手眨眼",
       "zh-TW": "貼紙風狐狸吉祥物揮手眨眼",
-      "ja": "ステッカー風のキツネマスコットが手を振り、まばたき"
+      "ja": "ステッカー風のキツネマスコットが手を振り、まばたき",
+      "ko": "스티커 스타일 여우 마스코트가 손을 흔들고 눈을 깜박임"
     },
     "咖啡杯蒸汽上升循环（文生GIF）": {
       "en": "Steam rising from a coffee cup in a loop (text-to-GIF)",
       "zh-CN": "咖啡杯蒸汽上升循环（文生GIF）",
       "zh-TW": "咖啡杯蒸汽上升循環（文生GIF）",
-      "ja": "コーヒーカップから湯気が立つループ（テキストからGIF生成）"
+      "ja": "コーヒーカップから湯気が立つループ（テキストからGIF生成）",
+      "ko": "커피잔에서 김이 오르는 루프(텍스트→GIF)"
     },
     "上传实拍狗→摇尾眨眼温和循环": {
       "en": "Upload a real dog photo → gentle tail-wagging and blinking loop",
       "zh-CN": "上传实拍狗→摇尾眨眼温和循环",
       "zh-TW": "上傳實拍狗→搖尾眨眼溫和循環",
-      "ja": "犬の実写写真をアップロード→しっぽ振りとまばたきの穏やかなループ"
+      "ja": "犬の実写写真をアップロード→しっぽ振りとまばたきの穏やかなループ",
+      "ko": "실제 강아지 사진 업로드 → 부드러운 꼬리 흔들기와 눈 깜박임 루프"
     },
     "线稿变挥手机器人，保留墨线纸感": {
       "en": "Line drawing becomes a waving robot, retaining ink lines and paper texture",
       "zh-CN": "线稿变挥手机器人，保留墨线纸感",
       "zh-TW": "線稿變揮手機器人，保留墨線紙感",
-      "ja": "線画を手を振るロボットに。インクの線と紙の質感を保持"
+      "ja": "線画を手を振るロボットに。インクの線と紙の質感を保持",
+      "ko": "선화를 손 흔드는 로봇으로 변환, 잉크 선과 종이 질감 유지"
     },
     "API原生GIF：白纸船水面轻摇，固定机位；16帧×120ms": {
       "en": "Native API GIF: white paper boat gently rocks on water, fixed camera; 16 frames × 120 ms",
       "zh-CN": "API原生GIF：白纸船水面轻摇，固定机位；16帧×120ms",
       "zh-TW": "API原生GIF：白紙船水面輕搖，固定機位；16幀×120ms",
-      "ja": "APIネイティブGIF：白い紙の船が水面でゆっくり揺れる。カメラ固定、16フレーム×120ms"
+      "ja": "APIネイティブGIF：白い紙の船が水面でゆっくり揺れる。カメラ固定、16フレーム×120ms",
+      "ko": "네이티브 API GIF: 흰 종이배가 물 위에서 잔잔히 흔들림, 고정 카메라, 16프레임 × 120ms"
     },
     "参考角色图→动漫点头闭眼循环": {
       "en": "Reference character image → anime nodding and eye-closing loop",
       "zh-CN": "参考角色图→动漫点头闭眼循环",
       "zh-TW": "參考角色圖→動漫點頭閉眼循環",
-      "ja": "キャラクター参照画像→アニメ風のうなずきと目を閉じるループ"
+      "ja": "キャラクター参照画像→アニメ風のうなずきと目を閉じるループ",
+      "ko": "참조 캐릭터 이미지 → 고개를 끄덕이고 눈을 감는 애니메이션 루프"
     },
     "Jelly bear wobble / Q 弹果冻熊摇晃": {
       "en": "Jelly bear wobble",
       "zh-CN": "Q 弹果冻熊摇晃",
       "zh-TW": "Q 彈果凍熊搖晃",
-      "ja": "ぷるぷるゼリーのクマが揺れる"
+      "ja": "ぷるぷるゼリーのクマが揺れる",
+      "ko": "흔들리는 젤리 곰"
     },
     "Flower macro flash cut / 花卉微距快闪": {
       "en": "Flower macro flash cut",
       "zh-CN": "花卉微距快闪",
       "zh-TW": "花卉微距快閃",
-      "ja": "花のマクロ映像を高速カット"
+      "ja": "花のマクロ映像を高速カット",
+      "ko": "꽃 매크로 플래시 컷"
     },
     "Cat-head logo brand reel / 猫头 Logo 品牌快闪": {
       "en": "Cat-head logo brand reel",
       "zh-CN": "猫头 Logo 品牌快闪",
       "zh-TW": "貓頭 Logo 品牌快閃",
-      "ja": "猫の頭のロゴを使ったブランドの高速カット映像"
+      "ja": "猫の頭のロゴを使ったブランドの高速カット映像",
+      "ko": "고양이 머리 로고 브랜드 릴"
     },
     "Reading by the window, day to night / 窗边读书·白天到夜晚": {
       "en": "Reading by the window, day to night",
       "zh-CN": "窗边读书·白天到夜晚",
       "zh-TW": "窗邊讀書·白天到夜晚",
-      "ja": "窓辺の読書、昼から夜へ"
+      "ja": "窓辺の読書、昼から夜へ",
+      "ko": "창가에서 책 읽기, 낮에서 밤으로"
     },
     "Glass butterfly with shifting shadows / 玻璃蝴蝶与投影": {
       "en": "Glass butterfly with shifting shadows",
       "zh-CN": "玻璃蝴蝶与变化的投影",
       "zh-TW": "玻璃蝴蝶與變化的投影",
-      "ja": "ガラスの蝶と移り変わる影"
+      "ja": "ガラスの蝶と移り変わる影",
+      "ko": "그림자가 변하는 유리 나비"
     },
     "Ink-wash galloping horse / 水墨奔马": {
       "en": "Ink-wash galloping horse",
       "zh-CN": "水墨奔马",
       "zh-TW": "水墨奔馬",
-      "ja": "水墨画の駆ける馬"
+      "ja": "水墨画の駆ける馬",
+      "ko": "수묵화 속 질주하는 말"
     },
     "8-bit slime boss battle / 8-bit 史莱姆 Boss 战": {
       "en": "8-bit slime boss battle",
       "zh-CN": "8-bit 史莱姆 Boss 战",
       "zh-TW": "8-bit 史萊姆 Boss 戰",
-      "ja": "8ビットのスライムボス戦"
+      "ja": "8ビットのスライムボス戦",
+      "ko": "8비트 슬라임 보스전"
     },
     "AI assistant typing indicator / AI 助手正在输入": {
       "en": "AI assistant typing indicator",
       "zh-CN": "AI 助手正在输入",
       "zh-TW": "AI 助手正在輸入",
-      "ja": "AIアシスタントの入力中インジケーター"
+      "ja": "AIアシスタントの入力中インジケーター",
+      "ko": "AI 어시스턴트 입력 중 표시"
     },
     "角色挥手循环": {
       "en": "Character waving loop",
       "zh-CN": "角色挥手循环",
       "zh-TW": "角色揮手循環",
-      "ja": "キャラクターが手を振るループ"
+      "ja": "キャラクターが手を振るループ",
+      "ko": "캐릭터 손 흔들기 루프"
     },
     "路飞 X Article：榨干 Image 2.6 的 10 个神级玩法（多玩法一组）": {
       "en": "Lufei X Article: ten powerful ways to get the most from Image 2.6 (multiple uses grouped as one)",
       "zh-CN": "路飞 X Article：榨干 Image 2.6 的 10 个神级玩法（多玩法一组）",
       "zh-TW": "路飛 X Article：榨乾 Image 2.6 的 10 個神級玩法（多玩法一組）",
-      "ja": "路飛のX記事：Image 2.6を使い尽くす10の活用法（複数の用途を1組として収録）"
+      "ja": "路飛のX記事：Image 2.6を使い尽くす10の活用法（複数の用途を1組として収録）",
+      "ko": "Lufei의 X 아티클: Image 2.6을 제대로 활용하는 10가지 방법(여러 활용을 하나로 묶음)"
     },
     "像素三连击 / 翻滚 / 法术（跳跃事后压背景）": {
       "en": "Pixel three-hit combo / roll / spell (background composited onto the jump afterward)",
       "zh-CN": "像素三连击 / 翻滚 / 法术（跳跃事后压背景）",
       "zh-TW": "像素三連擊 / 翻滾 / 法術（跳躍事後壓背景）",
-      "ja": "ピクセルの3連撃／ローリング／魔法（ジャンプには後から背景を合成）"
+      "ja": "ピクセルの3連撃／ローリング／魔法（ジャンプには後から背景を合成）",
+      "ko": "픽셀 3연타 / 구르기 / 주문 시전(점프 장면 배경은 나중에 합성)"
     },
     "狐浪人网页游戏：2.6 出表、另一 agent 切帧": {
       "en": "Fox ronin browser game: 2.6 generates the sheet, another agent extracts frames",
       "zh-CN": "狐浪人网页游戏：2.6 出表、另一 agent 切帧",
       "zh-TW": "狐浪人網頁遊戲：2.6 出表、另一 agent 切幀",
-      "ja": "キツネ浪人のブラウザーゲーム：2.6でシートを生成し、別のエージェントがフレームを切り出す"
+      "ja": "キツネ浪人のブラウザーゲーム：2.6でシートを生成し、別のエージェントがフレームを切り出す",
+      "ko": "여우 낭인 브라우저 게임: 2.6이 시트를 생성하고 다른 에이전트가 프레임 추출"
     },
     "复古格斗出拳 / 蓄力循环": {
       "en": "Retro fighting-game punch / charge loop",
       "zh-CN": "复古格斗出拳 / 蓄力循环",
       "zh-TW": "復古格鬥出拳 / 蓄力循環",
-      "ja": "レトロ格闘ゲームのパンチ／力をためるループ"
+      "ja": "レトロ格闘ゲームのパンチ／力をためるループ",
+      "ko": "레트로 격투 게임 펀치 / 기 모으기 루프"
     },
     "骑士跑循环：作者声明 2.6 出表再切帧": {
       "en": "Knight running loop: author says 2.6 generated the sheet, then frames were extracted",
       "zh-CN": "骑士跑循环：作者声明 2.6 出表再切帧",
       "zh-TW": "騎士跑循環：作者聲明 2.6 出表再切幀",
-      "ja": "騎士の走行ループ：作者によると2.6でシートを生成後、フレームを切り出した"
+      "ja": "騎士の走行ループ：作者によると2.6でシートを生成後、フレームを切り出した",
+      "ko": "기사 달리기 루프: 작성자는 2.6으로 시트를 생성한 뒤 프레임을 추출했다고 설명"
     },
     "One-prompt motion designer showreel (timing, easing, shape, type)": {
       "en": "One-prompt motion designer showreel (timing, easing, shape, type)",
       "zh-CN": "一条提示词生成动效设计师作品集（节奏、缓动、形状、字体）",
       "zh-TW": "一條提示詞生成動效設計師作品集（節奏、緩動、形狀、字體）",
-      "ja": "1つのプロンプトでモーションデザイナーのショーリール（タイミング、イージング、形、文字）"
+      "ja": "1つのプロンプトでモーションデザイナーのショーリール（タイミング、イージング、形、文字）",
+      "ko": "프롬프트 하나로 만든 모션 디자인 쇼릴(타이밍, 이징, 도형, 타이포그래피)"
     },
     "纯编程动画：剑齿虎捕猎野牛（自编程音效）": {
       "en": "Entirely coded animation: saber-toothed tiger hunting bison (coded sound effects)",
       "zh-CN": "纯编程动画：剑齿虎捕猎野牛（自编程音效）",
       "zh-TW": "純編程動畫：劍齒虎捕獵野牛（自編程音效）",
-      "ja": "完全にコードで制作したアニメ：サーベルタイガーがバイソンを狩る（効果音もプログラム生成）"
+      "ja": "完全にコードで制作したアニメ：サーベルタイガーがバイソンを狩る（効果音もプログラム生成）",
+      "ko": "전부 코드로 만든 애니메이션: 들소를 사냥하는 검치호(코드로 만든 효과음)"
     },
     "Recreate a Three.js apartment in Blender with Fable 5.2": {
       "en": "Recreate a Three.js apartment in Blender with Fable 5.2",
       "zh-CN": "用 Fable 5.2 在 Blender 中重建 Three.js 公寓",
       "zh-TW": "用 Fable 5.2 在 Blender 中重建 Three.js 公寓",
-      "ja": "Fable 5.2でThree.jsのアパートをBlenderに再現"
+      "ja": "Fable 5.2でThree.jsのアパートをBlenderに再現",
+      "ko": "Fable 5.2로 Three.js 아파트를 Blender에 재현"
     },
     "Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)": {
       "en": "Fable 5.2 vs Opus 5.5 — same prompt Three.js ship (side-by-side)",
       "zh-CN": "Fable 5.2 与 Opus 5.5：同一提示词制作 Three.js 船只（并排对照）",
       "zh-TW": "Fable 5.2 與 Opus 5.5：同一提示詞製作 Three.js 船隻（並排對照）",
-      "ja": "Fable 5.2とOpus 5.5：同じプロンプトによるThree.jsの船（横並び比較）"
+      "ja": "Fable 5.2とOpus 5.5：同じプロンプトによるThree.jsの船（横並び比較）",
+      "ko": "Fable 5.2 vs Opus 5.5: 같은 프롬프트로 만든 Three.js 선박 나란히 비교"
     },
     "Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D)": {
       "en": "Four single-message Fable 5.2 animation prompts (logo / promo / cinematic / 3D)",
       "zh-CN": "四条单消息 Fable 5.2 动画提示词（标志／宣传／电影感／三维）",
       "zh-TW": "四條單消息 Fable 5.2 動畫提示詞（標誌／宣傳／電影感／三維）",
-      "ja": "各1メッセージで作るFable 5.2のアニメ用プロンプト4種（ロゴ／プロモーション／映画風／3D）"
+      "ja": "各1メッセージで作るFable 5.2のアニメ用プロンプト4種（ロゴ／プロモーション／映画風／3D）",
+      "ko": "한 메시지로 만드는 Fable 5.2 애니메이션 프롬프트 4개(로고 / 홍보 / 영화풍 / 3D)"
     },
     "Editable SVG sailboat illustration with CSS motion (two API calls)": {
       "en": "Editable SVG sailboat illustration with CSS motion (two API calls)",
       "zh-CN": "带 CSS 动效的可编辑 SVG 帆船插画（两次 API 调用）",
       "zh-TW": "帶 CSS 動效的可編輯 SVG 帆船插畫（兩次 API 調用）",
-      "ja": "CSSアニメ付きの編集可能なSVG帆船イラスト（API呼び出し2回）"
+      "ja": "CSSアニメ付きの編集可能なSVG帆船イラスト（API呼び出し2回）",
+      "ko": "CSS 움직임을 적용한 편집 가능한 SVG 돛단배 일러스트(API 호출 2회)"
     },
     "Isometric day/night city HTML loop — Claude Opus 5.5": {
       "en": "Isometric day/night city HTML loop — Claude Opus 5.5",
       "zh-CN": "等距视角城市昼夜 HTML 循环动画：Claude Opus 5.5",
       "zh-TW": "等距視角城市晝夜 HTML 循環動畫：Claude Opus 5.5",
-      "ja": "アイソメトリック都市の昼夜HTMLループ：Claude Opus 5.5"
+      "ja": "アイソメトリック都市の昼夜HTMLループ：Claude Opus 5.5",
+      "ko": "아이소메트릭 도시의 낮과 밤 HTML 루프 — Claude Opus 5.5"
     },
     "Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)": {
       "en": "Bugatti Tourbillon in Blender, then a short car film (Fable 5.2)",
       "zh-CN": "在 Blender 中制作 Bugatti Tourbillon，再拍一支汽车短片（Fable 5.2）",
       "zh-TW": "在 Blender 中製作 Bugatti Tourbillon，再拍一支汽車短片（Fable 5.2）",
-      "ja": "BlenderでBugatti Tourbillonを制作し、自動車の短編映像へ（Fable 5.2）"
+      "ja": "BlenderでBugatti Tourbillonを制作し、自動車の短編映像へ（Fable 5.2）",
+      "ko": "Blender로 만든 Bugatti Tourbillon과 짧은 자동차 영상(Fable 5.2)"
     },
     "T-cell life film in Blender (12,480 frames, Fable 5.2)": {
       "en": "T-cell life film in Blender (12,480 frames, Fable 5.2)",
       "zh-CN": "Blender 中的 T 细胞生命影片（12,480 帧，Fable 5.2）",
       "zh-TW": "Blender 中的 T 細胞生命影片（12,480 幀，Fable 5.2）",
-      "ja": "BlenderによるT細胞の生命の映像（12,480フレーム、Fable 5.2）"
+      "ja": "BlenderによるT細胞の生命の映像（12,480フレーム、Fable 5.2）",
+      "ko": "Blender로 만든 T세포의 생애 영상(12,480프레임, Fable 5.2)"
     },
     "Photo-real Three.js ocean that runs from sunset to sunrise": {
       "en": "Photo-real Three.js ocean that runs from sunset to sunrise",
       "zh-CN": "从日落运行到日出的照片级真实 Three.js 海洋",
       "zh-TW": "從日落運行到日出的照片級真實 Three.js 海洋",
-      "ja": "日没から日の出まで動く写実的なThree.jsの海"
+      "ja": "日没から日の出まで動く写実的なThree.jsの海",
+      "ko": "일몰에서 일출까지 이어지는 사실적인 Three.js 바다"
     },
     "Mechanical keyboard built and typed on in Blender": {
       "en": "Mechanical keyboard built and typed on in Blender",
       "zh-CN": "在 Blender 中制作机械键盘并演示打字",
       "zh-TW": "在 Blender 中製作機械鍵盤並演示打字",
-      "ja": "Blenderでメカニカルキーボードを制作し、タイピングを実演"
+      "ja": "Blenderでメカニカルキーボードを制作し、タイピングを実演",
+      "ko": "Blender로 만든 기계식 키보드와 타이핑 장면"
     },
     "Point-light 3D film about AgentSky (Blender and code)": {
       "en": "Point-light 3D film about AgentSky (Blender and code)",
       "zh-CN": "关于 AgentSky 的点光源三维影片（Blender 与代码）",
       "zh-TW": "關於 AgentSky 的點光源三維影片（Blender 與代碼）",
-      "ja": "AgentSkyを描く点光源の3D映像（Blenderとコード）"
+      "ja": "AgentSkyを描く点光源の3D映像（Blenderとコード）",
+      "ko": "AgentSky를 다룬 점광원 3D 영상(Blender와 코드)"
     },
     "Dragon game built from scratch in Three.js": {
       "en": "Dragon game built from scratch in Three.js",
       "zh-CN": "从零用 Three.js 制作龙游戏",
       "zh-TW": "從零用 Three.js 製作龍遊戲",
-      "ja": "Three.jsでゼロから制作したドラゴンゲーム"
+      "ja": "Three.jsでゼロから制作したドラゴンゲーム",
+      "ko": "Three.js로 처음부터 만든 드래곤 게임"
     },
     "10 November remembrance video by Fable 5.2": {
       "en": "10 November remembrance video by Fable 5.2",
       "zh-CN": "Fable 5.2 制作的 11 月 10 日纪念视频",
       "zh-TW": "Fable 5.2 製作的 11 月 10 日紀念視頻",
-      "ja": "Fable 5.2による11月10日の追悼映像"
+      "ja": "Fable 5.2による11月10日の追悼映像",
+      "ko": "Fable 5.2가 만든 11월 10일 추모 영상"
     },
     "Everycut，把录屏、文字剪辑和混音放进同一款编辑器": {
       "en": "Everycut: screen recording, text-based editing, and audio mixing in one editor",
       "zh-CN": "Everycut，把录屏、文字剪辑和混音放进同一款编辑器",
       "zh-TW": "Everycut，把錄屏、文字剪輯和混音放進同一款編輯器",
-      "ja": "Everycut：画面録画、テキストベースの編集、音声ミックスを1つのエディターに"
+      "ja": "Everycut：画面録画、テキストベースの編集、音声ミックスを1つのエディターに",
+      "ko": "Everycut: 화면 녹화, 텍스트 기반 편집, 오디오 믹싱을 한 편집기에 통합"
     },
     "支持 Ableton Push 的环境音乐工作站": {
       "en": "An ambient music workstation with Ableton Push support",
       "zh-CN": "支持 Ableton Push 的环境音乐工作站",
       "zh-TW": "支持 Ableton Push 的環境音樂工作站",
-      "ja": "Ableton Push対応のアンビエント音楽ワークステーション"
+      "ja": "Ableton Push対応のアンビエント音楽ワークステーション",
+      "ko": "Ableton Push를 지원하는 앰비언트 음악 워크스테이션"
     },
     "Quadrille，浏览器里的 Excel 风格表格": {
       "en": "Quadrille: an Excel-style spreadsheet in the browser",
       "zh-CN": "Quadrille，浏览器里的 Excel 风格表格",
       "zh-TW": "Quadrille，瀏覽器里的 Excel 風格表格",
-      "ja": "Quadrille：ブラウザーで使うExcel風スプレッドシート"
+      "ja": "Quadrille：ブラウザーで使うExcel風スプレッドシート",
+      "ko": "Quadrille: 브라우저에서 사용하는 Excel 스타일 스프레드시트"
     },
     "Photon，Photoshop 风格的在线图像编辑器": {
       "en": "Photon: a Photoshop-style online image editor",
       "zh-CN": "Photon，Photoshop 风格的在线图像编辑器",
       "zh-TW": "Photon，Photoshop 風格的在線圖像編輯器",
-      "ja": "Photon：Photoshop風のオンライン画像エディター"
+      "ja": "Photon：Photoshop風のオンライン画像エディター",
+      "ko": "Photon: Photoshop 스타일 온라인 이미지 편집기"
     },
     "为虚构团体 Interchange 探索 20 款标志": {
       "en": "Exploring 20 logos for the fictional group Interchange",
       "zh-CN": "为虚构团体 Interchange 探索 20 款标志",
       "zh-TW": "為虛構團體 Interchange 探索 20 款標誌",
-      "ja": "架空の団体Interchangeのロゴを20案検討"
+      "ja": "架空の団体Interchangeのロゴを20案検討",
+      "ko": "가상 그룹 Interchange를 위한 로고 20개 탐색"
     },
     "Prebid Brief，从政府议程找尚未招标的商机": {
       "en": "Prebid Brief: finding pre-tender business opportunities in government agendas",
       "zh-CN": "Prebid Brief，从政府议程找尚未招标的商机",
       "zh-TW": "Prebid Brief，從政府議程找尚未招標的商機",
-      "ja": "Prebid Brief：政府の議題から入札前のビジネス機会を探す"
+      "ja": "Prebid Brief：政府の議題から入札前のビジネス機会を探す",
+      "ko": "Prebid Brief: 정부 의제에서 입찰 전 사업 기회 찾기"
     },
     "Kestrel，在 Windows 本地运行的时间线编辑器": {
       "en": "Kestrel: a timeline editor running locally on Windows",
       "zh-CN": "Kestrel，在 Windows 本地运行的时间线编辑器",
       "zh-TW": "Kestrel，在 Windows 本地運行的時間線編輯器",
-      "ja": "Kestrel：Windows上でローカル動作するタイムラインエディター"
+      "ja": "Kestrel：Windows上でローカル動作するタイムラインエディター",
+      "ko": "Kestrel: Windows 로컬 환경에서 실행되는 타임라인 편집기"
     },
     "能被 Claude 调用的编曲工作站": {
       "en": "A music arrangement workstation callable by Claude",
       "zh-CN": "能被 Claude 调用的编曲工作站",
       "zh-TW": "能被 Claude 調用的編曲工作站",
-      "ja": "Claudeから呼び出せる編曲ワークステーション"
+      "ja": "Claudeから呼び出せる編曲ワークステーション",
+      "ko": "Claude가 호출할 수 있는 음악 편곡 워크스테이션"
     },
     "typed.page，带纸张、色带和写作计时的网页打字机": {
       "en": "typed.page: a web typewriter with paper, ribbon, and a writing timer",
       "zh-CN": "typed.page，带纸张、色带和写作计时的网页打字机",
       "zh-TW": "typed.page，帶紙張、色帶和寫作計時的網頁打字機",
-      "ja": "typed.page：紙、インクリボン、執筆タイマーを備えたウェブタイプライター"
+      "ja": "typed.page：紙、インクリボン、執筆タイマーを備えたウェブタイプライター",
+      "ko": "typed.page: 종이, 리본, 글쓰기 타이머를 갖춘 웹 타자기"
     },
     "从代理数据快照生成指挥台": {
       "en": "Generating a command dashboard from an agent-data snapshot",
       "zh-CN": "从代理数据快照生成指挥台",
       "zh-TW": "從代理數據快照生成指揮台",
-      "ja": "エージェントのデータスナップショットから指令ダッシュボードを生成"
+      "ja": "エージェントのデータスナップショットから指令ダッシュボードを生成",
+      "ko": "에이전트 데이터 스냅샷으로 명령 대시보드 생성"
     },
     "放手一个周末，让代理给 Checks 做 75 项改动": {
       "en": "Leaving an agent a weekend to make 75 changes to Checks",
       "zh-CN": "放手一个周末，让代理给 Checks 做 75 项改动",
       "zh-TW": "放手一個週末，讓代理給 Checks 做 75 項改動",
-      "ja": "週末を丸ごと任せ、エージェントにChecksを75項目改修させる"
+      "ja": "週末を丸ごと任せ、エージェントにChecksを75項目改修させる",
+      "ko": "에이전트에게 주말을 맡겨 Checks를 75곳 수정"
     },
     "重做 ChatPRD 的产品情报管线": {
       "en": "Rebuilding ChatPRD’s product intelligence pipeline",
       "zh-CN": "重做 ChatPRD 的产品情报管线",
       "zh-TW": "重做 ChatPRD 的產品情報管線",
-      "ja": "ChatPRDの製品情報収集・分析パイプラインを再構築"
+      "ja": "ChatPRDの製品情報収集・分析パイプラインを再構築",
+      "ko": "ChatPRD의 제품 인텔리전스 파이프라인 재구축"
     },
     "Pane，开源的 YouTube 与 Twitch 播放器": {
       "en": "Pane: an open-source YouTube and Twitch player",
       "zh-CN": "Pane，开源的 YouTube 与 Twitch 播放器",
       "zh-TW": "Pane，開源的 YouTube 與 Twitch 播放器",
-      "ja": "Pane：オープンソースのYouTube・Twitchプレーヤー"
+      "ja": "Pane：オープンソースのYouTube・Twitchプレーヤー",
+      "ko": "Pane: 오픈 소스 YouTube 및 Twitch 플레이어"
     },
     "KONTUR，把建筑服务页做成带动效的项目旅程": {
       "en": "KONTUR: turning an architecture services page into an animated project journey",
       "zh-CN": "KONTUR，把建筑服务页做成带动效的项目旅程",
       "zh-TW": "KONTUR，把建築服務頁做成帶動效的項目旅程",
-      "ja": "KONTUR：建築サービスのページを、動きのあるプロジェクト体験に"
+      "ja": "KONTUR：建築サービスのページを、動きのあるプロジェクト体験に",
+      "ko": "KONTUR: 건축 서비스 페이지를 애니메이션 프로젝트 여정으로 변환"
     },
     "给同一张参考图，比较 Fable 与 Opus 的网页还原": {
       "en": "Comparing Fable and Opus web recreations from the same reference image",
       "zh-CN": "给同一张参考图，比较 Fable 与 Opus 的网页还原",
       "zh-TW": "給同一張參考圖，比較 Fable 與 Opus 的網頁還原",
-      "ja": "同じ参照画像からのウェブ再現をFableとOpusで比較"
+      "ja": "同じ参照画像からのウェブ再現をFableとOpusで比較",
+      "ko": "같은 참조 이미지로 Fable과 Opus의 웹 재현 비교"
     },
     "用同一份网页改版任务比较 Fable 和 Opus": {
       "en": "Comparing Fable and Opus on the same website redesign brief",
       "zh-CN": "用同一份网页改版任务比较 Fable 和 Opus",
       "zh-TW": "用同一份網頁改版任務比較 Fable 和 Opus",
-      "ja": "同じウェブサイト改修課題でFableとOpusを比較"
+      "ja": "同じウェブサイト改修課題でFableとOpusを比較",
+      "ko": "같은 웹사이트 재설계 과제로 Fable과 Opus 비교"
     },
     "Uare，把一条宣传需求做成约 64 秒的发布片": {
       "en": "Uare: one promotional brief becomes a roughly 64-second launch film",
       "zh-CN": "Uare，把一条宣传需求做成约 64 秒的发布片",
       "zh-TW": "Uare，把一條宣傳需求做成約 64 秒的發佈片",
-      "ja": "Uare：1つの宣伝依頼から約64秒の発表映像を制作"
+      "ja": "Uare：1つの宣伝依頼から約64秒の発表映像を制作",
+      "ko": "Uare: 홍보 과제 하나로 약 64초 출시 영상 제작"
     },
     "FBPlot，把代码库里的真实图表做成产品预告": {
       "en": "FBPlot: turning real charts from a codebase into a product teaser",
       "zh-CN": "FBPlot，把代码库里的真实图表做成产品预告",
       "zh-TW": "FBPlot，把代碼庫里的真實圖表做成產品預告",
-      "ja": "FBPlot：コードベース内の実際のグラフを製品ティーザー映像に"
+      "ja": "FBPlot：コードベース内の実際のグラフを製品ティーザー映像に",
+      "ko": "FBPlot: 코드베이스의 실제 차트를 제품 티저로 변환"
     },
     "High 和 Max 档，盲评同一组网页设计": {
       "en": "Blind evaluation of the same web designs at High and Max settings",
       "zh-CN": "High 和 Max 档，盲评同一组网页设计",
       "zh-TW": "High 和 Max 檔，盲評同一組網頁設計",
-      "ja": "HighとMax設定による同じウェブデザイン群をブラインド評価"
+      "ja": "HighとMax設定による同じウェブデザイン群をブラインド評価",
+      "ko": "High와 Max 설정에서 만든 동일 웹 디자인의 블라인드 평가"
     },
     "把达·芬奇手稿 PDF 做成可交互发明": {
       "en": "Turning a PDF of Leonardo da Vinci’s manuscripts into interactive inventions",
       "zh-CN": "把达·芬奇手稿 PDF 做成可交互发明",
       "zh-TW": "把達·芬奇手稿 PDF 做成可交互發明",
-      "ja": "レオナルド・ダ・ヴィンチの手稿PDFを操作できる発明に"
+      "ja": "レオナルド・ダ・ヴィンチの手稿PDFを操作できる発明に",
+      "ko": "레오나르도 다 빈치 필사본 PDF를 인터랙티브 발명품으로 변환"
     },
     "用 约 50 秒动效讲大语言模型": {
       "en": "Explaining large language models with roughly 50 seconds of motion graphics",
       "zh-CN": "用 约 50 秒动效讲大语言模型",
       "zh-TW": "用 約 50 秒動效講大語言模型",
-      "ja": "約50秒のモーショングラフィックスで大規模言語モデルを解説"
+      "ja": "約50秒のモーショングラフィックスで大規模言語モデルを解説",
+      "ko": "약 50초 모션 그래픽으로 대규모 언어 모델 설명"
     },
     "First Crush，把葡萄酒酿造步骤变成游戏": {
       "en": "First Crush: turning winemaking steps into a game",
       "zh-CN": "First Crush，把葡萄酒酿造步骤变成游戏",
       "zh-TW": "First Crush，把葡萄酒釀造步驟變成遊戲",
-      "ja": "First Crush：ワイン醸造の工程をゲームに"
+      "ja": "First Crush：ワイン醸造の工程をゲームに",
+      "ko": "First Crush: 와인 제조 과정을 게임으로 변환"
     },
     "《The History of Writing》，把文字史做成一支 96 秒动画": {
       "en": "“The History of Writing”: a 96-second animation about the history of writing",
       "zh-CN": "《The History of Writing》，把文字史做成一支 96 秒动画",
       "zh-TW": "《The History of Writing》，把文字史做成一支 96 秒動畫",
-      "ja": "『The History of Writing』：文字の歴史を96秒のアニメに"
+      "ja": "『The History of Writing』：文字の歴史を96秒のアニメに",
+      "ko": "“The History of Writing”: 문자 역사를 다룬 96초 애니메이션"
     },
     "用 Three.js 做可操作的人体解剖浏览器": {
       "en": "An interactive human anatomy viewer made with Three.js",
       "zh-CN": "用 Three.js 做可操作的人体解剖浏览器",
       "zh-TW": "用 Three.js 做可操作的人體解剖瀏覽器",
-      "ja": "Three.jsで操作可能な人体解剖ビューアーを制作"
+      "ja": "Three.jsで操作可能な人体解剖ビューアーを制作",
+      "ko": "Three.js로 만든 인터랙티브 인체 해부학 뷰어"
     },
     "把 Fable 5.2 的发布补进一部 Anthropic 历史片": {
       "en": "Adding the Fable 5.2 launch to a film about Anthropic’s history",
       "zh-CN": "把 Fable 5.2 的发布补进一部 Anthropic 历史片",
       "zh-TW": "把 Fable 5.2 的發佈補進一部 Anthropic 歷史片",
-      "ja": "Anthropicの歴史映像にFable 5.2の発表を追加"
+      "ja": "Anthropicの歴史映像にFable 5.2の発表を追加",
+      "ko": "Anthropic 역사 영상에 Fable 5.2 출시 내용 추가"
     },
     "30 秒图解短片，配音和音频经 Fal 生成": {
       "en": "A 30-second illustrated explainer with voiceover and audio generated via Fal",
       "zh-CN": "30 秒图解短片，配音和音频经 Fal 生成",
       "zh-TW": "30 秒圖解短片，配音和音頻經 Fal 生成",
-      "ja": "Falで生成したナレーションと音声による30秒の図解映像"
+      "ja": "Falで生成したナレーションと音声による30秒の図解映像",
+      "ko": "Fal로 생성한 내레이션과 오디오를 넣은 30초 일러스트 해설"
     },
     "用 Blender 重建公元一世纪的耶路撒冷街区": {
       "en": "Rebuilding a first-century Jerusalem neighborhood in Blender",
       "zh-CN": "用 Blender 重建公元一世纪的耶路撒冷街区",
       "zh-TW": "用 Blender 重建公元一世紀的耶路撒冷街區",
-      "ja": "Blenderで紀元1世紀のエルサレムの街区を再現"
+      "ja": "Blenderで紀元1世紀のエルサレムの街区を再現",
+      "ko": "Blender로 1세기 예루살렘 동네 재건"
     },
     "《The Edge》，用 Blender 和网页做出 13 镜头短片": {
       "en": "“The Edge”: a 13-shot short film made with Blender and web technology",
       "zh-CN": "《The Edge》，用 Blender 和网页做出 13 镜头短片",
       "zh-TW": "《The Edge》，用 Blender 和網頁做出 13 鏡頭短片",
-      "ja": "『The Edge』：Blenderとウェブで制作した13ショットの短編"
+      "ja": "『The Edge』：Blenderとウェブで制作した13ショットの短編",
+      "ko": "“The Edge”: Blender와 웹 기술로 만든 13개 숏의 단편 영화"
     },
     "90 秒蒸汽机车变形短片，附完整提示词": {
       "en": "A 90-second steam-locomotive transformation film, with the full prompt",
       "zh-CN": "90 秒蒸汽机车变形短片，附完整提示词",
       "zh-TW": "90 秒蒸汽機車變形短片，附完整提示詞",
-      "ja": "90秒の蒸気機関車変形映像。完全なプロンプトを掲載"
+      "ja": "90秒の蒸気機関車変形映像。完全なプロンプトを掲載",
+      "ko": "전체 프롬프트가 공개된 90초 증기기관차 변신 영상"
     },
     "京都伏见稻荷，20 秒代码旅行宣传片": {
       "en": "Kyoto’s Fushimi Inari: a 20-second coded travel promo",
       "zh-CN": "京都伏见稻荷，20 秒代码旅行宣传片",
       "zh-TW": "京都伏見稻荷，20 秒代碼旅行宣傳片",
-      "ja": "京都・伏見稲荷：コードで制作した20秒の観光PR映像"
+      "ja": "京都・伏見稲荷：コードで制作した20秒の観光PR映像",
+      "ko": "교토 후시미 이나리: 코드로 만든 20초 여행 홍보 영상"
     },
     "Blender × Reaper，用手机录音做三维片段的音效": {
       "en": "Blender × Reaper: phone recordings become sound effects for a 3D sequence",
       "zh-CN": "Blender × Reaper，用手机录音做三维片段的音效",
       "zh-TW": "Blender × Reaper，用手機錄音做三維片段的音效",
-      "ja": "Blender×Reaper：スマホの録音を3D映像の効果音に"
+      "ja": "Blender×Reaper：スマホの録音を3D映像の効果音に",
+      "ko": "Blender × Reaper: 휴대폰 녹음을 3D 시퀀스의 효과음으로 변환"
     },
     "用 Python 模拟画笔，按虚构画家风格作画": {
       "en": "Simulating brushstrokes in Python to paint in a fictional artist’s style",
       "zh-CN": "用 Python 模拟画笔，按虚构画家风格作画",
       "zh-TW": "用 Python 模擬畫筆，按虛構畫家風格作畫",
-      "ja": "Pythonで筆をシミュレートし、架空の画家の作風で描く"
+      "ja": "Pythonで筆をシミュレートし、架空の画家の作風で描く",
+      "ko": "Python으로 붓질을 시뮬레이션해 가상 화가의 스타일로 그림 그리기"
     },
     "给一段口播做 9:16 剪辑，把动效也交给代理": {
       "en": "Editing a talking-head clip into 9:16, with motion graphics also handled by the agent",
       "zh-CN": "给一段口播做 9:16 剪辑，把动效也交给代理",
       "zh-TW": "給一段口播做 9:16 剪輯，把動效也交給代理",
-      "ja": "トーク映像を9:16に編集し、モーショングラフィックスもエージェントに任せる"
+      "ja": "トーク映像を9:16に編集し、モーショングラフィックスもエージェントに任せる",
+      "ko": "인물 발화 영상을 9:16으로 편집하고 모션 그래픽까지 에이전트가 처리"
     },
     "让代理采访研究者，再把录音剪成纪录片": {
       "en": "Having an agent interview researchers, then edit the recordings into a documentary",
       "zh-CN": "让代理采访研究者，再把录音剪成纪录片",
       "zh-TW": "讓代理採訪研究者，再把錄音剪成紀錄片",
-      "ja": "エージェントが研究者に取材し、録音をドキュメンタリーに編集"
+      "ja": "エージェントが研究者に取材し、録音をドキュメンタリーに編集",
+      "ko": "에이전트가 연구자를 인터뷰하고 녹화본을 다큐멘터리로 편집"
     },
     "把文章放进虚拟展厅，做成约 4 分 44 秒视频": {
       "en": "Placing an article in a virtual gallery to make a roughly 4-minute-44-second video",
       "zh-CN": "把文章放进虚拟展厅，做成约 4 分 44 秒视频",
       "zh-TW": "把文章放進虛擬展廳，做成約 4 分 44 秒視頻",
-      "ja": "記事を仮想展示室に配置し、約4分44秒の映像に"
+      "ja": "記事を仮想展示室に配置し、約4分44秒の映像に",
+      "ko": "기사를 가상 갤러리에 배치해 약 4분 44초 영상 제작"
     },
     "一部约 49 分钟的代码电影": {
       "en": "A roughly 49-minute coded film",
       "zh-CN": "一部约 49 分钟的代码电影",
       "zh-TW": "一部約 49 分鐘的代碼電影",
-      "ja": "約49分のコードで作った映画"
+      "ja": "約49分のコードで作った映画",
+      "ko": "코드로 만든 약 49분 영상"
     },
     "《Discovery》，在三维房间里展开的代码短片": {
       "en": "“Discovery”: a coded short film unfolding in a 3D room",
       "zh-CN": "《Discovery》，在三维房间里展开的代码短片",
       "zh-TW": "《Discovery》，在三維房間里展開的代碼短片",
-      "ja": "『Discovery』：3Dの部屋を舞台に展開するコード制作の短編"
+      "ja": "『Discovery』：3Dの部屋を舞台に展開するコード制作の短編",
+      "ko": "“Discovery”: 3D 방에서 펼쳐지는 코드 기반 단편"
     },
     "用 Remotion 和 Three.js 做 UFO 到访 51 区": {
       "en": "A UFO visits Area 51, made with Remotion and Three.js",
       "zh-CN": "用 Remotion 和 Three.js 做 UFO 到访 51 区",
       "zh-TW": "用 Remotion 和 Three.js 做 UFO 到訪 51 區",
-      "ja": "RemotionとThree.jsでUFOのエリア51訪問を制作"
+      "ja": "RemotionとThree.jsでUFOのエリア51訪問を制作",
+      "ko": "Remotion과 Three.js로 만든 51구역을 방문하는 UFO"
     },
     "《Blackout》，用 Three.js 做 79 秒二维动画": {
       "en": "“Blackout”: a 79-second 2D animation made with Three.js",
       "zh-CN": "《Blackout》，用 Three.js 做 79 秒二维动画",
       "zh-TW": "《Blackout》，用 Three.js 做 79 秒二維動畫",
-      "ja": "『Blackout』：Three.jsで作った79秒の2Dアニメ"
+      "ja": "『Blackout』：Three.jsで作った79秒の2Dアニメ",
+      "ko": "“Blackout”: Three.js로 만든 79초 2D 애니메이션"
     },
     "用 Python 和 Blender 做一支 90 年代风格玩具广告": {
       "en": "A 1990s-style toy commercial made with Python and Blender",
       "zh-CN": "用 Python 和 Blender 做一支 90 年代风格玩具广告",
       "zh-TW": "用 Python 和 Blender 做一支 90 年代風格玩具廣告",
-      "ja": "PythonとBlenderで1990年代風のおもちゃCMを制作"
+      "ja": "PythonとBlenderで1990年代風のおもちゃCMを制作",
+      "ko": "Python과 Blender로 만든 1990년대 스타일 장난감 광고"
     },
     "用 JavaScript 逐帧画一段约 100 秒的动画": {
       "en": "Drawing a roughly 100-second animation frame by frame in JavaScript",
       "zh-CN": "用 JavaScript 逐帧画一段约 100 秒的动画",
       "zh-TW": "用 JavaScript 逐幀畫一段約 100 秒的動畫",
-      "ja": "JavaScriptで約100秒のアニメを1フレームずつ描く"
+      "ja": "JavaScriptで約100秒のアニメを1フレームずつ描く",
+      "ko": "JavaScript로 프레임마다 그린 약 100초 애니메이션"
     },
     "15 秒火柴人对打，保留 Fable 与 Opus 的成本对照": {
       "en": "A 15-second stick-figure fight, retaining the Fable–Opus cost comparison",
       "zh-CN": "15 秒火柴人对打，保留 Fable 与 Opus 的成本对照",
       "zh-TW": "15 秒火柴人對打，保留 Fable 與 Opus 的成本對照",
-      "ja": "15秒の棒人間バトル。FableとOpusの費用比較も掲載"
+      "ja": "15秒の棒人間バトル。FableとOpusの費用比較も掲載",
+      "ko": "Fable과 Opus 비용 비교를 유지한 15초 졸라맨 격투"
     },
     "从贴纸到吊链和铃声，程序化做一张会动的招牌": {
       "en": "A procedurally animated sign, from stickers to hanging chains and ringing sounds",
       "zh-CN": "从贴纸到吊链和铃声，程序化做一张会动的招牌",
       "zh-TW": "從貼紙到吊鏈和鈴聲，程序化做一張會動的招牌",
-      "ja": "ステッカーから吊りチェーン、ベルの音まで、プログラムで動く看板を制作"
+      "ja": "ステッカーから吊りチェーン、ベルの音まで、プログラムで動く看板を制作",
+      "ko": "스티커부터 매달린 사슬과 울림 소리까지 절차적으로 움직이는 간판"
     },
     "Piranha P-7，用代码做一条能拆解的食人鱼": {
       "en": "Piranha P-7: a coded piranha that can be taken apart",
       "zh-CN": "Piranha P-7，用代码做一条能拆解的食人鱼",
       "zh-TW": "Piranha P-7，用代碼做一條能拆解的食人魚",
-      "ja": "Piranha P-7：分解できるピラニアをコードで制作"
+      "ja": "Piranha P-7：分解できるピラニアをコードで制作",
+      "ko": "Piranha P-7: 분해할 수 있는 코드 기반 피라냐"
     },
     "约 5 秒的定格风格动画试验": {
       "en": "A roughly five-second stop-motion-style animation experiment",
       "zh-CN": "约 5 秒的定格风格动画试验",
       "zh-TW": "約 5 秒的定格風格動畫試驗",
-      "ja": "約5秒のストップモーション風アニメ実験"
+      "ja": "約5秒のストップモーション風アニメ実験",
+      "ko": "약 5초 스톱 모션 스타일 애니메이션 실험"
     },
     "把金属质感的标志做成一段三维动效": {
       "en": "Turning a metallic logo into 3D motion graphics",
       "zh-CN": "把金属质感的标志做成一段三维动效",
       "zh-TW": "把金屬質感的標誌做成一段三維動效",
-      "ja": "金属質感のロゴを3Dモーショングラフィックスに"
+      "ja": "金属質感のロゴを3Dモーショングラフィックスに",
+      "ko": "금속 로고를 3D 모션 그래픽으로 변환"
     },
     "用 Three.js 写出落日和海面反光": {
       "en": "Coding a sunset and ocean reflections in Three.js",
       "zh-CN": "用 Three.js 写出落日和海面反光",
       "zh-TW": "用 Three.js 寫出落日和海面反光",
-      "ja": "Three.jsで夕日と海面の反射を描く"
+      "ja": "Three.jsで夕日と海面の反射を描く",
+      "ko": "Three.js 코드로 일몰과 바다 반사 표현"
     },
     "四张代码绘图，做成并排的动效展示": {
       "en": "Four coded drawings presented as side-by-side animations",
       "zh-CN": "四张代码绘图，做成并排的动效展示",
       "zh-TW": "四張代碼繪圖，做成並排的動效展示",
-      "ja": "コードで描いた4枚の絵を、横並びのアニメとして展示"
+      "ja": "コードで描いた4枚の絵を、横並びのアニメとして展示",
+      "ko": "코드로 그린 그림 4개를 나란히 애니메이션으로 제시"
     },
     "给一块空画布，让模型自己选题构图": {
       "en": "Giving the model a blank canvas to choose its own subject and composition",
       "zh-CN": "给一块空画布，让模型自己选题构图",
       "zh-TW": "給一塊空畫布，讓模型自己選題構圖",
-      "ja": "空のキャンバスを渡し、モデル自身に題材と構図を選ばせる"
+      "ja": "空のキャンバスを渡し、モデル自身に題材と構図を選ばせる",
+      "ko": "빈 캔버스를 주고 모델이 주제와 구도를 직접 선택하게 함"
     },
     "12 篇漫画试验，作者公开了没做满意的版本": {
       "en": "Twelve comic experiments, including versions the author was not satisfied with",
       "zh-CN": "12 篇漫画试验，作者公开了没做满意的版本",
       "zh-TW": "12 篇漫畫試驗，作者公開了沒做滿意的版本",
-      "ja": "12本の漫画実験。作者が満足していない版も公開"
+      "ja": "12本の漫画実験。作者が満足していない版も公開",
+      "ko": "작성자가 만족하지 못한 버전까지 포함한 만화 실험 12개"
     },
     "Turbo Tails，带漂移和道具的浏览器卡丁车": {
       "en": "Turbo Tails: browser kart racing with drifting and items",
       "zh-CN": "Turbo Tails，带漂移和道具的浏览器卡丁车",
       "zh-TW": "Turbo Tails，帶漂移和道具的瀏覽器卡丁車",
-      "ja": "Turbo Tails：ドリフトとアイテムを備えたブラウザーカートレース"
+      "ja": "Turbo Tails：ドリフトとアイテムを備えたブラウザーカートレース",
+      "ko": "Turbo Tails: 드리프트와 아이템을 갖춘 브라우저 카트 레이싱"
     },
     "反转 Scooby-Doo，玩家要把调查的孩子吓跑": {
       "en": "Reversing Scooby-Doo: the player must scare away the investigating kids",
       "zh-CN": "反转 Scooby-Doo，玩家要把调查的孩子吓跑",
       "zh-TW": "反轉 Scooby-Doo，玩家要把調查的孩子嚇跑",
-      "ja": "Scooby-Dooの立場を逆転。調査する子どもたちをプレーヤーが追い払う"
+      "ja": "Scooby-Dooの立場を逆転。調査する子どもたちをプレーヤーが追い払う",
+      "ko": "스쿠비 두 뒤집기: 플레이어가 조사하러 온 아이들을 겁줘서 쫓아내기"
     },
     "SPUD SMASH，土豆在房间里打烂蓝椅子": {
       "en": "SPUD SMASH: a potato smashes blue chairs in a room",
       "zh-CN": "SPUD SMASH，土豆在房间里打烂蓝椅子",
       "zh-TW": "SPUD SMASH，土豆在房間里打爛藍椅子",
-      "ja": "SPUD SMASH：ジャガイモが部屋の青い椅子を破壊"
+      "ja": "SPUD SMASH：ジャガイモが部屋の青い椅子を破壊",
+      "ko": "SPUD SMASH: 방 안의 파란 의자를 부수는 감자"
     },
     "Hogwarts Royale，把霍格沃茨和大逃杀放在一起": {
       "en": "Hogwarts Royale: combining Hogwarts with battle royale",
       "zh-CN": "Hogwarts Royale，把霍格沃茨和大逃杀放在一起",
       "zh-TW": "Hogwarts Royale，把霍格沃茨和大逃殺放在一起",
-      "ja": "Hogwarts Royale：ホグワーツとバトルロイヤルを組み合わせる"
+      "ja": "Hogwarts Royale：ホグワーツとバトルロイヤルを組み合わせる",
+      "ko": "Hogwarts Royale: 호그와트와 배틀로얄의 결합"
     },
     "保留首版的第一人称射击等游戏样例": {
       "en": "Preserving first-version game examples, including first-person shooters",
       "zh-CN": "保留首版的第一人称射击等游戏样例",
       "zh-TW": "保留首版的第一人稱射擊等遊戲樣例",
-      "ja": "FPSなどのゲームサンプルを初版のまま保存"
+      "ja": "FPSなどのゲームサンプルを初版のまま保存",
+      "ko": "1인칭 슈팅을 포함한 게임의 첫 버전 사례 보존"
     },
     "在 Unreal Engine 里做《战争机器》风格的射击原型": {
       "en": "A Gears of War-style shooter prototype in Unreal Engine",
       "zh-CN": "在 Unreal Engine 里做《战争机器》风格的射击原型",
       "zh-TW": "在 Unreal Engine 里做《戰爭機器》風格的射擊原型",
-      "ja": "Unreal Engineで『Gears of War』風シューティングの試作"
+      "ja": "Unreal Engineで『Gears of War』風シューティングの試作",
+      "ko": "Unreal Engine의 Gears of War 스타일 슈팅 프로토타입"
     },
     "《糖豆人》风格闯关原型": {
       "en": "A Fall Guys-style obstacle-course prototype",
       "zh-CN": "《糖豆人》风格闯关原型",
       "zh-TW": "《糖豆人》風格闖關原型",
-      "ja": "『Fall Guys』風の障害物コースゲームの試作"
+      "ja": "『Fall Guys』風の障害物コースゲームの試作",
+      "ko": "Fall Guys 스타일 장애물 코스 프로토타입"
     },
     "Worm Rider，用代码生成沙虫、车队与地形": {
       "en": "Worm Rider: code-generated sandworms, convoys, and terrain",
       "zh-CN": "Worm Rider，用代码生成沙虫、车队与地形",
       "zh-TW": "Worm Rider，用代碼生成沙蟲、車隊與地形",
-      "ja": "Worm Rider：サンドワーム、車列、地形をコードで生成"
+      "ja": "Worm Rider：サンドワーム、車列、地形をコードで生成",
+      "ko": "Worm Rider: 코드로 생성한 모래벌레, 차량 행렬, 지형"
     },
     "一条提示启动的体素破坏引擎": {
       "en": "A voxel destruction engine started with one prompt",
       "zh-CN": "一条提示启动的体素破坏引擎",
       "zh-TW": "一條提示啓動的體素破壞引擎",
-      "ja": "1つのプロンプトで始動するボクセル破壊エンジン"
+      "ja": "1つのプロンプトで始動するボクセル破壊エンジン",
+      "ko": "프롬프트 하나로 시작한 복셀 파괴 엔진"
     },
     "Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照": {
       "en": "Fishslop: Fable and Opus versions of the same aquarium game",
       "zh-CN": "Fishslop，同一鱼缸游戏的 Fable 与 Opus 对照",
       "zh-TW": "Fishslop，同一魚缸遊戲的 Fable 與 Opus 對照",
-      "ja": "Fishslop：同じ水槽ゲームをFableとOpusで比較"
+      "ja": "Fishslop：同じ水槽ゲームをFableとOpusで比較",
+      "ko": "Fishslop: 같은 수족관 게임의 Fable 버전과 Opus 버전"
     },
     "Portals，穿过传送门飞进 471 个代码世界": {
       "en": "Portals: flying through portals into 471 coded worlds",
       "zh-CN": "Portals，穿过传送门飞进 471 个代码世界",
       "zh-TW": "Portals，穿過傳送門飛進 471 個代碼世界",
-      "ja": "Portals：ポータルを抜け、コードで作った471の世界へ飛ぶ"
+      "ja": "Portals：ポータルを抜け、コードで作った471の世界へ飛ぶ",
+      "ko": "Portals: 포털을 통해 코드로 만든 471개 세계 비행"
     },
     "用 WebGL 演示子弹穿过装水气球": {
       "en": "A WebGL demonstration of a bullet passing through a water-filled balloon",
       "zh-CN": "用 WebGL 演示子弹穿过装水气球",
       "zh-TW": "用 WebGL 演示子彈穿過裝水氣球",
-      "ja": "水入り風船を弾丸が貫く様子をWebGLで実演"
+      "ja": "水入り風船を弾丸が貫く様子をWebGLで実演",
+      "ko": "물이 찬 풍선을 관통하는 총알의 WebGL 시연"
     },
     "Ultramarine，同一三维任务对照两代模型": {
       "en": "Ultramarine: comparing two model generations on the same 3D task",
       "zh-CN": "Ultramarine，同一三维任务对照两代模型",
       "zh-TW": "Ultramarine，同一三維任務對照兩代模型",
-      "ja": "Ultramarine：同じ3D課題で2世代のモデルを比較"
+      "ja": "Ultramarine：同じ3D課題で2世代のモデルを比較",
+      "ko": "Ultramarine: 같은 3D 과제로 두 세대 모델 비교"
     },
     "Gilt & Gutter，用弹药颜色做 1 对 1 射击机制": {
       "en": "Gilt & Gutter: ammo colors as a one-on-one shooting mechanic",
       "zh-CN": "Gilt & Gutter，用弹药颜色做 1 对 1 射击机制",
       "zh-TW": "Gilt & Gutter，用彈藥顏色做 1 對 1 射擊機制",
-      "ja": "Gilt & Gutter：弾薬の色を使った1対1の射撃システム"
+      "ja": "Gilt & Gutter：弾薬の色を使った1対1の射撃システム",
+      "ko": "Gilt & Gutter: 탄약 색을 일대일 슈팅 메커니즘으로 사용"
     },
     "What the Water Keeps，坐船穿过八个梦境场景": {
       "en": "What the Water Keeps: a boat ride through eight dream scenes",
       "zh-CN": "What the Water Keeps，坐船穿过八个梦境场景",
       "zh-TW": "What the Water Keeps，坐船穿過八個夢境場景",
-      "ja": "What the Water Keeps：船で8つの夢の場面を巡る"
+      "ja": "What the Water Keeps：船で8つの夢の場面を巡る",
+      "ko": "What the Water Keeps: 배를 타고 8개 꿈 장면 여행"
     },
     "Vibe Check Delivery，三个模型做同题送报游戏": {
       "en": "Vibe Check Delivery: three models make a newspaper-delivery game from the same brief",
       "zh-CN": "Vibe Check Delivery，三个模型做同题送报游戏",
       "zh-TW": "Vibe Check Delivery，三個模型做同題送報遊戲",
-      "ja": "Vibe Check Delivery：3つのモデルが同じ課題で新聞配達ゲームを制作"
+      "ja": "Vibe Check Delivery：3つのモデルが同じ課題で新聞配達ゲームを制作",
+      "ko": "Vibe Check Delivery: 같은 과제로 세 모델이 신문 배달 게임 제작"
     },
     "Mirror Earth，把真实地球当作可破坏的游戏地图": {
       "en": "Mirror Earth: the real Earth as a destructible game map",
       "zh-CN": "Mirror Earth，把真实地球当作可破坏的游戏地图",
       "zh-TW": "Mirror Earth，把真實地球當作可破壞的遊戲地圖",
-      "ja": "Mirror Earth：実際の地球を破壊可能なゲームマップに"
+      "ja": "Mirror Earth：実際の地球を破壊可能なゲームマップに",
+      "ko": "Mirror Earth: 실제 지구를 파괴 가능한 게임 맵으로 사용"
     },
     "打开网页看一艘代码生成的三维帆船": {
       "en": "Open a webpage to view a code-generated 3D sailboat",
       "zh-CN": "打开网页看一艘代码生成的三维帆船",
       "zh-TW": "打開網頁看一艘代碼生成的三維帆船",
-      "ja": "ウェブページでコード生成の3D帆船を見る"
+      "ja": "ウェブページでコード生成の3D帆船を見る",
+      "ko": "웹페이지를 열어 코드로 생성한 3D 돛단배 보기"
     },
     "80 年代迈阿密风格的开放城市和任务系统": {
       "en": "An open city and mission system styled after 1980s Miami",
       "zh-CN": "80 年代迈阿密风格的开放城市和任务系统",
       "zh-TW": "80 年代邁阿密風格的開放城市和任務系統",
-      "ja": "1980年代のマイアミ風オープンシティとミッションシステム"
+      "ja": "1980年代のマイアミ風オープンシティとミッションシステム",
+      "ko": "1980년대 마이애미 스타일의 오픈 도시와 미션 시스템"
     },
     "水墨山景里的第三人称剑士": {
       "en": "A third-person swordsman in an ink-wash mountain landscape",
       "zh-CN": "水墨山景里的第三人称剑士",
       "zh-TW": "水墨山景里的第三人稱劍士",
-      "ja": "水墨画の山景色を進む三人称視点の剣士"
+      "ja": "水墨画の山景色を進む三人称視点の剣士",
+      "ko": "수묵 산수 풍경 속 3인칭 검사"
     },
     "用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告": {
       "en": "Making “The Clockmaker’s Mansion” and its trailer with Roblox MCP",
       "zh-CN": "用 Roblox MCP 制作《The Clockmaker’s Mansion》与预告",
       "zh-TW": "用 Roblox MCP 製作《The Clockmaker’s Mansion》與預告",
-      "ja": "Roblox MCPで『The Clockmaker’s Mansion』と予告編を制作"
+      "ja": "Roblox MCPで『The Clockmaker’s Mansion』と予告編を制作",
+      "ko": "Roblox MCP로 “The Clockmaker’s Mansion”과 예고편 제작"
     },
     "从手机里发起任务，得到能与电脑对弈的棋盘": {
       "en": "Starting a task on a phone and getting a board game playable against the computer",
       "zh-CN": "从手机里发起任务，得到能与电脑对弈的棋盘",
       "zh-TW": "從手機里發起任務，得到能與電腦對弈的棋盤",
-      "ja": "スマホから依頼し、コンピューターと対戦できる盤面を作成"
+      "ja": "スマホから依頼し、コンピューターと対戦できる盤面を作成",
+      "ko": "휴대폰에서 작업을 시작해 컴퓨터와 대결 가능한 보드게임 완성"
     },
     "Big Little Adventure，把家具变成小角色的关卡": {
       "en": "Big Little Adventure: furniture becomes levels for a tiny character",
       "zh-CN": "Big Little Adventure，把家具变成小角色的关卡",
       "zh-TW": "Big Little Adventure，把傢具變成小角色的關卡",
-      "ja": "Big Little Adventure：家具が小さなキャラクターのステージに"
+      "ja": "Big Little Adventure：家具が小さなキャラクターのステージに",
+      "ko": "Big Little Adventure: 작은 캐릭터를 위한 스테이지가 된 가구"
     },
     "Tokyo Night GP，带湿地反光的三圈夜赛": {
       "en": "Tokyo Night GP: a three-lap night race with wet-road reflections",
       "zh-CN": "Tokyo Night GP，带湿地反光的三圈夜赛",
       "zh-TW": "Tokyo Night GP，帶濕地反光的三圈夜賽",
-      "ja": "Tokyo Night GP：濡れた路面の反射がある3周のナイトレース"
+      "ja": "Tokyo Night GP：濡れた路面の反射がある3周のナイトレース",
+      "ko": "Tokyo Night GP: 젖은 도로 반사를 표현한 3바퀴 야간 레이스"
     },
     "给既有 F-Zero 风格赛车加金属爪漂移和瞬移": {
       "en": "Adding metal-claw drifting and teleportation to an existing F-Zero-style racer",
       "zh-CN": "给既有 F-Zero 风格赛车加金属爪漂移和瞬移",
       "zh-TW": "給既有 F-Zero 風格賽車加金屬爪漂移和瞬移",
-      "ja": "既存のF-Zero風レースに金属の爪を使ったドリフトと瞬間移動を追加"
+      "ja": "既存のF-Zero風レースに金属の爪を使ったドリフトと瞬間移動を追加",
+      "ko": "기존 F-Zero 스타일 레이싱에 금속 발톱 드리프트와 순간이동 추가"
     },
     "Sorted!，以纸牌接龙为灵感的 iOS 样机": {
       "en": "Sorted!: a solitaire-inspired iOS prototype",
       "zh-CN": "Sorted!，以纸牌接龙为灵感的 iOS 样机",
       "zh-TW": "Sorted!，以紙牌接龍為靈感的 iOS 樣機",
-      "ja": "Sorted!：ソリティアに着想を得たiOSプロトタイプ"
+      "ja": "Sorted!：ソリティアに着想を得たiOSプロトタイプ",
+      "ko": "Sorted!: 솔리테어에서 영감을 얻은 iOS 프로토타입"
     },
     "做一段《时之笛》风格的三维冒险": {
       "en": "A 3D adventure in the style of Ocarina of Time",
       "zh-CN": "做一段《时之笛》风格的三维冒险",
       "zh-TW": "做一段《時之笛》風格的三維冒險",
-      "ja": "『時のオカリナ』風の3Dアドベンチャーを制作"
+      "ja": "『時のオカリナ』風の3Dアドベンチャーを制作",
+      "ko": "시간의 오카리나 스타일의 3D 모험"
     },
     "在手机上试做 Melee 风格的对战": {
       "en": "Trying a Melee-style fighting game on a phone",
       "zh-CN": "在手机上试做 Melee 风格的对战",
       "zh-TW": "在手機上試做 Melee 風格的對戰",
-      "ja": "スマホでMelee風の対戦ゲームを試作"
+      "ja": "スマホでMelee風の対戦ゲームを試作",
+      "ko": "휴대폰에서 Melee 스타일 격투 게임 시도"
     },
     "把马里奥元素做进生存玩法的俯视角原型": {
       "en": "A top-down survival prototype with Mario elements",
       "zh-CN": "把马里奥元素做进生存玩法的俯视角原型",
       "zh-TW": "把馬里奧元素做進生存玩法的俯視角原型",
-      "ja": "マリオの要素を取り入れた見下ろし型サバイバルゲームの試作"
+      "ja": "マリオの要素を取り入れた見下ろし型サバイバルゲームの試作",
+      "ko": "마리오 요소를 넣은 탑다운 생존 프로토타입"
     },
     "搭一座能和居民对话的三维欧洲村庄": {
       "en": "Building a 3D European village where you can talk to residents",
       "zh-CN": "搭一座能和居民对话的三维欧洲村庄",
       "zh-TW": "搭一座能和居民對話的三維歐洲村莊",
-      "ja": "住民と会話できる3Dのヨーロッパ風村を構築"
+      "ja": "住民と会話できる3Dのヨーロッパ風村を構築",
+      "ko": "주민과 대화할 수 있는 3D 유럽 마을 제작"
     },
     "用 WASD 和空格操控 Three.js 坦克": {
       "en": "Controlling a Three.js tank with WASD and the space bar",
       "zh-CN": "用 WASD 和空格操控 Three.js 坦克",
       "zh-TW": "用 WASD 和空格操控 Three.js 坦克",
-      "ja": "WASDとスペースキーでThree.jsの戦車を操作"
+      "ja": "WASDとスペースキーでThree.jsの戦車を操作",
+      "ko": "WASD와 스페이스 바로 Three.js 탱크 조종"
     },
     "Orbital Data Node 07，把数据中心搬到太空": {
       "en": "Orbital Data Node 07: moving a data center into space",
       "zh-CN": "Orbital Data Node 07，把数据中心搬到太空",
       "zh-TW": "Orbital Data Node 07，把數據中心搬到太空",
-      "ja": "Orbital Data Node 07：データセンターを宇宙へ"
+      "ja": "Orbital Data Node 07：データセンターを宇宙へ",
+      "ko": "Orbital Data Node 07: 데이터 센터를 우주로 옮기기"
     },
     "给骑单车的鹈鹕加调速、灯和车铃": {
       "en": "Adding speed control, lights, and a bell to a bicycling pelican",
       "zh-CN": "给骑单车的鹈鹕加调速、灯和车铃",
       "zh-TW": "給騎單車的鵜鶘加調速、燈和車鈴",
-      "ja": "自転車に乗るペリカンに速度調節、ライト、ベルを追加"
+      "ja": "自転車に乗るペリカンに速度調節、ライト、ベルを追加",
+      "ko": "자전거 타는 펠리컨에 속도 조절, 조명, 벨 추가"
     },
     "用 Max 档做一段伊斯坦布尔水岸漫游": {
       "en": "A waterfront stroll through Istanbul made at Max effort",
       "zh-CN": "用 Max 档做一段伊斯坦布尔水岸漫游",
       "zh-TW": "用 Max 檔做一段伊斯坦布爾水岸漫遊",
-      "ja": "Max設定でイスタンブールの水辺散策を制作"
+      "ja": "Max設定でイスタンブールの水辺散策を制作",
+      "ko": "Max effort로 만든 이스탄불 수변 산책"
     },
     "骑龙从空岛跃下，测试视角和飞行感": {
       "en": "Leaping off a floating island on a dragon to test camera angles and flight feel",
       "zh-CN": "骑龙从空岛跃下，测试视角和飞行感",
       "zh-TW": "騎龍從空島躍下，測試視角和飛行感",
-      "ja": "ドラゴンに乗って浮島から飛び降り、視点と飛行感を検証"
+      "ja": "ドラゴンに乗って浮島から飛び降り、視点と飛行感を検証",
+      "ko": "드래곤을 타고 떠 있는 섬에서 뛰어내리며 카메라 각도와 비행감 테스트"
     },
     "用三维地图复盘《复仇者联盟》的纽约大战": {
       "en": "Revisiting the Battle of New York from The Avengers with a 3D map",
       "zh-CN": "用三维地图复盘《复仇者联盟》的纽约大战",
       "zh-TW": "用三維地圖復盤《復仇者聯盟》的紐約大戰",
-      "ja": "3Dマップで『アベンジャーズ』のニューヨーク決戦を振り返る"
+      "ja": "3Dマップで『アベンジャーズ』のニューヨーク決戦を振り返る",
+      "ko": "3D 지도로 어벤져스의 뉴욕 전투 재방문"
     },
     "从空目录到可在笔记本启动的操作系统": {
       "en": "From an empty directory to an operating system that boots on a laptop",
       "zh-CN": "从空目录到可在笔记本启动的操作系统",
       "zh-TW": "從空目錄到可在筆記本啓動的操作系統",
-      "ja": "空のディレクトリから、ノートPCで起動するOSへ"
+      "ja": "空のディレクトリから、ノートPCで起動するOSへ",
+      "ko": "빈 디렉터리에서 노트북으로 부팅 가능한 운영체제까지"
     },
     "从四层 PCB 到三款能工作的电子原型": {
       "en": "From a four-layer PCB to three working electronics prototypes",
       "zh-CN": "从四层 PCB 到三款能工作的电子原型",
       "zh-TW": "從四層 PCB 到三款能工作的電子原型",
-      "ja": "4層基板から3つの動作する電子回路プロトタイプへ"
+      "ja": "4層基板から3つの動作する電子回路プロトタイプへ",
+      "ko": "4층 PCB에서 작동하는 전자기기 프로토타입 3개까지"
     },
     "1,000 个代理用约 29 小时复现费马大定理的 Lean 证明": {
       "en": "1,000 agents reproduce a Lean proof of Fermat’s Last Theorem in roughly 29 hours",
       "zh-CN": "1,000 个代理用约 29 小时复现费马大定理的 Lean 证明",
       "zh-TW": "1,000 個代理用約 29 小時復現費馬大定理的 Lean 證明",
-      "ja": "1,000のエージェントが約29時間でフェルマーの最終定理のLean証明を再現"
+      "ja": "1,000のエージェントが約29時間でフェルマーの最終定理のLean証明を再現",
+      "ko": "에이전트 1,000개가 약 29시간 만에 페르마의 마지막 정리 Lean 증명을 재현"
     },
     "算出弱耦合下的霍金–佩奇相变": {
       "en": "Calculating the Hawking–Page transition at weak coupling",
       "zh-CN": "算出弱耦合下的霍金–佩奇相变",
       "zh-TW": "算出弱耦合下的霍金–佩奇相變",
-      "ja": "弱結合でのホーキング＝ペイジ相転移を計算"
+      "ja": "弱結合でのホーキング＝ペイジ相転移を計算",
+      "ko": "약한 결합에서 호킹–페이지 전이 계산"
     },
     "求出简化模型中模自举方法的精确界限": {
       "en": "Finding exact modular-bootstrap bounds in a simplified model",
       "zh-CN": "求出简化模型中模自举方法的精确界限",
       "zh-TW": "求出簡化模型中模自舉方法的精確界限",
-      "ja": "簡略化モデルでモジュラー・ブートストラップの厳密な限界を求める"
+      "ja": "簡略化モデルでモジュラー・ブートストラップの厳密な限界を求める",
+      "ko": "단순화한 모델에서 모듈러 부트스트랩의 정확한 경계 찾기"
     },
     "在约 8 万行的 Idle Elite 代码库中接手开发": {
       "en": "Taking over development in Idle Elite’s roughly 80,000-line codebase",
       "zh-CN": "在约 8 万行的 Idle Elite 代码库中接手开发",
       "zh-TW": "在約 8 萬行的 Idle Elite 代碼庫中接手開發",
-      "ja": "約8万行のIdle Eliteコードベースで開発を引き継ぐ"
+      "ja": "約8万行のIdle Eliteコードベースで開発を引き継ぐ",
+      "ko": "약 8만 줄인 Idle Elite 코드베이스의 개발 인계"
     },
     "用真实机械臂拧瓶盖、复原方块和画图": {
       "en": "Using a real robotic arm to turn a bottle cap, restore a cube, and draw",
       "zh-CN": "用真实机械臂拧瓶盖、复原方块和画图",
       "zh-TW": "用真實機械臂擰瓶蓋、復原方塊和畫圖",
-      "ja": "実際のロボットアームでボトルのキャップを回し、キューブを復元し、絵を描く"
+      "ja": "実際のロボットアームでボトルのキャップを回し、キューブを復元し、絵を描く",
+      "ko": "실제 로봇 팔로 병뚜껑 돌리기, 큐브 복원, 그림 그리기"
     },
     "求解 MIPLIB 开放问题，其中一个例子是 42 趟列车的排班": {
       "en": "Solving open MIPLIB problems, including a scheduling example with 42 trains",
       "zh-CN": "求解 MIPLIB 开放问题，其中一个例子是 42 趟列车的排班",
       "zh-TW": "求解 MIPLIB 開放問題，其中一個例子是 42 趟列車的排班",
-      "ja": "MIPLIBの未解決問題を解く。例の1つは42本の列車の運行計画"
+      "ja": "MIPLIBの未解決問題を解く。例の1つは42本の列車の運行計画",
+      "ko": "열차 42대 일정 사례를 포함한 MIPLIB 미해결 문제 풀이"
     },
     "为公寓里可以制作的机器人出一版外观原型": {
       "en": "An appearance prototype for a robot that can be built in an apartment",
       "zh-CN": "为公寓里可以制作的机器人出一版外观原型",
       "zh-TW": "為公寓里可以製作的機器人出一版外觀原型",
-      "ja": "アパートで製作できるロボットの外観プロトタイプ"
+      "ja": "アパートで製作できるロボットの外観プロトタイプ",
+      "ko": "아파트에서도 제작할 수 있는 로봇의 외형 프로토타입"
     },
     "从 Slack 与会议记录中找出 38 处说法冲突": {
       "en": "Finding 38 conflicting statements in Slack and meeting notes",
       "zh-CN": "从 Slack 与会议记录中找出 38 处说法冲突",
       "zh-TW": "從 Slack 與會議記錄中找出 38 處說法衝突",
-      "ja": "Slackと議事録から38件の発言の矛盾を発見"
+      "ja": "Slackと議事録から38件の発言の矛盾を発見",
+      "ko": "Slack과 회의록에서 서로 모순되는 진술 38개 발견"
     },
     "Write Like Mike，用留出的旧文章盲评写作技能": {
       "en": "Write Like Mike: blind evaluation of a writing skill using held-out old articles",
       "zh-CN": "Write Like Mike，用留出的旧文章盲评写作技能",
       "zh-TW": "Write Like Mike，用留出的舊文章盲評寫作技能",
-      "ja": "Write Like Mike：評価用に取り分けた過去の記事で執筆スキルをブラインド評価"
+      "ja": "Write Like Mike：評価用に取り分けた過去の記事で執筆スキルをブラインド評価",
+      "ko": "Write Like Mike: 평가용으로 남겨 둔 옛 기사로 글쓰기 스킬 블라인드 평가"
     },
     "从 14 套咨询演示稿提取能自动检查的规则": {
       "en": "Extracting automatically checkable rules from 14 consulting slide decks",
       "zh-CN": "从 14 套咨询演示稿提取能自动检查的规则",
       "zh-TW": "從 14 套咨詢演示稿提取能自動檢查的規則",
-      "ja": "14組のコンサルティング資料から自動チェックできるルールを抽出"
+      "ja": "14組のコンサルティング資料から自動チェックできるルールを抽出",
+      "ko": "컨설팅 슬라이드 자료 14개에서 자동 검증 가능한 규칙 추출"
     },
     "KatePass，用 320 份旧草稿衡量编辑还剩多少工作": {
       "en": "KatePass: using 320 old drafts to measure remaining editorial work",
       "zh-CN": "KatePass，用 320 份旧草稿衡量编辑还剩多少工作",
       "zh-TW": "KatePass，用 320 份舊草稿衡量編輯還剩多少工作",
-      "ja": "KatePass：320件の過去の草稿で編集作業の残量を測定"
+      "ja": "KatePass：320件の過去の草稿で編集作業の残量を測定",
+      "ko": "KatePass: 과거 초안 320개로 남은 편집 작업 측정"
     },
     "从个人 AI 使用历史整理十个可重复的评测任务": {
       "en": "Distilling ten repeatable evaluation tasks from personal AI usage history",
       "zh-CN": "从个人 AI 使用历史整理十个可重复的评测任务",
       "zh-TW": "從個人 AI 使用歷史整理十個可重復的評測任務",
-      "ja": "個人のAI利用履歴から再現可能な評価課題を10個整理"
+      "ja": "個人のAI利用履歴から再現可能な評価課題を10個整理",
+      "ko": "개인 AI 사용 기록에서 반복 가능한 평가 과제 10개 추출"
     },
     "Build me a camera lens in interactive 3D, in one HTML file with Three.js. Make it look rea": {
       "en": "Build me a camera lens in interactive 3D, in one HTML file with Three.js. Make it look rea",
       "zh-CN": "用 Three.js 在单个 HTML 文件中为我制作一个交互式三维相机镜头。让它看起来逼真…",
       "zh-TW": "用 Three.js 在單個 HTML 文件中為我製作一個交互式三維相機鏡頭。讓它看起來逼真…",
-      "ja": "Three.jsを使い、単一HTMLファイルで操作できる3Dカメラレンズを作って。見た目をリアルに…"
+      "ja": "Three.jsを使い、単一HTMLファイルで操作できる3Dカメラレンズを作って。見た目をリアルに…",
+      "ko": "Three.js로 HTML 파일 하나에 인터랙티브 3D 카메라 렌즈를 만들어 줘. 실제처럼 보이게…(원문 잘림)"
     },
     "A browser first-person shooter with an armory and a desert town map": {
       "en": "A browser first-person shooter with an armory and a desert town map",
       "zh-CN": "带武器库与沙漠小镇地图的浏览器第一人称射击游戏",
       "zh-TW": "帶武器庫與沙漠小鎮地圖的瀏覽器第一人稱射擊遊戲",
-      "ja": "武器庫と砂漠の町のマップを備えたブラウザーFPS"
+      "ja": "武器庫と砂漠の町のマップを備えたブラウザーFPS",
+      "ko": "무기고와 사막 마을 맵을 갖춘 브라우저 1인칭 슈팅"
     },
     "Claudia Gallery": {
       "en": "Claudia Gallery",
       "zh-CN": "Claudia 画廊",
       "zh-TW": "Claudia 畫廊",
-      "ja": "Claudiaギャラリー"
+      "ja": "Claudiaギャラリー",
+      "ko": "Claudia Gallery"
     },
     "印度班加罗尔 Indiranagar 1 平方公里": {
       "en": "One square kilometer of Indiranagar, Bengaluru, India",
       "zh-CN": "印度班加罗尔 Indiranagar 1 平方公里",
       "zh-TW": "印度班加羅爾 Indiranagar 1 平方公里",
-      "ja": "インド・ベンガルールのIndiranagar、1平方キロメートル"
+      "ja": "インド・ベンガルールのIndiranagar、1平方キロメートル",
+      "ko": "인도 벵갈루루 인디라나가르의 1제곱킬로미터"
     },
     "官方演示：从空文件夹造操作系统（转述）": {
       "en": "Official demo: building an operating system from an empty folder (reported secondhand)",
       "zh-CN": "官方演示：从空文件夹造操作系统（转述）",
       "zh-TW": "官方演示：從空文件夾造操作系統（轉述）",
-      "ja": "公式デモ：空のフォルダーからOSを作る（伝聞による紹介）"
+      "ja": "公式デモ：空のフォルダーからOSを作る（伝聞による紹介）",
+      "ko": "공식 데모: 빈 폴더에서 운영체제 제작(2차 보도)"
     },
     "给剪辑师的「抢饭碗」宣言视频": {
       "en": "A “coming for your jobs” declaration video aimed at video editors",
       "zh-CN": "给剪辑师的「抢饭碗」宣言视频",
       "zh-TW": "給剪輯師的「搶飯碗」宣言視頻",
-      "ja": "映像編集者に向けた「仕事を奪う」宣言動画"
+      "ja": "映像編集者に向けた「仕事を奪う」宣言動画",
+      "ko": "영상 편집자를 겨냥한 “당신의 일자리를 노린다” 선언 영상"
     },
     "Saltline 第一人称射击": {
       "en": "Saltline first-person shooter",
       "zh-CN": "Saltline 第一人称射击",
       "zh-TW": "Saltline 第一人稱射擊",
-      "ja": "Saltlineの一人称視点シューティング"
+      "ja": "Saltlineの一人称視点シューティング",
+      "ko": "Saltline 1인칭 슈팅"
     },
     "Three Games 合集页（Saltline / 钟表匠之心 / Tidewright）": {
       "en": "Three Games collection page (Saltline / Clockmaker’s Heart / Tidewright)",
       "zh-CN": "Three Games 合集页（Saltline / 钟表匠之心 / Tidewright）",
       "zh-TW": "Three Games 合集頁（Saltline / 鐘錶匠之心 / Tidewright）",
-      "ja": "Three Gamesの作品集ページ（Saltline／時計職人の心／Tidewright）"
+      "ja": "Three Gamesの作品集ページ（Saltline／時計職人の心／Tidewright）",
+      "ko": "Three Games 모음 페이지(Saltline / Clockmaker’s Heart / Tidewright)"
     },
     "Create a 20.00-second kinetic typography film titled “ESCAPE THE ORBIT,” based on John F": {
       "en": "Create a 20.00-second kinetic typography film titled “ESCAPE THE ORBIT,” based on John F",
       "zh-CN": "制作一支 20.00 秒的动态字体影片，标题为“ESCAPE THE ORBIT”，基于 John F…",
       "zh-TW": "製作一支 20.00 秒的動態字體影片，標題為“ESCAPE THE ORBIT”，基於 John F…",
-      "ja": "「ESCAPE THE ORBIT」という題名の20.00秒のキネティックタイポグラフィ映像を、John F…をもとに制作"
+      "ja": "「ESCAPE THE ORBIT」という題名の20.00秒のキネティックタイポグラフィ映像を、John F…をもとに制作",
+      "ko": "John F…를 바탕으로 “ESCAPE THE ORBIT”라는 제목의 정확히 20.00초 키네틱 타이포그래피 영상을 만들어 줘(원문 잘림)"
     },
     "Build a single self-contained HTML file: a 3D marble computer, in the spirit of Wintergata": {
       "en": "Build a single self-contained HTML file: a 3D marble computer, in the spirit of Wintergata",
       "zh-CN": "制作一个独立完整的 HTML 文件：一台三维弹珠计算机，风格参考 Wintergata…",
       "zh-TW": "製作一個獨立完整的 HTML 文件：一台三維彈珠計算機，風格參考 Wintergata…",
-      "ja": "単体で完結するHTMLファイルを制作：Wintergata…に着想を得た3Dビー玉コンピューター"
+      "ja": "単体で完結するHTMLファイルを制作：Wintergata…に着想を得た3Dビー玉コンピューター",
+      "ko": "독립 실행형 HTML 파일 하나에 Wintergata… 느낌의 3D 구슬 컴퓨터를 만들어 줘(원문 잘림)"
     },
     "<direction> Build a 30-second looping motion design showreel that introduces CLAUDE, a mot": {
       "en": "<direction> Build a 30-second looping motion design showreel that introduces CLAUDE, a mot",
       "zh-CN": "<direction> 制作一支 30 秒循环动效作品集，介绍 CLAUDE，一位动…",
       "zh-TW": "<direction> 製作一支 30 秒循環動效作品集，介紹 CLAUDE，一位動…",
-      "ja": "<direction> CLAUDEを紹介する30秒のループ・モーションデザイン作品集を制作。CLAUDEはモー…"
+      "ja": "<direction> CLAUDEを紹介する30秒のループ・モーションデザイン作品集を制作。CLAUDEはモー…",
+      "ko": "<direction> CLAUDE를 소개하는 30초 반복 모션 디자인 쇼릴을 만들어 줘, 모션…(원문 잘림)"
     },
     "VOWLORN 纯代码暗黑 RPG": {
       "en": "VOWLORN: a dark RPG made entirely in code",
       "zh-CN": "VOWLORN 纯代码暗黑 RPG",
       "zh-TW": "VOWLORN 純代碼暗黑 RPG",
-      "ja": "VOWLORN：すべてコードで作ったダークRPG"
+      "ja": "VOWLORN：すべてコードで作ったダークRPG",
+      "ko": "VOWLORN: 전부 코드로 만든 다크 RPG"
     },
     "印度维生素该买哪些": {
       "en": "Which vitamins to buy in India",
       "zh-CN": "印度维生素该买哪些",
       "zh-TW": "印度維生素該買哪些",
-      "ja": "インドで買うべきビタミンはどれか"
+      "ja": "インドで買うべきビタミンはどれか",
+      "ko": "인도에서 어떤 비타민을 살 것인가"
     },
     "An acrobat stack on a biplane above the clouds, a 3D short in Chinese": {
       "en": "An acrobat stack on a biplane above the clouds, a 3D short in Chinese",
       "zh-CN": "云层之上的双翼飞机上叠起杂技人塔，一支中文三维短片",
       "zh-TW": "雲層之上的雙翼飛機上疊起雜技人塔，一支中文三維短片",
-      "ja": "雲の上の複葉機で組み上がる曲芸の人間タワー、中国語の3D短編"
+      "ja": "雲の上の複葉機で組み上がる曲芸の人間タワー、中国語の3D短編",
+      "ko": "구름 위 복엽기에서 곡예사들이 탑을 쌓는 중국어 3D 단편"
     },
     "Make a 15s motion video in code (1920x1080, 60fps, one HTML file drawing every frame from": {
       "en": "Make a 15s motion video in code (1920x1080, 60fps, one HTML file drawing every frame from",
       "zh-CN": "用代码制作一段 15 秒动效视频（1920x1080、60fps、一个 HTML 文件，逐帧绘制，从…",
       "zh-TW": "用代碼製作一段 15 秒動效視頻（1920x1080、60fps、一個 HTML 文件，逐幀繪制，從…",
-      "ja": "コードで15秒のモーション動画を制作（1920x1080、60fps、1つのHTMLファイルですべてのフレームを描画、…から"
+      "ja": "コードで15秒のモーション動画を制作（1920x1080、60fps、1つのHTMLファイルですべてのフレームを描画、…から",
+      "ko": "코드로 15초 모션 영상을 만들어 줘(1920x1080, 60fps, HTML 파일 하나에서 모든 프레임을… 원문 잘림)"
     },
     "A flight through a living world": {
       "en": "A flight through a living world",
       "zh-CN": "飞越一个充满生机的世界",
       "zh-TW": "飛越一個充滿生機的世界",
-      "ja": "生きている世界を飛び抜ける"
+      "ja": "生きている世界を飛び抜ける",
+      "ko": "살아 있는 세계를 통과하는 비행"
     },
     "Feed the Backrooms：你当怪物": {
       "en": "Feed the Backrooms: you play the monster",
       "zh-CN": "Feed the Backrooms：你当怪物",
       "zh-TW": "Feed the Backrooms：你當怪物",
-      "ja": "Feed the Backrooms：自分が怪物になる"
+      "ja": "Feed the Backrooms：自分が怪物になる",
+      "ko": "Feed the Backrooms: 플레이어가 괴물이 되는 게임"
     },
     "GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in Blender": {
       "en": "GPT-6 Astra vs Fable 5.2 building a zombie eagle creature in Blender",
       "zh-CN": "GPT-6 Astra 与 Fable 5.2 在 Blender 中制作僵尸鹰怪物的对照",
       "zh-TW": "GPT-6 Astra 與 Fable 5.2 在 Blender 中製作僵屍鷹怪物的對照",
-      "ja": "GPT-6 AstraとFable 5.2でBlenderのゾンビワシを制作して比較"
+      "ja": "GPT-6 AstraとFable 5.2でBlenderのゾンビワシを制作して比較",
+      "ko": "GPT-6 Astra vs Fable 5.2: Blender로 좀비 독수리 생물 제작"
     },
     "76 个单文件 HTML 视觉作品集": {
       "en": "A portfolio of 76 single-file HTML visual works",
       "zh-CN": "76 个单文件 HTML 视觉作品集",
       "zh-TW": "76 個單文件 HTML 視覺作品集",
-      "ja": "単一HTMLファイルによるビジュアル作品76点の作品集"
+      "ja": "単一HTMLファイルによるビジュアル作品76点の作品集",
+      "ko": "단일 HTML 파일 시각 작품 76개의 포트폴리오"
     },
     "玻璃泳池，Fable 对 Opus": {
       "en": "Glass swimming pool: Fable versus Opus",
       "zh-CN": "玻璃泳池，Fable 对 Opus",
       "zh-TW": "玻璃泳池，Fable 對 Opus",
-      "ja": "ガラスのプール：Fable対Opus"
+      "ja": "ガラスのプール：Fable対Opus",
+      "ko": "유리 수영장: Fable과 Opus 비교"
     },
     "Chrome 恐龙变兰博": {
       "en": "Chrome’s dinosaur becomes Rambo",
       "zh-CN": "Chrome 恐龙变兰博",
       "zh-TW": "Chrome 恐龍變蘭博",
-      "ja": "Chromeの恐竜がランボーに"
+      "ja": "Chromeの恐竜がランボーに",
+      "ko": "Chrome 공룡이 람보로 변신"
     },
     "童年地毯赛车": {
       "en": "Childhood carpet racing",
       "zh-CN": "童年地毯赛车",
       "zh-TW": "童年地毯賽車",
-      "ja": "子どもの頃のカーペットレース"
+      "ja": "子どもの頃のカーペットレース",
+      "ko": "어린 시절의 카펫 레이싱"
     },
     "A pirate ship sailing across the ocean": {
       "en": "A pirate ship sailing across the ocean",
       "zh-CN": "横渡大洋的海盗船",
       "zh-TW": "橫渡大洋的海盜船",
-      "ja": "大海原を進む海賊船"
+      "ja": "大海原を進む海賊船",
+      "ko": "바다를 항해하는 해적선"
     },
     "<inputs> Ask me for: a short label for the opening toggle, one hero word, a percentage for": {
       "en": "<inputs> Ask me for: a short label for the opening toggle, one hero word, a percentage for",
       "zh-CN": "<inputs> 向我询问：开场切换开关的简短标签、一个主视觉词、一个百分比，用于…",
       "zh-TW": "<inputs> 向我詢問：開場切換開關的簡短標籤、一個主視覺詞、一個百分比，用於…",
-      "ja": "<inputs> 私に尋ねること：冒頭の切り替えスイッチ用の短いラベル、メインとなる1語、…用のパーセンテージ"
+      "ja": "<inputs> 私に尋ねること：冒頭の切り替えスイッチ用の短いラベル、メインとなる1語、…用のパーセンテージ",
+      "ko": "<inputs> 시작 토글의 짧은 문구, 대표 단어 하나, 퍼센트 수치를 물어봐…(원문 잘림)"
     },
     "带传送门的竞技场 FPS，办公室里对战": {
       "en": "Arena FPS with portals: combat in an office",
       "zh-CN": "带传送门的竞技场 FPS，办公室里对战",
       "zh-TW": "帶傳送門的競技場 FPS，辦公室里對戰",
-      "ja": "ポータル付きアリーナFPS：オフィスで対戦"
+      "ja": "ポータル付きアリーナFPS：オフィスで対戦",
+      "ko": "포털을 갖춘 아레나 FPS: 사무실 전투"
     },
     "温哥华鸟瞰": {
       "en": "A bird’s-eye view of Vancouver",
       "zh-CN": "温哥华鸟瞰",
       "zh-TW": "溫哥華鳥瞰",
-      "ja": "バンクーバーの鳥瞰"
+      "ja": "バンクーバーの鳥瞰",
+      "ko": "밴쿠버 조감도"
     },
     "<inputs> Ask me for: my product's name (one lowercase word), a 4-word tagline, the 3-step": {
       "en": "<inputs> Ask me for: my product's name (one lowercase word), a 4-word tagline, the 3-step",
       "zh-CN": "<inputs> 向我询问：我的产品名（一个小写单词）、一句 4 词标语、3 步…",
       "zh-TW": "<inputs> 向我詢問：我的產品名（一個小寫單詞）、一句 4 詞標語、3 步…",
-      "ja": "<inputs> 私に尋ねること：製品名（小文字の1語）、4語のキャッチコピー、3段階の…"
+      "ja": "<inputs> 私に尋ねること：製品名（小文字の1語）、4語のキャッチコピー、3段階の…",
+      "ko": "<inputs> 제품 이름(소문자 단어 하나), 4단어 태그라인, 3단계…를 물어봐(원문 잘림)"
     },
     "<inputs> Ask me for: my product, the exact request a user types into it, 6 to 8 photos for": {
       "en": "<inputs> Ask me for: my product, the exact request a user types into it, 6 to 8 photos for",
       "zh-CN": "<inputs> 向我询问：我的产品、用户输入其中的确切请求、6 至 8 张照片，用于…",
       "zh-TW": "<inputs> 向我詢問：我的產品、用戶輸入其中的確切請求、6 至 8 張照片，用於…",
-      "ja": "<inputs> 私に尋ねること：製品、ユーザーが入力する正確なリクエスト、…用の写真6〜8枚"
+      "ja": "<inputs> 私に尋ねること：製品、ユーザーが入力する正確なリクエスト、…用の写真6〜8枚",
+      "ko": "<inputs> 내 제품, 사용자가 입력하는 정확한 요청, 사진 6~8장을 물어봐…(원문 잘림)"
     },
     "果冻虎鲸材质研究": {
       "en": "Jelly orca material study",
       "zh-CN": "果冻虎鲸材质研究",
       "zh-TW": "果凍虎鯨材質研究",
-      "ja": "ゼリーのシャチのマテリアル研究"
+      "ja": "ゼリーのシャチのマテリアル研究",
+      "ko": "젤리 범고래 재질 연구"
     },
     "瓶中体素世界": {
       "en": "A voxel world in a bottle",
       "zh-CN": "瓶中体素世界",
       "zh-TW": "瓶中體素世界",
-      "ja": "瓶の中のボクセル世界"
+      "ja": "瓶の中のボクセル世界",
+      "ko": "병 속의 복셀 세계"
     },
     "Ribbon Hero 首屏": {
       "en": "Ribbon Hero opening screen",
       "zh-CN": "Ribbon Hero 首屏",
       "zh-TW": "Ribbon Hero 首屏",
-      "ja": "Ribbon Heroのファーストビュー"
+      "ja": "Ribbon Heroのファーストビュー",
+      "ko": "Ribbon Hero 시작 화면"
     },
     "一次生成合集": {
       "en": "One-shot generation collection",
       "zh-CN": "一次生成合集",
       "zh-TW": "一次生成合集",
-      "ja": "一度の生成による作品集"
+      "ja": "一度の生成による作品集",
+      "ko": "원샷 생성 모음"
     },
     "Isometric day/night city HTML loop — Gemini 4 Argon": {
       "en": "Isometric day/night city HTML loop — Gemini 4 Argon",
       "zh-CN": "等距视角城市昼夜 HTML 循环动画：Gemini 4 Argon",
       "zh-TW": "等距視角城市晝夜 HTML 循環動畫：Gemini 4 Argon",
-      "ja": "アイソメトリック都市の昼夜HTMLループ：Gemini 4 Argon"
+      "ja": "アイソメトリック都市の昼夜HTMLループ：Gemini 4 Argon",
+      "ko": "아이소메트릭 도시의 낮과 밤 HTML 루프 — Gemini 4 Argon"
     },
     "Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试": {
       "en": "Gemini Carbon: bicycling pelican HTML animation test",
       "zh-CN": "Gemini Carbon · 鹈鹕骑自行车 HTML 动画测试",
       "zh-TW": "Gemini Carbon · 鵜鶘騎自行車 HTML 動畫測試",
-      "ja": "Gemini Carbon：自転車に乗るペリカンのHTMLアニメ検証"
+      "ja": "Gemini Carbon：自転車に乗るペリカンのHTMLアニメ検証",
+      "ko": "Gemini Carbon: 자전거 타는 펠리컨 HTML 애니메이션 테스트"
     },
     "Interactive 3D NYC cruiser tour in one HTML file (Three.js)": {
       "en": "Interactive 3D NYC cruiser tour in one HTML file (Three.js)",
       "zh-CN": "单个 HTML 文件中的交互式三维纽约巡游（Three.js）",
       "zh-TW": "單個 HTML 文件中的交互式三維紐約巡遊（Three.js）",
-      "ja": "単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）"
+      "ja": "単一HTMLファイルで操作できる3Dニューヨーク巡遊（Three.js）",
+      "ko": "HTML 파일 하나로 만든 인터랙티브 3D 뉴욕 순항 투어(Three.js)"
     },
     "Theme Park HD pixel-art remake (playable)": {
       "en": "Theme Park HD pixel-art remake (playable)",
       "zh-CN": "Theme Park 高清像素画重制版（可玩）",
       "zh-TW": "Theme Park 高清像素畫重製版（可玩）",
-      "ja": "Theme ParkのHDピクセルアート版リメイク（プレイ可能）"
+      "ja": "Theme ParkのHDピクセルアート版リメイク（プレイ可能）",
+      "ko": "Theme Park HD 픽셀 아트 리메이크(플레이 가능)"
     },
     "V8 engine in FreeCAD and Blender": {
       "en": "V8 engine in FreeCAD and Blender",
       "zh-CN": "FreeCAD 与 Blender 中的 V8 发动机",
       "zh-TW": "FreeCAD 與 Blender 中的 V8 發動機",
-      "ja": "FreeCADとBlenderによるV8エンジン"
+      "ja": "FreeCADとBlenderによるV8エンジン",
+      "ko": "FreeCAD와 Blender로 만든 V8 엔진"
     },
     "Same prompt: Fable 5.2 vs Gemini 4 Carbon": {
       "en": "Same prompt: Fable 5.2 vs Gemini 4 Carbon",
       "zh-CN": "同一提示词：Fable 5.2 对比 Gemini 4 Carbon",
       "zh-TW": "同一提示詞：Fable 5.2 對比 Gemini 4 Carbon",
-      "ja": "同じプロンプト：Fable 5.2とGemini 4 Carbonを比較"
+      "ja": "同じプロンプト：Fable 5.2とGemini 4 Carbonを比較",
+      "ko": "같은 프롬프트: Fable 5.2 vs Gemini 4 Carbon"
     },
     "Isometric day/night city HTML loop — GPT-6.1 Sol": {
       "en": "Isometric day/night city HTML loop — GPT-6.1 Sol",
       "zh-CN": "等距视角城市昼夜 HTML 循环动画：GPT-6.1 Sol",
       "zh-TW": "等距視角城市晝夜 HTML 循環動畫：GPT-6.1 Sol",
-      "ja": "アイソメトリック都市の昼夜HTMLループ：GPT-6.1 Sol"
+      "ja": "アイソメトリック都市の昼夜HTMLループ：GPT-6.1 Sol",
+      "ko": "아이소메트릭 도시의 낮과 밤 HTML 루프 — GPT-6.1 Sol"
     },
     "Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max effort column)": {
       "en": "Atelier — ten-frame looping sprite briefs (GPT-6.1 Sol max effort column)",
       "zh-CN": "Atelier：十帧循环精灵动画需求（GPT-6.1 Sol 最大推理档栏目）",
       "zh-TW": "Atelier：十幀循環精靈動畫需求（GPT-6.1 Sol 最大推理檔欄目）",
-      "ja": "Atelier：10フレームのループスプライト制作課題（GPT-6.1 Sol最大推論設定の欄）"
+      "ja": "Atelier：10フレームのループスプライト制作課題（GPT-6.1 Sol最大推論設定の欄）",
+      "ko": "Atelier: 10프레임 반복 스프라이트 과제(GPT-6.1 Sol max effort 열)"
     },
     "Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)": {
       "en": "Let Fable take Flight — HTML/Three.js procedural animation (GPT-6.1 Sol Max)",
       "zh-CN": "Let Fable take Flight：HTML／Three.js 程序化动画（GPT-6.1 Sol Max）",
       "zh-TW": "Let Fable take Flight：HTML／Three.js 程序化動畫（GPT-6.1 Sol Max）",
-      "ja": "Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）"
+      "ja": "Let Fable take Flight：HTML／Three.jsのプロシージャルアニメ（GPT-6.1 Sol Max）",
+      "ko": "Let Fable take Flight: HTML/Three.js 절차적 애니메이션(GPT-6.1 Sol Max)"
     },
     "Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)": {
       "en": "Stranger Things 5 end credits recreated in HTML/CSS/JS + SVG (HyperFrames)",
       "zh-CN": "用 HTML／CSS／JS + SVG 重现《怪奇物语 5》片尾字幕（HyperFrames）",
       "zh-TW": "用 HTML／CSS／JS + SVG 重現《怪奇物語 5》片尾字幕（HyperFrames）",
-      "ja": "HTML／CSS／JS＋SVGで『ストレンジャー・シングス5』のエンドクレジットを再現（HyperFrames）"
+      "ja": "HTML／CSS／JS＋SVGで『ストレンジャー・シングス5』のエンドクレジットを再現（HyperFrames）",
+      "ko": "HTML/CSS/JS + SVG로 재현한 기묘한 이야기 5 엔딩 크레딧(HyperFrames)"
     },
     "One-shot Three.js black hole in a single HTML file (author routed to GPT-6.2 Sol)": {
       "en": "One-shot Three.js black hole in a single HTML file (author routed to GPT-6.2 Sol)",
       "zh-CN": "一次生成单个 HTML 文件中的 Three.js 黑洞（作者路由至 GPT-6.2 Sol）",
       "zh-TW": "一次生成單個 HTML 文件中的 Three.js 黑洞（作者路由至 GPT-6.2 Sol）",
-      "ja": "単一HTMLファイルのThree.jsブラックホールを一度で生成（作者はGPT-6.2 Solへルーティング）"
+      "ja": "単一HTMLファイルのThree.jsブラックホールを一度で生成（作者はGPT-6.2 Solへルーティング）",
+      "ko": "단일 HTML 파일의 원샷 Three.js 블랙홀(작성자는 GPT-6.2 Sol로 라우팅됐다고 주장)"
     },
     "Three.js scenes from one prompt packed into one HTML file (castle / demos)": {
       "en": "Three.js scenes from one prompt packed into one HTML file (castle / demos)",
       "zh-CN": "一条提示词生成并打包进单个 HTML 文件的 Three.js 场景（城堡／演示）",
       "zh-TW": "一條提示詞生成並打包進單個 HTML 文件的 Three.js 場景（城堡／演示）",
-      "ja": "1つのプロンプトで生成し、単一HTMLファイルにまとめたThree.jsシーン（城／デモ）"
+      "ja": "1つのプロンプトで生成し、単一HTMLファイルにまとめたThree.jsシーン（城／デモ）",
+      "ko": "프롬프트 하나로 만든 Three.js 장면들을 HTML 파일 하나에 담기(성 / 데모)"
     },
     "GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)": {
       "en": "GPT-6.2 Sol vs Opus 5.5 — interactive Three.js sailing ship (same prompt)",
       "zh-CN": "GPT-6.2 Sol 对比 Opus 5.5：交互式 Three.js 帆船（同一提示词）",
       "zh-TW": "GPT-6.2 Sol 對比 Opus 5.5：交互式 Three.js 帆船（同一提示詞）",
-      "ja": "GPT-6.2 SolとOpus 5.5：操作できるThree.js帆船（同じプロンプト）"
+      "ja": "GPT-6.2 SolとOpus 5.5：操作できるThree.js帆船（同じプロンプト）",
+      "ko": "GPT-6.2 Sol vs Opus 5.5: 인터랙티브 Three.js 범선(같은 프롬프트)"
     },
     "One-prompt interactive Three.js city in a single offline HTML file": {
       "en": "One-prompt interactive Three.js city in a single offline HTML file",
       "zh-CN": "一条提示词制作单个离线 HTML 文件中的交互式 Three.js 城市",
       "zh-TW": "一條提示詞製作單個離線 HTML 文件中的交互式 Three.js 城市",
-      "ja": "1つのプロンプトで作る、単一のオフラインHTMLファイルで操作可能なThree.js都市"
+      "ja": "1つのプロンプトで作る、単一のオフラインHTMLファイルで操作可能なThree.js都市",
+      "ko": "프롬프트 하나로 만든 인터랙티브 Three.js 도시, 오프라인 HTML 파일 하나"
     },
     "GPT-6.2 Sol 3D floating castle built with HTML + Three.js": {
       "en": "GPT-6.2 Sol 3D floating castle built with HTML + Three.js",
       "zh-CN": "GPT-6.2 Sol 用 HTML + Three.js 制作的三维浮空城堡",
       "zh-TW": "GPT-6.2 Sol 用 HTML + Three.js 製作的三維浮空城堡",
-      "ja": "GPT-6.2 SolがHTML＋Three.jsで制作した3Dの空中城"
+      "ja": "GPT-6.2 SolがHTML＋Three.jsで制作した3Dの空中城",
+      "ko": "HTML + Three.js로 만든 GPT-6.2 Sol 3D 공중 성"
     },
     "SVG animation: pelican and 2 crabs riding bicycles (Codex routing)": {
       "en": "SVG animation: pelican and 2 crabs riding bicycles (Codex routing)",
       "zh-CN": "SVG 动画：鹈鹕与两只螃蟹骑自行车（Codex 路由）",
       "zh-TW": "SVG 動畫：鵜鶘與兩只螃蟹騎自行車（Codex 路由）",
-      "ja": "SVGアニメ：自転車に乗るペリカンとカニ2匹（Codexルーティング）"
+      "ja": "SVGアニメ：自転車に乗るペリカンとカニ2匹（Codexルーティング）",
+      "ko": "SVG 애니메이션: 자전거 타는 펠리컨과 게 2마리(Codex 라우팅)"
     },
     "Self-contained Three.js moon scene with red aurora in one HTML file": {
       "en": "Self-contained Three.js moon scene with red aurora in one HTML file",
       "zh-CN": "单个 HTML 文件内独立完整的 Three.js 月球场景，带红色极光",
       "zh-TW": "單個 HTML 文件內獨立完整的 Three.js 月球場景，帶紅色極光",
-      "ja": "単一HTMLファイルで完結する、赤いオーロラのあるThree.js月面シーン"
+      "ja": "単一HTMLファイルで完結する、赤いオーロラのあるThree.js月面シーン",
+      "ko": "HTML 파일 하나에 담긴 붉은 오로라가 있는 독립 실행형 Three.js 달 장면"
     },
     "Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender": {
       "en": "Rain-soaked Roman Colosseum in Three.js, GLSL, and Blender",
       "zh-CN": "用 Three.js、GLSL 与 Blender 制作雨中的罗马斗兽场",
       "zh-TW": "用 Three.js、GLSL 與 Blender 製作雨中的羅馬鬥獸場",
-      "ja": "Three.js、GLSL、Blenderで制作した雨に濡れるローマのコロッセオ"
+      "ja": "Three.js、GLSL、Blenderで制作した雨に濡れるローマのコロッセオ",
+      "ko": "Three.js, GLSL, Blender로 만든 비에 젖은 로마 콜로세움"
     },
     "Three.js lakeside scene with boat, waterfall, trees, and butterflies": {
       "en": "Three.js lakeside scene with boat, waterfall, trees, and butterflies",
       "zh-CN": "带船、瀑布、树木与蝴蝶的 Three.js 湖畔场景",
       "zh-TW": "帶船、瀑布、樹木與蝴蝶的 Three.js 湖畔場景",
-      "ja": "船、滝、木々、蝶のあるThree.jsの湖畔シーン"
+      "ja": "船、滝、木々、蝶のあるThree.jsの湖畔シーン",
+      "ko": "배, 폭포, 나무, 나비가 있는 Three.js 호숫가"
     },
     "Azuchi-Momoyama castle town diorama in HTML and Three.js": {
       "en": "Azuchi-Momoyama castle town diorama in HTML and Three.js",
       "zh-CN": "用 HTML 与 Three.js 制作安土桃山时代城下町微缩景观",
       "zh-TW": "用 HTML 與 Three.js 製作安土桃山時代城下町微縮景觀",
-      "ja": "HTMLとThree.jsで制作した安土桃山時代の城下町ジオラマ"
+      "ja": "HTMLとThree.jsで制作した安土桃山時代の城下町ジオラマ",
+      "ko": "HTML과 Three.js로 만든 아즈치모모야마 시대 성하마을 디오라마"
     },
     "Isometric day/night city HTML loop — Grok 4.7": {
       "en": "Isometric day/night city HTML loop — Grok 4.7",
       "zh-CN": "等距视角城市昼夜 HTML 循环动画：Grok 4.7",
       "zh-TW": "等距視角城市晝夜 HTML 循環動畫：Grok 4.7",
-      "ja": "アイソメトリック都市の昼夜HTMLループ：Grok 4.7"
+      "ja": "アイソメトリック都市の昼夜HTMLループ：Grok 4.7",
+      "ko": "아이소메트릭 도시의 낮과 밤 HTML 루프 — Grok 4.7"
     },
     "Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)": {
       "en": "Grok Imagine — pixstar Cybertruck farewell clip (partial prompt)",
       "zh-CN": "Grok Imagine：pixstar 的 Cybertruck 告别短片（部分提示词）",
       "zh-TW": "Grok Imagine：pixstar 的 Cybertruck 告別短片（部分提示詞）",
-      "ja": "Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ）"
+      "ja": "Grok Imagine：pixstarのCybertruckお別れ映像（プロンプトは一部のみ）",
+      "ko": "Grok Imagine: pixstar Cybertruck 작별 영상(부분 프롬프트)"
     },
     "Golden Angel Warrior — Grok Imagine clip": {
       "en": "Golden Angel Warrior — Grok Imagine clip",
       "zh-CN": "金色天使战士：Grok Imagine 短片",
       "zh-TW": "金色天使戰士：Grok Imagine 短片",
-      "ja": "黄金の天使戦士：Grok Imagineの短編映像"
+      "ja": "黄金の天使戦士：Grok Imagineの短編映像",
+      "ko": "황금 천사 전사: Grok Imagine 영상"
     },
     "Optimus Rising from Ocean": {
       "en": "Optimus Rising from Ocean",
       "zh-CN": "Optimus 从海中升起",
       "zh-TW": "Optimus 從海中升起",
-      "ja": "海から現れるOptimus"
+      "ja": "海から現れるOptimus",
+      "ko": "바다에서 솟아오르는 Optimus"
     },
     "SpaceX Beyond Earth Montage": {
       "en": "SpaceX Beyond Earth Montage",
       "zh-CN": "SpaceX 地球之外蒙太奇",
       "zh-TW": "SpaceX 地球之外蒙太奇",
-      "ja": "SpaceX、地球の彼方へ向かうモンタージュ"
+      "ja": "SpaceX、地球の彼方へ向かうモンタージュ",
+      "ko": "SpaceX 지구 너머 몽타주"
     },
     "Grok Imagine Prompt: Prince transforms maid into princess": {
       "en": "Grok Imagine Prompt: Prince transforms maid into princess",
       "zh-CN": "Grok Imagine 提示词：王子把女仆变成公主",
       "zh-TW": "Grok Imagine 提示詞：王子把女僕變成公主",
-      "ja": "Grok Imagineプロンプト：王子がメイドを王女に変える"
+      "ja": "Grok Imagineプロンプト：王子がメイドを王女に変える",
+      "ko": "Grok Imagine 프롬프트: 왕자가 하녀를 공주로 변신시킴"
     },
     "Dark Electro Hip Hop Dance Video": {
       "en": "Dark Electro Hip Hop Dance Video",
       "zh-CN": "暗黑电子嘻哈舞蹈视频",
       "zh-TW": "暗黑電子嘻哈舞蹈視頻",
-      "ja": "ダークなエレクトロ・ヒップホップのダンス映像"
+      "ja": "ダークなエレクトロ・ヒップホップのダンス映像",
+      "ko": "다크 일렉트로 힙합 댄스 영상"
     },
     "Wind Blown Yellow Ribbon Video": {
       "en": "Wind Blown Yellow Ribbon Video",
       "zh-CN": "风中飘动的黄丝带视频",
       "zh-TW": "風中飄動的黃絲帶視頻",
-      "ja": "風になびく黄色いリボンの映像"
+      "ja": "風になびく黄色いリボンの映像",
+      "ko": "바람에 날리는 노란 리본 영상"
     },
     "Neon Martial Arts Swordswoman": {
       "en": "Neon Martial Arts Swordswoman",
       "zh-CN": "霓虹武术女剑客",
       "zh-TW": "霓虹武術女劍客",
-      "ja": "ネオンの武術女剣士"
+      "ja": "ネオンの武術女剣士",
+      "ko": "네온 무술 여검사"
     },
     "Fallen Angel Cinematic Video": {
       "en": "Fallen Angel Cinematic Video",
       "zh-CN": "堕天使电影风格视频",
       "zh-TW": "墮天使電影風格視頻",
-      "ja": "堕天使のシネマティック映像"
+      "ja": "堕天使のシネマティック映像",
+      "ko": "타락 천사 영화풍 영상"
     },
     "Grok Imagine Video 1.5 Lite Lip-Sync Test": {
       "en": "Grok Imagine Video 1.5 Lite Lip-Sync Test",
       "zh-CN": "Grok Imagine Video 1.5 Lite 对口型测试",
       "zh-TW": "Grok Imagine Video 1.5 Lite 對口型測試",
-      "ja": "Grok Imagine Video 1.5 Liteのリップシンク検証"
+      "ja": "Grok Imagine Video 1.5 Liteのリップシンク検証",
+      "ko": "Grok Imagine Video 1.5 Lite 립싱크 테스트"
     },
     "Isometric day/night city HTML loop — Qwen3.8 27B": {
       "en": "Isometric day/night city HTML loop — Qwen3.8 27B",
       "zh-CN": "等距视角城市昼夜 HTML 循环动画：Qwen3.8 27B",
       "zh-TW": "等距視角城市晝夜 HTML 循環動畫：Qwen3.8 27B",
-      "ja": "アイソメトリック都市の昼夜HTMLループ：Qwen3.8 27B"
+      "ja": "アイソメトリック都市の昼夜HTMLループ：Qwen3.8 27B",
+      "ko": "아이소메트릭 도시의 낮과 밤 HTML 루프 — Qwen3.8 27B"
     },
     "Sagrada Família demo from Qwen 4.0 Preview": {
       "en": "Sagrada Família demo from Qwen 4.0 Preview",
       "zh-CN": "Qwen 4.0 Preview 制作的圣家堂演示",
       "zh-TW": "Qwen 4.0 Preview 製作的聖家堂演示",
-      "ja": "Qwen 4.0 Previewによるサグラダ・ファミリアのデモ"
+      "ja": "Qwen 4.0 Previewによるサグラダ・ファミリアのデモ",
+      "ko": "Qwen 4.0 Preview의 사그라다 파밀리아 데모"
     },
     "Sun Wukong flying a plane — HTML 3D demo": {
       "en": "Sun Wukong flying a plane — HTML 3D demo",
       "zh-CN": "孙悟空开飞机：HTML 三维演示",
       "zh-TW": "孫悟空開飛機：HTML 三維演示",
-      "ja": "飛行機を操縦する孫悟空：HTMLの3Dデモ"
+      "ja": "飛行機を操縦する孫悟空：HTMLの3Dデモ",
+      "ko": "비행기를 조종하는 손오공: HTML 3D 데모"
     },
     "Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017": {
       "en": "Isometric day/night city HTML loop — DeepSeek V4.1 Flash 1017",
       "zh-CN": "等距视角城市昼夜 HTML 循环动画：DeepSeek V4.1 Flash 1017",
       "zh-TW": "等距視角城市晝夜 HTML 循環動畫：DeepSeek V4.1 Flash 1017",
-      "ja": "アイソメトリック都市の昼夜HTMLループ：DeepSeek V4.1 Flash 1017"
+      "ja": "アイソメトリック都市の昼夜HTMLループ：DeepSeek V4.1 Flash 1017",
+      "ko": "아이소메트릭 도시의 낮과 밤 HTML 루프 — DeepSeek V4.1 Flash 1017"
     },
     "Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol": {
       "en": "Airbus A380 takeoff in Three.js — DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol",
       "zh-CN": "Three.js 中的空客 A380 起飞：DeepSeek V4.1 Flash、Fable 5.2 与 GPT-6.1 Sol 对比",
       "zh-TW": "Three.js 中的空客 A380 起飛：DeepSeek V4.1 Flash、Fable 5.2 與 GPT-6.1 Sol 對比",
-      "ja": "Three.jsによるエアバスA380の離陸：DeepSeek V4.1 Flash、Fable 5.2、GPT-6.1 Solを比較"
+      "ja": "Three.jsによるエアバスA380の離陸：DeepSeek V4.1 Flash、Fable 5.2、GPT-6.1 Solを比較",
+      "ko": "Three.js Airbus A380 이륙: DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol"
     },
     "Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code": {
       "en": "Three.js excavator loading a dump truck — DeepSeek Harness vs Command Code",
       "zh-CN": "Three.js 挖掘机装载自卸卡车：DeepSeek Harness 对比 Command Code",
       "zh-TW": "Three.js 挖掘機裝載自卸卡車：DeepSeek Harness 對比 Command Code",
-      "ja": "Three.jsのショベルカーがダンプに積み込み：DeepSeek HarnessとCommand Codeを比較"
+      "ja": "Three.jsのショベルカーがダンプに積み込み：DeepSeek HarnessとCommand Codeを比較",
+      "ko": "덤프트럭에 짐을 싣는 Three.js 굴착기: DeepSeek Harness vs Command Code"
     },
     "一句话橘猫打招呼循环 GIF；含参考宠物照与九宫格再挑格做 GIF 的教程流程": {
       "en": "One-sentence orange-cat greeting GIF loop; includes a pet reference photo and a tutorial for selecting frames from a nine-panel grid to make a GIF",
       "zh-CN": "一句话橘猫打招呼循环 GIF；含参考宠物照与九宫格再挑格做 GIF 的教程流程",
       "zh-TW": "一句話橘貓打招呼循環 GIF；含參考寵物照與九宮格再挑格做 GIF 的教程流程",
-      "ja": "一文で茶トラ猫のあいさつループGIF。ペットの参照写真と、9コマから選んでGIF化する手順を掲載"
+      "ja": "一文で茶トラ猫のあいさつループGIF。ペットの参照写真と、9コマから選んでGIF化する手順を掲載",
+      "ko": "한 문장으로 만든 치즈 고양이 인사 GIF 루프. 반려동물 참조 사진과 9칸 격자에서 프레임을 골라 GIF를 만드는 안내 포함"
     },
     "引用官方帖附 animated_gif，正文无字": {
       "en": "Official post quoted with animated_gif attached; no body text",
       "zh-CN": "引用官方帖附 animated_gif，正文无字",
       "zh-TW": "引用官方帖附 animated_gif，正文無字",
-      "ja": "公式投稿を引用してanimated_gifを添付。本文なし"
+      "ja": "公式投稿を引用してanimated_gifを添付。本文なし",
+      "ko": "공식 게시물 인용과 animated_gif 첨부, 본문 없음"
     },
     "「Checks out…」+GIF 引用官方": {
       "en": "“Checks out…” + GIF quoting the official post",
       "zh-CN": "「Checks out…」+GIF 引用官方",
       "zh-TW": "「Checks out…」+GIF 引用官方",
-      "ja": "「Checks out…」とGIFで公式投稿を引用"
+      "ja": "「Checks out…」とGIFで公式投稿を引用",
+      "ko": "공식 게시물을 인용한 “Checks out…”(맞네…) 문구 + GIF"
     },
     "韩文 OC 烧瓶发光 GIF；称约16帧/1.5秒": {
       "en": "Korean original-character GIF with a glowing flask; claims roughly 16 frames / 1.5 seconds",
       "zh-CN": "韩文 OC 烧瓶发光 GIF；称约16帧/1.5秒",
       "zh-TW": "韓文 OC 燒瓶發光 GIF；稱約16幀/1.5秒",
-      "ja": "韓国語のオリジナルキャラクター投稿、フラスコが光るGIF。約16フレーム／1.5秒と記載"
+      "ja": "韓国語のオリジナルキャラクター投稿、フラスコが光るGIF。約16フレーム／1.5秒と記載",
+      "ko": "빛나는 플라스크를 든 한국어 자작 캐릭터 GIF, 약 16프레임 / 1.5초라는 주장"
     },
     "「GPT Image 2.6 GIF 测试」+animated_gif": {
       "en": "“GPT Image 2.6 GIF 测试” (“GPT Image 2.6 GIF test”) + animated_gif",
       "zh-CN": "「GPT Image 2.6 GIF 测试」+animated_gif",
       "zh-TW": "「GPT Image 2.6 GIF 测试」+animated_gif",
-      "ja": "「GPT Image 2.6 GIF 测试」（GPT Image 2.6 GIFテスト）とanimated_gif"
+      "ja": "「GPT Image 2.6 GIF 测试」（GPT Image 2.6 GIFテスト）とanimated_gif",
+      "ko": "“GPT Image 2.6 GIF 测试”(GPT Image 2.6 GIF 테스트) + animated_gif"
     },
     "给 memecoin 角色 Fora 做 GIF": {
       "en": "Making a GIF for the memecoin character Fora",
       "zh-CN": "给 memecoin 角色 Fora 做 GIF",
       "zh-TW": "給 memecoin 角色 Fora 做 GIF",
-      "ja": "ミームコインのキャラクターForaをGIF化"
+      "ja": "ミームコインのキャラクターForaをGIF化",
+      "ko": "밈 코인 캐릭터 Fora의 GIF 제작"
     },
     "称用 2.6 做微信表情「猫会飞但不太会」；帖内仅商店截图静图": {
       "en": "Claims 2.6 was used for the WeChat sticker “猫会飞但不太会” (“The cat can fly, but not very well”); post contains only a static store screenshot",
       "zh-CN": "称用 2.6 做微信表情「猫会飞但不太会」；帖内仅商店截图静图",
       "zh-TW": "稱用 2.6 做微信表情「猫会飞但不太会」；帖內僅商店截圖靜圖",
-      "ja": "WeChatスタンプ「猫会飞但不太会」（猫は飛べるが、あまり上手ではない）を2.6で制作したと主張。投稿はストア画面の静止画像のみ"
+      "ja": "WeChatスタンプ「猫会飞但不太会」（猫は飛べるが、あまり上手ではない）を2.6で制作したと主張。投稿はストア画面の静止画像のみ",
+      "ko": "위챗 스티커 “猫会飞但不太会”(고양이는 날 수 있지만 잘 날지는 못해)에 2.6을 썼다고 주장, 게시물에는 정적 스토어 스크린샷만 있음"
     },
     "大肥鱼九表情包；中转站推广；疑似复用归藏玩法": {
       "en": "Nine Dafeiyu reaction memes; API relay promotion; suspected reuse of Guizang’s approach",
       "zh-CN": "大肥鱼九表情包；中转站推广；疑似复用归藏玩法",
       "zh-TW": "大肥魚九表情包；中轉站推廣；疑似復用歸藏玩法",
-      "ja": "大肥魚のスタンプ9点。中継サービスの宣伝で、帰蔵の手法を再利用した可能性"
+      "ja": "大肥魚のスタンプ9点。中継サービスの宣伝で、帰蔵の手法を再利用した可能性",
+      "ko": "Dafeiyu 반응 밈 9개, API 중계 홍보, Guizang 방식 재사용 의심"
     },
     "第三方平台上线 2.6 GIF 产品宣传视频": {
       "en": "Third-party platform promo video for launching its 2.6 GIF product",
       "zh-CN": "第三方平台上线 2.6 GIF 产品宣传视频",
       "zh-TW": "第三方平台上線 2.6 GIF 產品宣傳視頻",
-      "ja": "サードパーティープラットフォームによる2.6 GIF製品公開の宣伝動画"
+      "ja": "サードパーティープラットフォームによる2.6 GIF製品公開の宣伝動画",
+      "ko": "서드파티 플랫폼의 2.6 GIF 제품 출시 홍보 영상"
     },
     "短视频演示（约4.7s）引用官方帖": {
       "en": "Short video demo (about 4.7 seconds) quoting the official post",
       "zh-CN": "短视频演示（约4.7s）引用官方帖",
       "zh-TW": "短視頻演示（約4.7s）引用官方帖",
-      "ja": "公式投稿を引用した短い動画デモ（約4.7秒）"
+      "ja": "公式投稿を引用した短い動画デモ（約4.7秒）",
+      "ko": "공식 게시물을 인용한 짧은 영상 데모(약 4.7초)"
     },
     "归藏大肥鱼帖回复：简单中文描述驱动呆毛/耳朵/眨眼，附 2 条 animated_gif": {
       "en": "Reply to Guizang’s Dafeiyu post: simple Chinese descriptions animate a hair tuft, ears, and blinking; includes two animated_gif attachments",
       "zh-CN": "归藏大肥鱼帖回复：简单中文描述驱动呆毛/耳朵/眨眼，附 2 条 animated_gif",
       "zh-TW": "歸藏大肥魚帖回復：簡單中文描述驅動呆毛/耳朵/眨眼，附 2 條 animated_gif",
-      "ja": "帰蔵の大肥魚投稿への返信：短い中国語の説明でアホ毛・耳・まばたきを動かす。animated_gifを2点添付"
+      "ja": "帰蔵の大肥魚投稿への返信：短い中国語の説明でアホ毛・耳・まばたきを動かす。animated_gifを2点添付",
+      "ko": "Guizang의 Dafeiyu 게시물 답글: 간단한 중국어 설명으로 머리카락, 귀, 눈 깜박임에 움직임 추가. animated_gif 첨부 2개 포함"
     },
     "照片/草图 → 循环 GIF 的可复制英文提示词（回复贴）": {
       "en": "Copyable English prompt for photo/sketch → looping GIF (reply post)",
       "zh-CN": "照片/草图 → 循环 GIF 的可复制英文提示词（回复贴）",
       "zh-TW": "照片/草圖 → 循環 GIF 的可複製英文提示詞（回復貼）",
-      "ja": "写真／スケッチ→ループGIFのコピー可能な英語プロンプト（返信投稿）"
+      "ja": "写真／スケッチ→ループGIFのコピー可能な英語プロンプト（返信投稿）",
+      "ko": "사진/스케치 → 반복 GIF를 위한 복사 가능한 영어 프롬프트(답글)"
     },
     "交办已收；仓库 sources 与 ideas 已收录文章玩法；不列为新增": {
       "en": "Assignment received; the article’s techniques are already in the repository’s sources and ideas; not counted as new",
       "zh-CN": "交办已收；仓库 sources 与 ideas 已收录文章玩法；不列为新增",
       "zh-TW": "交辦已收；倉庫 sources 與 ideas 已收錄文章玩法；不列為新增",
-      "ja": "依頼は受領済み。記事の活用法はリポジトリのsourcesとideasに収録済みで、新規には数えない"
+      "ja": "依頼は受領済み。記事の活用法はリポジトリのsourcesとideasに収録済みで、新規には数えない",
+      "ko": "요청 접수: 기사의 기법은 이미 저장소 출처와 아이디어에 포함돼 있어 신규로 집계하지 않음"
     },
     "仓库 sources.md / krouxzz-wave-ref 已收录；prompt「Make a looping GIF of this character waving.」已在库": {
       "en": "Already in repository sources.md / krouxzz-wave-ref; prompt “Make a looping GIF of this character waving.” is already archived",
       "zh-CN": "仓库 sources.md / krouxzz-wave-ref 已收录；prompt「Make a looping GIF of this character waving.」已在库",
       "zh-TW": "倉庫 sources.md / krouxzz-wave-ref 已收錄；prompt「Make a looping GIF of this character waving.」已在庫",
-      "ja": "リポジトリのsources.md／krouxzz-wave-refに収録済み。プロンプト「Make a looping GIF of this character waving.」も保存済み"
+      "ja": "リポジトリのsources.md／krouxzz-wave-refに収録済み。プロンプト「Make a looping GIF of this character waving.」も保存済み",
+      "ko": "이미 저장소 sources.md / krouxzz-wave-ref에 있음. “Make a looping GIF of this character waving.” 프롬프트도 이미 보관됨"
     },
     "作者写「Midjourney + GPT Images 2.6」，无法确认动图是否纯 2.6 产物": {
       "en": "Author writes “Midjourney + GPT Images 2.6”; cannot confirm the animation is solely a 2.6 output",
       "zh-CN": "作者写「Midjourney + GPT Images 2.6」，无法确认动图是否纯 2.6 产物",
       "zh-TW": "作者寫「Midjourney + GPT Images 2.6」，無法確認動圖是否純 2.6 產物",
-      "ja": "作者は「Midjourney + GPT Images 2.6」と記載。アニメが2.6のみの出力か確認できない"
+      "ja": "作者は「Midjourney + GPT Images 2.6」と記載。アニメが2.6のみの出力か確認できない",
+      "ko": "작성자가 “Midjourney + GPT Images 2.6”이라고 기재, 애니메이션이 2.6만의 결과인지 확인 불가"
     },
     "第三方 API 分销文案，列出非官方命名（exact 等）与自有 endpoint，不宜当一手官方 2.6 案例": {
       "en": "Third-party API reseller copy with unofficial names (such as exact) and its own endpoint; unsuitable as a firsthand official 2.6 case",
       "zh-CN": "第三方 API 分销文案，列出非官方命名（exact 等）与自有 endpoint，不宜当一手官方 2.6 案例",
       "zh-TW": "第三方 API 分銷文案，列出非官方命名（exact 等）與自有 endpoint，不宜當一手官方 2.6 案例",
-      "ja": "非公式名称（exactなど）と独自エンドポイントを記したサードパーティーAPI販売文。公式2.6の一次事例としては不適切"
+      "ja": "非公式名称（exactなど）と独自エンドポイントを記したサードパーティーAPI販売文。公式2.6の一次事例としては不適切",
+      "ko": "비공식 명칭(exact 등)과 자체 엔드포인트를 쓰는 서드파티 API 재판매 홍보문, 직접 제작한 공식 2.6 사례로 부적합"
     },
     "中转 API 推广": {
       "en": "API relay promotion",
       "zh-CN": "中转 API 推广",
       "zh-TW": "中轉 API 推廣",
-      "ja": "中継APIの宣伝"
+      "ja": "中継APIの宣伝",
+      "ko": "API 중계 홍보"
     },
     "fal 平台上线宣传视频；可作旁证但非社区一手玩法 GIF 案例（互动高，可选后续单列平台源）": {
       "en": "fal platform launch promo video; usable as supporting evidence, not a firsthand community GIF use case (high engagement; platform source may be listed separately later)",
       "zh-CN": "fal 平台上线宣传视频；可作旁证但非社区一手玩法 GIF 案例（互动高，可选后续单列平台源）",
       "zh-TW": "fal 平台上線宣傳視頻；可作旁證但非社區一手玩法 GIF 案例（互動高，可選後續單列平台源）",
-      "ja": "falプラットフォームの公開宣伝動画。補足資料にはなるが、コミュニティの一次GIF活用例ではない（反響が大きく、後日プラットフォーム出典として別枠掲載も検討可能）"
+      "ja": "falプラットフォームの公開宣伝動画。補足資料にはなるが、コミュニティの一次GIF活用例ではない（反響が大きく、後日プラットフォーム出典として別枠掲載も検討可能）",
+      "ko": "fal 플랫폼 출시 홍보 영상. 보조 증거로는 활용 가능하나 커뮤니티 직접 제작 GIF 활용 사례는 아님(반응이 많으며 플랫폼 출처는 추후 별도 기재 가능)"
     },
     "大量多语新闻转述帖（含官方 35s 宣传视频二次传播），无原创玩法/无自生成 GIF：如 RoundtableSpace、xiaohu、webtekno、beartai、AITensibility、Naman_Arora7 等": {
       "en": "Numerous multilingual news reposts, including recirculation of the official 35-second promo; no original techniques or self-generated GIFs, e.g. RoundtableSpace, xiaohu, webtekno, beartai, AITensibility, Naman_Arora7",
       "zh-CN": "大量多语新闻转述帖（含官方 35s 宣传视频二次传播），无原创玩法/无自生成 GIF：如 RoundtableSpace、xiaohu、webtekno、beartai、AITensibility、Naman_Arora7 等",
       "zh-TW": "大量多語新聞轉述帖（含官方 35s 宣傳視頻二次傳播），無原創玩法/無自生成 GIF：如 RoundtableSpace、xiaohu、webtekno、beartai、AITensibility、Naman_Arora7 等",
-      "ja": "多言語のニュース紹介投稿が多数（公式35秒PR動画の再拡散を含む）。独自の活用法や自作GIFなし。例：RoundtableSpace、xiaohu、webtekno、beartai、AITensibility、Naman_Arora7など"
+      "ja": "多言語のニュース紹介投稿が多数（公式35秒PR動画の再拡散を含む）。独自の活用法や自作GIFなし。例：RoundtableSpace、xiaohu、webtekno、beartai、AITensibility、Naman_Arora7など",
+      "ko": "공식 35초 홍보 영상 재유통을 포함한 다국어 뉴스 재게시 다수. 독자적 기법이나 직접 생성한 GIF 없음. 예: RoundtableSpace, xiaohu, webtekno, beartai, AITensibility, Naman_Arora7"
     },
     "路飞发布简化大肥鱼模板（与归藏模板同族）；无新 GIF 附件，属提示词扩散；不作为新增媒体案例": {
       "en": "Lufei publishes a simplified Dafeiyu template (same family as Guizang’s); no new GIF attachment, only prompt redistribution; not a new media case",
       "zh-CN": "路飞发布简化大肥鱼模板（与归藏模板同族）；无新 GIF 附件，属提示词扩散；不作为新增媒体案例",
       "zh-TW": "路飛發佈簡化大肥魚模板（與歸藏模板同族）；無新 GIF 附件，屬提示詞擴散；不作為新增媒體案例",
-      "ja": "路飛が大肥魚の簡略テンプレートを公開（帰蔵と同系統）。新しいGIF添付はなく、プロンプトの拡散のみ。新規メディア事例には数えない"
+      "ja": "路飛が大肥魚の簡略テンプレートを公開（帰蔵と同系統）。新しいGIF添付はなく、プロンプトの拡散のみ。新規メディア事例には数えない",
+      "ko": "Lufei의 간소화된 Dafeiyu 템플릿(Guizang과 같은 계열). 새 GIF 첨부 없이 프롬프트만 재배포했으므로 신규 미디어 사례 아님"
     },
     "作者写明 企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2.6，混合管线，无法确认动图是否纯 2.6 产物": {
       "en": "Author specifies “企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2.6”; mixed pipeline, so animation cannot be confirmed as solely 2.6-generated",
       "zh-CN": "作者写明 企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2.6，混合管线，无法确认动图是否纯 2.6 产物",
       "zh-TW": "作者寫明 企畫・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2.6，混合管線，無法確認動圖是否純 2.6 產物",
-      "ja": "作者は「企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2.6」と明記。混合パイプラインのため、アニメが2.6のみの生成物か確認できない"
+      "ja": "作者は「企画・プロンプト→ChatGPT / イラスト→niji•journey / GIF化→GPT Image 2.6」と明記。混合パイプラインのため、アニメが2.6のみの生成物か確認できない",
+      "ko": "작성자가 “기획·프롬프트→ChatGPT / 일러스트→niji•journey / GIF 변환→GPT Image 2.6”으로 명시. 혼합 파이프라인이므로 애니메이션이 2.6만으로 생성됐는지 확인 불가"
     },
     "像素 walk cycle 对照（含其他模型修帧）": {
       "en": "Pixel walk-cycle comparison (including frame fixes by other models)",
       "zh-CN": "像素 walk cycle 对照（含其他模型修帧）",
       "zh-TW": "像素 walk cycle 對照（含其他模型修幀）",
-      "ja": "ピクセルの歩行サイクル比較（他モデルによるフレーム修正を含む）"
+      "ja": "ピクセルの歩行サイクル比較（他モデルによるフレーム修正を含む）",
+      "ko": "픽셀 걷기 사이클 비교(다른 모델의 프레임 수정 포함)"
     },
     "【2.5 历史规格】游戏 4×4 分镜表": {
       "en": "[Historical 2.5 specification] 4×4 game storyboard sheet",
       "zh-CN": "【2.5 历史规格】游戏 4×4 分镜表",
       "zh-TW": "【2.5 歷史規格】遊戲 4×4 分鏡表",
-      "ja": "【2.5の過去仕様】ゲーム用4×4絵コンテシート"
+      "ja": "【2.5の過去仕様】ゲーム用4×4絵コンテシート",
+      "ko": "[과거 2.5 사양] 4×4 게임 스토리보드 시트"
     },
     "宣传方 9 帖游戏演示（1 组，非 9 案）": {
       "en": "Nine promotional game-demo posts (one group, not nine cases)",
       "zh-CN": "宣传方 9 帖游戏演示（1 组，非 9 案）",
       "zh-TW": "宣傳方 9 帖遊戲演示（1 組，非 9 案）",
-      "ja": "宣伝元によるゲームデモ9投稿（9事例ではなく1組）"
+      "ja": "宣伝元によるゲームデモ9投稿（9事例ではなく1組）",
+      "ko": "게임 데모 홍보 게시물 9개(9개 사례가 아니라 한 그룹)"
     },
     "失败样本：动态+静态同帧会崩": {
       "en": "Failure sample: combining motion and static content in the same frame breaks the result",
       "zh-CN": "失败样本：动态+静态同帧会崩",
       "zh-TW": "失敗樣本：動態+靜態同幀會崩",
-      "ja": "失敗例：同じフレームに動く要素と静止要素を混在させると破綻"
+      "ja": "失敗例：同じフレームに動く要素と静止要素を混在させると破綻",
+      "ko": "실패 사례: 한 프레임에 움직임과 정적 내용을 결합하면 결과가 깨짐"
     },
     "失败样本：像素动画 not there yet": {
       "en": "Failure sample: pixel animation is not there yet",
       "zh-CN": "失败样本：像素动画 not there yet",
       "zh-TW": "失敗樣本：像素動畫 not there yet",
-      "ja": "失敗例：ピクセルアニメはまだ十分な水準に達していない"
+      "ja": "失敗例：ピクセルアニメはまだ十分な水準に達していない",
+      "ko": "실패 사례: 픽셀 애니메이션은 아직 미흡"
     },
     "一句话鹈鹕骑自行车GIF": {
       "en": "One-sentence GIF of a pelican riding a bicycle",
       "zh-CN": "一句话鹈鹕骑自行车GIF",
       "zh-TW": "一句話鵜鶘騎自行車GIF",
-      "ja": "一文で自転車に乗るペリカンのGIF"
+      "ja": "一文で自転車に乗るペリカンのGIF",
+      "ko": "한 문장으로 만든 자전거 타는 펠리컨 GIF"
     },
     "粘土机器人八帧挥手（本地拼GIF）": {
       "en": "Clay robot waving in eight frames (GIF assembled locally)",
       "zh-CN": "粘土机器人八帧挥手（本地拼GIF）",
       "zh-TW": "粘土機器人八幀揮手（本地拼GIF）",
-      "ja": "粘土ロボットが8フレームで手を振る（GIFはローカルで合成）"
+      "ja": "粘土ロボットが8フレームで手を振る（GIFはローカルで合成）",
+      "ko": "8프레임 클레이 로봇의 손 흔들기(GIF는 로컬에서 조립)"
     },
     "角色举茶杯循环": {
       "en": "Character raising a teacup loop",
       "zh-CN": "角色举茶杯循环",
       "zh-TW": "角色舉茶杯循環",
-      "ja": "キャラクターがティーカップを持ち上げるループ"
+      "ja": "キャラクターがティーカップを持ち上げるループ",
+      "ko": "캐릭터가 찻잔을 들어 올리는 루프"
     },
     "2.6向提示词库（面包师分镜/剪纸锦鲤等）": {
       "en": "2.6-oriented prompt library (baker storyboards, paper-cut koi, etc.)",
       "zh-CN": "2.6向提示词库（面包师分镜/剪纸锦鲤等）",
       "zh-TW": "2.6向提示詞庫（麵包師分鏡/剪紙錦鯉等）",
-      "ja": "2.6向けプロンプト集（パン職人の絵コンテ、切り絵のコイなど）"
+      "ja": "2.6向けプロンプト集（パン職人の絵コンテ、切り絵のコイなど）",
+      "ko": "2.6용 프롬프트 라이브러리(제빵사 스토리보드, 종이 오리기 잉어 등)"
     },
     "Codex要GIF却得PNG→六宫格纸船本地拼GIF": {
       "en": "Codex asked for a GIF but returned PNG → six-panel paper boat assembled into a GIF locally",
       "zh-CN": "Codex要GIF却得PNG→六宫格纸船本地拼GIF",
       "zh-TW": "Codex要GIF卻得PNG→六宮格紙船本地拼GIF",
-      "ja": "CodexにGIFを頼んだがPNGが返る→6コマの紙の船をローカルでGIF化"
+      "ja": "CodexにGIFを頼んだがPNGが返る→6コマの紙の船をローカルでGIF化",
+      "ko": "Codex에 GIF를 요청했지만 PNG 반환 → 6칸 종이배를 로컬에서 GIF로 조립"
     },
     "LINE贴纸/致谢字GIF/商品前后对比GIF（日文实测）": {
       "en": "LINE stickers / thank-you text GIF / product before-and-after GIF (Japanese hands-on test)",
       "zh-CN": "LINE贴纸/致谢字GIF/商品前后对比GIF（日文实测）",
       "zh-TW": "LINE貼紙/致謝字GIF/商品前後對比GIF（日文實測）",
-      "ja": "LINEスタンプ／お礼の文字GIF／商品のビフォーアフターGIF（日本語の実機検証）"
+      "ja": "LINEスタンプ／お礼の文字GIF／商品のビフォーアフターGIF（日本語の実機検証）",
+      "ko": "LINE 스티커 / 감사 문구 GIF / 제품 전후 비교 GIF(일본어 직접 사용 테스트)"
     },
     "静图→喜怒哀乐四套GIF；参照图@调用": {
       "en": "Static image → four GIF sets for joy, anger, sorrow, and delight; reference image invoked with @",
       "zh-CN": "静图→喜怒哀乐四套GIF；参照图@调用",
       "zh-TW": "靜圖→喜怒哀樂四套GIF；參照圖@調用",
-      "ja": "静止画→喜怒哀楽の4組のGIF。参照画像を@で呼び出す"
+      "ja": "静止画→喜怒哀楽の4組のGIF。参照画像を@で呼び出す",
+      "ko": "정적 이미지 → 기쁨·분노·슬픔·즐거움의 GIF 4세트, @로 참조 이미지 호출"
     },
     "股价表情六宫格精灵表提示词（涨/跌）": {
       "en": "Six-panel sprite-sheet prompt for stock-price reactions (up/down)",
       "zh-CN": "股价表情六宫格精灵表提示词（涨/跌）",
       "zh-TW": "股價表情六宮格精靈表提示詞（漲/跌）",
-      "ja": "株価リアクション用6コマのスプライトシートプロンプト（上昇／下落）"
+      "ja": "株価リアクション用6コマのスプライトシートプロンプト（上昇／下落）",
+      "ko": "주가 반응(상승/하락)을 위한 6칸 스프라이트 시트 프롬프트"
     },
     "官方文档案例镜像仓（含提灯GIF镜像）": {
       "en": "Mirror repository of official documentation examples (including the lantern GIF)",
       "zh-CN": "官方文档案例镜像仓（含提灯GIF镜像）",
       "zh-TW": "官方文檔案例鏡像倉（含提燈GIF鏡像）",
-      "ja": "公式ドキュメント事例のミラーリポジトリ（提灯GIFのミラーを含む）"
+      "ja": "公式ドキュメント事例のミラーリポジトリ（提灯GIFのミラーを含む）",
+      "ko": "공식 문서 예제의 미러 저장소(등불 GIF 포함)"
     },
     "肖像轻挥手": {
       "en": "Portrait gently waving",
       "zh-CN": "肖像轻挥手",
       "zh-TW": "肖像輕揮手",
-      "ja": "肖像が軽く手を振る"
+      "ja": "肖像が軽く手を振る",
+      "ko": "부드럽게 손 흔드는 인물 사진"
     },
     "咖啡蒸汽与纱帘局部运动": {
       "en": "Localized motion in coffee steam and sheer curtains",
       "zh-CN": "咖啡蒸汽与纱帘局部运动",
       "zh-TW": "咖啡蒸汽與紗簾局部運動",
-      "ja": "コーヒーの湯気と薄いカーテンだけを動かす"
+      "ja": "コーヒーの湯気と薄いカーテンだけを動かす",
+      "ko": "커피 김과 얇은 커튼의 부분 움직임"
     },
     "金毛摇尾与歪头": {
       "en": "Golden retriever wagging its tail and tilting its head",
       "zh-CN": "金毛摇尾与歪头",
       "zh-TW": "金毛搖尾與歪頭",
-      "ja": "ゴールデンレトリバーがしっぽを振り、首をかしげる"
+      "ja": "ゴールデンレトリバーがしっぽを振り、首をかしげる",
+      "ko": "꼬리를 흔들고 고개를 갸웃하는 골든 리트리버"
     },
     "白色运动鞋旋转展台": {
       "en": "White sneaker on a rotating display stand",
       "zh-CN": "白色运动鞋旋转展台",
       "zh-TW": "白色運動鞋旋轉展台",
-      "ja": "回転展示台に載った白いスニーカー"
+      "ja": "回転展示台に載った白いスニーカー",
+      "ko": "회전 전시대 위의 흰 운동화"
     },
     "猫咪挥爪与 HI! 跳字贴纸": {
       "en": "Cat paw-wave sticker with bouncing “HI!” text",
       "zh-CN": "猫咪挥爪与 HI! 跳字贴纸",
       "zh-TW": "貓咪揮爪與 HI! 跳字貼紙",
-      "ja": "猫が前足を振り、「HI!」の文字が跳ねるステッカー"
+      "ja": "猫が前足を振り、「HI!」の文字が跳ねるステッカー",
+      "ko": "통통 튀는 “HI!” 글자와 앞발을 흔드는 고양이 스티커"
     },
     "红纸船海浪循环": {
       "en": "Red paper boat and ocean-wave loop",
       "zh-CN": "红纸船海浪循环",
       "zh-TW": "紅紙船海浪循環",
-      "ja": "赤い紙の船と波のループ"
+      "ja": "赤い紙の船と波のループ",
+      "ko": "빨간 종이배와 파도 루프"
     },
     "橙鸟抬翅回位原生 GIF": {
       "en": "Native GIF of an orange bird raising its wings and returning to its starting pose",
       "zh-CN": "橙鸟抬翅回位原生 GIF",
       "zh-TW": "橙鳥抬翅回位原生 GIF",
-      "ja": "オレンジ色の鳥が翼を上げて元に戻るネイティブGIF"
+      "ja": "オレンジ色の鳥が翼を上げて元に戻るネイティブGIF",
+      "ko": "주황색 새가 날개를 들었다 처음 자세로 돌아오는 네이티브 GIF"
     },
     "黏土定格风小猫在球池中玩耍": {
       "en": "Clay stop-motion-style kitten playing in a ball pit",
       "zh-CN": "黏土定格风小猫在球池中玩耍",
       "zh-TW": "黏土定格風小貓在球池中玩耍",
-      "ja": "粘土ストップモーション風の子猫がボールプールで遊ぶ"
+      "ja": "粘土ストップモーション風の子猫がボールプールで遊ぶ",
+      "ko": "볼풀에서 노는 클레이 스톱 모션 스타일 아기 고양이"
     },
     "戴礼帽跳舞的卡通青蛙": {
       "en": "Cartoon frog dancing in a top hat",
       "zh-CN": "戴礼帽跳舞的卡通青蛙",
       "zh-TW": "戴禮帽跳舞的卡通青蛙",
-      "ja": "シルクハットをかぶった漫画風のカエルが踊る"
+      "ja": "シルクハットをかぶった漫画風のカエルが踊る",
+      "ko": "실크해트를 쓰고 춤추는 만화 개구리"
     },
     "卡通小蜜蜂在手机上发帖打卡": {
       "en": "Cartoon bee posting a check-in on a phone",
       "zh-CN": "卡通小蜜蜂在手机上发帖打卡",
       "zh-TW": "卡通小蜜蜂在手機上發帖打卡",
-      "ja": "漫画風の小さなハチがスマホでチェックイン投稿"
+      "ja": "漫画風の小さなハチがスマホでチェックイン投稿",
+      "ko": "휴대폰으로 체크인을 올리는 만화 꿀벌"
     },
     "雪中庭院里老人劈柴": {
       "en": "An elderly person chopping wood in a snowy courtyard",
       "zh-CN": "雪中庭院里老人劈柴",
       "zh-TW": "雪中庭院裡老人劈柴",
-      "ja": "雪の庭で高齢者が薪を割る"
+      "ja": "雪の庭で高齢者が薪を割る",
+      "ko": "눈 덮인 마당에서 장작을 패는 노인"
     },
     "东京街头折叠手机屏幕播放平成风格动画": {
       "en": "A foldable phone on a Tokyo street plays a Heisei-style animation",
       "zh-CN": "东京街头折叠手机屏幕播放平成风格动画",
       "zh-TW": "東京街頭折疊手機屏幕播放平成風格動畫",
-      "ja": "東京の街角で折りたたみスマホに平成風アニメを表示"
+      "ja": "東京の街角で折りたたみスマホに平成風アニメを表示",
+      "ko": "도쿄 거리에서 헤이세이 스타일 애니메이션을 재생하는 폴더블폰"
     },
     "四件陶瓷摆件依次跳动的成语猜谜": {
       "en": "An idiom-guessing puzzle with four ceramic ornaments bouncing in sequence",
       "zh-CN": "四件陶瓷摆件依次跳动的成语猜谜",
       "zh-TW": "四件陶瓷擺件依次跳動的成語猜謎",
-      "ja": "4つの陶器の置物が順に跳ねる成語当てクイズ"
+      "ja": "4つの陶器の置物が順に跳ねる成語当てクイズ",
+      "ko": "도자기 장식 4개가 차례로 튀어 오르는 관용구 맞히기 퍼즐"
     },
     "烧杯漩涡随滴入液体变成蓝绿紫荧光": {
       "en": "A beaker vortex turns fluorescent blue, green, and purple as liquid is dripped in",
       "zh-CN": "烧杯漩涡随滴入液体变成蓝绿紫荧光",
       "zh-TW": "燒杯漩渦隨滴入液體變成藍綠紫螢光",
-      "ja": "液体を滴下するとビーカーの渦が青・緑・紫の蛍光色に変わる"
+      "ja": "液体を滴下するとビーカーの渦が青・緑・紫の蛍光色に変わる",
+      "ko": "액체를 떨어뜨리면 형광 파랑·초록·보라로 변하는 비커 속 소용돌이"
     },
     "纽约雪景水晶球，雪花飘落": {
       "en": "A New York snow globe with falling snowflakes",
       "zh-CN": "纽约雪景水晶球，雪花飘落",
       "zh-TW": "紐約雪景水晶球，雪花飄落",
-      "ja": "雪が舞い落ちるニューヨークのスノードーム"
+      "ja": "雪が舞い落ちるニューヨークのスノードーム",
+      "ko": "눈송이가 내리는 뉴욕 스노글로브"
     },
     "大阪城从石垣逐层建成天守阁": {
       "en": "Osaka Castle builds up layer by layer, from stone walls to the main keep",
       "zh-CN": "大阪城从石垣逐层建成天守阁",
       "zh-TW": "大阪城從石垣逐層建成天守閣",
-      "ja": "大阪城が石垣から天守閣まで段階的に組み上がる"
+      "ja": "大阪城が石垣から天守閣まで段階的に組み上がる",
+      "ko": "돌담부터 천수각까지 층층이 세워지는 오사카성"
     },
     "像素风勇者挥舞发光剑": {
       "en": "Pixel-art hero swinging a glowing sword",
       "zh-CN": "像素风勇者挥舞发光剑",
       "zh-TW": "像素風勇者揮舞發光劍",
-      "ja": "ピクセルアートの勇者が光る剣を振る"
+      "ja": "ピクセルアートの勇者が光る剣を振る",
+      "ko": "빛나는 검을 휘두르는 픽셀 아트 영웅"
     },
     "像素风丛林哨站与卫星天线扫描": {
       "en": "Pixel-art jungle outpost with a scanning satellite dish",
       "zh-CN": "像素风丛林哨站与卫星天线扫描",
       "zh-TW": "像素風叢林哨站與衛星天線掃描",
-      "ja": "ピクセルアートのジャングル前哨基地と走査するパラボラアンテナ"
+      "ja": "ピクセルアートのジャングル前哨基地と走査するパラボラアンテナ",
+      "ko": "스캔하는 위성 안테나가 있는 픽셀 아트 정글 전초기지"
     },
     "深色木台上冒热气的拉面碗": {
       "en": "A steaming ramen bowl on a dark wooden counter",
       "zh-CN": "深色木台上冒热气的拉面碗",
       "zh-TW": "深色木台上冒熱氣的拉麵碗",
-      "ja": "濃い色の木製カウンターで湯気を上げるラーメン丼"
+      "ja": "濃い色の木製カウンターで湯気を上げるラーメン丼",
+      "ko": "어두운 나무 카운터 위의 김이 오르는 라멘 그릇"
     },
     "鹈鹕在 Kerkini 湖船篷上展翅": {
       "en": "Pelican spreading its wings on a boat canopy at Lake Kerkini",
       "zh-CN": "鹈鹕在 Kerkini 湖船篷上展翅",
       "zh-TW": "鵜鶘在 Kerkini 湖船篷上展翅",
-      "ja": "ケルキニ湖の船の屋根でペリカンが翼を広げる"
+      "ja": "ケルキニ湖の船の屋根でペリカンが翼を広げる",
+      "ko": "케르키니 호수의 배 차양 위에서 날개를 펴는 펠리컨"
     },
     "月夜树枝上兴奋跳跃的猫头鹰": {
       "en": "An excited owl hopping on a branch on a moonlit night",
       "zh-CN": "月夜树枝上兴奋跳跃的猫头鹰",
       "zh-TW": "月夜樹枝上興奮跳躍的貓頭鷹",
-      "ja": "月夜の枝で興奮して跳ねるフクロウ"
+      "ja": "月夜の枝で興奮して跳ねるフクロウ",
+      "ko": "달밤에 나뭇가지 위에서 신나게 뛰는 부엉이"
     },
     "Chester 宠物照动画：万圣节眨眼、施法与月球蝴蝶": {
       "en": "Chester pet-photo animations: Halloween blinking, spellcasting, and a lunar butterfly",
       "zh-CN": "Chester 宠物照动画：万圣节眨眼、施法与月球蝴蝶",
       "zh-TW": "Chester 寵物照動畫：萬聖節眨眼、施法與月球蝴蝶",
-      "ja": "ペットChesterの写真アニメ：ハロウィーンのまばたき、魔法、月の蝶"
+      "ja": "ペットChesterの写真アニメ：ハロウィーンのまばたき、魔法、月の蝶",
+      "ko": "Chester 반려동물 사진 애니메이션: 핼러윈 눈 깜박임, 마법 시전, 달의 나비"
     },
     "猫跳舞与参考角色动画，再改为笑脸": {
       "en": "Dancing cat and reference-character animations, then changed to a smiling face",
       "zh-CN": "猫跳舞与参考角色动画，再改为笑脸",
       "zh-TW": "貓跳舞與參考角色動畫，再改為笑臉",
-      "ja": "踊る猫と参照キャラクターのアニメを制作し、その後笑顔に変更"
+      "ja": "踊る猫と参照キャラクターのアニメを制作し、その後笑顔に変更",
+      "ko": "춤추는 고양이와 참조 캐릭터 애니메이션, 이후 웃는 얼굴로 변경"
     },
     "免费账户 TGIF 礼帽橘猫舞蹈实测": {
       "en": "Free-account TGIF top-hat orange-cat dance test",
       "zh-CN": "免费账户 TGIF 礼帽橘猫舞蹈实测",
       "zh-TW": "免費賬戶 TGIF 禮帽橘貓舞蹈實測",
-      "ja": "無料アカウントでTGIFのシルクハット姿の茶トラ猫ダンスを検証"
+      "ja": "無料アカウントでTGIFのシルクハット姿の茶トラ猫ダンスを検証",
+      "ko": "무료 계정의 TGIF 실크해트 치즈 고양이 춤 테스트"
     },
     "Pip mascot waves twice and hops / Pip 吉祥物挥手两次后小跳": {
       "en": "Pip mascot waves twice and hops",
       "zh-CN": "Pip 吉祥物挥手两次后小跳",
       "zh-TW": "Pip 吉祥物揮手兩次後小跳",
-      "ja": "マスコットPipが2回手を振り、小さく跳ねる"
+      "ja": "マスコットPipが2回手を振り、小さく跳ねる",
+      "ko": "Pip 마스코트가 두 번 손을 흔들고 뛰기"
     },
     "Pip THANKS! transparent bowing sticker / Pip 合掌鞠躬 THANKS! 透明贴纸": {
       "en": "Pip THANKS! transparent sticker with palms together and a bow",
       "zh-CN": "Pip 合掌鞠躬 THANKS! 透明贴纸",
       "zh-TW": "Pip 合掌鞠躬 THANKS! 透明貼紙",
-      "ja": "Pipが合掌してお辞儀する「THANKS!」の透明ステッカー"
+      "ja": "Pipが合掌してお辞儀する「THANKS!」の透明ステッカー",
+      "ko": "Pip이 손을 모으고 인사하는 THANKS! 투명 스티커"
     },
     "openai-social-png": {
       "en": "openai-social-png",
       "zh-CN": "openai-social-png",
       "zh-TW": "openai-social-png",
-      "ja": "openai-social-png"
+      "ja": "openai-social-png",
+      "ko": "openai-social-png"
     },
     "nowrap-429": {
       "en": "nowrap-429",
       "zh-CN": "nowrap-429",
       "zh-TW": "nowrap-429",
-      "ja": "nowrap-429"
+      "ja": "nowrap-429",
+      "ko": "nowrap-429"
     },
     "vercel/ai PR、openai-python类型定义等为工程支持非案例GIF": {
       "en": "vercel/ai PRs, openai-python type definitions, etc. are engineering support, not case GIFs",
       "zh-CN": "vercel/ai PR、openai-python类型定义等为工程支持非案例GIF",
       "zh-TW": "vercel/ai PR、openai-python類型定義等為工程支持非案例GIF",
-      "ja": "vercel/aiのPRやopenai-pythonの型定義などは技術支援資料で、GIF事例ではない"
+      "ja": "vercel/aiのPRやopenai-pythonの型定義などは技術支援資料で、GIF事例ではない",
+      "ko": "vercel/ai PR, openai-python 타입 정의 등은 엔지니어링 보조 자료이며 사례 GIF가 아님"
     },
     "面包师吉祥物分镜表": {
       "en": "Baker mascot storyboard sheet",
       "zh-CN": "面包师吉祥物分镜表",
       "zh-TW": "麵包師吉祥物分鏡表",
-      "ja": "パン職人マスコットの絵コンテシート"
+      "ja": "パン職人マスコットの絵コンテシート",
+      "ko": "제빵사 마스코트 스토리보드 시트"
     },
     "剪纸锦鲤环游": {
       "en": "Paper-cut koi swimming in a circuit",
       "zh-CN": "剪纸锦鲤环游",
       "zh-TW": "剪紙錦鯉環遊",
-      "ja": "切り絵のコイが一周する"
+      "ja": "切り絵のコイが一周する",
+      "ko": "원을 따라 헤엄치는 종이 오리기 잉어"
     },
     "吉祥物三视图设定表": {
       "en": "Mascot three-view model sheet",
       "zh-CN": "吉祥物三视图设定表",
       "zh-TW": "吉祥物三視圖設定表",
-      "ja": "マスコットの三面図設定シート"
+      "ja": "マスコットの三面図設定シート",
+      "ko": "마스코트 3면도 모델 시트"
     },
     "茶叶盒展开刀模": {
       "en": "Unfolded tea-box dieline",
       "zh-CN": "茶叶盒展开刀模",
       "zh-TW": "茶葉盒展開刀模",
-      "ja": "茶葉の箱の展開図・抜き型"
+      "ja": "茶葉の箱の展開図・抜き型",
+      "ko": "펼친 차 상자의 칼선 도면"
     },
     "六区标注烘焙剖面": {
       "en": "Baked-item cross-section with six labeled areas",
       "zh-CN": "六区标注烘焙剖面",
       "zh-TW": "六區標注烘焙剖面",
-      "ja": "6つの領域に注釈を付けた焼き菓子の断面"
+      "ja": "6つの領域に注釈を付けた焼き菓子の断面",
+      "ko": "6개 영역에 라벨을 붙인 구운 식품 단면"
     },
     "只改一处的冬季版": {
       "en": "A winter version with only one change",
       "zh-CN": "只改一处的冬季版",
       "zh-TW": "只改一處的冬季版",
-      "ja": "1か所だけ変更した冬バージョン"
+      "ja": "1か所だけ変更した冬バージョン",
+      "ko": "한 가지만 바꾼 겨울 버전"
     },
     "橱窗里的精确字海报": {
       "en": "A shop-window poster with exact lettering",
       "zh-CN": "橱窗里的精确字海报",
       "zh-TW": "櫥窗里的精確字海報",
-      "ja": "指定どおりの文字を載せたショーウィンドーのポスター"
+      "ja": "指定どおりの文字を載せたショーウィンドーのポスター",
+      "ko": "정확한 문구를 넣은 쇼윈도 포스터"
     },
     "像素人物摸头 / Pixel Head Pat": {
       "en": "Pixel character head pat",
       "zh-CN": "像素人物摸头",
       "zh-TW": "像素人物摸頭",
-      "ja": "ピクセルキャラクターの頭なで"
+      "ja": "ピクセルキャラクターの頭なで",
+      "ko": "픽셀 캐릭터 머리 쓰다듬기"
     },
     "怒猫撞裂屏幕 / Cat Cracks the Screen": {
       "en": "Angry cat cracks the screen",
       "zh-CN": "怒猫撞裂屏幕",
       "zh-TW": "怒貓撞裂屏幕",
-      "ja": "怒った猫がぶつかって画面を割る"
+      "ja": "怒った猫がぶつかって画面を割る",
+      "ko": "화난 고양이가 화면을 깨뜨림"
     },
     "猫咪撞镜头 / Cat Headbutt": {
       "en": "Cat headbutts the camera",
       "zh-CN": "猫咪撞镜头",
       "zh-TW": "貓咪撞鏡頭",
-      "ja": "猫がカメラに頭突き"
+      "ja": "猫がカメラに頭突き",
+      "ko": "고양이가 카메라에 박치기"
     },
     "袋鼠摸头 / Kangaroo Head Pat": {
       "en": "Kangaroo head pat",
       "zh-CN": "袋鼠摸头",
       "zh-TW": "袋鼠摸頭",
-      "ja": "カンガルーの頭なで"
+      "ja": "カンガルーの頭なで",
+      "ko": "캥거루 머리 쓰다듬기"
     },
     "太极五连鞭 / Martial Arts Combo": {
       "en": "Five-strike Tai Chi combo",
       "zh-CN": "太极五连鞭",
       "zh-TW": "太極五連鞭",
-      "ja": "太極拳の五連撃"
+      "ja": "太極拳の五連撃",
+      "ko": "태극권 5연타 콤보"
     },
     "摸头表情包 / Captioned Head Pat": {
       "en": "Captioned head-pat meme",
       "zh-CN": "摸头表情包",
       "zh-TW": "摸頭表情包",
-      "ja": "字幕付き頭なでスタンプ"
+      "ja": "字幕付き頭なでスタンプ",
+      "ko": "자막이 있는 머리 쓰다듬기 밈"
     }
   }
 }

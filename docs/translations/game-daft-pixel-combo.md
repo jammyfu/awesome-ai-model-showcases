@@ -1,12 +1,12 @@
 # game-daft-pixel-combo
 
-Author / 作者 / 作者 / 作者: Daft_Trade @Daft_Trade · 作者声明 2.6；跳跃承认 flatten 去闪烁 · 4 条 MP4=1 案例 · 未观看
+Author / 作者 / 作者 / 作者 / 제작자: Daft_Trade @Daft_Trade · 作者声明 2.6；跳跃承认 flatten 去闪烁 · 4 条 MP4=1 案例 · 未观看
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/Daft_Trade/status/2118283025498906800)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/game-daft-pixel-combo/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/Daft_Trade/status/2118283025498906800)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/game-daft-pixel-combo/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+픽셀 3연타 / 구르기 / 주문 시전(점프 장면 배경은 나중에 합성)
+```
+
+### 제작 방법
+
+네이티브 GIF 출력이라는 주장
+
+### 검증 상태
+
+작성자는 2.6이라고 주장, 공식 확인 없음, 미시청
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6이라고 주장(공식 확인 없음, 점프 프레임은 사후 편집, 이 저장소에서는 미시청)
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

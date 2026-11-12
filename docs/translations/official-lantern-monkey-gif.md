@@ -1,12 +1,12 @@
 # official-lantern-monkey-gif
 
-Author / 作者 / 作者 / 作者: OpenAI
+Author / 作者 / 作者 / 作者 / 제작자: OpenAI
 
-[Original source / 原帖 / 原帖 / 原投稿](https://developers.openai.com/api/docs/guides/image-prompting)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/official-lantern-monkey-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://developers.openai.com/api/docs/guides/image-prompting)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/official-lantern-monkey-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GPT Image 2.6 Sunburst（gpt-image-2.6-sunburst）
 
 ```text
 オリーブグリーンのフード付きコートを着た小さな猿が、夕暮れの雪に覆われた松林に立っています。背景には明かりの灯った木の小屋。猿は琥珀色に光る紙のランタンを胸の高さで持ち、ゆっくり持ち上げ、見上げてまばたきし、元の姿勢まで下ろします。ランタンを手に持たせたまま、カメラは固定してください。動きを滑らかにループさせてください。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+네이티브 GIF 루프: 작은 원숭이가 등불을 들고 눈을 깜박인 뒤 처음 자세로 복귀, 카메라 고정
+```
+
+### 제작 방법
+
+직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)
+
+### 검증 상태
+
+페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+GPT Image 2.6 Sunburst (gpt-image-2.6-sunburst)
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+올리브색 후드 코트를 입은 작은 원숭이가 해 질 무렵 눈 덮인 소나무 숲에 서 있습니다. 배경에는 나무 오두막의 불빛이 비칩니다. 원숭이는 빛나는 호박색 종이등을 가슴 높이로 들고 있다가 천천히 들어 올리고, 위를 보며 눈을 깜빡인 다음 다시 내려 처음 자세로 돌아갑니다. 등은 계속 손에 들고 있게 하고 카메라는 고정하세요. 움직임이 매끄럽게 반복되도록 하세요.
 ```

@@ -14,7 +14,7 @@ A reusable pattern for collection projects, based on Awesome AI Model Showcases.
 
 ## Concrete split in this repository
 
-- `README*.md`: four generated landing pages, each under 280 lines and 30 KiB. The project hero is followed by actual Claude film frames with direct watch, prompt and source links; family navigation and at most five recent source posts support discovery. The limits are project-specific budgets, not universal README rules.
+- `README*.md`: five generated landing pages, each under 280 lines and 35 KiB. The project hero is followed by actual Claude film frames with direct watch, prompt and source links; family navigation and at most five recent source posts support discovery. The limits are project-specific budgets, not universal README rules.
 - `catalog.<locale>.md`: complete localized evidence tables, version anchors, and separate appendices. No new cases or altered source claims are needed to shorten the landing page.
 - [showcase-index.md](showcase-index.md): work-type discovery and a complete index. Type tags describe the current inventory, not all model capabilities.
 - [data/community-cases.json](data/community-cases.json): shared generated case data, not hand-edited content.
@@ -23,7 +23,7 @@ A reusable pattern for collection projects, based on Awesome AI Model Showcases.
 
 ## Authoring contract
 
-Update [the four templates](../tools/templates/) and [presentation helpers](../tools/readme_presentation.py), then run [the existing generator](../tools/write_community_catalog.py). Keep the generated-file warning and the `readme-tech-visualizer` start/end markers exactly once. Do not hand-edit generated README or catalog files.
+Update [the five templates](../tools/templates/) and [presentation helpers](../tools/readme_presentation.py), then run [the existing generator](../tools/write_community_catalog.py). Keep the generated-file warning and the `readme-tech-visualizer` start/end markers exactly once. Do not hand-edit generated README or catalog files.
 
 Preserve stable anchors when moving sections. Links to a family or version should still lead to a useful entry with a route to all records. Source-date ordering requires full valid dates, a documented tie-breaker, and a defined place for unknown dates. Never rename source dates as ingestion dates.
 

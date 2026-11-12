@@ -1,12 +1,12 @@
 # x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo
 
-Author / 作者 / 作者 / 作者: @Herbertkrspyleg（Herbert Krspyleg75 Joseph）
+Author / 作者 / 作者 / 作者 / 제작자: @Herbertkrspyleg（Herbert Krspyleg75 Joseph）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/Herbertkrspyleg/status/2119232026230305214)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/Herbertkrspyleg/status/2119232026230305214)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-herbertkrspyleg-grok-imagine-neon-martial-arts-swordswo/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ YouMind-OpenLab/awesome-grok-imagine-prompts に掲載された原投稿の X UR
 
 ```text
 彼女の服をネオンイエローに、髪を緑に変え、剣を使った武術の動きをいくつかさせてください。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+네온 무술 여검사
+```
+
+### 제작 방법
+
+원 게시물에 명시된 Grok Imagine 네이티브 영상
+
+### 검증 상태
+
+YouMind-OpenLab/awesome-grok-imagine-prompts에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+인용 저장소는 이 영상을 Grok Imagine으로 분류하고 원 게시물로 연결. 독립적으로 다시 실행하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+의상을 네온 노랑으로, 머리를 초록으로 바꾸고 검을 이용한 무술 동작 몇 가지를 하게 해 주세요.
 ```

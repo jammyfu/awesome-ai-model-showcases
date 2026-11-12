@@ -1,12 +1,12 @@
 # x-latentoperator-a380-deepseek-fable-sol
 
-Author / 作者 / 作者 / 作者: @LatentOperatorX
+Author / 作者 / 作者 / 作者 / 제작자: @LatentOperatorX
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/LatentOperatorX/status/2120205377803518132)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-latentoperator-a380-deepseek-fable-sol/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/LatentOperatorX/status/2120205377803518132)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-latentoperator-a380-deepseek-fable-sol/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ Three.js の単一シーン課題 · 比較動画
 
 ```text
 Three.jsでAirbus A380の離陸。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Three.js Airbus A380 이륙: DeepSeek V4.1 Flash vs Fable 5.2 vs GPT-6.1 Sol
+```
+
+### 제작 방법
+
+Three.js 단일 장면 과제, 비교 영상
+
+### 검증 상태
+
+1차 X URL, 짧은 공통 프롬프트 공개, 다중 모델 시간은 작성자 보고값
+
+### 모델 근거 (번역)
+
+```text
+작성자가 같은 짧은 프롬프트로 DeepSeek V4.1 Flash (+ Harness), Claude Fable 5.2, GPT-6.1 Sol 시간을 측정
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+Three.js로 구현한 Airbus A380 이륙.
 ```

@@ -1,12 +1,12 @@
 # x-coffeecup2020-qwen4-sagrada
 
-Author / 作者 / 作者 / 作者: @coffeecup2020（David Y. Tan）
+Author / 作者 / 作者 / 作者 / 제작자: @coffeecup2020（David Y. Tan）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/coffeecup2020/status/2120113388629995921)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-coffeecup2020-qwen4-sagrada/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/coffeecup2020/status/2120113388629995921)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-coffeecup2020-qwen4-sagrada/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ Qwen 4.0 Previewによるサグラダ・ファミリアのデモ
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Qwen 4.0 Preview의 사그라다 파밀리아 데모
+```
+
+### 제작 방법
+
+반복적인 자기 비평 데모, 녹화 영상
+
+### 검증 상태
+
+1차 X URL + 영상, 프롬프트 미공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Qwen 4.0 (Preview), 토큰 한도까지 반복적으로 자기 비평. 이 프리뷰는 Next-Flash와 Plus 사이에 있으며 기반 모델은 알 수 없다고 설명
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

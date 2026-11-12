@@ -1,12 +1,12 @@
 # veevid-coffee-steam-gif
 
-Author / 作者 / 作者 / 作者: Veevid Team
+Author / 作者 / 作者 / 作者 / 제작자: Veevid Team
 
-[Original source / 原帖 / 原帖 / 原投稿](https://veevid.ai/blog/gpt-image-2-6-gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/veevid-coffee-steam-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://veevid.ai/blog/gpt-image-2-6-gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/veevid-coffee-steam-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GPT Image 2.6（Veevidの作例）
 
 ```text
 カフェの木のテーブルに、ハートのラテアートが入った湯気の立つ陶器のコーヒーカップ。柔らかな湯気が上へ渦巻き、朝の暖かな光が窓から差し込む。シームレスループ
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+커피잔에서 김이 오르는 루프(텍스트→GIF)
+```
+
+### 제작 방법
+
+직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)
+
+### 검증 상태
+
+페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+GPT Image 2.6 (Veevid 예제)
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+나무 카페 테이블 위에 하트 라테 아트가 있는 김 나는 도자기 커피잔. 부드러운 김이 위로 말려 올라가고 따뜻한 아침 햇빛이 창문으로 들어옵니다. 이음새 없는 반복.
 ```

@@ -1,12 +1,12 @@
 # x-radcybertruck-grok-imagine-cybertruck-cry
 
-Author / 作者 / 作者 / 作者: @RadCyberTruck
+Author / 作者 / 作者 / 作者 / 제작자: @RadCyberTruck
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/RadCyberTruck/status/2120350558431445006)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/RadCyberTruck/status/2120350558431445006)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-radcybertruck-grok-imagine-cybertruck-cry/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ Grok Imagine のネイティブ動画生成（コードから GIF への変換�
 
 ```text
 1分間のpixstar風動画。ラットテールの髪型のフロリダの男性が丘の上で泣きながら自分のcybertruckを抱きしめ、「I’m gonna miss you truck of steel, and, (sniffles) I’ll never forget the life we had」とつぶやく。そこへcybercabがやって来て……
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Grok Imagine: pixstar Cybertruck 작별 영상(부분 프롬프트)
+```
+
+### 제작 방법
+
+Grok Imagine 네이티브 영상 생성(코드를 GIF로 변환한 것이 아님)
+
+### 검증 상태
+
+1차 X URL, 게시물의 프롬프트가 잘림, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 게시물에 'Grok Imagine prompt'라고 표기
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+언덕 위에서 쥐꼬리 머리를 한 플로리다 남자가 울며 자신의 Cybertruck을 껴안는 1분짜리 pixstar 스타일 영상. 그는 “I'm gonna miss you truck of steel, and, (sniffles) I'll never forget the life we had”라고 중얼거립니다. 그러자 Cybercab이 다가오고…
 ```

@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
 (async () => {
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   const base = `http://127.0.0.1:${server.address().port}`;
-  const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+  const browser = await chromium.launch({ headless: true, ...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH } : {}), args: ['--no-sandbox'] });
   try {
     const page = await browser.newPage({ viewport: { width: 1280, height: 960 } });
     const errors = [], externalMedia = [];
@@ -40,7 +40,7 @@ const server = http.createServer((req, res) => {
     // Full-width licensed galleries: every locale and mobile/desktop, not README DOM.
     for (const width of [320, 390, 768, 1280]) {
       await page.setViewportSize({ width, height: 900 });
-      for (const lang of ['en', 'zh-CN', 'zh-TW', 'ja']) {
+      for (const lang of ['en', 'zh-CN', 'zh-TW', 'ja', 'ko']) {
         await page.goto(base + '/licensed-gallery.' + lang + '.html');
         assert.equal(await page.locator('html').getAttribute('lang'), lang);
         assert.equal(await page.locator('article').count(), 8);
@@ -99,11 +99,27 @@ const server = http.createServer((req, res) => {
           await page.screenshot({ path: path.join(process.env.GALLERY_SCREENSHOTS, `catalog-${lang}-${width}.jpg`), type: 'jpeg', quality: 75 });
         }
       }
-      for (const route of ['/ideas.html', '/game.html', '/popular.html', '/translated-case.html?id=x-op7418-fatfish-pack&lang=ja']) {
+      for (const route of ['/ideas.html', '/game.html', '/popular.html', '/translated-case.html?id=x-op7418-fatfish-pack&lang=ja', '/translated-case.html?id=x-op7418-fatfish-pack&lang=ko']) {
         await page.goto(base + route);
         assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Page overflow ${width}/${route}`);
       }
     }
+    // Korean reader: real DOM text, original preservation, language switching and empty prompts.
+    await page.goto(base + '/translated-case.html?id=x-op7418-fatfish-pack&lang=ko');
+    const koreanRecord = Object.values(catalog).filter(Array.isArray).flat().find(r => r.id === 'x-op7418-fatfish-pack');
+    assert.equal(await page.locator('html').getAttribute('lang'), 'ko');
+    assert.equal(await page.locator('#case-title').textContent(), koreanRecord.translations.ko.title);
+    assert.equal(await page.locator('#case-prompt').textContent(), koreanRecord.translations.ko.original_prompt);
+    await page.locator('#original-content').evaluate(el => el.open = true);
+    assert.equal(await page.locator('#case-original-prompt').textContent(), koreanRecord.original_prompt);
+    await page.locator('[data-locale=en]').click();
+    await page.waitForURL(url => url.searchParams.get('lang') === 'en', { waitUntil: 'load' });
+    await page.locator('#case-content').waitFor({ state: 'visible' });
+    assert.equal(await page.locator('html').getAttribute('lang'), 'en');
+    await page.locator('[data-locale=ko]').click();
+    await page.waitForURL(url => url.searchParams.get('lang') === 'ko', { waitUntil: 'load' });
+    await page.locator('#case-content').waitFor({ state: 'visible' });
+    assert.equal(await page.locator('#case-title').textContent(), koreanRecord.translations.ko.title);
     // Blocking one image must leave source and permission links reachable.
     await page.route('**/readme-assets/cases/licensed-deepseek-crowned-frog.png', route => route.abort());
     await page.goto(base + '/licensed-gallery.en.html#licensed-deepseek-crowned-frog');
@@ -165,7 +181,7 @@ const server = http.createServer((req, res) => {
       assert.equal(await page.locator('img,video').count(), 0, route);
     }
     const translated = rows.find(row => row.id === 'x-op7418-fatfish-pack');
-    for (const lang of ['en', 'zh-CN', 'zh-TW', 'ja']) {
+    for (const lang of ['en', 'zh-CN', 'zh-TW', 'ja', 'ko']) {
       await page.goto(base + '/translated-case.html?' + new URLSearchParams({id: translated.id, lang}));
       assert.equal(await page.locator('html').getAttribute('lang'), lang);
       assert.equal(await page.locator('#case-title').textContent(), translated.translations[lang].title);

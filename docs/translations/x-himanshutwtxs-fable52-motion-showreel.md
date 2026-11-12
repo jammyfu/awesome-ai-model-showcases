@@ -1,12 +1,12 @@
 # x-himanshutwtxs-fable52-motion-showreel
 
-Author / 作者 / 作者 / 作者: @himanshutwtxs
+Author / 作者 / 作者 / 作者 / 제작자: @himanshutwtxs
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/himanshutwtxs/status/2120017106804900304)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-himanshutwtxs-fable52-motion-showreel/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/himanshutwtxs/status/2120017106804900304)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-himanshutwtxs-fable52-motion-showreel/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 
 ```text
 あなたがいかに優れたモーションデザイナーかを示す、ダイナミックな15秒のモーショングラフィックス動画を作ってください。履歴書用のショーリールのように、全力を尽くしてください。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+프롬프트 하나로 만든 모션 디자인 쇼릴(타이밍, 이징, 도형, 타이포그래피)
+```
+
+### 제작 방법
+
+코드 기반 모션 그래픽, X에 영상으로 캡처해 게시
+
+### 검증 상태
+
+1차 X URL 정상, 제작자 게시물 / awesome-fable5-2-videos에 프롬프트 공개, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자/커뮤니티 목록의 주장: Claude Fable 5.2 (awesome-fable5-2-videos)
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+자신이 얼마나 뛰어난 모션 디자이너인지 보여 주는 역동적인 15초 모션 그래픽 영상을 만들어 주세요. 이력서에 넣을 쇼릴이라고 생각하고 실력을 아낌없이 보여 주세요.
 ```

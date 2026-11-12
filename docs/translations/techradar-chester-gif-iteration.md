@@ -1,10 +1,10 @@
 # techradar-chester-gif-iteration
 
-Author / 作者 / 作者 / 作者: Graham Barlow / TechRadar
+Author / 作者 / 作者 / 作者 / 제작자: Graham Barlow / TechRadar
 
-[Original source / 原帖 / 原帖 / 原投稿](https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-2-6-is-here-and-it-can-turn-your-photos-into-animated-gifs-so-i-tried-it-on-my-cat)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-2-6-is-here-and-it-can-turn-your-photos-into-animated-gifs-so-i-tried-it-on-my-cat)
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -137,3 +137,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Chester 반려동물 사진 애니메이션: 핼러윈 눈 깜박임, 마법 시전, 달의 나비
+```
+
+### 제작 방법
+
+사진→GIF, 움직임 수정, 이름을 지정한 참조를 달 장면에 재사용. 하나의 작업 흐름 그룹, 결과물 3개
+
+### 검증 상태
+
+2026-11-07 출처 기록, 새로 검증한 것이 아님
+
+### 모델 근거 (번역)
+
+```text
+2026-11-05 기자가 자신의 고양이 사진으로 직접 진행한 Images 2.6 테스트
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

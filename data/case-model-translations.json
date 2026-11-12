@@ -6,775 +6,904 @@
       "en": "Author claims 2.6: GPT’s newly released GPT Image 2.6 can now generate animated memes from a single sentence",
       "zh-CN": "作者声明 2.6：GPT新出的GPT Image 2.6，可以一句话生成表情包动图了",
       "zh-TW": "作者聲明 2.6：GPT新出的GPT Image 2.6，可以一句話生成表情包動圖了",
-      "ja": "作者による2.6使用の主張：GPTの新しいGPT Image 2.6なら、一文で動くスタンプを生成できるようになった"
+      "ja": "作者による2.6使用の主張：GPTの新しいGPT Image 2.6なら、一文で動くスタンプを生成できるようになった",
+      "ko": "작성자의 2.6 주장: GPT가 새로 출시한 GPT Image 2.6은 이제 한 문장만으로 움직이는 밈을 생성할 수 있음"
     },
     "作者声明 2.6：GPT-image-2.6 今天发布了，主要的新特性就是能够直接生成 GIF 动图了。…我在 Codex 里用 Codex 说调不了 2.6…然后在 GPT 里": {
       "en": "Author claims 2.6: GPT-image-2.6 was released today; its main new feature is direct GIF generation. …I tried Codex, but it said it could not call 2.6…then in GPT",
       "zh-CN": "作者声明 2.6：GPT-image-2.6 今天发布了，主要的新特性就是能够直接生成 GIF 动图了。…我在 Codex 里用 Codex 说调不了 2.6…然后在 GPT 里",
       "zh-TW": "作者聲明 2.6：GPT-image-2.6 今天發佈了，主要的新特性就是能夠直接生成 GIF 動圖了。…我在 Codex 里用 Codex 說調不了 2.6…然後在 GPT 里",
-      "ja": "作者による2.6使用の主張：GPT-image-2.6が今日公開され、主な新機能はGIFの直接生成。…Codexで試したら2.6は呼び出せないと言われ…その後GPTで"
+      "ja": "作者による2.6使用の主張：GPT-image-2.6が今日公開され、主な新機能はGIFの直接生成。…Codexで試したら2.6は呼び出せないと言われ…その後GPTで",
+      "ko": "작성자의 2.6 주장: 오늘 GPT-image-2.6 출시, 주요 신기능은 GIF 직접 생성. …Codex에서는 2.6을 호출할 수 없다고 해서…그다음 GPT에서 시도"
     },
     "作者声明 2.6：刚发布的 GPT-image-2.6 真牛逼！！我只用了一句话，就让它把一张静态图片变成了 GIF 动图": {
       "en": "Author claims 2.6: The newly released GPT-image-2.6 is damn impressive!! With just one sentence, I turned a static image into an animated GIF",
       "zh-CN": "作者声明 2.6：刚发布的 GPT-image-2.6 真牛逼！！我只用了一句话，就让它把一张静态图片变成了 GIF 动图",
       "zh-TW": "作者聲明 2.6：剛發佈的 GPT-image-2.6 真牛逼！！我只用了一句話，就讓它把一張靜態圖片變成了 GIF 動圖",
-      "ja": "作者による2.6使用の主張：公開されたばかりのGPT-image-2.6は本当にすごい！！たった一文で静止画をGIFアニメにできた"
+      "ja": "作者による2.6使用の主張：公開されたばかりのGPT-image-2.6は本当にすごい！！たった一文で静止画をGIFアニメにできた",
+      "ko": "작성자의 2.6 주장: 새로 나온 GPT-image-2.6은 정말 대단함!! 한 문장만으로 정적 이미지를 움직이는 GIF로 변환"
     },
     "作者声明 2.6：ChatGPT 上了 Images 2.6…GIF 是 2.6 才有的能力，老版本只会给你一张静态图。": {
       "en": "Author claims 2.6: ChatGPT has Images 2.6…GIF is a capability exclusive to 2.6; older versions only give you a static image.",
       "zh-CN": "作者声明 2.6：ChatGPT 上了 Images 2.6…GIF 是 2.6 才有的能力，老版本只会给你一张静态图。",
       "zh-TW": "作者聲明 2.6：ChatGPT 上了 Images 2.6…GIF 是 2.6 才有的能力，老版本只會給你一張靜態圖。",
-      "ja": "作者による2.6使用の主張：ChatGPTにImages 2.6が登場…GIFは2.6からの機能で、旧版では静止画しか得られない。"
+      "ja": "作者による2.6使用の主張：ChatGPTにImages 2.6が登場…GIFは2.6からの機能で、旧版では静止画しか得られない。",
+      "ko": "작성자의 2.6 주장: ChatGPT에 Images 2.6 등장…GIF는 2.6만의 기능이며 이전 버전은 정적 이미지만 출력"
     },
     "作者声明 2.6：chatgpt images 2.6 is here!": {
       "en": "Author claims 2.6: chatgpt images 2.6 is here!",
       "zh-CN": "作者声明 2.6：ChatGPT Images 2.6 来了！",
       "zh-TW": "作者聲明 2.6：ChatGPT Images 2.6 來了！",
-      "ja": "作者による2.6使用の主張：ChatGPT Images 2.6が登場！"
+      "ja": "作者による2.6使用の主張：ChatGPT Images 2.6が登場！",
+      "ko": "작성자의 2.6 주장: chatgpt images 2.6 출시!"
     },
     "作者声明 2.6：昨日出たChatGPT Images 2.6（GPT Image 2.6）の新機能、GIF生成でうちの子を動かしてみた": {
       "en": "Author claims 2.6: I tried animating my character with GIF generation, a new feature in yesterday’s ChatGPT Images 2.6 (GPT Image 2.6)",
       "zh-CN": "作者声明 2.6：用昨天发布的 ChatGPT Images 2.6（GPT Image 2.6）的新功能 GIF 生成，让我家角色动起来了",
       "zh-TW": "作者聲明 2.6：用昨天發佈的 ChatGPT Images 2.6（GPT Image 2.6）的新功能 GIF 生成，讓我家角色動起來了",
-      "ja": "作者による2.6使用の主張：昨日出たChatGPT Images 2.6（GPT Image 2.6）の新機能、GIF生成でうちの子を動かしてみた"
+      "ja": "作者による2.6使用の主張：昨日出たChatGPT Images 2.6（GPT Image 2.6）の新機能、GIF生成でうちの子を動かしてみた",
+      "ko": "작성자의 2.6 주장: 어제 출시된 ChatGPT Images 2.6(GPT Image 2.6)의 새 기능인 GIF 생성으로 내 캐릭터를 움직여 봄"
     },
     "作者声明 2.6：i've been testing the new gpt image 2.6 to generate gifs… left original… right g": {
       "en": "Author claims 2.6: i've been testing the new gpt image 2.6 to generate gifs… left original… right g",
       "zh-CN": "作者声明 2.6：我一直在测试新的 GPT Image 2.6 来生成 GIF…左边是原图…右边是 g…",
       "zh-TW": "作者聲明 2.6：我一直在測試新的 GPT Image 2.6 來生成 GIF…左邊是原圖…右邊是 g…",
-      "ja": "作者による2.6使用の主張：新しいGPT Image 2.6でGIF生成を試している…左は元画像…右はg…"
+      "ja": "作者による2.6使用の主張：新しいGPT Image 2.6でGIF生成を試している…左は元画像…右はg…",
+      "ko": "작성자의 2.6 주장: 새 gpt image 2.6으로 GIF 생성을 테스트 중…왼쪽은 원본…오른쪽은 g…(원문 잘림)"
     },
     "作者声明 2.6：GPT Image 2.6 上线，支持 GIF 生成…刚拿芙莉莲试了一下": {
       "en": "Author claims 2.6: GPT Image 2.6 is live and supports GIF generation…I just tried it with Frieren",
       "zh-CN": "作者声明 2.6：GPT Image 2.6 上线，支持 GIF 生成…刚拿芙莉莲试了一下",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6 上線，支持 GIF 生成…剛拿芙莉蓮試了一下",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6が公開され、GIF生成に対応…さっそくフリーレンで試した"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6が公開され、GIF生成に対応…さっそくフリーレンで試した",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6 출시와 GIF 생성 지원…방금 프리렌으로 시도함"
     },
     "作者声明 2.6：全网最全！GPT Image 2.6 的 GIF 功能实用玩法…附完整提示词": {
       "en": "Author claims 2.6: The most comprehensive guide online! Practical uses of GPT Image 2.6’s GIF feature…full prompts included",
       "zh-CN": "作者声明 2.6：全网最全！GPT Image 2.6 的 GIF 功能实用玩法…附完整提示词",
       "zh-TW": "作者聲明 2.6：全網最全！GPT Image 2.6 的 GIF 功能實用玩法…附完整提示詞",
-      "ja": "作者による2.6使用の主張：ネット上で最も網羅的！GPT Image 2.6のGIF機能の実用的な使い方…完全なプロンプト付き"
+      "ja": "作者による2.6使用の主張：ネット上で最も網羅的！GPT Image 2.6のGIF機能の実用的な使い方…完全なプロンプト付き",
+      "ko": "작성자의 2.6 주장: 인터넷에서 가장 종합적인 가이드! GPT Image 2.6 GIF 기능의 실제 활용…전체 프롬프트 포함"
     },
     "作者声明 2.6：GPT Image 2.6已经支持生成动图啦…挖到了不一样的玩法": {
       "en": "Author claims 2.6: GPT Image 2.6 now supports animation generation…found some different uses",
       "zh-CN": "作者声明 2.6：GPT Image 2.6已经支持生成动图啦…挖到了不一样的玩法",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6已經支持生成動圖啦…挖到了不一樣的玩法",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6でアニメが生成できるようになった…一味違う使い方を発見"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6でアニメが生成できるようになった…一味違う使い方を発見",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6이 이제 애니메이션 생성 지원…색다른 활용법 발견"
     },
     "作者声明 2.6：GPT Image 2.6 这次真的有点东西！以后做 AI 娘表情包，真是越来越简单了。": {
       "en": "Author claims 2.6: GPT Image 2.6 really delivers this time! Making AI girl reaction memes is getting easier and easier.",
       "zh-CN": "作者声明 2.6：GPT Image 2.6 这次真的有点东西！以后做 AI 娘表情包，真是越来越简单了。",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6 這次真的有點東西！以後做 AI 娘表情包，真是越來越簡單了。",
-      "ja": "作者による2.6使用の主張：今回のGPT Image 2.6はなかなかすごい！AI少女のスタンプ制作がますます簡単になった。"
+      "ja": "作者による2.6使用の主張：今回のGPT Image 2.6はなかなかすごい！AI少女のスタンプ制作がますます簡単になった。",
+      "ko": "작성자의 2.6 주장: 이번 GPT Image 2.6은 확실히 좋음! AI 소녀 반응 밈을 만들기가 점점 쉬워짐"
     },
     "作者声明 2.6：ChatGPT can now make animated GIFs. New in Images 2.6… I made this schnauzer wit": {
       "en": "Author claims 2.6: ChatGPT can now make animated GIFs. New in Images 2.6… I made this schnauzer wit",
       "zh-CN": "作者声明 2.6：ChatGPT 现在可以制作 GIF 动画了。这是 Images 2.6 的新功能…我制作了这只雪纳瑞，用…",
       "zh-TW": "作者聲明 2.6：ChatGPT 現在可以製作 GIF 動畫了。這是 Images 2.6 的新功能…我製作了這只雪納瑞，用…",
-      "ja": "作者による2.6使用の主張：ChatGPTでGIFアニメを作れるようになった。Images 2.6の新機能…このシュナウザーを…で作った"
+      "ja": "作者による2.6使用の主張：ChatGPTでGIFアニメを作れるようになった。Images 2.6の新機能…このシュナウザーを…で作った",
+      "ko": "작성자의 2.6 주장: ChatGPT가 이제 움직이는 GIF를 만들 수 있음. Images 2.6의 새 기능…이 슈나우저를 만들었…(원문 잘림)"
     },
     "作者声明 2.6：GPT Image 2.6 turned this doodle into a looping GIF… You can even control the GI": {
       "en": "Author claims 2.6: GPT Image 2.6 turned this doodle into a looping GIF… You can even control the GI",
       "zh-CN": "作者声明 2.6：GPT Image 2.6 把这张涂鸦变成了循环 GIF…你甚至可以控制 GI…",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6 把這張塗鴉變成了循環 GIF…你甚至可以控制 GI…",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6がこの落書きをループGIFにした…さらにGI…を制御できる"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6がこの落書きをループGIFにした…さらにGI…を制御できる",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6이 이 낙서를 반복 GIF로 바꿈…GI…도 조절 가능(원문 잘림)"
     },
     "作者声明 2.6：GPT-Image-2.6 现在可以直接生成 GIF 动图了…我直接把 X 头像丢给 ChatGPT": {
       "en": "Author claims 2.6: GPT-Image-2.6 can now generate animated GIFs directly…I simply dropped my X profile picture into ChatGPT",
       "zh-CN": "作者声明 2.6：GPT-Image-2.6 现在可以直接生成 GIF 动图了…我直接把 X 头像丢给 ChatGPT",
       "zh-TW": "作者聲明 2.6：GPT-Image-2.6 現在可以直接生成 GIF 動圖了…我直接把 X 頭像丟給 ChatGPT",
-      "ja": "作者による2.6使用の主張：GPT-Image-2.6でGIFアニメを直接生成できるようになった…Xのプロフィール画像をそのままChatGPTに渡した"
+      "ja": "作者による2.6使用の主張：GPT-Image-2.6でGIFアニメを直接生成できるようになった…Xのプロフィール画像をそのままChatGPTに渡した",
+      "ko": "작성자의 2.6 주장: GPT-Image-2.6이 이제 움직이는 GIF를 직접 생성…내 X 프로필 사진을 ChatGPT에 넣기만 했음"
     },
     "作者声明 2.6：GPT Image 2.6 animated GIF": {
       "en": "Author claims 2.6: GPT Image 2.6 animated GIF",
       "zh-CN": "作者声明 2.6：GPT Image 2.6 GIF 动画",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6 GIF 動畫",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6のGIFアニメ"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6のGIFアニメ",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6 애니메이션 GIF"
     },
     "作者声明 2.6：And the gif attached is of course made by Image 2.6": {
       "en": "Author claims 2.6: And the gif attached is of course made by Image 2.6",
       "zh-CN": "作者声明 2.6：而附上的 GIF 当然也是用 Image 2.6 制作的",
       "zh-TW": "作者聲明 2.6：而附上的 GIF 當然也是用 Image 2.6 製作的",
-      "ja": "作者による2.6使用の主張：そして添付したGIFも、もちろんImage 2.6で制作"
+      "ja": "作者による2.6使用の主張：そして添付したGIFも、もちろんImage 2.6で制作",
+      "ko": "작성자의 2.6 주장: 첨부된 GIF는 당연히 Image 2.6으로 제작"
     },
     "作者声明 2.6：GPTimage2.6\n进化してるー！あと生成スピードが速い！": {
       "en": "Author claims 2.6: GPTimage2.6\nIt’s evolving! And generation is fast!\n",
       "zh-CN": "作者声明 2.6：GPTimage2.6\n进步了！而且生成速度很快！\n",
       "zh-TW": "作者聲明 2.6：GPTimage2.6\n進步了！而且生成速度很快！\n",
-      "ja": "作者による2.6使用の主張：GPTimage2.6\n進化してるー！あと生成スピードが速い！\n"
+      "ja": "作者による2.6使用の主張：GPTimage2.6\n進化してるー！あと生成スピードが速い！\n",
+      "ko": "작성자의 2.6 주장: GPTimage2.6, 진화 중! 생성도 빠름!"
     },
     "作者声明 2.6：＼ChatGPTのImage 2.6アプデ！！／ …プロンプトはたったこれだけ": {
       "en": "Author claims 2.6: ChatGPT’s Image 2.6 update!! …The prompt is just this short",
       "zh-CN": "作者声明 2.6：ChatGPT 的 Image 2.6 更新！！…提示词只有这么短",
       "zh-TW": "作者聲明 2.6：ChatGPT 的 Image 2.6 更新！！…提示詞只有這麼短",
-      "ja": "作者による2.6使用の主張：＼ChatGPTのImage 2.6アプデ！！／ …プロンプトはたったこれだけ"
+      "ja": "作者による2.6使用の主張：＼ChatGPTのImage 2.6アプデ！！／ …プロンプトはたったこれだけ",
+      "ko": "작성자의 2.6 주장: ChatGPT Image 2.6 업데이트!! …프롬프트는 이렇게 짧음"
     },
     "作者声明 2.6：今日から使えるようになったGPT Image 2.6でGIFを作ってみたよ": {
       "en": "Author claims 2.6: I tried making a GIF with GPT Image 2.6, which became available today",
       "zh-CN": "作者声明 2.6：用今天起可以使用的 GPT Image 2.6 试做了 GIF",
       "zh-TW": "作者聲明 2.6：用今天起可以使用的 GPT Image 2.6 試做了 GIF",
-      "ja": "作者による2.6使用の主張：今日から使えるようになったGPT Image 2.6でGIFを作ってみたよ"
+      "ja": "作者による2.6使用の主張：今日から使えるようになったGPT Image 2.6でGIFを作ってみたよ",
+      "ko": "작성자의 2.6 주장: 오늘 사용 가능해진 GPT Image 2.6으로 GIF를 만들어 봄"
     },
     "作者声明 2.6：You can just upload one character photo + a style reference and get a set of 10 ": {
       "en": "Author claims 2.6: You can just upload one character photo + a style reference and get a set of 10 ",
       "zh-CN": "作者声明 2.6：只需上传一张角色照片和一张风格参考图，就能得到一套 10 个…",
       "zh-TW": "作者聲明 2.6：只需上傳一張角色照片和一張風格參考圖，就能得到一套 10 個…",
-      "ja": "作者による2.6使用の主張：キャラクター写真1枚とスタイル参照をアップロードするだけで、10個の…を取得できる"
+      "ja": "作者による2.6使用の主張：キャラクター写真1枚とスタイル参照をアップロードするだけで、10個の…を取得できる",
+      "ko": "작성자의 2.6 주장: 캐릭터 사진 한 장 + 스타일 참조를 업로드하면 10개 세트를 얻을 수…(원문 잘림)"
     },
     "作者声明 2.6：GPT Image 2.6が出たので、さっそく試してみました。": {
       "en": "Author claims 2.6: GPT Image 2.6 came out, so I tried it right away.",
       "zh-CN": "作者声明 2.6：GPT Image 2.6 发布了，所以马上试了一下。",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6 發佈了，所以馬上試了一下。",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6が出たので、さっそく試してみました。"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6が出たので、さっそく試してみました。",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6이 나와 바로 시도함"
     },
     "作者声明 2.6：Open AIが…GPT Images 2.6を発表し、GIFアニメも作れるようになったので、早速作ってみた": {
       "en": "Author claims 2.6: Open AI…announced GPT Images 2.6, which can now make GIF animations, so I tried it right away",
       "zh-CN": "作者声明 2.6：Open AI…发布了 GPT Images 2.6，已经可以制作 GIF 动画，因此马上试做了",
       "zh-TW": "作者聲明 2.6：Open AI…發佈了 GPT Images 2.6，已經可以製作 GIF 動畫，因此馬上試做了",
-      "ja": "作者による2.6使用の主張：Open AIが…GPT Images 2.6を発表し、GIFアニメも作れるようになったので、早速作ってみた"
+      "ja": "作者による2.6使用の主張：Open AIが…GPT Images 2.6を発表し、GIFアニメも作れるようになったので、早速作ってみた",
+      "ko": "작성자의 2.6 주장: Open AI가…GIF 애니메이션을 만들 수 있는 GPT Images 2.6을 발표해 바로 시도함"
     },
     "作者声明 2.6：GPT Image 2.6で建築パースの日没タイムラプスを作ってみた。": {
       "en": "Author claims 2.6: I made a sunset time-lapse of an architectural rendering with GPT Image 2.6.",
       "zh-CN": "作者声明 2.6：用 GPT Image 2.6 制作了建筑效果图的日落延时动画。",
       "zh-TW": "作者聲明 2.6：用 GPT Image 2.6 製作了建築效果圖的日落延時動畫。",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6で建築パースの日没タイムラプスを作ってみた。"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6で建築パースの日没タイムラプスを作ってみた。",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6으로 건축 렌더링의 일몰 타임랩스 제작"
     },
     "作者声明 2.6：チャッピーのgif生成試してみた\nこれは12コマくらい？": {
       "en": "Author claims 2.6: I tried Chappy’s GIF generation.\nIs this about 12 frames?",
       "zh-CN": "作者声明 2.6：试了试 Chappy 的 GIF 生成功能。\n这大约是 12 帧吗？",
       "zh-TW": "作者聲明 2.6：試了試 Chappy 的 GIF 生成功能。\n這大約是 12 幀嗎？",
-      "ja": "作者による2.6使用の主張：チャッピーのgif生成試してみた\nこれは12コマくらい？"
+      "ja": "作者による2.6使用の主張：チャッピーのgif生成試してみた\nこれは12コマくらい？",
+      "ko": "작성자의 2.6 주장: Chappy의 GIF 생성을 시도함. 약 12프레임인가?"
     },
     "作者声明 2.6：GPT Images 2.6 is here 🥂\n\n+ GIFs": {
       "en": "Author claims 2.6: GPT Images 2.6 is here 🥂\n\n+ GIFs",
       "zh-CN": "作者声明 2.6：GPT Images 2.6 来了 🥂\n\n+ GIF",
       "zh-TW": "作者聲明 2.6：GPT Images 2.6 來了 🥂\n\n+ GIF",
-      "ja": "作者による2.6使用の主張：GPT Images 2.6が登場 🥂\n\n＋GIF"
+      "ja": "作者による2.6使用の主張：GPT Images 2.6が登場 🥂\n\n＋GIF",
+      "ko": "작성자의 2.6 주장: GPT Images 2.6 출시 🥂 + GIF"
     },
     "GPT Image 2.6 Sunburst（gpt-image-2.6-sunburst）": {
       "en": "GPT Image 2.6 Sunburst (gpt-image-2.6-sunburst)",
       "zh-CN": "GPT Image 2.6 Sunburst（gpt-image-2.6-sunburst）",
       "zh-TW": "GPT Image 2.6 Sunburst（gpt-image-2.6-sunburst）",
-      "ja": "GPT Image 2.6 Sunburst（gpt-image-2.6-sunburst）"
+      "ja": "GPT Image 2.6 Sunburst（gpt-image-2.6-sunburst）",
+      "ko": "GPT Image 2.6 Sunburst (gpt-image-2.6-sunburst)"
     },
     "GPT Image 2.6 Flare（页面写 2.6 Flare · 20.9 s）": {
       "en": "GPT Image 2.6 Flare (page says 2.6 Flare · 20.9 s)",
       "zh-CN": "GPT Image 2.6 Flare（页面写 2.6 Flare · 20.9 s）",
       "zh-TW": "GPT Image 2.6 Flare（頁面寫 2.6 Flare · 20.9 s）",
-      "ja": "GPT Image 2.6 Flare（ページに2.6 Flare・20.9秒と記載）"
+      "ja": "GPT Image 2.6 Flare（ページに2.6 Flare・20.9秒と記載）",
+      "ko": "GPT Image 2.6 Flare (페이지 표기: 2.6 Flare · 20.9초)"
     },
     "GPT Image 2.6 Sunburst（2.6 Sunburst · 38.6 s）": {
       "en": "GPT Image 2.6 Sunburst (2.6 Sunburst · 38.6 s)",
       "zh-CN": "GPT Image 2.6 Sunburst（2.6 Sunburst · 38.6 s）",
       "zh-TW": "GPT Image 2.6 Sunburst（2.6 Sunburst · 38.6 s）",
-      "ja": "GPT Image 2.6 Sunburst（2.6 Sunburst・38.6秒）"
+      "ja": "GPT Image 2.6 Sunburst（2.6 Sunburst・38.6秒）",
+      "ko": "GPT Image 2.6 Sunburst (2.6 Sunburst · 38.6초)"
     },
     "GPT Image 2.6 Flare（with photo uploaded）": {
       "en": "GPT Image 2.6 Flare (with photo uploaded)",
       "zh-CN": "GPT Image 2.6 Flare（上传照片后）",
       "zh-TW": "GPT Image 2.6 Flare（上傳照片後）",
-      "ja": "GPT Image 2.6 Flare（写真をアップロードして使用）"
+      "ja": "GPT Image 2.6 Flare（写真をアップロードして使用）",
+      "ko": "GPT Image 2.6 Flare (사진 업로드 사용)"
     },
     "GPT Image 2.6 Flare（文称自跑 Flare）": {
       "en": "GPT Image 2.6 Flare (text claims a self-run Flare generation)",
       "zh-CN": "GPT Image 2.6 Flare（文称自跑 Flare）",
       "zh-TW": "GPT Image 2.6 Flare（文稱自跑 Flare）",
-      "ja": "GPT Image 2.6 Flare（本文ではFlareで自ら生成したと主張）"
+      "ja": "GPT Image 2.6 Flare（本文ではFlareで自ら生成したと主張）",
+      "ko": "GPT Image 2.6 Flare (본문은 Flare 생성을 직접 실행했다고 주장)"
     },
     "GPT Image 2.6 Flare": {
       "en": "GPT Image 2.6 Flare",
       "zh-CN": "GPT Image 2.6 Flare",
       "zh-TW": "GPT Image 2.6 Flare",
-      "ja": "GPT Image 2.6 Flare"
+      "ja": "GPT Image 2.6 Flare",
+      "ko": "GPT Image 2.6 Flare"
     },
     "GPT Image 2.6（页面示例，Veevid上跑2.6 GIF输出）": {
       "en": "GPT Image 2.6 (page example; 2.6 GIF output run on Veevid)",
       "zh-CN": "GPT Image 2.6（页面示例，Veevid上跑2.6 GIF输出）",
       "zh-TW": "GPT Image 2.6（頁面示例，Veevid上跑2.6 GIF輸出）",
-      "ja": "GPT Image 2.6（ページの作例。Veevidで2.6のGIF出力を実行）"
+      "ja": "GPT Image 2.6（ページの作例。Veevidで2.6のGIF出力を実行）",
+      "ko": "GPT Image 2.6 (페이지 예제, Veevid에서 2.6 GIF 출력 실행)"
     },
     "GPT Image 2.6（Veevid示例）": {
       "en": "GPT Image 2.6 (Veevid example)",
       "zh-CN": "GPT Image 2.6（Veevid示例）",
       "zh-TW": "GPT Image 2.6（Veevid示例）",
-      "ja": "GPT Image 2.6（Veevidの作例）"
+      "ja": "GPT Image 2.6（Veevidの作例）",
+      "ko": "GPT Image 2.6 (Veevid 예제)"
     },
     "GPT Image 2.6 image-to-GIF": {
       "en": "GPT Image 2.6 image-to-GIF",
       "zh-CN": "GPT Image 2.6 图像转 GIF",
       "zh-TW": "GPT Image 2.6 圖像轉 GIF",
-      "ja": "GPT Image 2.6の画像からGIF生成"
+      "ja": "GPT Image 2.6の画像からGIF生成",
+      "ko": "GPT Image 2.6 이미지→GIF"
     },
     "GPT Image 2.6（文承认线稿本身也用2.6生成作替身）": {
       "en": "GPT Image 2.6 (text acknowledges the line drawing itself was also generated with 2.6 as a stand-in)",
       "zh-CN": "GPT Image 2.6（文承认线稿本身也用2.6生成作替身）",
       "zh-TW": "GPT Image 2.6（文承認線稿本身也用2.6生成作替身）",
-      "ja": "GPT Image 2.6（本文では代替用の線画自体も2.6で生成したと認めている）"
+      "ja": "GPT Image 2.6（本文では代替用の線画自体も2.6で生成したと認めている）",
+      "ko": "GPT Image 2.6 (본문은 선화 자체도 대체 자료로 2.6을 사용해 생성했음을 밝힘)"
     },
     "Images 2.6 / GPT Image 2.6（API生成，文内写明）": {
       "en": "Images 2.6 / GPT Image 2.6 (API-generated, explicitly stated in the article)",
       "zh-CN": "Images 2.6 / GPT Image 2.6（API生成，文内写明）",
       "zh-TW": "Images 2.6 / GPT Image 2.6（API生成，文內寫明）",
-      "ja": "Images 2.6／GPT Image 2.6（API生成と本文に明記）"
+      "ja": "Images 2.6／GPT Image 2.6（API生成と本文に明記）",
+      "ko": "Images 2.6 / GPT Image 2.6 (기사에서 API 생성이라고 명시)"
     },
     "Image 2.6 GIF feature（帖标题与正文自称）": {
       "en": "Image 2.6 GIF feature (claimed in the post’s title and body)",
       "zh-CN": "Image 2.6 GIF 功能（帖标题与正文自称）",
       "zh-TW": "Image 2.6 GIF 功能（帖標題與正文自稱）",
-      "ja": "Image 2.6のGIF機能（投稿タイトルと本文での自己申告）"
+      "ja": "Image 2.6のGIF機能（投稿タイトルと本文での自己申告）",
+      "ko": "Image 2.6 GIF 기능 (게시물 제목과 본문의 주장)"
     },
     "Author reports GPT Image 2.6; not authenticated / 作者声明，未独立认证": {
       "en": "Author reports GPT Image 2.6; not independently authenticated",
       "zh-CN": "作者声明 GPT Image 2.6，未独立认证",
       "zh-TW": "作者聲明 GPT Image 2.6，未獨立認證",
-      "ja": "作者はGPT Image 2.6と報告。独立した認証はなし"
+      "ja": "作者はGPT Image 2.6と報告。独立した認証はなし",
+      "ko": "작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음"
     },
     "作者声明 2.6": {
       "en": "Author claims 2.6",
       "zh-CN": "作者声明 2.6",
       "zh-TW": "作者聲明 2.6",
-      "ja": "作者による2.6使用の主張"
+      "ja": "作者による2.6使用の主張",
+      "ko": "작성자는 2.6이라고 주장"
     },
     "作者声明 GPT Image 2.6（非官方验证；跳跃有事后修帧；本仓未观看）": {
       "en": "Author claims GPT Image 2.6 (not officially verified; jump frames edited afterward; not watched by this repository)",
       "zh-CN": "作者声明 GPT Image 2.6（非官方验证；跳跃有事后修帧；本仓未观看）",
       "zh-TW": "作者聲明 GPT Image 2.6（非官方驗證；跳躍有事後修幀；本倉未觀看）",
-      "ja": "作者はGPT Image 2.6と主張（公式検証なし。ジャンプは後からフレームを修正。当リポジトリでは未視聴）"
+      "ja": "作者はGPT Image 2.6と主張（公式検証なし。ジャンプは後からフレームを修正。当リポジトリでは未視聴）",
+      "ko": "작성자는 GPT Image 2.6이라고 주장(공식 확인 없음, 점프 프레임은 사후 편집, 이 저장소에서는 미시청)"
     },
     "作者声明 GPT Image 2.6 出表（切帧/游戏是 GPT-6.1 Sol；非官方验证）": {
       "en": "Author claims GPT Image 2.6 generated the sheet (frame extraction/game by GPT-6.1 Sol; not officially verified)",
       "zh-CN": "作者声明 GPT Image 2.6 出表（切帧/游戏是 GPT-6.1 Sol；非官方验证）",
       "zh-TW": "作者聲明 GPT Image 2.6 出表（切幀/遊戲是 GPT-6.1 Sol；非官方驗證）",
-      "ja": "作者はGPT Image 2.6でシートを生成したと主張（フレーム切り出しとゲームはGPT-6.1 Sol。公式検証なし）"
+      "ja": "作者はGPT Image 2.6でシートを生成したと主張（フレーム切り出しとゲームはGPT-6.1 Sol。公式検証なし）",
+      "ko": "작성자는 GPT Image 2.6으로 시트를 생성했다고 주장(프레임 추출/게임은 GPT-6.1 Sol, 공식 확인 없음)"
     },
     "作者声明 GPT Images 2.6（非官方验证；本仓未观看、未复测）": {
       "en": "Author claims GPT Images 2.6 (not officially verified; not watched or retested by this repository)",
       "zh-CN": "作者声明 GPT Images 2.6（非官方验证；本仓未观看、未复测）",
       "zh-TW": "作者聲明 GPT Images 2.6（非官方驗證；本倉未觀看、未復測）",
-      "ja": "作者はGPT Images 2.6と主張（公式検証なし。当リポジトリでは未視聴・未再検証）"
+      "ja": "作者はGPT Images 2.6と主張（公式検証なし。当リポジトリでは未視聴・未再検証）",
+      "ko": "작성자는 GPT Images 2.6이라고 주장(공식 확인 없음, 이 저장소에서는 시청하거나 재시험하지 않음)"
     },
     "作者声明 gpt_image_2_6（非官方验证；本仓未复测）": {
       "en": "Author claims gpt_image_2_6 (not officially verified; not retested by this repository)",
       "zh-CN": "作者声明 gpt_image_2_6（非官方验证；本仓未复测）",
       "zh-TW": "作者聲明 gpt_image_2_6（非官方驗證；本倉未復測）",
-      "ja": "作者はgpt_image_2_6と主張（公式検証なし。当リポジトリでは未再検証）"
+      "ja": "作者はgpt_image_2_6と主張（公式検証なし。当リポジトリでは未再検証）",
+      "ko": "작성자는 gpt_image_2_6이라고 주장(공식 확인 없음, 이 저장소에서는 재시험하지 않음)"
     },
     "Author/community catalog claim: Claude Fable 5.2 (awesome-fable5-2-videos)": {
       "en": "Author/community catalog claim: Claude Fable 5.2 (awesome-fable5-2-videos)",
       "zh-CN": "作者／社区目录声明：Claude Fable 5.2（awesome-fable5-2-videos）",
       "zh-TW": "作者／社區目錄聲明：Claude Fable 5.2（awesome-fable5-2-videos）",
-      "ja": "作者／コミュニティカタログによる申告：Claude Fable 5.2（awesome-fable5-2-videos）"
+      "ja": "作者／コミュニティカタログによる申告：Claude Fable 5.2（awesome-fable5-2-videos）",
+      "ko": "작성자/커뮤니티 목록의 주장: Claude Fable 5.2 (awesome-fable5-2-videos)"
     },
     "Author/community catalog claim: Claude Fable 5.2": {
       "en": "Author/community catalog claim: Claude Fable 5.2",
       "zh-CN": "作者／社区目录声明：Claude Fable 5.2",
       "zh-TW": "作者／社區目錄聲明：Claude Fable 5.2",
-      "ja": "作者／コミュニティカタログによる申告：Claude Fable 5.2"
+      "ja": "作者／コミュニティカタログによる申告：Claude Fable 5.2",
+      "ko": "작성자/커뮤니티 목록의 주장: Claude Fable 5.2"
     },
     "Author claim: Fable 5.2 (also mentions prior Opus 5.5 obsession)": {
       "en": "Author claim: Fable 5.2 (also mentions prior Opus 5.5 obsession)",
       "zh-CN": "作者声明：Fable 5.2（也提到此前热衷于 Opus 5.5）",
       "zh-TW": "作者聲明：Fable 5.2（也提到此前熱衷於 Opus 5.5）",
-      "ja": "作者の申告：Fable 5.2（以前はOpus 5.5に夢中だったとも記載）"
+      "ja": "作者の申告：Fable 5.2（以前はOpus 5.5に夢中だったとも記載）",
+      "ko": "작성자의 주장: Fable 5.2 (이전에 Opus 5.5에 몰두했던 점도 언급)"
     },
     "Author claim: Fable 5.2 and Opus 5.5, same prompt, no hand edits": {
       "en": "Author claim: Fable 5.2 and Opus 5.5, same prompt, no hand edits",
       "zh-CN": "作者声明：Fable 5.2 与 Opus 5.5，同一提示词，无手工修改",
       "zh-TW": "作者聲明：Fable 5.2 與 Opus 5.5，同一提示詞，無手工修改",
-      "ja": "作者の申告：Fable 5.2とOpus 5.5、同じプロンプト、手修正なし"
+      "ja": "作者の申告：Fable 5.2とOpus 5.5、同じプロンプト、手修正なし",
+      "ko": "작성자의 주장: Fable 5.2와 Opus 5.5, 같은 프롬프트, 수동 수정 없음"
     },
     "Author page: Animation with Fable 5.2 · checked on claude.ai 2026-11-10": {
       "en": "Author page: Animation with Fable 5.2 · checked on claude.ai 2026-11-10",
       "zh-CN": "作者页面：使用 Fable 5.2 制作动画；2026-11-10 在 claude.ai 核查",
       "zh-TW": "作者頁面：使用 Fable 5.2 製作動畫；2026-11-10 在 claude.ai 核查",
-      "ja": "作者のページ：Fable 5.2によるアニメーション。2026-11-10にclaude.aiで確認"
+      "ja": "作者のページ：Fable 5.2によるアニメーション。2026-11-10にclaude.aiで確認",
+      "ko": "작성자 페이지: Animation with Fable 5.2, 2026-11-10 claude.ai에서 확인"
     },
     "Ofox test: anthropic/claude-fable-5.2 (low effort) on 2026-11-11": {
       "en": "Ofox test: anthropic/claude-fable-5.2 (low effort) on 2026-11-11",
       "zh-CN": "Ofox 测试：2026-11-11 使用 anthropic/claude-fable-5.2（低推理档）",
       "zh-TW": "Ofox 測試：2026-11-11 使用 anthropic/claude-fable-5.2（低推理檔）",
-      "ja": "Ofoxのテスト：2026-11-11、anthropic/claude-fable-5.2（低推論設定）"
+      "ja": "Ofoxのテスト：2026-11-11、anthropic/claude-fable-5.2（低推論設定）",
+      "ko": "Ofox 테스트: 2026-11-11 anthropic/claude-fable-5.2 (low effort)"
     },
     "jamesgreene.com labeled run: Claude Opus 5.5": {
       "en": "jamesgreene.com labeled run: Claude Opus 5.5",
       "zh-CN": "jamesgreene.com 标注的运行模型：Claude Opus 5.5",
       "zh-TW": "jamesgreene.com 標注的運行模型：Claude Opus 5.5",
-      "ja": "jamesgreene.comによる実行モデルの表示：Claude Opus 5.5"
+      "ja": "jamesgreene.comによる実行モデルの表示：Claude Opus 5.5",
+      "ko": "jamesgreene.com 실행 결과 표기: Claude Opus 5.5"
     },
     "Original author @xikhar: Fable 5.2, one prompt plus reference images, about 2.5 hours. @FinanceYF5 reposts that result in Chinese.": {
       "en": "Original author @xikhar: Fable 5.2, one prompt plus reference images, about 2.5 hours. @FinanceYF5 reposts that result in Chinese.",
       "zh-CN": "原作者 @xikhar：Fable 5.2，一条提示词加参考图，约 2.5 小时。@FinanceYF5 用中文转发该成果。",
       "zh-TW": "原作者 @xikhar：Fable 5.2，一條提示詞加參考圖，約 2.5 小時。@FinanceYF5 用中文轉發該成果。",
-      "ja": "原作者@xikhar：Fable 5.2、1つのプロンプトと参照画像、約2.5時間。@FinanceYF5がその成果を中国語で転載。"
+      "ja": "原作者@xikhar：Fable 5.2、1つのプロンプトと参照画像、約2.5時間。@FinanceYF5がその成果を中国語で転載。",
+      "ko": "원 작성자 @xikhar: Fable 5.2, 프롬프트 하나와 참조 이미지, 약 2.5시간. @FinanceYF5가 그 결과를 중국어로 재게시"
     },
     "Author claim: Fable 5.2 wrote the script, checked the immunology, built the cells in Blender, rendered 12,480 frames, and added narration and score. About 8 minutes 40 seconds.": {
       "en": "Author claim: Fable 5.2 wrote the script, checked the immunology, built the cells in Blender, rendered 12,480 frames, and added narration and score. About 8 minutes 40 seconds.",
       "zh-CN": "作者声明：Fable 5.2 编写脚本、核查免疫学内容、在 Blender 中搭建细胞、渲染 12,480 帧，并加入旁白和配乐。约 8 分 40 秒。",
       "zh-TW": "作者聲明：Fable 5.2 編寫腳本、核查免疫學內容、在 Blender 中搭建細胞、渲染 12,480 幀，並加入旁白和配樂。約 8 分 40 秒。",
-      "ja": "作者の申告：Fable 5.2が脚本を執筆し、免疫学の内容を確認、Blenderで細胞を構築し、12,480フレームをレンダリング。ナレーションと音楽も追加。約8分40秒。"
+      "ja": "作者の申告：Fable 5.2が脚本を執筆し、免疫学の内容を確認、Blenderで細胞を構築し、12,480フレームをレンダリング。ナレーションと音楽も追加。約8分40秒。",
+      "ko": "작성자의 주장: Fable 5.2가 대본 작성, 면역학 검토, Blender 세포 제작, 12,480프레임 렌더링, 내레이션과 음악 추가를 수행. 약 8분 40초"
     },
     "Author claim: Claude Fable 5.2, under 27 minutes": {
       "en": "Author claim: Claude Fable 5.2, under 27 minutes",
       "zh-CN": "作者声明：Claude Fable 5.2，用时不到 27 分钟",
       "zh-TW": "作者聲明：Claude Fable 5.2，用時不到 27 分鐘",
-      "ja": "作者の申告：Claude Fable 5.2、27分未満"
+      "ja": "作者の申告：Claude Fable 5.2、27分未満",
+      "ko": "작성자의 주장: Claude Fable 5.2, 27분 미만"
     },
     "Author claim: Claude Fable 5.2 in Blender, 2 hr 55 min, about $90.78": {
       "en": "Author claim: Claude Fable 5.2 in Blender, 2 hr 55 min, about $90.78",
       "zh-CN": "作者声明：Claude Fable 5.2 在 Blender 中制作，2 小时 55 分钟，约 90.78 美元",
       "zh-TW": "作者聲明：Claude Fable 5.2 在 Blender 中製作，2 小時 55 分鐘，約 90.78 美元",
-      "ja": "作者の申告：BlenderでClaude Fable 5.2を使用、2時間55分、約90.78米ドル"
+      "ja": "作者の申告：BlenderでClaude Fable 5.2を使用、2時間55分、約90.78米ドル",
+      "ko": "작성자의 주장: Blender에서 Claude Fable 5.2, 2시간 55분, 약 $90.78"
     },
     "Author claim: Claude Fable 5.2, fourth version after three rejects, Blender and code, no video model": {
       "en": "Author claim: Claude Fable 5.2, fourth version after three rejects, Blender and code, no video model",
       "zh-CN": "作者声明：Claude Fable 5.2，否决前三版后的第四版，使用 Blender 与代码，无视频模型",
       "zh-TW": "作者聲明：Claude Fable 5.2，否決前三版後的第四版，使用 Blender 與代碼，無視頻模型",
-      "ja": "作者の申告：Claude Fable 5.2、3回の不採用を経た第4版。Blenderとコードを使用し、動画モデルは不使用"
+      "ja": "作者の申告：Claude Fable 5.2、3回の不採用を経た第4版。Blenderとコードを使用し、動画モデルは不使用",
+      "ko": "작성자의 주장: Claude Fable 5.2, 세 번 반려한 뒤의 네 번째 버전, Blender와 코드 사용, 영상 모델 사용 안 함"
     },
     "Author claim: Fable 5.2, Three.js dragon game from scratch": {
       "en": "Author claim: Fable 5.2, Three.js dragon game from scratch",
       "zh-CN": "作者声明：Fable 5.2，从零制作 Three.js 龙游戏",
       "zh-TW": "作者聲明：Fable 5.2，從零製作 Three.js 龍遊戲",
-      "ja": "作者の申告：Fable 5.2、Three.jsのドラゴンゲームをゼロから制作"
+      "ja": "作者の申告：Fable 5.2、Three.jsのドラゴンゲームをゼロから制作",
+      "ko": "작성자의 주장: Fable 5.2, Three.js 드래곤 게임을 처음부터 제작"
     },
     "Author claim: video by Fable 5.2, for the 10 November remembrance of Mustafa Kemal Atatürk": {
       "en": "Author claim: video by Fable 5.2, for the 10 November remembrance of Mustafa Kemal Atatürk",
       "zh-CN": "作者声明：视频由 Fable 5.2 制作，用于 11 月 10 日纪念穆斯塔法·凯末尔·阿塔图尔克",
       "zh-TW": "作者聲明：視頻由 Fable 5.2 製作，用於 11 月 10 日紀念穆斯塔法·凱末爾·阿塔圖爾克",
-      "ja": "作者の申告：ムスタファ・ケマル・アタテュルクを追悼する11月10日の映像をFable 5.2で制作"
+      "ja": "作者の申告：ムスタファ・ケマル・アタテュルクを追悼する11月10日の映像をFable 5.2で制作",
+      "ko": "작성자의 주장: 무스타파 케말 아타튀르크의 11월 10일 추모를 위해 Fable 5.2로 만든 영상"
     },
     "Feishu AIGCreative wiki lists this under Claude Fable 5.2. The linked X post is the original page. Not independently re-run.": {
       "en": "Feishu AIGCreative wiki lists this under Claude Fable 5.2. The linked X post is the original page. Not independently re-run.",
       "zh-CN": "飞书 AIGCreative 知识库将此列于 Claude Fable 5.2 下。链接的 X 帖是原始页面。未独立复跑。",
       "zh-TW": "飛書 AIGCreative 知識庫將此列於 Claude Fable 5.2 下。鏈接的 X 帖是原始頁面。未獨立復跑。",
-      "ja": "飛書のAIGCreative WikiではClaude Fable 5.2に分類。リンク先のX投稿が元のページ。独立した再実行は未実施。"
+      "ja": "飛書のAIGCreative WikiではClaude Fable 5.2に分類。リンク先のX投稿が元のページ。独立した再実行は未実施。",
+      "ko": "Feishu AIGCreative 위키는 Claude Fable 5.2 항목에 수록. 연결된 X 게시물이 원문. 독립적으로 다시 실행하지 않음"
     },
     "Citing repo lists this under Claude Opus 5.5 and links the original post. Previous mainstream generation. Not independently re-run.": {
       "en": "Citing repo lists this under Claude Opus 5.5 and links the original post. Previous mainstream generation. Not independently re-run.",
       "zh-CN": "引用仓库将此列于 Claude Opus 5.5 下，并链接原帖。属于上一代主流模型。未独立复跑。",
       "zh-TW": "引用倉庫將此列於 Claude Opus 5.5 下，並鏈接原帖。屬於上一代主流模型。未獨立復跑。",
-      "ja": "引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世代の主流モデル。独立した再実行は未実施。"
+      "ja": "引用元リポジトリではClaude Opus 5.5に分類し、元投稿へリンク。前世代の主流モデル。独立した再実行は未実施。",
+      "ko": "인용 저장소는 Claude Opus 5.5 항목에 수록하고 원 게시물로 연결. 이전 주류 세대. 독립적으로 다시 실행하지 않음"
     },
     "Citing repo lists this under Claude Fable 5.2 and links the original post. Not independently re-run.": {
       "en": "Citing repo lists this under Claude Fable 5.2 and links the original post. Not independently re-run.",
       "zh-CN": "引用仓库将此列于 Claude Fable 5.2 下，并链接原帖。未独立复跑。",
       "zh-TW": "引用倉庫將此列於 Claude Fable 5.2 下，並鏈接原帖。未獨立復跑。",
-      "ja": "引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独立した再実行は未実施。"
+      "ja": "引用元リポジトリではClaude Fable 5.2に分類し、元投稿へリンク。独立した再実行は未実施。",
+      "ko": "인용 저장소는 Claude Fable 5.2 항목에 수록하고 원 게시물로 연결. 독립적으로 다시 실행하지 않음"
     },
     "jamesgreene.com labeled run: Gemini 4 Argon": {
       "en": "jamesgreene.com labeled run: Gemini 4 Argon",
       "zh-CN": "jamesgreene.com 标注的运行模型：Gemini 4 Argon",
       "zh-TW": "jamesgreene.com 標注的運行模型：Gemini 4 Argon",
-      "ja": "jamesgreene.comによる実行モデルの表示：Gemini 4 Argon"
+      "ja": "jamesgreene.comによる実行モデルの表示：Gemini 4 Argon",
+      "ko": "jamesgreene.com 실행 결과 표기: Gemini 4 Argon"
     },
     "Author claim: Gemini Carbon, High · Gemini Ultra 20x · demo video also by Carbon": {
       "en": "Author claim: Gemini Carbon, High · Gemini Ultra 20x · demo video also by Carbon",
       "zh-CN": "作者声明：Gemini Carbon，High 档；Gemini Ultra 20x；演示视频也由 Carbon 制作",
       "zh-TW": "作者聲明：Gemini Carbon，High 檔；Gemini Ultra 20x；演示視頻也由 Carbon 製作",
-      "ja": "作者の申告：Gemini Carbon、High設定、Gemini Ultra 20x。デモ動画もCarbonで制作"
+      "ja": "作者の申告：Gemini Carbon、High設定、Gemini Ultra 20x。デモ動画もCarbonで制作",
+      "ko": "작성자의 주장: Gemini Carbon, High · Gemini Ultra 20x, 데모 영상도 Carbon 제작"
     },
     "Author claim: Gemini 4 Carbon · single .html · Three.js · zero external 3D/audio assets": {
       "en": "Author claim: Gemini 4 Carbon · single .html · Three.js · zero external 3D/audio assets",
       "zh-CN": "作者声明：Gemini 4 Carbon；单个 .html 文件；Three.js；无外部三维／音频素材",
       "zh-TW": "作者聲明：Gemini 4 Carbon；單個 .html 文件；Three.js；無外部三維／音頻素材",
-      "ja": "作者の申告：Gemini 4 Carbon、単一.htmlファイル、Three.js、外部3D・音声素材なし"
+      "ja": "作者の申告：Gemini 4 Carbon、単一.htmlファイル、Three.js、外部3D・音声素材なし",
+      "ko": "작성자의 주장: Gemini 4 Carbon, 단일 .html, Three.js, 외부 3D/오디오 에셋 0개"
     },
     "Author claim: Gemini 4 Carbon, one shot from a video of the 1994 Theme Park game, about 36 minutes": {
       "en": "Author claim: Gemini 4 Carbon, one shot from a video of the 1994 Theme Park game, about 36 minutes",
       "zh-CN": "作者声明：Gemini 4 Carbon，参考 1994 年 Theme Park 游戏视频，一次生成，约 36 分钟",
       "zh-TW": "作者聲明：Gemini 4 Carbon，參考 1994 年 Theme Park 遊戲視頻，一次生成，約 36 分鐘",
-      "ja": "作者の申告：Gemini 4 Carbon、1994年のTheme Parkの動画から一度で生成、約36分"
+      "ja": "作者の申告：Gemini 4 Carbon、1994年のTheme Parkの動画から一度で生成、約36分",
+      "ko": "작성자의 주장: Gemini 4 Carbon, 1994년 Theme Park 게임 영상을 바탕으로 원샷 제작, 약 36분"
     },
     "Author claim: Gemini 4 Carbon inside Antigravity, FreeCAD + Blender, about 6–7 hours including the demo video": {
       "en": "Author claim: Gemini 4 Carbon inside Antigravity, FreeCAD + Blender, about 6–7 hours including the demo video",
       "zh-CN": "作者声明：在 Antigravity 中使用 Gemini 4 Carbon，FreeCAD + Blender，含演示视频约 6 至 7 小时",
       "zh-TW": "作者聲明：在 Antigravity 中使用 Gemini 4 Carbon，FreeCAD + Blender，含演示視頻約 6 至 7 小時",
-      "ja": "作者の申告：Antigravity内のGemini 4 Carbon、FreeCAD＋Blender、デモ動画を含め約6〜7時間"
+      "ja": "作者の申告：Antigravity内のGemini 4 Carbon、FreeCAD＋Blender、デモ動画を含め約6〜7時間",
+      "ko": "작성자의 주장: Antigravity 안의 Gemini 4 Carbon, FreeCAD + Blender, 데모 영상 포함 약 6~7시간"
     },
     "Author claim: same unpublished prompt on Fable 5.2 and Gemini 4 Carbon. Author says Carbon was cheaper and faster and Fable had higher graphical fidelity.": {
       "en": "Author claim: same unpublished prompt on Fable 5.2 and Gemini 4 Carbon. Author says Carbon was cheaper and faster and Fable had higher graphical fidelity.",
       "zh-CN": "作者声明：Fable 5.2 和 Gemini 4 Carbon 使用同一条未公开提示词。作者称 Carbon 更便宜、更快，而 Fable 的图形保真度更高。",
       "zh-TW": "作者聲明：Fable 5.2 和 Gemini 4 Carbon 使用同一條未公開提示詞。作者稱 Carbon 更便宜、更快，而 Fable 的圖形保真度更高。",
-      "ja": "作者の申告：Fable 5.2とGemini 4 Carbonに同じ非公開プロンプトを使用。作者によるとCarbonは安く速く、Fableはグラフィックスの再現度が高かった。"
+      "ja": "作者の申告：Fable 5.2とGemini 4 Carbonに同じ非公開プロンプトを使用。作者によるとCarbonは安く速く、Fableはグラフィックスの再現度が高かった。",
+      "ko": "작성자의 주장: Fable 5.2와 Gemini 4 Carbon에 같은 미공개 프롬프트 사용. Carbon이 더 저렴하고 빨랐으며 Fable의 그래픽 충실도가 더 높았다고 설명"
     },
     "jamesgreene.com labeled run: GPT-6.1 Sol (official Sol family name; owner alias 'GPT Sol 5.2' maps here) · Catalog family section: GPT-6.2 Sol (owner). Source page still labels this run GPT-6.1 Sol; OpenAI public docs also still list 6.1 Sol.": {
       "en": "jamesgreene.com labeled run: GPT-6.1 Sol (official Sol family name; owner alias 'GPT Sol 5.2' maps here) · Catalog family section: GPT-6.2 Sol (owner). Source page still labels this run GPT-6.1 Sol; OpenAI public docs also still list 6.1 Sol.",
       "zh-CN": "jamesgreene.com 标注的运行模型：GPT-6.1 Sol（官方 Sol 系列名称；所有者别名“GPT Sol 5.2”映射至此）；目录系列分区：GPT-6.2 Sol（所有者命名）。来源页仍将本次运行标为 GPT-6.1 Sol；OpenAI 公开文档也仍列出 6.1 Sol。",
       "zh-TW": "jamesgreene.com 標注的運行模型：GPT-6.1 Sol（官方 Sol 系列名稱；所有者別名“GPT Sol 5.2”映射至此）；目錄系列分區：GPT-6.2 Sol（所有者命名）。來源頁仍將本次運行標為 GPT-6.1 Sol；OpenAI 公開文檔也仍列出 6.1 Sol。",
-      "ja": "jamesgreene.comによる実行モデルの表示：GPT-6.1 Sol（公式のSol系列名。所有者の別名「GPT Sol 5.2」はこれに対応）。カタログの系列区分はGPT-6.2 Sol（所有者による）。出典ページは依然GPT-6.1 Solと表示し、OpenAIの公開文書も6.1 Solを掲載。"
+      "ja": "jamesgreene.comによる実行モデルの表示：GPT-6.1 Sol（公式のSol系列名。所有者の別名「GPT Sol 5.2」はこれに対応）。カタログの系列区分はGPT-6.2 Sol（所有者による）。出典ページは依然GPT-6.1 Solと表示し、OpenAIの公開文書も6.1 Solを掲載。",
+      "ko": "jamesgreene.com 실행 결과 표기: GPT-6.1 Sol (공식 Sol 계열 명칭, 소유자 별칭 'GPT Sol 5.2'는 여기에 대응). 카탈로그 계열 항목: GPT-6.2 Sol (소유자 지정). 출처 페이지는 이 실행을 여전히 GPT-6.1 Sol로 표기하며 OpenAI 공개 문서에도 6.1 Sol이 기재됨"
     },
     "Exhibition column: OpenAI GPT-6.1 Sol max effort · shared briefs per row · Catalog family section: GPT-6.2 Sol (owner). Source page still labels this run GPT-6.1 Sol; OpenAI public docs also still list 6.1 Sol.": {
       "en": "Exhibition column: OpenAI GPT-6.1 Sol max effort · shared briefs per row · Catalog family section: GPT-6.2 Sol (owner). Source page still labels this run GPT-6.1 Sol; OpenAI public docs also still list 6.1 Sol.",
       "zh-CN": "展览栏目：OpenAI GPT-6.1 Sol 最大推理档；每行共享同一任务说明；目录系列分区：GPT-6.2 Sol（所有者命名）。来源页仍将本次运行标为 GPT-6.1 Sol；OpenAI 公开文档也仍列出 6.1 Sol。",
       "zh-TW": "展覽欄目：OpenAI GPT-6.1 Sol 最大推理檔；每行共享同一任務說明；目錄系列分區：GPT-6.2 Sol（所有者命名）。來源頁仍將本次運行標為 GPT-6.1 Sol；OpenAI 公開文檔也仍列出 6.1 Sol。",
-      "ja": "展示の欄：OpenAI GPT-6.1 Sol最大推論設定。各行で課題を共有。カタログの系列区分はGPT-6.2 Sol（所有者による）。出典ページは依然GPT-6.1 Solと表示し、OpenAIの公開文書も6.1 Solを掲載。"
+      "ja": "展示の欄：OpenAI GPT-6.1 Sol最大推論設定。各行で課題を共有。カタログの系列区分はGPT-6.2 Sol（所有者による）。出典ページは依然GPT-6.1 Solと表示し、OpenAIの公開文書も6.1 Solを掲載。",
+      "ko": "전시 열: OpenAI GPT-6.1 Sol max effort, 각 행의 공통 과제. 카탈로그 계열 항목: GPT-6.2 Sol (소유자 지정). 출처 페이지는 이 실행을 여전히 GPT-6.1 Sol로 표기하며 OpenAI 공개 문서에도 6.1 Sol이 기재됨"
     },
     "Author claim: GPT-6.1 Sol Max via Codex · pure code · zero 3D assets · ~25 min · Relabeled under GPT-6.2 Sol per owner confirmation; OpenAI public pages still document GPT-6.1 Sol.": {
       "en": "Author claim: GPT-6.1 Sol Max via Codex · pure code · zero 3D assets · ~25 min · Relabeled under GPT-6.2 Sol per owner confirmation; OpenAI public pages still document GPT-6.1 Sol.",
       "zh-CN": "作者声明：经 Codex 使用 GPT-6.1 Sol Max；纯代码；无三维素材；约 25 分钟。按所有者确认改列 GPT-6.2 Sol；OpenAI 公开页面仍记录 GPT-6.1 Sol。",
       "zh-TW": "作者聲明：經 Codex 使用 GPT-6.1 Sol Max；純代碼；無三維素材；約 25 分鐘。按所有者確認改列 GPT-6.2 Sol；OpenAI 公開頁面仍記錄 GPT-6.1 Sol。",
-      "ja": "作者の申告：Codex経由のGPT-6.1 Sol Max、コードのみ、3D素材なし、約25分。所有者の確認によりGPT-6.2 Solへ再分類。OpenAIの公開ページでは依然GPT-6.1 Solを記載。"
+      "ja": "作者の申告：Codex経由のGPT-6.1 Sol Max、コードのみ、3D素材なし、約25分。所有者の確認によりGPT-6.2 Solへ再分類。OpenAIの公開ページでは依然GPT-6.1 Solを記載。",
+      "ko": "작성자의 주장: Codex의 GPT-6.1 Sol Max, 순수 코드, 3D 에셋 0개, 약 25분. 소유자 확인에 따라 GPT-6.2 Sol 항목으로 재분류했으며 OpenAI 공개 페이지에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "Author text says '6.2 sol ULTRA' but cites token spend 'at GPT-6.1 Sol rates' — greyscale/unofficial routing; catalog under GPT-6.1 Sol with honesty note · Owner confirms section name GPT-6.2 Sol; OpenAI public catalog still lists GPT-6.1 Sol (no fabricated official 6.2 launch).": {
       "en": "Author text says '6.2 sol ULTRA' but cites token spend 'at GPT-6.1 Sol rates' — greyscale/unofficial routing; catalog under GPT-6.1 Sol with honesty note · Owner confirms section name GPT-6.2 Sol; OpenAI public catalog still lists GPT-6.1 Sol (no fabricated official 6.2 launch).",
       "zh-CN": "作者正文写“6.2 sol ULTRA”，但以“GPT-6.1 Sol 费率”计算 token 支出；属于灰度／非官方路由，以 GPT-6.1 Sol 收录并注明情况。所有者确认分区名为 GPT-6.2 Sol；OpenAI 公开目录仍列 GPT-6.1 Sol（不编造官方 6.2 发布）。",
       "zh-TW": "作者正文寫“6.2 sol ULTRA”，但以“GPT-6.1 Sol 費率”計算 token 支出；屬於灰度／非官方路由，以 GPT-6.1 Sol 收錄並注明情況。所有者確認分區名為 GPT-6.2 Sol；OpenAI 公開目錄仍列 GPT-6.1 Sol（不編造官方 6.2 發佈）。",
-      "ja": "作者は本文で「6.2 sol ULTRA」と記す一方、トークン費用は「GPT-6.1 Solの料金」で算出。限定的・非公式なルーティングのため、注意書き付きでGPT-6.1 Solとして収録。所有者は区分名GPT-6.2 Solを確認。OpenAIの公開カタログは依然GPT-6.1 Solを掲載（公式の6.2発表を捏造しない）。"
+      "ja": "作者は本文で「6.2 sol ULTRA」と記す一方、トークン費用は「GPT-6.1 Solの料金」で算出。限定的・非公式なルーティングのため、注意書き付きでGPT-6.1 Solとして収録。所有者は区分名GPT-6.2 Solを確認。OpenAIの公開カタログは依然GPT-6.1 Solを掲載（公式の6.2発表を捏造しない）。",
+      "ko": "작성자 본문은 '6.2 sol ULTRA'라고 하면서 토큰 비용은 'GPT-6.1 Sol 요율'을 인용. 일부 사용자 대상/비공식 라우팅이며 불확실성 설명과 함께 GPT-6.1 Sol로 수록. 소유자는 항목 이름 GPT-6.2 Sol을 확인했으나 OpenAI 공개 카탈로그에는 여전히 GPT-6.1 Sol이 기재됨(공식 6.2 출시를 꾸며내지 않음)"
     },
     "Author: \"I'm being routed to GPT-6.2 Sol\" · one-shot Three.js black hole · Owner section: GPT-6.2 Sol · OpenAI public docs still list GPT-6.1 Sol": {
       "en": "Author: \"I'm being routed to GPT-6.2 Sol\" · one-shot Three.js black hole · Owner section: GPT-6.2 Sol · OpenAI public docs still list GPT-6.1 Sol",
       "zh-CN": "作者：“我被路由到了 GPT-6.2 Sol”；一次生成 Three.js 黑洞；所有者分区：GPT-6.2 Sol；OpenAI 公开文档仍列 GPT-6.1 Sol",
       "zh-TW": "作者：“我被路由到了 GPT-6.2 Sol”；一次生成 Three.js 黑洞；所有者分區：GPT-6.2 Sol；OpenAI 公開文檔仍列 GPT-6.1 Sol",
-      "ja": "作者：「GPT-6.2 Solにルーティングされている」。Three.jsブラックホールを一度で生成。所有者による区分はGPT-6.2 Sol。OpenAIの公開文書は依然GPT-6.1 Solを掲載"
+      "ja": "作者：「GPT-6.2 Solにルーティングされている」。Three.jsブラックホールを一度で生成。所有者による区分はGPT-6.2 Sol。OpenAIの公開文書は依然GPT-6.1 Solを掲載",
+      "ko": "작성자: “GPT-6.2 Sol로 라우팅되고 있다”, 원샷 Three.js 블랙홀. 소유자 지정 항목: GPT-6.2 Sol. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "Author attributes demos to GPT-6.2 Sol showing up for some ChatGPT users · OpenAI public docs still list GPT-6.1 Sol": {
       "en": "Author attributes demos to GPT-6.2 Sol showing up for some ChatGPT users · OpenAI public docs still list GPT-6.1 Sol",
       "zh-CN": "作者将演示归因于部分 ChatGPT 用户看到的 GPT-6.2 Sol；OpenAI 公开文档仍列 GPT-6.1 Sol",
       "zh-TW": "作者將演示歸因於部分 ChatGPT 用戶看到的 GPT-6.2 Sol；OpenAI 公開文檔仍列 GPT-6.1 Sol",
-      "ja": "作者は一部のChatGPTユーザーに現れたGPT-6.2 Solによるデモと説明。OpenAIの公開文書は依然GPT-6.1 Solを掲載"
+      "ja": "作者は一部のChatGPTユーザーに現れたGPT-6.2 Solによるデモと説明。OpenAIの公開文書は依然GPT-6.1 Solを掲載",
+      "ko": "작성자는 일부 ChatGPT 사용자에게 나타나는 GPT-6.2 Sol로 데모를 만들었다고 설명. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "Author timed GPT 6.2 Sol (~27m, $3) vs Opus 5.5 max (~1h35m, $16) · OpenAI public docs still list GPT-6.1 Sol": {
       "en": "Author timed GPT 6.2 Sol (~27m, $3) vs Opus 5.5 max (~1h35m, $16) · OpenAI public docs still list GPT-6.1 Sol",
       "zh-CN": "作者计时：GPT 6.2 Sol 约 27 分钟、3 美元，对比 Opus 5.5 max 约 1 小时 35 分钟、16 美元；OpenAI 公开文档仍列 GPT-6.1 Sol",
       "zh-TW": "作者計時：GPT 6.2 Sol 約 27 分鐘、3 美元，對比 Opus 5.5 max 約 1 小時 35 分鐘、16 美元；OpenAI 公開文檔仍列 GPT-6.1 Sol",
-      "ja": "作者の計測：GPT 6.2 Solは約27分・3米ドル、Opus 5.5 maxは約1時間35分・16米ドル。OpenAIの公開文書は依然GPT-6.1 Solを掲載"
+      "ja": "作者の計測：GPT 6.2 Solは約27分・3米ドル、Opus 5.5 maxは約1時間35分・16米ドル。OpenAIの公開文書は依然GPT-6.1 Solを掲載",
+      "ko": "작성자가 측정한 GPT 6.2 Sol(약 27분, $3) vs Opus 5.5 max(약 1시간 35분, $16). OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "Author: first GPT-6.2 Sol one-prompt test · OpenAI public docs still list GPT-6.1 Sol": {
       "en": "Author: first GPT-6.2 Sol one-prompt test · OpenAI public docs still list GPT-6.1 Sol",
       "zh-CN": "作者：首次 GPT-6.2 Sol 单提示词测试；OpenAI 公开文档仍列 GPT-6.1 Sol",
       "zh-TW": "作者：首次 GPT-6.2 Sol 單提示詞測試；OpenAI 公開文檔仍列 GPT-6.1 Sol",
-      "ja": "作者：GPT-6.2 Solで初の単一プロンプト検証。OpenAIの公開文書は依然GPT-6.1 Solを掲載"
+      "ja": "作者：GPT-6.2 Solで初の単一プロンプト検証。OpenAIの公開文書は依然GPT-6.1 Solを掲載",
+      "ko": "작성자: 첫 GPT-6.2 Sol 단일 프롬프트 테스트. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "Author claim: GPT-6.2 Sol · html + three.js · OpenAI public docs still list GPT-6.1 Sol": {
       "en": "Author claim: GPT-6.2 Sol · html + three.js · OpenAI public docs still list GPT-6.1 Sol",
       "zh-CN": "作者声明：GPT-6.2 Sol；html + three.js；OpenAI 公开文档仍列 GPT-6.1 Sol",
       "zh-TW": "作者聲明：GPT-6.2 Sol；html + three.js；OpenAI 公開文檔仍列 GPT-6.1 Sol",
-      "ja": "作者の申告：GPT-6.2 Sol、html＋three.js。OpenAIの公開文書は依然GPT-6.1 Solを掲載"
+      "ja": "作者の申告：GPT-6.2 Sol、html＋three.js。OpenAIの公開文書は依然GPT-6.1 Solを掲載",
+      "ko": "작성자의 주장: GPT-6.2 Sol, html + three.js. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "Author: \"GPT 6.2 Sol max (or another model) in Codex\" / \"my 6.1 sol is routing to another model\" · honest uncertainty kept · OpenAI public docs still list GPT-6.1 Sol": {
       "en": "Author: \"GPT 6.2 Sol max (or another model) in Codex\" / \"my 6.1 sol is routing to another model\" · honest uncertainty kept · OpenAI public docs still list GPT-6.1 Sol",
       "zh-CN": "作者：“Codex 中的 GPT 6.2 Sol max（或其他模型）”／“我的 6.1 sol 正在路由到另一个模型”；如实保留不确定性；OpenAI 公开文档仍列 GPT-6.1 Sol",
       "zh-TW": "作者：“Codex 中的 GPT 6.2 Sol max（或其他模型）”／“我的 6.1 sol 正在路由到另一個模型”；如實保留不確定性；OpenAI 公開文檔仍列 GPT-6.1 Sol",
-      "ja": "作者：「Codex内のGPT 6.2 Sol max（または別のモデル）」／「私の6.1 solは別のモデルにルーティングされている」。不確実性をそのまま保持。OpenAIの公開文書は依然GPT-6.1 Solを掲載"
+      "ja": "作者：「Codex内のGPT 6.2 Sol max（または別のモデル）」／「私の6.1 solは別のモデルにルーティングされている」。不確実性をそのまま保持。OpenAIの公開文書は依然GPT-6.1 Solを掲載",
+      "ko": "작성자: “Codex의 GPT 6.2 Sol max(또는 다른 모델)” / “내 6.1 sol이 다른 모델로 라우팅되고 있다”. 불확실성을 그대로 유지. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "Author: GPT 6.2 Sol after seeing routing reports · OpenAI public docs still list GPT-6.1 Sol": {
       "en": "Author: GPT 6.2 Sol after seeing routing reports · OpenAI public docs still list GPT-6.1 Sol",
       "zh-CN": "作者：看到路由报告后称为 GPT 6.2 Sol；OpenAI 公开文档仍列 GPT-6.1 Sol",
       "zh-TW": "作者：看到路由報告後稱為 GPT 6.2 Sol；OpenAI 公開文檔仍列 GPT-6.1 Sol",
-      "ja": "作者：ルーティング報告を見てGPT 6.2 Solと記載。OpenAIの公開文書は依然GPT-6.1 Solを掲載"
+      "ja": "作者：ルーティング報告を見てGPT 6.2 Solと記載。OpenAIの公開文書は依然GPT-6.1 Solを掲載",
+      "ko": "작성자: 라우팅 보고를 본 뒤 GPT 6.2 Sol 사용. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "Author claim: GPT 6.2 Sol, one-sentence prompt, about 40 minutes of model time. Author labels this run GPT-6.2 Sol. OpenAI public docs still list GPT-6.1 Sol as of 2026-11-11; this is not an official 6.2 announcement.": {
       "en": "Author claim: GPT 6.2 Sol, one-sentence prompt, about 40 minutes of model time. Author labels this run GPT-6.2 Sol. OpenAI public docs still list GPT-6.1 Sol as of 2026-11-11; this is not an official 6.2 announcement.",
       "zh-CN": "作者声明：GPT 6.2 Sol，一句话提示词，模型用时约 40 分钟。作者将本次运行标为 GPT-6.2 Sol。截至 2026-11-11，OpenAI 公开文档仍列 GPT-6.1 Sol；这不是官方 6.2 发布公告。",
       "zh-TW": "作者聲明：GPT 6.2 Sol，一句話提示詞，模型用時約 40 分鐘。作者將本次運行標為 GPT-6.2 Sol。截至 2026-11-11，OpenAI 公開文檔仍列 GPT-6.1 Sol；這不是官方 6.2 發佈公告。",
-      "ja": "作者の申告：GPT 6.2 Sol、一文のプロンプト、モデルの所要時間は約40分。作者はこの実行をGPT-6.2 Solと表示。2026-11-11時点でOpenAIの公開文書は依然GPT-6.1 Solを掲載しており、公式の6.2発表ではない。"
+      "ja": "作者の申告：GPT 6.2 Sol、一文のプロンプト、モデルの所要時間は約40分。作者はこの実行をGPT-6.2 Solと表示。2026-11-11時点でOpenAIの公開文書は依然GPT-6.1 Solを掲載しており、公式の6.2発表ではない。",
+      "ko": "작성자의 주장: GPT 6.2 Sol, 한 문장 프롬프트, 모델 작업 시간 약 40분. 작성자는 이 실행을 GPT-6.2 Sol로 표기. 2026-11-11 기준 OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재돼 있으며 공식 6.2 발표가 아님"
     },
     "Author claim: GPT-6.2 Sol, Three.js file of about 184 MB including textures. Author labels this run GPT-6.2 Sol. OpenAI public docs still list GPT-6.1 Sol as of 2026-11-11; this is not an official 6.2 announcement.": {
       "en": "Author claim: GPT-6.2 Sol, Three.js file of about 184 MB including textures. Author labels this run GPT-6.2 Sol. OpenAI public docs still list GPT-6.1 Sol as of 2026-11-11; this is not an official 6.2 announcement.",
       "zh-CN": "作者声明：GPT-6.2 Sol，含纹理的 Three.js 文件约 184 MB。作者将本次运行标为 GPT-6.2 Sol。截至 2026-11-11，OpenAI 公开文档仍列 GPT-6.1 Sol；这不是官方 6.2 发布公告。",
       "zh-TW": "作者聲明：GPT-6.2 Sol，含紋理的 Three.js 文件約 184 MB。作者將本次運行標為 GPT-6.2 Sol。截至 2026-11-11，OpenAI 公開文檔仍列 GPT-6.1 Sol；這不是官方 6.2 發佈公告。",
-      "ja": "作者の申告：GPT-6.2 Sol、テクスチャを含むThree.jsファイルは約184MB。作者はこの実行をGPT-6.2 Solと表示。2026-11-11時点でOpenAIの公開文書は依然GPT-6.1 Solを掲載しており、公式の6.2発表ではない。"
+      "ja": "作者の申告：GPT-6.2 Sol、テクスチャを含むThree.jsファイルは約184MB。作者はこの実行をGPT-6.2 Solと表示。2026-11-11時点でOpenAIの公開文書は依然GPT-6.1 Solを掲載しており、公式の6.2発表ではない。",
+      "ko": "작성자의 주장: GPT-6.2 Sol, 텍스처를 포함한 Three.js 파일 약 184MB. 작성자는 이 실행을 GPT-6.2 Sol로 표기. 2026-11-11 기준 OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재돼 있으며 공식 6.2 발표가 아님"
     },
     "Author selected GPT-6.1 Sol Max and only speculates that routing might have been 6.2. Catalogued as GPT-6.1 Sol. OpenAI public docs still list GPT-6.1 Sol.": {
       "en": "Author selected GPT-6.1 Sol Max and only speculates that routing might have been 6.2. Catalogued as GPT-6.1 Sol. OpenAI public docs still list GPT-6.1 Sol.",
       "zh-CN": "作者选择了 GPT-6.1 Sol Max，只是猜测可能被路由到 6.2。按 GPT-6.1 Sol 收录。OpenAI 公开文档仍列 GPT-6.1 Sol。",
       "zh-TW": "作者選擇了 GPT-6.1 Sol Max，只是猜測可能被路由到 6.2。按 GPT-6.1 Sol 收錄。OpenAI 公開文檔仍列 GPT-6.1 Sol。",
-      "ja": "作者が選択したのはGPT-6.1 Sol Maxで、6.2へルーティングされたかもしれないという推測のみ。GPT-6.1 Solとして収録。OpenAIの公開文書も依然GPT-6.1 Solを掲載。"
+      "ja": "作者が選択したのはGPT-6.1 Sol Maxで、6.2へルーティングされたかもしれないという推測のみ。GPT-6.1 Solとして収録。OpenAIの公開文書も依然GPT-6.1 Solを掲載。",
+      "ko": "작성자는 GPT-6.1 Sol Max를 선택했고 6.2로 라우팅됐을 수 있다고 추측만 함. GPT-6.1 Sol로 수록. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨"
     },
     "jamesgreene.com labeled run: Grok 4.7": {
       "en": "jamesgreene.com labeled run: Grok 4.7",
       "zh-CN": "jamesgreene.com 标注的运行模型：Grok 4.7",
       "zh-TW": "jamesgreene.com 標注的運行模型：Grok 4.7",
-      "ja": "jamesgreene.comによる実行モデルの表示：Grok 4.7"
+      "ja": "jamesgreene.comによる実行モデルの表示：Grok 4.7",
+      "ko": "jamesgreene.com 실행 결과 표기: Grok 4.7"
     },
     "Author labels post 'Grok Imagine prompt'": {
       "en": "Author labels post 'Grok Imagine prompt'",
       "zh-CN": "作者将帖子标为“Grok Imagine 提示词”",
       "zh-TW": "作者將帖子標為“Grok Imagine 提示詞”",
-      "ja": "作者は投稿を「Grok Imagineのプロンプト」と表示"
+      "ja": "作者は投稿を「Grok Imagineのプロンプト」と表示",
+      "ko": "작성자는 게시물에 'Grok Imagine prompt'라고 표기"
     },
     "Author labels the post 'Grok Imagine Prompt'": {
       "en": "Author labels the post 'Grok Imagine Prompt'",
       "zh-CN": "作者将该帖标为“Grok Imagine 提示词”",
       "zh-TW": "作者將該帖標為“Grok Imagine 提示詞”",
-      "ja": "作者はこの投稿を「Grok Imagineのプロンプト」と表示"
+      "ja": "作者はこの投稿を「Grok Imagineのプロンプト」と表示",
+      "ko": "작성자는 게시물에 'Grok Imagine Prompt'라고 표기"
     },
     "Citing repo attributes this clip to Grok Imagine and links the original post. Not independently re-run.": {
       "en": "Citing repo attributes this clip to Grok Imagine and links the original post. Not independently re-run.",
       "zh-CN": "引用仓库将此短片归于 Grok Imagine，并链接原帖。未独立复跑。",
       "zh-TW": "引用倉庫將此短片歸於 Grok Imagine，並鏈接原帖。未獨立復跑。",
-      "ja": "引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリンク。独立した再実行は未実施。"
+      "ja": "引用元リポジトリではこの映像をGrok Imagineによるものとし、元投稿へリンク。独立した再実行は未実施。",
+      "ko": "인용 저장소는 이 영상을 Grok Imagine으로 분류하고 원 게시물로 연결. 독립적으로 다시 실행하지 않음"
     },
     "jamesgreene.com labeled run: Qwen3.8 27B (second take, thinking low)": {
       "en": "jamesgreene.com labeled run: Qwen3.8 27B (second take, thinking low)",
       "zh-CN": "jamesgreene.com 标注的运行模型：Qwen3.8 27B（第二次尝试，低思考档）",
       "zh-TW": "jamesgreene.com 標注的運行模型：Qwen3.8 27B（第二次嘗試，低思考檔）",
-      "ja": "jamesgreene.comによる実行モデルの表示：Qwen3.8 27B（2回目の試行、低思考設定）"
+      "ja": "jamesgreene.comによる実行モデルの表示：Qwen3.8 27B（2回目の試行、低思考設定）",
+      "ko": "jamesgreene.com 실행 결과 표기: Qwen3.8 27B (두 번째 시도, thinking low)"
     },
     "Author claim: Qwen 4.0 (Preview), iterative self-critique until a token limit. Author says the preview sits between Next-Flash and Plus and that the underlying model is unknown.": {
       "en": "Author claim: Qwen 4.0 (Preview), iterative self-critique until a token limit. Author says the preview sits between Next-Flash and Plus and that the underlying model is unknown.",
       "zh-CN": "作者声明：Qwen 4.0（Preview），迭代自评直至 token 上限。作者称该预览版介于 Next-Flash 和 Plus 之间，底层模型未知。",
       "zh-TW": "作者聲明：Qwen 4.0（Preview），迭代自評直至 token 上限。作者稱該預覽版介於 Next-Flash 和 Plus 之間，底層模型未知。",
-      "ja": "作者の申告：Qwen 4.0（Preview）、トークン上限まで自己批評を反復。作者によると、このプレビューはNext-FlashとPlusの中間に位置し、基盤モデルは不明。"
+      "ja": "作者の申告：Qwen 4.0（Preview）、トークン上限まで自己批評を反復。作者によると、このプレビューはNext-FlashとPlusの中間に位置し、基盤モデルは不明。",
+      "ko": "작성자의 주장: Qwen 4.0 (Preview), 토큰 한도까지 반복적으로 자기 비평. 이 프리뷰는 Next-Flash와 Plus 사이에 있으며 기반 모델은 알 수 없다고 설명"
     },
     "Author claim: Qwen 4 Max Preview + qoder. Author compares the result with DeepSeek V4.1 Flash and GPT 6.1 Sol; primary label is the author's Qwen 4 Max Preview.": {
       "en": "Author claim: Qwen 4 Max Preview + qoder. Author compares the result with DeepSeek V4.1 Flash and GPT 6.1 Sol; primary label is the author's Qwen 4 Max Preview.",
       "zh-CN": "作者声明：Qwen 4 Max Preview + qoder。作者将结果与 DeepSeek V4.1 Flash、GPT 6.1 Sol 对比；主标签采用作者的 Qwen 4 Max Preview。",
       "zh-TW": "作者聲明：Qwen 4 Max Preview + qoder。作者將結果與 DeepSeek V4.1 Flash、GPT 6.1 Sol 對比；主標籤採用作者的 Qwen 4 Max Preview。",
-      "ja": "作者の申告：Qwen 4 Max Preview＋qoder。結果をDeepSeek V4.1 Flash、GPT 6.1 Solと比較。主たる表示は作者のQwen 4 Max Previewを採用。"
+      "ja": "作者の申告：Qwen 4 Max Preview＋qoder。結果をDeepSeek V4.1 Flash、GPT 6.1 Solと比較。主たる表示は作者のQwen 4 Max Previewを採用。",
+      "ko": "작성자의 주장: Qwen 4 Max Preview + qoder. 결과를 DeepSeek V4.1 Flash 및 GPT 6.1 Sol과 비교. 주요 표기는 작성자가 제시한 Qwen 4 Max Preview"
     },
     "jamesgreene.com labeled run: DeepSeek V4.1 Flash 1017 (second take, thinking low)": {
       "en": "jamesgreene.com labeled run: DeepSeek V4.1 Flash 1017 (second take, thinking low)",
       "zh-CN": "jamesgreene.com 标注的运行模型：DeepSeek V4.1 Flash 1017（第二次尝试，低思考档）",
       "zh-TW": "jamesgreene.com 標注的運行模型：DeepSeek V4.1 Flash 1017（第二次嘗試，低思考檔）",
-      "ja": "jamesgreene.comによる実行モデルの表示：DeepSeek V4.1 Flash 1017（2回目の試行、低思考設定）"
+      "ja": "jamesgreene.comによる実行モデルの表示：DeepSeek V4.1 Flash 1017（2回目の試行、低思考設定）",
+      "ko": "jamesgreene.com 실행 결과 표기: DeepSeek V4.1 Flash 1017 (두 번째 시도, thinking low)"
     },
     "Author timed DeepSeek V4.1 Flash (+ Harness), Claude Fable 5.2, GPT-6.1 Sol on same short prompt": {
       "en": "Author timed DeepSeek V4.1 Flash (+ Harness), Claude Fable 5.2, GPT-6.1 Sol on same short prompt",
       "zh-CN": "作者计时对比：DeepSeek V4.1 Flash（+ Harness）、Claude Fable 5.2、GPT-6.1 Sol 使用同一条短提示词",
       "zh-TW": "作者計時對比：DeepSeek V4.1 Flash（+ Harness）、Claude Fable 5.2、GPT-6.1 Sol 使用同一條短提示詞",
-      "ja": "作者が同じ短いプロンプトでDeepSeek V4.1 Flash（＋Harness）、Claude Fable 5.2、GPT-6.1 Solの所要時間を比較"
+      "ja": "作者が同じ短いプロンプトでDeepSeek V4.1 Flash（＋Harness）、Claude Fable 5.2、GPT-6.1 Solの所要時間を比較",
+      "ko": "작성자가 같은 짧은 프롬프트로 DeepSeek V4.1 Flash (+ Harness), Claude Fable 5.2, GPT-6.1 Sol 시간을 측정"
     },
     "Author claim: same DeepSeek V4.1 Flash model, DeepSeek Harness vs Command Code, MAX reasoning. Scores and times are author-reported.": {
       "en": "Author claim: same DeepSeek V4.1 Flash model, DeepSeek Harness vs Command Code, MAX reasoning. Scores and times are author-reported.",
       "zh-CN": "作者声明：同一个 DeepSeek V4.1 Flash 模型，DeepSeek Harness 对比 Command Code，MAX 推理。评分与时间均为作者报告。",
       "zh-TW": "作者聲明：同一個 DeepSeek V4.1 Flash 模型，DeepSeek Harness 對比 Command Code，MAX 推理。評分與時間均為作者報告。",
-      "ja": "作者の申告：同じDeepSeek V4.1 Flashモデルを使用し、DeepSeek HarnessとCommand CodeをMAX推論で比較。評価点と時間はいずれも作者の報告。"
+      "ja": "作者の申告：同じDeepSeek V4.1 Flashモデルを使用し、DeepSeek HarnessとCommand CodeをMAX推論で比較。評価点と時間はいずれも作者の報告。",
+      "ko": "작성자의 주장: 같은 DeepSeek V4.1 Flash 모델로 DeepSeek Harness와 Command Code 비교, MAX 추론. 점수와 시간은 작성자 보고값"
     },
     "作者声明 2.6：GPT Image 2.6｜一句话，把橘猫做成动态表情包": {
       "en": "Author claims 2.6: GPT Image 2.6 | Turn an orange cat into an animated meme with one sentence",
       "zh-CN": "作者声明 2.6：GPT Image 2.6｜一句话，把橘猫做成动态表情包",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6｜一句話，把橘貓做成動態表情包",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6｜一文で茶トラ猫を動くスタンプに"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6｜一文で茶トラ猫を動くスタンプに",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6, 한 문장으로 치즈 고양이를 움직이는 밈으로 변환"
     },
     "作者声明 2.6：（无正文，仅引用 OpenAI 发布帖）": {
       "en": "Author claims 2.6: (no body text, only a quote of OpenAI’s launch post)",
       "zh-CN": "作者声明 2.6：（无正文，仅引用 OpenAI 发布帖）",
       "zh-TW": "作者聲明 2.6：（無正文，僅引用 OpenAI 發佈帖）",
-      "ja": "作者による2.6使用の主張：（本文なし、OpenAIの発表投稿の引用のみ）"
+      "ja": "作者による2.6使用の主張：（本文なし、OpenAIの発表投稿の引用のみ）",
+      "ko": "작성자의 2.6 주장: 본문 없이 OpenAI 출시 게시물만 인용"
     },
     "作者声明 2.6：Checks out…": {
       "en": "Author claims 2.6: Checks out…",
       "zh-CN": "作者声明 2.6：确实如此…",
       "zh-TW": "作者聲明 2.6：確實如此…",
-      "ja": "作者による2.6使用の主張：確かにそうだ…"
+      "ja": "作者による2.6使用の主張：確かにそうだ…",
+      "ko": "작성자의 2.6 주장: 맞네…"
     },
     "作者声明 2.6：引用 OpenAI 发布帖；同线程另帖写 Images 2.6": {
       "en": "Author claims 2.6: quotes OpenAI’s launch post; another post in the thread says Images 2.6",
       "zh-CN": "作者声明 2.6：引用 OpenAI 发布帖；同线程另帖写 Images 2.6",
       "zh-TW": "作者聲明 2.6：引用 OpenAI 發佈帖；同線程另帖寫 Images 2.6",
-      "ja": "作者による2.6使用の主張：OpenAIの発表投稿を引用。同じスレッドの別投稿にImages 2.6と記載"
+      "ja": "作者による2.6使用の主張：OpenAIの発表投稿を引用。同じスレッドの別投稿にImages 2.6と記載",
+      "ko": "작성자의 2.6 주장: OpenAI 출시 게시물 인용, 스레드의 다른 게시물에서 Images 2.6 언급"
     },
     "作者声明 2.6：GPT Image 2.6 GIF 测试": {
       "en": "Author claims 2.6: GPT Image 2.6 GIF test",
       "zh-CN": "作者声明 2.6：GPT Image 2.6 GIF 测试",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6 GIF 測試",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6 GIFテスト"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6 GIFテスト",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6 GIF 테스트"
     },
     "作者声明 2.6：image 2.6更新啦 给fora做个gif": {
       "en": "Author claims 2.6: image 2.6 is updated; making a GIF for fora",
       "zh-CN": "作者声明 2.6：image 2.6更新啦 给fora做个gif",
       "zh-TW": "作者聲明 2.6：image 2.6更新啦 給fora做個gif",
-      "ja": "作者による2.6使用の主張：image 2.6が更新、foraのGIFを作る"
+      "ja": "作者による2.6使用の主張：image 2.6が更新、foraのGIFを作る",
+      "ko": "작성자의 2.6 주장: image 2.6 업데이트, fora의 GIF 제작"
     },
     "作者声明 2.6：我用GPT Image 2.6 搓的 GIF 表情包图已经上架到微信表情包了": {
       "en": "Author claims 2.6: The GIF stickers I made with GPT Image 2.6 are now in the WeChat sticker store",
       "zh-CN": "作者声明 2.6：我用GPT Image 2.6 搓的 GIF 表情包图已经上架到微信表情包了",
       "zh-TW": "作者聲明 2.6：我用GPT Image 2.6 搓的 GIF 表情包圖已經上架到微信表情包了",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6で作ったGIFスタンプがWeChatのスタンプストアに掲載された"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6で作ったGIFスタンプがWeChatのスタンプストアに掲載された",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6으로 만든 GIF 스티커가 위챗 스티커 스토어에 올라옴"
     },
     "作者声明 2.6：GPT Image 2.6…丢张大肥鱼参考图，一句话，GIF 直出": {
       "en": "Author claims 2.6: GPT Image 2.6…drop in a Dafeiyu reference image, one sentence, GIF generated directly",
       "zh-CN": "作者声明 2.6：GPT Image 2.6…丢张大肥鱼参考图，一句话，GIF 直出",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6…丟張大肥魚參考圖，一句話，GIF 直出",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6…大肥魚の参照画像を渡し、一文でGIFを直接生成"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6…大肥魚の参照画像を渡し、一文でGIFを直接生成",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6…Dafeiyu 참조 이미지를 넣고 한 문장으로 GIF 직접 생성"
     },
     "作者声明 2.6：GPT Image 2.6 is now on YouArt": {
       "en": "Author claims 2.6: GPT Image 2.6 is now on YouArt",
       "zh-CN": "作者声明 2.6：GPT Image 2.6 已登陆 YouArt",
       "zh-TW": "作者聲明 2.6：GPT Image 2.6 已登陸 YouArt",
-      "ja": "作者による2.6使用の主張：GPT Image 2.6がYouArtに登場"
+      "ja": "作者による2.6使用の主張：GPT Image 2.6がYouArtに登場",
+      "ko": "작성자의 2.6 주장: GPT Image 2.6이 YouArt에 출시됨"
     },
     "作者声明 2.6：GPT Images 2.6 is here!": {
       "en": "Author claims 2.6: GPT Images 2.6 is here!",
       "zh-CN": "作者声明 2.6：GPT Images 2.6 来了！",
       "zh-TW": "作者聲明 2.6：GPT Images 2.6 來了！",
-      "ja": "作者による2.6使用の主張：GPT Images 2.6が登場！"
+      "ja": "作者による2.6使用の主張：GPT Images 2.6が登場！",
+      "ko": "작성자의 2.6 주장: GPT Images 2.6 출시!"
     },
     "作者声明 2.6：@op7418 我用了一个简单的描述尝试了做一下：根据图中角色做成动态图…": {
       "en": "Author claims 2.6: @op7418 I tried a simple description: make an animation based on the character in the image…",
       "zh-CN": "作者声明 2.6：@op7418 我用了一个简单的描述尝试了做一下：根据图中角色做成动态图…",
       "zh-TW": "作者聲明 2.6：@op7418 我用了一個簡單的描述嘗試了做一下：根據圖中角色做成動態圖…",
-      "ja": "作者による2.6使用の主張：@op7418 簡単な説明で試した。「画像のキャラクターをもとにアニメにする…」"
+      "ja": "作者による2.6使用の主張：@op7418 簡単な説明で試した。「画像のキャラクターをもとにアニメにする…」",
+      "ko": "작성자의 2.6 주장: @op7418 간단한 설명으로 시도함. 이미지의 캐릭터를 바탕으로 애니메이션을 만들어 줘…"
     },
     "作者声明 2.6：Try this in ChatGPT Images 2.6:": {
       "en": "Author claims 2.6: Try this in ChatGPT Images 2.6:",
       "zh-CN": "作者声明 2.6：在 ChatGPT Images 2.6 中试试这个：",
       "zh-TW": "作者聲明 2.6：在 ChatGPT Images 2.6 中試試這個：",
-      "ja": "作者による2.6使用の主張：ChatGPT Images 2.6でこれを試して："
+      "ja": "作者による2.6使用の主張：ChatGPT Images 2.6でこれを試して：",
+      "ko": "작성자의 2.6 주장: ChatGPT Images 2.6에서 이것을 시도해 보세요:"
     },
     "不入库": {
       "en": "Not included in the catalog",
       "zh-CN": "不入库",
       "zh-TW": "不入庫",
-      "ja": "カタログに収録しない"
+      "ja": "カタログに収録しない",
+      "ko": "카탈로그에 수록하지 않음"
     },
     "作者声明两条 GPT Image 2.6 + Claude Opus 5.5 后处理；一条无图像模型": {
       "en": "Author reports two GPT Image 2.6 examples with Claude Opus 5.5 post-processing; one example uses no image model",
       "zh-CN": "作者声明两条 GPT Image 2.6 + Claude Opus 5.5 后处理；一条无图像模型",
       "zh-TW": "作者聲明兩條 GPT Image 2.6 + Claude Opus 5.5 後處理；一條無圖像模型",
-      "ja": "作者によると2件はGPT Image 2.6とClaude Opus 5.5による後処理を使用。1件は画像モデルなし"
+      "ja": "作者によると2件はGPT Image 2.6とClaude Opus 5.5による後処理を使用。1件は画像モデルなし",
+      "ko": "작성자는 Claude Opus 5.5 후처리를 거친 GPT Image 2.6 사례 2개를 보고. 한 사례는 이미지 모델을 사용하지 않음"
     },
     "GPT Image 2.5（原帖写明；不是 Image 2.6）": {
       "en": "GPT Image 2.5 (explicitly stated in the original post; not Image 2.6)",
       "zh-CN": "GPT Image 2.5（原帖写明；不是 Image 2.6）",
       "zh-TW": "GPT Image 2.5（原帖寫明；不是 Image 2.6）",
-      "ja": "GPT Image 2.5（元投稿に明記。Image 2.6ではない）"
+      "ja": "GPT Image 2.5（元投稿に明記。Image 2.6ではない）",
+      "ko": "GPT Image 2.5 (원 게시물에 명시, Image 2.6이 아님)"
     },
     "宣传方宣称 ChatGPT Images 2.6（未观看；非官方验证）": {
       "en": "Promoter claims ChatGPT Images 2.6 (not watched; not officially verified)",
       "zh-CN": "宣传方宣称 ChatGPT Images 2.6（未观看；非官方验证）",
       "zh-TW": "宣傳方宣稱 ChatGPT Images 2.6（未觀看；非官方驗證）",
-      "ja": "宣伝元はChatGPT Images 2.6と主張（未視聴、公式検証なし）"
+      "ja": "宣伝元はChatGPT Images 2.6と主張（未視聴、公式検証なし）",
+      "ko": "홍보자는 ChatGPT Images 2.6이라고 주장(미시청, 공식 확인 없음)"
     },
     "作者声明 GPT Image 2.6 GIF（失败/注意事项；非成功落地）": {
       "en": "Author claims GPT Image 2.6 GIF (failure/cautionary example, not a successful implementation)",
       "zh-CN": "作者声明 GPT Image 2.6 GIF（失败/注意事项；非成功落地）",
       "zh-TW": "作者聲明 GPT Image 2.6 GIF（失敗/注意事項；非成功落地）",
-      "ja": "作者はGPT Image 2.6 GIFと主張（失敗・注意点の事例で、成功した実装ではない）"
+      "ja": "作者はGPT Image 2.6 GIFと主張（失敗・注意点の事例で、成功した実装ではない）",
+      "ko": "작성자는 GPT Image 2.6 GIF라고 주장(실패/주의 사례이며 성공 구현이 아님)"
     },
     "作者声明 GPT Image 2.6 Sunburst/Flare（失败结论：不适合 pixel art）": {
       "en": "Author claims GPT Image 2.6 Sunburst/Flare (failure conclusion: unsuitable for pixel art)",
       "zh-CN": "作者声明 GPT Image 2.6 Sunburst/Flare（失败结论：不适合像素画）",
       "zh-TW": "作者聲明 GPT Image 2.6 Sunburst/Flare（失敗結論：不適合像素畫）",
-      "ja": "作者はGPT Image 2.6 Sunburst/Flareと主張（失敗の結論：ピクセルアートに不向き）"
+      "ja": "作者はGPT Image 2.6 Sunburst/Flareと主張（失敗の結論：ピクセルアートに不向き）",
+      "ko": "작성자는 GPT Image 2.6 Sunburst/Flare라고 주장(실패 결론: 픽셀 아트에 부적합)"
     },
     "GPT Image 2.6（楼主自称）": {
       "en": "GPT Image 2.6 (original poster’s own claim)",
       "zh-CN": "GPT Image 2.6（楼主自称）",
       "zh-TW": "GPT Image 2.6（樓主自稱）",
-      "ja": "GPT Image 2.6（投稿者の自己申告）"
+      "ja": "GPT Image 2.6（投稿者の自己申告）",
+      "ko": "GPT Image 2.6 (원 게시자 본인의 주장)"
     },
     "非Images 2.6（Atlas明文）": {
       "en": "Not Images 2.6 (Atlas explicitly stated)",
       "zh-CN": "非Images 2.6（Atlas明文）",
       "zh-TW": "非Images 2.6（Atlas明文）",
-      "ja": "Images 2.6ではない（Atlasと明記）"
+      "ja": "Images 2.6ではない（Atlasと明記）",
+      "ko": "Images 2.6이 아님(Atlas라고 명시)"
     },
     "非Images 2.6": {
       "en": "Not Images 2.6",
       "zh-CN": "非Images 2.6",
       "zh-TW": "非Images 2.6",
-      "ja": "Images 2.6ではない"
+      "ja": "Images 2.6ではない",
+      "ko": "Images 2.6이 아님"
     },
     "提示词面向2.6；示例跑在GPT Image 2.5 / Ideogram Vector": {
       "en": "Prompt aimed at 2.6; examples run on GPT Image 2.5 / Ideogram Vector",
       "zh-CN": "提示词面向2.6；示例跑在GPT Image 2.5 / Ideogram Vector",
       "zh-TW": "提示詞面向2.6；示例跑在GPT Image 2.5 / Ideogram Vector",
-      "ja": "プロンプトは2.6向けだが、作例はGPT Image 2.5／Ideogram Vectorで生成"
+      "ja": "プロンプトは2.6向けだが、作例はGPT Image 2.5／Ideogram Vectorで生成",
+      "ko": "2.6을 위한 프롬프트이지만 예제는 GPT Image 2.5 / Ideogram Vector로 실행"
     },
     "无法确认是否真跑到2.6": {
       "en": "Cannot confirm whether the actual run reached 2.6",
       "zh-CN": "无法确认是否真跑到2.6",
       "zh-TW": "無法確認是否真跑到2.6",
-      "ja": "実際に2.6で実行されたか確認できない"
+      "ja": "実際に2.6で実行されたか確認できない",
+      "ko": "실제 실행에서 2.6에 연결됐는지 확인 불가"
     },
     "ChatGPT Images 2.6（自称）": {
       "en": "ChatGPT Images 2.6 (self-reported)",
       "zh-CN": "ChatGPT Images 2.6（自称）",
       "zh-TW": "ChatGPT Images 2.6（自稱）",
-      "ja": "ChatGPT Images 2.6（自己申告）"
+      "ja": "ChatGPT Images 2.6（自己申告）",
+      "ko": "ChatGPT Images 2.6 (본인 보고)"
     },
     "ChatGPT Images 2.6": {
       "en": "ChatGPT Images 2.6",
       "zh-CN": "ChatGPT Images 2.6",
       "zh-TW": "ChatGPT Images 2.6",
-      "ja": "ChatGPT Images 2.6"
+      "ja": "ChatGPT Images 2.6",
+      "ko": "ChatGPT Images 2.6"
     },
     "Images 2.6 能力展示": {
       "en": "Images 2.6 capability demonstration",
       "zh-CN": "Images 2.6 能力展示",
       "zh-TW": "Images 2.6 能力展示",
-      "ja": "Images 2.6の機能デモ"
+      "ja": "Images 2.6の機能デモ",
+      "ko": "Images 2.6 기능 시연"
     },
     "镜像自官方2.6文档": {
       "en": "Mirrored from official 2.6 documentation",
       "zh-CN": "镜像自官方2.6文档",
       "zh-TW": "鏡像自官方2.6文檔",
-      "ja": "公式2.6ドキュメントからのミラー"
+      "ja": "公式2.6ドキュメントからのミラー",
+      "ko": "공식 2.6 문서의 미러"
     },
     "Publisher states all examples were produced with gpt-image-2.6-flare on 2026-11-06": {
       "en": "Publisher states all examples were produced with gpt-image-2.6-flare on 2026-11-06",
       "zh-CN": "发布者称所有示例均于 2026-11-06 用 gpt-image-2.6-flare 制作",
       "zh-TW": "發佈者稱所有示例均於 2026-11-06 用 gpt-image-2.6-flare 製作",
-      "ja": "公開者によると、すべての作例を2026-11-06にgpt-image-2.6-flareで制作"
+      "ja": "公開者によると、すべての作例を2026-11-06にgpt-image-2.6-flareで制作",
+      "ko": "게시자는 모든 예제를 2026-11-06 gpt-image-2.6-flare로 제작했다고 명시"
     },
     "Public request JSON explicitly sets openai/gpt-image-2.6-flare": {
       "en": "Public request JSON explicitly sets openai/gpt-image-2.6-flare",
       "zh-CN": "公开的请求 JSON 明确设置为 openai/gpt-image-2.6-flare",
       "zh-TW": "公開的請求 JSON 明確設置為 openai/gpt-image-2.6-flare",
-      "ja": "公開されたリクエストJSONにopenai/gpt-image-2.6-flareを明示的に指定"
+      "ja": "公開されたリクエストJSONにopenai/gpt-image-2.6-flareを明示的に指定",
+      "ko": "공개 요청 JSON에 openai/gpt-image-2.6-flare를 명시적으로 설정"
     },
     "Secondary AgentCraft catalog labels GPT Image 2.6; exact primary author model claim not retrieved": {
       "en": "Secondary AgentCraft catalog labels GPT Image 2.6; exact primary author model claim not retrieved",
       "zh-CN": "二手 AgentCraft 目录标注 GPT Image 2.6；未取得原作者的确切模型声明",
       "zh-TW": "二手 AgentCraft 目錄標注 GPT Image 2.6；未取得原作者的確切模型聲明",
-      "ja": "二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者の正確なモデル申告は未取得"
+      "ja": "二次資料のAgentCraftカタログはGPT Image 2.6と表示。原作者の正確なモデル申告は未取得",
+      "ko": "2차 출처 AgentCraft 카탈로그는 GPT Image 2.6으로 표기, 1차 작성자의 정확한 모델 주장은 확보하지 못함"
     },
     "Secondary catalog labels 2.6; transcribed Step 1 explicitly names GPT Image 2.6 Sunburst, 1K, high for the still image. Animation-stage model unconfirmed.": {
       "en": "Secondary catalog labels 2.6; transcribed Step 1 explicitly names GPT Image 2.6 Sunburst, 1K, high for the still image. Animation-stage model unconfirmed.",
       "zh-CN": "二手目录标为 2.6；转录的步骤 1 明确指定静图用 GPT Image 2.6 Sunburst、1K、high。动画阶段模型未确认。",
       "zh-TW": "二手目錄標為 2.6；轉錄的步驟 1 明確指定靜圖用 GPT Image 2.6 Sunburst、1K、high。動畫階段模型未確認。",
-      "ja": "二次資料のカタログは2.6と表示。転記されたステップ1では静止画用にGPT Image 2.6 Sunburst、1K、highを明記。アニメーション段階のモデルは未確認。"
+      "ja": "二次資料のカタログは2.6と表示。転記されたステップ1では静止画用にGPT Image 2.6 Sunburst、1K、highを明記。アニメーション段階のモデルは未確認。",
+      "ko": "2차 카탈로그는 2.6으로 표기. 전사된 1단계에는 정지 이미지용 GPT Image 2.6 Sunburst, 1K, high가 명시됨. 애니메이션 단계 모델은 미확인"
     },
     "First-party article presents two self-generated examples under ChatGPT Images 2.6": {
       "en": "First-party article presents two self-generated examples under ChatGPT Images 2.6",
       "zh-CN": "第一方文章在 ChatGPT Images 2.6 名下展示两个自行生成的示例",
       "zh-TW": "第一方文章在 ChatGPT Images 2.6 名下展示兩個自行生成的示例",
-      "ja": "当事者の記事でChatGPT Images 2.6による自作例2件を紹介"
+      "ja": "当事者の記事でChatGPT Images 2.6による自作例2件を紹介",
+      "ko": "직접 작성한 기사에서 ChatGPT Images 2.6으로 직접 생성한 사례 2개 제시"
     },
     "2026-11-05 journalist's first-party Images 2.6 test using his own cat photo": {
       "en": "2026-11-05 journalist's first-party Images 2.6 test using his own cat photo",
       "zh-CN": "2026-11-05 记者使用自家猫照片亲测 Images 2.6",
       "zh-TW": "2026-11-05 記者使用自家貓照片親測 Images 2.6",
-      "ja": "2026-11-05、記者が自分の猫の写真でImages 2.6を直接検証"
+      "ja": "2026-11-05、記者が自分の猫の写真でImages 2.6を直接検証",
+      "ko": "2026-11-05 기자가 자신의 고양이 사진으로 직접 진행한 Images 2.6 테스트"
     },
     "Author's own note embeds his own X posts explicitly labeled ChatGPT Images 2.6 testing": {
       "en": "Author's own note embeds his own X posts explicitly labeled ChatGPT Images 2.6 testing",
       "zh-CN": "作者自己的笔记嵌入了其本人明确标注为 ChatGPT Images 2.6 测试的 X 帖",
       "zh-TW": "作者自己的筆記嵌入了其本人明確標注為 ChatGPT Images 2.6 測試的 X 帖",
-      "ja": "作者自身のノートに、ChatGPT Images 2.6のテストと明記した本人のX投稿を埋め込み"
+      "ja": "作者自身のノートに、ChatGPT Images 2.6のテストと明記した本人のX投稿を埋め込み",
+      "ko": "작성자 자신의 노트에 ChatGPT Images 2.6 테스트라고 명시한 본인의 X 게시물을 삽입"
     },
     "Publisher states 2026-11-05 free ChatGPT test under Images 2.6": {
       "en": "Publisher states 2026-11-05 free ChatGPT test under Images 2.6",
       "zh-CN": "发布者称于 2026-11-05 在免费 ChatGPT 中测试 Images 2.6",
       "zh-TW": "發佈者稱於 2026-11-05 在免費 ChatGPT 中測試 Images 2.6",
-      "ja": "公開者は2026-11-05に無料のChatGPTでImages 2.6を検証したと申告"
+      "ja": "公開者は2026-11-05に無料のChatGPTでImages 2.6を検証したと申告",
+      "ko": "게시자는 2026-11-05 무료 ChatGPT에서 Images 2.6을 테스트했다고 명시"
     },
     "Source reports gpt_image_2_6; not authenticated": {
       "en": "Source reports gpt_image_2_6; not authenticated",
       "zh-CN": "来源报告为 gpt_image_2_6；未经认证",
       "zh-TW": "來源報告為 gpt_image_2_6；未經認證",
-      "ja": "出典ではgpt_image_2_6と報告。認証されていない"
+      "ja": "出典ではgpt_image_2_6と報告。認証されていない",
+      "ko": "출처는 gpt_image_2_6이라고 보고, 진위 확인 없음"
     },
     "候选/排除": {
       "en": "Candidate/excluded",
       "zh-CN": "候选/排除",
       "zh-TW": "候選/排除",
-      "ja": "候補／除外"
+      "ja": "候補／除外",
+      "ko": "후보 / 제외"
     },
     "示例跑在 2.5 / Ideogram · 不是 2.6 成品": {
       "en": "Examples run on 2.5 / Ideogram, not finished 2.6 outputs",
       "zh-CN": "示例跑在 2.5 / Ideogram · 不是 2.6 成品",
       "zh-TW": "示例跑在 2.5 / Ideogram · 不是 2.6 成品",
-      "ja": "作例は2.5／Ideogramで実行。2.6の完成出力ではない"
+      "ja": "作例は2.5／Ideogramで実行。2.6の完成出力ではない",
+      "ko": "예제는 2.5 / Ideogram으로 실행, 완성된 2.6 출력물이 아님"
     },
     "ChatGPT Images 2.6 (exact checkpoint not recorded)": {
       "en": "ChatGPT Images 2.6 (exact checkpoint not recorded)",
       "zh-CN": "ChatGPT Images 2.6（未记录确切检查点）",
       "zh-TW": "ChatGPT Images 2.6（未記錄確切檢查點）",
-      "ja": "ChatGPT Images 2.6（正確なチェックポイントは未記録）"
+      "ja": "ChatGPT Images 2.6（正確なチェックポイントは未記録）",
+      "ko": "ChatGPT Images 2.6 (정확한 체크포인트 기록 없음)"
     }
   }
 }

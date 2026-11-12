@@ -1,12 +1,12 @@
 # x-paleknight-fable52-vs-opus55-ship
 
-Author / 作者 / 作者 / 作者: @paleknight（Vraj）
+Author / 作者 / 作者 / 作者 / 제작자: @paleknight（Vraj）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/paleknight/status/2120368418805174639)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-paleknight-fable52-vs-opus55-ship/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/paleknight/status/2120368418805174639)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-paleknight-fable52-vs-opus55-ship/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ Three.js の帆船アニメーション · 比較映像
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Fable 5.2 vs Opus 5.5: 같은 프롬프트로 만든 Three.js 선박 나란히 비교
+```
+
+### 제작 방법
+
+Three.js 선박 애니메이션, 비교 캡처
+
+### 검증 상태
+
+1차 X URL, 같은 프롬프트라는 주장, 게시물에는 프롬프트 미공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Fable 5.2와 Opus 5.5, 같은 프롬프트, 수동 수정 없음
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

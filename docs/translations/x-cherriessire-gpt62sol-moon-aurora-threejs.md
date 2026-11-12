@@ -1,12 +1,12 @@
 # x-cherriessire-gpt62sol-moon-aurora-threejs
 
-Author / 作者 / 作者 / 作者: @cherriessire
+Author / 作者 / 作者 / 作者 / 제작자: @cherriessire
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/cherriessire/status/2119488351057121420)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/cherriessire/status/2119488351057121420)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-cherriessire-gpt62sol-moon-aurora-threejs/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+HTML 파일 하나에 담긴 붉은 오로라가 있는 독립 실행형 Three.js 달 장면
+```
+
+### 제작 방법
+
+독립 실행형 Three.js HTML 렌더링, 영상 캡처
+
+### 검증 상태
+
+1차 X URL, 프롬프트 미공개
+
+### 모델 근거 (번역)
+
+```text
+작성자: 라우팅 보고를 본 뒤 GPT 6.2 Sol 사용. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

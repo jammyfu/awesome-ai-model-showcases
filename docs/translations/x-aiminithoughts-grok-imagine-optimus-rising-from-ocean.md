@@ -1,12 +1,12 @@
 # x-aiminithoughts-grok-imagine-optimus-rising-from-ocean
 
-Author / 作者 / 作者 / 作者: @Aiminithoughts（Ai Mini Thoughts Creator）
+Author / 作者 / 作者 / 作者 / 제작자: @Aiminithoughts（Ai Mini Thoughts Creator）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/Aiminithoughts/status/2118762128475635964)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/Aiminithoughts/status/2118762128475635964)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-aiminithoughts-grok-imagine-optimus-rising-from-ocean/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -181,4 +181,40 @@ YouMind-OpenLab/awesome-grok-imagine-prompts に掲載された原投稿の X UR
 
 [一貫性の維持]
 オプティマスプライムの同一性、金属装甲の姿、単一の連続した上昇動作を安定させてください。深海の舞台、激しい雷雨、流れ落ちる水、暗い嵐の雰囲気を全編で維持してください。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+바다에서 솟아오르는 Optimus
+```
+
+### 제작 방법
+
+원 게시물에 명시된 Grok Imagine 네이티브 영상
+
+### 검증 상태
+
+YouMind-OpenLab/awesome-grok-imagine-prompts에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+인용 저장소는 이 영상을 Grok Imagine으로 분류하고 원 게시물로 연결. 독립적으로 다시 실행하지 않음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+[생성 목표]
+격렬한 뇌우 속 깊은 바다에서 거대한 금속 실루엣이 솟아오르는 연속 영상을 생성하세요. Optimus Prime이 완전히 떠올라 파도 위에 서는 동안 갑옷에서 물이 쏟아집니다.
+
+[이벤트 대본]
+시작: 어두운 해수면과 거센 폭풍만 보이며 검고 요동치는 바다에 비가 내리고 번개가 번쩍입니다. 주요 사건: 거대한 금속 실루엣이 수면을 뚫고 꾸준히 올라옵니다. Optimus Prime 갑옷의 모든 관절과 판에서 물이 두꺼운 막처럼 쏟아집니다. 상체 전체, 이어 거대한 몸 전체가 파도 위로 뚜렷하게 드러날 때까지 계속 올라옵니다. 끝: Optimus Prime은 폭풍으로 뒤흔들리는 바다 위에 완전히 드러난 채 곧게 서 있고, 번개가 비추는 하늘 아래 갑옷에서는 여전히 물이 흐릅니다.
+
+[일관성 유지]
+Optimus Prime의 정체성, 금속 갑옷 형태, 하나의 연속 상승 동작을 안정적으로 유지하세요. 깊은 바다 배경, 격렬한 뇌우, 쏟아지는 물, 어두운 폭풍 분위기도 끝까지 유지하세요.
 ```

@@ -6,325 +6,379 @@
       "en": "Author claim + media metadata checked · not watched · not reproduced",
       "zh-CN": "作者声明 + 媒体元数据已核 · 未观看 · 未复测",
       "zh-TW": "作者聲明 + 媒體中繼資料已核 · 未觀看 · 未重現",
-      "ja": "作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現"
+      "ja": "作者の主張とメディアのメタデータを確認 · 未視聴 · 未再現",
+      "ko": "작성자 주장 + 미디어 메타데이터 확인, 영상 미시청, 재현하지 않음"
     },
     "页面模型依据 + GIF 多帧探测 · 未复测生成": {
       "en": "Model evidence on page + GIF multi-frame check · generation not reproduced",
       "zh-CN": "页面模型依据 + GIF 多帧探测 · 未复测生成",
       "zh-TW": "頁面模型依據 + GIF 多影格檢查 · 未重現生成",
-      "ja": "ページのモデル根拠と GIF の複数フレームを確認 · 生成は未再現"
+      "ja": "ページのモデル根拠と GIF の複数フレームを確認 · 生成は未再現",
+      "ko": "페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음"
     },
     "GIF hashes/frames checked; frame sheet reviewed; generation not reproduced / 未复现": {
       "en": "GIF hashes/frames checked; frame sheet reviewed; generation not reproduced",
       "zh-CN": "GIF 哈希值／帧已检查；已查看帧表；未复现生成",
       "zh-TW": "GIF 雜湊值／影格已檢查；已查看影格表；未重現生成",
-      "ja": "GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 · 生成は未再現"
+      "ja": "GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 · 生成は未再現",
+      "ko": "GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음"
     },
     "已在库 · 作者声明 · 未观看附件": {
       "en": "Already in the archive · author claim · attachment not watched",
       "zh-CN": "已在库 · 作者声明 · 未观看附件",
       "zh-TW": "已收錄 · 作者聲明 · 未觀看附件",
-      "ja": "収録済み · 作者の主張 · 添付は未視聴"
+      "ja": "収録済み · 作者の主張 · 添付は未視聴",
+      "ko": "이미 보관됨, 작성자 주장, 첨부파일 미시청"
     },
     "已在库 · 提示词逐字 · 库存无附件 URL · 接口未取得 · 不能断言原长文绝无媒体": {
       "en": "Already in archive · verbatim prompt · no attachment URL in inventory · API retrieval unsuccessful · original article may still contain media",
       "zh-CN": "已在库 · 提示词逐字 · 库存无附件 URL · 接口未取得 · 不能断言原长文绝无媒体",
       "zh-TW": "已收錄 · 提示詞逐字轉錄 · 清單無附件 URL · 介面未能取得 · 不能斷言原長文沒有媒體",
-      "ja": "収録済み · プロンプトは逐語転記 · 台帳に添付 URL なし · API 取得失敗 · 原記事にメディアがないとは断定できない"
+      "ja": "収録済み · プロンプトは逐語転記 · 台帳に添付 URL なし · API 取得失敗 · 原記事にメディアがないとは断定できない",
+      "ko": "이미 보관됨, 원문 그대로의 프롬프트, 목록에 첨부 URL 없음, API 가져오기 실패, 원 기사에 미디어가 있을 가능성은 남아 있음"
     },
     "作者声明 2.6 · 非官方验证 · 未观看": {
       "en": "Author claims 2.6 · not officially verified · not watched",
       "zh-CN": "作者声明 2.6 · 非官方验证 · 未观看",
       "zh-TW": "作者聲明 2.6 · 非官方驗證 · 未觀看",
-      "ja": "作者は 2.6 と主張 · 公式な検証ではない · 未視聴"
+      "ja": "作者は 2.6 と主張 · 公式な検証ではない · 未視聴",
+      "ko": "작성자는 2.6이라고 주장, 공식 확인 없음, 미시청"
     },
     "Primary X URL working · prompt published on maker post / awesome-fable5-2-videos · not independently re-run": {
       "en": "Primary X URL working · prompt published on maker post / awesome-fable5-2-videos · not independently re-run",
       "zh-CN": "原始 X URL 可用 · 提示词发布于作者帖子／awesome-fable5-2-videos · 未独立复测",
       "zh-TW": "原始 X URL 可用 · 提示詞發布於作者貼文／awesome-fable5-2-videos · 未獨立重現",
-      "ja": "原投稿の X URL は閲覧可能 · 作者の投稿／awesome-fable5-2-videos にプロンプト公開 · 独立した再実行なし"
+      "ja": "原投稿の X URL は閲覧可能 · 作者の投稿／awesome-fable5-2-videos にプロンプト公開 · 独立した再実行なし",
+      "ko": "1차 X URL 정상, 제작자 게시물 / awesome-fable5-2-videos에 프롬프트 공개, 독립적으로 다시 실행하지 않음"
     },
     "Primary X URL working · verbatim prompt published · not independently re-run": {
       "en": "Primary X URL working · verbatim prompt published · not independently re-run",
       "zh-CN": "原始 X URL 可用 · 已公开逐字提示词 · 未独立复测",
       "zh-TW": "原始 X URL 可用 · 已公開逐字提示詞 · 未獨立重現",
-      "ja": "原投稿の X URL は閲覧可能 · プロンプト原文公開済み · 独立した再実行なし"
+      "ja": "原投稿の X URL は閲覧可能 · プロンプト原文公開済み · 独立した再実行なし",
+      "ko": "1차 X URL 정상, 원문 프롬프트 공개, 독립적으로 다시 실행하지 않음"
     },
     "Primary X URL + media metadata · prompt unpublished · not re-run": {
       "en": "Primary X URL + media metadata · prompt unpublished · not re-run",
       "zh-CN": "原始 X URL + 媒体元数据 · 提示词未公开 · 未复测",
       "zh-TW": "原始 X URL + 媒體中繼資料 · 提示詞未公開 · 未重現",
-      "ja": "原投稿の X URL とメディアのメタデータ · プロンプト未公開 · 再実行なし"
+      "ja": "原投稿の X URL とメディアのメタデータ · プロンプト未公開 · 再実行なし",
+      "ko": "1차 X URL + 미디어 메타데이터, 프롬프트 미공개, 다시 실행하지 않음"
     },
     "Primary X URL · same-prompt claim · prompts not published in post · not re-run": {
       "en": "Primary X URL · same-prompt claim · prompts not published in post · not re-run",
       "zh-CN": "原始 X URL · 声称使用相同提示词 · 帖子未公开提示词 · 未复测",
       "zh-TW": "原始 X URL · 聲稱使用相同提示詞 · 貼文未公開提示詞 · 未重現",
-      "ja": "原投稿の X URL · 同一プロンプトという主張 · 投稿にプロンプトなし · 再実行なし"
+      "ja": "原投稿の X URL · 同一プロンプトという主張 · 投稿にプロンプトなし · 再実行なし",
+      "ko": "1차 X URL, 같은 프롬프트라는 주장, 게시물에는 프롬프트 미공개, 다시 실행하지 않음"
     },
     "Public page with verbatim prompts · not a third-party GIF rehost": {
       "en": "Public page with verbatim prompts · not a third-party GIF rehost",
       "zh-CN": "公开页面含逐字提示词 · 非第三方 GIF 转存站",
       "zh-TW": "公開頁面含逐字提示詞 · 非第三方 GIF 轉存站",
-      "ja": "プロンプト原文を掲載した公開ページ · 第三者の GIF 再配信サイトではない"
+      "ja": "プロンプト原文を掲載した公開ページ · 第三者の GIF 再配信サイトではない",
+      "ko": "원문 프롬프트를 제공하는 공개 페이지, 서드파티 GIF 재호스팅이 아님"
     },
     "Guide publishes validation table + notes SVG≠GIF · prompts partially shown in article": {
       "en": "Guide publishes validation table + notes SVG≠GIF · prompts partially shown in article",
       "zh-CN": "指南公开验证表，并注明 SVG≠GIF · 文章仅展示部分提示词",
       "zh-TW": "指南公開驗證表，並註明 SVG≠GIF · 文章僅展示部分提示詞",
-      "ja": "ガイドに検証表があり、SVG≠GIF と明記 · 記事ではプロンプトを部分的に掲載"
+      "ja": "ガイドに検証表があり、SVG≠GIF と明記 · 記事ではプロンプトを部分的に掲載",
+      "ko": "가이드에 검증 표와 SVG≠GIF 설명이 공개됨, 기사에 프롬프트 일부 표시"
     },
     "Public HTML artifact + shared brief published · not our re-run": {
       "en": "Public HTML artifact + shared brief published · not our re-run",
       "zh-CN": "公开 HTML 成品 + 已发布共享创作说明 · 非本仓复测结果",
       "zh-TW": "公開 HTML 成品 + 已發布共用創作說明 · 非本倉庫重現結果",
-      "ja": "公開 HTML 作品と共通の制作指示を掲載 · 本リポジトリによる再実行ではない"
+      "ja": "公開 HTML 作品と共通の制作指示を掲載 · 本リポジトリによる再実行ではない",
+      "ko": "공개 HTML 결과물 + 공통 과제 공개, 이 저장소에서 다시 실행한 것은 아님"
     },
     "FinanceYF5 post quotes @xikhar's prompt reply and links the original. Not re-run.": {
       "en": "FinanceYF5 post quotes @xikhar's prompt reply and links the original. Not re-run.",
       "zh-CN": "FinanceYF5 帖子引用 @xikhar 的提示词回复，并链接原帖。未复测。",
       "zh-TW": "FinanceYF5 貼文引用 @xikhar 的提示詞回覆，並連結原帖。未重現。",
-      "ja": "FinanceYF5 の投稿が @xikhar のプロンプト返信を引用し、原投稿にリンク。再実行なし。"
+      "ja": "FinanceYF5 の投稿が @xikhar のプロンプト返信を引用し、原投稿にリンク。再実行なし。",
+      "ko": "FinanceYF5 게시물은 @xikhar의 프롬프트 답글을 인용하고 원문 링크를 제공. 다시 실행하지 않음"
     },
     "Primary X URL + video · prompt unpublished · not re-run": {
       "en": "Primary X URL + video · prompt unpublished · not re-run",
       "zh-CN": "原始 X URL + 视频 · 提示词未公开 · 未复测",
       "zh-TW": "原始 X URL + 影片 · 提示詞未公開 · 未重現",
-      "ja": "原投稿の X URL と動画 · プロンプト未公開 · 再実行なし"
+      "ja": "原投稿の X URL と動画 · プロンプト未公開 · 再実行なし",
+      "ko": "1차 X URL + 영상, 프롬프트 미공개, 다시 실행하지 않음"
     },
     "Primary X URL · verbatim prompt in the author's reply · not re-run": {
       "en": "Primary X URL · verbatim prompt in the author's reply · not re-run",
       "zh-CN": "原始 X URL · 作者回复内有逐字提示词 · 未复测",
       "zh-TW": "原始 X URL · 作者回覆內有逐字提示詞 · 未重現",
-      "ja": "原投稿の X URL · 作者の返信にプロンプト原文 · 再実行なし"
+      "ja": "原投稿の X URL · 作者の返信にプロンプト原文 · 再実行なし",
+      "ko": "1차 X URL, 작성자 답글에 원문 프롬프트 공개, 다시 실행하지 않음"
     },
     "Primary X URL cited by the AIGCreative Feishu wiki · not independently re-run": {
       "en": "Primary X URL cited by the AIGCreative Feishu wiki · not independently re-run",
       "zh-CN": "AIGCreative 飞书知识库引用的原始 X URL · 未独立复测",
       "zh-TW": "AIGCreative 飛書知識庫引用的原始 X URL · 未獨立重現",
-      "ja": "AIGCreative の Feishu wiki が引用する原投稿の X URL · 独立した再実行なし"
+      "ja": "AIGCreative の Feishu wiki が引用する原投稿の X URL · 独立した再実行なし",
+      "ko": "AIGCreative Feishu 위키가 인용한 1차 X URL, 독립적으로 다시 실행하지 않음"
     },
     "Primary X URL listed by yihui-dev/awesome-opus5-5-videos · not independently re-run": {
       "en": "Primary X URL listed by yihui-dev/awesome-opus5-5-videos · not independently re-run",
       "zh-CN": "由 yihui-dev/awesome-opus5-5-videos 收录的原始 X URL · 未独立复测",
       "zh-TW": "由 yihui-dev/awesome-opus5-5-videos 收錄的原始 X URL · 未獨立重現",
-      "ja": "yihui-dev/awesome-opus5-5-videos に掲載された原投稿の X URL · 独立した再実行なし"
+      "ja": "yihui-dev/awesome-opus5-5-videos に掲載された原投稿の X URL · 独立した再実行なし",
+      "ko": "yihui-dev/awesome-opus5-5-videos에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음"
     },
     "Primary X URL listed by fengyiqicoder/awesome-fable-5.2 · not independently re-run": {
       "en": "Primary X URL listed by fengyiqicoder/awesome-fable-5.2 · not independently re-run",
       "zh-CN": "由 fengyiqicoder/awesome-fable-5.2 收录的原始 X URL · 未独立复测",
       "zh-TW": "由 fengyiqicoder/awesome-fable-5.2 收錄的原始 X URL · 未獨立重現",
-      "ja": "fengyiqicoder/awesome-fable-5.2 に掲載された原投稿の X URL · 独立した再実行なし"
+      "ja": "fengyiqicoder/awesome-fable-5.2 に掲載された原投稿の X URL · 独立した再実行なし",
+      "ko": "fengyiqicoder/awesome-fable-5.2에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음"
     },
     "Primary X URL listed by yihui-dev/awesome-fable5-2-videos · not independently re-run": {
       "en": "Primary X URL listed by yihui-dev/awesome-fable5-2-videos · not independently re-run",
       "zh-CN": "由 yihui-dev/awesome-fable5-2-videos 收录的原始 X URL · 未独立复测",
       "zh-TW": "由 yihui-dev/awesome-fable5-2-videos 收錄的原始 X URL · 未獨立重現",
-      "ja": "yihui-dev/awesome-fable5-2-videos に掲載された原投稿の X URL · 独立した再実行なし"
+      "ja": "yihui-dev/awesome-fable5-2-videos に掲載された原投稿の X URL · 独立した再実行なし",
+      "ko": "yihui-dev/awesome-fable5-2-videos에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음"
     },
     "Public HTML artifact + shared brief · Argon is the earlier Gemini 4 Arena/test name before Carbon": {
       "en": "Public HTML artifact + shared brief · Argon is the earlier Gemini 4 Arena/test name before Carbon",
       "zh-CN": "公开 HTML 成品 + 共享创作说明 · Argon 是 Carbon 之前的 Gemini 4 Arena／测试名称",
       "zh-TW": "公開 HTML 成品 + 共用創作說明 · Argon 是 Carbon 之前的 Gemini 4 Arena／測試名稱",
-      "ja": "公開 HTML 作品と共通の制作指示 · Argon は Carbon 以前の Gemini 4 の Arena／テスト名"
+      "ja": "公開 HTML 作品と共通の制作指示 · Argon は Carbon 以前の Gemini 4 の Arena／テスト名",
+      "ko": "공개 HTML 결과물 + 공통 과제, Argon은 Carbon 이전 Gemini 4 Arena/테스트 명칭"
     },
     "Primary X URL · prompt unpublished · author claim not vendor verification": {
       "en": "Primary X URL · prompt unpublished · author claim not vendor verification",
       "zh-CN": "原始 X URL · 提示词未公开 · 作者声明并非供应商验证",
       "zh-TW": "原始 X URL · 提示詞未公開 · 作者聲明並非供應商驗證",
-      "ja": "原投稿の X URL · プロンプト未公開 · 作者の主張であり提供元の検証ではない"
+      "ja": "原投稿の X URL · プロンプト未公開 · 作者の主張であり提供元の検証ではない",
+      "ko": "1차 X URL, 프롬프트 미공개, 작성자 주장이며 공급업체 확인이 아님"
     },
     "Primary X URL · prompt unpublished · not re-run": {
       "en": "Primary X URL · prompt unpublished · not re-run",
       "zh-CN": "原始 X URL · 提示词未公开 · 未复测",
       "zh-TW": "原始 X URL · 提示詞未公開 · 未重現",
-      "ja": "原投稿の X URL · プロンプト未公開 · 再実行なし"
+      "ja": "原投稿の X URL · プロンプト未公開 · 再実行なし",
+      "ko": "1차 X URL, 프롬프트 미공개, 다시 실행하지 않음"
     },
     "Primary X URL + play link + video · prompt unpublished · not re-run": {
       "en": "Primary X URL + play link + video · prompt unpublished · not re-run",
       "zh-CN": "原始 X URL + 可玩链接 + 视频 · 提示词未公开 · 未复测",
       "zh-TW": "原始 X URL + 可玩連結 + 影片 · 提示詞未公開 · 未重現",
-      "ja": "原投稿の X URL、プレイ用リンク、動画 · プロンプト未公開 · 再実行なし"
+      "ja": "原投稿の X URL、プレイ用リンク、動画 · プロンプト未公開 · 再実行なし",
+      "ko": "1차 X URL + 플레이 링크 + 영상, 프롬프트 미공개, 다시 실행하지 않음"
     },
     "Primary X URL · prompt not published · timings are author-reported · not re-run": {
       "en": "Primary X URL · prompt not published · timings are author-reported · not re-run",
       "zh-CN": "原始 X URL · 提示词未公开 · 耗时由作者报告 · 未复测",
       "zh-TW": "原始 X URL · 提示詞未公開 · 耗時由作者報告 · 未重現",
-      "ja": "原投稿の X URL · プロンプト未公開 · 所要時間は作者報告 · 再実行なし"
+      "ja": "原投稿の X URL · プロンプト未公開 · 所要時間は作者報告 · 再実行なし",
+      "ko": "1차 X URL, 프롬프트 미공개, 시간은 작성자 보고값, 다시 실행하지 않음"
     },
     "Public HTML artifact + shared brief · official catalog name GPT-6.1 Sol": {
       "en": "Public HTML artifact + shared brief · official catalog name GPT-6.1 Sol",
       "zh-CN": "公开 HTML 成品 + 共享创作说明 · 官方目录名称为 GPT-6.1 Sol",
       "zh-TW": "公開 HTML 成品 + 共用創作說明 · 官方目錄名稱為 GPT-6.1 Sol",
-      "ja": "公開 HTML 作品と共通の制作指示 · 公式カタログ名は GPT-6.1 Sol"
+      "ja": "公開 HTML 作品と共通の制作指示 · 公式カタログ名は GPT-6.1 Sol",
+      "ko": "공개 HTML 결과물 + 공통 과제, 공식 카탈로그 이름은 GPT-6.1 Sol"
     },
     "Public exhibition page · briefs on site · exact per-piece prompt text partial unless opened per tile": {
       "en": "Public exhibition page · briefs on site · exact per-piece prompt text partial unless opened per tile",
       "zh-CN": "公开展览页面 · 网站提供创作说明 · 未逐个打开卡片时，每件完整提示词仍不齐全",
       "zh-TW": "公開展覽頁面 · 網站提供創作說明 · 未逐一開啟卡片時，每件完整提示詞仍不齊全",
-      "ja": "公開展示ページ · 制作指示をサイトに掲載 · 各タイルを開かない限り、個々の正確なプロンプトは一部のみ"
+      "ja": "公開展示ページ · 制作指示をサイトに掲載 · 各タイルを開かない限り、個々の正確なプロンプトは一部のみ",
+      "ko": "공개 전시 페이지, 사이트에 과제 설명 제공, 타일별로 열어보지 않은 작품의 정확한 프롬프트는 일부만 확인 가능"
     },
     "Primary X URL · author says prompt in comments (not captured here) · tags also mention GPT62sol (unofficial/greyscale routing sighting — not treated as official model id)": {
       "en": "Primary X URL · author says prompt in comments (not captured here) · tags also mention GPT62sol (unofficial/greyscale routing sighting — not treated as official model id)",
       "zh-CN": "原始 X URL · 作者称提示词在评论中（此处未采集）· 标签亦提及 GPT62sol（非官方／灰度路由观察，不作官方模型 ID）",
       "zh-TW": "原始 X URL · 作者稱提示詞在留言中（此處未擷取）· 標籤亦提及 GPT62sol（非官方／灰度路由觀察，不作官方模型 ID）",
-      "ja": "原投稿の X URL · 作者によればプロンプトはコメント内（未収集）· タグに GPT62sol も登場（非公式／段階公開ルーティングの目撃情報で、公式モデル ID とは扱わない）"
+      "ja": "原投稿の X URL · 作者によればプロンプトはコメント内（未収集）· タグに GPT62sol も登場（非公式／段階公開ルーティングの目撃情報で、公式モデル ID とは扱わない）",
+      "ko": "1차 X URL, 작성자는 댓글에 프롬프트가 있다고 설명(여기서는 수집하지 않음), 태그에도 GPT62sol 언급(비공식/일부 사용자 대상 라우팅 관측으로 공식 모델 ID로 취급하지 않음)"
     },
     "Primary X URL · unofficial 6.2 Sol wording kept as author claim · official name remains GPT-6.1 Sol": {
       "en": "Primary X URL · unofficial 6.2 Sol wording kept as author claim · official name remains GPT-6.1 Sol",
       "zh-CN": "原始 X URL · 非官方 6.2 Sol 表述保留为作者声明 · 官方名称仍为 GPT-6.1 Sol",
       "zh-TW": "原始 X URL · 非官方 6.2 Sol 表述保留為作者聲明 · 官方名稱仍為 GPT-6.1 Sol",
-      "ja": "原投稿の X URL · 非公式の 6.2 Sol 表記は作者の主張として保持 · 公式名は GPT-6.1 Sol のまま"
+      "ja": "原投稿の X URL · 非公式の 6.2 Sol 表記は作者の主張として保持 · 公式名は GPT-6.1 Sol のまま",
+      "ko": "1차 X URL, 비공식 6.2 Sol 표현은 작성자 주장으로 보존, 공식 이름은 여전히 GPT-6.1 Sol"
     },
     "Primary X URL working · author routing claim · not OpenAI-verified model id · not re-run": {
       "en": "Primary X URL working · author routing claim · not OpenAI-verified model id · not re-run",
       "zh-CN": "原始 X URL 可用 · 作者的路由声明 · 非 OpenAI 核实的模型 ID · 未复测",
       "zh-TW": "原始 X URL 可用 · 作者的路由聲明 · 非 OpenAI 核實的模型 ID · 未重現",
-      "ja": "原投稿の X URL は閲覧可能 · 作者によるルーティングの主張 · OpenAI が検証したモデル ID ではない · 再実行なし"
+      "ja": "原投稿の X URL は閲覧可能 · 作者によるルーティングの主張 · OpenAI が検証したモデル ID ではない · 再実行なし",
+      "ko": "1차 X URL 정상, 작성자의 라우팅 주장, OpenAI가 확인한 모델 ID가 아님, 다시 실행하지 않음"
     },
     "Primary X URL · widely quoted sighting hub · not official announcement": {
       "en": "Primary X URL · widely quoted sighting hub · not official announcement",
       "zh-CN": "原始 X URL · 广泛引用的观察汇总帖 · 非官方公告",
       "zh-TW": "原始 X URL · 廣泛引用的觀察彙整帖 · 非官方公告",
-      "ja": "原投稿の X URL · 広く引用された目撃情報のまとめ · 公式発表ではない"
+      "ja": "原投稿の X URL · 広く引用された目撃情報のまとめ · 公式発表ではない",
+      "ko": "1차 X URL, 널리 인용되는 관측 모음의 출처이며 공식 발표가 아님"
     },
     "Primary X URL · shared short prompt published · timings author-reported": {
       "en": "Primary X URL · shared short prompt published · timings author-reported",
       "zh-CN": "原始 X URL · 已公开共用短提示词 · 耗时由作者报告",
       "zh-TW": "原始 X URL · 已公開共用短提示詞 · 耗時由作者報告",
-      "ja": "原投稿の X URL · 共通の短いプロンプト公開済み · 所要時間は作者報告"
+      "ja": "原投稿の X URL · 共通の短いプロンプト公開済み · 所要時間は作者報告",
+      "ko": "1차 X URL, 공통의 짧은 프롬프트 공개, 시간은 작성자 보고값"
     },
     "Primary X URL · prompt unpublished": {
       "en": "Primary X URL · prompt unpublished",
       "zh-CN": "原始 X URL · 提示词未公开",
       "zh-TW": "原始 X URL · 提示詞未公開",
-      "ja": "原投稿の X URL · プロンプト未公開"
+      "ja": "原投稿の X URL · プロンプト未公開",
+      "ko": "1차 X URL, 프롬프트 미공개"
     },
     "Primary X URL · short prompt published · author notes possible non-6.2 routing": {
       "en": "Primary X URL · short prompt published · author notes possible non-6.2 routing",
       "zh-CN": "原始 X URL · 已公开短提示词 · 作者注明可能并未路由至 6.2",
       "zh-TW": "原始 X URL · 已公開短提示詞 · 作者註明可能並未路由至 6.2",
-      "ja": "原投稿の X URL · 短いプロンプト公開済み · 作者は 6.2 以外にルーティングされた可能性を明記"
+      "ja": "原投稿の X URL · 短いプロンプト公開済み · 作者は 6.2 以外にルーティングされた可能性を明記",
+      "ko": "1차 X URL, 짧은 프롬프트 공개, 작성자는 6.2가 아닌 모델로 라우팅됐을 가능성 언급"
     },
     "Primary X URL · one-sentence prompt published in the post · not re-run": {
       "en": "Primary X URL · one-sentence prompt published in the post · not re-run",
       "zh-CN": "原始 X URL · 帖子公开一句话提示词 · 未复测",
       "zh-TW": "原始 X URL · 貼文公開一句話提示詞 · 未重現",
-      "ja": "原投稿の X URL · 投稿に 1 文のプロンプト公開 · 再実行なし"
+      "ja": "原投稿の X URL · 投稿に 1 文のプロンプト公開 · 再実行なし",
+      "ko": "1차 X URL, 게시물에 한 문장 프롬프트 공개, 다시 실행하지 않음"
     },
     "Primary X URL + video and still · prompt unpublished · not re-run": {
       "en": "Primary X URL + video and still · prompt unpublished · not re-run",
       "zh-CN": "原始 X URL + 视频和静态图 · 提示词未公开 · 未复测",
       "zh-TW": "原始 X URL + 影片和靜態圖 · 提示詞未公開 · 未重現",
-      "ja": "原投稿の X URL と動画・静止画 · プロンプト未公開 · 再実行なし"
+      "ja": "原投稿の X URL と動画・静止画 · プロンプト未公開 · 再実行なし",
+      "ko": "1차 X URL + 영상과 정지 이미지, 프롬프트 미공개, 다시 실행하지 않음"
     },
     "Primary X URL · full prompt in the author's reply · not re-run": {
       "en": "Primary X URL · full prompt in the author's reply · not re-run",
       "zh-CN": "原始 X URL · 作者回复内有完整提示词 · 未复测",
       "zh-TW": "原始 X URL · 作者回覆內有完整提示詞 · 未重現",
-      "ja": "原投稿の X URL · 作者の返信に完全なプロンプト · 再実行なし"
+      "ja": "原投稿の X URL · 作者の返信に完全なプロンプト · 再実行なし",
+      "ko": "1차 X URL, 작성자 답글에 전체 프롬프트 공개, 다시 실행하지 않음"
     },
     "Public HTML artifact + shared brief": {
       "en": "Public HTML artifact + shared brief",
       "zh-CN": "公开 HTML 成品 + 共享创作说明",
       "zh-TW": "公開 HTML 成品 + 共用創作說明",
-      "ja": "公開 HTML 作品と共通の制作指示"
+      "ja": "公開 HTML 作品と共通の制作指示",
+      "ko": "공개 HTML 결과물 + 공통 과제"
     },
     "Primary X URL · prompt truncated in post · not re-run": {
       "en": "Primary X URL · prompt truncated in post · not re-run",
       "zh-CN": "原始 X URL · 帖子中的提示词被截断 · 未复测",
       "zh-TW": "原始 X URL · 貼文中的提示詞遭截斷 · 未重現",
-      "ja": "原投稿の X URL · 投稿のプロンプトは途中まで · 再実行なし"
+      "ja": "原投稿の X URL · 投稿のプロンプトは途中まで · 再実行なし",
+      "ko": "1차 X URL, 게시물의 프롬프트가 잘림, 다시 실행하지 않음"
     },
     "Primary X URL · prompt published in the post · not re-run": {
       "en": "Primary X URL · prompt published in the post · not re-run",
       "zh-CN": "原始 X URL · 帖子中已公开提示词 · 未复测",
       "zh-TW": "原始 X URL · 貼文中已公開提示詞 · 未重現",
-      "ja": "原投稿の X URL · 投稿にプロンプト公開 · 再実行なし"
+      "ja": "原投稿の X URL · 投稿にプロンプト公開 · 再実行なし",
+      "ko": "1차 X URL, 게시물에 프롬프트 공개, 다시 실행하지 않음"
     },
     "Primary X URL listed by YouMind-OpenLab/awesome-grok-imagine-prompts · not independently re-run": {
       "en": "Primary X URL listed by YouMind-OpenLab/awesome-grok-imagine-prompts · not independently re-run",
       "zh-CN": "由 YouMind-OpenLab/awesome-grok-imagine-prompts 收录的原始 X URL · 未独立复测",
       "zh-TW": "由 YouMind-OpenLab/awesome-grok-imagine-prompts 收錄的原始 X URL · 未獨立重現",
-      "ja": "YouMind-OpenLab/awesome-grok-imagine-prompts に掲載された原投稿の X URL · 独立した再実行なし"
+      "ja": "YouMind-OpenLab/awesome-grok-imagine-prompts に掲載された原投稿の X URL · 独立した再実行なし",
+      "ko": "YouMind-OpenLab/awesome-grok-imagine-prompts에 기재된 1차 X URL, 독립적으로 다시 실행하지 않음"
     },
     "Primary X URL · short shared prompt published · multi-model timings are author-reported": {
       "en": "Primary X URL · short shared prompt published · multi-model timings are author-reported",
       "zh-CN": "原始 X URL · 已公开共用短提示词 · 多模型耗时由作者报告",
       "zh-TW": "原始 X URL · 已公開共用短提示詞 · 多模型耗時由作者報告",
-      "ja": "原投稿の X URL · 共通の短いプロンプト公開済み · 複数モデルの所要時間は作者報告"
+      "ja": "原投稿の X URL · 共通の短いプロンプト公開済み · 複数モデルの所要時間は作者報告",
+      "ko": "1차 X URL, 짧은 공통 프롬프트 공개, 다중 모델 시간은 작성자 보고값"
     },
     "Primary X URL · published challenge line · harness timings are author-reported · not re-run": {
       "en": "Primary X URL · published challenge line · harness timings are author-reported · not re-run",
       "zh-CN": "原始 X URL · 已公开挑战指令 · 测试框架耗时由作者报告 · 未复测",
       "zh-TW": "原始 X URL · 已公開挑戰指令 · 測試框架耗時由作者報告 · 未重現",
-      "ja": "原投稿の X URL · 課題文公開済み · 評価環境の所要時間は作者報告 · 再実行なし"
+      "ja": "原投稿の X URL · 課題文公開済み · 評価環境の所要時間は作者報告 · 再実行なし",
+      "ko": "1차 X URL, 과제 문구 공개, 하네스 시간은 작성자 보고값, 다시 실행하지 않음"
     },
     "探子剔除": {
       "en": "Excluded during research",
       "zh-CN": "探子剔除",
       "zh-TW": "研究時剔除",
-      "ja": "調査時に除外"
+      "ja": "調査時に除外",
+      "ko": "조사 과정에서 제외"
     },
     "多模型后处理 · 不是纯 2.6": {
       "en": "Multi-model post-processing · not solely 2.6",
       "zh-CN": "多模型后处理 · 不是纯 2.6",
       "zh-TW": "多模型後製 · 不是純 2.6",
-      "ja": "複数モデルによる後処理 · 2.6 単独ではない"
+      "ja": "複数モデルによる後処理 · 2.6 単独ではない",
+      "ko": "여러 모델로 후처리, 2.6만 사용한 것이 아님"
     },
     "GPT Image 2.5 · 不是 2.6": {
       "en": "GPT Image 2.5 · not 2.6",
       "zh-CN": "GPT Image 2.5 · 不是 2.6",
       "zh-TW": "GPT Image 2.5 · 不是 2.6",
-      "ja": "GPT Image 2.5 · 2.6 ではない"
+      "ja": "GPT Image 2.5 · 2.6 ではない",
+      "ko": "GPT Image 2.5, 2.6이 아님"
     },
     "宣传方宣称 · 未观看": {
       "en": "Promoter's claim · not watched",
       "zh-CN": "宣传方宣称 · 未观看",
       "zh-TW": "宣傳方宣稱 · 未觀看",
-      "ja": "宣伝側の主張 · 未視聴"
+      "ja": "宣伝側の主張 · 未視聴",
+      "ko": "홍보자의 주장, 미시청"
     },
     "失败样本 · 不计成功": {
       "en": "Failed example · not counted as success",
       "zh-CN": "失败样本 · 不计成功",
       "zh-TW": "失敗樣本 · 成功數不計入",
-      "ja": "失敗例 · 成功数には含めない"
+      "ja": "失敗例 · 成功数には含めない",
+      "ko": "실패 사례, 성공으로 집계하지 않음"
     },
     "候选/排除": {
       "en": "Candidate / excluded",
       "zh-CN": "候选／排除",
       "zh-TW": "候選／排除",
-      "ja": "候補／除外"
+      "ja": "候補／除外",
+      "ko": "후보 / 제외"
     },
     "2026-11-07 source record; not newly verified / 历史记录待核": {
       "en": "2026-11-07 source record; not newly verified",
       "zh-CN": "2026-11-07 来源记录；未重新核验",
       "zh-TW": "2026-11-07 來源紀錄；未重新核驗",
-      "ja": "2026-11-07 時点の出典記録。新たな検証は行っていない"
+      "ja": "2026-11-07 時点の出典記録。新たな検証は行っていない",
+      "ko": "2026-11-07 출처 기록, 새로 검증한 것이 아님"
     },
     "Secondary label; primary post unverified / 原帖未核": {
       "en": "Secondary label; primary post unverified",
       "zh-CN": "二手标签；原帖未核验",
       "zh-TW": "二手標籤；原帖未核驗",
-      "ja": "二次資料のラベル。原投稿は未検証"
+      "ja": "二次資料のラベル。原投稿は未検証",
+      "ko": "2차 출처의 표기, 1차 게시물 미확인"
     },
     "2026-11-07 source record; media not checked": {
       "en": "2026-11-07 source record; media not checked",
       "zh-CN": "2026-11-07 来源记录；媒体未检查",
       "zh-TW": "2026-11-07 來源紀錄；媒體未檢查",
-      "ja": "2026-11-07 時点の出典記録。メディア未確認"
+      "ja": "2026-11-07 時点の出典記録。メディア未確認",
+      "ko": "2026-11-07 출처 기록, 미디어 미확인"
     },
     "示例非 2.6": {
       "en": "Example is not 2.6",
       "zh-CN": "示例非 2.6",
       "zh-TW": "範例非 2.6",
-      "ja": "2.6 の事例ではない"
+      "ja": "2.6 の事例ではない",
+      "ko": "2.6 사례가 아님"
     },
     "本地 Pillow 多帧 · 非社区原作者案例": {
       "en": "Multiple frames checked locally with Pillow · not an original community-author case",
       "zh-CN": "本地 Pillow 多帧 · 非社区原作者案例",
       "zh-TW": "本機 Pillow 多影格 · 非社群原作者案例",
-      "ja": "ローカルで Pillow により複数フレームを確認 · コミュニティ作者の原事例ではない"
+      "ja": "ローカルで Pillow により複数フレームを確認 · コミュニティ作者の原事例ではない",
+      "ko": "Pillow로 로컬에서 여러 프레임 확인, 커뮤니티 작성자의 원본 사례가 아님"
     }
   }
 }

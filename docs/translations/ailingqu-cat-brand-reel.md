@@ -1,12 +1,12 @@
 # ailingqu-cat-brand-reel
 
-Author / 作者 / 作者 / 作者: ailingqu / awesome-ai-gif-prompts
+Author / 作者 / 作者 / 作者 / 제작자: ailingqu / awesome-ai-gif-prompts
 
-[Original source / 原帖 / 原帖 / 原投稿](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ailingqu-cat-brand-reel/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-brand-reel.gif)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ailingqu-cat-brand-reel/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GIF のハッシュ値とフレームを確認し、フレーム一覧を点検 
 
 ```text
 架空のキャットフードブランド「MEOWBITE」のクイックカット式ブランドリール。丸顔、短い尖った耳2つ、クリーム色のアーモンド形の目、短いひげを持つ、同じフラットな濃茶の猫頭ロゴを全フレームの中央に固定し、周囲だけを変える。全面オレンジのポスター、ピンクのキャットフード袋、真上から見た青い陶器の猫用ボウル、クラフト紙の配送箱、丸いステッカー、最後は大きなクリーム色の文字MEOWBITEを載せた暗い画面。大胆なグラフィックデザイン、フラットカラー、シトラスオレンジ、クリーム、濃茶の配色。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+고양이 머리 로고 브랜드 릴
+```
+
+### 제작 방법
+
+공개된 GIF, 이 사례의 생성 제공업체는 기록되지 않음
+
+### 검증 상태
+
+GIF 해시/프레임 확인, 프레임 시트 검토, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자는 GPT Image 2.6 사용을 보고, 독립적인 진위 확인 없음
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+가상의 고양이 사료 브랜드 “MEOWBITE”를 위한 빠른 컷 전환 브랜드 릴입니다. 둥근 얼굴, 짧고 뾰족한 귀 두 개, 크림색 아몬드 눈, 짧은 수염으로 된 동일한 평면 짙은 갈색 고양이 머리 로고는 매 프레임 중앙에 고정되고, 주변만 바뀝니다. 화면을 가득 채운 주황색 포스터, 분홍색 사료 파우치, 위에서 본 파란 도자기 고양이 그릇, 크라프트 배송 상자, 원형 스티커, 마지막으로 커다란 크림색 글자로 MEOWBITE가 적힌 어두운 프레임입니다. 대담한 그래픽 디자인, 평면 색상, 시트러스 오렌지·크림·짙은 갈색 팔레트.
 ```

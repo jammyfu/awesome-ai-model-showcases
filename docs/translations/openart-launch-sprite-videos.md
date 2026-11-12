@@ -1,10 +1,10 @@
 # openart-launch-sprite-videos
 
-Author / 作者 / 作者 / 作者: OpenArt（公告署名 Created by OpenArt）
+Author / 作者 / 作者 / 作者 / 제작자: OpenArt（公告署名 Created by OpenArt）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://openai.com/index/introducing-images-2-6/)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://openai.com/index/introducing-images-2-6/)
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -137,3 +137,30 @@ Images 2.6の機能デモ
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+주가 반응(상승/하락)을 위한 6칸 스프라이트 시트 프롬프트
+```
+
+### 제작 방법
+
+주요 수록 목록에서 제외
+
+### 검증 상태
+
+후보 / 제외
+
+### 모델 근거 (번역)
+
+```text
+Images 2.6 기능 시연
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

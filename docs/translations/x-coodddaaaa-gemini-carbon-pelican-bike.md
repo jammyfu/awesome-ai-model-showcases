@@ -1,12 +1,12 @@
 # x-coodddaaaa-gemini-carbon-pelican-bike
 
-Author / 作者 / 作者 / 作者: @coodddaaaa（Joe William）
+Author / 作者 / 作者 / 作者 / 제작자: @coodddaaaa（Joe William）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/coodddaaaa/status/2120363353142911078)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/coodddaaaa/status/2120363353142911078)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-coodddaaaa-gemini-carbon-pelican-bike/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ HTML アニメーションとモデル制作デモの動画収録
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+Gemini Carbon: 자전거 타는 펠리컨 HTML 애니메이션 테스트
+```
+
+### 제작 방법
+
+HTML 애니메이션 + 모델이 만든 데모 영상 캡처
+
+### 검증 상태
+
+1차 X URL, 프롬프트 미공개, 작성자 주장이며 공급업체 확인이 아님
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Gemini Carbon, High · Gemini Ultra 20x, 데모 영상도 Carbon 제작
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

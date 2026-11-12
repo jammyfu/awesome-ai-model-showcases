@@ -5,12 +5,12 @@ const record = rows.find(r => r.id === 'x-op7418-fatfish-pack');
 function harness(id, lang) {
   const nodes = new Map();
   const el = id => { if (!nodes.has(id)) nodes.set(id, {textContent:'',hidden:true,href:'',setAttribute(k,v){this[k]=v;}}); return nodes.get(id); };
-  const links = ['en','zh-CN','zh-TW','ja'].map(locale => ({href:'',getAttribute(){return locale;},setAttribute(k,v){this[k]=v;}}));
+  const links = ['en','zh-CN','zh-TW','ja','ko'].map(locale => ({href:'',getAttribute(){return locale;},setAttribute(k,v){this[k]=v;}}));
   const document = {getElementById: el, querySelectorAll(){return links;},documentElement:{lang:''},title:''};
   vm.runInNewContext(fs.readFileSync('docs/translated-case.js','utf8'), {window:{COMMUNITY_CASES:catalog}, document, URLSearchParams, location:{search:'?'+new URLSearchParams({id,lang})}});
   return {el,links,document};
 }
-for (const lang of ['en','zh-CN','zh-TW','ja']) {
+for (const lang of ['en','zh-CN','zh-TW','ja','ko']) {
   const {el,links,document} = harness(record.id, lang);
   assert.equal(document.documentElement.lang, lang);
   assert.equal(el('case-title').textContent, record.translations[lang].title);
@@ -31,7 +31,7 @@ const long = rows.find(r => (r.original_prompt||'').includes('<direction>'));
 assert.equal(harness(long.id,'ja').el('case-original-prompt').textContent,long.original_prompt);
 assert.equal(harness(record.id,'zh').document.documentElement.lang,'zh-CN');
 assert.equal(harness(record.id,'invalid').document.documentElement.lang,'en');
-console.log('translation reader ok: four locales, original preservation, empty prompts, invalid IDs, inert quoted text');
+console.log('translation reader ok: five locales, original preservation, empty prompts, invalid IDs, inert quoted text');
 // The two-language catalog switches content as well as its UI, and searches both languages.
 {
   const nodes = new Map(), callbacks = {};

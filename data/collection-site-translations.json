@@ -6,79 +6,92 @@
       "en": "Official OpenAI community demo gallery (games, 3D scenes, tools); not GPT-6.2-specific, useful Sol/Codex-era context.",
       "zh-CN": "OpenAI 官方社区演示库（游戏、3D 场景、工具）；并非 GPT-6.2 专属，可作 Sol／Codex 时代的背景资料。",
       "zh-TW": "OpenAI 官方社群示範庫（遊戲、3D 場景、工具）；並非 GPT-6.2 專屬，可作 Sol／Codex 時代的背景資料。",
-      "ja": "OpenAI 公式のコミュニティデモ集（ゲーム、3D シーン、ツール）。GPT-6.2 専用ではなく、Sol／Codex 時代の背景資料。"
+      "ja": "OpenAI 公式のコミュニティデモ集（ゲーム、3D シーン、ツール）。GPT-6.2 専用ではなく、Sol／Codex 時代の背景資料。",
+      "ko": "OpenAI 공식 커뮤니티 데모 갤러리(게임, 3D 장면, 도구). GPT-6.2 전용은 아니며 Sol/Codex 시대의 맥락을 살펴보는 데 유용함."
     },
     "Same-brief multi-model HTML/animation archive including Sol-family isometric city runs with openable pages.": {
       "en": "Same-brief multi-model HTML/animation archive including Sol-family isometric city runs with openable pages.",
       "zh-CN": "采用相同创作说明的多模型 HTML／动画档案，含 Sol 家族的等距城市作品，页面可打开。",
       "zh-TW": "採用相同創作說明的多模型 HTML／動畫檔案，含 Sol 家族的等距城市作品，頁面可開啟。",
-      "ja": "共通の制作指示による複数モデルの HTML／アニメーション集。Sol 系列のアイソメトリック都市作品を含み、ページを開いて確認できる。"
+      "ja": "共通の制作指示による複数モデルの HTML／アニメーション集。Sol 系列のアイソメトリック都市作品を含み、ページを開いて確認できる。",
+      "ko": "같은 과제로 여러 모델의 HTML/애니메이션을 모은 아카이브. 직접 열 수 있는 Sol 계열 아이소메트릭 도시 결과물 포함."
     },
     "Shared brief × model grid of ten-frame looping sprite animations, including a GPT-6.1 Sol column.": {
       "en": "Shared brief × model grid of ten-frame looping sprite animations, including a GPT-6.1 Sol column.",
       "zh-CN": "共用创作说明与模型组成的十帧循环精灵动画网格，包含 GPT-6.1 Sol 栏。",
       "zh-TW": "共用創作說明與模型組成的十影格循環精靈動畫網格，包含 GPT-6.1 Sol 欄。",
-      "ja": "共通の制作指示とモデルを組み合わせた、10 フレームのループスプライトアニメーション一覧。GPT-6.1 Sol の列を含む。"
+      "ja": "共通の制作指示とモデルを組み合わせた、10 フレームのループスプライトアニメーション一覧。GPT-6.1 Sol の列を含む。",
+      "ko": "공통 과제 × 모델 격자로 구성한 10프레임 반복 스프라이트 애니메이션 전시. GPT-6.1 Sol 열 포함."
     },
     "Aggregator card for TokenGremlin’s GPT-6.2 Sol one-shot Three.js black-hole / HTML demos from X.": {
       "en": "Aggregator card for TokenGremlin’s GPT-6.2 Sol one-shot Three.js black-hole / HTML demos from X.",
       "zh-CN": "聚合页卡片，收录 TokenGremlin 在 X 发布的 GPT-6.2 Sol 单次提示生成 Three.js 黑洞／HTML 演示。",
       "zh-TW": "彙整頁卡片，收錄 TokenGremlin 在 X 發布的 GPT-6.2 Sol 單次提示生成 Three.js 黑洞／HTML 示範。",
-      "ja": "TokenGremlin が X に投稿した、GPT-6.2 Sol のワンショット Three.js ブラックホール／HTML デモを紹介する集約サイトのカード。"
+      "ja": "TokenGremlin が X に投稿した、GPT-6.2 Sol のワンショット Three.js ブラックホール／HTML デモを紹介する集約サイトのカード。",
+      "ko": "TokenGremlin이 X에 올린 GPT-6.2 Sol 원샷 Three.js 블랙홀 / HTML 데모의 수집 사이트 카드."
     },
     "Aggregator for user-reported GPT-6.2 Sol single-file Three.js village demos.": {
       "en": "Aggregator for user-reported GPT-6.2 Sol single-file Three.js village demos.",
       "zh-CN": "用户报告的 GPT-6.2 Sol 单文件 Three.js 村庄演示聚合页。",
       "zh-TW": "使用者報告的 GPT-6.2 Sol 單檔案 Three.js 村莊示範彙整頁。",
-      "ja": "ユーザー報告による GPT-6.2 Sol の単一ファイル Three.js 村デモをまとめたページ。"
+      "ja": "ユーザー報告による GPT-6.2 Sol の単一ファイル Three.js 村デモをまとめたページ。",
+      "ko": "사용자가 보고한 GPT-6.2 Sol 단일 파일 Three.js 마을 데모 모음."
     },
     "Roundup stating OpenAI public catalog still lists GPT-6.1 Sol and summarizing unconfirmed 6.2 routing reports.": {
       "en": "Roundup stating OpenAI public catalog still lists GPT-6.1 Sol and summarizing unconfirmed 6.2 routing reports.",
       "zh-CN": "汇总 OpenAI 公开目录仍列 GPT-6.1 Sol 的情况，以及尚未确认的 6.2 路由报告。",
       "zh-TW": "彙整 OpenAI 公開目錄仍列 GPT-6.1 Sol 的情況，以及尚未確認的 6.2 路由報告。",
-      "ja": "OpenAI の公開カタログが GPT-6.1 Sol のままであることと、未確認の 6.2 ルーティング報告をまとめた記事。"
+      "ja": "OpenAI の公開カタログが GPT-6.1 Sol のままであることと、未確認の 6.2 ルーティング報告をまとめた記事。",
+      "ko": "OpenAI 공개 카탈로그에는 여전히 GPT-6.1 Sol이 기재돼 있다고 밝히며 미확인 6.2 라우팅 보고를 정리한 글."
     },
     "Evidence-focused write-up of World of AI / community demos without treating them as an official 6.2 release.": {
       "en": "Evidence-focused write-up of World of AI / community demos without treating them as an official 6.2 release.",
       "zh-CN": "围绕证据介绍 World of AI／社区演示，不将其视为 6.2 官方发布。",
       "zh-TW": "圍繞證據介紹 World of AI／社群示範，不將其視為 6.2 官方發布。",
-      "ja": "World of AI／コミュニティのデモを証拠に基づいて整理した記事。6.2 の公式発表としては扱わない。"
+      "ja": "World of AI／コミュニティのデモを証拠に基づいて整理した記事。6.2 の公式発表としては扱わない。",
+      "ko": "World of AI / 커뮤니티 데모를 공식 6.2 출시로 취급하지 않고 증거 중심으로 검토한 글."
     },
     "Widely cited primary X post claiming routing to GPT-6.2 Sol with Three.js HTML proof clips.": {
       "en": "Widely cited primary X post claiming routing to GPT-6.2 Sol with Three.js HTML proof clips.",
       "zh-CN": "广泛引用的原始 X 帖子，声称路由至 GPT-6.2 Sol，并附 Three.js HTML 证明片段。",
       "zh-TW": "廣泛引用的原始 X 貼文，聲稱路由至 GPT-6.2 Sol，並附 Three.js HTML 證明片段。",
-      "ja": "GPT-6.2 Sol へのルーティングを主張し、Three.js HTML の実例映像を添えた、広く引用される X 原投稿。"
+      "ja": "GPT-6.2 Sol へのルーティングを主張し、Three.js HTML の実例映像を添えた、広く引用される X 原投稿。",
+      "ko": "Three.js HTML 증거 영상과 함께 GPT-6.2 Sol로 라우팅됐다고 주장하는, 널리 인용된 1차 X 게시물."
     },
     "Curated Claude Fable 5.2 motion/3D/game videos from X with credits and published prompts when available.": {
       "en": "Curated Claude Fable 5.2 motion/3D/game videos from X with credits and published prompts when available.",
       "zh-CN": "从 X 精选 Claude Fable 5.2 动效／3D／游戏视频，保留署名及可取得的公开提示词。",
       "zh-TW": "從 X 精選 Claude Fable 5.2 動效／3D／遊戲影片，保留署名及可取得的公開提示詞。",
-      "ja": "X から選ばれた Claude Fable 5.2 のモーション／3D／ゲーム動画集。作者名と、入手できた公開プロンプトを掲載。"
+      "ja": "X から選ばれた Claude Fable 5.2 のモーション／3D／ゲーム動画集。作者名と、入手できた公開プロンプトを掲載。",
+      "ko": "X의 Claude Fable 5.2 모션/3D/게임 영상을 선별한 모음. 제작자 표시와 공개된 경우 프롬프트 제공."
     },
     "Community gallery of Fable 5.2 code/animation works with creator credits and some verbatim prompts.": {
       "en": "Community gallery of Fable 5.2 code/animation works with creator credits and some verbatim prompts.",
       "zh-CN": "Fable 5.2 代码／动画作品社区画廊，保留作者署名和部分逐字提示词。",
       "zh-TW": "Fable 5.2 程式碼／動畫作品社群畫廊，保留作者署名和部分逐字提示詞。",
-      "ja": "Fable 5.2 のコード／アニメーション作品を集めたコミュニティギャラリー。作者名と一部のプロンプト原文を掲載。"
+      "ja": "Fable 5.2 のコード／アニメーション作品を集めたコミュニティギャラリー。作者名と一部のプロンプト原文を掲載。",
+      "ko": "제작자 표시와 일부 원문 프롬프트를 제공하는 Fable 5.2 코드/애니메이션 작품 커뮤니티 갤러리."
     },
     "Feishu wiki page that groups Claude Fable 5.2 works by use case (product workflow, teaching, film, games, research). Each entry has a short brief, evidence limits, and a link to the original X post.": {
       "en": "Feishu wiki page that groups Claude Fable 5.2 works by use case (product workflow, teaching, film, games, research). Each entry has a short brief, evidence limits, and a link to the original X post.",
       "zh-CN": "飞书知识库按用途（产品工作流、教学、影片、游戏、研究）整理 Claude Fable 5.2 作品。每条含简述、证据局限和原始 X 帖子链接。",
       "zh-TW": "飛書知識庫按用途（產品工作流程、教學、影片、遊戲、研究）整理 Claude Fable 5.2 作品。每則含簡述、證據侷限和原始 X 貼文連結。",
-      "ja": "Claude Fable 5.2 の作品を用途別（製品ワークフロー、教育、映像、ゲーム、研究）に整理した Feishu wiki。各項目に概要、証拠の限界、X 原投稿へのリンクがある。"
+      "ja": "Claude Fable 5.2 の作品を用途別（製品ワークフロー、教育、映像、ゲーム、研究）に整理した Feishu wiki。各項目に概要、証拠の限界、X 原投稿へのリンクがある。",
+      "ko": "Claude Fable 5.2 작품을 제품 작업 흐름, 교육, 영화, 게임, 연구 등 용도별로 묶은 Feishu 위키. 각 항목에 짧은 설명, 증거의 한계, 원본 X 게시물 링크 포함."
     },
     "Includes Gemini 4 Argon (and other Gemini) HTML animation runs under shared briefs.": {
       "en": "Includes Gemini 4 Argon (and other Gemini) HTML animation runs under shared briefs.",
       "zh-CN": "含 Gemini 4 Argon 及其他 Gemini 模型按共用创作说明制作的 HTML 动画。",
       "zh-TW": "含 Gemini 4 Argon 及其他 Gemini 模型按共用創作說明製作的 HTML 動畫。",
-      "ja": "Gemini 4 Argon などの Gemini モデルが共通の制作指示で作成した HTML アニメーションを収録。"
+      "ja": "Gemini 4 Argon などの Gemini モデルが共通の制作指示で作成した HTML アニメーションを収録。",
+      "ko": "공통 과제로 실행한 Gemini 4 Argon 및 다른 Gemini HTML 애니메이션 결과물 포함."
     },
     "Cross-family same-prompt HTML/SVG/animation leaderboard with downloadable pages and MP4 recordings.": {
       "en": "Cross-family same-prompt HTML/SVG/animation leaderboard with downloadable pages and MP4 recordings.",
       "zh-CN": "跨模型家族的同提示词 HTML／SVG／动画排行榜，提供可下载页面和 MP4 录制版。",
       "zh-TW": "跨模型家族的同提示詞 HTML／SVG／動畫排行榜，提供可下載頁面和 MP4 錄製版。",
-      "ja": "同一プロンプトによる HTML／SVG／アニメーションをモデル系列横断で比較するランキング。ページと MP4 収録版をダウンロード可能。"
+      "ja": "同一プロンプトによる HTML／SVG／アニメーションをモデル系列横断で比較するランキング。ページと MP4 収録版をダウンロード可能。",
+      "ko": "여러 모델 계열에 같은 프롬프트를 적용한 HTML/SVG/애니메이션 순위표. 페이지 다운로드와 MP4 녹화본 제공."
     }
   }
 }

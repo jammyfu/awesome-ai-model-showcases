@@ -1,12 +1,12 @@
 # ravivit-paper-boat-gif
 
-Author / 作者 / 作者 / 作者: ラビビット | AI活用メディア（Ravivit）
+Author / 作者 / 作者 / 作者 / 제작자: ラビビット | AI活用メディア（Ravivit）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://note.com/ravivit_ai/n/nb8f40b5a21b9)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/ravivit-paper-boat-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://note.com/ravivit_ai/n/nb8f40b5a21b9)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/ravivit-paper-boat-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ Images 2.6／GPT Image 2.6（API生成と本文に明記）
 
 ```text
 白い紙の船が水面でゆっくり左右に揺れる。カメラは固定。短いループGIF。文字は入れない（本文中の表現。Atlasが英語のモーション概要を言い換えたもの）
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+네이티브 API GIF: 흰 종이배가 물 위에서 잔잔히 흔들림, 고정 카메라, 16프레임 × 120ms
+```
+
+### 제작 방법
+
+직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)
+
+### 검증 상태
+
+페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+Images 2.6 / GPT Image 2.6 (기사에서 API 생성이라고 명시)
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+흰 종이배가 수면에서 천천히 좌우로 흔들립니다. 카메라는 고정합니다. 짧은 반복 GIF. 글자는 넣지 마세요.（본문의 표현이며, Atlas가 영어 동작 설명을 다시 서술한 것입니다.）
 ```

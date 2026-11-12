@@ -1,12 +1,12 @@
 # x-tokengremlin-gpt62sol-threejs-scenes-html
 
-Author / 作者 / 作者 / 作者: @TokenGremlin（Token Gremlin）
+Author / 作者 / 作者 / 作者 / 제작자: @TokenGremlin（Token Gremlin）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/TokenGremlin/status/2119371334878744648)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-tokengremlin-gpt62sol-threejs-scenes-html/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/TokenGremlin/status/2119371334878744648)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-tokengremlin-gpt62sol-threejs-scenes-html/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+프롬프트 하나로 만든 Three.js 장면들을 HTML 파일 하나에 담기(성 / 데모)
+```
+
+### 제작 방법
+
+단일 프롬프트 Three.js → HTML 파일 하나, 녹화 영상
+
+### 검증 상태
+
+1차 X URL, 널리 인용되는 관측 모음의 출처이며 공식 발표가 아님
+
+### 모델 근거 (번역)
+
+```text
+작성자는 일부 ChatGPT 사용자에게 나타나는 GPT-6.2 Sol로 데모를 만들었다고 설명. OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재됨
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

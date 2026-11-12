@@ -1,12 +1,12 @@
 # x-tokengremlin-gpt62sol-glass-seasons
 
-Author / 作者 / 作者 / 作者: @TokenGremlin（Token Gremlin）
+Author / 作者 / 作者 / 作者 / 제작자: @TokenGremlin（Token Gremlin）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/TokenGremlin/status/2119852532616790037)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-tokengremlin-gpt62sol-glass-seasons/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/TokenGremlin/status/2119852532616790037)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-tokengremlin-gpt62sol-glass-seasons/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+배, 폭포, 나무, 나비가 있는 Three.js 호숫가
+```
+
+### 제작 방법
+
+텍스처와 조명을 갖춘 Three.js 장면, 녹화 영상
+
+### 검증 상태
+
+1차 X URL + 영상과 정지 이미지, 프롬프트 미공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: GPT-6.2 Sol, 텍스처를 포함한 Three.js 파일 약 184MB. 작성자는 이 실행을 GPT-6.2 Sol로 표기. 2026-11-11 기준 OpenAI 공개 문서에는 여전히 GPT-6.1 Sol이 기재돼 있으며 공식 6.2 발표가 아님
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

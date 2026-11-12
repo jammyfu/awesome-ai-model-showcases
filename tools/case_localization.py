@@ -8,7 +8,7 @@ import re
 import os
 
 ROOT = Path(__file__).resolve().parents[1]
-LOCALES = ('en', 'zh-CN', 'zh-TW', 'ja')
+LOCALES = ('en', 'zh-CN', 'zh-TW', 'ja', 'ko')
 STATUS = 'ai-translated-not-human-reviewed'
 FILES = {
     'title': 'case-title-translations.json',
@@ -18,6 +18,7 @@ FILES = {
     'original_prompt': 'case-prompt-translations.json',
 }
 LABELS = {
+    "ko": ('한국어', '사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.', '제작 방법', '검증 상태', '모델 근거 (번역)', '공개 프롬프트 (번역)', '수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.'),
     'en': ('English', 'AI translation, not human-reviewed. Read the original alongside it; translation does not verify the source or grant reuse rights.', 'Method', 'Verification', 'Model evidence (translation)', 'Published prompt (translation)', 'No prompt text was collected. See the source; no prompt has been invented.'),
     'zh-CN': ('简体中文', 'AI 译文，未经人工审校。请对照原文阅读；翻译不等于核实来源，也不授予再利用许可。', '做法', '核验状态', '模型依据（译文）', '公开提示词（译文）', '未收集到提示词正文。请查看来源，未编造提示词。'),
     'zh-TW': ('繁體中文', 'AI 譯文，未經人工審校。請對照原文閱讀；翻譯不等於核實來源，也不授予再利用許可。', '做法', '核驗狀態', '模型依據（譯文）', '公開提示詞（譯文）', '未收集到提示詞內文。請查看來源，未編造提示詞。'),
@@ -108,8 +109,8 @@ def write_translated_cases(catalog: dict) -> None:
         # IDs originate in validated inventories, not user URL parameters.
         if Path(row['id']).name != row['id']:
             raise ValueError(f'Unsafe case ID: {row["id"]}')
-        lines = [f'# {row["id"]}', '', f'Author / 作者 / 作者 / 作者: {row.get("author") or ""}', '',
-                 f'[Original source / 原帖 / 原帖 / 原投稿]({row.get("source_url") or ""})', '',
+        lines = [f'# {row["id"]}', '', f'Author / 作者 / 作者 / 作者 / 제작자: {row.get("author") or ""}', '',
+                 f'[Original source / 原帖 / 原帖 / 原投稿 / 원문]({row.get("source_url") or ""})', '',
                  ' · '.join(f'[{LABELS[lang][0]}](#{lang.lower()})' for lang in LOCALES), '',
                  '## Original / 原文', '', fenced(row.get('title') or ''), '',
                  '### Model evidence / 模型依据', '', fenced(row.get('model_claim') or ''), '',
@@ -117,7 +118,7 @@ def write_translated_cases(catalog: dict) -> None:
                  '### Source rights / 来源许可', '', fenced(row.get('license_notes') or ''), '']
         if row.get('local_detail') and not row['local_detail'].startswith(('http://', 'https://')):
             archived = Path(os.path.relpath(ROOT / row['local_detail'], output)).as_posix()
-            lines[5:5] = [f'[Archived case / 归档案例 / 歸檔案例 / 収録事例]({archived})', '']
+            lines[5:5] = [f'[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례]({archived})', '']
         for lang in LOCALES:
             label, notice, method, verification, evidence, prompt, empty = LABELS[lang]
             values = row['translations'][lang]

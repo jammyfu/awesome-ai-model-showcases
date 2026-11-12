@@ -40,6 +40,12 @@
           "summary": "Qwen-Image-2.1 で街路写真を雪の夜景に編集。出典が報告する画像編集テストであり、Qwen4 のコーディング事例ではありません。",
           "alt": "雪に覆われたブエノスアイレスの通り。歩行者、バルコニー、暖かな店の明かりが見える。",
           "changes": "原画像は変更せず、表示のみ縮小。"
+        },
+        "ko": {
+          "title": "Charcas 거리의 눈 내리는 밤",
+          "summary": "Qwen-Image-2.1로 거리 사진을 눈 내리는 밤 풍경으로 편집했습니다. 출처가 밝힌 이미지 편집 벤치마크이며 Qwen4 코딩 데모가 아닙니다.",
+          "alt": "눈 덮인 부에노스아이레스 거리의 보행자, 발코니와 따뜻한 상점 조명.",
+          "changes": "원본 이미지를 수정하지 않고 작게 표시했습니다."
         }
       },
       "changes": "Unmodified upstream WebP; CSS display scaling only. Upstream changed original photograph into a snowy night scene. Preserve CC BY-SA 4.0 on this output and any derived thumbnail.",
@@ -114,6 +120,12 @@
           "summary": "2025 年に Gemini アプリで制作した風景画。出典ページは Imagen 4.0、アップロード要約は 3.0 と記載し、正確な版は不明です。Gemini 4 Carbon ではありません。",
           "alt": "陽光に照らされた花崗岩の渓谷、松林、川、木造の小屋。元の AI マークと署名を保持。",
           "changes": "原画像は変更せず、表示のみ縮小。"
+        },
+        "ko": {
+          "title": "햇살이 비추는 오후의 계곡",
+          "summary": "2025년 Gemini 앱으로 만든 풍경입니다. 출처 페이지는 Imagen 4.0이라고 하지만 업로드 요약에는 3.0이라고 되어 있어 정확한 버전은 불확실합니다. Gemini 4 Carbon의 결과물이 아닙니다.",
+          "alt": "소나무, 강과 통나무집이 있는 햇살 비치는 화강암 계곡. 원본의 AI 표시와 서명을 유지했습니다.",
+          "changes": "원본 이미지를 수정하지 않고 작게 표시했습니다."
         }
       },
       "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
@@ -184,6 +196,12 @@
           "summary": "VulcanSphere は、2024 年 12 月に Grok Aurora のテキスト画像生成で制作したと報告しています。Grok 4.7 のコーディングや動画の事例ではありません。",
           "alt": "宇宙服を着た飛行士が月面で茶色の馬に乗り、地平線には地球が見える。",
           "changes": "原画像は変更せず、表示のみ縮小。"
+        },
+        "ko": {
+          "title": "달에서 말을 타는 우주비행사",
+          "summary": "VulcanSphere는 2024년 12월 Grok Aurora로 이 텍스트 기반 이미지를 생성했다고 밝혔습니다. Grok 4.7 코딩이나 동영상 예시가 아닙니다.",
+          "alt": "지평선에 지구가 보이는 달의 풍경 속에서 우주복을 입고 갈색 말을 타는 우주비행사.",
+          "changes": "원본 이미지를 수정하지 않고 작게 표시했습니다."
         }
       },
       "changes": "Original file bytes unchanged. CSS display scaling only. Retain visible source marks; do not crop them.",
@@ -254,6 +272,12 @@
           "summary": "GPT のキャラクター画像を、Tripo AI と Codex 支援のアニメーション工程で操作可能な Godot キャラクターに。モデルの詳細バージョンは不明で、複数ツールによる制作です。",
           "alt": "ミント色の市松模様の Godot ステージに、眼鏡をかけたデフォルメキャラクターが立ち、移動とアニメーションの操作項目が並ぶ。",
           "changes": "出典の原画像は変更せず、表示のみ縮小。"
+        },
+        "ko": {
+          "title": "GPT에서 Godot까지: 캐릭터 놀이터",
+          "summary": "GPT 캐릭터 이미지를 Tripo AI와 Codex 지원 애니메이션 작업 과정을 통해 조작 가능한 Godot 캐릭터로 만들었습니다. 정확한 모델 버전은 명시되지 않았으며 여러 도구를 사용한 프로젝트입니다.",
+          "alt": "안경을 쓴 작은 캐릭터가 민트색 체크무늬 Godot 경기장에 서 있으며 이동 및 애니메이션 조작 항목이 보입니다.",
+          "changes": "출처 원본 이미지를 수정하지 않고 작게 표시했습니다."
         }
       },
       "changes": "Unmodified upstream image; display scaling only.",
@@ -324,6 +348,12 @@
           "summary": "Dan Lee-Odinson の監督のもと、Codex（GPT-6 Astra）が内蔵 Imagegen を使って制作したゲーム用イラスト。画像モデルは不明で、ゲームの実装は Claude が担当。",
           "alt": "青空の下、ジェミニ計画時代のロケットが発射塔の横から上昇し、明るい噴炎と煙が広がる。",
           "changes": "出典の原画像は変更せず、表示のみ縮小。"
+        },
+        "ko": {
+          "title": "Failure is Not an Option: 발사 장면",
+          "summary": "Dan Lee-Odinson의 지휘 아래 Codex (GPT-6 Astra)가 내장 Imagegen으로 제작한 게임 일러스트입니다. 이미지 모델은 명시되지 않았으며 게임 구현은 Claude가 담당합니다.",
+          "alt": "푸른 하늘 아래 제미니 계획 시대 로켓이 발사대 옆에서 밝은 화염과 피어오르는 연기를 뿜으며 이륙합니다.",
+          "changes": "출처 원본 이미지를 수정하지 않고 작게 표시했습니다."
         }
       },
       "changes": "Unmodified upstream image; display scaling only.",
@@ -433,6 +463,12 @@
           "summary": "出典が公開した DeepSeek V4.1 Flash の SVG ベンチマーク結果。Flash 1017 ではありません。元の構図では足先が切れていますが、王冠、顔、顎は明瞭です。",
           "alt": "淡い水色の背景に、金色の王冠、大きな目、突き出た白い下顎を持つ鮮やかな緑のカエル。",
           "changes": "出典の SVG を Inkscape で幅800pxの PNG に変換。絵の変更はなく、公開元のサニタイズ処理を維持。"
+        },
+        "ko": {
+          "title": "FROGS: 왕관을 쓴 SVG 개구리",
+          "summary": "출처가 공개한 DeepSeek V4.1 Flash SVG 벤치마크 결과이며 Flash 1017이 아닙니다. 원본 화면에서 발 아래쪽이 잘렸지만 왕관을 쓴 얼굴과 턱은 보입니다.",
+          "alt": "옅은 청록색 배경의 선명한 녹색 개구리. 금색 왕관, 큰 눈과 돌출된 하얀 아래턱이 특징입니다.",
+          "changes": "출처 SVG를 Inkscape로 너비 800px PNG로 변환했습니다. 그림을 변경하지 않았으며 원 게시자가 게시 전에 수행한 모델 출력의 안전화 처리를 그대로 유지했습니다."
         }
       }
     }

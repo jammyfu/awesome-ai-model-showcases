@@ -1,12 +1,12 @@
 # x-leo114119-qwen4max-wukong-plane
 
-Author / 作者 / 作者 / 作者: @leo114119（Leo）
+Author / 作者 / 作者 / 作者 / 제작자: @leo114119（Leo）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/leo114119/status/2120371909624033439)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-leo114119-qwen4max-wukong-plane/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/leo114119/status/2120371909624033439)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-leo114119-qwen4max-wukong-plane/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -139,3 +139,30 @@ HTML と 3D アニメーションのデモ · 動画収録
 ### 公開プロンプト（翻訳）
 
 プロンプト本文は収集されていません。出典をご確認ください。プロンプトの補作はしていません。
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+비행기를 조종하는 손오공: HTML 3D 데모
+```
+
+### 제작 방법
+
+HTML + 3D 애니메이션 데모, 녹화 영상
+
+### 검증 상태
+
+1차 X URL + 영상, 프롬프트 미공개, 다시 실행하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 주장: Qwen 4 Max Preview + qoder. 결과를 DeepSeek V4.1 Flash 및 GPT 6.1 Sol과 비교. 주요 표기는 작성자가 제시한 Qwen 4 Max Preview
+```
+
+### 공개 프롬프트 (번역)
+
+수집된 프롬프트 본문이 없습니다. 출처를 확인해 주세요. 프롬프트를 임의로 만들지 않았습니다.

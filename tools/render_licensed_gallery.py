@@ -4,8 +4,9 @@ from html import escape as e
 from PIL import Image
 from media_policy import ROOT, is_public_asset
 
-LANGS=('en','zh-CN','zh-TW','ja')
+LANGS=('en','zh-CN','zh-TW','ja','ko')
 LABELS={
+"ko":('허가된 작품을 크게 보기', '출처가 공개한 8개 작품, 6개 모델 계열입니다. 추가 작품은 주요 목록 집계에 포함하지 않습니다. 정지 이미지 미리보기는 재생 확인이나 모델 성능의 증거가 아닙니다.', '주요 목록 보기 (영어)', '출처', '게시 허가', '원본 이미지', '저작자 표시 및 변경 사항', '사례 제안', '소개는 사람이 검수하지 않은 AI 번역입니다. 모델 정보는 출처의 주장이고 생성을 다시 실행하지 않았습니다. 비교 가능한 최근 인기도 자료가 없으므로 누적 stars 순위가 아니라 모델 계열별로 배열합니다.', '정지 이미지 미리보기', '영상 프레임', '게임 캐릭터 제작 과정', '게임 일러스트', '이미지 편집', '생성 이미지', 'SVG 작품', '모델 선택'),
 'en':('Licensed works, up close','Eight source-published works, six model families. These supplemental works are separate from the main catalog. Still previews are not playback or proof of model performance.','Browse the main catalog','Source','Permission','Full image','Credits & changes','Contribute a case','AI-translated descriptions, not human-reviewed. Model attribution is source-reported; no generation was rerun. Current comparable popularity is unknown; order follows model families, not cumulative stars.','Still preview','Film frame','Game character workflow','Game illustration','Image edit','Generated image','SVG result','Choose a model'),
 'zh-CN':('放大看授权作品','八件来源发布的作品，覆盖六个模型家族。这些补充作品不计入主目录。静态预览不代表播放验证或模型性能证明。','浏览主目录','原始来源','授权依据','查看原图','署名与修改','贡献案例','介绍为 AI 翻译，未经人工审校。模型归属为来源声明，未重新生成。缺少可比的近期热度数据；按模型家族编排，不按累计 stars 排榜。','静态预览','短片画面','游戏角色制作流程','游戏插画','图像编辑','生成图像','SVG 作品','选择模型'),
 'zh-TW':('放大看授權作品','八件來源發布的作品，涵蓋六個模型家族。這些補充作品不計入主目錄。靜態預覽不代表播放驗證或模型效能證明。','瀏覽主目錄','原始來源','授權依據','查看原圖','署名與修改','貢獻案例','介紹為 AI 翻譯，未經人工審校。模型歸屬為來源聲明，未重新生成。缺少可比的近期熱度資料；按模型家族編排，不按累計 stars 排榜。','靜態預覽','短片畫面','遊戲角色製作流程','遊戲插畫','影像編輯','生成影像','SVG 作品','選擇模型'),
@@ -18,7 +19,7 @@ def write_licensed_gallery():
     families=json.loads((ROOT/'data/discovery-order.json').read_text())['family_order']
     rows=sorted(first+extra,key=lambda r:families.index(r.get('model_family','claude')))
     for lang in LANGS:
-        w=LABELS[lang];parts=[f'<!doctype html>\n<html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="{e(w[1])}"><title>{e(w[0])} · Awesome AI Model Showcases</title><style>{CSS}</style></head><body><main>', '<nav aria-label="Languages">'+ ' · '.join(f'<a href="licensed-gallery.{l}.html" lang="{l}">{label}</a>' for l,label in zip(LANGS,['English','简体中文','繁體中文','日本語']))+'</nav>',f'<h1>{e(w[0])}</h1><p>{e(w[1])}</p>',f'<a href="index.html?lang={"en" if lang in ("en","ja") else "zh"}">{e(w[2])} →</a>',f'<nav aria-label="{e(w[16])}">']
+        w=LABELS[lang];parts=[f'<!doctype html>\n<html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="{e(w[1])}"><title>{e(w[0])} · Awesome AI Model Showcases</title><style>{CSS}</style></head><body><main>', '<nav aria-label="Languages">'+ ' · '.join(f'<a href="licensed-gallery.{l}.html" lang="{l}">{label}</a>' for l,label in zip(LANGS,['English','简体中文','繁體中文','日本語','한국어']))+'</nav>',f'<h1>{e(w[0])}</h1><p>{e(w[1])}</p>',f'<a href="index.html?lang={"en" if lang in ("en","ja","ko") else "zh"}">{e(w[2])} →</a>',f'<nav aria-label="{e(w[16])}">']
         for family in families:
             row=next(r for r in rows if r.get('model_family','claude')==family)
             parts.append(f'<a href="#{row["id"]}">{dict(claude="Claude",gemini="Gemini",grok="Grok",qwen="Qwen",deepseek="DeepSeek",**{"gpt-code":"GPT"})[family]}</a>')
@@ -32,7 +33,7 @@ def write_licensed_gallery():
             parts += [f'<article id="{row["id"]}"><p class="type">{e(typ)} · {e(w[9])}</p><h2>{e(loc["title"])}</h2><p class="meta">{e(row["model"])} · {e(credit)}</p>',f'<figure><a href="{path}" aria-label="{e(w[5])}"><img src="{path}" width="{width}" height="{height}" alt="{e(loc["alt"])}" loading="{"eager" if n==0 else "lazy"}" decoding="async"></a></figure>',f'<p>{e(loc["summary"])}</p>']
             if loc.get('changes'):parts.append(f'<p class="meta">{e(loc["changes"])}</p>')
             links=[(row['source_url'],w[3]),(row['license_evidence_url'],w[4]),(row['license_url'],row['license']),(path,w[5])]
-            if row in first:links += [(row['demo_url'],{'en':'Watch the film','zh-CN':'观看成片','zh-TW':'觀看成片','ja':'映像を見る'}[lang]),(row['local_license_path'].removeprefix('docs/'),w[6])]
+            if row in first:links += [(row['demo_url'],{'en':'Watch the film','zh-CN':'观看成片','zh-TW':'觀看成片','ja':'映像を見る','ko':'영상 보기'}[lang]),(row['local_license_path'].removeprefix('docs/'),w[6])]
             else:links.append(('https://github.com/jammyfu/awesome-ai-model-showcases/blob/main/docs/readme-preview-credits.md#'+row['id'],w[6]))
             parts.append('<nav>'+' · '.join(f'<a href="{e(url)}">{e(label)}</a>' for url,label in links)+'</nav></article>')
         parts += [f'<footer><p>{e(w[8])}</p><a href="https://github.com/jammyfu/awesome-ai-model-showcases/issues/new?template=case-submission.yml">{e(w[7])}</a></footer></main></body></html>']

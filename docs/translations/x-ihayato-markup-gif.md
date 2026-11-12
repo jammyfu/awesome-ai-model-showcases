@@ -1,12 +1,12 @@
 # x-ihayato-markup-gif
 
-Author / 作者 / 作者 / 作者: @IHayato（イケハヤ）
+Author / 作者 / 作者 / 作者 / 제작자: @IHayato（イケハヤ）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/IHayato/status/2118151619212890291)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-ihayato-markup-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/IHayato/status/2118151619212890291)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-ihayato-markup-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 
 ```text
 まばたきして、ふわっと揺れて
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+반응이 많은 일본어 게시물: 마크업 편집 데모 + “まばたきして、ふわっと揺れて”(눈을 깜박이고 살랑살랑 흔들려 줘)를 사용한 캐릭터 GIF. 마크업 + GIF 사례로 mirai의 사양 테스트와 별도
+```
+
+### 제작 방법
+
+작성자는 직접 GIF 출력이라고 주장하지만 X 첨부파일은 실제로 MP4
+
+### 검증 상태
+
+작성자 주장 + 미디어 메타데이터 확인, 영상 미시청, 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 2.6 주장: GPT Image 2.6이 나와 바로 시도함
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+눈을 깜빡이고, 살랑살랑 흔들려 주세요.
 ```

@@ -1,12 +1,12 @@
 # x-miramusic-stretch
 
-Author / 作者 / 作者 / 作者: @MiraMusic_AI（MiraMusic）
+Author / 作者 / 作者 / 作者 / 제작자: @MiraMusic_AI（MiraMusic）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://x.com/MiraMusic_AI/status/2118168013618987298)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/x-miramusic-stretch/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://x.com/MiraMusic_AI/status/2118168013618987298)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/x-miramusic-stretch/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -165,4 +165,35 @@ AI 翻訳であり、人による校閲は未実施です。原文と併せて�
 ストレッチをしているGIFを製作してください。
 仕上げはフラットでクリーンに。
 複雑な微細テクスチャ、過剰な細密描写、粒状ノイズ、ザラつき、斜めグリッド状の模様なし
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+일본어 게시물: 프롬프트와 스타일 제약으로 처음부터 생성한 “스트레칭” GIF 루프
+```
+
+### 제작 방법
+
+작성자는 직접 GIF 출력이라고 주장하지만 X 첨부파일은 실제로 MP4
+
+### 검증 상태
+
+작성자 주장 + 미디어 메타데이터 확인, 영상 미시청, 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+작성자의 2.6 주장: GPTimage2.6, 진화 중! 생성도 빠름!
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+스트레칭하는 GIF를 만들어 주세요.
+마무리는 평면적이고 깔끔하게 해 주세요.
+복잡한 미세 질감, 과도한 세부 묘사, 입자 노이즈, 거친 표면, 사선 격자무늬는 넣지 마세요.
 ```

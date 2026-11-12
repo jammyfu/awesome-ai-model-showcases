@@ -1,12 +1,12 @@
 # lightlyn-photo-steam-gif
 
-Author / 作者 / 作者 / 作者: Linger（Lightlyn Images）
+Author / 作者 / 作者 / 作者 / 제작자: Linger（Lightlyn Images）
 
-[Original source / 原帖 / 原帖 / 原投稿](https://image.lightlyn.com/gpt-image-2-6?lang=en)
-[Archived case / 归档案例 / 歸檔案例 / 収録事例](../cases/lightlyn-photo-steam-gif/README.md)
+[Original source / 原帖 / 原帖 / 原投稿 / 원문](https://image.lightlyn.com/gpt-image-2-6?lang=en)
+[Archived case / 归档案例 / 歸檔案例 / 収録事例 / 보관 사례](../cases/lightlyn-photo-steam-gif/README.md)
 
 
-[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja)
+[English](#en) · [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [日本語](#ja) · [한국어](#ko)
 
 ## Original / 原文
 
@@ -146,4 +146,33 @@ GPT Image 2.6 Flare（写真をアップロードして使用）
 
 ```text
 この写真を動かしてください。ラテの上に穏やかな湯気が渦を巻いて立ち上り、柔らかな光がわずかに揺らぎます。カップ、テーブル、窓は完全にそのまま維持してください。シームレスループ。
+```
+
+<a id="ko"></a>
+## 한국어
+
+사람의 검수를 거치지 않은 AI 번역입니다. 원문과 함께 읽어 주세요. 번역은 출처 검증이나 재사용 허가를 의미하지 않습니다.
+
+```text
+실제 사진에서 김과 빛만 움직이고 컵, 탁자, 창문은 고정
+```
+
+### 제작 방법
+
+직접 연결되는 네이티브 GIF 링크(Pillow로 여러 프레임 확인)
+
+### 검증 상태
+
+페이지의 모델 근거 + GIF 다중 프레임 확인, 생성 재현하지 않음
+
+### 모델 근거 (번역)
+
+```text
+GPT Image 2.6 Flare (사진 업로드 사용)
+```
+
+### 공개 프롬프트 (번역)
+
+```text
+이 사진을 움직이게 해 주세요. 라테 위로 부드러운 김이 피어오르며 말리고, 은은한 빛이 살짝 깜빡입니다. 컵, 테이블, 창문은 원래 모습 그대로 유지하세요. 이음새 없이 반복되게 해 주세요.
 ```
